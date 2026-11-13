@@ -1,0 +1,60 @@
+name: 自动更新题庄题库
+
+# 每天从题庄采集真题 → 合并成 bank/all.json → 提交回仓库。
+# 平板端在「题库 → 补题 → 网址导入」填 raw 链接，点一次即导入。
+
+on:
+  schedule:
+    - cron: '10 21 * * *'      # UTC 21:10 = 北京 05:10
+  workflow_dispatch:           # 也可以在 Actions 页手动点 Run workflow
+
+permissions:
+  contents: write              # 需要写权限才能把新题库提交回仓库
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 采集真题
+        env:
+          # 在 Settings → Secrets and variables → Actions 新建 TZ_API_KEY
+          QUESTION_SERVICE_LICENSE: ${{ secrets.TZ_API_KEY }}
+        run: |
+          mkdir -p bank
+          F="python3 tizhuang_fetch.py"
+          # 每组都加 || true：某组额度不足或临时失败时，不拖垮整个任务
+          $F --subject 语文 --grade 八年级 --limit 20 --out bank/zk-yuwen-8.json || true
+          $F --subject 语文 --grade 九年级 --limit 20 --out bank/zk-yuwen-9.json || true
+          # 历史中考是全学段综合考查，放开内容范围
+          $F --subject 历史 --grade 八年级 --limit 20 --keep-out-of-scope --out bank/zk-lishi-8.json || true
+          $F --subject 历史 --grade 九年级 --limit 20 --keep-out-of-scope --out bank/zk-lishi-9.json || true
+          # 七年级同步练习：严格按年级内容范围过滤
+          $F --subject 语文 --grade 七年级 --limit 15 --out bank/tb-yuwen-7.json || true
+          $F --subject 历史 --grade 七年级 --limit 15 --out bank/tb-lishi-7.json || true
+          # 清掉失败时留下的空文件，避免下一步 json 解析报错
+          find bank -name '*.json' -size 0 -delete
+          ls -l bank
+
+      - name: 合并成一个文件
+        run: |
+          python3 -c "import json,glob;fs=sorted(f for f in glob.glob('bank/*.json') if 'all' not in f);d={};[d.setdefault(q.get('id'),q) for f in fs for q in json.load(open(f,encoding='utf-8')).get('items',[])];json.dump({'format':'zx-trainer-bank-v1','source':'题庄真题库 · 自动更新','stats':{'usable':len(d),'files':len(fs)},'items':list(d.values())},open('bank/all.json','w',encoding='utf-8'),ensure_ascii=False);print('合并完成 → bank/all.json，共 %d 道（来自 %d 个文件）'%(len(d),len(fs)))"
+
+      - name: 提交回仓库
+        run: |
+          git config user.name  "bank-bot"
+          git config user.email "bank-bot@users.noreply.github.com"
+          git add bank
+          if git diff --staged --quiet; then
+            echo "题库没有变化，跳过提交"
+          else
+            git commit -m "自动更新题库 $(date +%F)"
+            git push
+          fi
