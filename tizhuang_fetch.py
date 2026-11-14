@@ -336,6 +336,31 @@ def score_of(title):
 
 # ----------------------------- 转换 -----------------------------
 
+def split_inline_options(text):
+    """题庄有一部分语文题（尤其文言文）把选项直接写在题干里，options 字段是空的，
+    形如「A．…… B．…… C．…… D．……」。
+    这里只把题干里**已经存在**的四段拆出来，不改字、不补字；拆不出四个就原样返回，
+    交给上层按「非标准四选一」剔除。返回 ({'A':..,'B':..,'C':..,'D':..}, 去掉选项后的题干)。"""
+    marks = [(m.group(1), m.start(1), m.end())
+             for m in re.finditer(r"(?:^|\s)([A-D])\s*[．.、:：)）]\s*", text)]
+    seq = [m[0] for m in marks]
+    for i in range(len(marks) - 3):
+        if seq[i:i + 4] == ["A", "B", "C", "D"]:
+            picked = marks[i:i + 4]
+            stem = re.sub(r"\[\s*\]", "", text[:picked[0][1]]).strip()
+            if len(stem) < 4:
+                return None, text
+            out = {}
+            for j, (k, s, e) in enumerate(picked):
+                end = picked[j + 1][1] if j < 3 else len(text)
+                v = text[e:end].strip(" \n\u3000;；。")
+                if not v:
+                    return None, text
+                out[k] = v
+            return out, stem
+    return None, text
+
+
 def convert(it, subject, grade, keep_out_of_scope=False, include_conflicts=False, with_raw=True):
     """返回 (题目 dict 或 None, 跳过原因 或 None)"""
     qid = it.get("id")
@@ -349,9 +374,15 @@ def convert(it, subject, grade, keep_out_of_scope=False, include_conflicts=False
         return None, "题干为空或过短"
 
     opts_raw = it.get("options") or {}
-    if not isinstance(opts_raw, dict) or set(opts_raw.keys()) != {"A", "B", "C", "D"}:
-        return None, "不是标准 A/B/C/D 四选一（选项数 %d）" % (len(opts_raw) if isinstance(opts_raw, dict) else 0)
-    opts_text = {k: clean_html(v) for k, v in opts_raw.items()}
+    if isinstance(opts_raw, dict) and set(opts_raw.keys()) == {"A", "B", "C", "D"}:
+        opts_text = {k: clean_html(v) for k, v in opts_raw.items()}
+        stem_text = title
+    else:
+        parsed, stem_text = split_inline_options(title)
+        if not parsed:
+            return None, "不是标准 A/B/C/D 四选一（选项数 %d）" % (
+                len(opts_raw) if isinstance(opts_raw, dict) else 0)
+        opts_text = parsed
     if any(not v for v in opts_text.values()):
         return None, "存在空选项"
 
@@ -391,7 +422,7 @@ def convert(it, subject, grade, keep_out_of_scope=False, include_conflicts=False
         "【题庄题号】" + str(qid),
         "",
         "【题干原文】",
-        title,
+        stem_text,
     ])
 
     q = {
@@ -404,7 +435,7 @@ def convert(it, subject, grade, keep_out_of_scope=False, include_conflicts=False
         "content_scope": scope,
         "memory_type": mem,
         "mode": "single",
-        "stem": title,
+        "stem": stem_text,
         "passage": passage,
         "options": [
             {"key": k, "text": opts_text[k], "is_correct": (k == ans),
@@ -413,13 +444,13 @@ def convert(it, subject, grade, keep_out_of_scope=False, include_conflicts=False
             for k in "ABCD"
         ],
         "points": [],
-        "formula_ref": formula_for(subject, title + " " + knowledges, mem),
-        "total_score": score_of(title),
+        "formula_ref": formula_for(subject, stem_text + " " + knowledges, mem),
+        "total_score": score_of(stem_text),
         "reference_answer": ref,
-        "time_anchor": time_anchor(title + " " + analysis[:200]) if subject == "history" else None,
+        "time_anchor": time_anchor(stem_text + " " + analysis[:200]) if subject == "history" else None,
         "tags": ["题庄真题", sub_label, grade + "年级", "需教师校对"],
         "difficulty": max(1, min(5, round(float(it.get("difficulty") or 3)))),
-        "question_fingerprint": str(it.get("content_hash") or hashlib.md5(title.encode("utf-8")).hexdigest()[:12]),
+        "question_fingerprint": str(it.get("content_hash") or hashlib.md5(stem_text.encode("utf-8")).hexdigest()[:12]),
     }
     if with_raw:
         q["raw"] = {k: it.get(k) for k in (
@@ -476,14 +507,33 @@ def fetch_batch(api_key, subject_label, grade_label, limit, keep_out, include_co
     return items, review
 
 
-def write_out(path, items, review_path, review, extra_stats=None):
+def write_out(path, items, review_path, review, extra_stats=None, append=False):
+    """append=True 时把新题并进已有题库文件，而不是覆盖。
+    题庄接口带 random_order，每次取回的是不同的一批；只有累加才谈得上「攒题库」。
+    合并按 id 去重，旧题永远保留（新批次不会把以前采到的题冲掉）。"""
+    old = []
+    if append and os.path.exists(path):
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                old = json.load(f).get("items") or []
+        except Exception:
+            old = []
+    if old:
+        seen = {str(q.get("id")) for q in old}
+        fresh = [q for q in items if str(q.get("id")) not in seen]
+        merged = old + fresh
+        added = len(fresh)
+    else:
+        merged = list(items)
+        added = len(items)
     doc = {
         "format": "zx-trainer-bank-v1",
         "source": "题庄真题库（tizhuang.qcscience.cc）",
         "generatedAt": datetime.datetime.now().astimezone().isoformat(),
         "note": NOTE,
-        "stats": {"usable": len(items), "skipped": len(review), **(extra_stats or {})},
-        "items": items,
+        "stats": {"usable": len(merged), "skipped": len(review),
+                  "thisRun": len(items), "added": added, **(extra_stats or {})},
+        "items": merged,
     }
     os.makedirs(os.path.dirname(os.path.abspath(path)) or ".", exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
@@ -542,6 +592,8 @@ def main():
     ap.add_argument("--keep-out-of-scope", action="store_true", help="保留内容范围与年级不匹配的历史题")
     ap.add_argument("--include-conflicts", action="store_true", help="连答案/解析冲突的题也入库（不推荐）")
     ap.add_argument("--no-raw", action="store_true", help="不保留原始 HTML 字段（文件更小）")
+    ap.add_argument("--append", action="store_true",
+                    help="把本次结果并入已有题库文件（按 id 去重，旧题保留），适合每天跑一点慢慢攒")
     ap.add_argument("--reclassify", nargs="+", default=[], metavar="FILE",
                     help="离线重标已有题库的内容范围/记忆类型（不消耗额度，需含 raw 字段）")
     a = ap.parse_args()
@@ -574,7 +626,7 @@ def main():
         print("提示：匿名试用 24 小时只有 50 题，本次将请求 %d 题，可能触发 429。"
               "建议 --limit 6 以内，或配置注册 Key（每日 150 题）。" % (a.limit * len(combos)))
 
-    total_ok = total_skip = 0
+    total_ok = total_skip = failed = 0
     for s, g in combos:
         print("\n[%s · %s]" % (s, g))
         try:
@@ -582,24 +634,27 @@ def main():
                                         a.keep_out_of_scope, a.include_conflicts, not a.no_raw)
         except RuntimeError as e:
             print("  ✗", e)
-            return 2
+            failed += 1
+            continue
         if a.all:
             out = os.path.join(a.outdir, "题庄_%s_%s_题库.json" % (s, g))
             rev = os.path.join(a.outdir, "题庄_%s_%s_复核.json" % (s, g))
         else:
             out = a.out or ("题庄_%s_%s_题库.json" % (s, g))
             rev = os.path.splitext(out)[0] + "_复核.json"
-        write_out(out, items, rev, review)
+        write_out(out, items, rev, review, append=a.append)
         total_ok += len(items); total_skip += len(review)
-        print("  ✓ 可用 %d 道 → %s" % (len(items), out))
+        print("  ✓ 本次可用 %d 道%s → %s" % (
+            len(items), "（已并入旧题）" if a.append else "", out))
         if review:
             print("  · 待复核 %d 道 → %s" % (len(review), rev))
             for r in review[:3]:
                 print("      - 题庄 %s：%s" % (r["id"], r["reason"]))
 
-    print("\n完成：共 %d 道可导入，%d 道待复核。" % (total_ok, total_skip))
+    print("\n完成：共 %d 道可导入，%d 道待复核%s。" % (
+        total_ok, total_skip, "，%d 组失败" % failed if failed else ""))
     print("把「*_题库.json」用 index.html 的「题库 → 选择 .json 文件」导入即可。")
-    return 0
+    return 2 if (failed and not total_ok) else 0
 
 
 if __name__ == "__main__":
