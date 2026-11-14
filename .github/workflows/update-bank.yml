@@ -1,7 +1,8 @@
 name: 自动更新题庄题库
 
-# 每天从题庄采集真题 → 合并成 bank/all.json → 提交回仓库。
-# 平板端在「题库 → 补题 → 网址导入」填 raw 链接，点一次即导入。
+# 每天从题庄采集真题 → 并进 bank/ 的分组文件 → 合并成 bank/all.json → 提交回仓库。
+# 平板端在「题库 → 补题 → 网址导入」填 raw 链接，点一次即导入；
+# 客户端会按内容去重，重复点同一个链接不会让题库变胖。
 
 on:
   schedule:
@@ -11,10 +12,14 @@ on:
 permissions:
   contents: write              # 需要写权限才能把新题库提交回仓库
 
+concurrency:
+  group: update-bank
+  cancel-in-progress: false
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - uses: actions/checkout@v4
@@ -23,29 +28,65 @@ jobs:
         with:
           python-version: '3.11'
 
+      # 先查密钥：没有 Key 时会走匿名模式，而 GitHub 机房的出口 IP 是共享的，
+      # 匿名额度常被别人用完 —— 那才是「任务显示成功、题库却一道没涨」的真正原因。
+      - name: 检查密钥
+        env:
+          KEY: ${{ secrets.TZ_API_KEY }}
+        run: |
+          if [ -z "$KEY" ]; then
+            echo "::error::仓库里没有 TZ_API_KEY。到 Settings → Secrets and variables → Actions → New repository secret，名字填 TZ_API_KEY，值填题庄注册 Key。"
+            exit 1
+          fi
+          echo "密钥已配置（${#KEY} 字符）"
+
       - name: 采集真题
         env:
-          # 在 Settings → Secrets and variables → Actions 新建 TZ_API_KEY
           QUESTION_SERVICE_LICENSE: ${{ secrets.TZ_API_KEY }}
         run: |
           mkdir -p bank
-          F="python3 tizhuang_fetch.py"
-          # 每组都加 || true：某组额度不足或临时失败时，不拖垮整个任务
-          $F --subject 语文 --grade 八年级 --limit 20 --out bank/zk-yuwen-8.json || true
-          $F --subject 语文 --grade 九年级 --limit 20 --out bank/zk-yuwen-9.json || true
+          OK=0; BAD=0
+          pick() {
+            echo "──────────────────────────────"
+            if python3 tizhuang_fetch.py "$@" --append; then
+              OK=$((OK+1))
+            else
+              BAD=$((BAD+1))
+              echo "::warning::这组没取到题：$*"
+            fi
+          }
+          # --append：新题并进旧文件，题庄是 random_order 取题，累加才叫「攒题库」
+          pick --subject 语文 --grade 八年级 --limit 20 --out bank/zk-yuwen-8.json
+          pick --subject 语文 --grade 九年级 --limit 20 --out bank/zk-yuwen-9.json
           # 历史中考是全学段综合考查，放开内容范围
-          $F --subject 历史 --grade 八年级 --limit 20 --keep-out-of-scope --out bank/zk-lishi-8.json || true
-          $F --subject 历史 --grade 九年级 --limit 20 --keep-out-of-scope --out bank/zk-lishi-9.json || true
+          pick --subject 历史 --grade 八年级 --limit 20 --keep-out-of-scope --out bank/zk-lishi-8.json
+          pick --subject 历史 --grade 九年级 --limit 20 --keep-out-of-scope --out bank/zk-lishi-9.json
           # 七年级同步练习：严格按年级内容范围过滤
-          $F --subject 语文 --grade 七年级 --limit 15 --out bank/tb-yuwen-7.json || true
-          $F --subject 历史 --grade 七年级 --limit 15 --out bank/tb-lishi-7.json || true
-          # 清掉失败时留下的空文件，避免下一步 json 解析报错
+          pick --subject 语文 --grade 七年级 --limit 15 --out bank/tb-yuwen-7.json
+          pick --subject 历史 --grade 七年级 --limit 15 --out bank/tb-lishi-7.json
+
           find bank -name '*.json' -size 0 -delete
           ls -l bank
 
+          NEW=$(python3 -c "import json,glob;print(sum((json.load(open(f,encoding='utf-8')).get('stats') or {}).get('added',0) for f in glob.glob('bank/*.json') if 'all' not in f))" || echo 0)
+          echo "本轮新增 $NEW 道 · 成功 $OK 组 / 失败 $BAD 组"
+          {
+            echo "### 本轮采集结果"
+            echo ""
+            echo "| 项目 | 数值 |"
+            echo "|---|---|"
+            echo "| 成功分组 | $OK |"
+            echo "| 失败分组 | $BAD |"
+            echo "| 本轮新增题目 | $NEW 道 |"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          if [ "$NEW" -eq 0 ]; then
+            echo "::error::本轮一道题也没采到。依次排查：①TZ_API_KEY 是否填对（Key 过期需重新注册）；②题庄今日额度是否用完；③上面每组的具体报错。"
+            exit 1
+          fi
+
       - name: 合并成一个文件
-        run: |
-          python3 -c "import json,glob;fs=sorted(f for f in glob.glob('bank/*.json') if 'all' not in f);d={};[d.setdefault(q.get('id'),q) for f in fs for q in json.load(open(f,encoding='utf-8')).get('items',[])];json.dump({'format':'zx-trainer-bank-v1','source':'题庄真题库 · 自动更新','stats':{'usable':len(d),'files':len(fs)},'items':list(d.values())},open('bank/all.json','w',encoding='utf-8'),ensure_ascii=False);print('合并完成 → bank/all.json，共 %d 道（来自 %d 个文件）'%(len(d),len(fs)))"
+        run: python3 merge_bank.py --dir bank
 
       - name: 提交回仓库
         run: |
@@ -54,7 +95,10 @@ jobs:
           git add bank
           if git diff --staged --quiet; then
             echo "题库没有变化，跳过提交"
+            echo "- 本轮题库无变化（可能取到的都是已有题）" >> "$GITHUB_STEP_SUMMARY"
           else
             git commit -m "自动更新题库 $(date +%F)"
             git push
+            TOTAL=$(python3 -c "import json;print(json.load(open('bank/all.json',encoding='utf-8'))['stats']['usable'])")
+            echo "- 合并后题库共 **$TOTAL** 道" >> "$GITHUB_STEP_SUMMARY"
           fi
