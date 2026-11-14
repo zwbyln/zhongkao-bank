@@ -56,14 +56,20 @@ jobs:
             fi
           }
           # --append：新题并进旧文件，题庄是 random_order 取题，累加才叫「攒题库」
-          pick --subject 语文 --grade 八年级 --limit 20 --out bank/zk-yuwen-8.json
-          pick --subject 语文 --grade 九年级 --limit 20 --out bank/zk-yuwen-9.json
+          # 额度分配：注册 Key 每天 150 题，九组加起来要压在 130 以内，留出重试余量。
+          pick --subject 语文 --grade 八年级 --limit 15 --out bank/zk-yuwen-8.json
+          pick --subject 语文 --grade 九年级 --limit 15 --out bank/zk-yuwen-9.json
           # 历史中考是全学段综合考查，放开内容范围
-          pick --subject 历史 --grade 八年级 --limit 20 --keep-out-of-scope --out bank/zk-lishi-8.json
-          pick --subject 历史 --grade 九年级 --limit 20 --keep-out-of-scope --out bank/zk-lishi-9.json
+          pick --subject 历史 --grade 八年级 --limit 15 --keep-out-of-scope --out bank/zk-lishi-8.json
+          pick --subject 历史 --grade 九年级 --limit 15 --keep-out-of-scope --out bank/zk-lishi-9.json
           # 七年级同步练习：严格按年级内容范围过滤
-          pick --subject 语文 --grade 七年级 --limit 15 --out bank/tb-yuwen-7.json
-          pick --subject 历史 --grade 七年级 --limit 15 --out bank/tb-lishi-7.json
+          pick --subject 语文 --grade 七年级 --limit 10 --out bank/tb-yuwen-7.json
+          pick --subject 历史 --grade 七年级 --limit 10 --out bank/tb-lishi-7.json
+          # 英语：只取「选择题」（唯一能自动批改的四选一），按语法点入库。
+          # 新科目题量还薄，所以八/九年级多给一点。
+          pick --subject 英语 --grade 八年级 --limit 20 --out bank/zk-yingyu-8.json
+          pick --subject 英语 --grade 九年级 --limit 20 --out bank/zk-yingyu-9.json
+          pick --subject 英语 --grade 七年级 --limit 10 --out bank/tb-yingyu-7.json
 
           find bank -name '*.json' -size 0 -delete
           ls -l bank
@@ -84,6 +90,10 @@ jobs:
             echo "::error::本轮一道题也没采到。依次排查：①TZ_API_KEY 是否填对（Key 过期需重新注册）；②题庄今日额度是否用完；③上面每组的具体报错。"
             exit 1
           fi
+
+          # 英语是新增科目，单独报一下，免得「题库涨了但英语是 0」被平均数盖住
+          EN=$(python3 -c "import json,glob; print(sum(len(json.load(open(f,encoding='utf-8')).get('items') or []) for f in glob.glob('bank/*yingyu*.json')))" 2>/dev/null || echo 0)
+          echo "- 英语题库现有 **$EN** 道" >> "$GITHUB_STEP_SUMMARY"
 
       - name: 合并成一个文件
         run: python3 merge_bank.py --dir bank
