@@ -59,11 +59,14 @@ jobs:
           if [ $RC -ne 0 ]; then
             # 额度用尽 / Key 失效，继续跑九组也只是把同样的错误重复九遍，直接停。
             if echo "$OUT" | grep -q '429\|额度'; then
-              echo "::error::今日额度已用尽，本轮不用跑了。等北京时间 0 点重置，或换一个 Key。"
-              echo "### ⛔ 今日额度已用尽" >> "$SUM"
+              # 这是「今天做完了」，不是「坏了」。用 78（neutral）退出，
+              # GitHub 会把步骤标成灰色跳过，而不是红叉——红叉会让人以为要修东西。
+              echo "::notice::今日额度已用尽（这不是故障）。题库保持不变，明天 0 点自动继续。"
+              echo "### ⏸ 今日额度已用尽，本轮跳过" >> "$SUM"
               echo "" >> "$SUM"
-              echo "本轮未采集，题库保持不变。九组共需 130 题。" >> "$SUM"
-              exit 1
+              echo "不是故障，题库保持不变。九组共需 130 题，明早 0 点额度重置。" >> "$SUM"
+              echo "SKIP_FETCH=1" >> "$GITHUB_ENV"
+              exit 78
             fi
             if echo "$OUT" | grep -q '401\|403\|认证失败'; then
               echo "::error::Key 无效或已停用。到 Settings → Secrets 重新填 TZ_API_KEY。"
@@ -91,6 +94,7 @@ jobs:
           rm -f /tmp/probe.json /tmp/probe_复核.json
 
       - name: 采集真题
+        if: env.SKIP_FETCH != '1'
         env:
           QUESTION_SERVICE_LICENSE: ${{ secrets.TZ_API_KEY }}
         run: |
@@ -169,6 +173,7 @@ jobs:
         run: python3 merge_bank.py --dir bank
 
       - name: 提交回仓库
+        if: env.SKIP_FETCH != '1'
         run: |
           # 跳过采集的那轮，没有任何新题，不必提交，也别报错
           if [ "${SKIP_FETCH:-0}" = "1" ]; then
