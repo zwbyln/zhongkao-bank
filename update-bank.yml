@@ -74,7 +74,10 @@ jobs:
           find bank -name '*.json' -size 0 -delete
           ls -l bank
 
-          NEW=$(python3 -c "import json,glob;print(sum((json.load(open(f,encoding='utf-8')).get('stats') or {}).get('added',0) for f in glob.glob('bank/*.json') if 'all' not in f))" || echo 0)
+          # 「本轮新增」按各组 items 的实际增长算，不读 stats.added。
+          # stats.added 是「那次写入当次新增几道」，--append 之后文件里留下的仍是旧值，
+          # 拿它当本轮结果会把「一组都没采到」误判成「新增 110 道」，任务照样打绿勾。
+          NEW=$(python3 bank_delta.py)
           echo "本轮新增 $NEW 道 · 成功 $OK 组 / 失败 $BAD 组"
           {
             echo "### 本轮采集结果"
