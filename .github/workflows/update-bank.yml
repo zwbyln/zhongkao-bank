@@ -164,6 +164,8 @@ jobs:
           echo "- 英语题库现有 **$EN** 道" >> "$SUM"
 
       - name: 合并成一个文件
+        # 跳过采集的那轮没有新题，合并跑一遍也是原地不动，直接免掉
+        if: env.SKIP_FETCH != '1'
         run: python3 merge_bank.py --dir bank
 
       - name: 提交回仓库
@@ -171,6 +173,7 @@ jobs:
           # 跳过采集的那轮，没有任何新题，不必提交，也别报错
           if [ "${SKIP_FETCH:-0}" = "1" ]; then
             echo "本轮跳过采集，没有需要提交的内容"
+            echo "- 本轮跳过：额度不足，题库保持原样" >> "${GITHUB_STEP_SUMMARY:-/dev/null}"
             exit 0
           fi
           git config user.name  "bank-bot"
