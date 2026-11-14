@@ -287,6 +287,67 @@ FORMULA_HI = [
 ]
 FORMULA_HI_DEFAULT = "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据"
 
+# ------------------------- 英语 -------------------------
+# 结构类优先于时态：「被动语态 一般现在时」这类标注，真正要考的是结构。
+# 与客户端 tizhuang.js 的 FORMULA_EN 保持一致，两边改规则要同步。
+FORMULA_EN = [
+    (r"情态动词.*被动|must be|should be|can be", "情态动词被动"),
+    (r"被动语态|被动", "被动语态"),
+    (r"动名词|v-ing", "动名词作主语"),
+    (r"不定式|to do", "不定式表目的"),
+    (r"非谓语|分词", "分词作定语"),
+    (r"宾语从句", "宾语从句"),
+    (r"定语从句|关系代词|关系副词", "定语从句"),
+    (r"状语从句", "状语从句"),
+    (r"主语从句", "主语从句"),
+    (r"主谓一致", "主谓一致"),
+    (r"感叹句", "感叹句"),
+    (r"反意疑问|附加疑问", "反意疑问句"),
+    (r"强调句", "强调句"),
+    (r"倒装", "倒装句"),
+    (r"补全对话|情景交际|交际用语|日常交际", "情景交际 · 邀请与建议"),
+    (r"固定搭配|固定短语", "固定搭配"),
+    (r"短语动词|动词短语", "短语动词"),
+    (r"词义辨析|近义|词汇运用|单词拼写|词形", "近义词辨析"),
+    (r"冠词|a/an", "冠词"),
+    (r"代词", "代词"),
+    (r"形容词|副词|比较级|最高级", "形容词与副词"),
+    (r"介词", "介词"),
+    (r"名词|数词|单复数", "名词与数"),
+    (r"连词|并列句", "连词"),
+    (r"现在完成", "现在完成时"),
+    (r"过去完成", "过去完成时"),
+    (r"过去进行", "过去进行时"),
+    (r"现在进行", "现在进行时"),
+    (r"一般将来|将来时", "一般将来时"),
+    (r"一般过去|过去式", "一般过去时"),
+    (r"一般现在|第三人称单数|三单", "一般现在时"),
+    (r"句子成分|句子结构|简单句|句子理解|划线部分", "句子成分"),
+]
+FORMULA_EN_DEFAULT = "句子成分"
+
+# 语法板块（与 formulas.js 的 FORMULA_GROUPS.english 一致）
+EN_GROUP = {
+    "一般现在时": "动词时态", "一般过去时": "动词时态", "一般将来时": "动词时态",
+    "现在进行时": "动词时态", "过去进行时": "动词时态", "现在完成时": "动词时态",
+    "过去完成时": "动词时态", "被动语态": "被动语态", "情态动词被动": "被动语态",
+    "动名词作主语": "非谓语动词", "不定式表目的": "非谓语动词", "分词作定语": "非谓语动词",
+    "宾语从句": "从句", "定语从句": "从句", "状语从句": "从句", "主语从句": "从句",
+    "冠词": "词法", "代词": "词法", "形容词与副词": "词法", "介词": "词法",
+    "名词与数": "词法", "连词": "词法", "主谓一致": "主谓一致",
+    "感叹句": "句型与倒装", "反意疑问句": "句型与倒装", "强调句": "句型与倒装", "倒装句": "句型与倒装",
+    "近义词辨析": "词汇辨析", "短语动词": "词汇辨析", "固定搭配": "词汇辨析",
+    "情景交际 · 感谢与道歉": "情景交际", "情景交际 · 邀请与建议": "情景交际",
+    "句子成分": "句子理解", "长难句拆分": "句子理解",
+}
+# 干扰项陷阱类型：让错题本能按「时态/语态/从句」归类，而不是全堆在「未分类」
+EN_TRAP = {
+    "动词时态": "时态误判", "被动语态": "语态误判", "非谓语动词": "非谓语误判",
+    "从句": "关系词误判", "主谓一致": "词形误判", "词法": "词形误判",
+    "句型与倒装": "语序错误", "词汇辨析": "近义词混淆", "情景交际": "交际用语误用",
+    "句子理解": "句意理解偏差",
+}
+
 
 def infer_scope(text):
     for scope, words in SCOPE_WORDS:
@@ -313,7 +374,16 @@ def infer_ch_genre(text, knowledges):
     return "记叙文"
 
 
+SUBJECT_OF = {"语文": "chinese", "历史": "history", "英语": "english"}
+SUBJECT_LABEL = {"chinese": "语文", "history": "历史", "english": "英语"}
+
+
 def formula_for(subject, text, memory_type):
+    if subject == "english":
+        for pat, f in FORMULA_EN:
+            if re.search(pat, text):
+                return f
+        return FORMULA_EN_DEFAULT
     table = FORMULA_CH if subject == "chinese" else FORMULA_HI
     default = FORMULA_CH_DEFAULT if subject == "chinese" else FORMULA_HI_DEFAULT
     for pat, f in table:
@@ -322,6 +392,25 @@ def formula_for(subject, text, memory_type):
     if subject == "history" and memory_type == "fact":
         return "史实记忆 = 时间锚点 + 前后事件夹逼（上承什么、下启什么）"
     return default
+
+
+def group_of_en(point):
+    return EN_GROUP.get(point, "句子理解")
+
+
+def trap_of_en(point):
+    return EN_TRAP.get(group_of_en(point), "句意理解偏差")
+
+
+def infer_en_genre(text, point):
+    if re.search(r"补全对话|情景交际|交际用语", text):
+        return "情景交际"
+    g = group_of_en(point)
+    if g == "词汇辨析":
+        return "词汇辨析"
+    if g == "句子理解":
+        return "句子理解"
+    return "语法单选"
 
 
 def time_anchor(text):
@@ -397,9 +486,16 @@ def convert(it, subject, grade, keep_out_of_scope=False, include_conflicts=False
     knowledges = str(it.get("knowledges") or "")
     source = str(it.get("source") or "题庄题库")
     blob = title + " " + knowledges + " " + analysis[:300]
-    sub_label = "语文" if subject == "chinese" else "历史"
+    sub_label = SUBJECT_LABEL.get(subject, "语文")
+    gpoint = None
 
-    if subject == "history":
+    if subject == "english":
+        # 英语不按内容范围筛（七/八/九 都是同一套语法体系，只是难度递进），
+        # 也没有 memory_type；改成标注语法点 + 语法板块，供错题按板块聚合。
+        scope, mem = None, None
+        gpoint = formula_for("english", title + " " + knowledges, None)
+        genre = infer_en_genre(title + " " + knowledges, gpoint)
+    elif subject == "history":
         scope = infer_scope(blob)
         allowed = GRADE_SCOPE.get(grade, set())
         if scope not in allowed and not keep_out_of_scope:
@@ -411,18 +507,23 @@ def convert(it, subject, grade, keep_out_of_scope=False, include_conflicts=False
         scope, mem = None, None
         genre = infer_ch_genre(title, knowledges)
 
-    neutral = "本题标答为 %s。该项请回到题干与材料核对依据（原题解析原文见正确项）。" % ans
+    if subject == "english":
+        neutral = "本题标答为 %s。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。" % ans
+    else:
+        neutral = "本题标答为 %s。该项请回到题干与材料核对依据（原题解析原文见正确项）。" % ans
     correct_analysis = analysis[:700] or "题庄原题未提供解析，请以试卷标准答案为准。"
     ref = "标答：%s\n原题解析：%s" % (ans, analysis or "（原题未提供解析）")
 
+    # 题干排第一，来源压到最后一行：和客户端「题干优先」的显示顺序对齐，
+    # 这样导入后不必再靠前端的迁移逻辑重排一遍。
+    tail = " · ".join(x for x in [source, str(it.get("year") or ""),
+                                  ("题庄题号 %s" % qid) if qid else ""] if x)
     passage = "\n".join([
-        "【原题出处】" + source,
-        "【考点】" + (knowledges or "未标注"),
-        "【年份】" + str(it.get("year") or "未标注"),
-        "【题庄题号】" + str(qid),
-        "",
         "【题干原文】",
         stem_text,
+        "",
+        "【考点】" + (knowledges or "未标注"),
+        "【出处】" + tail,
     ])
 
     q = {
@@ -434,12 +535,14 @@ def convert(it, subject, grade, keep_out_of_scope=False, include_conflicts=False
         "genre": genre,
         "content_scope": scope,
         "memory_type": mem,
+        "grammar_group": group_of_en(gpoint) if subject == "english" else None,
+        "grammar_point": gpoint if subject == "english" else None,
         "mode": "single",
         "stem": stem_text,
         "passage": passage,
         "options": [
             {"key": k, "text": opts_text[k], "is_correct": (k == ans),
-             "trap_type": None,
+             "trap_type": (None if k == ans else (trap_of_en(gpoint) if subject == "english" else None)),
              "option_analysis": correct_analysis if k == ans else neutral}
             for k in "ABCD"
         ],
@@ -467,6 +570,8 @@ NOTE = (
     "formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，"
     "由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。"
     "答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。"
+    "英语题的 grammar_group / grammar_point 由关键词推断（结构类优先于时态类），"
+    "口语交际与语法填空等主观题不在采集范围内。"
 )
 
 
@@ -476,9 +581,12 @@ def fetch_batch(api_key, subject_label, grade_label, limit, keep_out, include_co
     if subject_label not in smap or grade_label not in gmap:
         raise RuntimeError("元数据里找不到 %s / %s；可用 --meta 查看实际名称" % (subject_label, grade_label))
     sid, gid = smap[subject_label], gmap[grade_label]
-    subject = "chinese" if subject_label == "语文" else "history"
+    subject = SUBJECT_OF.get(subject_label, "chinese")
     grade = {"七年级": "七", "八年级": "八", "九年级": "九"}[grade_label]
 
+    # 三科都只取「选择题」：它们是唯一能自动批改的标准四选一。
+    # 英语的语法填空/句型转换/改错在题庄是主观题（answer 不是单个字母），
+    # 客户端也没有可靠的自动判分依据，宁可不收，也不给孩子一个判错的答案。
     qs = urllib.parse.urlencode({
         "subject_id": sid, "grade_id": gid, "question_type": "选择题",
         "auto_gradable": "true", "has_images": "false",
@@ -579,7 +687,7 @@ def reclassify_file(path):
 
 def main():
     ap = argparse.ArgumentParser(description="题庄真题 → 专项训练系统题库 JSON")
-    ap.add_argument("--subject", choices=["语文", "历史"], default="语文")
+    ap.add_argument("--subject", choices=["语文", "历史", "英语"], default="语文")
     ap.add_argument("--grade", choices=["七年级", "八年级", "九年级"], default="七年级")
     ap.add_argument("--limit", type=int, default=15, help="本次最多取多少道（每道消耗 1 次额度）")
     ap.add_argument("--out", default="", help="输出题库 JSON 路径")
@@ -587,7 +695,7 @@ def main():
     ap.add_argument("--api-key",
                     default=os.environ.get("QUESTION_SERVICE_LICENSE", "") or read_local_license(),
                     help="题庄注册 Key；优先用环境变量 QUESTION_SERVICE_LICENSE 或 ~/.tizhuang_license")
-    ap.add_argument("--all", action="store_true", help="一次跑完 语文/历史 × 七/八/九 共 6 组")
+    ap.add_argument("--all", action="store_true", help="一次跑完 语文/历史/英语 × 七/八/九 共 9 组")
     ap.add_argument("--meta", action="store_true", help="只打印学科/年级/题型元数据（免费）")
     ap.add_argument("--keep-out-of-scope", action="store_true", help="保留内容范围与年级不匹配的历史题")
     ap.add_argument("--include-conflicts", action="store_true", help="连答案/解析冲突的题也入库（不推荐）")
@@ -613,14 +721,14 @@ def main():
         smap, gmap = resolve_meta(headers)
         print("学科：", json.dumps(smap, ensure_ascii=False))
         print("年级：", json.dumps(gmap, ensure_ascii=False))
-        for s in ("语文", "历史"):
+        for s in ("语文", "历史", "英语"):
             if s in smap:
                 ts = get("/v1/meta/question-types?subject_id=%d" % smap[s], headers)
                 names = sorted({x["name"] for x in ts}) if isinstance(ts, list) else ts
                 print("%s 题型：" % s, json.dumps(names, ensure_ascii=False)[:800])
         return 0
 
-    combos = ([(s, g) for s in ("语文", "历史") for g in ("七年级", "八年级", "九年级")]
+    combos = ([(s, g) for s in ("语文", "历史", "英语") for g in ("七年级", "八年级", "九年级")]
               if a.all else [(a.subject, a.grade)])
     if a.all and not a.api_key and a.limit * len(combos) > 48:
         print("提示：匿名试用 24 小时只有 50 题，本次将请求 %d 题，可能触发 429。"
