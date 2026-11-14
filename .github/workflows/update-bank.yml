@@ -104,7 +104,7 @@ jobs:
           git config user.email "bank-bot@users.noreply.github.com"
           # 先把本轮的产物存到仓库外面，等下每轮重试都要用到
           mkdir -p /tmp/bank-out && cp -f bank/*.json /tmp/bank-out/
-          for i in 1 2 3; do
+          for i in 1 2 3 4 5; do
             git fetch -q origin main
             # 对齐远端最新。采集那两三分钟里若有别人也提交（手动改文件、另一个 run），
             # 直接 push 会被「fetch first」拒掉；题库是生成物，冲突时以本轮结果为准。
@@ -123,8 +123,10 @@ jobs:
               echo "- 合并后题库共 **$TOTAL** 道" >> "$GITHUB_STEP_SUMMARY"
               exit 0
             fi
-            echo "::warning::第 $i 次推送被拒，与远端重新对齐后再试"
-            sleep 5
+            # 退避是必须的：失败后立刻重试，往往撞在同一秒的另一个提交上
+            WAIT=$((i * 8))
+            echo "::warning::第 $i 次推送被拒，${WAIT}s 后与远端重新对齐再试"
+            sleep $WAIT
           done
-          echo "::error::三次推送都被拒绝，请检查分支保护规则"
+          echo "::error::五次推送都被拒绝，请检查分支保护规则"
           exit 1
