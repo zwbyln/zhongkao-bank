@@ -1,0 +1,1139 @@
+{
+  "format": "zx-trainer-bank-v1",
+  "source": "题庄真题库（tizhuang.qcscience.cc）",
+  "generatedAt": "2026-11-14T01:26:35.647135+00:00",
+  "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。",
+  "stats": {
+    "usable": 15,
+    "skipped": 0,
+    "thisRun": 15,
+    "added": 15
+  },
+  "items": [
+    {
+      "id": "TZ11080906",
+      "source": "题庄真题 · 2011- 2012学年度山东滕州市滕南四镇七年级下学期第一次月考历史试题",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "历史选择",
+      "content_scope": "中国古代史",
+      "memory_type": "concept",
+      "mode": "single",
+      "stem": "玄奘西行，鉴真东渡的史实充分体现了唐朝对外交流的特点是（ ）",
+      "passage": "【原题出处】2011- 2012学年度山东滕州市滕南四镇七年级下学期第一次月考历史试题\n【考点】对外友好往来\n【年份】2011\n【题庄题号】11080906\n\n【题干原文】\n玄奘西行，鉴真东渡的史实充分体现了唐朝对外交流的特点是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "高度繁荣共享太平",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "对外开放双向交流",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "世界领先求同存异",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "源远流长泽陂东西",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "71b2711b9ca5c9a71a0954637b2161ec",
+      "raw": {
+        "id": 11080906,
+        "title_html": "玄奘西行，鉴真东渡的史实充分体现了唐朝对外交流的特点是（     ）",
+        "options_html": {
+          "A": "高度繁荣共享太平",
+          "B": "对外开放双向交流",
+          "C": "世界领先求同存异",
+          "D": "源远流长泽陂东西"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "71b2711b9ca5c9a71a0954637b2161ec",
+        "source": "2011- 2012学年度山东滕州市滕南四镇七年级下学期第一次月考历史试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "对外友好往来",
+        "year": 2011
+      }
+    },
+    {
+      "id": "TZ11081025",
+      "source": "题庄真题 · 2011- 2012学年度山东滕州市滕南四镇七年级下学期第一次月考历史试题",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "历史时序排序",
+      "content_scope": "中国古代史",
+      "memory_type": "sequence",
+      "mode": "single",
+      "stem": "下列有关中国古代主要朝代的先后顺序排列，正确的是（ ）",
+      "passage": "【原题出处】2011- 2012学年度山东滕州市滕南四镇七年级下学期第一次月考历史试题\n【考点】秦王扫六合；大一统的汉朝；江南地区的开发；繁盛一时的隋朝；贞观之治；民族政权并列的时代\n【年份】2011\n【题庄题号】11081025\n\n【题干原文】\n下列有关中国古代主要朝代的先后顺序排列，正确的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "秦朝——唐朝——西汉——隋朝",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "秦朝——西汉——唐朝——西晋",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "秦朝——西汉——北宋——唐朝",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "隋朝——唐朝——北宋——南宋",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "首尾锚定 → 逐项插入 → 相邻校验；警惕相邻互换、首尾错置、跨朝代插入",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "24bd01e124109cf82fbfaa0e3b4805b3",
+      "raw": {
+        "id": 11081025,
+        "title_html": "下列有关中国古代主要朝代的先后顺序排列，正确的是（    ）  ",
+        "options_html": {
+          "A": "秦朝——唐朝——西汉——隋朝",
+          "B": "秦朝——西汉——唐朝——西晋",
+          "C": "秦朝——西汉——北宋——唐朝",
+          "D": "隋朝——唐朝——北宋——南宋"
+        },
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "24bd01e124109cf82fbfaa0e3b4805b3",
+        "source": "2011- 2012学年度山东滕州市滕南四镇七年级下学期第一次月考历史试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "秦王扫六合；大一统的汉朝；江南地区的开发；繁盛一时的隋朝；贞观之治；民族政权并列的时代",
+        "year": 2011
+      }
+    },
+    {
+      "id": "TZ11085167",
+      "source": "题庄真题 · 2011-2012学年四川省都江堰外国语实验学校七年级上学期期中考试历史试卷",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "历史选择",
+      "content_scope": "中国古代史",
+      "memory_type": "concept",
+      "mode": "single",
+      "stem": "“卧薪尝胆”的国君是：",
+      "passage": "【原题出处】2011-2012学年四川省都江堰外国语实验学校七年级上学期期中考试历史试卷\n【考点】春秋战国的纷争\n【年份】2012\n【题庄题号】11085167\n\n【题干原文】\n“卧薪尝胆”的国君是：",
+      "options": [
+        {
+          "key": "A",
+          "text": "秦穆公",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "晋文公",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "越王勾践",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "吴王夫差",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "ea585ebdfc7c5417507dea1746f1e89b",
+      "raw": {
+        "id": 11085167,
+        "title_html": "“卧薪尝胆”的国君是：",
+        "options_html": {
+          "A": "秦穆公",
+          "B": "晋文公",
+          "C": "越王勾践",
+          "D": "吴王夫差"
+        },
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "ea585ebdfc7c5417507dea1746f1e89b",
+        "source": "2011-2012学年四川省都江堰外国语实验学校七年级上学期期中考试历史试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "春秋战国的纷争",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ11085177",
+      "source": "题庄真题 · 2011-2012学年四川省都江堰外国语实验学校七年级上学期期中考试历史试卷",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "历史选择",
+      "content_scope": "中国古代史",
+      "memory_type": "concept",
+      "mode": "single",
+      "stem": "下列历史事件或典故与成语“朝秦暮楚”有关的是：",
+      "passage": "【原题出处】2011-2012学年四川省都江堰外国语实验学校七年级上学期期中考试历史试卷\n【考点】春秋战国的纷争\n【年份】2012\n【题庄题号】11085177\n\n【题干原文】\n下列历史事件或典故与成语“朝秦暮楚”有关的是：",
+      "options": [
+        {
+          "key": "A",
+          "text": "围魏救赵",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "纸上谈兵",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "卧薪尝胆",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "“合纵”“连横”",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "ecbb05ed626dabd104ca4b12403fa168",
+      "raw": {
+        "id": 11085177,
+        "title_html": "下列历史事件或典故与成语“朝秦暮楚”有关的是：",
+        "options_html": {
+          "A": "围魏救赵",
+          "B": "纸上谈兵",
+          "C": "卧薪尝胆",
+          "D": "“合纵”“连横”"
+        },
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "ecbb05ed626dabd104ca4b12403fa168",
+        "source": "2011-2012学年四川省都江堰外国语实验学校七年级上学期期中考试历史试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "春秋战国的纷争",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ11085269",
+      "source": "题庄真题 · 2011-2012学年四川省都江堰外国语实验学校七年级上学期期中考试历史试卷",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "历史选择",
+      "content_scope": "中国古代史",
+      "memory_type": "concept",
+      "mode": "single",
+      "stem": "与“退避三舍”“围魏救赵”“纸上谈兵”三个春秋战国时期成语无关的人物是：",
+      "passage": "【原题出处】2011-2012学年四川省都江堰外国语实验学校七年级上学期期中考试历史试卷\n【考点】春秋战国的纷争\n【年份】2012\n【题庄题号】11085269\n\n【题干原文】\n与“退避三舍”“围魏救赵”“纸上谈兵”三个春秋战国时期成语无关的人物是：",
+      "options": [
+        {
+          "key": "A",
+          "text": "晋文公",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "赵括",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "齐桓公",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "孙膑",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "c0ed7df17398ae83ef6559210a7e6e94",
+      "raw": {
+        "id": 11085269,
+        "title_html": "与“退避三舍”“围魏救赵”“纸上谈兵”三个春秋战国时期成语无关的人物是：",
+        "options_html": {
+          "A": "晋文公",
+          "B": "赵括",
+          "C": "齐桓公",
+          "D": "孙膑"
+        },
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "c0ed7df17398ae83ef6559210a7e6e94",
+        "source": "2011-2012学年四川省都江堰外国语实验学校七年级上学期期中考试历史试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "春秋战国的纷争",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ11090264",
+      "source": "题庄真题 · 2011-2012学年江苏省启东市东海中学七年级下学期第一次质量测试历史试卷",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "历史选择",
+      "content_scope": "中国古代史",
+      "memory_type": "concept",
+      "mode": "single",
+      "stem": "唐朝以她博大的胸怀，兼收并蓄外来文化的精化，体现这一观点的史实是（ ）",
+      "passage": "【原题出处】2011-2012学年江苏省启东市东海中学七年级下学期第一次质量测试历史试卷\n【考点】对外友好往来\n【年份】2012\n【题庄题号】11090264\n\n【题干原文】\n唐朝以她博大的胸怀，兼收并蓄外来文化的精化，体现这一观点的史实是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "玄奘西行天竺求法",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "鉴真东渡日本弘扬佛法",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "日本遣唐使来中国",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "郑和下西洋",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "72969f8ca9f8c14abf0ca1e216ac31a0",
+      "raw": {
+        "id": 11090264,
+        "title_html": "唐朝以她博大的胸怀，兼收并蓄外来文化的精化，体现这一观点的史实是（   ）",
+        "options_html": {
+          "A": "玄奘西行天竺求法",
+          "B": "鉴真东渡日本弘扬佛法",
+          "C": "日本遣唐使来中国",
+          "D": "郑和下西洋"
+        },
+        "answer": "A",
+        "answer_html": "A",
+        "analysis_html": "",
+        "content_hash": "72969f8ca9f8c14abf0ca1e216ac31a0",
+        "source": "2011-2012学年江苏省启东市东海中学七年级下学期第一次质量测试历史试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "对外友好往来",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ11092254",
+      "source": "题庄真题 · 2011-2012学年北京市师大附中上学期初中七年级期末考试历史试卷",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "历史选择",
+      "content_scope": "中国古代史",
+      "memory_type": "concept",
+      "mode": "single",
+      "stem": "学习历史时，要能分辨“描述”与“评价”的区别。正如下列句中，有的是对历史事实的描述和描绘，有的是对历史的看法、解释和评价。请将下列属于“评价”的句子找出来",
+      "passage": "【原题出处】2011-2012学年北京市师大附中上学期初中七年级期末考试历史试卷\n【考点】春秋战国的纷争\n【年份】2012\n【题庄题号】11092254\n\n【题干原文】\n学习历史时，要能分辨“描述”与“评价”的区别。正如下列句中，有的是对历史事实的描述和描绘，有的是对历史的看法、解释和评价。请将下列属于“评价”的句子找出来",
+      "options": [
+        {
+          "key": "A",
+          "text": "齐桓公以管仲为相改革，召集诸侯会盟",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "晋文公姓姬名重耳，是晋献公的次子",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "战国时期，今北京地区属于燕国",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "战国时期，各国争相变法，大国兼并小国，战争频繁",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "对当时 → 对后世；政治/经济/思想分层，注意程度词是否绝对化",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "f10c248fd118eeb71e36a588a1199873",
+      "raw": {
+        "id": 11092254,
+        "title_html": "学习历史时，要能分辨“描述”与“评价”的区别。正如下列句中，有的是对历史事实的描述和描绘，有的是对历史的看法、解释和评价。请将下列属于“评价”的句子找出来",
+        "options_html": {
+          "A": "齐桓公以管仲为相改革，召集诸侯会盟",
+          "B": "晋文公姓姬名重耳，是晋献公的次子",
+          "C": "战国时期，今北京地区属于燕国",
+          "D": "战国时期，各国争相变法，大国兼并小国，战争频繁"
+        },
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "f10c248fd118eeb71e36a588a1199873",
+        "source": "2011-2012学年北京市师大附中上学期初中七年级期末考试历史试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "春秋战国的纷争",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ11092428",
+      "source": "题庄真题 · 2011-2012学年北京市师大附中上学期初中七年级期末考试历史试卷",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "历史选择",
+      "content_scope": "中国古代史",
+      "memory_type": "concept",
+      "mode": "single",
+      "stem": "详细介绍了我国境内一千多条河流以及与这些河流相关的郡县、城市、物产、风俗、传说、历史等内容，寓历史、地理、文学价值于一体的综合性地理著作是",
+      "passage": "【原题出处】2011-2012学年北京市师大附中上学期初中七年级期末考试历史试卷\n【考点】承上启下的魏晋南北朝文化\n【年份】2012\n【题庄题号】11092428\n\n【题干原文】\n详细介绍了我国境内一千多条河流以及与这些河流相关的郡县、城市、物产、风俗、传说、历史等内容，寓历史、地理、文学价值于一体的综合性地理著作是",
+      "options": [
+        {
+          "key": "A",
+          "text": "《禹贡地域图》",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "《梦溪笔谈》",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "《齐民要术》",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "《水经注》",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先判史料类型（实物/文献/口述/图像）→ 再判一手/二手 → 最后评估可信度",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "790a076397011e328d5a4c493e1fb3c5",
+      "raw": {
+        "id": 11092428,
+        "title_html": "详细介绍了我国境内一千多条河流以及与这些河流相关的郡县、城市、物产、风俗、传说、历史等内容，寓历史、地理、文学价值于一体的综合性地理著作是",
+        "options_html": {
+          "A": "《禹贡地域图》",
+          "B": "《梦溪笔谈》",
+          "C": "《齐民要术》",
+          "D": "《水经注》"
+        },
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "790a076397011e328d5a4c493e1fb3c5",
+        "source": "2011-2012学年北京市师大附中上学期初中七年级期末考试历史试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "承上启下的魏晋南北朝文化",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ11092516",
+      "source": "题庄真题 · 2011-2012学年北京市师大附中上学期初中七年级期末考试历史试卷",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "历史选择",
+      "content_scope": "中国古代史",
+      "memory_type": "concept",
+      "mode": "single",
+      "stem": "以下内容属于北魏孝文帝改革措施的是：\n①发给官吏俸禄\n②迁都洛阳\n③提倡与汉族通婚\n④要求采用汉姓",
+      "passage": "【原题出处】2011-2012学年北京市师大附中上学期初中七年级期末考试历史试卷\n【考点】北方民族的融合\n【年份】2012\n【题庄题号】11092516\n\n【题干原文】\n以下内容属于北魏孝文帝改革措施的是：\n①发给官吏俸禄\n②迁都洛阳\n③提倡与汉族通婚\n④要求采用汉姓",
+      "options": [
+        {
+          "key": "A",
+          "text": "①②③",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "②③④",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "①②④",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "①②③④",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "bf59a6b8350c20e846311c5f15c96033",
+      "raw": {
+        "id": 11092516,
+        "title_html": "以下内容属于北魏孝文帝改革措施的是：<br>①发给官吏俸禄<br>②迁都洛阳<br>③提倡与汉族通婚<br>④要求采用汉姓",
+        "options_html": {
+          "A": "①②③",
+          "B": "②③④",
+          "C": "①②④",
+          "D": "①②③④"
+        },
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "bf59a6b8350c20e846311c5f15c96033",
+        "source": "2011-2012学年北京市师大附中上学期初中七年级期末考试历史试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "北方民族的融合",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ11092586",
+      "source": "题庄真题 · 2011-2012学年北京市师大附中上学期初中七年级期末考试历史试卷",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "历史选择",
+      "content_scope": "中国古代史",
+      "memory_type": "concept",
+      "mode": "single",
+      "stem": "“舍己为人传道艺，唐风洋溢奈良城”歌颂的是",
+      "passage": "【原题出处】2011-2012学年北京市师大附中上学期初中七年级期末考试历史试卷\n【考点】对外友好往来\n【年份】2012\n【题庄题号】11092586\n\n【题干原文】\n“舍己为人传道艺，唐风洋溢奈良城”歌颂的是",
+      "options": [
+        {
+          "key": "A",
+          "text": "鉴真",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "空海",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "晁衡",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "玄奘",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "644972f2094bbbf9f1c84a149e474a61",
+      "raw": {
+        "id": 11092586,
+        "title_html": "“舍己为人传道艺，唐风洋溢奈良城”歌颂的是",
+        "options_html": {
+          "A": "鉴真",
+          "B": "空海",
+          "C": "晁衡",
+          "D": "玄奘"
+        },
+        "answer": "A",
+        "answer_html": "A",
+        "analysis_html": "",
+        "content_hash": "644972f2094bbbf9f1c84a149e474a61",
+        "source": "2011-2012学年北京市师大附中上学期初中七年级期末考试历史试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "对外友好往来",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ11092595",
+      "source": "题庄真题 · 2011-2012学年北京市师大附中上学期初中七年级期末考试历史试卷",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "历史选择",
+      "content_scope": "中国古代史",
+      "memory_type": "concept",
+      "mode": "single",
+      "stem": "上面的壁画《九色鹿》出自",
+      "passage": "【原题出处】2011-2012学年北京市师大附中上学期初中七年级期末考试历史试卷\n【考点】承上启下的魏晋南北朝文化\n【年份】2012\n【题庄题号】11092595\n\n【题干原文】\n上面的壁画《九色鹿》出自",
+      "options": [
+        {
+          "key": "A",
+          "text": "大同云冈石窟",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "洛阳龙门石窟",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "敦煌莫高窟",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "三星堆遗址",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "2a94eb4340d741ee4d244675a4f3df38",
+      "raw": {
+        "id": 11092595,
+        "title_html": "上面的壁画《九色鹿》出自",
+        "options_html": {
+          "A": "大同云冈石窟",
+          "B": "洛阳龙门石窟",
+          "C": "敦煌莫高窟",
+          "D": "三星堆遗址"
+        },
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "2a94eb4340d741ee4d244675a4f3df38",
+        "source": "2011-2012学年北京市师大附中上学期初中七年级期末考试历史试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "承上启下的魏晋南北朝文化",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ11100871",
+      "source": "题庄真题 · 2011—2012学年广东九连中学七年级上学期期末调研历史试卷",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "历史选择",
+      "content_scope": "中国古代史",
+      "memory_type": "concept",
+      "mode": "single",
+      "stem": "我国现存的第一部完整的农业科学著作是",
+      "passage": "【原题出处】2011—2012学年广东九连中学七年级上学期期末调研历史试卷\n【考点】承上启下的魏晋南北朝文化\n【年份】2011\n【题庄题号】11100871\n\n【题干原文】\n我国现存的第一部完整的农业科学著作是",
+      "options": [
+        {
+          "key": "A",
+          "text": "《缀术》",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "《齐民要术》",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "《神灭论》",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "《论衡》",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "db8b4a65ac91da3d4a0d7fca85e4ae3b",
+      "raw": {
+        "id": 11100871,
+        "title_html": "我国现存的第一部完整的农业科学著作是",
+        "options_html": {
+          "A": "《缀术》",
+          "B": "《齐民要术》",
+          "C": "《神灭论》",
+          "D": "《论衡》"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "db8b4a65ac91da3d4a0d7fca85e4ae3b",
+        "source": "2011—2012学年广东九连中学七年级上学期期末调研历史试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "承上启下的魏晋南北朝文化",
+        "year": 2011
+      }
+    },
+    {
+      "id": "TZ11101822",
+      "source": "题庄真题 · 2011—2012学年度山西省临汾市初一上学期期末质量测试历史试卷",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "历史选择",
+      "content_scope": "中国古代史",
+      "memory_type": "concept",
+      "mode": "single",
+      "stem": "既是一部优秀的地理学著作，同时又具有很高的文学和历史学价值的书是",
+      "passage": "【原题出处】2011—2012学年度山西省临汾市初一上学期期末质量测试历史试卷\n【考点】承上启下的魏晋南北朝文化\n【年份】2011\n【题庄题号】11101822\n\n【题干原文】\n既是一部优秀的地理学著作，同时又具有很高的文学和历史学价值的书是",
+      "options": [
+        {
+          "key": "A",
+          "text": "齐民要术",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "水经注",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "缀术",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "农政全书",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先判史料类型（实物/文献/口述/图像）→ 再判一手/二手 → 最后评估可信度",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "dce0de8f1eac104c6ca12bdd9324260d",
+      "raw": {
+        "id": 11101822,
+        "title_html": "既是一部优秀的地理学著作，同时又具有很高的文学和历史学价值的书是",
+        "options_html": {
+          "A": "齐民要术",
+          "B": "水经注",
+          "C": "缀术",
+          "D": "农政全书"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "dce0de8f1eac104c6ca12bdd9324260d",
+        "source": "2011—2012学年度山西省临汾市初一上学期期末质量测试历史试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "承上启下的魏晋南北朝文化",
+        "year": 2011
+      }
+    },
+    {
+      "id": "TZ11101920",
+      "source": "题庄真题 · 2011—2012学年度山西省临汾市初一上学期期末质量测试历史试卷",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "历史选择",
+      "content_scope": "中国古代史",
+      "memory_type": "concept",
+      "mode": "single",
+      "stem": "下列政权中，曾一度统一黄河流域的是\n①曹魏 ②西晋 ③前秦 ④北魏 ⑤东晋",
+      "passage": "【原题出处】2011—2012学年度山西省临汾市初一上学期期末质量测试历史试卷\n【考点】三国鼎立；江南地区的开发；北方民族的融合\n【年份】2011\n【题庄题号】11101920\n\n【题干原文】\n下列政权中，曾一度统一黄河流域的是\n①曹魏 ②西晋 ③前秦 ④北魏 ⑤东晋",
+      "options": [
+        {
+          "key": "A",
+          "text": "①②③④",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "②③④⑤",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "①③⑤",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "②③④",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "09e46f06734f229c23bf1cd7e782a7c4",
+      "raw": {
+        "id": 11101920,
+        "title_html": "下列政权中，曾一度统一黄河流域的是<br>①曹魏 ②西晋 ③前秦 ④北魏 ⑤东晋",
+        "options_html": {
+          "A": "①②③④",
+          "B": "②③④⑤",
+          "C": "①③⑤",
+          "D": "②③④"
+        },
+        "answer": "A",
+        "answer_html": "A",
+        "analysis_html": "",
+        "content_hash": "09e46f06734f229c23bf1cd7e782a7c4",
+        "source": "2011—2012学年度山西省临汾市初一上学期期末质量测试历史试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "三国鼎立；江南地区的开发；北方民族的融合",
+        "year": 2011
+      }
+    },
+    {
+      "id": "TZ11102580",
+      "source": "题庄真题 · 2011-2012学年广东省连平内莞中学七年级上学期期中考试选择题历史试卷",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "历史选择",
+      "content_scope": "中国古代史",
+      "memory_type": "concept",
+      "mode": "single",
+      "stem": "对春秋时期各国的争霸战争，评价正确的是（ ）\n①争霸战争给人民带来了种种灾难\n②小国被灭，出现了一些大国，有利于国家走向统一\n③争霸过程中许多国家都通过改革加强了自身的力量\n④争霸进一步削弱和瓦解了周王室的统治地位",
+      "passage": "【原题出处】2011-2012学年广东省连平内莞中学七年级上学期期中考试选择题历史试卷\n【考点】春秋战国的纷争\n【年份】2012\n【题庄题号】11102580\n\n【题干原文】\n对春秋时期各国的争霸战争，评价正确的是（ ）\n①争霸战争给人民带来了种种灾难\n②小国被灭，出现了一些大国，有利于国家走向统一\n③争霸过程中许多国家都通过改革加强了自身的力量\n④争霸进一步削弱和瓦解了周王室的统治地位",
+      "options": [
+        {
+          "key": "A",
+          "text": "①②③④",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "②③④",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "①②③",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "①④",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "对当时 → 对后世；政治/经济/思想分层，注意程度词是否绝对化",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "61cc19c18879fce7ce280dc079e6453d",
+      "raw": {
+        "id": 11102580,
+        "title_html": "对春秋时期各国的争霸战争，评价正确的是（   ）<br>①争霸战争给人民带来了种种灾难 <br>②小国被灭，出现了一些大国，有利于国家走向统一 <br>③争霸过程中许多国家都通过改革加强了自身的力量 <br>④争霸进一步削弱和瓦解了周王室的统治地位",
+        "options_html": {
+          "A": "①②③④",
+          "B": "②③④",
+          "C": "①②③",
+          "D": "①④"
+        },
+        "answer": "A",
+        "answer_html": "A",
+        "analysis_html": "",
+        "content_hash": "61cc19c18879fce7ce280dc079e6453d",
+        "source": "2011-2012学年广东省连平内莞中学七年级上学期期中考试选择题历史试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "春秋战国的纷争",
+        "year": 2012
+      }
+    }
+  ]
+}

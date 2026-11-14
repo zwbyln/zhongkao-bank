@@ -1,0 +1,1514 @@
+{
+  "format": "zx-trainer-bank-v1",
+  "source": "题庄真题库（tizhuang.qcscience.cc）",
+  "generatedAt": "2026-11-14T01:26:04.625814+00:00",
+  "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。",
+  "stats": {
+    "usable": 20,
+    "skipped": 0,
+    "thisRun": 20,
+    "added": 20
+  },
+  "items": [
+    {
+      "id": "TZ2808687",
+      "source": "题庄真题 · 2016•夹江县模拟",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "mode": "single",
+      "stem": "下列词语中没有错别字的一项是（ ）",
+      "passage": "【原题出处】2016•夹江县模拟\n【考点】常见易错字\n【年份】2016\n【题庄题号】2808687\n\n【题干原文】\n下列词语中没有错别字的一项是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "感慨 繁闷 宽红大量 随声附和",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "铭记 肥硕 莫衷一事 洗耳恭听",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "颓唐 馈赠 断壁残园 中流砥柱",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "坍塌 沉湎 遮天蔽日 乐此不疲",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题考查了学生字形的识记和运用能力，要结合平时课文的学习来辨析字形，注意积累注释和课后的“读一读，写一写”，要根据形声字的规律辨析字形．对一些多音字、形声字、形近字能准确辨析．"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】本题考查了学生字形的识记和运用能力，要结合平时课文的学习来辨析字形，注意积累注释和课后的“读一读，写一写”，要根据形声字的规律辨析字形．对一些多音字、形声字、形近字能准确辨析．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "87c9aa6f37129d1cc181ce77fb8b9fbe",
+      "raw": {
+        "id": 2808687,
+        "title_html": "下列词语中没有错别字的一项是（　　）",
+        "options_html": {
+          "A": "感慨    繁闷      宽红大量      随声附和",
+          "B": "铭记    肥硕      莫衷一事      洗耳恭听",
+          "C": "颓唐    馈赠      断壁残园      中流砥柱",
+          "D": "坍塌    沉湎      遮天蔽日      乐此不疲"
+        },
+        "answer": "D",
+        "answer_html": "【解答】A．“繁闷”应为“烦闷”，“宽红大量”应为“宽宏大量”；<br>B．“莫衷一事”应为“莫衷一是”；<br>C．“断壁残园”应为“断壁残垣”；<br>D．全部正确．<br>故选：D",
+        "analysis_html": "【分析】本题考查了学生字形的识记和运用能力，要结合平时课文的学习来辨析字形，注意积累注释和课后的“读一读，写一写”，要根据形声字的规律辨析字形．对一些多音字、形声字、形近字能准确辨析．",
+        "content_hash": "87c9aa6f37129d1cc181ce77fb8b9fbe",
+        "source": "2016•夹江县模拟",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "常见易错字",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ2808739",
+      "source": "题庄真题 · 2016•铜山区模拟",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "mode": "single",
+      "stem": "下列各组词中加点字拼音全对的一项是（ ）",
+      "passage": "【原题出处】2016•铜山区模拟\n【考点】注音\n【年份】2016\n【题庄题号】2808739\n\n【题干原文】\n下列各组词中加点字拼音全对的一项是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "辍\n•\n\n耕（chuò） 阳夏\n•\n\n（jiǎ） 往往语\n•\n\n（yǔ） 鱼腹\n•\n\n（fǔ）",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "怫\n•\n\n然（fú） 抢\n•\n\n地（qiǎng） 休祲\n•\n\n（jìn） 缟\n•\n\n素（gǎo）",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "倾颓\n•\n\n（tuí） 存恤\n•\n\n（xù） 崩殂\n•\n\n（cú） 驽\n•\n\n钝（nǔ）",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "卑鄙\n•\n\n（bǐ） 陛\n•\n\n下（bì） 夙\n•\n\n夜（sù） 斟\n•\n\n酌（zhēn）",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题要结合字音知识来分析．解答此类问题，需要我们在平时的学习中，做好积累．对一些多音字读音要结合语境进行辨析；对于形似字，要注意观察其细微差别．"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】本题要结合字音知识来分析．解答此类问题，需要我们在平时的学习中，做好积累．对一些多音字读音要结合语境进行辨析；对于形似字，要注意观察其细微差别．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "871ba574c2d88e784a98eb51ce0bc288",
+      "raw": {
+        "id": 2808739,
+        "title_html": "下列各组词中加点字拼音全对的一项是（　　）",
+        "options_html": {
+          "A": "<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>辍</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>耕（chuò）     阳<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>夏</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（jiǎ）     往往<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>语</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（yǔ）    鱼<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>腹</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（fǔ）",
+          "B": "<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>怫</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>然（fú）       <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>抢</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>地（qiǎng）   休<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>祲</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（jìn）     <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>缟</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>素（gǎo）",
+          "C": "倾<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>颓</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（tuí）      存<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>恤</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（xù）      崩<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>殂</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（cú）      <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>驽</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>钝（nǔ）",
+          "D": "卑<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>鄙</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（bǐ）       <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>陛</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>下（bì）      <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>夙</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>夜（sù）      <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>斟</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>酌（zhēn）"
+        },
+        "answer": "D",
+        "answer_html": "【解答】A．“腹”的读音为“fù”；<br>B．“抢”的读音为“qiāng”<br>C．“驽”的读音为“nú”；<br>D．正确．<br>故选：D．",
+        "analysis_html": "【分析】本题要结合字音知识来分析．解答此类问题，需要我们在平时的学习中，做好积累．对一些多音字读音要结合语境进行辨析；对于形似字，要注意观察其细微差别．",
+        "content_hash": "871ba574c2d88e784a98eb51ce0bc288",
+        "source": "2016•铜山区模拟",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "注音",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ2808770",
+      "source": "题庄真题 · 2016•阳新县校级模拟",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "mode": "single",
+      "stem": "下列加点字的读音完全正确的一项是（ ）",
+      "passage": "【原题出处】2016•阳新县校级模拟\n【考点】注音\n【年份】2016\n【题庄题号】2808770\n\n【题干原文】\n下列加点字的读音完全正确的一项是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "逮\n•\n\n捕（ dǎi ） 炫\n•\n\n耀（xuàn） 缜\n•\n\n密（zhěn） 提纲挈\n•\n\n领（qiè）",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "粗糙\n•\n\n（cāo） 寒噤\n•\n\n（jìn） 隽\n•\n\n永（juàn） 潜\n•\n\n移默化（qián）",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题考查字音，需要结合所学和词义加以判断．"
+        },
+        {
+          "key": "C",
+          "text": "粗犷\n•\n\n（kuàng） 提\n•\n\n防（dī） 兑\n•\n\n换（duì） 忧心忡\n•\n\n忡（chōng）",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "祈\n•\n\n祷（qǐ） 挑衅\n•\n\n（xìn） 恻\n•\n\n隐（cè） 悄\n•\n\n无声息（qiǎo）",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】本题考查字音，需要结合所学和词义加以判断．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "488339c7c3b6d05fcc4077a42515544c",
+      "raw": {
+        "id": 2808770,
+        "title_html": "下列加点字的读音完全正确的一项是（　　）",
+        "options_html": {
+          "A": "<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>逮</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>捕（ dǎi ）  <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>炫</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>耀（xuàn）    <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>缜</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>密（zhěn）    提纲<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>挈</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>领（qiè）",
+          "B": "粗<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>糙</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（cāo）    寒<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>噤</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（jìn）     <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>隽</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>永（juàn）    <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>潜</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>移默化（qián）",
+          "C": "粗<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>犷</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（kuàng）  <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>提</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>防（dī）      <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>兑</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>换（duì）     忧心<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>忡</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>忡（chōng）",
+          "D": "<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>祈</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>祷（qǐ）     挑<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>衅</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（xìn）     <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>恻</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>隐（cè）      <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>悄</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>无声息（qiǎo）"
+        },
+        "answer": "B",
+        "answer_html": "【解答】A．“逮捕”应读作“dài bǔ”；<br>B．正确；<br>C．“粗犷”应读作“cū guǎng”；<br>D．“祈祷”应读作“qí dǎo”．<br>故选：B．",
+        "analysis_html": "【分析】本题考查字音，需要结合所学和词义加以判断．",
+        "content_hash": "488339c7c3b6d05fcc4077a42515544c",
+        "source": "2016•阳新县校级模拟",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "注音",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ2808845",
+      "source": "题庄真题 · 2016•辽阳校级一模",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "mode": "single",
+      "stem": "选出下列词语中加点字音形完全正确的一项．（ ）",
+      "passage": "【原题出处】2016•辽阳校级一模\n【考点】注音,常见易错字\n【年份】2016\n【题庄题号】2808845\n\n【题干原文】\n选出下列词语中加点字音形完全正确的一项．（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "融恰\n•\n\n（qià） 长吁\n•\n\n（xū）短叹 刚劲\n•\n\n（jìng） 猝\n•\n\n（cuì）然长逝",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "羁绊\n•\n\n（pàn ） 中流砥\n•\n\n（dǐ）柱 蛮横\n•\n\n（hénɡ） 嘎\n•\n\n（jiá）然而止",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "媲\n•\n\n（pì）美 引颈受戮\n•\n\n（lù） 拗\n•\n\n（ào）口 根深蒂\n•\n\n（dì）固",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题考查字音，大部分是多音字和形近字，解答时要根据意思认真作答．"
+        },
+        {
+          "key": "D",
+          "text": "绮\n•\n\n（qǐ）丽 莫衷\n•\n\n（zhōnɡ）一是 分享\n•\n\n（xiáng） 怏怏\n•\n\n（yānɡ）不乐",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】本题考查字音，大部分是多音字和形近字，解答时要根据意思认真作答．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "f151c99bc94814b9507a079e0b2c08fa",
+      "raw": {
+        "id": 2808845,
+        "title_html": "选出下列词语中加点字音形完全正确的一项．（　　）",
+        "options_html": {
+          "A": "融<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>恰</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（qià）    长<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>吁</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（xū）短叹       刚<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>劲</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（jìng）     <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>猝</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（cuì）然长逝",
+          "B": "羁<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>绊</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（pàn ）   中流<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>砥</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（dǐ）柱       蛮<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>横</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（hénɡ）     <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>嘎</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（jiá）然而止",
+          "C": "<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>媲</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（pì）美      引颈受<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>戮</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（lù）      <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>拗</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（ào）口       根深<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>蒂</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（dì）固",
+          "D": "<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>绮</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（qǐ）丽      莫<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>衷</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（zhōnɡ）一是   分<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>享</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（xiáng）    怏<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>怏</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（yānɡ）不乐"
+        },
+        "answer": "C",
+        "answer_html": "【解答】A．“融恰”应写作“融洽”，“猝然长逝”应读作“cù”；<br>B．“羁绊”应读作“jī bàn”，“横”是多音字，可读作“héng，hèng”，此处应读作“hèng”，“嘎然而止”应写作“戛然而止”；<br>C．正确；<br>D．“分享”应读作“fēn xiǎng”，“怏怏不乐”应读作“yàng yàng búlè”．<br>故选：C．",
+        "analysis_html": "【分析】本题考查字音，大部分是多音字和形近字，解答时要根据意思认真作答．",
+        "content_hash": "f151c99bc94814b9507a079e0b2c08fa",
+        "source": "2016•辽阳校级一模",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "注音,常见易错字",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ2808926",
+      "source": "题庄真题 · 2016•巴中模拟",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "mode": "single",
+      "stem": "下面各组词语中加点字注音完全正确的一项是（ ）",
+      "passage": "【原题出处】2016•巴中模拟\n【考点】注音\n【年份】2016\n【题庄题号】2808926\n\n【题干原文】\n下面各组词语中加点字注音完全正确的一项是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "静谧\n•\n\n（mÌ） 拮据\n•\n\n（jū） 沉湎\n•\n\n（miăn） 鳞次栉\n•\n\n比（jié）",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "山坡\n•\n\n（pō） 冗\n•\n\n杂（rŏng） 娴\n•\n\n熟（xián） 气冲斗\n•\n\n牛（dŏu）",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题考查字音，需要结合所学和词义加以判断．"
+        },
+        {
+          "key": "C",
+          "text": "犷\n•\n\n野（guăng） 阴霾\n•\n\n（mái） 禁锢\n•\n\n（ɡù） 叱咤\n•\n\n风云（chà）",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "案牍\n•\n\n（dŭ） 剽\n•\n\n悍（biāo） 倒坍\n•\n\n（tān） 戛\n•\n\n然而止（jiá）",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】本题考查字音，需要结合所学和词义加以判断．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "74b77e5e194817b255e41f3324485692",
+      "raw": {
+        "id": 2808926,
+        "title_html": "下面各组词语中加点字注音完全正确的一项是（　　）",
+        "options_html": {
+          "A": "静<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>谧</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（mÌ）     拮<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>据</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（jū）     沉<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>湎</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（miăn）    鳞次<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>栉</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>比（jié）",
+          "B": "山<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>坡</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（pō）     <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>冗</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>杂（rŏng）   <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>娴</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>熟（xián）    气冲<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>斗</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>牛（dŏu）",
+          "C": "<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>犷</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>野（guăng）  阴<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>霾</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（mái）    禁<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>锢</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（ɡù）      叱<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>咤</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>风云（chà）",
+          "D": "案<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>牍</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（dŭ）     <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>剽</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>悍（biāo）   倒<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>坍</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（tān）     <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>戛</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>然而止（jiá）"
+        },
+        "answer": "B",
+        "answer_html": "【解答】A．“鳞次栉比”应读作“lín cì zhì bǐ”；<br>B．正确；<br>C“叱咤风云”应读作“chì zhà fēng yún”；<br>D．“案牍”应读作“àn dú”，“剽悍”应读作“piāo hàn”．<br>故选：B．",
+        "analysis_html": "【分析】本题考查字音，需要结合所学和词义加以判断．",
+        "content_hash": "74b77e5e194817b255e41f3324485692",
+        "source": "2016•巴中模拟",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "注音",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ2809012",
+      "source": "题庄真题 · 2016春•丹江口市期中",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "mode": "single",
+      "stem": "下列选项中字形完全正确的一项是（ ）",
+      "passage": "【原题出处】2016春•丹江口市期中\n【考点】常见易错字\n【年份】2016\n【题庄题号】2809012\n\n【题干原文】\n下列选项中字形完全正确的一项是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "惕透 颤动 褪色 迷迷糊糊 相得益彰",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "揩油 谐调 感慨 断垣颓壁 中西合璧",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题要结合平时的课文学习来辨析字音字形．要结合汉字的拼写规则掌握字的读音，要根据形声字的规律辨析字形．对一些多音字、形声字、形近字能准确辨析．"
+        },
+        {
+          "key": "C",
+          "text": "巉岩 森郁 装潢 接踵磨肩 重檐翼馆",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "竣工 重幔 梭镖 怒形于色 著作登身",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】本题要结合平时的课文学习来辨析字音字形．要结合汉字的拼写规则掌握字的读音，要根据形声字的规律辨析字形．对一些多音字、形声字、形近字能准确辨析．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "2af33c844c087a73520101df6d6c27e7",
+      "raw": {
+        "id": 2809012,
+        "title_html": "下列选项中字形完全正确的一项是（　　）",
+        "options_html": {
+          "A": "惕透  颤动  褪色  迷迷糊糊   相得益彰",
+          "B": "揩油  谐调  感慨  断垣颓壁   中西合璧",
+          "C": "巉岩 森郁  装潢  接踵磨肩   重檐翼馆",
+          "D": "竣工  重幔  梭镖  怒形于色   著作登身"
+        },
+        "answer": "B",
+        "answer_html": "【解答】A．“惕透”应该是“剔透”；<br>B．正确；<br>C．“接踵磨肩”应为“接踵摩肩”；<br>D．“著作登身”应为“著作等身”；<br>故选B．",
+        "analysis_html": "【分析】本题要结合平时的课文学习来辨析字音字形．要结合汉字的拼写规则掌握字的读音，要根据形声字的规律辨析字形．对一些多音字、形声字、形近字能准确辨析．",
+        "content_hash": "2af33c844c087a73520101df6d6c27e7",
+        "source": "2016春•丹江口市期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "常见易错字",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ2809037",
+      "source": "题庄真题 · 2016•德州校级二模",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "mode": "single",
+      "stem": "下列各组词语中，加点字的注音不全正确的一项是（ ）",
+      "passage": "【原题出处】2016•德州校级二模\n【考点】注音\n【年份】2016\n【题庄题号】2809037\n\n【题干原文】\n下列各组词语中，加点字的注音不全正确的一项是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "迁徙（xǐ） 迸裂（bèng） 骨碌碌（lūlū） 岿然不动（kuī）",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "荫庇（bì） 恐吓（hè） 绊脚石（jiǎo） 义愤填膺（yīng）",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "物候（hòu） 唠叨（láo） 入场券（quàn） 茅塞顿开（sè）",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "潮汛（xùn） 追溯（shù） 一霎时 （shà） 心有余悸（jì）",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本道题考查学生的拼音识别辨析能力．"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】本道题考查学生的拼音识别辨析能力．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "d9e77cedf8be42c2802bffc667b639f4",
+      "raw": {
+        "id": 2809037,
+        "title_html": "下列各组词语中，加点字的注音不全正确的一项是（　　）",
+        "options_html": {
+          "A": "迁<u>徙</u>（xǐ）      <u>迸</u>裂（bèng）      骨<u>碌碌</u>（lūlū）    <u>岿</u>然不动（kuī）",
+          "B": "荫<u>庇</u>（bì）      恐<u>吓</u>（hè）        绊<u>脚</u>石（jiǎo）    义愤填<u>膺</u>（yīng）",
+          "C": "物<u>候</u>（hòu）     <u>唠</u>叨（láo）       入场<u>券</u>（quàn）    茅<u>塞</u>顿开（sè）",
+          "D": "潮<u>汛</u>（xùn）     追<u>溯</u>（shù）       一<u>霎</u>时 （shà）    心有余<u>悸</u>（jì）"
+        },
+        "answer": "D",
+        "answer_html": "【解答】A．正确．<br>B正确．<br>C．正确．<br>D追溯中的溯应读sù．<br>故选D．",
+        "analysis_html": "【分析】本道题考查学生的拼音识别辨析能力．",
+        "content_hash": "d9e77cedf8be42c2802bffc667b639f4",
+        "source": "2016•德州校级二模",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "注音",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ2809042",
+      "source": "题庄真题 · 2016•仪征市一模",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "mode": "single",
+      "stem": "下列各项判断与分析中，正确的一项是（ ）",
+      "passage": "【原题出处】2016•仪征市一模\n【考点】字典、词典的使用,短语类型\n【年份】2016\n【题庄题号】2809042\n\n【题干原文】\n下列各项判断与分析中，正确的一项是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "“亲”“尘”“羊”“舌”这四个字都是上下结构",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "“险象迭生”“独立思考”“沧海桑田”“大名鼎鼎”四个短语结构各不相同",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "“鲁迅从年轻时代起，就立下了‘我以我血荐轩辕’的宏伟志向．”这个句子的主干是“鲁迅立下志向”",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本道题考查学生的语法知识．"
+        },
+        {
+          "key": "D",
+          "text": "“只有每一个扬州人都自觉遵守文明礼仪规范，才能将扬州建设成为真正意义上的‘文明城市’，扬州也才能真正彰显它迷人的魅力．”这个复句的第一层是递进关系",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】本道题考查学生的语法知识．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "aac74162eadbf63c1739793ad9dca3e3",
+      "raw": {
+        "id": 2809042,
+        "title_html": "下列各项判断与分析中，正确的一项是（　　）",
+        "options_html": {
+          "A": "“亲”“尘”“羊”“舌”这四个字都是上下结构",
+          "B": "“险象迭生”“独立思考”“沧海桑田”“大名鼎鼎”四个短语结构各不相同",
+          "C": "“鲁迅从年轻时代起，就立下了‘我以我血荐轩辕’的宏伟志向．”这个句子的主干是“鲁迅立下志向”",
+          "D": "“只有每一个扬州人都自觉遵守文明礼仪规范，才能将扬州建设成为真正意义上的‘文明城市’，扬州也才能真正彰显它迷人的魅力．”这个复句的第一层是递进关系"
+        },
+        "answer": "C",
+        "answer_html": "【解答】A．“羊”是独体结构；<br>B．“险象迭生”与“大名鼎鼎”均为主谓短语；<br>C．正确；<br>D．“只有…才“是条件假设关系，不是递进关系．<br>故选：C",
+        "analysis_html": "【分析】本道题考查学生的语法知识．",
+        "content_hash": "aac74162eadbf63c1739793ad9dca3e3",
+        "source": "2016•仪征市一模",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "字典、词典的使用,短语类型",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ2809126",
+      "source": "题庄真题 · 2015秋•阳江期中",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "mode": "single",
+      "stem": "选出依次填入下面句中横线处的词语最恰当的一项是（ ）\n世间许多平凡之辈，都拥有一些小小的优点， 由于自卑等原因常常被忽略了， 不要说是一点点地放大它了．每个平淡无奇的生命中，都蕴藏着一座丰富的金矿， 肯挖掘，沿着它 会挖出令自己都惊讶不已的宝藏…",
+      "passage": "【原题出处】2015秋•阳江期中\n【考点】关联词语\n【年份】2015\n【题庄题号】2809126\n\n【题干原文】\n选出依次填入下面句中横线处的词语最恰当的一项是（ ）\n世间许多平凡之辈，都拥有一些小小的优点， 由于自卑等原因常常被忽略了， 不要说是一点点地放大它了．每个平淡无奇的生命中，都蕴藏着一座丰富的金矿， 肯挖掘，沿着它 会挖出令自己都惊讶不已的宝藏…",
+      "options": [
+        {
+          "key": "A",
+          "text": "而且 所以 即使 也",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "而且 更 只要 也",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "但是 所以 即使 就",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "但是 更 只要 就",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】此题考查学生正确使用关联词语的能力．解答此题要弄清关联词的固定搭配，及常用用法，结合句段内容去选择，解答后要通读确认．关联词有：只要就，表条件；如果就，如果那么，表假设；因为所以，表因果；不仅还（也），表并列；虽然但是，表转折等．"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】此题考查学生正确使用关联词语的能力．解答此题要弄清关联词的固定搭配，及常用用法，结合句段内容去选择，解答后要通读确认．关联词有：只要就，表条件；如果就，如果那么，表假设；因为所以，表因果；不仅还（也），表并列；虽然但是，表转折等．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "5668778ed088d7d56b413a5b4564b363",
+      "raw": {
+        "id": 2809126,
+        "title_html": "选出依次填入下面句中横线处的词语最恰当的一项是（　　）<br>    世间许多平凡之辈，都拥有一些小小的优点，<u>         </u>  由于自卑等原因常常被忽略了，<u>         </u> 不要说是一点点地放大它了．每个平淡无奇的生命中，都蕴藏着一座丰富的金矿，<u>         </u> 肯挖掘，沿着它<u>         </u> 会挖出令自己都惊讶不已的宝藏…",
+        "options_html": {
+          "A": "而且 所以  即使 也",
+          "B": "而且 更  只要 也",
+          "C": "但是 所以 即使 就",
+          "D": "但是 更  只要 就"
+        },
+        "answer": "D",
+        "answer_html": "【解答】第一空前讲的是人人都有一些小小优点，而空后一句讲的是“自卑，显然前后句意不同，表转折，可考虑转折词“但是”；<br>“一点点放大”显然是前一句句意的递进，可考虑“更”一词；<br>“丰富的金矿”深埋地下，需要挖掘才能显露出来，“挖掘”是条件，考虑“只要就”<br>答案：D．",
+        "analysis_html": "【分析】此题考查学生正确使用关联词语的能力．解答此题要弄清关联词的固定搭配，及常用用法，结合句段内容去选择，解答后要通读确认．关联词有：只要就，表条件；如果就，如果那么，表假设；因为所以，表因果；不仅还（也），表并列；虽然但是，表转折等．",
+        "content_hash": "5668778ed088d7d56b413a5b4564b363",
+        "source": "2015秋•阳江期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "关联词语",
+        "year": 2015
+      }
+    },
+    {
+      "id": "TZ2809177",
+      "source": "题庄真题 · 2015秋•锡山区期中",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "mode": "single",
+      "stem": "下列各组词语中读音和书写有错误的一项是（ ）",
+      "passage": "【原题出处】2015秋•锡山区期中\n【考点】易误读常见字,常见易错字\n【年份】2015\n【题庄题号】2809177\n\n【题干原文】\n下列各组词语中读音和书写有错误的一项是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "阔绰（chuò） 浮光掠（lüè）影",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "地壳（qiào） 一筹（chóu）莫展",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "殷（yīn）红 消（xiāo）声匿迹",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题注音题要结合平时课文中所学词语来辩析字音，要结合汉字的拼写规则来掌握字的读音，对一些多音字、形近字、形声字要能准确辨析；写汉字题要注意形近字、同音字辨析．此类题关键是平时的积累，积累生字词，要注意字词的音形义．"
+        },
+        {
+          "key": "D",
+          "text": "恣睢（suī） 言简意赅（ɡāi）",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】本题注音题要结合平时课文中所学词语来辩析字音，要结合汉字的拼写规则来掌握字的读音，对一些多音字、形近字、形声字要能准确辨析；写汉字题要注意形近字、同音字辨析．此类题关键是平时的积累，积累生字词，要注意字词的音形义．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "40655fe8a9c813fbff15eab94cd4d7e9",
+      "raw": {
+        "id": 2809177,
+        "title_html": "下列各组词语中读音和书写有错误的一项是（　　）",
+        "options_html": {
+          "A": "阔绰（chuò）  浮光掠（lüè）影",
+          "B": "地壳（qiào）  一筹（chóu）莫展",
+          "C": "殷（yīn）红   消（xiāo）声匿迹",
+          "D": "恣睢（suī）   言简意赅（ɡāi）"
+        },
+        "answer": "C",
+        "answer_html": "【解答】A．正确，不要把“阔绰”选择“阔辍”；<br>B．正确，不要把“地壳”的“壳”读作“ké”；<br>C．“殷”是多音字，可读作“yīn，yān，yǐn”，此处应读作“yān”，“消声匿迹”应写作“销声匿迹”；<br>D．不要把“恣睢”选择“姿睢”．<br>故选：C．",
+        "analysis_html": "【分析】本题注音题要结合平时课文中所学词语来辩析字音，要结合汉字的拼写规则来掌握字的读音，对一些多音字、形近字、形声字要能准确辨析；写汉字题要注意形近字、同音字辨析．此类题关键是平时的积累，积累生字词，要注意字词的音形义．",
+        "content_hash": "40655fe8a9c813fbff15eab94cd4d7e9",
+        "source": "2015秋•锡山区期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "易误读常见字,常见易错字",
+        "year": 2015
+      }
+    },
+    {
+      "id": "TZ2809207",
+      "source": "题庄真题 · 2016•柘城县校级模拟",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "mode": "single",
+      "stem": "下列词语中没有错别字的一项是（ ）",
+      "passage": "【原题出处】2016•柘城县校级模拟\n【考点】常见易错字\n【年份】2016\n【题庄题号】2809207\n\n【题干原文】\n下列词语中没有错别字的一项是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "提纲挈领 一泄千里 弄巧成拙 谈笑风生",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "不屈不挠 言简意赅 遐思迩想 流连忘返",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题要结合字形知识来分析．在我们平时的学习中，要注意根据同音字的读音进行归纳，对于形似字的特点进行总结．"
+        },
+        {
+          "key": "C",
+          "text": "讳疾忌医 恪尽职守 再接再励 名列前茅",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "获益匪浅 迫不急待 嫉恶如仇 粗制滥造",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】本题要结合字形知识来分析．在我们平时的学习中，要注意根据同音字的读音进行归纳，对于形似字的特点进行总结．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "8c684f27c9ec967ec844777f26341a13",
+      "raw": {
+        "id": 2809207,
+        "title_html": "下列词语中没有错别字的一项是（　　）",
+        "options_html": {
+          "A": "提纲挈领    一泄千里    弄巧成拙    谈笑风生",
+          "B": "不屈不挠    言简意赅    遐思迩想    流连忘返",
+          "C": "讳疾忌医    恪尽职守    再接再励    名列前茅",
+          "D": "获益匪浅    迫不急待    嫉恶如仇    粗制滥造"
+        },
+        "answer": "B",
+        "answer_html": "【解答】A．“一泄千里”应为“一泻千里”；<br>B．正确；<br>C．“再接再励”应为“再接再厉”；<br>D．“迫不急”应为“迫不及待”．<br>故选：B．",
+        "analysis_html": "【分析】本题要结合字形知识来分析．在我们平时的学习中，要注意根据同音字的读音进行归纳，对于形似字的特点进行总结．",
+        "content_hash": "8c684f27c9ec967ec844777f26341a13",
+        "source": "2016•柘城县校级模拟",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "常见易错字",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ2809270",
+      "source": "题庄真题 · 2016•营口一模",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "mode": "single",
+      "stem": "对语法分析不正确的一项（ ）",
+      "passage": "【原题出处】2016•营口一模\n【考点】短语类型,病句辨析与修改\n【年份】2016\n【题庄题号】2809270\n\n【题干原文】\n对语法分析不正确的一项（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "“新荷才露田田叶，垂柳始曳丝丝烟”．这句诗运用的修辞手法是对偶",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "“他由于肯努力，因此进步很快．”一句是转折关系",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题考查修辞的辨析和短语类型的把握，以及病句修改和复句关系的辨析．掌握并列短语、动宾短语、主谓短语、偏正短语四种短语类型；复句包括递进关系、并列关系、选择关系、递进关系、假设关系等关系；能辨析常见病句及常用修辞．"
+        },
+        {
+          "key": "C",
+          "text": "“为了培养学生生活技能，举办了一场别开生面的技能大赛．”句子有语病，修改办法是：在“举办”前加“学校”",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "“聪明伶俐”“开飞机”“印象不错”“美丽的花“四个短语结构各不相同",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】本题考查修辞的辨析和短语类型的把握，以及病句修改和复句关系的辨析．掌握并列短语、动宾短语、主谓短语、偏正短语四种短语类型；复句包括递进关系、并列关系、选择关系、递进关系、假设关系等关系；能辨析常见病句及常用修辞．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "4511cf5b93da10986c4ec89e59f8dbfa",
+      "raw": {
+        "id": 2809270,
+        "title_html": "对语法分析不正确的一项（　　）",
+        "options_html": {
+          "A": "“新荷才露田田叶，垂柳始曳丝丝烟”．这句诗运用的修辞手法是对偶",
+          "B": "“他由于肯努力，因此进步很快．”一句是转折关系",
+          "C": "“为了培养学生生活技能，举办了一场别开生面的技能大赛．”句子有语病，修改办法是：在“举办”前加“学校”",
+          "D": "“聪明伶俐”“开飞机”“印象不错”“美丽的花“四个短语结构各不相同"
+        },
+        "answer": "B",
+        "answer_html": "【解答】A．正确；<br>B．“他由于肯努力，因此进步很快．”一句是因果关系；<br>C．正确；<br>D．正确．<br>故选：B．",
+        "analysis_html": "【分析】本题考查修辞的辨析和短语类型的把握，以及病句修改和复句关系的辨析．掌握并列短语、动宾短语、主谓短语、偏正短语四种短语类型；复句包括递进关系、并列关系、选择关系、递进关系、假设关系等关系；能辨析常见病句及常用修辞．",
+        "content_hash": "4511cf5b93da10986c4ec89e59f8dbfa",
+        "source": "2016•营口一模",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "短语类型,病句辨析与修改",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ2809308",
+      "source": "题庄真题 · 2015秋•遵化市期中",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "mode": "single",
+      "stem": "下面选项中按照拼音写出汉字不正确的一项是（ ）",
+      "passage": "【原题出处】2015秋•遵化市期中\n【考点】根据拼音写字词\n【年份】2015\n【题庄题号】2809308\n\n【题干原文】\n下面选项中按照拼音写出汉字不正确的一项是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "这时候，我的脑里忽然闪现出一fú（幅）神异的图画来…",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "我莫mínɡ（明）其妙，不懂得岸是什么，沙土和石头有什么可怕",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题考查学生汉字字形的把握，注意平时的积累．"
+        },
+        {
+          "key": "C",
+          "text": "西风残照，shuāi（衰）草离披，满目荒凉，毫无生气",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "它…上面开满鲜花，没有十字架，没有墓碑，没有墓志mínɡ（铭）…",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】本题考查学生汉字字形的把握，注意平时的积累．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "2cd1ed149c57b8dce3191ae377d344f1",
+      "raw": {
+        "id": 2809308,
+        "title_html": "下面选项中按照拼音写出汉字不正确的一项是（　　）",
+        "options_html": {
+          "A": "这时候，我的脑里忽然闪现出一fú（幅）神异的图画来…",
+          "B": "我莫mínɡ（明）其妙，不懂得岸是什么，沙土和石头有什么可怕",
+          "C": "西风残照，shuāi（衰）草离披，满目荒凉，毫无生气",
+          "D": "它…上面开满鲜花，没有十字架，没有墓碑，没有墓志mínɡ（铭）…"
+        },
+        "answer": "B",
+        "answer_html": "【解答】A．正确；<br>B．“明”应为改为“名”；<br>C．正确；<br>D．正确．<br>故选：B．",
+        "analysis_html": "【分析】本题考查学生汉字字形的把握，注意平时的积累．",
+        "content_hash": "2cd1ed149c57b8dce3191ae377d344f1",
+        "source": "2015秋•遵化市期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "根据拼音写字词",
+        "year": 2015
+      }
+    },
+    {
+      "id": "TZ2809390",
+      "source": "题庄真题 · 2016•汶上县校级模拟",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "mode": "single",
+      "stem": "下列加点字中注音有误的一项（ ）",
+      "passage": "【原题出处】2016•汶上县校级模拟\n【考点】注音\n【年份】2016\n【题庄题号】2809390\n\n【题干原文】\n下列加点字中注音有误的一项（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "襁\n•\n\n褓（qiǎnɡ） 模\n•\n\n样（mú） 炽\n•\n\n痛（chì） 叱咤\n•\n\n风云（zhà）",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "气氛\n•\n\n（fèn） 殷\n•\n\n红（yān） 解剖\n•\n\n（pōu） 戛\n•\n\n然而止（jiá）",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题考查字音，需要结合所学和词义加以判断．"
+        },
+        {
+          "key": "C",
+          "text": "字帖\n•\n\n（tiè） 撷\n•\n\n取（xié） 亢\n•\n\n奋（kànɡ） 忧心忡\n•\n\n忡（chōnɡ）",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "疟\n•\n\n子\n•\n\n（yàozi） 脸颊\n•\n\n（jiá） 湖泊\n•\n\n（pō） 浑身解\n•\n\n数（xiè）",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】本题考查字音，需要结合所学和词义加以判断．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "b1f0f67658b9ee657eebb14bfb18e7ab",
+      "raw": {
+        "id": 2809390,
+        "title_html": "下列加点字中注音有误的一项（　　）",
+        "options_html": {
+          "A": "<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>襁</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>褓（qiǎnɡ） <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>模</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>样（mú）   <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>炽</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>痛（chì）   叱<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>咤</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>风云（zhà）",
+          "B": "气<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>氛</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（fèn）   <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>殷</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>红（yān）  解<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>剖</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（pōu）   <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>戛</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>然而止（jiá）",
+          "C": "字<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>帖</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（tiè）   <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>撷</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>取（xié）  <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>亢</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>奋（kànɡ）  忧心<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>忡</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>忡（chōnɡ）",
+          "D": "<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>疟</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table><table style=\"margin-right:1px\"><tr><td>子</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（yàozi） 脸<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>颊</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（jiá）  湖<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>泊</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（pō）    浑身<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>解</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>数（xiè）"
+        },
+        "answer": "B",
+        "answer_html": "【解答】A．正确，不要把“炽痛”的“炽”读作“zhì”；<br>B．“气氛”应读作“qì fēn”；<br>C．正确，不要把“撷取”的“撷”读作“jié”；<br>D．正确，不要把“脸颊”的“颊”读作“xiá”．<br>故选：B．",
+        "analysis_html": "【分析】本题考查字音，需要结合所学和词义加以判断．",
+        "content_hash": "b1f0f67658b9ee657eebb14bfb18e7ab",
+        "source": "2016•汶上县校级模拟",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "注音",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ2809400",
+      "source": "题庄真题 · 2016春•蓬溪县期中",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "mode": "single",
+      "stem": "下列词语书写没有错误的一项是（ ）",
+      "passage": "【原题出处】2016春•蓬溪县期中\n【考点】常见易错字\n【年份】2016\n【题庄题号】2809400\n\n【题干原文】\n下列词语书写没有错误的一项是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "博学 花圃 屏障 来势凶凶",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "狂澜 书墅 懊悔 妇孺皆知",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "谰语 彷徨 踌躇 人声鼎沸",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题考查了学生字形的识记和运用能力，要结合平时课文的学习来辨析字形，注意积累注释和课后的“读一读，写一写”，要根据形声字的规律辨析字形．对一些多音字、形声字、形近字能准确辨析．"
+        },
+        {
+          "key": "D",
+          "text": "田垄 赫然 红装 慷慨淋漓",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】本题考查了学生字形的识记和运用能力，要结合平时课文的学习来辨析字形，注意积累注释和课后的“读一读，写一写”，要根据形声字的规律辨析字形．对一些多音字、形声字、形近字能准确辨析．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "4f609f6fadf20132d003f04f22b9a10a",
+      "raw": {
+        "id": 2809400,
+        "title_html": "下列词语书写没有错误的一项是（　　）",
+        "options_html": {
+          "A": "博学     花圃      屏障     来势凶凶",
+          "B": "狂澜     书墅      懊悔     妇孺皆知",
+          "C": "谰语     彷徨      踌躇     人声鼎沸",
+          "D": "田垄     赫然      红装     慷慨淋漓"
+        },
+        "answer": "C",
+        "answer_html": "【解答】A．“来势凶凶”应为“来势汹汹”；<br>B．“书墅”应为“书塾”；<br>C．全部正确；<br>D．“红装”应为“红妆”，．<br>故选：C",
+        "analysis_html": "【分析】本题考查了学生字形的识记和运用能力，要结合平时课文的学习来辨析字形，注意积累注释和课后的“读一读，写一写”，要根据形声字的规律辨析字形．对一些多音字、形声字、形近字能准确辨析．",
+        "content_hash": "4f609f6fadf20132d003f04f22b9a10a",
+        "source": "2016春•蓬溪县期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "常见易错字",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ2809434",
+      "source": "题庄真题 · 2016•朝阳二模",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "mode": "single",
+      "stem": "下列词语中，只有一个词没有错别字的一项是（ ）",
+      "passage": "【原题出处】2016•朝阳二模\n【考点】常见易错字\n【年份】2016\n【题庄题号】2809434\n\n【题干原文】\n下列词语中，只有一个词没有错别字的一项是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "浪废 好高鹜远 甘败下风 消声匿迹",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "松驰 再接再励 唯妙唯肖 不记其数",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "凛冽 出奇不意 名符其实 题纲挈领",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题考查字形辨析，解答时要认真审题，结合句意判断题中所用词语的正确与否．对一些形近字要做到准确辨析，明确它们的异同及用法．"
+        },
+        {
+          "key": "D",
+          "text": "急燥 眼花潦乱 相辅相承 按步就班",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】本题考查字形辨析，解答时要认真审题，结合句意判断题中所用词语的正确与否．对一些形近字要做到准确辨析，明确它们的异同及用法．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "33b164f526f1215ea11300a67ad5aef7",
+      "raw": {
+        "id": 2809434,
+        "title_html": "下列词语中，只有一个词没有错别字的一项是（　　）",
+        "options_html": {
+          "A": "浪废        好高鹜远         甘败下风         消声匿迹",
+          "B": "松驰        再接再励         唯妙唯肖         不记其数",
+          "C": "凛冽        出奇不意         名符其实         题纲挈领",
+          "D": "急燥        眼花潦乱         相辅相承         按步就班"
+        },
+        "answer": "C",
+        "answer_html": "【解答】A．“浪废”应写作“浪费”，“好高鹜远”应写作“好高骛远”，“甘败下风”应写作“甘拜下风”，“消声匿迹”应写作“销声匿迹”；<br>B．“松驰”应写作“松弛”，“再接再励”应写作“再接再厉”，“唯妙唯肖”应写作“惟妙惟肖”，“不记其数”应写作“不计其数”；<br>C．“出奇不意”应写作“出其不意”，“名符其实”应写作“名副其实”，“题纲挈领”应写作“提纲挈领”；<br>D．“急燥”应写作“急躁”，“眼花潦乱”应写作“眼花缭乱”，“相辅相承”应写作“相辅相成”，“按步就班”应写作“按部就班”．<br>故选：C．",
+        "analysis_html": "【分析】本题考查字形辨析，解答时要认真审题，结合句意判断题中所用词语的正确与否．对一些形近字要做到准确辨析，明确它们的异同及用法．",
+        "content_hash": "33b164f526f1215ea11300a67ad5aef7",
+        "source": "2016•朝阳二模",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "常见易错字",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ2809451",
+      "source": "题庄真题 · 2016•克拉玛依校级一模",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "mode": "single",
+      "stem": "下列词语中有错别字的一项是（ ）",
+      "passage": "【原题出处】2016•克拉玛依校级一模\n【考点】常见易错字\n【年份】2016\n【题庄题号】2809451\n\n【题干原文】\n下列词语中有错别字的一项是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "端详 亲和力 两全其美 一如既往",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "捍卫 必需品 入不敷出 不屑置辩",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "松弛 名信片 直截了当 变本加利",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题考查了字形辨析．学生要注意辨析字形，认清字的结构；每个字的笔画，既不能多，也不能少，更不能出错；还要注意字的笔顺．"
+        },
+        {
+          "key": "D",
+          "text": "抱负 入场券 不胫而走 各行其是",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】本题考查了字形辨析．学生要注意辨析字形，认清字的结构；每个字的笔画，既不能多，也不能少，更不能出错；还要注意字的笔顺．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "0050eee1b8b8013e09695073f1a6559d",
+      "raw": {
+        "id": 2809451,
+        "title_html": "下列词语中有错别字的一项是（　　）",
+        "options_html": {
+          "A": "端详    亲和力    两全其美    一如既往",
+          "B": "捍卫    必需品    入不敷出    不屑置辩",
+          "C": "松弛    名信片    直截了当    变本加利",
+          "D": "抱负    入场券    不胫而走    各行其是"
+        },
+        "answer": "C",
+        "answer_html": "【解答】A．字形全部正确；<br>B．字形全部正确，<br>C．“变本加利”应为“变本加厉”；<br>D．字形全部正确．<br>故选C．",
+        "analysis_html": "【分析】本题考查了字形辨析．学生要注意辨析字形，认清字的结构；每个字的笔画，既不能多，也不能少，更不能出错；还要注意字的笔顺．",
+        "content_hash": "0050eee1b8b8013e09695073f1a6559d",
+        "source": "2016•克拉玛依校级一模",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "常见易错字",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ2809464",
+      "source": "题庄真题 · 2016•卢龙县模拟",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "mode": "single",
+      "stem": "下面各组词语中加点字的读音，完全正确的一项是（ ）",
+      "passage": "【原题出处】2016•卢龙县模拟\n【考点】注音\n【年份】2016\n【题庄题号】2809464\n\n【题干原文】\n下面各组词语中加点字的读音，完全正确的一项是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "拮据\n•\n\n（jū） 惬\n•\n\n（qiè）意 歉疚\n•\n\n（jiū） 高屋建瓴\n•\n\n（línɡ）",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "遨\n•\n\n（ào）游 湍\n•\n\n（tuān）急 颔\n•\n\n（hàn）首 扣人心弦\n•\n\n（xián）",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "安抚\n•\n\n（fǔ） 颠簸\n•\n\n（bǒ） 应\n•\n\n（yīnɡ）届 气冲斗\n•\n\n（dǒu）牛",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】此题考查学生的字音问题，解答此题的关键是把握课文中的字词，踏踏实实地读、写，把握不准的要养成查字典的好习惯．"
+        },
+        {
+          "key": "D",
+          "text": "咀\n•\n\n（jǔ）嚼 羁\n•\n\n（jī）绊 慰藉\n•\n\n（jiè） 茅塞\n•\n\n顿开（sài）",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】此题考查学生的字音问题，解答此题的关键是把握课文中的字词，踏踏实实地读、写，把握不准的要养成查字典的好习惯．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "7791ca4fda854f746037917b9eb39283",
+      "raw": {
+        "id": 2809464,
+        "title_html": "下面各组词语中加点字的读音，完全正确的一项是（　　）",
+        "options_html": {
+          "A": "拮<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>据</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（jū）    <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>惬</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（qiè）意     歉<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>疚</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（jiū）      高屋建<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>瓴</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（línɡ）",
+          "B": "<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>遨</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（ào）游    <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>湍</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（tuān）急    <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>颔</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（hàn）首      扣人心<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>弦</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（xián）",
+          "C": "安<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>抚</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（fǔ）    颠<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>簸</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（bǒ）      <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>应</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（yīnɡ）届     气冲<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>斗</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（dǒu）牛",
+          "D": "<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>咀</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（jǔ）嚼    <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>羁</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（jī）绊      慰<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>藉</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（jiè）      茅<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>塞</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>顿开（sài）"
+        },
+        "answer": "C",
+        "answer_html": "【解答】A．“歉疚”应读作“qiàn jiù”；<br>B．“遨游”应读作“áo yóu”，“湍急”应读作“tuān jí”；<br>C．正确；<br>D．“塞”是多音字，可读作“sài，sè，sāi”，此处应读作“sè”．<br>故选：C．",
+        "analysis_html": "【分析】此题考查学生的字音问题，解答此题的关键是把握课文中的字词，踏踏实实地读、写，把握不准的要养成查字典的好习惯．",
+        "content_hash": "7791ca4fda854f746037917b9eb39283",
+        "source": "2016•卢龙县模拟",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "注音",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ2809484",
+      "source": "题庄真题 · 2016•高安市二模",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "mode": "single",
+      "stem": "下列字形和加点字注音全部正确的一项是（ ）",
+      "passage": "【原题出处】2016•高安市二模\n【考点】注音,常见易错字\n【年份】2016\n【题庄题号】2809484\n\n【题干原文】\n下列字形和加点字注音全部正确的一项是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "玄\n•\n\n虚（xián） 媲\n•\n\n美（pì） 阴霾\n•\n\n（mái） 更深蒂\n•\n\n固（dì）",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "渺\n•\n\n茫（miǎo） 愧怍\n•\n\n（zuó） 疑\n•\n\n虑（ní） 消声匿\n•\n\n迹（nì）",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "给\n•\n\n事（jǐ） 洗涤\n•\n\n（dí） 恣睢\n•\n\n（suī） 虎视眈耽\n•\n\n（dān）",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题要结合平时课文中所学词语来辩析字音，要结合汉字的拼写规则来掌握字的读音，对一些多音字、形近字、形声字要能准确辨析．"
+        },
+        {
+          "key": "D",
+          "text": "地窖\n•\n\n（jiào） 恪\n•\n\n守（gé） 藉\n•\n\n贯（jí） 睡眼惺\n•\n\n忪（xīng）",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】本题要结合平时课文中所学词语来辩析字音，要结合汉字的拼写规则来掌握字的读音，对一些多音字、形近字、形声字要能准确辨析．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "16f8031c311d4dbff7b6db8e05675a88",
+      "raw": {
+        "id": 2809484,
+        "title_html": "下列字形和加点字注音全部正确的一项是（　　）",
+        "options_html": {
+          "A": "<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>玄</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>虚（xián）  　  <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>媲</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>美（pì）　    阴<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>霾</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（mái）　   更深<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>蒂</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>固（dì）",
+          "B": "<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>渺</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>茫（miǎo） 　   愧<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>怍</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（zuó）　   <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>疑</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>虑（ní）　    消声<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>匿</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>迹（nì）",
+          "C": "<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>给</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>事（jǐ）　      洗<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>涤</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（dí）　    恣<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>睢</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（suī）　   虎视眈<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>耽</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（dān）",
+          "D": "地<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>窖</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>（jiào）　    <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>恪</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>守（gé）　    <span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>藉</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>贯（jí）  　  睡眼<span class=\"MathJye\" mathtag=\"math\"><table style=\"margin-right:1px\"><tr><td>惺</td></tr><tr><td style=\"font-size:90%\">•</td></tr></table></span>忪（xīng）"
+        },
+        "answer": "C",
+        "answer_html": "【解答】A．错误．玄虚xuán；<br>B．错误．愧怍zuó，疑虑yí；<br>C．正确．<br>D．错误．恪守kè；<br>故选C．",
+        "analysis_html": "【分析】本题要结合平时课文中所学词语来辩析字音，要结合汉字的拼写规则来掌握字的读音，对一些多音字、形近字、形声字要能准确辨析．",
+        "content_hash": "16f8031c311d4dbff7b6db8e05675a88",
+        "source": "2016•高安市二模",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "注音,常见易错字",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ2809505",
+      "source": "题庄真题 · 2016•市中区一模",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "mode": "single",
+      "stem": "下列词语中没有错别字的一项是（ ）",
+      "passage": "【原题出处】2016•市中区一模\n【考点】常见易错字\n【年份】2016\n【题庄题号】2809505\n\n【题干原文】\n下列词语中没有错别字的一项是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "呕歌 座右铭 人迹罕至 广袤无垠",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "取缔 曲别针 险象叠生 迫不急待",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "闲暇 口头禅 一拍即合 不可思议",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题考查汉字的准确书写，仔细分辨所给选项所提供的所有词语，找出错误字词，用排除法去除错误选项，得出正确答案．"
+        },
+        {
+          "key": "D",
+          "text": "宽恕 舶来品 断璧残垣 如座针毡",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】本题考查汉字的准确书写，仔细分辨所给选项所提供的所有词语，找出错误字词，用排除法去除错误选项，得出正确答案．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "59c2cb083f0a0801498f64ad113fe3e9",
+      "raw": {
+        "id": 2809505,
+        "title_html": "下列词语中没有错别字的一项是（　　）",
+        "options_html": {
+          "A": "呕歌     座右铭       人迹罕至      广袤无垠",
+          "B": "取缔     曲别针       险象叠生      迫不急待",
+          "C": "闲暇     口头禅       一拍即合      不可思议",
+          "D": "宽恕     舶来品       断璧残垣      如座针毡"
+        },
+        "answer": "C",
+        "answer_html": "【解答】A．“呕歌”应为“讴歌”；<br>B．“险象叠生”应为“险象迭生”；“迫不急待”应为“迫不及待”；<br>C．正确；<br>D．“断璧残垣”应为“断壁残垣”；“如座针毡”应为“如坐针毡”；<br>故选：C．",
+        "analysis_html": "【分析】本题考查汉字的准确书写，仔细分辨所给选项所提供的所有词语，找出错误字词，用排除法去除错误选项，得出正确答案．",
+        "content_hash": "59c2cb083f0a0801498f64ad113fe3e9",
+        "source": "2016•市中区一模",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "常见易错字",
+        "year": 2016
+      }
+    }
+  ]
+}
