@@ -40,6 +40,48 @@ jobs:
           fi
           echo "密钥已配置（${#KEY} 字符）"
 
+      # 先用「取 1 道题」探一次额度。题庄没有独立的额度查询接口，
+      # 剩余额度只在取题响应的 quota_remaining_today 里出现（采集脚本会打印它）。
+      # 这一步花 1 道题的额度，换来的信息是：今天到底还能不能采、还剩多少。
+      - name: 试探今日额度
+        env:
+          QUESTION_SERVICE_LICENSE: ${{ secrets.TZ_API_KEY }}
+        run: |
+          # GITHUB_STEP_SUMMARY 只有 Actions 里才有，本地试跑时给个兜底，别报 No such file。
+          SUM="${GITHUB_STEP_SUMMARY:-/dev/null}"
+          set +e
+          OUT=$(python3 tizhuang_fetch.py --subject 语文 --grade 七年级 --limit 1 \
+                  --out /tmp/probe.json 2>&1)
+          RC=$?
+          set -e
+          echo "$OUT" | tail -8
+          LEFT=$(echo "$OUT" | grep -o '剩余额度 [0-9]*' | head -1 | grep -o '[0-9]*')
+          if [ $RC -ne 0 ]; then
+            # 额度用尽 / Key 失效，继续跑九组也只是把同样的错误重复九遍，直接停。
+            if echo "$OUT" | grep -q '429\|额度'; then
+              echo "::error::今日额度已用尽，本轮不用跑了。等北京时间 0 点重置，或换一个 Key。"
+              echo "### ⛔ 今日额度已用尽" >> "$SUM"
+              echo "" >> "$SUM"
+              echo "本轮未采集，题库保持不变。九组共需 130 题。" >> "$SUM"
+              exit 1
+            fi
+            if echo "$OUT" | grep -q '401\|403\|认证失败'; then
+              echo "::error::Key 无效或已停用。到 Settings → Secrets 重新填 TZ_API_KEY。"
+              echo "### ⛔ Key 无效" >> "$SUM"
+              echo "" >> "$SUM"
+              echo "本轮未采集。请更新仓库 Secret \`TZ_API_KEY\`。" >> "$SUM"
+              exit 1
+            fi
+            echo "::warning::试探那一下没成功，但仍继续跑（原因见上）"
+          elif [ -n "$LEFT" ]; then
+            echo "今日剩余额度约 ${LEFT} 题（九组共需 130 题）"
+            echo "- 试探后剩余额度：**${LEFT}** 题（九组共需 130）" >> "$SUM"
+            if [ "$LEFT" -lt 130 ]; then
+              echo "::warning::剩余 ${LEFT} 题，不够九组用，靠后的组会被 429 挡回。想省额度就把用不上的组删掉。"
+            fi
+          fi
+          rm -f /tmp/probe.json /tmp/probe_复核.json
+
       - name: 采集真题
         env:
           QUESTION_SERVICE_LICENSE: ${{ secrets.TZ_API_KEY }}
@@ -74,7 +116,10 @@ jobs:
           find bank -name '*.json' -size 0 -delete
           ls -l bank
 
-          NEW=$(python3 -c "import json,glob;print(sum((json.load(open(f,encoding='utf-8')).get('stats') or {}).get('added',0) for f in glob.glob('bank/*.json') if 'all' not in f))" || echo 0)
+          # 「本轮新增」按各组 items 的实际增长算，不读 stats.added。
+          # stats.added 是「那次写入当次新增几道」，--append 之后文件里留下的仍是旧值，
+          # 拿它当本轮结果会把「一组都没采到」误判成「新增 110 道」，任务照样打绿勾。
+          NEW=$(python3 bank_delta.py)
           echo "本轮新增 $NEW 道 · 成功 $OK 组 / 失败 $BAD 组"
           {
             echo "### 本轮采集结果"
@@ -84,7 +129,7 @@ jobs:
             echo "| 成功分组 | $OK |"
             echo "| 失败分组 | $BAD |"
             echo "| 本轮新增题目 | $NEW 道 |"
-          } >> "$GITHUB_STEP_SUMMARY"
+          } >> "$SUM"
 
           if [ "$NEW" -eq 0 ]; then
             echo "::error::本轮一道题也没采到。依次排查：①TZ_API_KEY 是否填对（Key 过期需重新注册）；②题庄今日额度是否用完；③上面每组的具体报错。"
@@ -93,7 +138,7 @@ jobs:
 
           # 英语是新增科目，单独报一下，免得「题库涨了但英语是 0」被平均数盖住
           EN=$(python3 -c "import json,glob; print(sum(len(json.load(open(f,encoding='utf-8')).get('items') or []) for f in glob.glob('bank/*yingyu*.json')))" 2>/dev/null || echo 0)
-          echo "- 英语题库现有 **$EN** 道" >> "$GITHUB_STEP_SUMMARY"
+          echo "- 英语题库现有 **$EN** 道" >> "$SUM"
 
       - name: 合并成一个文件
         run: python3 merge_bank.py --dir bank
@@ -113,14 +158,14 @@ jobs:
             git add bank
             if git diff --staged --quiet; then
               echo "题库没有变化，跳过提交"
-              echo "- 本轮题库无变化（取到的都是已有题）" >> "$GITHUB_STEP_SUMMARY"
+              echo "- 本轮题库无变化（取到的都是已有题）" >> "$SUM"
               exit 0
             fi
             git commit -q -m "自动更新题库 $(date +%F)"
             if git push -q origin HEAD:main; then
               echo "推送成功（第 $i 次尝试）"
               TOTAL=$(python3 -c "import json;print(json.load(open('bank/all.json',encoding='utf-8'))['stats']['usable'])")
-              echo "- 合并后题库共 **$TOTAL** 道" >> "$GITHUB_STEP_SUMMARY"
+              echo "- 合并后题库共 **$TOTAL** 道" >> "$SUM"
               exit 0
             fi
             # 退避是必须的：失败后立刻重试，往往撞在同一秒的另一个提交上
