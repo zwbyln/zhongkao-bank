@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-把 bank/ 下的各分组题库合并成 bank/all.json（按 id 去重，先到先得）。
+把 bank/ 下的各分组题库合并成 bank/all.json（按 id + 内容去重，先到先得）。
 
 为什么单独出一个文件：GitHub Actions 的 YAML 缩进块里没法干净地用 heredoc，
 之前把 python 塞进 run: | 里踩过 IndentationError，单独成文件后本地也能复用：
@@ -13,15 +13,51 @@
   · 只收 bank/*.json 里带 items 的题库文件
   · 跳过 all.json 自己、跳过文件名含「复核」的文件（那是给老师看的待定清单）
   · 同一道题（同 id）只保留第一次出现的那份
+  · 同一道题换了 id（题庄重采、换年份重发）也拦掉：按内容指纹去重。
+    指纹优先用题目自带的 question_fingerprint（题庄 content_hash），
+    没有就用「题干 + 正确答案」的哈希，避免同一道题在 all.json 里出现两次、
+    平板每次下载都要再跑一遍去重。
 """
 import argparse
 import datetime
 import glob
+import hashlib
 import json
 import os
+import re
 import sys
 
 SKIP_WORDS = ("复核", "review", "all")
+
+
+def content_key(q):
+    """内容指纹：宁可放过，不可误杀。
+
+    只用「题干 + 正确答案」两段，不含解析、出处、年份 ——
+    这几项题庄会随整理规则变，带进去会让同一道题算出不同指纹。
+    清洗掉空白与标点后再哈希，避免全角/半角、换行差异导致漏判。
+    """
+    fp = str(q.get("question_fingerprint") or "").strip()
+    if fp:
+        return "fp:" + fp
+    stem = q.get("stem") or ""
+    if not stem:
+        p = q.get("passage") or ""
+        m = re.search(r"【题干原文】\s*\n?(.*?)(?:\n\s*【|$)", p, re.S) if isinstance(p, str) else None
+        stem = (m.group(1) if m else (p if isinstance(p, str) else ""))[:400]
+    ans = ""
+    opts = q.get("options") or []
+    if isinstance(opts, list):
+        for o in opts:
+            if isinstance(o, dict) and o.get("is_correct"):
+                ans = str(o.get("text") or o.get("key") or "")
+                break
+    if not ans:
+        ans = str(q.get("reference_answer") or "")[:80]
+    raw = re.sub(r"[\s\u3000·、，。；：！？,.;:!?\"'“”‘’()（）\[\]【】]+", "", str(stem) + "|" + ans)
+    if len(raw) < 8:            # 题干都没取到就别乱合并
+        return "id:" + str(q.get("id"))
+    return "txt:" + hashlib.md5(raw.encode("utf-8")).hexdigest()[:16]
 
 
 def load_items(path):
@@ -59,7 +95,7 @@ def main():
         return 1
 
     seen, items, per = set(), [], {}
-    bad_type = 0
+    dup_id, dup_txt, bad_type = 0, 0, 0
     for f in files:
         n0 = len(items)
         for q in load_items(f):
@@ -68,8 +104,14 @@ def main():
                 continue
             k = str(q["id"])
             if k in seen:
+                dup_id += 1
+                continue
+            ck = content_key(q)
+            if ck in seen:
+                dup_txt += 1
                 continue
             seen.add(k)
+            seen.add(ck)
             items.append(q)
         per[os.path.basename(f)] = len(items) - n0
 
@@ -78,7 +120,7 @@ def main():
         "source": "题庄真题库 · 自动更新",
         "updatedAt": datetime.datetime.now().astimezone().isoformat(timespec="seconds"),
         "stats": {"usable": len(items), "files": len(files), "perFile": per,
-                  "dropped": bad_type},
+                  "dropped": bad_type, "dupId": dup_id, "dupContent": dup_txt},
         "items": items,
     }
     os.makedirs(os.path.dirname(os.path.abspath(out_path)) or ".", exist_ok=True)
@@ -94,6 +136,8 @@ def main():
         print("  %-28s +%d" % (k, v))
     if bad_type:
         print("  · %d 条不是合法题目对象，已丢弃" % bad_type)
+    if dup_id or dup_txt:
+        print("  · 去重：同 id %d 条、同内容换 id %d 条" % (dup_id, dup_txt))
     return 0
 
 
