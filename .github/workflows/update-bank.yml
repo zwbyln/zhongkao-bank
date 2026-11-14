@@ -44,29 +44,32 @@ jobs:
       # 剩余额度只在取题响应的 quota_remaining_today 里出现（采集脚本会打印它）。
       # 这一步花 1 道题的额度，换来的信息是：今天到底还能不能采、还剩多少。
       - name: 试探今日额度
+        # 这一步只想知道「今天还剩多少额度」。额度用尽属于正常收工，不是故障。
+        id: quota
         env:
           QUESTION_SERVICE_LICENSE: ${{ secrets.TZ_API_KEY }}
         run: |
-          # GITHUB_STEP_SUMMARY 只有 Actions 里才有，本地试跑时给个兜底，别报 No such file。
           SUM="${GITHUB_STEP_SUMMARY:-/dev/null}"
+          ENVF="${GITHUB_ENV:-/dev/null}"
           set +e
           OUT=$(python3 tizhuang_fetch.py --subject 语文 --grade 七年级 --limit 1 \
                   --out /tmp/probe.json 2>&1)
           RC=$?
           set -e
           echo "$OUT" | tail -8
-          LEFT=$(echo "$OUT" | grep -o '剩余额度 [0-9]*' | head -1 | grep -o '[0-9]*')
+          rm -f /tmp/probe.json /tmp/probe_复核.json
+          # 注意 set -e 下 grep 找不到会返回 1，整段脚本会静默退出，必须 || true 兜住。
+          LEFT=$(echo "$OUT" | grep -o '剩余额度 [0-9]*' | head -1 | grep -o '[0-9]*' || true)
+
           if [ $RC -ne 0 ]; then
-            # 额度用尽 / Key 失效，继续跑九组也只是把同样的错误重复九遍，直接停。
             if echo "$OUT" | grep -q '429\|额度'; then
-              # 这是「今天做完了」，不是「坏了」。用 78（neutral）退出，
-              # GitHub 会把步骤标成灰色跳过，而不是红叉——红叉会让人以为要修东西。
-              echo "::notice::今日额度已用尽（这不是故障）。题库保持不变，明天 0 点自动继续。"
+              # 正常收工：今天的额度用完了。标成 notice（蓝点），不标红叉。
+              echo "::notice::今日额度已用尽——这不是故障。题库保持不变，北京时间 0 点额度重置后自动继续。"
               echo "### ⏸ 今日额度已用尽，本轮跳过" >> "$SUM"
               echo "" >> "$SUM"
-              echo "不是故障，题库保持不变。九组共需 130 题，明早 0 点额度重置。" >> "$SUM"
-              echo "SKIP_FETCH=1" >> "$GITHUB_ENV"
-              exit 78
+              echo "**这不是故障。** 题库保持不变，北京时间 0 点额度重置后自动继续。" >> "$SUM"
+              echo "SKIP_FETCH=1" >> "$ENVF"
+              exit 0
             fi
             if echo "$OUT" | grep -q '401\|403\|认证失败'; then
               echo "::error::Key 无效或已停用。到 Settings → Secrets 重新填 TZ_API_KEY。"
@@ -75,23 +78,28 @@ jobs:
               echo "本轮未采集。请更新仓库 Secret \`TZ_API_KEY\`。" >> "$SUM"
               exit 1
             fi
-            echo "::warning::试探那一下没成功，但仍继续跑（原因见上）"
-          elif [ -n "$LEFT" ]; then
-            echo "今日剩余额度约 ${LEFT} 题（九组共需 130 题）"
-            echo "- 试探后剩余额度：**${LEFT}** 题（九组共需 130）" >> "$SUM"
-            # 剩这么点，连一组 15 道都凑不齐，九组只会连着 429。
-            # 直接跳过采集，让任务以「额度不足」结束——比报一串 429 清楚。
-            if [ "$LEFT" -lt 10 ]; then
-              echo "::warning::今日额度只剩 ${LEFT} 题，不足一组（最少 10 题），本轮跳过采集。"
-              echo "### ⏸ 额度不足，本轮跳过" >> "$SUM"
-              echo "" >> "$SUM"
-              echo "只剩 **${LEFT}** 题，不够任何一组采集。题库保持不变，明天 0 点额度重置后自动补。" >> "$SUM"
-              echo "SKIP_FETCH=1" >> "$GITHUB_ENV"
-            elif [ "$LEFT" -lt 130 ]; then
-              echo "::warning::剩余 ${LEFT} 题，不够九组用，靠后的组会被 429 挡回。想省额度就把用不上的组删掉。"
-            fi
+            # 其它原因（网络抖动等）不阻塞采集，让九组自己试
+            echo "::warning::试探没成功，仍继续跑九组（原因见上）"
+            exit 0
           fi
-          rm -f /tmp/probe.json /tmp/probe_复核.json
+
+          if [ -z "$LEFT" ]; then
+            echo "::notice::试探成功但没解析出剩余额度，继续跑九组"
+            exit 0
+          fi
+
+          echo "今日剩余额度约 ${LEFT} 题（九组共需 130 题）"
+          echo "- 试探后剩余额度：**${LEFT}** 题（九组共需 130）" >> "$SUM"
+          if [ "$LEFT" -lt 10 ]; then
+            # 一组最少 10 题，不够就整轮不做
+            echo "::notice::今日额度只剩 ${LEFT} 题，不足一组（最少 10 题），本轮跳过采集。这不是故障。"
+            echo "### ⏸ 额度不足，本轮跳过" >> "$SUM"
+            echo "" >> "$SUM"
+            echo "只剩 **${LEFT}** 题，不够任何一组。**这不是故障**，题库保持不变，0 点重置后自动补。" >> "$SUM"
+            echo "SKIP_FETCH=1" >> "$ENVF"
+          elif [ "$LEFT" -lt 130 ]; then
+            echo "::warning::剩余 ${LEFT} 题，不够九组用（共需 130），靠后的组会被 429 挡回。"
+          fi
 
       - name: 采集真题
         if: env.SKIP_FETCH != '1'
