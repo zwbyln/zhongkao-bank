@@ -76,7 +76,15 @@ jobs:
           elif [ -n "$LEFT" ]; then
             echo "今日剩余额度约 ${LEFT} 题（九组共需 130 题）"
             echo "- 试探后剩余额度：**${LEFT}** 题（九组共需 130）" >> "$SUM"
-            if [ "$LEFT" -lt 130 ]; then
+            # 剩这么点，连一组 15 道都凑不齐，九组只会连着 429。
+            # 直接跳过采集，让任务以「额度不足」结束——比报一串 429 清楚。
+            if [ "$LEFT" -lt 10 ]; then
+              echo "::warning::今日额度只剩 ${LEFT} 题，不足一组（最少 10 题），本轮跳过采集。"
+              echo "### ⏸ 额度不足，本轮跳过" >> "$SUM"
+              echo "" >> "$SUM"
+              echo "只剩 **${LEFT}** 题，不够任何一组采集。题库保持不变，明天 0 点额度重置后自动补。" >> "$SUM"
+              echo "SKIP_FETCH=1" >> "$GITHUB_ENV"
+            elif [ "$LEFT" -lt 130 ]; then
               echo "::warning::剩余 ${LEFT} 题，不够九组用，靠后的组会被 429 挡回。想省额度就把用不上的组删掉。"
             fi
           fi
@@ -86,6 +94,19 @@ jobs:
         env:
           QUESTION_SERVICE_LICENSE: ${{ secrets.TZ_API_KEY }}
         run: |
+          # 本地试跑时没有这个变量，给个兜底，免得 >> "" 报 No such file
+          SUM="${GITHUB_STEP_SUMMARY:-/dev/null}"
+          if [ "${SKIP_FETCH:-0}" = "1" ]; then
+            echo "额度不足，跳过采集（见上一步）"
+            exit 0
+          fi
+          # 文件没传对时，「每组都失败」的报错会指向 Key 和额度，误导排查方向。
+          for f in tizhuang_fetch.py bank_delta.py merge_bank.py; do
+            if [ ! -f "$f" ]; then
+              echo "::error::仓库里找不到 $f。请把它放到仓库根目录（与 .github 文件夹同级）。"
+              exit 1
+            fi
+          done
           mkdir -p bank
           OK=0; BAD=0
           pick() {
@@ -119,7 +140,9 @@ jobs:
           # 「本轮新增」按各组 items 的实际增长算，不读 stats.added。
           # stats.added 是「那次写入当次新增几道」，--append 之后文件里留下的仍是旧值，
           # 拿它当本轮结果会把「一组都没采到」误判成「新增 110 道」，任务照样打绿勾。
-          NEW=$(python3 bank_delta.py)
+          NEW=$(python3 bank_delta.py 2>/dev/null || echo 0)
+          # 脚本万一出错，别让 NEW 变成空字符串（[ "" -eq 0 ] 会直接报错退出）
+          case "$NEW" in ''|*[!0-9]*) NEW=0 ;; esac
           echo "本轮新增 $NEW 道 · 成功 $OK 组 / 失败 $BAD 组"
           {
             echo "### 本轮采集结果"
@@ -145,6 +168,11 @@ jobs:
 
       - name: 提交回仓库
         run: |
+          # 跳过采集的那轮，没有任何新题，不必提交，也别报错
+          if [ "${SKIP_FETCH:-0}" = "1" ]; then
+            echo "本轮跳过采集，没有需要提交的内容"
+            exit 0
+          fi
           git config user.name  "bank-bot"
           git config user.email "bank-bot@users.noreply.github.com"
           # 先把本轮的产物存到仓库外面，等下每轮重试都要用到
