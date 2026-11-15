@@ -1,0 +1,1400 @@
+{
+  "format": "zx-trainer-bank-v1",
+  "source": "题庄真题库（tizhuang.qcscience.cc）",
+  "generatedAt": "2026-11-15T01:00:38.511374+00:00",
+  "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。英语题的 grammar_group / grammar_point 由关键词推断（结构类优先于时态类），口语交际与语法填空等主观题不在采集范围内。",
+  "stats": {
+    "usable": 18,
+    "skipped": 2,
+    "thisRun": 18,
+    "added": 18
+  },
+  "items": [
+    {
+      "id": "TZ32669750",
+      "source": "题庄真题 · 人教新目标(Go for it)版2022-2023学年八年级下册英语期末测试模拟卷（音频暂未更新）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "从句",
+      "grammar_point": "状语从句",
+      "mode": "single",
+      "stem": "（2023八下·期末） We didn't go home ____ the old man was sent to the hospital.",
+      "passage": "【题干原文】\n（2023八下·期末） We didn't go home ____ the old man was sent to the hospital.\n\n【考点】时间状语从句;连词辨析<br/>\n【出处】人教新目标(Go for it)版2022-2023学年八年级下册英语期末测试模拟卷（音频暂未更新） · 2023 · 题庄题号 32669750",
+      "options": [
+        {
+          "key": "A",
+          "text": "until",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：直到老人被送到了医院，我们才回家。until直到；when当……时；while当……时；that无词义，只起到连接作用。固定短语not…until…直到……才，引导的时间状语从句。故选A。\n\n【点评】考查连词辨析。理解连词的词义和用法，根据固定短语，选择正确的连词。\n29．（2023八下·期末）"
+        },
+        {
+          "key": "B",
+          "text": "When",
+          "is_correct": false,
+          "trap_type": "关系词误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "while",
+          "is_correct": false,
+          "trap_type": "关系词误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "that",
+          "is_correct": false,
+          "trap_type": "关系词误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "状语从句",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】句意：直到老人被送到了医院，我们才回家。until直到；when当……时；while当……时；that无词义，只起到连接作用。固定短语not…until…直到……才，引导的时间状语从句。故选A。\n\n【点评】考查连词辨析。理解连词的词义和用法，根据固定短语，选择正确的连词。\n29．（2023八下·期末）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "daf74983dbd0ae3eb655b2b10026d83e",
+      "raw": {
+        "id": 32669750,
+        "title_html": "（2023八下·期末） We didn&#x27;t go home ____ the old man was sent to the hospital. <br>",
+        "options_html": {
+          "A": "until  ",
+          "B": "When  ",
+          "C": "while  ",
+          "D": "that"
+        },
+        "answer": "A",
+        "answer_html": "A<br>",
+        "analysis_html": "【分析】句意：直到老人被送到了医院，我们才回家。until直到；when当……时；while当……时；that无词义，只起到连接作用。固定短语not…until…直到……才，引导的时间状语从句。故选A。<br>\n【点评】考查连词辨析。理解连词的词义和用法，根据固定短语，选择正确的连词。<br>29．（2023八下·期末）",
+        "content_hash": "daf74983dbd0ae3eb655b2b10026d83e",
+        "source": "人教新目标(Go for it)版2022-2023学年八年级下册英语期末测试模拟卷（音频暂未更新）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "时间状语从句;连词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32669752",
+      "source": "题庄真题 · 人教新目标(Go for it)版2022-2023学年八年级下册英语期末测试模拟卷（音频暂未更新）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "从句",
+      "grammar_point": "状语从句",
+      "mode": "single",
+      "stem": "（2023八下·期末） I will do some cleaning as soon as I ____my homework.",
+      "passage": "【题干原文】\n（2023八下·期末） I will do some cleaning as soon as I ____my homework.\n\n【考点】一般现在时代替一般将来时;时间状语从句;主谓一致<br/>\n【出处】人教新目标(Go for it)版2022-2023学年八年级下册英语期末测试模拟卷（音频暂未更新） · 2023 · 题庄题号 32669752",
+      "options": [
+        {
+          "key": "A",
+          "text": "finish",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：我一完成作业就打扫卫生。as soon as 引导的时间状语从句，主句用will do，一般将来时，遵循主将从现的原则，从句用一般现在时表示将来，主语I，非第三人称单数，谓语动词用原形，故选A。\n\n【点评】考查时间状语从句用一般现在时表示将来。根据主句的时态，确定从句和时态，注意主谓一致。\n31．You can eat ____________ you like. Help yourself.\nA．whatever B．whenever C．however D．wherever\n【答案】A\n【知识点】代词辨析\n【解析】【分析】句意：你可以吃你喜欢的任何东西，请随便吃。A.无论什么，任何东西；B.无论什么时候；C.然而；D.无论哪里。eat，吃，所以是吃东西，所以用whatever，故选A。\n\n【点评】考查代词辨析，首先识记选项意思，然后根据关键词确定。\n32．Sally took a photo of her friends while they _________ computer games.\nA．play B．are playing C．have played D．were playing\n【答案】D\n【知识点】过去进行时\n【解析】【分析】句意：当她的朋友们玩电脑游戏时，她给他们拍了一张相片。while当…的时候，引导的时间状语从句用进行时态，她给他们拍了一张相片用的是一般过去时，因此朋友们玩电子游戏应该用过去进行时，强调过去正在进行的动作，过去进行时的构成：主语+was/were+动词ing+其它．故选D。\n【点评】过去进行时\n33．（2023八下·期末）"
+        },
+        {
+          "key": "B",
+          "text": "will finish",
+          "is_correct": false,
+          "trap_type": "关系词误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "has finished",
+          "is_correct": false,
+          "trap_type": "关系词误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "finished",
+          "is_correct": false,
+          "trap_type": "关系词误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "状语从句",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】句意：我一完成作业就打扫卫生。as soon as 引导的时间状语从句，主句用will do，一般将来时，遵循主将从现的原则，从句用一般现在时表示将来，主语I，非第三人称单数，谓语动词用原形，故选A。\n\n【点评】考查时间状语从句用一般现在时表示将来。根据主句的时态，确定从句和时态，注意主谓一致。\n31．You can eat ____________ you like. Help yourself.\nA．whatever B．whenever C．however D．wherever\n【答案】A\n【知识点】代词辨析\n【解析】【分析】句意：你可以吃你喜欢的任何东西，请随便吃。A.无论什么，任何东西；B.无论什么时候；C.然而；D.无论哪里。eat，吃，所以是吃东西，所以用whatever，故选A。\n\n【点评】考查代词辨析，首先识记选项意思，然后根据关键词确定。\n32．Sally took a photo of her friends while they _________ computer games.\nA．play B．are playing C．have played D．were playing\n【答案】D\n【知识点】过去进行时\n【解析】【分析】句意：当她的朋友们玩电脑游戏时，她给他们拍了一张相片。while当…的时候，引导的时间状语从句用进行时态，她给他们拍了一张相片用的是一般过去时，因此朋友们玩电子游戏应该用过去进行时，强调过去正在进行的动作，过去进行时的构成：主语+was/were+动词ing+其它．故选D。\n【点评】过去进行时\n33．（2023八下·期末）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "f523c2c00d8a49ffa9ca242ec9be56eb",
+      "raw": {
+        "id": 32669752,
+        "title_html": "（2023八下·期末） I will do some cleaning as soon as I ____my homework. <br>",
+        "options_html": {
+          "A": "finish  ",
+          "B": "will finish  ",
+          "C": "has finished  ",
+          "D": "finished"
+        },
+        "answer": "A",
+        "answer_html": "A<br>",
+        "analysis_html": "【分析】句意：我一完成作业就打扫卫生。as soon as 引导的时间状语从句，主句用will do，一般将来时，遵循主将从现的原则，从句用一般现在时表示将来，主语I，非第三人称单数，谓语动词用原形，故选A。<br>\n【点评】考查时间状语从句用一般现在时表示将来。根据主句的时态，确定从句和时态，注意主谓一致。<br>31．You can eat ____________ you like. Help yourself.   <br>A．whatever  B．whenever  C．however  D．wherever<br>【答案】A<br>【知识点】代词辨析<br>【解析】【分析】句意：你可以吃你喜欢的任何东西，请随便吃。A.无论什么，任何东西；B.无论什么时候；C.然而；D.无论哪里。eat，吃，所以是吃东西，所以用whatever，故选A。<br>\n【点评】考查代词辨析，首先识记选项意思，然后根据关键词确定。<br>32．Sally took a photo of her friends while they _________ computer games.<br>A．play  B．are playing  C．have played  D．were playing<br>【答案】D<br>【知识点】过去进行时<br>【解析】【分析】句意：当她的朋友们玩电脑游戏时，她给他们拍了一张相片。while当…的时候，引导的时间状语从句用进行时态，她给他们拍了一张相片用的是一般过去时，因此朋友们玩电子游戏应该用过去进行时，强调过去正在进行的动作，过去进行时的构成：主语+was/were+动词ing+其它．故选D。<br>【点评】过去进行时<br>33．（2023八下·期末）",
+        "content_hash": "f523c2c00d8a49ffa9ca242ec9be56eb",
+        "source": "人教新目标(Go for it)版2022-2023学年八年级下册英语期末测试模拟卷（音频暂未更新）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "一般现在时代替一般将来时;时间状语从句;主谓一致<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32669753",
+      "source": "题庄真题 · 人教新目标(Go for it)版2022-2023学年八年级下册英语期末测试模拟卷（音频暂未更新）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "非谓语动词",
+      "grammar_point": "不定式表目的",
+      "mode": "single",
+      "stem": "（2023八下·期末） Our teacher reminds us ____ to study for the English test .",
+      "passage": "【题干原文】\n（2023八下·期末） Our teacher reminds us ____ to study for the English test .\n\n【考点】固定搭配;动词不定式<br/>\n【出处】人教新目标(Go for it)版2022-2023学年八年级下册英语期末测试模拟卷（音频暂未更新） · 2023 · 题庄题号 32669753",
+      "options": [
+        {
+          "key": "A",
+          "text": "remember",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "to remember",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：我们的老师提醒我们要记住为英语考试复习。固定搭配remind sb to do sth，提醒某人做某事，用不定式作宾补，故选B。\n\n【点评】考查固定搭配。掌握常用不定式作宾补一些动词。\n34．（2023八下·期末）"
+        },
+        {
+          "key": "C",
+          "text": "remembering.",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "remembered",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "不定式表目的",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：我们的老师提醒我们要记住为英语考试复习。固定搭配remind sb to do sth，提醒某人做某事，用不定式作宾补，故选B。\n\n【点评】考查固定搭配。掌握常用不定式作宾补一些动词。\n34．（2023八下·期末）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "c56ae870c8443ef27e1b50541c4df38c",
+      "raw": {
+        "id": 32669753,
+        "title_html": "（2023八下·期末） Our teacher reminds us ____ to study for the English test . <br>",
+        "options_html": {
+          "A": "remember  ",
+          "B": "to remember  ",
+          "C": "remembering.  ",
+          "D": "remembered"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：我们的老师提醒我们要记住为英语考试复习。固定搭配remind sb to do sth，提醒某人做某事，用不定式作宾补，故选B。<br>\n【点评】考查固定搭配。掌握常用不定式作宾补一些动词。<br>34．（2023八下·期末）",
+        "content_hash": "c56ae870c8443ef27e1b50541c4df38c",
+        "source": "人教新目标(Go for it)版2022-2023学年八年级下册英语期末测试模拟卷（音频暂未更新）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "固定搭配;动词不定式<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32669791",
+      "source": "题庄真题 · 人教新目标(Go for it)版八年级上学期2022-2023学年开学摸底模拟考试英语试卷A卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "连词",
+      "mode": "single",
+      "stem": "（2019·东营）—How time flies! The middle school life is coming to an end.\n—Yes. We have to say goodbye, our friendship will last forever.",
+      "passage": "【题干原文】\n（2019·东营）—How time flies! The middle school life is coming to an end.\n—Yes. We have to say goodbye, our friendship will last forever.\n\n【考点】连词辨析<br/>\n【出处】人教新目标(Go for it)版八年级上学期2022-2023学年开学摸底模拟考试英语试卷A卷 · 2023 · 题庄题号 32669791",
+      "options": [
+        {
+          "key": "A",
+          "text": "for",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "but",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——时间飞逝！中学生活很快就要结束。——是的。我们都要再见，但是我们的友谊会永远长存的。A.为了；B.但是；C.或者；D.因此。前后句是转折关系，用转折连词but衔接前后句，故选B。\n\n【点评】考查连词辨析。注意for，but，or和so的词义和用法。\n3．（2022八上·开学考）"
+        },
+        {
+          "key": "C",
+          "text": "or",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "so",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "连词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：——时间飞逝！中学生活很快就要结束。——是的。我们都要再见，但是我们的友谊会永远长存的。A.为了；B.但是；C.或者；D.因此。前后句是转折关系，用转折连词but衔接前后句，故选B。\n\n【点评】考查连词辨析。注意for，but，or和so的词义和用法。\n3．（2022八上·开学考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "28109993879af8f33a98f1ef6bc7920c",
+      "raw": {
+        "id": 32669791,
+        "title_html": "（2019·东营）—How time flies! The middle school life is coming to an end.  <br>—Yes. We have to say goodbye, <u>      </u>our friendship will last forever.<br>",
+        "options_html": {
+          "A": "for  ",
+          "B": "but  ",
+          "C": "or  ",
+          "D": "so"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：——时间飞逝！中学生活很快就要结束。——是的。我们都要再见，但是我们的友谊会永远长存的。A.为了；B.但是；C.或者；D.因此。前后句是转折关系，用转折连词but衔接前后句，故选B。<br>\n【点评】考查连词辨析。注意for，but，or和so的词义和用法。<br>3．（2022八上·开学考）",
+        "content_hash": "28109993879af8f33a98f1ef6bc7920c",
+        "source": "人教新目标(Go for it)版八年级上学期2022-2023学年开学摸底模拟考试英语试卷A卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "连词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32669793",
+      "source": "题庄真题 · 人教新目标(Go for it)版八年级上学期2022-2023学年开学摸底模拟考试英语试卷A卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "代词",
+      "mode": "single",
+      "stem": "（2022八上·开学考）I look for my book ____. But I can't find it.",
+      "passage": "【题干原文】\n（2022八上·开学考）I look for my book ____. But I can't find it.\n\n【考点】不定代词<br/>\n【出处】人教新目标(Go for it)版八年级上学期2022-2023学年开学摸底模拟考试英语试卷A卷 · 2023 · 题庄题号 32669793",
+      "options": [
+        {
+          "key": "A",
+          "text": "somewhere",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "where",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "everywhere",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：我到处找我的书。但是我找不到它（书）。A.某地。B.哪里。C.到处。D.任何地方（一般疑问句及否定句）。根据句意但是我没找到书，可推知是到处找。故选C。\n\n【点评】考查不定代词。掌握不定代词表示的含义，再结合句式肯定否定及疑问句判断合适的不定代词。\n5．（2022八上·开学考）"
+        },
+        {
+          "key": "D",
+          "text": "anywhere",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "代词",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】句意：我到处找我的书。但是我找不到它（书）。A.某地。B.哪里。C.到处。D.任何地方（一般疑问句及否定句）。根据句意但是我没找到书，可推知是到处找。故选C。\n\n【点评】考查不定代词。掌握不定代词表示的含义，再结合句式肯定否定及疑问句判断合适的不定代词。\n5．（2022八上·开学考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "64dd34bf14bb47b12c801e46711580ba",
+      "raw": {
+        "id": 32669793,
+        "title_html": "（2022八上·开学考）I look for my book ____. But I can&#x27;t find it.<br>",
+        "options_html": {
+          "A": "somewhere  ",
+          "B": "where  ",
+          "C": "everywhere  ",
+          "D": "anywhere"
+        },
+        "answer": "C",
+        "answer_html": "C<br>",
+        "analysis_html": "【分析】句意：我到处找我的书。但是我找不到它（书）。A.某地。B.哪里。C.到处。D.任何地方（一般疑问句及否定句）。根据句意但是我没找到书，可推知是到处找。故选C。<br>\n【点评】考查不定代词。掌握不定代词表示的含义，再结合句式肯定否定及疑问句判断合适的不定代词。<br>5．（2022八上·开学考）",
+        "content_hash": "64dd34bf14bb47b12c801e46711580ba",
+        "source": "人教新目标(Go for it)版八年级上学期2022-2023学年开学摸底模拟考试英语试卷A卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "不定代词<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32669794",
+      "source": "题庄真题 · 人教新目标(Go for it)版八年级上学期2022-2023学年开学摸底模拟考试英语试卷A卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "介词",
+      "mode": "single",
+      "stem": "（2022八上·开学考）—I buy the T-shirt ____ a very good price at the Christmas sale.\n—Lucky you.",
+      "passage": "【题干原文】\n（2022八上·开学考）—I buy the T-shirt ____ a very good price at the Christmas sale.\n—Lucky you.\n\n【考点】介词短语<br/>\n【出处】人教新目标(Go for it)版八年级上学期2022-2023学年开学摸底模拟考试英语试卷A卷 · 2023 · 题庄题号 32669794",
+      "options": [
+        {
+          "key": "A",
+          "text": "on",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "for",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "with",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "at",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：我在圣诞节大减价时以很优惠的价格买了这件t恤。你好幸运。根据句意可知是以一个好价钱/价格合理买的这件 T-shirt ，at a very good price 固定搭配意为\"一个好价格或者价格合理\"。故选D。\n【点评】考查介词（介词固定搭配）。理解题意并掌握介词固定搭配用法。\n6．（2022八上·开学考）"
+        }
+      ],
+      "points": [],
+      "formula_ref": "介词",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】句意：我在圣诞节大减价时以很优惠的价格买了这件t恤。你好幸运。根据句意可知是以一个好价钱/价格合理买的这件 T-shirt ，at a very good price 固定搭配意为\"一个好价格或者价格合理\"。故选D。\n【点评】考查介词（介词固定搭配）。理解题意并掌握介词固定搭配用法。\n6．（2022八上·开学考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "9f1c6bc520ab3943be429f8b325b82b9",
+      "raw": {
+        "id": 32669794,
+        "title_html": "（2022八上·开学考）—I buy the T-shirt ____ a very good price at the Christmas sale.<br>—Lucky you.<br>",
+        "options_html": {
+          "A": "on  ",
+          "B": "for  ",
+          "C": "with  ",
+          "D": "at"
+        },
+        "answer": "D",
+        "answer_html": "D<br>",
+        "analysis_html": "【分析】句意：我在圣诞节大减价时以很优惠的价格买了这件t恤。你好幸运。根据句意可知是以一个好价钱/价格合理买的这件 T-shirt ，at a very good price 固定搭配意为&quot;一个好价格或者价格合理&quot;。故选D。<br> 【点评】考查介词（介词固定搭配）。理解题意并掌握介词固定搭配用法。<br>6．（2022八上·开学考）",
+        "content_hash": "9f1c6bc520ab3943be429f8b325b82b9",
+        "source": "人教新目标(Go for it)版八年级上学期2022-2023学年开学摸底模拟考试英语试卷A卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "介词短语<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32669798",
+      "source": "题庄真题 · 人教新目标(Go for it)版八年级上学期2022-2023学年开学摸底模拟考试英语试卷A卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "形容词与副词",
+      "mode": "single",
+      "stem": "（2022八上·开学考）Liu Feng is a good man. He ____ helps others in need.",
+      "passage": "【题干原文】\n（2022八上·开学考）Liu Feng is a good man. He ____ helps others in need.\n\n【考点】频度副词<br/>\n【出处】人教新目标(Go for it)版八年级上学期2022-2023学年开学摸底模拟考试英语试卷A卷 · 2023 · 题庄题号 32669798",
+      "options": [
+        {
+          "key": "A",
+          "text": "sometimes",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "always",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：刘峰是一个好人。他总是帮助有需要的人。A.有时候。B.总是。C.从不。D.曾经（疑问句）。根据句意 Liu Feng is a good man. 刘峰是一个好人。可以推知他总是帮助有需要的人，符合上下文句意连贯性。故选B。\n\n【点评】考查频率副词。要理清前后句句意有无连贯性，再根据频率副词词义选择。\n10．（2022八上·开学考）"
+        },
+        {
+          "key": "C",
+          "text": "never",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "ever",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "形容词与副词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：刘峰是一个好人。他总是帮助有需要的人。A.有时候。B.总是。C.从不。D.曾经（疑问句）。根据句意 Liu Feng is a good man. 刘峰是一个好人。可以推知他总是帮助有需要的人，符合上下文句意连贯性。故选B。\n\n【点评】考查频率副词。要理清前后句句意有无连贯性，再根据频率副词词义选择。\n10．（2022八上·开学考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "a55d6aee905d6a649bd8e58a39e8566d",
+      "raw": {
+        "id": 32669798,
+        "title_html": "（2022八上·开学考）Liu Feng is a good man. He ____ helps others in need.<br>",
+        "options_html": {
+          "A": "sometimes  ",
+          "B": "always  ",
+          "C": "never  ",
+          "D": "ever"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：刘峰是一个好人。他总是帮助有需要的人。A.有时候。B.总是。C.从不。D.曾经（疑问句）。根据句意 Liu Feng is a good man.  刘峰是一个好人。可以推知他总是帮助有需要的人，符合上下文句意连贯性。故选B。<br>\n【点评】考查频率副词。要理清前后句句意有无连贯性，再根据频率副词词义选择。<br>10．（2022八上·开学考）",
+        "content_hash": "a55d6aee905d6a649bd8e58a39e8566d",
+        "source": "人教新目标(Go for it)版八年级上学期2022-2023学年开学摸底模拟考试英语试卷A卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "频度副词<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32669800",
+      "source": "题庄真题 · 人教新目标(Go for it)版八年级上学期2022-2023学年开学摸底模拟考试英语试卷A卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "动词时态",
+      "grammar_point": "一般过去时",
+      "mode": "single",
+      "stem": "（2018·河北）—The bread is really delicious.\n—Thank you, I ________ it myself.",
+      "passage": "【题干原文】\n（2018·河北）—The bread is really delicious.\n—Thank you, I ________ it myself.\n\n【考点】一般过去时<br/>\n【出处】人教新目标(Go for it)版八年级上学期2022-2023学年开学摸底模拟考试英语试卷A卷 · 2023 · 题庄题号 32669800",
+      "options": [
+        {
+          "key": "A",
+          "text": "make",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "made",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：—面包真的很好吃。—谢谢，我自己做的。根据句意“面包美味可口”得知面包已做好，则说自己做的应为过去的动作，因此应使用一般过去时态。故答案选B。\n\n【点评】考查动词时态的辨析。注意根据语境判断出动作是什么时候发生的从而确定时态。\n13．—_______________ sweet the flowers smell in spring!\n— Yes, many tourists come to enjoy them every day.\nA．What B．How C．What a D．How a\n【答案】B\n【知识点】how引导的感叹句\n【解析】【分析】句意：——春天的花儿闻起来多香啊!——是的，每天都有许多游客来欣赏它们。what和how均可引导感叹句，均表示多么的意思，但结构不同，what+a/an+形容词+名词单数+主语+谓语！，或者what+形容词+名词复数/不可数名词+主语+谓语！ 而how+形容词/副词+主语+谓语！结合本题，sweet是形容词，用how+形容词+主语+谓语的结构，故选B。\n【点评】考查感叹句的引导词的辨析。注意what和how引导的感叹句的用法。\n14．（2022八上·开学考）"
+        },
+        {
+          "key": "C",
+          "text": "will make",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "am making",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "一般过去时",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：—面包真的很好吃。—谢谢，我自己做的。根据句意“面包美味可口”得知面包已做好，则说自己做的应为过去的动作，因此应使用一般过去时态。故答案选B。\n\n【点评】考查动词时态的辨析。注意根据语境判断出动作是什么时候发生的从而确定时态。\n13．—_______________ sweet the flowers smell in spring!\n— Yes, many tourists come to enjoy them every day.\nA．What B．How C．What a D．How a\n【答案】B\n【知识点】how引导的感叹句\n【解析】【分析】句意：——春天的花儿闻起来多香啊!——是的，每天都有许多游客来欣赏它们。what和how均可引导感叹句，均表示多么的意思，但结构不同，what+a/an+形容词+名词单数+主语+谓语！，或者what+形容词+名词复数/不可数名词+主语+谓语！ 而how+形容词/副词+主语+谓语！结合本题，sweet是形容词，用how+形容词+主语+谓语的结构，故选B。\n【点评】考查感叹句的引导词的辨析。注意what和how引导的感叹句的用法。\n14．（2022八上·开学考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "fed8128be5934511c1b726dea0b4c29f",
+      "raw": {
+        "id": 32669800,
+        "title_html": "（2018·河北）—The bread is really delicious.<br>—Thank you, I ________ it myself.<br>",
+        "options_html": {
+          "A": "make  ",
+          "B": "made  ",
+          "C": "will make  ",
+          "D": "am making"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：—面包真的很好吃。—谢谢，我自己做的。根据句意“面包美味可口”得知面包已做好，则说自己做的应为过去的动作，因此应使用一般过去时态。故答案选B。<br><br>【点评】考查动词时态的辨析。注意根据语境判断出动作是什么时候发生的从而确定时态。<br>13．—_______________ sweet the flowers smell in spring!  <br>— Yes, many tourists come to enjoy them every day.<br>A．What  B．How  C．What a  D．How a<br>【答案】B<br>【知识点】how引导的感叹句<br>【解析】【分析】句意：——春天的花儿闻起来多香啊!——是的，每天都有许多游客来欣赏它们。what和how均可引导感叹句，均表示多么的意思，但结构不同，what+a/an+形容词+名词单数+主语+谓语！，或者what+形容词+名词复数/不可数名词+主语+谓语！ 而how+形容词/副词+主语+谓语！结合本题，sweet是形容词，用how+形容词+主语+谓语的结构，故选B。<br>【点评】考查感叹句的引导词的辨析。注意what和how引导的感叹句的用法。<br>14．（2022八上·开学考）",
+        "content_hash": "fed8128be5934511c1b726dea0b4c29f",
+        "source": "人教新目标(Go for it)版八年级上学期2022-2023学年开学摸底模拟考试英语试卷A卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "一般过去时<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32669801",
+      "source": "题庄真题 · 人教新目标(Go for it)版八年级上学期2022-2023学年开学摸底模拟考试英语试卷A卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "连词",
+      "mode": "single",
+      "stem": "（2022八上·开学考）—Did you catch the first bus to school this morning?\n—No, I didn't. It had started moving ____ I could get on it.",
+      "passage": "【题干原文】\n（2022八上·开学考）—Did you catch the first bus to school this morning?\n—No, I didn't. It had started moving ____ I could get on it.\n\n【考点】连词辨析<br/>\n【出处】人教新目标(Go for it)版八年级上学期2022-2023学年开学摸底模拟考试英语试卷A卷 · 2023 · 题庄题号 32669801",
+      "options": [
+        {
+          "key": "A",
+          "text": "after",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "since",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "before",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：今天早上你赶上头班车去学校了吗?不，我没有。在我上车之前，车就开始动了。A.在……之后。B.自从。C.在……之前。D.一……就。由选项可以判断此句是考查时间状语从句。根据句意 I didn't （catch the first bus…），我没有赶上早班车。说明在我上车之前他已经开始动了，即主句（过去完成时）动作发生在从句（一般过去时）之前。故选C。\n\n【点评】考查时间状语从句。要理清主从句动作是同时发生还是先后发生，再选择适当的连词。\n15．（2019·安徽）"
+        },
+        {
+          "key": "D",
+          "text": "as soon as",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "连词",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】句意：今天早上你赶上头班车去学校了吗?不，我没有。在我上车之前，车就开始动了。A.在……之后。B.自从。C.在……之前。D.一……就。由选项可以判断此句是考查时间状语从句。根据句意 I didn't （catch the first bus…），我没有赶上早班车。说明在我上车之前他已经开始动了，即主句（过去完成时）动作发生在从句（一般过去时）之前。故选C。\n\n【点评】考查时间状语从句。要理清主从句动作是同时发生还是先后发生，再选择适当的连词。\n15．（2019·安徽）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "ce47d193bbe4af777e045d2befddfa3b",
+      "raw": {
+        "id": 32669801,
+        "title_html": "（2022八上·开学考）—Did you catch the first bus to school this morning?<br>—No, I didn&#x27;t. It had started moving ____ I could get on it.<br>",
+        "options_html": {
+          "A": "after  ",
+          "B": "since  ",
+          "C": "before  ",
+          "D": "as soon as"
+        },
+        "answer": "C",
+        "answer_html": "C<br>",
+        "analysis_html": "【分析】句意：今天早上你赶上头班车去学校了吗?不，我没有。在我上车之前，车就开始动了。A.在……之后。B.自从。C.在……之前。D.一……就。由选项可以判断此句是考查时间状语从句。根据句意 I didn&#x27;t （catch the first bus…），我没有赶上早班车。说明在我上车之前他已经开始动了，即主句（过去完成时）动作发生在从句（一般过去时）之前。故选C。<br>\n【点评】考查时间状语从句。要理清主从句动作是同时发生还是先后发生，再选择适当的连词。<br>15．（2019·安徽）",
+        "content_hash": "ce47d193bbe4af777e045d2befddfa3b",
+        "source": "人教新目标(Go for it)版八年级上学期2022-2023学年开学摸底模拟考试英语试卷A卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "连词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32670369",
+      "source": "题庄真题 · 吉林省长春市汽开区2022-2023学年八年级上学期第一次月考英语试卷（音频暂未更新）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "连词",
+      "mode": "single",
+      "stem": "（2019八上·牡丹江月考）Although he is very old, ______ he works very hard.",
+      "passage": "【题干原文】\n（2019八上·牡丹江月考）Although he is very old, ______ he works very hard.\n\n【考点】连词辨析<br/>\n【出处】吉林省长春市汽开区2022-2023学年八年级上学期第一次月考英语试卷（音频暂未更新） · 2023 · 题庄题号 32670369",
+      "options": [
+        {
+          "key": "A",
+          "text": "so",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "but",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "and",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "/",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意： 虽然他很老了，但他工作非常努力。A所以，B但是，C并且，although引导让步状语从句，不能和but搭配，故此处没有连词，故选D。\n\n【点评】考查连词，注意although引导让步状语从句，不能和but搭配的用法。\n33．（2022八上·长春月考）"
+        }
+      ],
+      "points": [],
+      "formula_ref": "连词",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】句意： 虽然他很老了，但他工作非常努力。A所以，B但是，C并且，although引导让步状语从句，不能和but搭配，故此处没有连词，故选D。\n\n【点评】考查连词，注意although引导让步状语从句，不能和but搭配的用法。\n33．（2022八上·长春月考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "2c444c6417665e3707fc6663c4ad3789",
+      "raw": {
+        "id": 32670369,
+        "title_html": "（2019八上·牡丹江月考）Although he is very old, ______ he works very hard.   <br>",
+        "options_html": {
+          "A": "so  ",
+          "B": "but  ",
+          "C": "and  ",
+          "D": "/"
+        },
+        "answer": "D",
+        "answer_html": "D<br>",
+        "analysis_html": "【分析】句意： 虽然他很老了，但他工作非常努力。A所以，B但是，C并且，although引导让步状语从句，不能和but搭配，故此处没有连词，故选D。\n<br>【点评】考查连词，注意although引导让步状语从句，不能和but搭配的用法。<br>33．（2022八上·长春月考）",
+        "content_hash": "2c444c6417665e3707fc6663c4ad3789",
+        "source": "吉林省长春市汽开区2022-2023学年八年级上学期第一次月考英语试卷（音频暂未更新）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "连词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32670401",
+      "source": "题庄真题 · 吉林省长春市汽开区2022-2023学年八年级上学期第一次月考英语试卷（音频暂未更新）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "连词",
+      "mode": "single",
+      "stem": "（2019八上·牡丹江月考）Although he is very old, ______ he works very hard.",
+      "passage": "【题干原文】\n（2019八上·牡丹江月考）Although he is very old, ______ he works very hard.\n\n【考点】连词辨析<br/>\n【出处】吉林省长春市汽开区2022-2023学年八年级上学期第一次月考英语试卷（音频暂未更新） · 2023 · 题庄题号 32670401",
+      "options": [
+        {
+          "key": "A",
+          "text": "so",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "but",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "and",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "/",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意： 虽然他很老了，但他工作非常努力。A所以，B但是，C并且，although引导让步状语从句，不能和but搭配，故此处没有连词，故选D。\n\n【点评】考查连词，注意although引导让步状语从句，不能和but搭配的用法。\n33．（2022八上·长春月考）"
+        }
+      ],
+      "points": [],
+      "formula_ref": "连词",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】句意： 虽然他很老了，但他工作非常努力。A所以，B但是，C并且，although引导让步状语从句，不能和but搭配，故此处没有连词，故选D。\n\n【点评】考查连词，注意although引导让步状语从句，不能和but搭配的用法。\n33．（2022八上·长春月考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "4a2aba33378a9c9ee4bf3d478bfed2cd",
+      "raw": {
+        "id": 32670401,
+        "title_html": "（2019八上·牡丹江月考）Although he is very old, ______ he works very hard.   <br>",
+        "options_html": {
+          "A": "so  ",
+          "B": "but  ",
+          "C": "and  ",
+          "D": "/"
+        },
+        "answer": "D",
+        "answer_html": "D<br>",
+        "analysis_html": "【分析】句意： 虽然他很老了，但他工作非常努力。A所以，B但是，C并且，although引导让步状语从句，不能和but搭配，故此处没有连词，故选D。\n<br>【点评】考查连词，注意although引导让步状语从句，不能和but搭配的用法。<br>33．（2022八上·长春月考）",
+        "content_hash": "4a2aba33378a9c9ee4bf3d478bfed2cd",
+        "source": "吉林省长春市汽开区2022-2023学年八年级上学期第一次月考英语试卷（音频暂未更新）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "连词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32671142",
+      "source": "题庄真题 · 安徽省合肥市庐阳区2022-2023学年八年级下学期期末英语试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "连词",
+      "mode": "single",
+      "stem": "（2023八下·庐阳期末） It's really very dangerous. One more step, ____ the kid will fall into the lake.",
+      "passage": "【题干原文】\n（2023八下·庐阳期末） It's really very dangerous. One more step, ____ the kid will fall into the lake.\n\n【考点】表并列关系的连词;连词辨析<br/>\n【出处】安徽省合肥市庐阳区2022-2023学年八年级下学期期末英语试卷 · 2023 · 题庄题号 32671142",
+      "options": [
+        {
+          "key": "A",
+          "text": "so",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "and",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：真的很危险。再多一步，孩子就会掉进湖里了。A.因此；B.和，而且；C.但是；D.或者，否则。根据分析可知，句子中的 One more step 表示条件，相当于一个条件状语从句，此处用连词and。故选B。\n\n【点评】考查连词辨析，注意连词and的用法。\n7．（2023八下·庐阳期末）"
+        },
+        {
+          "key": "C",
+          "text": "but",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "or",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "连词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：真的很危险。再多一步，孩子就会掉进湖里了。A.因此；B.和，而且；C.但是；D.或者，否则。根据分析可知，句子中的 One more step 表示条件，相当于一个条件状语从句，此处用连词and。故选B。\n\n【点评】考查连词辨析，注意连词and的用法。\n7．（2023八下·庐阳期末）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "fc287c8317ae3087be4c58fa72ba4a13",
+      "raw": {
+        "id": 32671142,
+        "title_html": "（2023八下·庐阳期末） It&#x27;s really very dangerous. One more step, ____ the kid will fall into the lake. <br>",
+        "options_html": {
+          "A": "so  ",
+          "B": "and  ",
+          "C": "but  ",
+          "D": "or"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：真的很危险。再多一步，孩子就会掉进湖里了。A.因此；B.和，而且；C.但是；D.或者，否则。根据分析可知，句子中的 One more step 表示条件，相当于一个条件状语从句，此处用连词and。故选B。<br>\n【点评】考查连词辨析，注意连词and的用法。<br>7．（2023八下·庐阳期末）",
+        "content_hash": "fc287c8317ae3087be4c58fa72ba4a13",
+        "source": "安徽省合肥市庐阳区2022-2023学年八年级下学期期末英语试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "表并列关系的连词;连词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32671146",
+      "source": "题庄真题 · 安徽省合肥市庐阳区2022-2023学年八年级下学期期末英语试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "情景交际",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "情景交际",
+      "grammar_point": "情景交际 · 邀请与建议",
+      "mode": "single",
+      "stem": "（2023八下·庐阳期末） —Would you mind my closing the door? It's too cold outside.\n—____. You can do it!",
+      "passage": "【题干原文】\n（2023八下·庐阳期末） —Would you mind my closing the door? It's too cold outside.\n—____. You can do it!\n\n【考点】情景交际<br/>\n【出处】安徽省合肥市庐阳区2022-2023学年八年级下学期期末英语试卷 · 2023 · 题庄题号 32671146",
+      "options": [
+        {
+          "key": "A",
+          "text": "Certainly.",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "You'd better not.",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "Of course not.",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：—— 你介意我关门吗？外面太冷了。——当然不介意。你可以关门！A.当然介意；B.你最好不要；C.当然不介意；D.很难说。根据 Would you mind my closing the door? 和 You can do it! 可知，让对方关门，表示不介意。故选C。\n\n【点评】考查情景交际，做题时要先了解各选项意思，根据具体的语境选项正确答案。"
+        },
+        {
+          "key": "D",
+          "text": "I's hard to say",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "情景交际 · 邀请与建议",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】句意：—— 你介意我关门吗？外面太冷了。——当然不介意。你可以关门！A.当然介意；B.你最好不要；C.当然不介意；D.很难说。根据 Would you mind my closing the door? 和 You can do it! 可知，让对方关门，表示不介意。故选C。\n\n【点评】考查情景交际，做题时要先了解各选项意思，根据具体的语境选项正确答案。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "0fbce16bb7001a7846f5cde6d4b74452",
+      "raw": {
+        "id": 32671146,
+        "title_html": "（2023八下·庐阳期末） —Would you mind my closing the door? It&#x27;s too cold outside. <br>—____. You can do it! <br>",
+        "options_html": {
+          "A": "Certainly.  ",
+          "B": "You&#x27;d better not.",
+          "C": "Of course not.  ",
+          "D": "I&#x27;s hard to say"
+        },
+        "answer": "C",
+        "answer_html": "C<br>",
+        "analysis_html": "【分析】句意：—— 你介意我关门吗？外面太冷了。——当然不介意。你可以关门！A.当然介意；B.你最好不要；C.当然不介意；D.很难说。根据 Would you mind my closing the door?  和 You can do it!  可知，让对方关门，表示不介意。故选C。<br>\n【点评】考查情景交际，做题时要先了解各选项意思，根据具体的语境选项正确答案。<br>",
+        "content_hash": "0fbce16bb7001a7846f5cde6d4b74452",
+        "source": "安徽省合肥市庐阳区2022-2023学年八年级下学期期末英语试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "情景交际<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32672051",
+      "source": "题庄真题 · 广东省广州市番禺区2022-2023学年八年级下学期期末英语试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "被动语态",
+      "grammar_point": "被动语态",
+      "mode": "single",
+      "stem": "（2023八下·番禺期末） A lecture on the development in science and technology ____ in the hall next Monday.",
+      "passage": "【题干原文】\n（2023八下·番禺期末） A lecture on the development in science and technology ____ in the hall next Monday.\n\n【考点】一般将来时的被动语态<br/>\n【出处】广东省广州市番禺区2022-2023学年八年级下学期期末英语试卷 · 2023 · 题庄题号 32672051",
+      "options": [
+        {
+          "key": "A",
+          "text": "was given",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "will be given",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：下周一将在大厅里作一个关于科学技术发展的讲座。was given一般过去时的被动语态；will be given一般将来时的被动语态；is given一般现在时的被动语态；will give一般将来时。根据\"next Monday\"，可知句子时态用一般将来时，且主语和谓语动词give之间是被动关系，所以要用被动语态；一般将来时的被动语态结构为will be+动词的过去分词。故选：B。\n\n【点评】考查一般将来时的被动语态。掌握一般将来时被动语态的结构和用法是解答本题的关键。\n5．（2023八下·番禺期末）"
+        },
+        {
+          "key": "C",
+          "text": "is given",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "will give",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "被动语态",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：下周一将在大厅里作一个关于科学技术发展的讲座。was given一般过去时的被动语态；will be given一般将来时的被动语态；is given一般现在时的被动语态；will give一般将来时。根据\"next Monday\"，可知句子时态用一般将来时，且主语和谓语动词give之间是被动关系，所以要用被动语态；一般将来时的被动语态结构为will be+动词的过去分词。故选：B。\n\n【点评】考查一般将来时的被动语态。掌握一般将来时被动语态的结构和用法是解答本题的关键。\n5．（2023八下·番禺期末）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "d0d9552105ded922ce9b42a6ea49b3a3",
+      "raw": {
+        "id": 32672051,
+        "title_html": "（2023八下·番禺期末） A lecture on the development in science and technology ____ in the hall next Monday. <br>",
+        "options_html": {
+          "A": "was given  ",
+          "B": "will be given",
+          "C": "is given  ",
+          "D": "will give"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：下周一将在大厅里作一个关于科学技术发展的讲座。was given一般过去时的被动语态；will be given一般将来时的被动语态；is given一般现在时的被动语态；will give一般将来时。根据&quot;next Monday&quot;，可知句子时态用一般将来时，且主语和谓语动词give之间是被动关系，所以要用被动语态；一般将来时的被动语态结构为will be+动词的过去分词。故选：B。<br>\n【点评】考查一般将来时的被动语态。掌握一般将来时被动语态的结构和用法是解答本题的关键。<br>5．（2023八下·番禺期末）",
+        "content_hash": "d0d9552105ded922ce9b42a6ea49b3a3",
+        "source": "广东省广州市番禺区2022-2023学年八年级下学期期末英语试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "一般将来时的被动语态<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32672055",
+      "source": "题庄真题 · 广东省广州市番禺区2022-2023学年八年级下学期期末英语试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "形容词与副词",
+      "mode": "single",
+      "stem": "（2023八下·番禺期末） —Tom, I hear that Bob runs ____ in your class. Is that true?\n—No. In fact, he doesn't run as____ as John.",
+      "passage": "【题干原文】\n（2023八下·番禺期末） —Tom, I hear that Bob runs ____ in your class. Is that true?\n—No. In fact, he doesn't run as____ as John.\n\n【考点】副词的比较级和最高级<br/>\n【出处】广东省广州市番禺区2022-2023学年八年级下学期期末英语试卷 · 2023 · 题庄题号 32672055",
+      "options": [
+        {
+          "key": "A",
+          "text": "fastest; faster",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "fastest; fast",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——汤姆，我听说鲍勃在你们班跑得最快。这是真的吗？——不。事实上，他跑得不如约翰快。fast快的/快速地，形容词/副词，比较级是faster，表示\"更快的/地\"，最高级是fastest，表示\"最快的/最快地\"。根据比较的范围in your class（在你们班）可知，此处是三者以上相比较，应使用最高级；分析句子可知，两空均修饰动词runs作状语，应使用副词。第二空使用原级，as+副词原级+as，表示\"与……一样\"。故选：B。\n\n【点评】考查副词。掌握副词原级及最高级用法，结合语境，认真分析，得出答案。\n9．（2023八下·番禺期末）"
+        },
+        {
+          "key": "C",
+          "text": "faster; fastest",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "faster; fast",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "形容词与副词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：——汤姆，我听说鲍勃在你们班跑得最快。这是真的吗？——不。事实上，他跑得不如约翰快。fast快的/快速地，形容词/副词，比较级是faster，表示\"更快的/地\"，最高级是fastest，表示\"最快的/最快地\"。根据比较的范围in your class（在你们班）可知，此处是三者以上相比较，应使用最高级；分析句子可知，两空均修饰动词runs作状语，应使用副词。第二空使用原级，as+副词原级+as，表示\"与……一样\"。故选：B。\n\n【点评】考查副词。掌握副词原级及最高级用法，结合语境，认真分析，得出答案。\n9．（2023八下·番禺期末）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "2273981d6c7187b113f45c59f78f8a45",
+      "raw": {
+        "id": 32672055,
+        "title_html": "（2023八下·番禺期末） —Tom, I hear that Bob runs ____ in your class. Is that true?<br>—No. In fact, he doesn&#x27;t run as____ as John. <br>",
+        "options_html": {
+          "A": "fastest; faster  ",
+          "B": "fastest; fast",
+          "C": "faster; fastest  ",
+          "D": "faster; fast"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：——汤姆，我听说鲍勃在你们班跑得最快。这是真的吗？——不。事实上，他跑得不如约翰快。fast快的/快速地，形容词/副词，比较级是faster，表示&quot;更快的/地&quot;，最高级是fastest，表示&quot;最快的/最快地&quot;。根据比较的范围in your class（在你们班）可知，此处是三者以上相比较，应使用最高级；分析句子可知，两空均修饰动词runs作状语，应使用副词。第二空使用原级，as+副词原级+as，表示&quot;与……一样&quot;。故选：B。<br>\n【点评】考查副词。掌握副词原级及最高级用法，结合语境，认真分析，得出答案。<br>9．（2023八下·番禺期末）",
+        "content_hash": "2273981d6c7187b113f45c59f78f8a45",
+        "source": "广东省广州市番禺区2022-2023学年八年级下学期期末英语试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "副词的比较级和最高级<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32672884",
+      "source": "题庄真题 · 广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "连词",
+      "mode": "single",
+      "stem": "（2021·宿迁）Mary shut the window just now ______ she could keep the insects out.",
+      "passage": "【题干原文】\n（2021·宿迁）Mary shut the window just now ______ she could keep the insects out.\n\n【考点】连词辨析<br/>\n【出处】广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题 · 2023 · 题庄题号 32672884",
+      "options": [
+        {
+          "key": "A",
+          "text": "so that",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：玛丽刚才关上了窗户，以便把昆虫挡在外面。so that为了；when当……时；till直到；afer在……之后。根据空格前后句可知，关窗户的目的是挡住昆虫，此处应用 so that引导目的状语从句，故选A。\n\n【点评】考查连词。注意so that的基本用法及含义。\n8．（2023八下·仁化月考）"
+        },
+        {
+          "key": "B",
+          "text": "when",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "till",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "after",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "连词",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】句意：玛丽刚才关上了窗户，以便把昆虫挡在外面。so that为了；when当……时；till直到；afer在……之后。根据空格前后句可知，关窗户的目的是挡住昆虫，此处应用 so that引导目的状语从句，故选A。\n\n【点评】考查连词。注意so that的基本用法及含义。\n8．（2023八下·仁化月考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "8e23416f6a976ae3136ebd52d569605a",
+      "raw": {
+        "id": 32672884,
+        "title_html": "（2021·宿迁）Mary shut the window just now ______ she could keep the insects out.  <br>",
+        "options_html": {
+          "A": "so that  ",
+          "B": "when  ",
+          "C": "till  ",
+          "D": "after"
+        },
+        "answer": "A",
+        "answer_html": "A<br>",
+        "analysis_html": "【分析】句意：玛丽刚才关上了窗户，以便把昆虫挡在外面。so that为了；when当……时；till直到；afer在……之后。根据空格前后句可知，关窗户的目的是挡住昆虫，此处应用 so that引导目的状语从句，故选A。<br>\n【点评】考查连词。注意so that的基本用法及含义。<br>8．（2023八下·仁化月考）",
+        "content_hash": "8e23416f6a976ae3136ebd52d569605a",
+        "source": "广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "连词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32672885",
+      "source": "题庄真题 · 广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "连词",
+      "mode": "single",
+      "stem": "（2023八下·仁化月考） ____ Tom ____ Tim is going with you because one of them must stay at home.",
+      "passage": "【题干原文】\n（2023八下·仁化月考） ____ Tom ____ Tim is going with you because one of them must stay at home.\n\n【考点】连词辨析<br/>\n【出处】广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题 · 2023 · 题庄题号 32672885",
+      "options": [
+        {
+          "key": "A",
+          "text": "Either; or",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：不是汤姆就是蒂姆和你一起去，因为他们必须有一个留在家里。A：Either; or要么......要么......（二者选其一）；B：Neither; nor既不，也不（两者都不）；C：Both; and两者都；D：Not only; but also不但......，而且......。根据句子because one of them must stay at home. 因为他们必须有一个留在家里。可知此处是指二者选择其一，应用Either...or，故选A。\n\n【点评】考查连词辨析，注意识记Either...or的用法。\n9．（2021·昆明）"
+        },
+        {
+          "key": "B",
+          "text": "Neither; nor",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "Both; and",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "Not only; but also",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "连词",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】句意：不是汤姆就是蒂姆和你一起去，因为他们必须有一个留在家里。A：Either; or要么......要么......（二者选其一）；B：Neither; nor既不，也不（两者都不）；C：Both; and两者都；D：Not only; but also不但......，而且......。根据句子because one of them must stay at home. 因为他们必须有一个留在家里。可知此处是指二者选择其一，应用Either...or，故选A。\n\n【点评】考查连词辨析，注意识记Either...or的用法。\n9．（2021·昆明）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "eb711b7e02fe02ace3d422edabbd38f4",
+      "raw": {
+        "id": 32672885,
+        "title_html": "（2023八下·仁化月考） ____ Tom ____ Tim is going with you because one of them must stay at home. <br>",
+        "options_html": {
+          "A": "Either; or  ",
+          "B": "Neither; nor",
+          "C": "Both; and  ",
+          "D": "Not only; but also"
+        },
+        "answer": "A",
+        "answer_html": "A<br>",
+        "analysis_html": "【分析】句意：不是汤姆就是蒂姆和你一起去，因为他们必须有一个留在家里。A：Either; or要么......要么......（二者选其一）；B：Neither; nor既不，也不（两者都不）；C：Both; and两者都；D：Not only; but also不但......，而且......。根据句子because one of them must stay at home. 因为他们必须有一个留在家里。可知此处是指二者选择其一，应用Either...or，故选A。<br>\n【点评】考查连词辨析，注意识记Either...or的用法。<br>9．（2021·昆明）",
+        "content_hash": "eb711b7e02fe02ace3d422edabbd38f4",
+        "source": "广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "连词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32672886",
+      "source": "题庄真题 · 广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "连词",
+      "mode": "single",
+      "stem": "（2021·昆明）You can't make progress in math learning ____________ you work harder.",
+      "passage": "【题干原文】\n（2021·昆明）You can't make progress in math learning ____________ you work harder.\n\n【考点】连词辨析<br/>\n【出处】广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题 · 2023 · 题庄题号 32672886",
+      "options": [
+        {
+          "key": "A",
+          "text": "if",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "after",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "unless",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：除非你更努力，不然你不能在数学学习上取得进步。A.如果，B.在……之后，C.除非，D.因为。根据 You can't make progress in math learning，你不能在数学学习上取得进步，可知应是除非更努力。故选C。\n\n【点评】考查连词辨析。注意掌握连词unless=if…not的用法。\n10．（2021·达州）"
+        },
+        {
+          "key": "D",
+          "text": "because",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "连词",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】句意：除非你更努力，不然你不能在数学学习上取得进步。A.如果，B.在……之后，C.除非，D.因为。根据 You can't make progress in math learning，你不能在数学学习上取得进步，可知应是除非更努力。故选C。\n\n【点评】考查连词辨析。注意掌握连词unless=if…not的用法。\n10．（2021·达州）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "294c2d9f3c56390583c741d5ce46f5b0",
+      "raw": {
+        "id": 32672886,
+        "title_html": "（2021·昆明）You can&#x27;t make progress in math learning ____________ you work harder.   <br>",
+        "options_html": {
+          "A": "if  ",
+          "B": "after  ",
+          "C": "unless  ",
+          "D": "because"
+        },
+        "answer": "C",
+        "answer_html": "C<br>",
+        "analysis_html": "【分析】句意：除非你更努力，不然你不能在数学学习上取得进步。A.如果，B.在……之后，C.除非，D.因为。根据 You can&#x27;t make progress in math learning，你不能在数学学习上取得进步，可知应是除非更努力。故选C。<br>\n【点评】考查连词辨析。注意掌握连词unless=if…not的用法。<br>10．（2021·达州）",
+        "content_hash": "294c2d9f3c56390583c741d5ce46f5b0",
+        "source": "广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "连词辨析<br/>",
+        "year": 2023
+      }
+    }
+  ]
+}

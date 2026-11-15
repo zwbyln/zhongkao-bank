@@ -1,0 +1,33 @@
+{
+  "note": "以下题未入库，供教师人工复核；脚本不擅自更正答案。",
+  "items": [
+    {
+      "id": 14919602,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 3）",
+      "title": "The news that some famous actors ______ taking drugs surprised me．（ ）",
+      "answer": "C",
+      "analysis": "【分析】一些著名的演员吸毒被抓的消息让我很吃惊．"
+    },
+    {
+      "id": 14919696,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 3）",
+      "title": "Annie to the party．She had a wonderful time with us．（ ）",
+      "answer": "C",
+      "analysis": "【分析】安妮被邀请去参加聚会．她和我们过的很愉快．"
+    },
+    {
+      "id": 14919705,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 3）",
+      "title": "Jack is a businessman．He trades with Russian businessmen．（ ）",
+      "answer": "A",
+      "analysis": "【分析】杰克是一个商人，他与俄国商人做生意．"
+    },
+    {
+      "id": 14919998,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 3）",
+      "title": "The red bike is Jim's and the blue one me．（ ）",
+      "answer": "C",
+      "analysis": "【分析】这辆红色自行车是吉姆的，蓝色的属于我．"
+    }
+  ]
+}

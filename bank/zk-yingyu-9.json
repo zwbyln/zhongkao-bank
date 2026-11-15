@@ -1,0 +1,1246 @@
+{
+  "format": "zx-trainer-bank-v1",
+  "source": "题庄真题库（tizhuang.qcscience.cc）",
+  "generatedAt": "2026-11-15T01:00:41.884295+00:00",
+  "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。英语题的 grammar_group / grammar_point 由关键词推断（结构类优先于时态类），口语交际与语法填空等主观题不在采集范围内。",
+  "stats": {
+    "usable": 16,
+    "skipped": 4,
+    "thisRun": 16,
+    "added": 16
+  },
+  "items": [
+    {
+      "id": "TZ14919641",
+      "source": "题庄真题 · 2015秋•罗田县期中",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "-___________ does your sister go to the movies？-Once a month．（ ）",
+      "passage": "【题干原文】\n-___________ does your sister go to the movies？-Once a month．（ ）\n\n【考点】频度（how often）\n【出处】2015秋•罗田县期中 · 2015 · 题庄题号 14919641",
+      "options": [
+        {
+          "key": "A",
+          "text": "How long",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "How soon",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "How much",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "How often",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--你的姐姐多久看一次电影？\n--一月一次．"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】--你的姐姐多久看一次电影？\n--一月一次．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "27a347dc67cd99d3a0ff77be069b0b01",
+      "raw": {
+        "id": 14919641,
+        "title_html": "-___________ does your sister go to the movies？-Once a month．（　　）",
+        "options_html": {
+          "A": "How long",
+          "B": "How soon",
+          "C": "How much",
+          "D": "How often"
+        },
+        "answer": "D",
+        "answer_html": "【解答】答案：D<br>根据回答&quot;Once a month&quot;可知，此处在询问频率．A 多长时间；B 多长时间之后；C 多少；D 多久一次．只有D选项为询问频率，故答案为D",
+        "analysis_html": "【分析】--你的姐姐多久看一次电影？<br>--一月一次．",
+        "content_hash": "27a347dc67cd99d3a0ff77be069b0b01",
+        "source": "2015秋•罗田县期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "频度（how often）",
+        "year": 2015
+      }
+    },
+    {
+      "id": "TZ14919653",
+      "source": "题庄真题 · 2016春•秦皇岛期中",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "情景交际",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "情景交际",
+      "grammar_point": "情景交际 · 邀请与建议",
+      "mode": "single",
+      "stem": "-Does Peter walk home？\n-______．He takes the bus．（ ）",
+      "passage": "【题干原文】\n-Does Peter walk home？\n-______．He takes the bus．（ ）\n\n【考点】常用日常交际用语\n【出处】2016春•秦皇岛期中 · 2016 · 题庄题号 14919653",
+      "options": [
+        {
+          "key": "A",
+          "text": "No，he doesn't",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--彼得走路回家吗？\n--不，他不．他乘公交车．"
+        },
+        {
+          "key": "B",
+          "text": "Yes，he does",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "No，he isn't",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "Yes，he is 11．",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "情景交际 · 邀请与建议",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】--彼得走路回家吗？\n--不，他不．他乘公交车．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "2c954becb0474a691369409882e9900e",
+      "raw": {
+        "id": 14919653,
+        "title_html": "-Does Peter walk home？<br>-______．He takes the bus．（　　）",
+        "options_html": {
+          "A": "No，he doesn&#x27;t",
+          "B": "Yes，he does",
+          "C": "No，he isn&#x27;t",
+          "D": "Yes，he is 11．"
+        },
+        "answer": "A",
+        "answer_html": "【解答】答案：A．考查交际用语．句意&quot;--彼得走路回家吗？--不，他不．他乘公交车．&quot;．A不，他不．B是的，他是．C不，他不是．D是的，他是11岁．结合语境，Does开头的一般疑问句，肯定回答Yes，he does．否定回答No，he doesn&#x27;t．结合语境&quot;他乘公交车&quot;，可知应该用否定回答．答案是A．",
+        "analysis_html": "【分析】--彼得走路回家吗？<br>--不，他不．他乘公交车．",
+        "content_hash": "2c954becb0474a691369409882e9900e",
+        "source": "2016春•秦皇岛期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "常用日常交际用语",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ14919699",
+      "source": "题庄真题 · 2016春•宁县校级期中",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "情景交际",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "情景交际",
+      "grammar_point": "情景交际 · 邀请与建议",
+      "mode": "single",
+      "stem": "-Do you often go by bus or by train？- ．（ ）",
+      "passage": "【题干原文】\n-Do you often go by bus or by train？- ．（ ）\n\n【考点】常用日常交际用语\n【出处】2016春•宁县校级期中 · 2016 · 题庄题号 14919699",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes，I do",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "No，I don't",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "By bus",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--你经常坐公共汽车还是火车呢？\n--乘公共汽车．"
+        },
+        {
+          "key": "D",
+          "text": "By bike",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "情景交际 · 邀请与建议",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】--你经常坐公共汽车还是火车呢？\n--乘公共汽车．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "20ca6208b5091af4615fa74593aa3d2a",
+      "raw": {
+        "id": 14919699,
+        "title_html": "-Do you often go by bus or by train？-<bdo class=\"mathjye-underline\">           </bdo>．（　　）",
+        "options_html": {
+          "A": "Yes，I do",
+          "B": "No，I don&#x27;t",
+          "C": "By bus",
+          "D": "By bike"
+        },
+        "answer": "C",
+        "answer_html": "【解答】答案：C<br>根据&quot;Do you often go by bus or by train&quot;可知，此句为选择疑问句．A 是的；B 不是；C 乘公共汽车；D 骑自行车．只有C符合语境，故答案为C",
+        "analysis_html": "【分析】--你经常坐公共汽车还是火车呢？<br>--乘公共汽车．",
+        "content_hash": "20ca6208b5091af4615fa74593aa3d2a",
+        "source": "2016春•宁县校级期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "常用日常交际用语",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ14919767",
+      "source": "题庄真题 · 2016春•盐城校级期中",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "名词与数",
+      "mode": "single",
+      "stem": "My grandfather came back to China _________and devoted all his life to his hometown（ ）",
+      "passage": "【题干原文】\nMy grandfather came back to China _________and devoted all his life to his hometown（ ）\n\n【考点】数词的用法\n【出处】2016春•盐城校级期中 · 2016 · 题庄题号 14919767",
+      "options": [
+        {
+          "key": "A",
+          "text": "in his fourties",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "at his forties",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "in his forties",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】我爷爷在他四十多岁时回到中国，并将自己的一生奉献给家乡．"
+        },
+        {
+          "key": "D",
+          "text": "at his fourties",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "名词与数",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】我爷爷在他四十多岁时回到中国，并将自己的一生奉献给家乡．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "c818e5d7e0065b47fbc50a21c60b0513",
+      "raw": {
+        "id": 14919767,
+        "title_html": "My grandfather came back to China _________and devoted all his life to his hometown（　　）",
+        "options_html": {
+          "A": "in his fourties",
+          "B": "at his forties",
+          "C": "in his forties",
+          "D": "at his fourties"
+        },
+        "answer": "C",
+        "answer_html": "【解答】答案：C．根据题干，本句的意思是我爷爷在他四十多岁时回到中国，并将自己的一生奉献给家乡．在英语中，表示&quot;在几十岁时&quot;应用 in one&#x27;s+整十的复数；又根据四十是forty，故其复数形式是forties．故选C．",
+        "analysis_html": "【分析】我爷爷在他四十多岁时回到中国，并将自己的一生奉献给家乡．",
+        "content_hash": "c818e5d7e0065b47fbc50a21c60b0513",
+        "source": "2016春•盐城校级期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "数词的用法",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ14919805",
+      "source": "题庄真题 · 2016春•文登区期中",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "情景交际",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "情景交际",
+      "grammar_point": "情景交际 · 邀请与建议",
+      "mode": "single",
+      "stem": "---_________？\n---I can do Kungfu．（ ）",
+      "passage": "【题干原文】\n---_________？\n---I can do Kungfu．（ ）\n\n【考点】常用日常交际用语\n【出处】2016春•文登区期中 · 2016 · 题庄题号 14919805",
+      "options": [
+        {
+          "key": "A",
+          "text": "Can you draw",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "What can you do",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--你会做什么？\n--我会功夫．"
+        },
+        {
+          "key": "C",
+          "text": "What can she do",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "What club do you want to join",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "情景交际 · 邀请与建议",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】--你会做什么？\n--我会功夫．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "48c1919989d2dfbd7aba3182c6121030",
+      "raw": {
+        "id": 14919805,
+        "title_html": "---_________？<br>---I can do Kungfu．（　　）",
+        "options_html": {
+          "A": "Can you draw",
+          "B": "What can you do",
+          "C": "What can she do",
+          "D": "What club do you want to join"
+        },
+        "answer": "B",
+        "answer_html": "【解答】答案：B．根据题干，本句的意思是--你会做什么？--我会功夫．根据答语I can do Kungfu可知，本句应是问&quot;我会做什么&quot;．故选B．",
+        "analysis_html": "【分析】--你会做什么？<br>--我会功夫．",
+        "content_hash": "48c1919989d2dfbd7aba3182c6121030",
+        "source": "2016春•文登区期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "常用日常交际用语",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ14919889",
+      "source": "题庄真题 · 2012•上海",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "Jenny told me that she __ an English Speech Contest the next month．（ ）",
+      "passage": "【题干原文】\nJenny told me that she __ an English Speech Contest the next month．（ ）\n\n【考点】语态的辨析\n【出处】2012•上海 · 2012 · 题庄题号 14919889",
+      "options": [
+        {
+          "key": "A",
+          "text": "takes part in",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "is taking part in",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "took part in",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "would take part in",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】珍妮告诉我她下个月将参加一次英语演讲比赛．"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】珍妮告诉我她下个月将参加一次英语演讲比赛．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "166514697afd19b24886da8229b8c5a3",
+      "raw": {
+        "id": 14919889,
+        "title_html": "Jenny told me that she __ an English Speech Contest the next month．（　　）",
+        "options_html": {
+          "A": "takes part in",
+          "B": "is taking part in",
+          "C": "took part in",
+          "D": "would take part in"
+        },
+        "answer": "D",
+        "answer_html": "【解答】答案：D．根据 she __ an English Speech Contest the next month本句放在动词told之后可知，本句是一个宾语从句．根据在宾语从句中如果主句用过去时，从句应用过去时的某种时态可知，因为主句中的told可知，从句应用过去时的某种时态；又根据next month可知，应用过去将来时would+动词原形．故选D．",
+        "analysis_html": "【分析】珍妮告诉我她下个月将参加一次英语演讲比赛．",
+        "content_hash": "166514697afd19b24886da8229b8c5a3",
+        "source": "2012•上海",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "语态的辨析",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ14919925",
+      "source": "题庄真题 · 2016•南京校级一模",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "-When shall we go to watch the basketball match？\n-Tomorrow，only if the work ________．（ ）",
+      "passage": "【题干原文】\n-When shall we go to watch the basketball match？\n-Tomorrow，only if the work ________．（ ）\n\n【考点】语态的辨析\n【出处】2016•南京校级一模 · 2016 · 题庄题号 14919925",
+      "options": [
+        {
+          "key": "A",
+          "text": "will be finished",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "is finished",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--我们将什么时候看篮球比赛？\n--明天，只要完成工作就看．"
+        },
+        {
+          "key": "C",
+          "text": "finishes",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "has finished",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】--我们将什么时候看篮球比赛？\n--明天，只要完成工作就看．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "07003576e481d31967a12d5cdb425d3a",
+      "raw": {
+        "id": 14919925,
+        "title_html": "-When shall we go to watch the basketball match？<br>-Tomorrow，only if the work ________．（　　）",
+        "options_html": {
+          "A": "will be finished",
+          "B": "is finished",
+          "C": "finishes",
+          "D": "has finished"
+        },
+        "answer": "B",
+        "answer_html": "【解答】答案：B．根据题干，可知主语the work是动作finish的承受者，和动词构成被动的关系，应该用被动语态，表示&quot;工作被完成&quot;．被动语态的结构是&quot;be+过去分词&quot;；根据句中的if可知，这是一个条件状语从句，主句用将来时，从句应用一般现在时．一般现在时态的被动语态的构成：am/is/are+及物动词的过去分词；work 是不可数名词，应用is．故选B．",
+        "analysis_html": "【分析】--我们将什么时候看篮球比赛？<br>--明天，只要完成工作就看．",
+        "content_hash": "07003576e481d31967a12d5cdb425d3a",
+        "source": "2016•南京校级一模",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "语态的辨析",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ14920111",
+      "source": "题庄真题 · 2016春•柘城县校级期中",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "-I hear an ordinary（普通的） worker was chosen to play the lead role in the film\n-So lucky!Just as the saying goes，\"____________________\"．（ ）",
+      "passage": "【题干原文】\n-I hear an ordinary（普通的） worker was chosen to play the lead role in the film\n-So lucky!Just as the saying goes，\"____________________\"．（ ）\n\n【考点】谚语\n【出处】2016春•柘城县校级期中 · 2016 · 题庄题号 14920111",
+      "options": [
+        {
+          "key": "A",
+          "text": "practice makes perfect",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "the early bird catches the worm",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "every dog has its day",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--我听说一个普通工人被选中在电影中扮演主角．\n--如此幸运！正如俗话所说，\"凡人皆有得意日\"．"
+        },
+        {
+          "key": "D",
+          "text": "actions speak louder than words",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】--我听说一个普通工人被选中在电影中扮演主角．\n--如此幸运！正如俗话所说，\"凡人皆有得意日\"．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "e34853b4f4acfc49c4e0498ffee54e1c",
+      "raw": {
+        "id": 14920111,
+        "title_html": "-I hear an ordinary（普通的） worker was chosen to play the lead role in the film<br>-So lucky!Just as the saying goes，&quot;____________________&quot;．（　　）",
+        "options_html": {
+          "A": "practice makes perfect",
+          "B": "the early bird catches the worm",
+          "C": "every dog has its day",
+          "D": "actions speak louder than words"
+        },
+        "answer": "C",
+        "answer_html": "【解答】答案：C．考查谚语．A熟能生巧．B早起的鸟儿有虫吃．C凡人皆有得意日．D事实胜于雄辩．结合语境&quot;我听说一个普通工人被选中在电影中扮演主角．&quot;，可知，应该是&quot;凡人皆有得意日&quot;．答案是C．",
+        "analysis_html": "【分析】--我听说一个普通工人被选中在电影中扮演主角．<br>--如此幸运！正如俗话所说，&quot;凡人皆有得意日&quot;．",
+        "content_hash": "e34853b4f4acfc49c4e0498ffee54e1c",
+        "source": "2016春•柘城县校级期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "谚语",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ14920142",
+      "source": "题庄真题 · 2016春•重庆校级期中",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "名词与数",
+      "mode": "single",
+      "stem": "The panda is a symbol of China．Over ______ pandas live in Sichuan．（ ）",
+      "passage": "【题干原文】\nThe panda is a symbol of China．Over ______ pandas live in Sichuan．（ ）\n\n【考点】数词的用法\n【出处】2016春•重庆校级期中 · 2016 · 题庄题号 14920142",
+      "options": [
+        {
+          "key": "A",
+          "text": "8 hundreds",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "8 hundred",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】熊猫是中国的象征．超过八百只熊猫生活在四川．"
+        },
+        {
+          "key": "C",
+          "text": "8 hundreds of",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "8-hundreds",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "名词与数",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】熊猫是中国的象征．超过八百只熊猫生活在四川．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "3719fc278b9bc76015a640daaa36dafd",
+      "raw": {
+        "id": 14920142,
+        "title_html": "The panda is a symbol of China．Over ______ pandas live in Sichuan．（　　）",
+        "options_html": {
+          "A": "8 hundreds",
+          "B": "8 hundred",
+          "C": "8 hundreds of",
+          "D": "8-hundreds"
+        },
+        "answer": "B",
+        "answer_html": "【解答】答案：B，考查数词的用法．句意&quot;熊猫是中国的象征．超过八百只熊猫生活在四川．&quot;基数词+数字单位+名词复数，如果hundred前面有数字，就用：数字+hundred，不管是几百都不加s，而且有数字在前面只能用hundred．hundreds of表示成百上千的，前面不能加明确的数字，hundreds of的s不可省略，后面加名词复数．故选B．",
+        "analysis_html": "【分析】熊猫是中国的象征．超过八百只熊猫生活在四川．",
+        "content_hash": "3719fc278b9bc76015a640daaa36dafd",
+        "source": "2016春•重庆校级期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "数词的用法",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ14920145",
+      "source": "题庄真题 · 2012•上海",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "I'm sure that stricter roles to control cigarette smoking_____very soon．（ ）",
+      "passage": "【题干原文】\nI'm sure that stricter roles to control cigarette smoking_____very soon．（ ）\n\n【考点】语态的辨析\n【出处】2012•上海 · 2012 · 题庄题号 14920145",
+      "options": [
+        {
+          "key": "A",
+          "text": "made",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "will make",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "were made",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "will be made",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】我确信更严格的控烟措施不久将被制定．"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】我确信更严格的控烟措施不久将被制定．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "14257679b0837cd10effbaff2e1ce9c5",
+      "raw": {
+        "id": 14920145,
+        "title_html": "I&#x27;m sure that stricter roles to control cigarette smoking_____very soon．（　　）",
+        "options_html": {
+          "A": "made",
+          "B": "will make",
+          "C": "were made",
+          "D": "will be made"
+        },
+        "answer": "D",
+        "answer_html": "【解答】答案：D．根据 stricter roles to control cigarette smoking_____可知主语stricter roles to control cigarette smoking是动作make的承受者，和动词构成被动的关系，应该用被动语态．被动语态的结构是&quot;be+过去分词&quot;；根据句中的 soon可知，应该用一般将来时．一般现在时态的被动语态的构成：will be+及物动词的过去分词；故选D．",
+        "analysis_html": "【分析】我确信更严格的控烟措施不久将被制定．",
+        "content_hash": "14257679b0837cd10effbaff2e1ce9c5",
+        "source": "2012•上海",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "语态的辨析",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ14920171",
+      "source": "题庄真题 · 2015春•会宁县校级期末",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "This photo ten years ago．（ ）",
+      "passage": "【题干原文】\nThis photo ten years ago．（ ）\n\n【考点】语态的辨析\n【出处】2015春•会宁县校级期末 · 2015 · 题庄题号 14920171",
+      "options": [
+        {
+          "key": "A",
+          "text": "took",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "is taken",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "was taken",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】这张照片是十年前拍的．"
+        },
+        {
+          "key": "D",
+          "text": "take",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】这张照片是十年前拍的．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "4fe8f29b81eb9bad6284c30cecdfc545",
+      "raw": {
+        "id": 14920171,
+        "title_html": "This photo <bdo class=\"mathjye-underline\">         </bdo> ten years ago．（　　）",
+        "options_html": {
+          "A": "took",
+          "B": "is taken",
+          "C": "was taken",
+          "D": "take"
+        },
+        "answer": "C",
+        "answer_html": "【解答】答案：C．考查被动语态．句意&quot;这张照片是十年前拍的．&quot;．A一般过去时态．B一般现在时态的被动语态．C一般过去时态的被动语态．D一般现在时态．主语photo是动词take动作的承受者，因此用被动语态，结构是be动词+动词的过去分词，由ten years ago十年前，可知是一般过去时态，主语是单数，因此用be动词单数is的过去式was，take的过去分词是taken．答案是C．",
+        "analysis_html": "【分析】这张照片是十年前拍的．",
+        "content_hash": "4fe8f29b81eb9bad6284c30cecdfc545",
+        "source": "2015春•会宁县校级期末",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "语态的辨析",
+        "year": 2015
+      }
+    },
+    {
+      "id": "TZ14920236",
+      "source": "题庄真题 · 2016春•泗阳县期中",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "被动语态",
+      "grammar_point": "情态动词被动",
+      "mode": "single",
+      "stem": "110，206should be read ________．（ ）",
+      "passage": "【题干原文】\n110，206should be read ________．（ ）\n\n【考点】数词的用法\n【出处】2016春•泗阳县期中 · 2016 · 题庄题号 14920236",
+      "options": [
+        {
+          "key": "A",
+          "text": "one hundred and ten thousand，two hundred and six",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】110206应读作十一万，二百零六．"
+        },
+        {
+          "key": "B",
+          "text": "one hundred and ten thousands and two hundreds and six",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "one hundred and ten thousand and two hundred and six",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "one hundred，ten thousand，two hundred and six",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "情态动词被动",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】110206应读作十一万，二百零六．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "5f134f61f451f0dbca91879a1e61a3d1",
+      "raw": {
+        "id": 14920236,
+        "title_html": "110，206should be read ________．（　　）",
+        "options_html": {
+          "A": "one hundred and ten thousand，two hundred and six",
+          "B": "one hundred and ten thousands and two hundreds and six",
+          "C": "one hundred and ten thousand and two hundred and six",
+          "D": "one hundred，ten thousand，two hundred and six"
+        },
+        "answer": "A",
+        "answer_html": "【解答】答案：A 考查数词的用法．考查固定用法：hundred、ten thousands前面有具体数词修饰时不能加s，故先排除B．从数字的右端向左端数起，每三位数加一个逗号&quot;，&quot;．从右开始，第一个&quot;，&quot;前的数字后添加 thousand，第二个&quot;，&quot;前面的数字后添加 million，第三个&quot;，&quot;前的数字后添加 billion．然后一节一节分别表示，两个逗号之间最大的数为百位数形式，只有在百和十之间加and．所以也排除C、D．故选A．",
+        "analysis_html": "【分析】110206应读作十一万，二百零六．",
+        "content_hash": "5f134f61f451f0dbca91879a1e61a3d1",
+        "source": "2016春•泗阳县期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "数词的用法",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ14920297",
+      "source": "题庄真题 · 2015秋•昆明期中",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "词汇辨析",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词汇辨析",
+      "grammar_point": "近义词辨析",
+      "mode": "single",
+      "stem": "It isn't like a duck to water to learn a foreign language，so you must study hard．（ ）",
+      "passage": "【题干原文】\nIt isn't like a duck to water to learn a foreign language，so you must study hard．（ ）\n\n【考点】同义词、近义词的辨析\n【出处】2015秋•昆明期中 · 2015 · 题庄题号 14920297",
+      "options": [
+        {
+          "key": "A",
+          "text": "有趣的",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "迅速的",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "自由的",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "容易的",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】学习外语不是如鱼得水，所以你必须努力学习．"
+        }
+      ],
+      "points": [],
+      "formula_ref": "近义词辨析",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】学习外语不是如鱼得水，所以你必须努力学习．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "706fd5eddb6ebaccce915b0579566496",
+      "raw": {
+        "id": 14920297,
+        "title_html": "It isn&#x27;t<bdo class=\"mathjye-underline\"> like a duck to water</bdo> to learn a foreign language，so you must study hard．（　　）",
+        "options_html": {
+          "A": "有趣的",
+          "B": "迅速的",
+          "C": "自由的",
+          "D": "容易的"
+        },
+        "answer": "D",
+        "answer_html": "【解答】答案：D．考查同义词．句意&quot;学习外语不是如鱼得水，所以你必须努力学习．&quot;．like a duck to water如鱼得水．结合语境&quot;所以你必须努力学习&quot;，可知应该是isn&#x27;t easy不是&quot;容易的&quot;．答案是D．",
+        "analysis_html": "【分析】学习外语不是如鱼得水，所以你必须努力学习．",
+        "content_hash": "706fd5eddb6ebaccce915b0579566496",
+        "source": "2015秋•昆明期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "同义词、近义词的辨析",
+        "year": 2015
+      }
+    },
+    {
+      "id": "TZ14920322",
+      "source": "题庄真题 · 2016春•泗阳县期中",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "情景交际",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "情景交际",
+      "grammar_point": "情景交际 · 邀请与建议",
+      "mode": "single",
+      "stem": "-Good luck with your Chinese exam．-_________!（ ）",
+      "passage": "【题干原文】\n-Good luck with your Chinese exam．-_________!（ ）\n\n【考点】常用日常交际用语\n【出处】2016春•泗阳县期中 · 2016 · 题庄题号 14920322",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thank you",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--祝你语文考试好运．\n--谢谢．"
+        },
+        {
+          "key": "B",
+          "text": "No，I'm not lucky．",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "Good luck to you．",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "You're welcome．",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "情景交际 · 邀请与建议",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】--祝你语文考试好运．\n--谢谢．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "341c471a4ea224c093952959b5e175fa",
+      "raw": {
+        "id": 14920322,
+        "title_html": "-Good luck with your Chinese exam．-_________!（　　）",
+        "options_html": {
+          "A": "Thank you",
+          "B": "No，I&#x27;m not lucky．",
+          "C": "Good luck to you．",
+          "D": "You&#x27;re welcome．"
+        },
+        "answer": "A",
+        "answer_html": "【解答】答案：A 考查常用日常交际用语．Thank you 意为谢谢； No，I&#x27;m not lucky． 意为不，我不幸运； Good luck to you．意为祝你好运； You&#x27;re welcome． 意为不客气．根据句意祝你中文考试好运．应该是谢谢．故选择A．",
+        "analysis_html": "【分析】--祝你语文考试好运．<br>--谢谢．",
+        "content_hash": "341c471a4ea224c093952959b5e175fa",
+        "source": "2016春•泗阳县期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "常用日常交际用语",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ14920328",
+      "source": "题庄真题 · 2015秋•金秀县校级期末",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "There was an important meeting last night．Mr．Smith _______ to it．（ ）",
+      "passage": "【题干原文】\nThere was an important meeting last night．Mr．Smith _______ to it．（ ）\n\n【考点】语态的辨析\n【出处】2015秋•金秀县校级期末 · 2015 · 题庄题号 14920328",
+      "options": [
+        {
+          "key": "A",
+          "text": "was invited",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】昨天晚上召开了一个重要的会议．史密斯先生应邀参加．"
+        },
+        {
+          "key": "B",
+          "text": "invited",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "is invited",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "invites",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】昨天晚上召开了一个重要的会议．史密斯先生应邀参加．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "ddcce234de958bd7f6bb5f4ff4acc2c9",
+      "raw": {
+        "id": 14920328,
+        "title_html": "There was an important meeting last night．Mr．Smith _______ to it．（　　）",
+        "options_html": {
+          "A": "was invited",
+          "B": "invited",
+          "C": "is invited",
+          "D": "invites"
+        },
+        "answer": "A",
+        "answer_html": "【解答】答案：A．一般过去时的被动语态：was/were+过去分词，表示过去某一时间的被动动作或过去经常性、习惯性的动作．对于史密斯先生来说是被邀请参加这个会议的，结合&quot;There was an important meeting last night&quot;所以要用一般过去时的被动语态，故选A．",
+        "analysis_html": "【分析】昨天晚上召开了一个重要的会议．史密斯先生应邀参加．",
+        "content_hash": "ddcce234de958bd7f6bb5f4ff4acc2c9",
+        "source": "2015秋•金秀县校级期末",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "语态的辨析",
+        "year": 2015
+      }
+    },
+    {
+      "id": "TZ14920334",
+      "source": "题庄真题 · 2016春•桂林校级期中",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "情景交际",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "情景交际",
+      "grammar_point": "情景交际 · 邀请与建议",
+      "mode": "single",
+      "stem": "-Do you think he will meet the film star？\n-______．（ ）",
+      "passage": "【题干原文】\n-Do you think he will meet the film star？\n-______．（ ）\n\n【考点】常用日常交际用语\n【出处】2016春•桂林校级期中 · 2016 · 题庄题号 14920334",
+      "options": [
+        {
+          "key": "A",
+          "text": "That's a good idea",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "I'm not sure",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--你认为他会和电影明星见面吗？\n--我不确定．"
+        },
+        {
+          "key": "C",
+          "text": "Have a good time",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "See you tomorrow",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "情景交际 · 邀请与建议",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】--你认为他会和电影明星见面吗？\n--我不确定．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "4a5f786b80db19833d81161f9460cf95",
+      "raw": {
+        "id": 14920334,
+        "title_html": "-Do you think he will meet the film star？<br>-______．（　　）",
+        "options_html": {
+          "A": "That&#x27;s a good idea",
+          "B": "I&#x27;m not sure",
+          "C": "Have a good time",
+          "D": "See you tomorrow"
+        },
+        "answer": "B",
+        "answer_html": "【解答】答案：B．考查交际用语．句意&quot;--你认为他会和电影明星见面吗？--我不确定．&quot;．A那是个好主意．B我不确定．C玩得开心．D明天见．结合语境&quot;你认为他会和电影明星见面吗？&quot;，可以回答&quot;我不确定&quot;，答案是B．其它不符合．",
+        "analysis_html": "【分析】--你认为他会和电影明星见面吗？<br>--我不确定．",
+        "content_hash": "4a5f786b80db19833d81161f9460cf95",
+        "source": "2016春•桂林校级期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "常用日常交际用语",
+        "year": 2016
+      }
+    }
+  ]
+}

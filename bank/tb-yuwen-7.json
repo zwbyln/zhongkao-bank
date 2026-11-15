@@ -1,13 +1,13 @@
 {
   "format": "zx-trainer-bank-v1",
   "source": "题庄真题库（tizhuang.qcscience.cc）",
-  "generatedAt": "2026-11-14T01:26:31.445611+00:00",
-  "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。",
+  "generatedAt": "2026-11-15T01:00:15.676776+00:00",
+  "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。英语题的 grammar_group / grammar_point 由关键词推断（结构类优先于时态类），口语交际与语法填空等主观题不在采集范围内。",
   "stats": {
-    "usable": 15,
+    "usable": 23,
     "skipped": 0,
-    "thisRun": 15,
-    "added": 15
+    "thisRun": 10,
+    "added": 8
   },
   "items": [
     {
@@ -1133,6 +1133,622 @@
         "is_auto_gradable": true,
         "knowledges": "成分残缺；不合逻辑；滥用关联词语",
         "year": 2012
+      }
+    },
+    {
+      "id": "TZ5195692",
+      "source": "题庄真题 · 2011-2012学年江苏省海门市七年级第一学期期末考试语文试卷",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "依次填入下面横线处的词语，最恰当的一项是 （2分）\n（1）老师朗诵着，进入了角色，那深深感动的神情 在眼睛里。\n（2）文学确是一扇 的大门，只要你走进这扇大门，就不会空手而归。\n（3）我们从小就要 远大的理想。\n（4）他__________的意见很值得重视。",
+      "passage": "【题干原文】\n依次填入下面横线处的词语，最恰当的一项是 （2分）\n（1）老师朗诵着，进入了角色，那深深感动的神情 在眼睛里。\n（2）文学确是一扇 的大门，只要你走进这扇大门，就不会空手而归。\n（3）我们从小就要 远大的理想。\n（4）他__________的意见很值得重视。\n\n【考点】词义理解；近义词；词语在语境下的含义\n【出处】2011-2012学年江苏省海门市七年级第一学期期末考试语文试卷 · 2012 · 题庄题号 5195692",
+      "options": [
+        {
+          "key": "A",
+          "text": "凝注神秘竖立反应",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "凝视神妙树立反应",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "凝注神奇树立反映",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "凝视神圣竖立反映",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 1,
+      "question_fingerprint": "6f5d8ea302a59651fb86ce517f806bd8",
+      "raw": {
+        "id": 5195692,
+        "title_html": "依次填入下面横线处的词语，最恰当的一项是 （2分）<br>（1）老师朗诵着，进入了角色，那深深感动的神情<u>       </u>在眼睛里。<br>（2）文学确是一扇<u>       </u>的大门，只要你走进这扇大门，就不会空手而归。<br>（3）我们从小就要<u>       </u>远大的理想。<br>（4）他__________的意见很值得重视。",
+        "options_html": {
+          "A": "凝注神秘竖立反应",
+          "B": "凝视神妙树立反应",
+          "C": "凝注神奇树立反映",
+          "D": "凝视神圣竖立反映"
+        },
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "6f5d8ea302a59651fb86ce517f806bd8",
+        "source": "2011-2012学年江苏省海门市七年级第一学期期末考试语文试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "词义理解；近义词；词语在语境下的含义",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ5218327",
+      "source": "题庄真题 · 2011-2012学年江苏省无锡市崇安区七年级下学期期中考试语文试卷（带解析）",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "下列没有语病的一项是（2分） （ ）",
+      "passage": "【题干原文】\n下列没有语病的一项是（2分） （ ）\n\n【考点】不合逻辑；重复啰嗦；滥用关联词语；前后不一致\n【出处】2011-2012学年江苏省无锡市崇安区七年级下学期期中考试语文试卷（带解析） · 2012 · 题庄题号 5218327",
+      "options": [
+        {
+          "key": "A",
+          "text": "能否全面推进素质教育是保证青少年健康成长的条件之一。",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "森林能有效地缓解“温室效应”。",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "既然来了，但他还是不安心。",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "球馆设施齐全，可为乒乓球爱好者提供球拍、球衣、球鞋和衣柜等乒乓器材。",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 1,
+      "question_fingerprint": "29ff3aeea8681a86d2a6a9391f1db184",
+      "raw": {
+        "id": 5218327,
+        "title_html": "下列没有语病的一项是（2分）  （       ）",
+        "options_html": {
+          "A": "能否全面推进素质教育是保证青少年健康成长的条件之一。",
+          "B": "森林能有效地缓解“温室效应”。",
+          "C": "既然来了，但他还是不安心。",
+          "D": "球馆设施齐全，可为乒乓球爱好者提供球拍、球衣、球鞋和衣柜等乒乓器材。"
+        },
+        "answer": "B",
+        "answer_html": "B（2分）  ",
+        "analysis_html": "",
+        "content_hash": "29ff3aeea8681a86d2a6a9391f1db184",
+        "source": "2011-2012学年江苏省无锡市崇安区七年级下学期期中考试语文试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "不合逻辑；重复啰嗦；滥用关联词语；前后不一致",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ5219414",
+      "source": "题庄真题 · 2011-2012学年江苏无锡刘潭实验学校七年级下学期期中考试语文试卷（带解析）",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "依次填入下面句子横线上的诗句，正确的一项是（ ）（3分）\n一提到雨，也就想到雪。“____________”自然是江南日暮的雪景；“_____________”则雪月梅的冬宵三友，会合在一道，在调戏酒姑娘了；“____________”是江南雪夜更深人静后的景况；“__________”又到了第二天的早晨，和狗一样喜欢弄雪的村童来报告村景。\n①柴门闻犬吠，风雪夜归人 ②寒沙梅影路，微雪酒香村\n③晚来天欲雪，能饮一杯无？ ④前村深雪里，昨夜一枝开。",
+      "passage": "【题干原文】\n依次填入下面句子横线上的诗句，正确的一项是（ ）（3分）\n一提到雨，也就想到雪。“____________”自然是江南日暮的雪景；“_____________”则雪月梅的冬宵三友，会合在一道，在调戏酒姑娘了；“____________”是江南雪夜更深人静后的景况；“__________”又到了第二天的早晨，和狗一样喜欢弄雪的村童来报告村景。\n①柴门闻犬吠，风雪夜归人 ②寒沙梅影路，微雪酒香村\n③晚来天欲雪，能饮一杯无？ ④前村深雪里，昨夜一枝开。\n\n【考点】根据语境补写句子\n【出处】2011-2012学年江苏无锡刘潭实验学校七年级下学期期中考试语文试卷（带解析） · 2012 · 题庄题号 5219414",
+      "options": [
+        {
+          "key": "A",
+          "text": "①②③④",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "③②①④",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "①④③②",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "③④①②",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 3,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 1,
+      "question_fingerprint": "d68f74071095dd46644123482699c000",
+      "raw": {
+        "id": 5219414,
+        "title_html": "依次填入下面句子横线上的诗句，正确的一项是（    ）（3分）<br>一提到雨，也就想到雪。“____________”自然是江南日暮的雪景；“_____________”则雪月梅的冬宵三友，会合在一道，在调戏酒姑娘了；“____________”是江南雪夜更深人静后的景况；“__________”又到了第二天的早晨，和狗一样喜欢弄雪的村童来报告村景。<br>①柴门闻犬吠，风雪夜归人      ②寒沙梅影路，微雪酒香村<br>③晚来天欲雪，能饮一杯无？    ④前村深雪里，昨夜一枝开。",
+        "options_html": {
+          "A": "①②③④",
+          "B": "③②①④",
+          "C": "①④③②",
+          "D": "③④①②"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "d68f74071095dd46644123482699c000",
+        "source": "2011-2012学年江苏无锡刘潭实验学校七年级下学期期中考试语文试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "根据语境补写句子",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ5219427",
+      "source": "题庄真题 · 2011-2012学年江苏无锡刘潭实验学校七年级下学期期中考试语文试卷（带解析）",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "诗歌鉴赏。（3分）\n题破山寺后禅院\n(唐)常建\n清晨入古寺，初日照高林。\n曲径通幽处，禅房花木深。\n山光悦鸟性，潭影空人心。\n万籁此俱寂，但余钟磬音。\n对下面诗歌理解和赏析不正确的一项是（3分）",
+      "passage": "【题干原文】\n诗歌鉴赏。（3分）\n题破山寺后禅院\n(唐)常建\n清晨入古寺，初日照高林。\n曲径通幽处，禅房花木深。\n山光悦鸟性，潭影空人心。\n万籁此俱寂，但余钟磬音。\n对下面诗歌理解和赏析不正确的一项是（3分）\n\n【考点】把握诗歌内容；体味诗歌的意象；形象、语言及表达技巧赏析；作者表达的思想感情\n【出处】2011-2012学年江苏无锡刘潭实验学校七年级下学期期中考试语文试卷（带解析） · 2012 · 题庄题号 5219427",
+      "options": [
+        {
+          "key": "A",
+          "text": "首联写景，勾勒出清晨时分后禅院四周的环境。一个“入”字，写出了古寺美景之幽远，一个“照”字又将旭日东升时的勃勃生机给刻写得出神入化。",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "颔联点出题中“后禅院”三字，描写出通向后禅院小径的幽深曲折和后禅院景色的幽静迷人。",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "颈联写山中景色使飞鸟也怡然自乐，实际上鸟的怡然自乐是诗人心情愉悦的反映。写潭影使人心中的杂念消除，既是表达了诗人渴望宁静的内心感受，也隐约流露了对现实的愤慨和反感。",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "尾联以静写动，进一步以钟磬音响轻轻回荡，映衬出山寺万籁俱寂的宁静气氛。",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "手法（修辞/描写/用词）→ 写出了……特点 → 表现了……情感",
+      "total_score": 3,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 1,
+      "question_fingerprint": "6f64e45e82530664ecc2d0d041c0e594",
+      "raw": {
+        "id": 5219427,
+        "title_html": "诗歌鉴赏。（3分）<br>题破山寺后禅院<br>(唐)常建<br>清晨入古寺，初日照高林。<br>曲径通幽处，禅房花木深。<br>山光悦鸟性，潭影空人心。<br>万籁此俱寂，但余钟磬音。<br>对下面诗歌理解和赏析不正确的一项是（3分）",
+        "options_html": {
+          "A": "首联写景，勾勒出清晨时分后禅院四周的环境。一个“入”字，写出了古寺美景之幽远，一个“照”字又将旭日东升时的勃勃生机给刻写得出神入化。",
+          "B": "颔联点出题中“后禅院”三字，描写出通向后禅院小径的幽深曲折和后禅院景色的幽静迷人。",
+          "C": "颈联写山中景色使飞鸟也怡然自乐，实际上鸟的怡然自乐是诗人心情愉悦的反映。写潭影使人心中的杂念消除，既是表达了诗人渴望宁静的内心感受，也隐约流露了对现实的愤慨和反感。",
+          "D": "尾联以静写动，进一步以钟磬音响轻轻回荡，映衬出山寺万籁俱寂的宁静气氛。"
+        },
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "6f64e45e82530664ecc2d0d041c0e594",
+        "source": "2011-2012学年江苏无锡刘潭实验学校七年级下学期期中考试语文试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "把握诗歌内容；体味诗歌的意象；形象、语言及表达技巧赏析；作者表达的思想感情",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ5274289",
+      "source": "题庄真题 · 2012-2013学年江苏泰兴黄桥初级中学东区初一上学期期中考试语文卷（带解析）",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "下列各句没有语病，句意明确的一项是（2分） （ ）",
+      "passage": "【题干原文】\n下列各句没有语病，句意明确的一项是（2分） （ ）\n\n【考点】搭配不当；用词不当；滥用关联词语\n【出处】2012-2013学年江苏泰兴黄桥初级中学东区初一上学期期中考试语文卷（带解析） · 2013 · 题庄题号 5274289",
+      "options": [
+        {
+          "key": "A",
+          "text": "此后，我对新文学更有兴趣，读了许多有名的中外小说，丰富了眼界，使自己的心与时代更加贴近了。",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "为了防止这类交通事故不再发生，交警部门加大了执法力度。",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "但在我是乐土：因为我在这里虽然得到优待，但可以免念“秩秩斯干幽幽南山 ”了。",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "实践证明，一个人知识的多寡，成就的大小，关键在于勤奋的程度。",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "6cd4648607bac4e5b9a6e1b29c465c51",
+      "raw": {
+        "id": 5274289,
+        "title_html": "下列各句没有语病，句意明确的一项是（2分）                （   ）",
+        "options_html": {
+          "A": "此后，我对新文学更有兴趣，读了许多有名的中外小说，丰富了眼界，使自己的心与时代更加贴近了。",
+          "B": "为了防止这类交通事故不再发生，交警部门加大了执法力度。",
+          "C": "但在我是乐土：因为我在这里虽然得到优待，但可以免念“秩秩斯干幽幽南山 ”了。",
+          "D": "实践证明，一个人知识的多寡，成就的大小，关键在于勤奋的程度。"
+        },
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "6cd4648607bac4e5b9a6e1b29c465c51",
+        "source": "2012-2013学年江苏泰兴黄桥初级中学东区初一上学期期中考试语文卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "搭配不当；用词不当；滥用关联词语",
+        "year": 2013
+      }
+    },
+    {
+      "id": "TZ5283276",
+      "source": "题庄真题 · 2012-2013学年辽宁东港石佛中学七年级上学期期末考试语文试卷（带解析）",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "依次填入下面横线上最恰当的一组词语是（ ）（2分）\n我经常心情_________，可是从来不_________。我将我们躲藏在这里的生活看成一场有趣的探险，\n充满危险和浪漫，并且将艰辛匮乏当成我日记更_________的材料。",
+      "passage": "【题干原文】\n依次填入下面横线上最恰当的一组词语是（ ）（2分）\n我经常心情_________，可是从来不_________。我将我们躲藏在这里的生活看成一场有趣的探险，\n充满危险和浪漫，并且将艰辛匮乏当成我日记更_________的材料。\n\n【考点】词义理解；近义词；词语在语境下的含义\n【出处】2012-2013学年辽宁东港石佛中学七年级上学期期末考试语文试卷（带解析） · 2013 · 题庄题号 5283276",
+      "options": [
+        {
+          "key": "A",
+          "text": "沮丧 绝望 丰富",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "沮丧 失望 丰厚",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "懊恼 绝望 丰厚",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "懊恼 失望 丰富",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 1,
+      "question_fingerprint": "9b434ef63d423e3048d82223d061dd80",
+      "raw": {
+        "id": 5283276,
+        "title_html": "依次填入下面横线上最恰当的一组词语是（ ）（2分）<br>我经常心情_________，可是从来不_________。我将我们躲藏在这里的生活看成一场有趣的探险，<br>充满危险和浪漫，并且将艰辛匮乏当成我日记更_________的材料。",
+        "options_html": {
+          "A": "沮丧　　绝望　　丰富",
+          "B": "沮丧　　失望　　丰厚",
+          "C": "懊恼　　绝望　　丰厚",
+          "D": "懊恼　　失望　　丰富"
+        },
+        "answer": "A",
+        "answer_html": "A",
+        "analysis_html": "",
+        "content_hash": "9b434ef63d423e3048d82223d061dd80",
+        "source": "2012-2013学年辽宁东港石佛中学七年级上学期期末考试语文试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "词义理解；近义词；词语在语境下的含义",
+        "year": 2013
+      }
+    },
+    {
+      "id": "TZ5289879",
+      "source": "题庄真题 · 2012-2013学年浙江金华婺城区塔石初中七年级下学期开学检测语文卷（带解析）",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "依次填入下列各横线处的词语，最恰当的一项是 （ ）（2分）\n（1）他们的房屋，稀稀疏疏的，在雨里 着。\n（2）因为有这样 的冬天，干啥还希望别的呢？\n（3）我们赶快跑到一棵老柏树下， 的老柏树立即撑起了大伞。",
+      "passage": "【题干原文】\n依次填入下列各横线处的词语，最恰当的一项是 （ ）（2分）\n（1）他们的房屋，稀稀疏疏的，在雨里 着。\n（2）因为有这样 的冬天，干啥还希望别的呢？\n（3）我们赶快跑到一棵老柏树下， 的老柏树立即撑起了大伞。\n\n【考点】词义理解；近义词；词语在语境下的含义\n【出处】2012-2013学年浙江金华婺城区塔石初中七年级下学期开学检测语文卷（带解析） · 2013 · 题庄题号 5289879",
+      "options": [
+        {
+          "key": "A",
+          "text": "静默慈善慈祥",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "静默慈祥慈善",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "沉静慈善慈祥",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "沉静慈祥慈善",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 1,
+      "question_fingerprint": "816fee769d82c03260ea4ed1714ad945",
+      "raw": {
+        "id": 5289879,
+        "title_html": "依次填入下列各横线处的词语，最恰当的一项是   （      ）（2分）<br>（1）他们的房屋，稀稀疏疏的，在雨里<u>          </u>着。<br>（2）因为有这样<u>          </u>的冬天，干啥还希望别的呢？<br>（3）我们赶快跑到一棵老柏树下<u>，          </u>的老柏树立即撑起了大伞。",
+        "options_html": {
+          "A": "静默慈善慈祥",
+          "B": "静默慈祥慈善",
+          "C": "沉静慈善慈祥",
+          "D": "沉静慈祥慈善"
+        },
+        "answer": "A",
+        "answer_html": "A",
+        "analysis_html": "",
+        "content_hash": "816fee769d82c03260ea4ed1714ad945",
+        "source": "2012-2013学年浙江金华婺城区塔石初中七年级下学期开学检测语文卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "词义理解；近义词；词语在语境下的含义",
+        "year": 2013
+      }
+    },
+    {
+      "id": "TZ5308895",
+      "source": "题庄真题 · 2012-2013学年湖北省武汉市黄陂区部分学校七年级月考语文试卷（带解析）",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "依次填入下面横线上的词语，最恰当的一项是（ ）\n⑴半夜以后，小船又 回来，船舱里装满了柴米油盐。\n⑵鲁提辖回到下处，急急 了些衣服盘缠，细软银两，但是旧衣粗重都弃了。\n⑶他吹响了用以集合队伍的尖声警笛，却得不到任何 。\n⑷在科技月活动中，他设计的节水龙头，精巧耐用，受到了师生的交口 。",
+      "passage": "【题干原文】\n依次填入下面横线上的词语，最恰当的一项是（ ）\n⑴半夜以后，小船又 回来，船舱里装满了柴米油盐。\n⑵鲁提辖回到下处，急急 了些衣服盘缠，细软银两，但是旧衣粗重都弃了。\n⑶他吹响了用以集合队伍的尖声警笛，却得不到任何 。\n⑷在科技月活动中，他设计的节水龙头，精巧耐用，受到了师生的交口 。\n\n【考点】近义词\n【出处】2012-2013学年湖北省武汉市黄陂区部分学校七年级月考语文试卷（带解析） · 2013 · 题庄题号 5308895",
+      "options": [
+        {
+          "key": "A",
+          "text": "摇 拿响应赞赏；",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "飘 拿反响 称赞；",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "摇 卷 反响赞赏；",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "飘 卷响应称赞",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 1,
+      "question_fingerprint": "3d0b4ef5fdbd6702376bc180c841a4c1",
+      "raw": {
+        "id": 5308895,
+        "title_html": "依次填入下面横线上的词语，最恰当的一项是（     ）<br>⑴半夜以后，小船又     回来，船舱里装满了柴米油盐。<br>⑵鲁提辖回到下处，急急     了些衣服盘缠，细软银两，但是旧衣粗重都弃了。<br>⑶他吹响了用以集合队伍的尖声警笛，却得不到任何           。<br>⑷在科技月活动中，他设计的节水龙头，精巧耐用，受到了师生的交口           。",
+        "options_html": {
+          "A": "摇 拿响应赞赏；",
+          "B": "飘 拿反响 称赞；",
+          "C": "摇 卷 反响赞赏；",
+          "D": "飘 卷响应称赞"
+        },
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "3d0b4ef5fdbd6702376bc180c841a4c1",
+        "source": "2012-2013学年湖北省武汉市黄陂区部分学校七年级月考语文试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "近义词",
+        "year": 2013
       }
     }
   ]

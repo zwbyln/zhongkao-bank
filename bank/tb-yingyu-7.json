@@ -1,0 +1,307 @@
+{
+  "format": "zx-trainer-bank-v1",
+  "source": "题庄真题库（tizhuang.qcscience.cc）",
+  "generatedAt": "2026-11-15T01:00:50.383626+00:00",
+  "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。英语题的 grammar_group / grammar_point 由关键词推断（结构类优先于时态类），口语交际与语法填空等主观题不在采集范围内。",
+  "stats": {
+    "usable": 4,
+    "skipped": 6,
+    "thisRun": 4,
+    "added": 4
+  },
+  "items": [
+    {
+      "id": "TZ4475179",
+      "source": "题庄真题 · 2014届江苏省常州市七校初一上学期期末考试英语试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "代词",
+      "mode": "single",
+      "stem": "1Tom needs some help\n________ his homework. Can you help ________?",
+      "passage": "【题干原文】\n1Tom needs some help\n________ his homework. Can you help ________?\n\n【考点】介词和介词短语,代词\n【出处】2014届江苏省常州市七校初一上学期期末考试英语试卷 · 2014 · 题庄题号 4475179",
+      "options": [
+        {
+          "key": "A",
+          "text": "to, he",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "with, him",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "to,\nhis",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "with, his",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "代词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 5,
+      "question_fingerprint": "73fbf709262a94ae0a72e7aba9990e42",
+      "raw": {
+        "id": 4475179,
+        "title_html": "<p>1Tom needs some help\r________ his homework. Can you help ________?\r\r</p><p>A. to, he           B.\rwith, him      C. to,\rhis           D. with, his\r\r</p><p> \r\r</p>",
+        "options_html": {},
+        "answer": "B",
+        "answer_html": "【答案】\r\r\r\r\r\r<p>B\r\r</p><p></p>",
+        "analysis_html": "",
+        "content_hash": "73fbf709262a94ae0a72e7aba9990e42",
+        "source": "2014届江苏省常州市七校初一上学期期末考试英语试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "介词和介词短语,代词",
+        "year": 2014
+      }
+    },
+    {
+      "id": "TZ4475181",
+      "source": "题庄真题 · 2014届江苏省常州市七校初一上学期期末考试英语试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "名词与数",
+      "mode": "single",
+      "stem": "1--- Would you like hamburgers?\n\n--- Yes, and\nchips, too",
+      "passage": "【题干原文】\n1--- Would you like hamburgers?\n\n--- Yes, and\nchips, too\n\n【考点】数词\n【出处】2014届江苏省常州市七校初一上学期期末考试英语试卷 · 2014 · 题庄题号 4475181",
+      "options": [
+        {
+          "key": "A",
+          "text": "some, some",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "any, some",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "some, any",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "any, any",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "名词与数",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 5,
+      "question_fingerprint": "9cf6b088e7cae994728b0b054f1dfd6c",
+      "raw": {
+        "id": 4475181,
+        "title_html": "<p>1--- Would you like <u>       </u>hamburgers? \r\r</p><p>--- Yes, and<u>        \r</u>chips, too\r\r</p><p>A. some, some    B．any, some    C．some, any    D．any, any\r\r</p><p> \r\r</p>",
+        "options_html": {},
+        "answer": "A",
+        "answer_html": "【答案】\r\r\r\r\r\r<p>A\r\r</p><p></p>",
+        "analysis_html": "",
+        "content_hash": "9cf6b088e7cae994728b0b054f1dfd6c",
+        "source": "2014届江苏省常州市七校初一上学期期末考试英语试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "数词",
+        "year": 2014
+      }
+    },
+    {
+      "id": "TZ4475204",
+      "source": "题庄真题 · 2014届江苏省常州市七校初一上学期期末考试英语试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "代词",
+      "mode": "single",
+      "stem": "1Dad, my\ntrousers are old. I want to buy a new ________.",
+      "passage": "【题干原文】\n1Dad, my\ntrousers are old. I want to buy a new ________.\n\n【考点】代词\n【出处】2014届江苏省常州市七校初一上学期期末考试英语试卷 · 2014 · 题庄题号 4475204",
+      "options": [
+        {
+          "key": "A",
+          "text": "trousers",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "one",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "it",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "pair",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "代词",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 5,
+      "question_fingerprint": "e8c7ea87e2b4e617949bced95b6ea544",
+      "raw": {
+        "id": 4475204,
+        "title_html": "<p>1Dad, my\rtrousers are old. I want to buy a new ________.</p>\r\r<p>A. trousers            B.\rone         C. it               D.\rpair</p>\r\r<p> </p>",
+        "options_html": {},
+        "answer": "D",
+        "answer_html": "【答案】\r\r\r\r\r\r<p>D</p>\r\r<p></p>",
+        "analysis_html": "",
+        "content_hash": "e8c7ea87e2b4e617949bced95b6ea544",
+        "source": "2014届江苏省常州市七校初一上学期期末考试英语试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "代词",
+        "year": 2014
+      }
+    },
+    {
+      "id": "TZ6364808",
+      "source": "题庄真题 · 2011-2012学年辽宁大石桥水源二中初一下学期月考英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "主谓一致",
+      "grammar_point": "主谓一致",
+      "mode": "single",
+      "stem": "Everyone in my family ________ a present at the Spring Festival.",
+      "passage": "【题干原文】\nEveryone in my family ________ a present at the Spring Festival.\n\n【考点】主谓一致\n【出处】2011-2012学年辽宁大石桥水源二中初一下学期月考英语试卷（带解析） · 2012 · 题庄题号 6364808",
+      "options": [
+        {
+          "key": "A",
+          "text": "gets",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "to get",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "getting",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "get",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "主谓一致",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "59a1c47ba939fc0d352cbff19e82158f",
+      "raw": {
+        "id": 6364808,
+        "title_html": "Everyone in my family ________ a present at the Spring Festival.",
+        "options_html": {
+          "A": "gets",
+          "B": "to get",
+          "C": "getting",
+          "D": "get"
+        },
+        "answer": "A",
+        "answer_html": "A",
+        "analysis_html": "",
+        "content_hash": "59a1c47ba939fc0d352cbff19e82158f",
+        "source": "2011-2012学年辽宁大石桥水源二中初一下学期月考英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "主谓一致",
+        "year": 2012
+      }
+    }
+  ]
+}
