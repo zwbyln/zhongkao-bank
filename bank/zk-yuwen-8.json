@@ -1,13 +1,13 @@
 {
   "format": "zx-trainer-bank-v1",
   "source": "题庄真题库（tizhuang.qcscience.cc）",
-  "generatedAt": "2026-11-15T00:59:47.008431+00:00",
+  "generatedAt": "2026-11-16T00:59:29.651561+00:00",
   "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。英语题的 grammar_group / grammar_point 由关键词推断（结构类优先于时态类），口语交际与语法填空等主观题不在采集范围内。",
   "stats": {
-    "usable": 35,
+    "usable": 36,
     "skipped": 0,
     "thisRun": 15,
-    "added": 15
+    "added": 1
   },
   "items": [
     {
@@ -2663,6 +2663,83 @@
         "is_auto_gradable": true,
         "knowledges": "不合逻辑；用词不当；滥用关联词语",
         "year": 2012
+      }
+    },
+    {
+      "id": "TZ4571232",
+      "source": "题庄真题 · 2010年四川省泸州天立国际学校初二上学期期中考试语文A卷",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "用一句话概括下面新闻的主要内容正确的是（ ）\n为了充分利用现代信息技术，提高阅卷的效率和质量，今年我市中考将首次实行网上阅卷。网上阅卷采用试卷和答卷分离的方式进行。客观题由计算机自动判分；主观题采用图像切割技术，按题号将考生答卷切割成解决，由不同的阅卷教师图像通过网格在计算机上对考生答卷的电子图像分别进行评分，最后再由计算机系统自动进行核分和成绩校验。",
+      "passage": "【题干原文】\n用一句话概括下面新闻的主要内容正确的是（ ）\n为了充分利用现代信息技术，提高阅卷的效率和质量，今年我市中考将首次实行网上阅卷。网上阅卷采用试卷和答卷分离的方式进行。客观题由计算机自动判分；主观题采用图像切割技术，按题号将考生答卷切割成解决，由不同的阅卷教师图像通过网格在计算机上对考生答卷的电子图像分别进行评分，最后再由计算机系统自动进行核分和成绩校验。\n\n【考点】扩展语句、压缩语段\n【出处】2010年四川省泸州天立国际学校初二上学期期中考试语文A卷 · 2010 · 题庄题号 4571232",
+      "options": [
+        {
+          "key": "A",
+          "text": "现代信息技术将提高我市中考阅卷的效率和质量。",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "我市中考将首次实行网上阅卷。",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "我市中考将把试卷和答卷分离的方式进行。",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "我市计算机系统将自动进行中考核分和成绩校验。",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "何人 + 何事 + 何结果 +（情感主旨）",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 1,
+      "question_fingerprint": "def29c128fe2eb0d7d0f0e3946dfe628",
+      "raw": {
+        "id": 4571232,
+        "title_html": "<p>用一句话概括下面新闻的主要内容正确的是（        ）</p><p>为了充分利用现代信息技术，提高阅卷的效率和质量，今年我市中考将首次实行网上阅卷。网上阅卷采用试卷和答卷分离的方式进行。客观题由计算机自动判分；主观题采用图像切割技术，按题号将考生答卷切割成解决，由不同的阅卷教师图像通过网格在计算机上对考生答卷的电子图像分别进行评分，最后再由计算机系统自动进行核分和成绩校验。</p>     <p>",
+        "options_html": {
+          "A": "现代信息技术将提高我市中考阅卷的效率和质量。      ",
+          "B": "我市中考将首次实行网上阅卷。      ",
+          "C": "我市中考将把试卷和答卷分离的方式进行。      ",
+          "D": "我市计算机系统将自动进行中考核分和成绩校验。   "
+        },
+        "answer": "B",
+        "answer_html": "【答案】\r\r\r\r\r\r<p>B</p>\r\r<p></p>",
+        "analysis_html": "",
+        "content_hash": "def29c128fe2eb0d7d0f0e3946dfe628",
+        "source": "2010年四川省泸州天立国际学校初二上学期期中考试语文A卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "扩展语句、压缩语段",
+        "year": 2010
       }
     }
   ]

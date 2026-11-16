@@ -1,13 +1,13 @@
 {
   "format": "zx-trainer-bank-v1",
   "source": "题庄真题库（tizhuang.qcscience.cc）",
-  "generatedAt": "2026-11-15T01:00:38.511374+00:00",
+  "generatedAt": "2026-11-16T00:59:51.957044+00:00",
   "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。英语题的 grammar_group / grammar_point 由关键词推断（结构类优先于时态类），口语交际与语法填空等主观题不在采集范围内。",
   "stats": {
-    "usable": 18,
-    "skipped": 2,
-    "thisRun": 18,
-    "added": 18
+    "usable": 33,
+    "skipped": 5,
+    "thisRun": 15,
+    "added": 15
   },
   "items": [
     {
@@ -1394,6 +1394,1126 @@
         "is_auto_gradable": true,
         "knowledges": "连词辨析<br/>",
         "year": 2023
+      }
+    },
+    {
+      "id": "TZ4476437",
+      "source": "题庄真题 · 2013届重庆市八年级第一学期期中考试英语卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "主谓一致",
+      "grammar_point": "主谓一致",
+      "mode": "single",
+      "stem": "The number of the students _______ 1200. A\nnumber of students _______absent （缺席）yesterday.",
+      "passage": "【题干原文】\nThe number of the students _______ 1200. A\nnumber of students _______absent （缺席）yesterday.\n\n【考点】主谓一致\n【出处】2013届重庆市八年级第一学期期中考试英语卷 · 2013 · 题庄题号 4476437",
+      "options": [
+        {
+          "key": "A",
+          "text": "are, were",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "is, were",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "is was",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "are, was",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "主谓一致",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 5,
+      "question_fingerprint": "5fb020a0b032826c27f2a2dda12f7aaa",
+      "raw": {
+        "id": 4476437,
+        "title_html": "<p>The number of the students _______ 1200. A\rnumber of students _______absent （缺席）yesterday.</p>\r\r<table>\r <tr>\r  <td>\r  <p>A．are, were</p>\r  </td>\r  <td>\r  <p>B．is, were</p>\r  </td>\r  <td>\r  <p>C．is was</p>\r  </td>\r  <td>\r  <p>D．are, was</p>\r  </td>\r </tr>\r</table>\r\r<p> </p>",
+        "options_html": {},
+        "answer": "B",
+        "answer_html": "【答案】\r\r\r\r\r\r<p>B</p>\r\r<p></p>",
+        "analysis_html": "",
+        "content_hash": "5fb020a0b032826c27f2a2dda12f7aaa",
+        "source": "2013届重庆市八年级第一学期期中考试英语卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "主谓一致",
+        "year": 2013
+      }
+    },
+    {
+      "id": "TZ4476458",
+      "source": "题庄真题 · 2013届度江苏省连云港市八年级上学期期中考试英语卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "主谓一致",
+      "grammar_point": "主谓一致",
+      "mode": "single",
+      "stem": "—A small number of students ______ to\nschool by subway.\n\n—The number of the students ______ 13.",
+      "passage": "【题干原文】\n—A small number of students ______ to\nschool by subway.\n\n—The number of the students ______ 13.\n\n【考点】主谓一致\n【出处】2013届度江苏省连云港市八年级上学期期中考试英语卷 · 2013 · 题庄题号 4476458",
+      "options": [
+        {
+          "key": "A",
+          "text": "go, are",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "goes, is",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "goes, are",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "go, is",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "主谓一致",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 5,
+      "question_fingerprint": "12f7d41f9d8002806ccb980d6865be6b",
+      "raw": {
+        "id": 4476458,
+        "title_html": "<p>—A small number of students ______ to\rschool by subway.</p>\r\r<p>—The number of the students ______ 13.</p>\r\r<table>\r <tr>\r  <td>\r  <p>A．go, are</p>\r  </td>\r  <td>\r  <p>B．goes, is</p>\r  </td>\r  <td>\r  <p>C．goes, are</p>\r  </td>\r  <td>\r  <p>D．go, is</p>\r  </td>\r </tr>\r</table>\r\r<p> </p>",
+        "options_html": {},
+        "answer": "D",
+        "answer_html": "【答案】\r\r\r\r\r\r<p>D</p>\r\r<p></p>",
+        "analysis_html": "",
+        "content_hash": "12f7d41f9d8002806ccb980d6865be6b",
+        "source": "2013届度江苏省连云港市八年级上学期期中考试英语卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "主谓一致",
+        "year": 2013
+      }
+    },
+    {
+      "id": "TZ4479207",
+      "source": "题庄真题 · 2013届江苏省无锡市南长区八年级上学期期中考试英语卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "--Who is making much\nnoise?\n\n---It ____ be Timmy. He is sleeping now.",
+      "passage": "【题干原文】\n--Who is making much\nnoise?\n\n---It ____ be Timmy. He is sleeping now.\n\n【考点】句法,情态动词\n【出处】2013届江苏省无锡市南长区八年级上学期期中考试英语卷 · 2013 · 题庄题号 4479207",
+      "options": [
+        {
+          "key": "A",
+          "text": "can’t",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "may not",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "mustn’t",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "couldn’t",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "204d987f7f2ee59fb5539106135fa8f8",
+      "raw": {
+        "id": 4479207,
+        "title_html": "<p>--Who is making much\rnoise?    </p>\r\r<p>---It ____ be Timmy. He is sleeping now.</p>\r\r<table>\r <tr>\r  <td>\r  <p>A．can’t </p>\r  </td>\r  <td>\r  <p>B．may not</p>\r  </td>\r  <td>\r  <p>C．mustn’t\r  </p>\r  </td>\r  <td>\r  <p>D．couldn’t</p>\r  </td>\r </tr>\r</table>\r\r<p> </p>",
+        "options_html": {},
+        "answer": "A",
+        "answer_html": "【答案】\r\r\r\r\r\r<p>A</p>\r\r<p></p>",
+        "analysis_html": "",
+        "content_hash": "204d987f7f2ee59fb5539106135fa8f8",
+        "source": "2013届江苏省无锡市南长区八年级上学期期中考试英语卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "句法,情态动词",
+        "year": 2013
+      }
+    },
+    {
+      "id": "TZ4481056",
+      "source": "题庄真题 · 2013届广州市初二下学期月考英语试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "非谓语动词",
+      "grammar_point": "分词作定语",
+      "mode": "single",
+      "stem": "It’s important exercise\nevery morning.",
+      "passage": "【题干原文】\nIt’s important exercise\nevery morning.\n\n【考点】非谓语动词,强调句\n【出处】2013届广州市初二下学期月考英语试卷 · 2013 · 题庄题号 4481056",
+      "options": [
+        {
+          "key": "A",
+          "text": "to take",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "taking",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "takes",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "to taking",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "分词作定语",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 1,
+      "question_fingerprint": "a68a4b8b39056fc8ecb4c8ddc00acec0",
+      "raw": {
+        "id": 4481056,
+        "title_html": "<p>It’s important<u>            </u>exercise\revery morning.</p>\r\r<table>\r <tr>\r  <td>\r  <p>A．to take</p>\r  </td>\r  <td>\r  <p>B．taking</p>\r  </td>\r  <td>\r  <p>C．takes</p>\r  </td>\r  <td>\r  <p>D．to taking</p>\r  </td>\r </tr>\r</table>\r\r<p> </p>",
+        "options_html": {},
+        "answer": "A",
+        "answer_html": "【答案】\r\r\r\r\r\r<p>A</p>\r\r<p></p>",
+        "analysis_html": "",
+        "content_hash": "a68a4b8b39056fc8ecb4c8ddc00acec0",
+        "source": "2013届广州市初二下学期月考英语试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "非谓语动词,强调句",
+        "year": 2013
+      }
+    },
+    {
+      "id": "TZ4482422",
+      "source": "题庄真题 · 2013届北京市初二3月检测练习英语试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "从句",
+      "grammar_point": "状语从句",
+      "mode": "single",
+      "stem": "1We won’t go shopping if it ________ this afternoon.",
+      "passage": "【题干原文】\n1We won’t go shopping if it ________ this afternoon.\n\n【考点】动词时态,状语从句\n【出处】2013届北京市初二3月检测练习英语试卷 · 2013 · 题庄题号 4482422",
+      "options": [
+        {
+          "key": "A",
+          "text": "rains",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "raining",
+          "is_correct": false,
+          "trap_type": "关系词误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "doesn’t rain",
+          "is_correct": false,
+          "trap_type": "关系词误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "not rain",
+          "is_correct": false,
+          "trap_type": "关系词误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "状语从句",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 1,
+      "question_fingerprint": "621144c02e34423a63f08f223f32be45",
+      "raw": {
+        "id": 4482422,
+        "title_html": "<p>1We won’t go shopping if it ________ this afternoon.</p>\r\r<p>A.\rrains        B. raining      C.\rdoesn’t rain     D. not rain</p>\r\r<p> </p>",
+        "options_html": {},
+        "answer": "A",
+        "answer_html": "【答案】\r\r\r\r\r\r<p>A</p>\r\r<p></p>",
+        "analysis_html": "",
+        "content_hash": "621144c02e34423a63f08f223f32be45",
+        "source": "2013届北京市初二3月检测练习英语试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "动词时态,状语从句",
+        "year": 2013
+      }
+    },
+    {
+      "id": "TZ4488278",
+      "source": "题庄真题 · 2009-2010学年陕西省延安市初二下学期期末考试英语卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "All the students in Class 5 will climb the mountain if it\n_______ rain tomorrow.",
+      "passage": "【题干原文】\nAll the students in Class 5 will climb the mountain if it\n_______ rain tomorrow.\n\n【考点】助动词\n【出处】2009-2010学年陕西省延安市初二下学期期末考试英语卷 · 2010 · 题庄题号 4488278",
+      "options": [
+        {
+          "key": "A",
+          "text": "won’t",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "don’t",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "didn’t",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "doesn’t",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 1,
+      "question_fingerprint": "da05ee271df6b130197a5c118f59cfa2",
+      "raw": {
+        "id": 4488278,
+        "title_html": "<p> All the students in Class 5 will climb the mountain if it\r_______ rain tomorrow.</p>\r\r<p>        A. won’t          B. don’t          C. didn’t         D. doesn’t</p>\r\r<p> </p>",
+        "options_html": {},
+        "answer": "D",
+        "answer_html": "【答案】\r\r\r\r\r\r<p>D</p>\r\r<p></p>",
+        "analysis_html": "",
+        "content_hash": "da05ee271df6b130197a5c118f59cfa2",
+        "source": "2009-2010学年陕西省延安市初二下学期期末考试英语卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "助动词",
+        "year": 2010
+      }
+    },
+    {
+      "id": "TZ4642723",
+      "source": "题庄真题 · 2014-2015学年广东湛江两校联考八年级上学期期中联考英语试卷（解析版）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "代词",
+      "mode": "single",
+      "stem": "Your child is only five. Is _____necessary for you to be so strict with him?",
+      "passage": "【题干原文】\nYour child is only five. Is _____necessary for you to be so strict with him?\n\n【考点】指示代词\n【出处】2014-2015学年广东湛江两校联考八年级上学期期中联考英语试卷（解析版） · 2015 · 题庄题号 4642723",
+      "options": [
+        {
+          "key": "A",
+          "text": "this",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "it",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【解析】试题分析：句意：你的孩子才五岁，你这样严格要求他是必要的吗？本句中to be so strict with him是真正的主语，it是它的形式主语。因此选B\n考点：考查it做不定式的形式主语。"
+        },
+        {
+          "key": "C",
+          "text": "one",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "that",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "代词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【解析】试题分析：句意：你的孩子才五岁，你这样严格要求他是必要的吗？本句中to be so strict with him是真正的主语，it是它的形式主语。因此选B\n考点：考查it做不定式的形式主语。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 1,
+      "question_fingerprint": "2b145d79cb52ba89be823ec94820d86b",
+      "raw": {
+        "id": 4642723,
+        "title_html": "<p>Your child is only five. Is _____necessary for you to be so strict with him?</p><p>A. this    B. it     C. one      D. that</p><p> </p>",
+        "options_html": {},
+        "answer": "B",
+        "answer_html": "【答案】<p>B</p>",
+        "analysis_html": "<p>【解析】试题分析：句意：你的孩子才五岁，你这样严格要求他是必要的吗？本句中to be so strict with him是真正的主语，it是它的形式主语。因此选B</p><p>考点：考查it做不定式的形式主语。</p><p>\r\t\t                </p>",
+        "content_hash": "2b145d79cb52ba89be823ec94820d86b",
+        "source": "2014-2015学年广东湛江两校联考八年级上学期期中联考英语试卷（解析版）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "指示代词",
+        "year": 2015
+      }
+    },
+    {
+      "id": "TZ6355295",
+      "source": "题庄真题 · 2011-2012学年云南省丽江市永北镇中学初二月考英语试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句型与倒装",
+      "grammar_point": "强调句",
+      "mode": "single",
+      "stem": "____ important to learn English well.",
+      "passage": "【题干原文】\n____ important to learn English well.\n\n【考点】强调句\n【出处】2011-2012学年云南省丽江市永北镇中学初二月考英语试卷 · 2012 · 题庄题号 6355295",
+      "options": [
+        {
+          "key": "A",
+          "text": "That’s",
+          "is_correct": false,
+          "trap_type": "语序错误",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "It’s",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "It has",
+          "is_correct": false,
+          "trap_type": "语序错误",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "That has",
+          "is_correct": false,
+          "trap_type": "语序错误",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "强调句",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "21b4a54f795d76407a924f97d073d83b",
+      "raw": {
+        "id": 6355295,
+        "title_html": "____ important to learn English well.",
+        "options_html": {
+          "A": "That’s",
+          "B": "It’s",
+          "C": "It has",
+          "D": "That has"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "21b4a54f795d76407a924f97d073d83b",
+        "source": "2011-2012学年云南省丽江市永北镇中学初二月考英语试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "强调句",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6364788",
+      "source": "题庄真题 · 2011-2012年度辽宁大石桥水源二中初二下学期月考英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "名词与数",
+      "mode": "single",
+      "stem": "There are ________ of students in our school, but only ______ are girls.",
+      "passage": "【题干原文】\nThere are ________ of students in our school, but only ______ are girls.\n\n【考点】数词\n【出处】2011-2012年度辽宁大石桥水源二中初二下学期月考英语试卷（带解析） · 2012 · 题庄题号 6364788",
+      "options": [
+        {
+          "key": "A",
+          "text": "hundreds, two hundred",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "hundred, two hundreds",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "hundreds, two hundreds",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "hundred, two hundred",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "名词与数",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "09264fa10a331e0198dcc3db0d78b950",
+      "raw": {
+        "id": 6364788,
+        "title_html": "There are ________ of students in our school, but only ______ are girls.",
+        "options_html": {
+          "A": "hundreds, two hundred",
+          "B": "hundred, two hundreds",
+          "C": "hundreds, two hundreds",
+          "D": "hundred, two hundred"
+        },
+        "answer": "A",
+        "answer_html": "A",
+        "analysis_html": "",
+        "content_hash": "09264fa10a331e0198dcc3db0d78b950",
+        "source": "2011-2012年度辽宁大石桥水源二中初二下学期月考英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "数词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6365122",
+      "source": "题庄真题 · 2011-2012学年江苏省镇江市实验学校初二月考英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "主谓一致",
+      "grammar_point": "主谓一致",
+      "mode": "single",
+      "stem": "A boy with two dogs_____ when the earthquake rocked the city.",
+      "passage": "【题干原文】\nA boy with two dogs_____ when the earthquake rocked the city.\n\n【考点】主谓一致\n【出处】2011-2012学年江苏省镇江市实验学校初二月考英语试卷（带解析） · 2012 · 题庄题号 6365122",
+      "options": [
+        {
+          "key": "A",
+          "text": "were sleeping",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "is asleep",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "was sleeping",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "are asleep",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "主谓一致",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "79425cf8e33f618f24cc572b6b859846",
+      "raw": {
+        "id": 6365122,
+        "title_html": "A boy with two dogs_____ when the earthquake rocked the city.",
+        "options_html": {
+          "A": "were sleeping",
+          "B": "is asleep",
+          "C": "was sleeping",
+          "D": "are asleep"
+        },
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "79425cf8e33f618f24cc572b6b859846",
+        "source": "2011-2012学年江苏省镇江市实验学校初二月考英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "主谓一致",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6370616",
+      "source": "题庄真题 · 2011-2012学年江苏省无锡市阳山中学初二下学期期中英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "冠词",
+      "mode": "single",
+      "stem": "---Did you get there by_______bike?---No, I took _______ taxi.",
+      "passage": "【题干原文】\n---Did you get there by_______bike?---No, I took _______ taxi.\n\n【考点】冠词\n【出处】2011-2012学年江苏省无锡市阳山中学初二下学期期中英语试卷（带解析） · 2012 · 题庄题号 6370616",
+      "options": [
+        {
+          "key": "A",
+          "text": "a; a",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "不填；a",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "the; the",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "a; the",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "冠词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "67073ea6a48cb285c25fb2f37e52e46a",
+      "raw": {
+        "id": 6370616,
+        "title_html": "---Did you get there by_______bike?---No, I took _______ taxi.",
+        "options_html": {
+          "A": "a; a",
+          "B": "不填；a",
+          "C": "the; the",
+          "D": "a; the"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "67073ea6a48cb285c25fb2f37e52e46a",
+        "source": "2011-2012学年江苏省无锡市阳山中学初二下学期期中英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "冠词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6370648",
+      "source": "题庄真题 · 2011-2012学年江苏省无锡市阳山中学初二下学期期中英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "主谓一致",
+      "grammar_point": "主谓一致",
+      "mode": "single",
+      "stem": "The number of the films ____________ than before.",
+      "passage": "【题干原文】\nThe number of the films ____________ than before.\n\n【考点】主谓一致\n【出处】2011-2012学年江苏省无锡市阳山中学初二下学期期中英语试卷（带解析） · 2012 · 题庄题号 6370648",
+      "options": [
+        {
+          "key": "A",
+          "text": "is larger",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "is more",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "are larger",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "are more",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "主谓一致",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "e03923a4bd6400944f21d1ac08297787",
+      "raw": {
+        "id": 6370648,
+        "title_html": "The number of the films ____________ than before.",
+        "options_html": {
+          "A": "is larger",
+          "B": "is more",
+          "C": "are larger",
+          "D": "are more"
+        },
+        "answer": "A",
+        "answer_html": "A",
+        "analysis_html": "",
+        "content_hash": "e03923a4bd6400944f21d1ac08297787",
+        "source": "2011-2012学年江苏省无锡市阳山中学初二下学期期中英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "主谓一致",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6370876",
+      "source": "题庄真题 · 2011-2012学年江苏省镇江市实验初中初二下学期期中英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "冠词",
+      "mode": "single",
+      "stem": "_______Smiths are going to Sunshine Town to visit their friends this evening.",
+      "passage": "【题干原文】\n_______Smiths are going to Sunshine Town to visit their friends this evening.\n\n【考点】冠词\n【出处】2011-2012学年江苏省镇江市实验初中初二下学期期中英语试卷（带解析） · 2012 · 题庄题号 6370876",
+      "options": [
+        {
+          "key": "A",
+          "text": "A",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "An",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "The",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "/",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "冠词",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "8780482449f67e319371b8b135800c28",
+      "raw": {
+        "id": 6370876,
+        "title_html": "_______Smiths are going to Sunshine Town to visit their friends this evening.",
+        "options_html": {
+          "A": "A",
+          "B": "An",
+          "C": "The",
+          "D": "/"
+        },
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "8780482449f67e319371b8b135800c28",
+        "source": "2011-2012学年江苏省镇江市实验初中初二下学期期中英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "冠词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6382951",
+      "source": "题庄真题 · 2011-2012学年江苏省泰兴市济川中学初二上学期期末考试英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "被动语态",
+      "grammar_point": "情态动词被动",
+      "mode": "single",
+      "stem": "–I missed the first part of ________ film Avatar.\n–- What a pity ! You should be here half _______ hour earlier.",
+      "passage": "【题干原文】\n–I missed the first part of ________ film Avatar.\n–- What a pity ! You should be here half _______ hour earlier.\n\n【考点】冠词\n【出处】2011-2012学年江苏省泰兴市济川中学初二上学期期末考试英语试卷（带解析） · 2012 · 题庄题号 6382951",
+      "options": [
+        {
+          "key": "A",
+          "text": "a, the",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "a, an",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "the, a",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "the, an",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "情态动词被动",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "4d120e04c3a766f5e6883a1338b57f64",
+      "raw": {
+        "id": 6382951,
+        "title_html": "–I missed the first part of ________ film <i>Avatar.</i><br><i>    </i>   –<i>- </i>What a pity ! You should be here half _______ hour earlier.",
+        "options_html": {
+          "A": "a, the",
+          "B": "a, an",
+          "C": "the, a",
+          "D": "the, an"
+        },
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "4d120e04c3a766f5e6883a1338b57f64",
+        "source": "2011-2012学年江苏省泰兴市济川中学初二上学期期末考试英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "冠词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6383039",
+      "source": "题庄真题 · 2011-2012学年江苏省泰兴市济川中学初二上学期期末考试英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "名词与数",
+      "mode": "single",
+      "stem": "________ of giant pandas is getting _________ because their living areas are becoming farmland.",
+      "passage": "【题干原文】\n________ of giant pandas is getting _________ because their living areas are becoming farmland.\n\n【考点】数词\n【出处】2011-2012学年江苏省泰兴市济川中学初二上学期期末考试英语试卷（带解析） · 2012 · 题庄题号 6383039",
+      "options": [
+        {
+          "key": "A",
+          "text": "The number, larger and larger",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "A number, larger and larger",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "The number, smaller and smaller",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "A number, smaller and smaller",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "名词与数",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "aca12de7764b41b6ad1f0eb117ff92d3",
+      "raw": {
+        "id": 6383039,
+        "title_html": "________ of giant pandas is getting _________ because their living areas are becoming farmland.",
+        "options_html": {
+          "A": "The number, larger and larger",
+          "B": "A number, larger and larger",
+          "C": "The number, smaller and smaller",
+          "D": "A number, smaller and smaller"
+        },
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "aca12de7764b41b6ad1f0eb117ff92d3",
+        "source": "2011-2012学年江苏省泰兴市济川中学初二上学期期末考试英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "数词",
+        "year": 2012
       }
     }
   ]

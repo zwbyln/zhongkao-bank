@@ -1,13 +1,13 @@
 {
   "format": "zx-trainer-bank-v1",
   "source": "题庄真题库（tizhuang.qcscience.cc）",
-  "generatedAt": "2026-11-15T01:00:11.714140+00:00",
+  "generatedAt": "2026-11-16T00:59:41.553348+00:00",
   "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。英语题的 grammar_group / grammar_point 由关键词推断（结构类优先于时态类），口语交际与语法填空等主观题不在采集范围内。",
   "stats": {
-    "usable": 20,
+    "usable": 35,
     "skipped": 0,
     "thisRun": 15,
-    "added": 0
+    "added": 15
   },
   "items": [
     {
@@ -1508,6 +1508,1161 @@
         "is_auto_gradable": true,
         "knowledges": "美苏争霸和两极格局",
         "year": 2014
+      }
+    },
+    {
+      "id": "TZ15282660",
+      "source": "题庄真题 · 2015秋•嘉峪关校级期末",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "历史选择",
+      "content_scope": "世界史",
+      "memory_type": "fact",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "苏联是20世纪的一个大国。下列关于苏联历史的表述不正确的是（ ）",
+      "passage": "【题干原文】\n苏联是20世纪的一个大国。下列关于苏联历史的表述不正确的是（ ）\n\n【考点】1922年苏联的建立与发展,苏联解体\n【出处】2015秋•嘉峪关校级期末 · 2015 · 题庄题号 15282660",
+      "options": [
+        {
+          "key": "A",
+          "text": "是人类历史上第一个社会主义国家",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "1921年实施新经济政策",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "曾建立了高度集中的政治经济体制",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "存在的时间是1917年-1991年",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题主要考查学生对苏联历史的准确识记．"
+        }
+      ],
+      "points": [],
+      "formula_ref": "史实记忆 = 时间锚点 + 前后事件夹逼（上承什么、下启什么）",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】本题主要考查学生对苏联历史的准确识记．",
+      "time_anchor": "20世纪",
+      "tags": [
+        "题庄真题",
+        "历史",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "628b96243c4577318d9dbd74f5eb9e98",
+      "raw": {
+        "id": 15282660,
+        "title_html": "苏联是20世纪的一个大国。下列关于苏联历史的表述不正确的是（　　）",
+        "options_html": {
+          "A": "是人类历史上第一个社会主义国家",
+          "B": "1921年实施新经济政策",
+          "C": "曾建立了高度集中的政治经济体制",
+          "D": "存在的时间是1917年-1991年"
+        },
+        "answer": "D",
+        "answer_html": "【解答】1917年11月，俄国爆发的十月革命，是人类历史上第一次获得胜利的社会主义革命．1922年苏联成立，1991年苏联解体，历史上的苏联从建立到瓦解一共维持了69年．故关于苏联历史的表述不正确的是存在的时间是1917年-1991年．<br>故选D．",
+        "analysis_html": "【分析】本题主要考查学生对苏联历史的准确识记．",
+        "content_hash": "628b96243c4577318d9dbd74f5eb9e98",
+        "source": "2015秋•嘉峪关校级期末",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "1922年苏联的建立与发展,苏联解体",
+        "year": 2015
+      }
+    },
+    {
+      "id": "TZ15282682",
+      "source": "题庄真题 · 2012秋•徐州期中",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "历史选择",
+      "content_scope": "中国古代史",
+      "memory_type": "source",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "我国与日本交往开始有文字记载始于（ ）",
+      "passage": "【题干原文】\n我国与日本交往开始有文字记载始于（ ）\n\n【考点】汉与朝鲜、日本的交流\n【出处】2012秋•徐州期中 · 2012 · 题庄题号 15282682",
+      "options": [
+        {
+          "key": "A",
+          "text": "春秋",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "秦朝",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "西汉",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题主要考查西汉与日本的交往．"
+        },
+        {
+          "key": "D",
+          "text": "东汉",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】本题主要考查西汉与日本的交往．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "ab4b147fb40c10b040d7f85b44a22dea",
+      "raw": {
+        "id": 15282682,
+        "title_html": "我国与日本交往开始有文字记载始于（　　）",
+        "options_html": {
+          "A": "春秋",
+          "B": "秦朝",
+          "C": "西汉",
+          "D": "东汉"
+        },
+        "answer": "C",
+        "answer_html": "【解答】根据所学知识可知，我国与日本交往开始有了文字记载始于西汉．中日交往有悠久历史，西汉时与日本交往密切，且有文字记载．<br>故选C．",
+        "analysis_html": "【分析】本题主要考查西汉与日本的交往．",
+        "content_hash": "ab4b147fb40c10b040d7f85b44a22dea",
+        "source": "2012秋•徐州期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "汉与朝鲜、日本的交流",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ15282956",
+      "source": "题庄真题 · 2015秋•玄武区期末",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "历史选择",
+      "content_scope": "世界史",
+      "memory_type": "fact",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "2015年是世界反法西斯战争胜利70周年，如果挑选一幅美术名作来揭露和控诉法西斯屠杀无辜平民的血腥罪行，下面作品最合适的是（ ）",
+      "passage": "【题干原文】\n2015年是世界反法西斯战争胜利70周年，如果挑选一幅美术名作来揭露和控诉法西斯屠杀无辜平民的血腥罪行，下面作品最合适的是（ ）\n\n【考点】现代文学和美术\n【出处】2015秋•玄武区期末 · 2015 · 题庄题号 15282956",
+      "options": [
+        {
+          "key": "A",
+          "text": "《向日葵》",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "《英雄交响曲》",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "《战争与和平》",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "《格尔尼卡》",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题考查了《格尔尼卡》．"
+        }
+      ],
+      "points": [],
+      "formula_ref": "史实记忆 = 时间锚点 + 前后事件夹逼（上承什么、下启什么）",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】本题考查了《格尔尼卡》．",
+      "time_anchor": "2015年",
+      "tags": [
+        "题庄真题",
+        "历史",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "0f33bb7d276047347b3cb84be2aa4aba",
+      "raw": {
+        "id": 15282956,
+        "title_html": "2015年是世界反法西斯战争胜利70周年，如果挑选一幅美术名作来揭露和控诉法西斯屠杀无辜平民的血腥罪行，下面作品最合适的是（　　）",
+        "options_html": {
+          "A": "《向日葵》",
+          "B": "《英雄交响曲》",
+          "C": "《战争与和平》",
+          "D": "《格尔尼卡》"
+        },
+        "answer": "D",
+        "answer_html": "【解答】西班牙著名画家毕加索在1937年为抗议德国法西斯轰炸西班牙小镇格尔尼卡而创作的《格尔尼卡》，是20世纪艺术中的珍品，它控诉了法西斯的暴行．如果挑选一幅美术名作来揭露和控诉法西斯屠杀无辜平民的血腥罪行最合适的是《格尔尼卡》．<br>故选D．",
+        "analysis_html": "【分析】本题考查了《格尔尼卡》．",
+        "content_hash": "0f33bb7d276047347b3cb84be2aa4aba",
+        "source": "2015秋•玄武区期末",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "现代文学和美术",
+        "year": 2015
+      }
+    },
+    {
+      "id": "TZ15283104",
+      "source": "题庄真题 · 2014秋•忻府区校级期末",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "历史选择",
+      "content_scope": "中国古代史",
+      "memory_type": "source",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "三峡是我国著名的旅游景点之一，古人记载三峡说“巴东三峡巫峡长，猿鸣三声泪沾裳”，你知道他是谁吗？（ ）",
+      "passage": "【题干原文】\n三峡是我国著名的旅游景点之一，古人记载三峡说“巴东三峡巫峡长，猿鸣三声泪沾裳”，你知道他是谁吗？（ ）\n\n【考点】郦道元和《水经注》\n【出处】2014秋•忻府区校级期末 · 2014 · 题庄题号 15283104",
+      "options": [
+        {
+          "key": "A",
+          "text": "郦道元",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题主要考查郦道元的有关内容．"
+        },
+        {
+          "key": "B",
+          "text": "贾思勰",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "祖冲之",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "张衡",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】本题主要考查郦道元的有关内容．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "9dc360b8ec9f60ea001d70e31d8c6311",
+      "raw": {
+        "id": 15283104,
+        "title_html": "三峡是我国著名的旅游景点之一，古人记载三峡说“巴东三峡巫峡长，猿鸣三声泪沾裳”，你知道他是谁吗？（　　）",
+        "options_html": {
+          "A": "郦道元",
+          "B": "贾思勰",
+          "C": "祖冲之",
+          "D": "张衡"
+        },
+        "answer": "A",
+        "answer_html": "【解答】根据题干对三峡的描述，结合所学知识可知：郦道元编写的《水经注》是一部综合性的地理学专著，记述了许多前人没有记载过的河流，全书以水道系统为纲，详细介绍了江河流经地区的山川城镇、地形物产、风土人情、历史古迹等．<br>故选A．",
+        "analysis_html": "【分析】本题主要考查郦道元的有关内容．",
+        "content_hash": "9dc360b8ec9f60ea001d70e31d8c6311",
+        "source": "2014秋•忻府区校级期末",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "郦道元和《水经注》",
+        "year": 2014
+      }
+    },
+    {
+      "id": "TZ15283229",
+      "source": "题庄真题 · 2015秋•东台市期中",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "历史时序排序",
+      "content_scope": "中国古代史",
+      "memory_type": "sequence",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "下列是中国古代历史上出现过的一些政治制度，按其出现的先后次序，正确排列为（ ）\n①郡县制 ②分封制 ③王位世袭制 ④禅让制。",
+      "passage": "【题干原文】\n下列是中国古代历史上出现过的一些政治制度，按其出现的先后次序，正确排列为（ ）\n①郡县制 ②分封制 ③王位世袭制 ④禅让制。\n\n【考点】尧舜禹的“禅让”,禅让制到王位世袭制的演变,西周的分封制,秦朝巩固统一的措施\n【出处】2015秋•东台市期中 · 2015 · 题庄题号 15283229",
+      "options": [
+        {
+          "key": "A",
+          "text": "②④①③",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "③④②①",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "④③②①",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题考查的是中国古代的政治制度．"
+        },
+        {
+          "key": "D",
+          "text": "④③①②",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "首尾锚定 → 逐项插入 → 相邻校验；警惕相邻互换、首尾错置、跨朝代插入",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】本题考查的是中国古代的政治制度．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "ad7d2a751fddde0f8db6b2a42e7daef0",
+      "raw": {
+        "id": 15283229,
+        "title_html": "下列是中国古代历史上出现过的一些政治制度，按其出现的先后次序，正确排列为（　　）<br>①郡县制    ②分封制    ③王位世袭制    ④禅让制。",
+        "options_html": {
+          "A": "②④①③",
+          "B": "③④②①",
+          "C": "④③②①",
+          "D": "④③①②"
+        },
+        "answer": "C",
+        "answer_html": "【解答】①郡县制是秦朝统一后实行的；②分封制是西周时期实行的政治制度； ③王位世袭制始于夏朝启继承父位；④禅让制是上古时期尧舜禹时代部落联盟首领更替时的方法．<br>故选C．",
+        "analysis_html": "【分析】本题考查的是中国古代的政治制度．",
+        "content_hash": "ad7d2a751fddde0f8db6b2a42e7daef0",
+        "source": "2015秋•东台市期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "尧舜禹的“禅让”,禅让制到王位世袭制的演变,西周的分封制,秦朝巩固统一的措施",
+        "year": 2015
+      }
+    },
+    {
+      "id": "TZ15283349",
+      "source": "题庄真题 · 2016秋•东台市期中",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "历史时序排序",
+      "content_scope": "世界史",
+      "memory_type": "sequence",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "下列历史事件发生的先后顺序是（ ）\n①美国南北战争 ②《共产党宣言》发表 ③巴黎公社建立 ④印度反英民族大起义。",
+      "passage": "【题干原文】\n下列历史事件发生的先后顺序是（ ）\n①美国南北战争 ②《共产党宣言》发表 ③巴黎公社建立 ④印度反英民族大起义。\n\n【考点】印度民族大起义,《共产党宣言》,巴黎公社,美国南北战争的爆发\n【出处】2016秋•东台市期中 · 2016 · 题庄题号 15283349",
+      "options": [
+        {
+          "key": "A",
+          "text": "①②③④",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "①④②③",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "②④①③",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题考查《共产党宣言》．"
+        },
+        {
+          "key": "D",
+          "text": "②①③④",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "首尾锚定 → 逐项插入 → 相邻校验；警惕相邻互换、首尾错置、跨朝代插入",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】本题考查《共产党宣言》．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "02184865c445b77282d5c272329dfdb6",
+      "raw": {
+        "id": 15283349,
+        "title_html": "下列历史事件发生的先后顺序是（　　）<br>①美国南北战争  ②《共产党宣言》发表  ③巴黎公社建立  ④印度反英民族大起义。",
+        "options_html": {
+          "A": "①②③④",
+          "B": "①④②③",
+          "C": "②④①③",
+          "D": "②①③④"
+        },
+        "answer": "C",
+        "answer_html": "【解答】1848年《共产党宣言》发表；1857～1859年印度反英民族大起义：1861～1865年美国南北战争：1871年巴黎公社建立．<br>故选C．",
+        "analysis_html": "【分析】本题考查《共产党宣言》．",
+        "content_hash": "02184865c445b77282d5c272329dfdb6",
+        "source": "2016秋•东台市期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "印度民族大起义,《共产党宣言》,巴黎公社,美国南北战争的爆发",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ15283394",
+      "source": "题庄真题 · 2016秋•秦皇岛期末",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "历史选择",
+      "content_scope": "中国古代史",
+      "memory_type": "concept",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "近年来不断加剧的巴以冲突使中东地区持续成为世界关注的焦点。中东地区武装冲突不断发生的原因包括（ ）\n①宗教问题\n②大国干预\n③领土问题\n④民族矛盾。",
+      "passage": "【题干原文】\n近年来不断加剧的巴以冲突使中东地区持续成为世界关注的焦点。中东地区武装冲突不断发生的原因包括（ ）\n①宗教问题\n②大国干预\n③领土问题\n④民族矛盾。\n\n【考点】动荡的中东地区\n【出处】2016秋•秦皇岛期末 · 2016 · 题庄题号 15283394",
+      "options": [
+        {
+          "key": "A",
+          "text": "①②③",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "①③④",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "①②④",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "①②③④",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题考查中东地区武装冲突不断发生的原因．"
+        }
+      ],
+      "points": [],
+      "formula_ref": "根本原因（经济基础/社会矛盾）→ 直接原因（导火索）→ 回材料验证",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】本题考查中东地区武装冲突不断发生的原因．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "6fd9a911763b746623f650bfae7e02f6",
+      "raw": {
+        "id": 15283394,
+        "title_html": "近年来不断加剧的巴以冲突使中东地区持续成为世界关注的焦点。中东地区武装冲突不断发生的原因包括（　　）<br>①宗教问题    <br>②大国干预    <br>③领土问题    <br>④民族矛盾。",
+        "options_html": {
+          "A": "①②③",
+          "B": "①③④",
+          "C": "①②④",
+          "D": "①②③④"
+        },
+        "answer": "D",
+        "answer_html": "【解答】中东地区武装冲突不断发生的原因包括宗教问题、大国干预 、大国干预 、民族矛盾等．中东地区重要的地理位置和战略位置极为重要，石油资源十分丰富，一些大国从自己的利益出发插手中东地区的事务，围绕着巴勒斯坦主权问题，阿以民族矛盾和宗教矛盾加剧，犹太人和阿拉伯人都认为自己才是中东地区的主人，为了争夺领土多次爆发战争．<br>故选D．",
+        "analysis_html": "【分析】本题考查中东地区武装冲突不断发生的原因．",
+        "content_hash": "6fd9a911763b746623f650bfae7e02f6",
+        "source": "2016秋•秦皇岛期末",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "动荡的中东地区",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ15283462",
+      "source": "题庄真题 · 2013秋•灌云县期中",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "历史时序排序",
+      "content_scope": "中国古代史",
+      "memory_type": "sequence",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "下列历史事件按先后顺序排列正确的是：（ ）\n①王位世袭制代替禅让制\n②牧野之战\n③葵丘会盟\n④商鞅变法。",
+      "passage": "【题干原文】\n下列历史事件按先后顺序排列正确的是：（ ）\n①王位世袭制代替禅让制\n②牧野之战\n③葵丘会盟\n④商鞅变法。\n\n【考点】禅让制到王位世袭制的演变,商朝的建立与灭亡,春秋五霸,商鞅变法\n【出处】2013秋•灌云县期中 · 2013 · 题庄题号 15283462",
+      "options": [
+        {
+          "key": "A",
+          "text": "①②③④",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题考查先秦的重要史实．"
+        },
+        {
+          "key": "B",
+          "text": "①②④③",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "①③②④",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "①③④②",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "首尾锚定 → 逐项插入 → 相邻校验；警惕相邻互换、首尾错置、跨朝代插入",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】本题考查先秦的重要史实．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "be2b68e0a789506f69421f72b2fe1d95",
+      "raw": {
+        "id": 15283462,
+        "title_html": "下列历史事件按先后顺序排列正确的是：（　　）<br>①王位世袭制代替禅让制 <br>②牧野之战 <br>③葵丘会盟 <br>④商鞅变法。",
+        "options_html": {
+          "A": "①②③④",
+          "B": "①②④③",
+          "C": "①③②④",
+          "D": "①③④②"
+        },
+        "answer": "A",
+        "answer_html": "【解答】公元前2070年禹建立夏朝，禹死后，他的儿子启继承禹的位置，世袭制代替禅让制．公元前1046年周武王伐纣，通过牧野之战，灭掉商朝，建立西周．公元前651年齐桓公通过葵丘会盟成为春秋时期的第一个霸主．公元前356年秦孝公任用商鞅开始变法．<br>故选A．",
+        "analysis_html": "【分析】本题考查先秦的重要史实．",
+        "content_hash": "be2b68e0a789506f69421f72b2fe1d95",
+        "source": "2013秋•灌云县期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "禅让制到王位世袭制的演变,商朝的建立与灭亡,春秋五霸,商鞅变法",
+        "year": 2013
+      }
+    },
+    {
+      "id": "TZ15283696",
+      "source": "题庄真题 · 2012秋•曾都区期中",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "历史选择",
+      "content_scope": "世界史",
+      "memory_type": "fact",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "有关第一次世界大战的叙述，正确的是（ ）\n①帝国主义经济政治发展不平衡是“一战”的根源；\n②战前就已经形成同盟国与协约国两大集团；\n③德法矛盾是帝国主义国家间矛盾中的主要矛盾；\n④总的来说，“战”是一场帝国主义战争；\n⑤1917年俄国“二月革命”以后退出一战；\n⑥战后英法实力削弱，美、日实力增强。",
+      "passage": "【题干原文】\n有关第一次世界大战的叙述，正确的是（ ）\n①帝国主义经济政治发展不平衡是“一战”的根源；\n②战前就已经形成同盟国与协约国两大集团；\n③德法矛盾是帝国主义国家间矛盾中的主要矛盾；\n④总的来说，“战”是一场帝国主义战争；\n⑤1917年俄国“二月革命”以后退出一战；\n⑥战后英法实力削弱，美、日实力增强。\n\n【考点】三国同盟和三国协约,第一次世界大战的爆发,第一次世界大战的性质与影响\n【出处】2012秋•曾都区期中 · 2012 · 题庄题号 15283696",
+      "options": [
+        {
+          "key": "A",
+          "text": "①②③⑥",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "④⑤⑥",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "①②④⑥",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题考查第一次世界大战．"
+        },
+        {
+          "key": "D",
+          "text": "①②③④⑤⑥",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "对当时 → 对后世；政治/经济/思想分层，注意程度词是否绝对化",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】本题考查第一次世界大战．",
+      "time_anchor": "1917年",
+      "tags": [
+        "题庄真题",
+        "历史",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "5febcf9f0f911825ce2cbc2632a89d05",
+      "raw": {
+        "id": 15283696,
+        "title_html": "有关第一次世界大战的叙述，正确的是（　　）<br>①帝国主义经济政治发展不平衡是“一战”的根源；<br>②战前就已经形成同盟国与协约国两大集团；<br>③德法矛盾是帝国主义国家间矛盾中的主要矛盾；<br>④总的来说，“战”是一场帝国主义战争；<br>⑤1917年俄国“二月革命”以后退出一战；<br>⑥战后英法实力削弱，美、日实力增强。",
+        "options_html": {
+          "A": "①②③⑥",
+          "B": "④⑤⑥",
+          "C": "①②④⑥",
+          "D": "①②③④⑤⑥"
+        },
+        "answer": "C",
+        "answer_html": "【解答】帝国主义经济政治发展不平衡是“一战”的根源，一战前就已经形成同盟国与协约国两大军事政治集团，其中英德矛盾是帝国主义国家间矛盾中的主要矛盾，1917年俄国“十月革命”以后退出了一战，一战的性质是帝国主义掠夺战争，一战后战后英法实力削弱，美、日实力增强．<br>故选C．",
+        "analysis_html": "【分析】本题考查第一次世界大战．",
+        "content_hash": "5febcf9f0f911825ce2cbc2632a89d05",
+        "source": "2012秋•曾都区期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "三国同盟和三国协约,第一次世界大战的爆发,第一次世界大战的性质与影响",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ15283790",
+      "source": "题庄真题 · 2015秋•柘城县期末",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "历史选择",
+      "content_scope": "中国古代史",
+      "memory_type": "concept",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "“让别的国家分割大陆和海洋，我们满足于蓝色天空的时代已经过去，我们也要求阳光下的地盘”，这表明了当时哪两个国家的矛盾最为尖锐（ ）",
+      "passage": "【题干原文】\n“让别的国家分割大陆和海洋，我们满足于蓝色天空的时代已经过去，我们也要求阳光下的地盘”，这表明了当时哪两个国家的矛盾最为尖锐（ ）\n\n【考点】三国同盟和三国协约\n【出处】2015秋•柘城县期末 · 2015 · 题庄题号 15283790",
+      "options": [
+        {
+          "key": "A",
+          "text": "德国、法国",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "德国、俄国",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "德国、英国",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题考查德国的对外政策．"
+        },
+        {
+          "key": "D",
+          "text": "英国、法国",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】本题考查德国的对外政策．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "9d3aceeee910e3a13ae9eb813be910ad",
+      "raw": {
+        "id": 15283790,
+        "title_html": "“让别的国家分割大陆和海洋，我们满足于蓝色天空的时代已经过去，我们也要求阳光下的地盘”，这表明了当时哪两个国家的矛盾最为尖锐（　　）",
+        "options_html": {
+          "A": "德国、法国",
+          "B": "德国、俄国",
+          "C": "德国、英国",
+          "D": "英国、法国"
+        },
+        "answer": "C",
+        "answer_html": "【解答】联系所学知识，19世纪末，德国经济实力增强，工业产值跃居世界第二位．后起的德国要求重新分割世界，和老牌的帝国主义国家特别是英国矛盾激化，展开了激烈的争夺．德国外交大臣所说的话反映了德国实行的外交政策是对外进行殖民扩张，重新分割世界．<br>故选C．",
+        "analysis_html": "【分析】本题考查德国的对外政策．",
+        "content_hash": "9d3aceeee910e3a13ae9eb813be910ad",
+        "source": "2015秋•柘城县期末",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "三国同盟和三国协约",
+        "year": 2015
+      }
+    },
+    {
+      "id": "TZ15284070",
+      "source": "题庄真题 · 2016秋•常州期中",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "历史选择",
+      "content_scope": "世界史",
+      "memory_type": "concept",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "“这次起义是传统印度反对英国殖民统治的最后一搏，结果使得古老的东印度公司垮台。”在这次起义中，著名的民族英雄是（ ）",
+      "passage": "【题干原文】\n“这次起义是传统印度反对英国殖民统治的最后一搏，结果使得古老的东印度公司垮台。”在这次起义中，著名的民族英雄是（ ）\n\n【考点】印度民族大起义\n【出处】2016秋•常州期中 · 2016 · 题庄题号 15284070",
+      "options": [
+        {
+          "key": "A",
+          "text": "克伦威尔",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "欧仁•鲍狄埃",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "克莱武",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "章西女王",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题考查印度民族大起义．"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】本题考查印度民族大起义．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "a332826c93b4ae1d581a5d1de69343d4",
+      "raw": {
+        "id": 15284070,
+        "title_html": "“这次起义是传统印度反对英国殖民统治的最后一搏，结果使得古老的东印度公司垮台。”在这次起义中，著名的民族英雄是（　　）",
+        "options_html": {
+          "A": "克伦威尔",
+          "B": "欧仁•鲍狄埃",
+          "C": "克莱武",
+          "D": "章西女王"
+        },
+        "answer": "D",
+        "answer_html": "【解答】据“这次起义是传统印度反对英国殖民统治的最后一搏，结果使得古老的东印度公司垮台．”可知，在这次起义是印度民族大起义．章西女王领导了1857--1859年印度民族大起义，沉重打击了英国的殖民统治．章西女王是印度民族大起义的杰出女英雄．<br>故选D．",
+        "analysis_html": "【分析】本题考查印度民族大起义．",
+        "content_hash": "a332826c93b4ae1d581a5d1de69343d4",
+        "source": "2016秋•常州期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "印度民族大起义",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ15284632",
+      "source": "题庄真题 · 2016秋•临沧期中",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "历史选择",
+      "content_scope": "世界史",
+      "memory_type": "fact",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "19世纪末20世纪初在第二次工业革命的推动下，主要资本主义国家相继进入到帝国主义国家阶段，为争夺霸权，形成了两个军事集团。他们分别是（ ）",
+      "passage": "【题干原文】\n19世纪末20世纪初在第二次工业革命的推动下，主要资本主义国家相继进入到帝国主义国家阶段，为争夺霸权，形成了两个军事集团。他们分别是（ ）\n\n【考点】三国同盟和三国协约\n【出处】2016秋•临沧期中 · 2016 · 题庄题号 15284632",
+      "options": [
+        {
+          "key": "A",
+          "text": "三国同盟（德国、奥匈帝国、意大利）和三国协约（英国、法国、俄国）",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题考查两大军事集团的形成．"
+        },
+        {
+          "key": "B",
+          "text": "轴心国（德国、日本、意大利）和世界反法西斯联盟",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "社会主义阵营和资本主义阵营",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "华沙和北约",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "史实记忆 = 时间锚点 + 前后事件夹逼（上承什么、下启什么）",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】本题考查两大军事集团的形成．",
+      "time_anchor": "19世纪末",
+      "tags": [
+        "题庄真题",
+        "历史",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "5531e6c6b2e6d74086d3922eba6b7dae",
+      "raw": {
+        "id": 15284632,
+        "title_html": "19世纪末20世纪初在第二次工业革命的推动下，主要资本主义国家相继进入到帝国主义国家阶段，为争夺霸权，形成了两个军事集团。他们分别是（　　）",
+        "options_html": {
+          "A": "三国同盟（德国、奥匈帝国、意大利）和三国协约（英国、法国、俄国）",
+          "B": "轴心国（德国、日本、意大利）和世界反法西斯联盟",
+          "C": "社会主义阵营和资本主义阵营",
+          "D": "华沙和北约"
+        },
+        "answer": "A",
+        "answer_html": "【解答】一战前，伴随着帝国主义国家矛盾的加剧，德国、奥匈帝国和意大利组成了三国同盟集团，英国、法国和俄国组成了三国协约集团．<br>故选A．",
+        "analysis_html": "【分析】本题考查两大军事集团的形成．",
+        "content_hash": "5531e6c6b2e6d74086d3922eba6b7dae",
+        "source": "2016秋•临沧期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "三国同盟和三国协约",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ15284650",
+      "source": "题庄真题 · 2016秋•泰山区期中",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "历史选择",
+      "content_scope": "中国古代史",
+      "memory_type": "concept",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "下列古代的思想家中，属于儒家代表人物的是（ ）\n①孔子②老子③孟子④荀子。",
+      "passage": "【题干原文】\n下列古代的思想家中，属于儒家代表人物的是（ ）\n①孔子②老子③孟子④荀子。\n\n【考点】老子和孔子,百家争鸣\n【出处】2016秋•泰山区期中 · 2016 · 题庄题号 15284650",
+      "options": [
+        {
+          "key": "A",
+          "text": "①②④",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "①③④",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题主要考查儒家代表人物．"
+        },
+        {
+          "key": "C",
+          "text": "②③④",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "①②③",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】本题主要考查儒家代表人物．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "fb97c5c132e32bf8c792a67abe9c7ecf",
+      "raw": {
+        "id": 15284650,
+        "title_html": "下列古代的思想家中，属于儒家代表人物的是（　　）<br>①孔子②老子③孟子④荀子。",
+        "options_html": {
+          "A": "①②④",
+          "B": "①③④",
+          "C": "②③④",
+          "D": "①②③"
+        },
+        "answer": "B",
+        "answer_html": "【解答】①孔子是春秋时期儒家学派的创始人，是儒家学派的代表人物；②老子是道家代表人物；③孟子是战国时期儒家代表人物；④荀子是战国时期儒家代表人物．<br>故选B．",
+        "analysis_html": "【分析】本题主要考查儒家代表人物．",
+        "content_hash": "fb97c5c132e32bf8c792a67abe9c7ecf",
+        "source": "2016秋•泰山区期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "老子和孔子,百家争鸣",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ15284872",
+      "source": "题庄真题 · 2016秋•邵武市校级期中",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "历史选择",
+      "content_scope": "中国古代史",
+      "memory_type": "concept",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "氏族聚落建立后，人们逐渐从采集进化到原始农业，也正是在农业生产的基础上，远古人类开始了（ ）",
+      "passage": "【题干原文】\n氏族聚落建立后，人们逐渐从采集进化到原始农业，也正是在农业生产的基础上，远古人类开始了（ ）\n\n【考点】氏族社会\n【出处】2016秋•邵武市校级期中 · 2016 · 题庄题号 15284872",
+      "options": [
+        {
+          "key": "A",
+          "text": "游牧生活",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "烧制陶器",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "定居生活",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题考查的是原始农耕与定居生活．"
+        },
+        {
+          "key": "D",
+          "text": "掠夺战争",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】本题考查的是原始农耕与定居生活．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "a6457e1dbe0bbbaeae080456ca2b9b88",
+      "raw": {
+        "id": 15284872,
+        "title_html": "氏族聚落建立后，人们逐渐从采集进化到原始农业，也正是在农业生产的基础上，远古人类开始了（　　）",
+        "options_html": {
+          "A": "游牧生活",
+          "B": "烧制陶器",
+          "C": "定居生活",
+          "D": "掠夺战争"
+        },
+        "answer": "C",
+        "answer_html": "【解答】氏族聚落建立后，人们逐渐从采集进化到原始农业，也正是在农业生产的基础上，人类获得了相对稳定的食物来源，这使远古人类开始了定居生活．<br>故选C．",
+        "analysis_html": "【分析】本题考查的是原始农耕与定居生活．",
+        "content_hash": "a6457e1dbe0bbbaeae080456ca2b9b88",
+        "source": "2016秋•邵武市校级期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "氏族社会",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ15285007",
+      "source": "题庄真题 · 2012秋•徐州期中",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "历史时序排序",
+      "content_scope": "中国古代史",
+      "memory_type": "sequence",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "下列是我国原始社会出现的现象，按时间先后顺序排列，正确的是（ ）\n①种植水稻 ②使用天然火 ③建造半地穴式房屋 ④人工取火。",
+      "passage": "【题干原文】\n下列是我国原始社会出现的现象，按时间先后顺序排列，正确的是（ ）\n①种植水稻 ②使用天然火 ③建造半地穴式房屋 ④人工取火。\n\n【考点】人类的起源,山顶洞人,河姆渡的原始农耕,半坡原始居民的生活\n【出处】2012秋•徐州期中 · 2012 · 题庄题号 15285007",
+      "options": [
+        {
+          "key": "A",
+          "text": "④③②①",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "②④①③",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】本题考查的是我国原始社会出现的现象．"
+        },
+        {
+          "key": "C",
+          "text": "①②③④",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "③④①②",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "首尾锚定 → 逐项插入 → 相邻校验；警惕相邻互换、首尾错置、跨朝代插入",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】本题考查的是我国原始社会出现的现象．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "d81c8d0e08ad9f7c874569b7b6c764dd",
+      "raw": {
+        "id": 15285007,
+        "title_html": "下列是我国原始社会出现的现象，按时间先后顺序排列，正确的是（　　）<br>①种植水稻 ②使用天然火 ③建造半地穴式房屋 ④人工取火。",
+        "options_html": {
+          "A": "④③②①",
+          "B": "②④①③",
+          "C": "①②③④",
+          "D": "③④①②"
+        },
+        "answer": "B",
+        "answer_html": "【解答】①种植水稻反映的是距今约七千年河姆渡人的生产生活；②使用天然火是距今约70万年-20万年北京人的生活； ③建造半地穴式房屋反映的是距今约六千年半坡人的生活；④人工取火反映的是距今约三万年山顶洞人的生活情景．<br>故选B．",
+        "analysis_html": "【分析】本题考查的是我国原始社会出现的现象．",
+        "content_hash": "d81c8d0e08ad9f7c874569b7b6c764dd",
+        "source": "2012秋•徐州期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "人类的起源,山顶洞人,河姆渡的原始农耕,半坡原始居民的生活",
+        "year": 2012
       }
     }
   ]
