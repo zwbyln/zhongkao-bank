@@ -1,13 +1,13 @@
 {
   "format": "zx-trainer-bank-v1",
   "source": "题庄真题库（tizhuang.qcscience.cc）",
-  "generatedAt": "2026-11-16T01:00:34.218202+00:00",
+  "generatedAt": "2026-11-17T03:47:58.395677+00:00",
   "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。英语题的 grammar_group / grammar_point 由关键词推断（结构类优先于时态类），口语交际与语法填空等主观题不在采集范围内。",
   "stats": {
-    "usable": 4,
-    "skipped": 6,
-    "thisRun": 4,
-    "added": 0
+    "usable": 14,
+    "skipped": 0,
+    "thisRun": 10,
+    "added": 10
   },
   "items": [
     {
@@ -301,6 +301,776 @@
         "is_auto_gradable": true,
         "knowledges": "主谓一致",
         "year": 2012
+      }
+    },
+    {
+      "id": "TZ32670330",
+      "source": "题庄真题 · 吉林省长春市汽开区2022-2023学年七年级上学期调研英语试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "代词",
+      "mode": "single",
+      "stem": "（2022七上·长春开学考） ____ dogs are yellow. ____are my dogs.",
+      "passage": "【题干原文】\n（2022七上·长春开学考） ____ dogs are yellow. ____are my dogs.\n\n【考点】指示代词;主格的人称代词<br/>\n【出处】吉林省长春市汽开区2022-2023学年七年级上学期调研英语试卷 · 2023 · 题庄题号 32670330",
+      "options": [
+        {
+          "key": "A",
+          "text": "Those；They",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：那些狗是黄色的。他们是我的狗。根据题干 ____ dogs are yellow. ____are my dogs. 可知dogs都是复数形式可排除C.D项。第一空主语是dogs，用those修饰。第二空没有主语，要用人称代词做主语。故选A。\n\n【点评】考查代词（指示代词，人称代词）。根据句中dogs是复数，可判断指示代词及人称代词都用复数形式，在根据是否缺主语判断具体是指示代词还是物主代词。\n7．（2022七上·长春开学考）"
+        },
+        {
+          "key": "B",
+          "text": "They；Those",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "That；Those",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "This；They",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "代词",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】句意：那些狗是黄色的。他们是我的狗。根据题干 ____ dogs are yellow. ____are my dogs. 可知dogs都是复数形式可排除C.D项。第一空主语是dogs，用those修饰。第二空没有主语，要用人称代词做主语。故选A。\n\n【点评】考查代词（指示代词，人称代词）。根据句中dogs是复数，可判断指示代词及人称代词都用复数形式，在根据是否缺主语判断具体是指示代词还是物主代词。\n7．（2022七上·长春开学考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "10f9987ad01bde7cb4b4c63f46832e4b",
+      "raw": {
+        "id": 32670330,
+        "title_html": "（2022七上·长春开学考） ____ dogs are yellow. ____are my dogs.  <br>",
+        "options_html": {
+          "A": "Those；They  ",
+          "B": "They；Those  ",
+          "C": "That；Those  ",
+          "D": "This；They"
+        },
+        "answer": "A",
+        "answer_html": "A<br>",
+        "analysis_html": "【分析】句意：那些狗是黄色的。他们是我的狗。根据题干  ____ dogs are yellow. ____are my dogs.   可知dogs都是复数形式可排除C.D项。第一空主语是dogs，用those修饰。第二空没有主语，要用人称代词做主语。故选A。<br>\n【点评】考查代词（指示代词，人称代词）。根据句中dogs是复数，可判断指示代词及人称代词都用复数形式，在根据是否缺主语判断具体是指示代词还是物主代词。<br>7．（2022七上·长春开学考）",
+        "content_hash": "10f9987ad01bde7cb4b4c63f46832e4b",
+        "source": "吉林省长春市汽开区2022-2023学年七年级上学期调研英语试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "指示代词;主格的人称代词<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32670338",
+      "source": "题庄真题 · 吉林省长春市汽开区2022-2023学年七年级上学期调研英语试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "情景交际",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "情景交际",
+      "grammar_point": "情景交际 · 邀请与建议",
+      "mode": "single",
+      "stem": "（2022七上·长春开学考） —Thank you for your help.\n—____.",
+      "passage": "【题干原文】\n（2022七上·长春开学考） —Thank you for your help.\n—____.\n\n【考点】情景交际<br/>\n【出处】吉林省长春市汽开区2022-2023学年七年级上学期调研英语试卷 · 2023 · 题庄题号 32670338",
+      "options": [
+        {
+          "key": "A",
+          "text": "See you",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "You're welcome",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：谢谢你的帮助。不客气。A.再见。B.不客气。C.早上好。D.我很好。根据题干 Thank you……是表示感谢，可用不客气回答，即 You're welcome 。故选B。\n\n【点评】考查情景语境。根据题干意思来选择回答，要清楚选项意思再选择符合语境的选项。"
+        },
+        {
+          "key": "C",
+          "text": "Good morning",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "I'm fine",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "情景交际 · 邀请与建议",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：谢谢你的帮助。不客气。A.再见。B.不客气。C.早上好。D.我很好。根据题干 Thank you……是表示感谢，可用不客气回答，即 You're welcome 。故选B。\n\n【点评】考查情景语境。根据题干意思来选择回答，要清楚选项意思再选择符合语境的选项。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "433d505d7e200ddd63d67cb7cfe10cec",
+      "raw": {
+        "id": 32670338,
+        "title_html": "（2022七上·长春开学考） —Thank you for your help.  <br> —____.  <br>",
+        "options_html": {
+          "A": "See you  ",
+          "B": "You&#x27;re welcome",
+          "C": "Good morning  ",
+          "D": "I&#x27;m fine"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：谢谢你的帮助。不客气。A.再见。B.不客气。C.早上好。D.我很好。根据题干 Thank you……是表示感谢，可用不客气回答，即 You&#x27;re welcome 。故选B。<br>\n【点评】考查情景语境。根据题干意思来选择回答，要清楚选项意思再选择符合语境的选项。<br>",
+        "content_hash": "433d505d7e200ddd63d67cb7cfe10cec",
+        "source": "吉林省长春市汽开区2022-2023学年七年级上学期调研英语试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "情景交际<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32895649",
+      "source": "题庄真题 · 上海市上外附中2023-2024学年七年级上学期英语第一学期阶段",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "非谓语动词",
+      "grammar_point": "动名词作主语",
+      "mode": "single",
+      "stem": "（2023七上·上海市月考）—What do you ____ in your spare time?\n\n—I'm interested in____ novels.",
+      "passage": "【题干原文】\n（2023七上·上海市月考）—What do you ____ in your spare time?\n\n—I'm interested in____ novels.\n\n【考点】动名词;固定搭配\n【出处】上海市上外附中2023-2024学年七年级上学期英语第一学期阶段 · 2024 · 题庄题号 32895649",
+      "options": [
+        {
+          "key": "A",
+          "text": "like to do,read",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "love do ,reading",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "enjoy do ,read",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "enjoy doing,reading",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——你喜欢在空闲时间做什么？——我对读小说感兴趣。空一，enjoy doing=like/love to do，喜欢做某事，故排除B和C选项，空二，be interested in doing，固定搭配，对做某事感兴趣，故用动名词，故选D。\n\n【点评】考查动名词，固定搭配，注意识记enjoy doing=like/love to do，be interested in doing的用法。\n2．（2023七上·上海市月考）"
+        }
+      ],
+      "points": [],
+      "formula_ref": "动名词作主语",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】句意：——你喜欢在空闲时间做什么？——我对读小说感兴趣。空一，enjoy doing=like/love to do，喜欢做某事，故排除B和C选项，空二，be interested in doing，固定搭配，对做某事感兴趣，故用动名词，故选D。\n\n【点评】考查动名词，固定搭配，注意识记enjoy doing=like/love to do，be interested in doing的用法。\n2．（2023七上·上海市月考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "9437cd26b37ba56552e997c5d0c4ce2c",
+      "raw": {
+        "id": 32895649,
+        "title_html": "（2023七上·上海市月考）—What do you ____ in your spare time?\n<br>—I&#x27;m interested in____ novels.<br>",
+        "options_html": {
+          "A": "like to do,read  ",
+          "B": "love do ,reading",
+          "C": "enjoy do ,read  ",
+          "D": "enjoy doing,reading"
+        },
+        "answer": "D",
+        "answer_html": "D<br>",
+        "analysis_html": "【分析】句意：——你喜欢在空闲时间做什么？——我对读小说感兴趣。空一，enjoy doing=like/love to do，喜欢做某事，故排除B和C选项，空二，be interested in doing，固定搭配，对做某事感兴趣，故用动名词，故选D。<br>\n【点评】考查动名词，固定搭配，注意识记enjoy doing=like/love to do，be interested in doing的用法。<br>2．（2023七上·上海市月考）",
+        "content_hash": "9437cd26b37ba56552e997c5d0c4ce2c",
+        "source": "上海市上外附中2023-2024学年七年级上学期英语第一学期阶段",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "动名词;固定搭配",
+        "year": 2024
+      }
+    },
+    {
+      "id": "TZ32895651",
+      "source": "题庄真题 · 上海市上外附中2023-2024学年七年级上学期英语第一学期阶段",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "非谓语动词",
+      "grammar_point": "不定式表目的",
+      "mode": "single",
+      "stem": "（2023七上·上海市月考） When mother passes his room,he ____ his homework.",
+      "passage": "【题干原文】\n（2023七上·上海市月考） When mother passes his room,he ____ his homework.\n\n【考点】表示目前存在的状态、性质或经常发生的动作或习惯;主谓一致;动词不定式;现在进行时\n【出处】上海市上外附中2023-2024学年七年级上学期英语第一学期阶段 · 2024 · 题庄题号 32895651",
+      "options": [
+        {
+          "key": "A",
+          "text": "pretends to do",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "is pretending to do",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "pretends to be doing",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：当母亲走过他的房间时，他假装在做作业。pretend to do sth，假装做某事。when引导的时间状语从句，时态是一般现在时表示常态，主从句时态一致，排除B和D；根据题意他假装正在做他的家庭作业，故用不定式进行式，to be doing，故选C。\n\n【点评】考查不定式进行时，注意识记一般现在时，pretend to do sth的用法。\n4．（2023七上·上海市月考）"
+        },
+        {
+          "key": "D",
+          "text": "is pretending doing",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "不定式表目的",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】句意：当母亲走过他的房间时，他假装在做作业。pretend to do sth，假装做某事。when引导的时间状语从句，时态是一般现在时表示常态，主从句时态一致，排除B和D；根据题意他假装正在做他的家庭作业，故用不定式进行式，to be doing，故选C。\n\n【点评】考查不定式进行时，注意识记一般现在时，pretend to do sth的用法。\n4．（2023七上·上海市月考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "f045a214b29b0aabc9d8defa92f429d6",
+      "raw": {
+        "id": 32895651,
+        "title_html": "（2023七上·上海市月考） When mother passes his room,he ____ his homework. <br>",
+        "options_html": {
+          "A": "pretends to do  ",
+          "B": "is pretending to do",
+          "C": "pretends to be doing  ",
+          "D": "is pretending doing"
+        },
+        "answer": "C",
+        "answer_html": "C<br>",
+        "analysis_html": "【分析】句意：当母亲走过他的房间时，他假装在做作业。pretend to do sth，假装做某事。when引导的时间状语从句，时态是一般现在时表示常态，主从句时态一致，排除B和D；根据题意他假装正在做他的家庭作业，故用不定式进行式，to be doing，故选C。<br>\n【点评】考查不定式进行时，注意识记一般现在时，pretend to do sth的用法。<br>4．（2023七上·上海市月考）",
+        "content_hash": "f045a214b29b0aabc9d8defa92f429d6",
+        "source": "上海市上外附中2023-2024学年七年级上学期英语第一学期阶段",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "表示目前存在的状态、性质或经常发生的动作或习惯;主谓一致;动词不定式;现在进行时",
+        "year": 2024
+      }
+    },
+    {
+      "id": "TZ32895652",
+      "source": "题庄真题 · 上海市上外附中2023-2024学年七年级上学期英语第一学期阶段",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "词汇辨析",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词汇辨析",
+      "grammar_point": "固定搭配",
+      "mode": "single",
+      "stem": "（2023七上·上海市月考） Sometimes he spends his free time on soccer, but ____ he likes to stay at home reading.",
+      "passage": "【题干原文】\n（2023七上·上海市月考） Sometimes he spends his free time on soccer, but ____ he likes to stay at home reading.\n\n【考点】固定搭配\n【出处】上海市上外附中2023-2024学年七年级上学期英语第一学期阶段 · 2024 · 题庄题号 32895652",
+      "options": [
+        {
+          "key": "A",
+          "text": "in another time",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "other times",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "at other times",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "at other time",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：有时他把业余时间花在足球上，但是在其他时间他喜欢待在家里读书。at other time，固定搭配，在其他时间，其它的是错误形式，故选D 。\n\n【点评】考查固定搭配，注意识记at other time的用法。\n5．（2023七上·上海市月考）"
+        }
+      ],
+      "points": [],
+      "formula_ref": "固定搭配",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】句意：有时他把业余时间花在足球上，但是在其他时间他喜欢待在家里读书。at other time，固定搭配，在其他时间，其它的是错误形式，故选D 。\n\n【点评】考查固定搭配，注意识记at other time的用法。\n5．（2023七上·上海市月考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "0a5891c6358910bb6ce33fdebb4f7914",
+      "raw": {
+        "id": 32895652,
+        "title_html": "（2023七上·上海市月考） Sometimes he spends his free time on soccer, but ____ he likes to stay at home reading. <br>",
+        "options_html": {
+          "A": "in another time  ",
+          "B": "other times",
+          "C": "at other times  ",
+          "D": "at other time"
+        },
+        "answer": "D",
+        "answer_html": "D<br>",
+        "analysis_html": "【分析】句意：有时他把业余时间花在足球上，但是在其他时间他喜欢待在家里读书。at other time，固定搭配，在其他时间，其它的是错误形式，故选D 。<br>\n【点评】考查固定搭配，注意识记at other time的用法。<br>5．（2023七上·上海市月考）",
+        "content_hash": "0a5891c6358910bb6ce33fdebb4f7914",
+        "source": "上海市上外附中2023-2024学年七年级上学期英语第一学期阶段",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "固定搭配",
+        "year": 2024
+      }
+    },
+    {
+      "id": "TZ32895658",
+      "source": "题庄真题 · 上海市上外附中2023-2024学年七年级上学期英语第一学期阶段",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "词汇辨析",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词汇辨析",
+      "grammar_point": "固定搭配",
+      "mode": "single",
+      "stem": "（2023七上·上海市月考） Which of the following is CORRECT?",
+      "passage": "【题干原文】\n（2023七上·上海市月考） Which of the following is CORRECT?\n\n【考点】简单介词;固定搭配\n【出处】上海市上外附中2023-2024学年七年级上学期英语第一学期阶段 · 2024 · 题庄题号 32895658",
+      "options": [
+        {
+          "key": "A",
+          "text": "I think I can make it to the cinema by 7:00.",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "Let's make it at 7:00. I will see you at the entrance.",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：以下哪个选项是正确的？Amake it at，及时到达，故错误，C7:15为具体时刻，前面应用介词at，故错误，Darrive at/in，到达，固定搭配，故错误，故选B。\n\n【点评】考查固定搭配，介词，注意识记make it at，arrive at/in的用法。\n11．（2023七上·上海市月考）"
+        },
+        {
+          "key": "C",
+          "text": "I can make it at school by 7:15.",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "I can arrive the stdium on time to watch the football match.",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "固定搭配",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：以下哪个选项是正确的？Amake it at，及时到达，故错误，C7:15为具体时刻，前面应用介词at，故错误，Darrive at/in，到达，固定搭配，故错误，故选B。\n\n【点评】考查固定搭配，介词，注意识记make it at，arrive at/in的用法。\n11．（2023七上·上海市月考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "7a8884c59ca2fea7384f4ea142c0cbba",
+      "raw": {
+        "id": 32895658,
+        "title_html": "（2023七上·上海市月考） Which of the following is CORRECT?<br>",
+        "options_html": {
+          "A": "I think I can make it to the cinema by 7:00.",
+          "B": "Let&#x27;s make it at 7:00. I will see you at the entrance.",
+          "C": "I can make it at school by 7:15.",
+          "D": "I can arrive the stdium on time to watch the football match."
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：以下哪个选项是正确的？Amake it at，及时到达，故错误，C7:15为具体时刻，前面应用介词at，故错误，Darrive at/in，到达，固定搭配，故错误，故选B。<br>\n【点评】考查固定搭配，介词，注意识记make it at，arrive at/in的用法。<br>11．（2023七上·上海市月考）",
+        "content_hash": "7a8884c59ca2fea7384f4ea142c0cbba",
+        "source": "上海市上外附中2023-2024学年七年级上学期英语第一学期阶段",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "简单介词;固定搭配",
+        "year": 2024
+      }
+    },
+    {
+      "id": "TZ32895660",
+      "source": "题庄真题 · 上海市上外附中2023-2024学年七年级上学期英语第一学期阶段",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "非谓语动词",
+      "grammar_point": "动名词作主语",
+      "mode": "single",
+      "stem": "（2023七上·上海市月考）—____we meet at 8:30 tomorrow morning?\n\n—What about ____ a little earlier?",
+      "passage": "【题干原文】\n（2023七上·上海市月考）—____we meet at 8:30 tomorrow morning?\n\n—What about ____ a little earlier?\n\n【考点】助动词;动名词\n【出处】上海市上外附中2023-2024学年七年级上学期英语第一学期阶段 · 2024 · 题庄题号 32895660",
+      "options": [
+        {
+          "key": "A",
+          "text": "Will; making",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "Will; to make",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "Shall; making it",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——我们明天早上8：30见面好吗？——提早一点怎么样？空一，shall we，固定搭配，引导一般疑问句，will搭配第二人称，空二，what about doing，固定搭配，做某事怎么样，故用动名词，故选C。\n\n【点评】考查助动词辨析，注意识记shall we，what about doing的用法。\n13．（2023七上·上海市月考）"
+        },
+        {
+          "key": "D",
+          "text": "Shall; to make it",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "动名词作主语",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】句意：——我们明天早上8：30见面好吗？——提早一点怎么样？空一，shall we，固定搭配，引导一般疑问句，will搭配第二人称，空二，what about doing，固定搭配，做某事怎么样，故用动名词，故选C。\n\n【点评】考查助动词辨析，注意识记shall we，what about doing的用法。\n13．（2023七上·上海市月考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "656fffe0065f16e8a6bba961a07f4c1b",
+      "raw": {
+        "id": 32895660,
+        "title_html": "（2023七上·上海市月考）—____we meet at 8:30 tomorrow morning?\n<br>—What about ____ a little earlier?<br>",
+        "options_html": {
+          "A": "Will; making  ",
+          "B": "Will; to make",
+          "C": "Shall; making it  ",
+          "D": "Shall; to make it"
+        },
+        "answer": "C",
+        "answer_html": "C<br>",
+        "analysis_html": "【分析】句意：——我们明天早上8：30见面好吗？——提早一点怎么样？空一，shall we，固定搭配，引导一般疑问句，will搭配第二人称，空二，what about doing，固定搭配，做某事怎么样，故用动名词，故选C。<br>\n【点评】考查助动词辨析，注意识记shall we，what about doing的用法。<br>13．（2023七上·上海市月考）",
+        "content_hash": "656fffe0065f16e8a6bba961a07f4c1b",
+        "source": "上海市上外附中2023-2024学年七年级上学期英语第一学期阶段",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "助动词;动名词",
+        "year": 2024
+      }
+    },
+    {
+      "id": "TZ32895662",
+      "source": "题庄真题 · 上海市上外附中2023-2024学年七年级上学期英语第一学期阶段",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "非谓语动词",
+      "grammar_point": "动名词作主语",
+      "mode": "single",
+      "stem": "（2023七上·上海市月考） The sad mother has spent years ____ her lost child.",
+      "passage": "【题干原文】\n（2023七上·上海市月考） The sad mother has spent years ____ her lost child.\n\n【考点】动名词;固定搭配\n【出处】上海市上外附中2023-2024学年七年级上学期英语第一学期阶段 · 2024 · 题庄题号 32895662",
+      "options": [
+        {
+          "key": "A",
+          "text": "to try to find",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "trying to find",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：这位悲伤的母亲多年来一直在努力寻找她走失的孩子。spend doing sthg，固定搭配，花时间做某事，故用动名词trying，try to do sth表示试着做某事，表示目前没有结果，try doing，试过了，根据sad mother，可知孩子还没找到，故用不定式，故选B。\n\n【点评】考查动名词，不定式，注意识记spend doing sthg，try to do sth的用法。\n15．（2023七上·上海市月考）"
+        },
+        {
+          "key": "C",
+          "text": "to try finding",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "trying finding",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "动名词作主语",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：这位悲伤的母亲多年来一直在努力寻找她走失的孩子。spend doing sthg，固定搭配，花时间做某事，故用动名词trying，try to do sth表示试着做某事，表示目前没有结果，try doing，试过了，根据sad mother，可知孩子还没找到，故用不定式，故选B。\n\n【点评】考查动名词，不定式，注意识记spend doing sthg，try to do sth的用法。\n15．（2023七上·上海市月考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "b34f0333787aaa8812f0b5f6370bfa2f",
+      "raw": {
+        "id": 32895662,
+        "title_html": "（2023七上·上海市月考） The sad mother has spent years ____ her lost child. <br>",
+        "options_html": {
+          "A": "to try to find  ",
+          "B": "trying to find",
+          "C": "to try finding  ",
+          "D": "trying finding"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：这位悲伤的母亲多年来一直在努力寻找她走失的孩子。spend doing sthg，固定搭配，花时间做某事，故用动名词trying，try to do sth表示试着做某事，表示目前没有结果，try doing，试过了，根据sad mother，可知孩子还没找到，故用不定式，故选B。<br>\n【点评】考查动名词，不定式，注意识记spend doing sthg，try to do sth的用法。<br>15．（2023七上·上海市月考）",
+        "content_hash": "b34f0333787aaa8812f0b5f6370bfa2f",
+        "source": "上海市上外附中2023-2024学年七年级上学期英语第一学期阶段",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "动名词;固定搭配",
+        "year": 2024
+      }
+    },
+    {
+      "id": "TZ32895663",
+      "source": "题庄真题 · 上海市上外附中2023-2024学年七年级上学期英语第一学期阶段",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "动词时态",
+      "grammar_point": "现在进行时",
+      "mode": "single",
+      "stem": "（2023七上·上海市月考） The hens ____50 eggs last week,and now they are ____ in the sun.",
+      "passage": "【题干原文】\n（2023七上·上海市月考） The hens ____50 eggs last week,and now they are ____ in the sun.\n\n【考点】一般过去时;现在进行时\n【出处】上海市上外附中2023-2024学年七年级上学期英语第一学期阶段 · 2024 · 题庄题号 32895663",
+      "options": [
+        {
+          "key": "A",
+          "text": "lay; lying",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "laid; lying",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：母鸡上周下了50个蛋，现在它们正躺在阳光下。空一，根据eggs可知，谓语动词应为lay下蛋；last week是一般过去时标志，动词应为过去式laid；空二，根据in the sun，可知是躺着，故用lie，根据now可知，时态为现在进行时，其结构为be doing；lie的现在分词为lying，故选B。\n\n【点评】考查动词辨析，注意识记过去时，现在进行时的用法。\n16．（2023七上·上海市月考）"
+        },
+        {
+          "key": "C",
+          "text": "lay; laying",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "lied; laying",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "现在进行时",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：母鸡上周下了50个蛋，现在它们正躺在阳光下。空一，根据eggs可知，谓语动词应为lay下蛋；last week是一般过去时标志，动词应为过去式laid；空二，根据in the sun，可知是躺着，故用lie，根据now可知，时态为现在进行时，其结构为be doing；lie的现在分词为lying，故选B。\n\n【点评】考查动词辨析，注意识记过去时，现在进行时的用法。\n16．（2023七上·上海市月考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "df3cc5c04a15454f350ed4a4a856c36e",
+      "raw": {
+        "id": 32895663,
+        "title_html": "（2023七上·上海市月考） The hens ____50 eggs last week,and now they are ____ in the sun. <br>",
+        "options_html": {
+          "A": "lay; lying  ",
+          "B": "laid; lying  ",
+          "C": "lay; laying  ",
+          "D": "lied; laying"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：母鸡上周下了50个蛋，现在它们正躺在阳光下。空一，根据eggs可知，谓语动词应为lay下蛋；last week是一般过去时标志，动词应为过去式laid；空二，根据in the sun，可知是躺着，故用lie，根据now可知，时态为现在进行时，其结构为be doing；lie的现在分词为lying，故选B。<br>\n【点评】考查动词辨析，注意识记过去时，现在进行时的用法。<br>16．（2023七上·上海市月考）",
+        "content_hash": "df3cc5c04a15454f350ed4a4a856c36e",
+        "source": "上海市上外附中2023-2024学年七年级上学期英语第一学期阶段",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "一般过去时;现在进行时",
+        "year": 2024
+      }
+    },
+    {
+      "id": "TZ32895665",
+      "source": "题庄真题 · 上海市上外附中2023-2024学年七年级上学期英语第一学期阶段",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "情景交际",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "情景交际",
+      "grammar_point": "情景交际 · 邀请与建议",
+      "mode": "single",
+      "stem": "（2023七上·上海市月考）— ____\n\n—I've got a headache,and I have no appetite for food,Which is wrong?",
+      "passage": "【题干原文】\n（2023七上·上海市月考）— ____\n\n—I've got a headache,and I have no appetite for food,Which is wrong?\n\n【考点】情景交际\n【出处】上海市上外附中2023-2024学年七年级上学期英语第一学期阶段 · 2024 · 题庄题号 32895665",
+      "options": [
+        {
+          "key": "A",
+          "text": "What's wrong with you?",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "What the matter is with you?",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——你怎么了？——我头疼，也没胃口吃东西，哪一个是错的？What the matter is with you的语序错误，应该是what is the matter with you你怎么了，故选B。\n\n【点评】考查语序，注意识记what is the matter with you的用法。\n18．（2023七上·上海市月考）"
+        },
+        {
+          "key": "C",
+          "text": "What's the problem?",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "You look pale,Are you okey?",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "情景交际 · 邀请与建议",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：——你怎么了？——我头疼，也没胃口吃东西，哪一个是错的？What the matter is with you的语序错误，应该是what is the matter with you你怎么了，故选B。\n\n【点评】考查语序，注意识记what is the matter with you的用法。\n18．（2023七上·上海市月考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "9e63510f616bf70ac40316e38b337466",
+      "raw": {
+        "id": 32895665,
+        "title_html": "（2023七上·上海市月考）— ____\n<br>—I&#x27;ve got a headache,and I have no appetite for food,Which is wrong?<br>",
+        "options_html": {
+          "A": "What&#x27;s wrong with you?",
+          "B": "What the matter is with you?",
+          "C": "What&#x27;s the problem?",
+          "D": "You look pale,Are you okey?"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：——你怎么了？——我头疼，也没胃口吃东西，哪一个是错的？What the matter is with you的语序错误，应该是what is the matter with you你怎么了，故选B。<br>\n【点评】考查语序，注意识记what is the matter with you的用法。<br>18．（2023七上·上海市月考）",
+        "content_hash": "9e63510f616bf70ac40316e38b337466",
+        "source": "上海市上外附中2023-2024学年七年级上学期英语第一学期阶段",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "情景交际",
+        "year": 2024
       }
     }
   ]

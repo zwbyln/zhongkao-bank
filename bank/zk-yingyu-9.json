@@ -1,13 +1,13 @@
 {
   "format": "zx-trainer-bank-v1",
   "source": "题庄真题库（tizhuang.qcscience.cc）",
-  "generatedAt": "2026-11-15T01:00:41.884295+00:00",
+  "generatedAt": "2026-11-17T03:47:55.002341+00:00",
   "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。英语题的 grammar_group / grammar_point 由关键词推断（结构类优先于时态类），口语交际与语法填空等主观题不在采集范围内。",
   "stats": {
-    "usable": 16,
-    "skipped": 4,
-    "thisRun": 16,
-    "added": 16
+    "usable": 36,
+    "skipped": 0,
+    "thisRun": 20,
+    "added": 20
   },
   "items": [
     {
@@ -1240,6 +1240,1546 @@
         "is_auto_gradable": true,
         "knowledges": "常用日常交际用语",
         "year": 2016
+      }
+    },
+    {
+      "id": "TZ32664060",
+      "source": "题庄真题 · 云南省昭通市昭阳区2023年英语中考一模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "代词",
+      "mode": "single",
+      "stem": "（1分）（2023·昭阳模拟）—Is there ________ to drink? I feel a little cold.\n—Yes. What about some milk?",
+      "passage": "【题干原文】\n（1分）（2023·昭阳模拟）—Is there ________ to drink? I feel a little cold.\n—Yes. What about some milk?\n\n【考点】不定代词<br/>\n【出处】云南省昭通市昭阳区2023年英语中考一模试卷 · 2023 · 题庄题号 32664060",
+      "options": [
+        {
+          "key": "A",
+          "text": "something hot",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "hot something",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "anything hot",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：—— 有什么热的饮料吗？我感觉有点冷。—— 有。来点牛奶怎么样？根据形容词修饰不定代词要后置，排除B和D。something hot\"热的东西\"，一般修饰肯定句，和含有情态动词的一般疑问句中，表示特殊语气；anything hot\"热的东西\"，一般用于否定句和疑问句中。此句是疑问句，只是询问\"有没有热的喝的东西\"，用anything hot。故选：C。\n【点评】考查不定代词。注意形容词修饰不定代词的用法，明确句意。\n8．（1分）（2023·昭阳模拟）"
+        },
+        {
+          "key": "D",
+          "text": "hot anything",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "代词",
+      "total_score": 1,
+      "reference_answer": "标答：C\n原题解析：【分析】句意：—— 有什么热的饮料吗？我感觉有点冷。—— 有。来点牛奶怎么样？根据形容词修饰不定代词要后置，排除B和D。something hot\"热的东西\"，一般修饰肯定句，和含有情态动词的一般疑问句中，表示特殊语气；anything hot\"热的东西\"，一般用于否定句和疑问句中。此句是疑问句，只是询问\"有没有热的喝的东西\"，用anything hot。故选：C。\n【点评】考查不定代词。注意形容词修饰不定代词的用法，明确句意。\n8．（1分）（2023·昭阳模拟）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "0f7eeb50b2a07579ef9f64929af1e285",
+      "raw": {
+        "id": 32664060,
+        "title_html": "（1分）（2023·昭阳模拟）—Is there ________ to drink? I feel a little cold. <br>—Yes. What about some milk? <br>",
+        "options_html": {
+          "A": "something hot  ",
+          "B": "hot something  ",
+          "C": "anything hot  ",
+          "D": "hot anything"
+        },
+        "answer": "C",
+        "answer_html": "C<br>",
+        "analysis_html": "【分析】句意：—— 有什么热的饮料吗？我感觉有点冷。—— 有。来点牛奶怎么样？根据形容词修饰不定代词要后置，排除B和D。something hot&quot;热的东西&quot;，一般修饰肯定句，和含有情态动词的一般疑问句中，表示特殊语气；anything hot&quot;热的东西&quot;，一般用于否定句和疑问句中。此句是疑问句，只是询问&quot;有没有热的喝的东西&quot;，用anything hot。故选：C。 <br>【点评】考查不定代词。注意形容词修饰不定代词的用法，明确句意。<br>8．（1分）（2023·昭阳模拟）",
+        "content_hash": "0f7eeb50b2a07579ef9f64929af1e285",
+        "source": "云南省昭通市昭阳区2023年英语中考一模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "不定代词<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32664061",
+      "source": "题庄真题 · 云南省昭通市昭阳区2023年英语中考一模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "（1分）（2023·昭阳模拟）— Excuse me, where is Mr. Lin?\n— He _______ go to the meeting room, but I'm not sure.",
+      "passage": "【题干原文】\n（1分）（2023·昭阳模拟）— Excuse me, where is Mr. Lin?\n— He _______ go to the meeting room, but I'm not sure.\n\n【考点】情态动词<br/>\n【出处】云南省昭通市昭阳区2023年英语中考一模试卷 · 2023 · 题庄题号 32664061",
+      "options": [
+        {
+          "key": "A",
+          "text": "may",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：—— 对不起，林先生在哪里？—— 他可能会去会议室了，但我不确定。may（有可能但不肯定)也许，可能，表示肯定推测；can可能，会，表示推测时用于否定和疑问句中；would将，会；must(表示很可能或符合逻辑)一定，肯定，只用于肯定句中，语气最肯定。根据\"but I'm not sure\"可知，表示推测，且不敢确定，语气较弱，同时，此句是肯定句，用may。故选：A。\n【点评】考查情态动词。注意情态动词的用法，理解句意。\n9．（1分）（2023·昭阳模拟）"
+        },
+        {
+          "key": "B",
+          "text": "can",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "would",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "must",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 1,
+      "reference_answer": "标答：A\n原题解析：【分析】句意：—— 对不起，林先生在哪里？—— 他可能会去会议室了，但我不确定。may（有可能但不肯定)也许，可能，表示肯定推测；can可能，会，表示推测时用于否定和疑问句中；would将，会；must(表示很可能或符合逻辑)一定，肯定，只用于肯定句中，语气最肯定。根据\"but I'm not sure\"可知，表示推测，且不敢确定，语气较弱，同时，此句是肯定句，用may。故选：A。\n【点评】考查情态动词。注意情态动词的用法，理解句意。\n9．（1分）（2023·昭阳模拟）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "3ad3b736d4c52afd8c61fd9c115d29dd",
+      "raw": {
+        "id": 32664061,
+        "title_html": "（1分）（2023·昭阳模拟）— Excuse me, where is Mr. Lin? <br>— He _______ go to the meeting room, but I&#x27;m not sure. <br>",
+        "options_html": {
+          "A": "may  ",
+          "B": "can  ",
+          "C": "would  ",
+          "D": "must"
+        },
+        "answer": "A",
+        "answer_html": "A<br>",
+        "analysis_html": "【分析】句意：—— 对不起，林先生在哪里？—— 他可能会去会议室了，但我不确定。may（有可能但不肯定)也许，可能，表示肯定推测；can可能，会，表示推测时用于否定和疑问句中；would将，会；must(表示很可能或符合逻辑)一定，肯定，只用于肯定句中，语气最肯定。根据&quot;but I&#x27;m not sure&quot;可知，表示推测，且不敢确定，语气较弱，同时，此句是肯定句，用may。故选：A。 <br>【点评】考查情态动词。注意情态动词的用法，理解句意。<br>9．（1分）（2023·昭阳模拟）",
+        "content_hash": "3ad3b736d4c52afd8c61fd9c115d29dd",
+        "source": "云南省昭通市昭阳区2023年英语中考一模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "情态动词<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32664259",
+      "source": "题庄真题 · 内蒙古呼和浩特市2023年英语中考一模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "代词",
+      "mode": "single",
+      "stem": "（1分）（2023·呼和浩特模拟）How time flies!My little son can dress without the help of others now.",
+      "passage": "【题干原文】\n（1分）（2023·呼和浩特模拟）How time flies!My little son can dress without the help of others now.\n\n【考点】代词辨析<br/>\n【出处】内蒙古呼和浩特市2023年英语中考一模试卷 · 2023 · 题庄题号 32664259",
+      "options": [
+        {
+          "key": "A",
+          "text": "he",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "him",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "himself",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：时光飞逝！我的小儿子现在不用别人帮忙就能自己穿衣服了。A.他，主格，做主语；B.他，宾格，做宾语；C.他自己，反身代词；D.他的，形容词修饰名词，修饰名词。dress oneself某人自己穿衣服，固定搭配，主语是son，所以用反身代词himself，故选C。\n\n【点评】考查代词辨析，首先识记代词区别，然后识记固定搭配dress oneself，根据主语确定反身代词。\n2．（1分）（2023·呼和浩特模拟）"
+        },
+        {
+          "key": "D",
+          "text": "his",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "代词",
+      "total_score": 1,
+      "reference_answer": "标答：C\n原题解析：【分析】句意：时光飞逝！我的小儿子现在不用别人帮忙就能自己穿衣服了。A.他，主格，做主语；B.他，宾格，做宾语；C.他自己，反身代词；D.他的，形容词修饰名词，修饰名词。dress oneself某人自己穿衣服，固定搭配，主语是son，所以用反身代词himself，故选C。\n\n【点评】考查代词辨析，首先识记代词区别，然后识记固定搭配dress oneself，根据主语确定反身代词。\n2．（1分）（2023·呼和浩特模拟）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "af1ea464f94cc3ff6d71e6d09ffac3f0",
+      "raw": {
+        "id": 32664259,
+        "title_html": "（1分）（2023·呼和浩特模拟）How time flies!My little son can dress<u>      </u>without the help of others now. <br>",
+        "options_html": {
+          "A": "he  ",
+          "B": "him  ",
+          "C": "himself  ",
+          "D": "his"
+        },
+        "answer": "C",
+        "answer_html": "C<br>",
+        "analysis_html": "【分析】句意：时光飞逝！我的小儿子现在不用别人帮忙就能自己穿衣服了。A.他，主格，做主语；B.他，宾格，做宾语；C.他自己，反身代词；D.他的，形容词修饰名词，修饰名词。dress oneself某人自己穿衣服，固定搭配，主语是son，所以用反身代词himself，故选C。\n<br>【点评】考查代词辨析，首先识记代词区别，然后识记固定搭配dress oneself，根据主语确定反身代词。<br>2．（1分）（2023·呼和浩特模拟）",
+        "content_hash": "af1ea464f94cc3ff6d71e6d09ffac3f0",
+        "source": "内蒙古呼和浩特市2023年英语中考一模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "代词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32664263",
+      "source": "题庄真题 · 内蒙古呼和浩特市2023年英语中考一模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "（1分）（2023·呼和浩特模拟）—Look at the sign, Ben. It says kids under 1. 5 m ________ swim in the pool.\n—What a pity!I hope I can grow taller soon.",
+      "passage": "【题干原文】\n（1分）（2023·呼和浩特模拟）—Look at the sign, Ben. It says kids under 1. 5 m ________ swim in the pool.\n—What a pity!I hope I can grow taller soon.\n\n【考点】情态动词<br/>\n【出处】内蒙古呼和浩特市2023年英语中考一模试卷 · 2023 · 题庄题号 32664263",
+      "options": [
+        {
+          "key": "A",
+          "text": "may not",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "must not",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——看这个标志，本。上面写着1.5米以下的孩子不能在游泳池里游泳。——真遗憾！我希望我能尽快长高。A.可能不；B.禁止；C.不需要；D.将不。根据What a pity!I hope I can grow taller soon.真遗憾！我希望我能尽快长高，可知讲的是1.5米以下的孩子禁止在游泳池里游泳，故选B。\n\n【点评】考查情态动词，首先理解选项区别，然后根据关键词句What a pity!I hope I can grow taller soon.确定情态动词。\n6．（1分）（2023·呼和浩特模拟）"
+        },
+        {
+          "key": "C",
+          "text": "need not",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "would not",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 1,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：——看这个标志，本。上面写着1.5米以下的孩子不能在游泳池里游泳。——真遗憾！我希望我能尽快长高。A.可能不；B.禁止；C.不需要；D.将不。根据What a pity!I hope I can grow taller soon.真遗憾！我希望我能尽快长高，可知讲的是1.5米以下的孩子禁止在游泳池里游泳，故选B。\n\n【点评】考查情态动词，首先理解选项区别，然后根据关键词句What a pity!I hope I can grow taller soon.确定情态动词。\n6．（1分）（2023·呼和浩特模拟）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "e278a38dfec536c988da66b9d9c049e1",
+      "raw": {
+        "id": 32664263,
+        "title_html": "（1分）（2023·呼和浩特模拟）—Look at the sign, Ben. It says kids under 1. 5 m ________ swim in the pool. <br>—What a pity!I hope I can grow taller soon. <br>",
+        "options_html": {
+          "A": "may not  ",
+          "B": "must not  ",
+          "C": "need not  ",
+          "D": "would not"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：——看这个标志，本。上面写着1.5米以下的孩子不能在游泳池里游泳。——真遗憾！我希望我能尽快长高。A.可能不；B.禁止；C.不需要；D.将不。根据What a pity!I hope I can grow taller soon.真遗憾！我希望我能尽快长高，可知讲的是1.5米以下的孩子禁止在游泳池里游泳，故选B。\n<br>【点评】考查情态动词，首先理解选项区别，然后根据关键词句What a pity!I hope I can grow taller soon.确定情态动词。<br>6．（1分）（2023·呼和浩特模拟）",
+        "content_hash": "e278a38dfec536c988da66b9d9c049e1",
+        "source": "内蒙古呼和浩特市2023年英语中考一模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "情态动词<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32664265",
+      "source": "题庄真题 · 内蒙古呼和浩特市2023年英语中考一模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "被动语态",
+      "grammar_point": "被动语态",
+      "mode": "single",
+      "stem": "（1分）（2023·呼和浩特模拟）—Can I go out to play badminton, Mom？\n\n—Look, your bedroom is in a mess. You can't go out until it .",
+      "passage": "【题干原文】\n（1分）（2023·呼和浩特模拟）—Can I go out to play badminton, Mom？\n\n—Look, your bedroom is in a mess. You can't go out until it .\n\n【考点】一般现在时的被动语态<br/>\n【出处】内蒙古呼和浩特市2023年英语中考一模试卷 · 2023 · 题庄题号 32664265",
+      "options": [
+        {
+          "key": "A",
+          "text": "cleaned",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "is cleaned",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——妈妈，我可以出去打羽毛球吗？——看，你的卧室一团糟。在打扫干净之前你不能出去。A.打扫，一般过去时；B.被打扫，一般现在时的被动语态；C.已经打扫，现在完成时的被动语态；D.将被打扫。主语it是动作clean的承受者，所以用被动语态，排除A、C，until所在句子用一般现在时，所以用一般现在时的被动语态，结构是be+动词过去分词，主语是单数it，所以be动词用is，clean的过去分词是cleaned，故选B。\n\n【点评】考查一般现在时的被动语态，首先理解选项区别，然后根据主语和谓语关系确定语态。\n8．（1分）（2023·呼和浩特模拟）"
+        },
+        {
+          "key": "C",
+          "text": "has cleaned",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "will be cleaned",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "被动语态",
+      "total_score": 1,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：——妈妈，我可以出去打羽毛球吗？——看，你的卧室一团糟。在打扫干净之前你不能出去。A.打扫，一般过去时；B.被打扫，一般现在时的被动语态；C.已经打扫，现在完成时的被动语态；D.将被打扫。主语it是动作clean的承受者，所以用被动语态，排除A、C，until所在句子用一般现在时，所以用一般现在时的被动语态，结构是be+动词过去分词，主语是单数it，所以be动词用is，clean的过去分词是cleaned，故选B。\n\n【点评】考查一般现在时的被动语态，首先理解选项区别，然后根据主语和谓语关系确定语态。\n8．（1分）（2023·呼和浩特模拟）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "fc821b69086084950798fcf090b8fb91",
+      "raw": {
+        "id": 32664265,
+        "title_html": "（1分）（2023·呼和浩特模拟）—Can I go out to play badminton, Mom？\n<br>—Look, your bedroom is in a mess.  You can&#x27;t go out until it<u>              </u>.<br>",
+        "options_html": {
+          "A": "cleaned  ",
+          "B": "is cleaned",
+          "C": "has cleaned  ",
+          "D": "will be cleaned"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：——妈妈，我可以出去打羽毛球吗？——看，你的卧室一团糟。在打扫干净之前你不能出去。A.打扫，一般过去时；B.被打扫，一般现在时的被动语态；C.已经打扫，现在完成时的被动语态；D.将被打扫。主语it是动作clean的承受者，所以用被动语态，排除A、C，until所在句子用一般现在时，所以用一般现在时的被动语态，结构是be+动词过去分词，主语是单数it，所以be动词用is，clean的过去分词是cleaned，故选B。\n<br>【点评】考查一般现在时的被动语态，首先理解选项区别，然后根据主语和谓语关系确定语态。<br>8．（1分）（2023·呼和浩特模拟）",
+        "content_hash": "fc821b69086084950798fcf090b8fb91",
+        "source": "内蒙古呼和浩特市2023年英语中考一模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "一般现在时的被动语态<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32664269",
+      "source": "题庄真题 · 内蒙古呼和浩特市2023年英语中考一模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "连词",
+      "mode": "single",
+      "stem": "（1分）（2023·呼和浩特模拟）—Why do people like classical music？I don't like it at all.\n— it is not your style, that doesn't mean it is bad.",
+      "passage": "【题干原文】\n（1分）（2023·呼和浩特模拟）—Why do people like classical music？I don't like it at all.\n— it is not your style, that doesn't mean it is bad.\n\n【考点】连词辨析<br/>\n【出处】内蒙古呼和浩特市2023年英语中考一模试卷 · 2023 · 题庄题号 32664269",
+      "options": [
+        {
+          "key": "A",
+          "text": "Unless",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "If",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "Even though",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——为什么人们喜欢古典音乐我一点也不喜欢。——虽然这不是你的风格，但这并不意味着它不好。A.除非.....否则.....；B.如果；C.尽管；D.只要。it is not your style这不是你的风格，that doesn't mean it is bad这并不意味着它不好，可知前后句表示让步，所以用even though，即虽然这不是你的风格，但这并不意味着它不好，故选C。\n\n【点评】考查连词辨析，首先理解连词词义，然后根据前后句句意确定连词。\n12．（1分）（2023·呼和浩特模拟）"
+        },
+        {
+          "key": "D",
+          "text": "As long as",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "连词",
+      "total_score": 1,
+      "reference_answer": "标答：C\n原题解析：【分析】句意：——为什么人们喜欢古典音乐我一点也不喜欢。——虽然这不是你的风格，但这并不意味着它不好。A.除非.....否则.....；B.如果；C.尽管；D.只要。it is not your style这不是你的风格，that doesn't mean it is bad这并不意味着它不好，可知前后句表示让步，所以用even though，即虽然这不是你的风格，但这并不意味着它不好，故选C。\n\n【点评】考查连词辨析，首先理解连词词义，然后根据前后句句意确定连词。\n12．（1分）（2023·呼和浩特模拟）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "9fc3c58144ed9b4f9afb2cda7b31d9eb",
+      "raw": {
+        "id": 32664269,
+        "title_html": "（1分）（2023·呼和浩特模拟）—Why do people like classical music？I don&#x27;t like it at all. <br>—<u>         </u>it is not your style, that doesn&#x27;t mean it is bad. <br>",
+        "options_html": {
+          "A": "Unless  ",
+          "B": "If  ",
+          "C": "Even though  ",
+          "D": "As long as"
+        },
+        "answer": "C",
+        "answer_html": "C<br>",
+        "analysis_html": "【分析】句意：——为什么人们喜欢古典音乐我一点也不喜欢。——虽然这不是你的风格，但这并不意味着它不好。A.除非.....否则.....；B.如果；C.尽管；D.只要。it is not your style这不是你的风格，that doesn&#x27;t mean it is bad这并不意味着它不好，可知前后句表示让步，所以用even though，即虽然这不是你的风格，但这并不意味着它不好，故选C。\n<br>【点评】考查连词辨析，首先理解连词词义，然后根据前后句句意确定连词。<br>12．（1分）（2023·呼和浩特模拟）",
+        "content_hash": "9fc3c58144ed9b4f9afb2cda7b31d9eb",
+        "source": "内蒙古呼和浩特市2023年英语中考一模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "连词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32664270",
+      "source": "题庄真题 · 内蒙古呼和浩特市2023年英语中考一模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "从句",
+      "grammar_point": "定语从句",
+      "mode": "single",
+      "stem": "（1分）（2023·呼和浩特模拟）Dazhao Temple____ is known as the oldest building and the largest temple in Huhhot interests more and more tourists.",
+      "passage": "【题干原文】\n（1分）（2023·呼和浩特模拟）Dazhao Temple____ is known as the oldest building and the largest temple in Huhhot interests more and more tourists.\n\n【考点】定语从句<br/>\n【出处】内蒙古呼和浩特市2023年英语中考一模试卷 · 2023 · 题庄题号 32664270",
+      "options": [
+        {
+          "key": "A",
+          "text": "where",
+          "is_correct": false,
+          "trap_type": "关系词误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "which",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：大昭寺被誉为呼和浩特市最古老、规模最大的寺庙，吸引着越来越多的游客。定语从句先行词指的是物，关系词用which；先行词指的是地点，关系词用where；先行词指的是人，并且做主语，关系词用who，做宾语，关系词用who。先行词是Dazhao Temple是物，所以用which，故选B。\n\n【点评】考查定语从句，首先理解先行词区别，然后根据先行词确定关系词。\n13．（1分）（2023·呼和浩特模拟）"
+        },
+        {
+          "key": "C",
+          "text": "who",
+          "is_correct": false,
+          "trap_type": "关系词误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "whom",
+          "is_correct": false,
+          "trap_type": "关系词误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "定语从句",
+      "total_score": 1,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：大昭寺被誉为呼和浩特市最古老、规模最大的寺庙，吸引着越来越多的游客。定语从句先行词指的是物，关系词用which；先行词指的是地点，关系词用where；先行词指的是人，并且做主语，关系词用who，做宾语，关系词用who。先行词是Dazhao Temple是物，所以用which，故选B。\n\n【点评】考查定语从句，首先理解先行词区别，然后根据先行词确定关系词。\n13．（1分）（2023·呼和浩特模拟）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "73b23aa905344220acbad1fce29fdeb4",
+      "raw": {
+        "id": 32664270,
+        "title_html": "（1分）（2023·呼和浩特模拟）Dazhao Temple____ is known as the oldest building and the largest temple in Huhhot interests more and more tourists. <br>",
+        "options_html": {
+          "A": "where  ",
+          "B": "which  ",
+          "C": "who  ",
+          "D": "whom"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：大昭寺被誉为呼和浩特市最古老、规模最大的寺庙，吸引着越来越多的游客。定语从句先行词指的是物，关系词用which；先行词指的是地点，关系词用where；先行词指的是人，并且做主语，关系词用who，做宾语，关系词用who。先行词是Dazhao Temple是物，所以用which，故选B。\n<br>【点评】考查定语从句，首先理解先行词区别，然后根据先行词确定关系词。<br>13．（1分）（2023·呼和浩特模拟）",
+        "content_hash": "73b23aa905344220acbad1fce29fdeb4",
+        "source": "内蒙古呼和浩特市2023年英语中考一模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "定语从句<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32664272",
+      "source": "题庄真题 · 内蒙古呼和浩特市2023年英语中考一模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "代词",
+      "mode": "single",
+      "stem": "（1分）（2023·呼和浩特模拟）—_______ is more important than peace and development for a country.\n\n—Yes, I agree with you.",
+      "passage": "【题干原文】\n（1分）（2023·呼和浩特模拟）—_______ is more important than peace and development for a country.\n\n—Yes, I agree with you.\n\n【考点】代词辨析<br/>\n【出处】内蒙古呼和浩特市2023年英语中考一模试卷 · 2023 · 题庄题号 32664272",
+      "options": [
+        {
+          "key": "A",
+          "text": "Everything",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "Something",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "Anything",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "Nothing",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——对一个国家来说，没有什么比和平与发展更重要了。——是的，我同意你的看法。A.一切；B.有些事情；C.任何事情；D.没有事情。根据is more important than peace and development for a country比和平与发展更重要，结合选项可知讲的是没有什么比和平与发展更重要，故选D。\n\n【点评】考查代词辨析，首先理解代词词义，然后根据句意确定代词。\n15．（1分）（2023·呼和浩特模拟）"
+        }
+      ],
+      "points": [],
+      "formula_ref": "代词",
+      "total_score": 1,
+      "reference_answer": "标答：D\n原题解析：【分析】句意：——对一个国家来说，没有什么比和平与发展更重要了。——是的，我同意你的看法。A.一切；B.有些事情；C.任何事情；D.没有事情。根据is more important than peace and development for a country比和平与发展更重要，结合选项可知讲的是没有什么比和平与发展更重要，故选D。\n\n【点评】考查代词辨析，首先理解代词词义，然后根据句意确定代词。\n15．（1分）（2023·呼和浩特模拟）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "8fc07c6c2d58c2e2c9537ead772fcad2",
+      "raw": {
+        "id": 32664272,
+        "title_html": "（1分）（2023·呼和浩特模拟）—_______ is more important than peace and development for a country.\n<br>—Yes, I agree with you.<br>",
+        "options_html": {
+          "A": "Everything  ",
+          "B": "Something  ",
+          "C": "Anything  ",
+          "D": "Nothing"
+        },
+        "answer": "D",
+        "answer_html": "D<br>",
+        "analysis_html": "【分析】句意：——对一个国家来说，没有什么比和平与发展更重要了。——是的，我同意你的看法。A.一切；B.有些事情；C.任何事情；D.没有事情。根据is more important than peace and development for a country比和平与发展更重要，结合选项可知讲的是没有什么比和平与发展更重要，故选D。\n<br>【点评】考查代词辨析，首先理解代词词义，然后根据句意确定代词。<br>15．（1分）（2023·呼和浩特模拟）",
+        "content_hash": "8fc07c6c2d58c2e2c9537ead772fcad2",
+        "source": "内蒙古呼和浩特市2023年英语中考一模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "代词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32664273",
+      "source": "题庄真题 · 内蒙古呼和浩特市2023年英语中考一模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "情景交际",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "情景交际",
+      "grammar_point": "情景交际 · 邀请与建议",
+      "mode": "single",
+      "stem": "（1分）（2023·呼和浩特模拟）—China won another Badminton Asian Mixed Team Championship on February 19th!\n— . I'm so proud of the Chinese Badminton Team.",
+      "passage": "【题干原文】\n（1分）（2023·呼和浩特模拟）—China won another Badminton Asian Mixed Team Championship on February 19th!\n— . I'm so proud of the Chinese Badminton Team.\n\n【考点】情景交际<br/>\n【出处】内蒙古呼和浩特市2023年英语中考一模试卷 · 2023 · 题庄题号 32664273",
+      "options": [
+        {
+          "key": "A",
+          "text": "My pleasure!",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "Take it easy!",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "That's amazing!",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——2月19日，中国再次赢得羽毛球亚洲混合团体锦标赛冠军！——太神奇了。我为中国羽毛球队感到骄傲。A.不客气；B.慢慢来；C.太神奇了；D.玩得高兴。China won another Badminton Asian Mixed Team Championship on February 19th2月19日，中国再次赢得羽毛球亚洲混合团体锦标赛冠军，可知是太神奇了，故选C。\n\n【点评】考查情景交际，首先理解选项意思，然后根据关键词句China won another Badminton Asian Mixed Team Championship on February 19th确定答语。"
+        },
+        {
+          "key": "D",
+          "text": "Have a nice day!",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "情景交际 · 邀请与建议",
+      "total_score": 1,
+      "reference_answer": "标答：C\n原题解析：【分析】句意：——2月19日，中国再次赢得羽毛球亚洲混合团体锦标赛冠军！——太神奇了。我为中国羽毛球队感到骄傲。A.不客气；B.慢慢来；C.太神奇了；D.玩得高兴。China won another Badminton Asian Mixed Team Championship on February 19th2月19日，中国再次赢得羽毛球亚洲混合团体锦标赛冠军，可知是太神奇了，故选C。\n\n【点评】考查情景交际，首先理解选项意思，然后根据关键词句China won another Badminton Asian Mixed Team Championship on February 19th确定答语。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "29aa5298711cb01592f00e6bd2a41588",
+      "raw": {
+        "id": 32664273,
+        "title_html": "（1分）（2023·呼和浩特模拟）—China won another Badminton Asian Mixed Team Championship on February 19th! <br>—<u>            </u>. I&#x27;m so proud of the Chinese Badminton Team. <br>",
+        "options_html": {
+          "A": "My pleasure!  ",
+          "B": "Take it easy!",
+          "C": "That&#x27;s amazing!  ",
+          "D": "Have a nice day!"
+        },
+        "answer": "C",
+        "answer_html": "C<br>",
+        "analysis_html": "【分析】句意：——2月19日，中国再次赢得羽毛球亚洲混合团体锦标赛冠军！——太神奇了。我为中国羽毛球队感到骄傲。A.不客气；B.慢慢来；C.太神奇了；D.玩得高兴。China won another Badminton Asian Mixed Team Championship on February 19th2月19日，中国再次赢得羽毛球亚洲混合团体锦标赛冠军，可知是太神奇了，故选C。\n<br>【点评】考查情景交际，首先理解选项意思，然后根据关键词句China won another Badminton Asian Mixed Team Championship on February 19th确定答语。<br>",
+        "content_hash": "29aa5298711cb01592f00e6bd2a41588",
+        "source": "内蒙古呼和浩特市2023年英语中考一模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "情景交际<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32665661",
+      "source": "题庄真题 · 四川省泸州市2023年中考英语真题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "情景交际",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "非谓语动词",
+      "grammar_point": "不定式表目的",
+      "mode": "single",
+      "stem": "（1分）（2023·泸州） — Do you want to watch the basketball game in the park?\n— ____, but I have to do the chores first.",
+      "passage": "【题干原文】\n（1分）（2023·泸州） — Do you want to watch the basketball game in the park?\n— ____, but I have to do the chores first.\n\n【考点】情景交际<br/>\n【出处】四川省泸州市2023年中考英语真题 · 2023 · 题庄题号 32665661",
+      "options": [
+        {
+          "key": "A",
+          "text": "I'm afraid not",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "I'd love to",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——你想在公园里看篮球赛吗?——我很乐意，但我必须先做家务。I'm afraid not恐怕不是；I'd love to我愿意；Never mind别介意；of course not当然不。根据\"but I have to do the chores first\"可知，此处是表示肯定的意愿我很乐意\"，但是要先做家务。故选：B。\n【点评】考查情景交际，明确选项含义，了解句意，根据情境做出选择。\n2．（1分）（2023·泸州）"
+        },
+        {
+          "key": "C",
+          "text": "Never mind",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "Of course not",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "不定式表目的",
+      "total_score": 1,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：——你想在公园里看篮球赛吗?——我很乐意，但我必须先做家务。I'm afraid not恐怕不是；I'd love to我愿意；Never mind别介意；of course not当然不。根据\"but I have to do the chores first\"可知，此处是表示肯定的意愿我很乐意\"，但是要先做家务。故选：B。\n【点评】考查情景交际，明确选项含义，了解句意，根据情境做出选择。\n2．（1分）（2023·泸州）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "b000e949aab2a324a8dec8821b4697de",
+      "raw": {
+        "id": 32665661,
+        "title_html": "（1分）（2023·泸州） — Do you want to watch the basketball game in the park?<br>— ____, but I have to do the chores first.<br>",
+        "options_html": {
+          "A": "I&#x27;m afraid not  ",
+          "B": "I&#x27;d love to",
+          "C": "Never mind  ",
+          "D": "Of course not"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：——你想在公园里看篮球赛吗?——我很乐意，但我必须先做家务。I&#x27;m afraid not恐怕不是；I&#x27;d love to我愿意；Never mind别介意；of course not当然不。根据&quot;but I have to do the chores first&quot;可知，此处是表示肯定的意愿我很乐意&quot;，但是要先做家务。故选：B。<br> 【点评】考查情景交际，明确选项含义，了解句意，根据情境做出选择。<br>2．（1分）（2023·泸州）",
+        "content_hash": "b000e949aab2a324a8dec8821b4697de",
+        "source": "四川省泸州市2023年中考英语真题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "情景交际<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32665662",
+      "source": "题庄真题 · 四川省泸州市2023年中考英语真题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "动词时态",
+      "grammar_point": "一般过去时",
+      "mode": "single",
+      "stem": "（1分）（2023·泸州） — Which teacher will you miss the most after graduation?\n— Mrs. Chen. She encouraged me a lot when I ____ the English exam.",
+      "passage": "【题干原文】\n（1分）（2023·泸州） — Which teacher will you miss the most after graduation?\n— Mrs. Chen. She encouraged me a lot when I ____ the English exam.\n\n【考点】一般过去时<br/>\n【出处】四川省泸州市2023年中考英语真题 · 2023 · 题庄题号 32665662",
+      "options": [
+        {
+          "key": "A",
+          "text": "fail",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "was failing",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "failed",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——毕业后你最想念哪位老师?——陈老师。当我英语考试不及格时，她给了我很多鼓励。根据She encouraged me a lot when l……the English exam可知，主句和从句的动作先后发生，主句和从句都用一般过去时，动词为过去式。故选：C。\n\n【点评】考查动词时态。明确时态，注意识记fail过去式结构。\n3．（1分）（2023·泸州）"
+        },
+        {
+          "key": "D",
+          "text": "have failed",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "一般过去时",
+      "total_score": 1,
+      "reference_answer": "标答：C\n原题解析：【分析】句意：——毕业后你最想念哪位老师?——陈老师。当我英语考试不及格时，她给了我很多鼓励。根据She encouraged me a lot when l……the English exam可知，主句和从句的动作先后发生，主句和从句都用一般过去时，动词为过去式。故选：C。\n\n【点评】考查动词时态。明确时态，注意识记fail过去式结构。\n3．（1分）（2023·泸州）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "b416f6c6fd191b186565f65e3b57682b",
+      "raw": {
+        "id": 32665662,
+        "title_html": "（1分）（2023·泸州） — Which teacher will you miss the most after graduation?<br>— Mrs. Chen. She encouraged me a lot when I ____ the English exam.<br>",
+        "options_html": {
+          "A": "fail  ",
+          "B": "was failing  ",
+          "C": "failed  ",
+          "D": "have failed"
+        },
+        "answer": "C",
+        "answer_html": "C<br>",
+        "analysis_html": "【分析】句意：——毕业后你最想念哪位老师?——陈老师。当我英语考试不及格时，她给了我很多鼓励。根据She encouraged me a lot when l……the English exam可知，主句和从句的动作先后发生，主句和从句都用一般过去时，动词为过去式。故选：C。<br>\n【点评】考查动词时态。明确时态，注意识记fail过去式结构。<br>3．（1分）（2023·泸州）",
+        "content_hash": "b416f6c6fd191b186565f65e3b57682b",
+        "source": "四川省泸州市2023年中考英语真题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "一般过去时<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32665664",
+      "source": "题庄真题 · 四川省泸州市2023年中考英语真题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "代词",
+      "mode": "single",
+      "stem": "（1分）（2023·泸州） — There are two books about Chinese traditional tea-making culture.\n— You're free to take ____ of them and leave one for me.",
+      "passage": "【题干原文】\n（1分）（2023·泸州） — There are two books about Chinese traditional tea-making culture.\n— You're free to take ____ of them and leave one for me.\n\n【考点】代词辨析<br/>\n【出处】四川省泸州市2023年中考英语真题 · 2023 · 题庄题号 32665664",
+      "options": [
+        {
+          "key": "A",
+          "text": "all",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "either",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——有两本关于中国传统制茶文化的书。——你可以随意拿走其中任何一本，给我留一本。all所有；either两者之中任意一个；nether两者都不；none没有一个。根据\"There are two books\"和\"leave one for me.\"可知，要留下一本，即可以拿走两本书中任意一本，either符合题意。故选：B。\n【点评】考查代词辨析。明确句意，注意识记 either 的用法。\n5．（1分）（2023·泸州）"
+        },
+        {
+          "key": "C",
+          "text": "neither",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "none",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "代词",
+      "total_score": 1,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：——有两本关于中国传统制茶文化的书。——你可以随意拿走其中任何一本，给我留一本。all所有；either两者之中任意一个；nether两者都不；none没有一个。根据\"There are two books\"和\"leave one for me.\"可知，要留下一本，即可以拿走两本书中任意一本，either符合题意。故选：B。\n【点评】考查代词辨析。明确句意，注意识记 either 的用法。\n5．（1分）（2023·泸州）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "cec4c5326bad9aded27eefa4608a6f8d",
+      "raw": {
+        "id": 32665664,
+        "title_html": "（1分）（2023·泸州） — There are two books about Chinese traditional tea-making culture.<br>— You&#x27;re free to take ____ of them and leave one for me.<br>",
+        "options_html": {
+          "A": "all  ",
+          "B": "either  ",
+          "C": "neither  ",
+          "D": "none"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：——有两本关于中国传统制茶文化的书。——你可以随意拿走其中任何一本，给我留一本。all所有；either两者之中任意一个；nether两者都不；none没有一个。根据&quot;There are two books&quot;和&quot;leave one for me.&quot;可知，要留下一本，即可以拿走两本书中任意一本，either符合题意。故选：B。<br> 【点评】考查代词辨析。明确句意，注意识记 either 的用法。<br>5．（1分）（2023·泸州）",
+        "content_hash": "cec4c5326bad9aded27eefa4608a6f8d",
+        "source": "四川省泸州市2023年中考英语真题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "代词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32665665",
+      "source": "题庄真题 · 四川省泸州市2023年中考英语真题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "非谓语动词",
+      "grammar_point": "不定式表目的",
+      "mode": "single",
+      "stem": "（1分）（2023·泸州） — What are you going to do this summer vacation?\n— I plan ____ Hua Hua, a nearly 3-year-old lovely panda in Chengdu.",
+      "passage": "【题干原文】\n（1分）（2023·泸州） — What are you going to do this summer vacation?\n— I plan ____ Hua Hua, a nearly 3-year-old lovely panda in Chengdu.\n\n【考点】固定搭配;动词不定式<br/>\n【出处】四川省泸州市2023年中考英语真题 · 2023 · 题庄题号 32665665",
+      "options": [
+        {
+          "key": "A",
+          "text": "see",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "saw",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "seeing",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "to see",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——这个暑假你打算做什么?——我计划去成都看一只将近3岁的可爱熊猫花花。plan to do sth\"计划做某事\"，空格处为动词不定式作宾语。故选：D。\n【点评】考查动词不定式。了解句意，明确固定用法plan to do sth。\n6．（1分）（2023·泸州）"
+        }
+      ],
+      "points": [],
+      "formula_ref": "不定式表目的",
+      "total_score": 1,
+      "reference_answer": "标答：D\n原题解析：【分析】句意：——这个暑假你打算做什么?——我计划去成都看一只将近3岁的可爱熊猫花花。plan to do sth\"计划做某事\"，空格处为动词不定式作宾语。故选：D。\n【点评】考查动词不定式。了解句意，明确固定用法plan to do sth。\n6．（1分）（2023·泸州）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "9a5176b75c639d80417b6c6b9c78439d",
+      "raw": {
+        "id": 32665665,
+        "title_html": "（1分）（2023·泸州） — What are you going to do this summer vacation?<br>— I plan ____ Hua Hua, a nearly 3-year-old lovely panda in Chengdu.<br>",
+        "options_html": {
+          "A": "see  ",
+          "B": "saw  ",
+          "C": "seeing  ",
+          "D": "to see"
+        },
+        "answer": "D",
+        "answer_html": "D<br>",
+        "analysis_html": "【分析】句意：——这个暑假你打算做什么?——我计划去成都看一只将近3岁的可爱熊猫花花。plan to do sth&quot;计划做某事&quot;，空格处为动词不定式作宾语。故选：D。<br> 【点评】考查动词不定式。了解句意，明确固定用法plan to do sth。<br>6．（1分）（2023·泸州）",
+        "content_hash": "9a5176b75c639d80417b6c6b9c78439d",
+        "source": "四川省泸州市2023年中考英语真题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "固定搭配;动词不定式<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32665668",
+      "source": "题庄真题 · 四川省泸州市2023年中考英语真题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "连词",
+      "mode": "single",
+      "stem": "（1分）（2023·泸州） — Mum is too busy to make dinner for us.\n— Let's do it ourselves, ____ we shouldn't depend on our parents too much.",
+      "passage": "【题干原文】\n（1分）（2023·泸州） — Mum is too busy to make dinner for us.\n— Let's do it ourselves, ____ we shouldn't depend on our parents too much.\n\n【考点】表因果关系的连词;连词辨析<br/>\n【出处】四川省泸州市2023年中考英语真题 · 2023 · 题庄题号 32665668",
+      "options": [
+        {
+          "key": "A",
+          "text": "so",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "because",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——妈妈太忙了，没时间给我们做晚饭。——让我们自己做吧，因为我们不应该太依赖父母。so因此；because因为；but但是；or否则。根据\"we shouldn't depend on our parents too much.\"可知，空格前后为前果后因的关系，用because连接。故选：B。\n【点评】考查连词辨析。明确句意，了解空格前后的关系，注意分辨连词的用法。\n9．（1分）（2023·泸州）"
+        },
+        {
+          "key": "C",
+          "text": "but",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "or",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "连词",
+      "total_score": 1,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：——妈妈太忙了，没时间给我们做晚饭。——让我们自己做吧，因为我们不应该太依赖父母。so因此；because因为；but但是；or否则。根据\"we shouldn't depend on our parents too much.\"可知，空格前后为前果后因的关系，用because连接。故选：B。\n【点评】考查连词辨析。明确句意，了解空格前后的关系，注意分辨连词的用法。\n9．（1分）（2023·泸州）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "d0107a3345ed00f52cdb309898983498",
+      "raw": {
+        "id": 32665668,
+        "title_html": "（1分）（2023·泸州） — Mum is too busy to make dinner for us.<br>— Let&#x27;s do it ourselves, ____ we shouldn&#x27;t depend on our parents too much.<br>",
+        "options_html": {
+          "A": "so  ",
+          "B": "because  ",
+          "C": "but  ",
+          "D": "or"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：——妈妈太忙了，没时间给我们做晚饭。——让我们自己做吧，因为我们不应该太依赖父母。so因此；because因为；but但是；or否则。根据&quot;we shouldn&#x27;t depend on our parents too much.&quot;可知，空格前后为前果后因的关系，用because连接。故选：B。<br> 【点评】考查连词辨析。明确句意，了解空格前后的关系，注意分辨连词的用法。<br>9．（1分）（2023·泸州）",
+        "content_hash": "d0107a3345ed00f52cdb309898983498",
+        "source": "四川省泸州市2023年中考英语真题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "表因果关系的连词;连词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32665737",
+      "source": "题庄真题 · 天津市和平区2023年英语中考二模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "代词",
+      "mode": "single",
+      "stem": "（2023·和平模拟）—This dress is too long, please give me ______ one.\n—Sure, madam. Give ______ back to me and try on this one.",
+      "passage": "【题干原文】\n（2023·和平模拟）—This dress is too long, please give me ______ one.\n—Sure, madam. Give ______ back to me and try on this one.\n\n【考点】代词辨析<br/>\n【出处】天津市和平区2023年英语中考二模试卷 · 2023 · 题庄题号 32665737",
+      "options": [
+        {
+          "key": "A",
+          "text": "other; one",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "other; it",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "another; it",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——这件连衣裙太长了，请给我拿另一件。——当然，女士。把它给我，试一试这一件。other其他的，形容词，修饰可数名词复数；another另一个；one泛指同类中的一个；it指代上文提到的事物。根据语境\"This dress is too long\"可知，这位女士请服务员拿另外一件，第一个空用another；第二个空指代的就是上文提到的\"This dress\"，用it代替。故选C。\n【点评】考查代词。注意识记各代词的用法。\n3．（2023·和平模拟）"
+        },
+        {
+          "key": "D",
+          "text": "another; one",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "代词",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】句意：——这件连衣裙太长了，请给我拿另一件。——当然，女士。把它给我，试一试这一件。other其他的，形容词，修饰可数名词复数；another另一个；one泛指同类中的一个；it指代上文提到的事物。根据语境\"This dress is too long\"可知，这位女士请服务员拿另外一件，第一个空用another；第二个空指代的就是上文提到的\"This dress\"，用it代替。故选C。\n【点评】考查代词。注意识记各代词的用法。\n3．（2023·和平模拟）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "910f25431b4d2149061bc56ca15d3fc4",
+      "raw": {
+        "id": 32665737,
+        "title_html": "（2023·和平模拟）—This dress is too long, please give me ______ one. <br>—Sure, madam. Give ______ back to me and try on this one. <br>",
+        "options_html": {
+          "A": "other; one  ",
+          "B": "other; it  ",
+          "C": "another; it  ",
+          "D": "another; one"
+        },
+        "answer": "C",
+        "answer_html": "C<br>",
+        "analysis_html": "【分析】句意：——这件连衣裙太长了，请给我拿另一件。——当然，女士。把它给我，试一试这一件。other其他的，形容词，修饰可数名词复数；another另一个；one泛指同类中的一个；it指代上文提到的事物。根据语境&quot;This dress is too long&quot;可知，这位女士请服务员拿另外一件，第一个空用another；第二个空指代的就是上文提到的&quot;This dress&quot;，用it代替。故选C。<br> 【点评】考查代词。注意识记各代词的用法。<br>3．（2023·和平模拟）",
+        "content_hash": "910f25431b4d2149061bc56ca15d3fc4",
+        "source": "天津市和平区2023年英语中考二模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "代词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32665743",
+      "source": "题庄真题 · 天津市和平区2023年英语中考二模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "动词时态",
+      "grammar_point": "一般过去时",
+      "mode": "single",
+      "stem": "（2023·和平模拟）— Nice to see you. I__________ you for a long time.\n—I__________in Beijing. I' ve just come back.",
+      "passage": "【题干原文】\n（2023·和平模拟）— Nice to see you. I__________ you for a long time.\n—I__________in Beijing. I' ve just come back.\n\n【考点】过去已经完成的动作对现在造成的影响;一般过去时<br/>\n【出处】天津市和平区2023年英语中考二模试卷 · 2023 · 题庄题号 32665743",
+      "options": [
+        {
+          "key": "A",
+          "text": "haven'tseen；am",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "haven'tseen；was",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——很高兴见到你，我已经很长时间没看到你了。——我之前在北京。刚刚回来。haven't seen现在完成时结构；didn't see，was，过去式；won't see，will be将来时结构；am一般现在时。第一空，根据时间状语\"for a long time\"可知，用现在完成时结构；第二空，根据\"I've just come back，我刚刚回来\"可知，之前在北京，用一般过去时，故选B。\n【点评】考查现在完成时和一般过去时。注意识记常见的现在完成时的标志词。\n9．（2023·和平模拟）"
+        },
+        {
+          "key": "C",
+          "text": "didn'tsee；willbe",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "won'tsee；was",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "一般过去时",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：——很高兴见到你，我已经很长时间没看到你了。——我之前在北京。刚刚回来。haven't seen现在完成时结构；didn't see，was，过去式；won't see，will be将来时结构；am一般现在时。第一空，根据时间状语\"for a long time\"可知，用现在完成时结构；第二空，根据\"I've just come back，我刚刚回来\"可知，之前在北京，用一般过去时，故选B。\n【点评】考查现在完成时和一般过去时。注意识记常见的现在完成时的标志词。\n9．（2023·和平模拟）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "2f0465c73fd9e20686fb55e5a51dd16f",
+      "raw": {
+        "id": 32665743,
+        "title_html": "（2023·和平模拟）— Nice to see you. I__________ you for a long time. <br>—I__________in Beijing. I&#x27; ve just come back. <br>",
+        "options_html": {
+          "A": "haven&#x27;tseen；am  ",
+          "B": "haven&#x27;tseen；was",
+          "C": "didn&#x27;tsee；willbe  ",
+          "D": "won&#x27;tsee；was"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：——很高兴见到你，我已经很长时间没看到你了。——我之前在北京。刚刚回来。haven&#x27;t seen现在完成时结构；didn&#x27;t see，was，过去式；won&#x27;t see，will be将来时结构；am一般现在时。第一空，根据时间状语&quot;for a long time&quot;可知，用现在完成时结构；第二空，根据&quot;I&#x27;ve just come back，我刚刚回来&quot;可知，之前在北京，用一般过去时，故选B。 <br>【点评】考查现在完成时和一般过去时。注意识记常见的现在完成时的标志词。<br>9．（2023·和平模拟）",
+        "content_hash": "2f0465c73fd9e20686fb55e5a51dd16f",
+        "source": "天津市和平区2023年英语中考二模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "过去已经完成的动作对现在造成的影响;一般过去时<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32665744",
+      "source": "题庄真题 · 天津市和平区2023年英语中考二模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "（2023·和平模拟）—Excuse me, _____I return this book next week?\n—No, you_____. You can return it by the end of this term.",
+      "passage": "【题干原文】\n（2023·和平模拟）—Excuse me, _____I return this book next week?\n—No, you_____. You can return it by the end of this term.\n\n【考点】情态动词<br/>\n【出处】天津市和平区2023年英语中考二模试卷 · 2023 · 题庄题号 32665744",
+      "options": [
+        {
+          "key": "A",
+          "text": "must；needn't",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——打扰一下，我必须下周归还这本书吗?——不，不需要。你可以在本学期结束前归还。must必须；needn't不需要；can't不能；shouldn't不应该；mustn't禁止。此处是以must开头的一般疑问句，否定回答用needn't或者是No，you don't have to，故选A。\n\n【点评】考查情态动词。注意识记以must开头的一般疑问句的回答。\n10．There _______ a basketball match between Class One and Class Three this afternoon.\nA．is going to be B．will have\nC．are going to be D．is going to have\n【答案】A\n【知识点】肯定陈述句；there be结构\n【解析】【分析】句意:今天下午在一班和三班之间将会有一场篮球比赛。根据句意可知，这里说的是今天下午将会有一场篮球赛，应该用将来时。并且应该用there be 句型表示有，故排除B和D，这两个选项的形式不对。根据空后的a basketball match可知，这里用单数形式。故选A。\n【点评】考查there be 句型。\n11．（2023·和平模拟）"
+        },
+        {
+          "key": "B",
+          "text": "must；can't",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "must；shouldn't",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "must；mustn't",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】句意：——打扰一下，我必须下周归还这本书吗?——不，不需要。你可以在本学期结束前归还。must必须；needn't不需要；can't不能；shouldn't不应该；mustn't禁止。此处是以must开头的一般疑问句，否定回答用needn't或者是No，you don't have to，故选A。\n\n【点评】考查情态动词。注意识记以must开头的一般疑问句的回答。\n10．There _______ a basketball match between Class One and Class Three this afternoon.\nA．is going to be B．will have\nC．are going to be D．is going to have\n【答案】A\n【知识点】肯定陈述句；there be结构\n【解析】【分析】句意:今天下午在一班和三班之间将会有一场篮球比赛。根据句意可知，这里说的是今天下午将会有一场篮球赛，应该用将来时。并且应该用there be 句型表示有，故排除B和D，这两个选项的形式不对。根据空后的a basketball match可知，这里用单数形式。故选A。\n【点评】考查there be 句型。\n11．（2023·和平模拟）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "ba06d4d2ccdaa14f790c890a7cac69b2",
+      "raw": {
+        "id": 32665744,
+        "title_html": "（2023·和平模拟）—Excuse me, _____I return this book next week? <br>—No, you_____. You can return it by the end of this term. <br>",
+        "options_html": {
+          "A": "must；needn&#x27;t  ",
+          "B": "must；can&#x27;t",
+          "C": "must；shouldn&#x27;t  ",
+          "D": "must；mustn&#x27;t"
+        },
+        "answer": "A",
+        "answer_html": "A<br>",
+        "analysis_html": "【分析】句意：——打扰一下，我必须下周归还这本书吗?——不，不需要。你可以在本学期结束前归还。must必须；needn&#x27;t不需要；can&#x27;t不能；shouldn&#x27;t不应该；mustn&#x27;t禁止。此处是以must开头的一般疑问句，否定回答用needn&#x27;t或者是No，you don&#x27;t have to，故选A。\n<br>【点评】考查情态动词。注意识记以must开头的一般疑问句的回答。<br>10．There _______ a basketball match between Class One and Class Three this afternoon.<br>A．is going to be  B．will have<br>C．are going to be  D．is going to have<br>【答案】A<br>【知识点】肯定陈述句；there be结构<br>【解析】【分析】句意:今天下午在一班和三班之间将会有一场篮球比赛。根据句意可知，这里说的是今天下午将会有一场篮球赛，应该用将来时。并且应该用there be 句型表示有，故排除B和D，这两个选项的形式不对。根据空后的a basketball match可知，这里用单数形式。故选A。<br>【点评】考查there be 句型。<br>11．（2023·和平模拟）",
+        "content_hash": "ba06d4d2ccdaa14f790c890a7cac69b2",
+        "source": "天津市和平区2023年英语中考二模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "情态动词<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32665745",
+      "source": "题庄真题 · 天津市和平区2023年英语中考二模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "被动语态",
+      "grammar_point": "被动语态",
+      "mode": "single",
+      "stem": "（2023·和平模拟）Paper first about 2000 years ago in China.",
+      "passage": "【题干原文】\n（2023·和平模拟）Paper first about 2000 years ago in China.\n\n【考点】一般过去时的被动语态<br/>\n【出处】天津市和平区2023年英语中考二模试卷 · 2023 · 题庄题号 32665745",
+      "options": [
+        {
+          "key": "A",
+          "text": "is；creating",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "is；created",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "has；created",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "was；created",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：纸是大约2000年前在中国首次发明的。A.is；creating现在进行时结构；B.is created一般现在时的被动语态；C.has created现在完成时结构；D.was created一般过去时的被动语态。表示两千多年前发生的过去动作，句子用一般过去时态。句子的主语paper是谓语动词create的承受者，句子用被动语态。故选D。\n\n【点评】考查一般过去时的被动语态。注意理解句子主语和谓语动词之间的逻辑关系。\n12．（2023·和平模拟）"
+        }
+      ],
+      "points": [],
+      "formula_ref": "被动语态",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】句意：纸是大约2000年前在中国首次发明的。A.is；creating现在进行时结构；B.is created一般现在时的被动语态；C.has created现在完成时结构；D.was created一般过去时的被动语态。表示两千多年前发生的过去动作，句子用一般过去时态。句子的主语paper是谓语动词create的承受者，句子用被动语态。故选D。\n\n【点评】考查一般过去时的被动语态。注意理解句子主语和谓语动词之间的逻辑关系。\n12．（2023·和平模拟）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "4016a15b2cde22708b03d4ec46fb49cc",
+      "raw": {
+        "id": 32665745,
+        "title_html": "（2023·和平模拟）Paper <u>       </u>first <u>            </u>about 2000 years ago in China.<br>",
+        "options_html": {
+          "A": "is；creating  ",
+          "B": "is；created  ",
+          "C": "has；created  ",
+          "D": "was；created"
+        },
+        "answer": "D",
+        "answer_html": "D<br>",
+        "analysis_html": "【分析】句意：纸是大约2000年前在中国首次发明的。A.is；creating现在进行时结构；B.is created一般现在时的被动语态；C.has created现在完成时结构；D.was created一般过去时的被动语态。表示两千多年前发生的过去动作，句子用一般过去时态。句子的主语paper是谓语动词create的承受者，句子用被动语态。故选D。<br>\n【点评】考查一般过去时的被动语态。注意理解句子主语和谓语动词之间的逻辑关系。<br>12．（2023·和平模拟）",
+        "content_hash": "4016a15b2cde22708b03d4ec46fb49cc",
+        "source": "天津市和平区2023年英语中考二模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "一般过去时的被动语态<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32665763",
+      "source": "题庄真题 · 天津市河东区2023年中考英语一模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "名词与数",
+      "mode": "single",
+      "stem": "（2023·河东模拟）Teahouse has three acts and shows the lives of common people in China from the end of_____ century to the middle of______ century.",
+      "passage": "【题干原文】\n（2023·河东模拟）Teahouse has three acts and shows the lives of common people in China from the end of_____ century to the middle of______ century.\n\n【考点】序数词<br/>\n【出处】天津市河东区2023年中考英语一模试卷 · 2023 · 题庄题号 32665763",
+      "options": [
+        {
+          "key": "A",
+          "text": "the nineteenth, twentieth",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "the nineteenth, the twentieth",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：《茶馆》有三幕，展示了19世纪末到20世纪中叶中国老百姓的生活。century，世纪，其前用序数词，nineteen，19，基数词，twenty20，基数词，nineteenth，第十九，序数词，twentieth，第二十，序数词，序数词前有定冠词the，故选B。\n\n【点评】考查数词，注意识记表示第几世纪用序数词的用法。\n4．（2023·河东模拟）"
+        },
+        {
+          "key": "C",
+          "text": "nineteen, twenty",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "nineteenth, the twentieth",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "名词与数",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：《茶馆》有三幕，展示了19世纪末到20世纪中叶中国老百姓的生活。century，世纪，其前用序数词，nineteen，19，基数词，twenty20，基数词，nineteenth，第十九，序数词，twentieth，第二十，序数词，序数词前有定冠词the，故选B。\n\n【点评】考查数词，注意识记表示第几世纪用序数词的用法。\n4．（2023·河东模拟）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "efa5c6f3e5e828654e3e2b0e3410a78b",
+      "raw": {
+        "id": 32665763,
+        "title_html": "（2023·河东模拟）Teahouse has three acts and shows the lives of common people in China from the end of_____ century to the middle of______ century. <br>",
+        "options_html": {
+          "A": "the nineteenth, twentieth   ",
+          "B": "the nineteenth, the twentieth",
+          "C": "nineteen, twenty    ",
+          "D": "nineteenth, the twentieth"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：《茶馆》有三幕，展示了19世纪末到20世纪中叶中国老百姓的生活。century，世纪，其前用序数词，nineteen，19，基数词，twenty20，基数词，nineteenth，第十九，序数词，twentieth，第二十，序数词，序数词前有定冠词the，故选B。<br>\n【点评】考查数词，注意识记表示第几世纪用序数词的用法。<br>4．（2023·河东模拟）",
+        "content_hash": "efa5c6f3e5e828654e3e2b0e3410a78b",
+        "source": "天津市河东区2023年中考英语一模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "序数词<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32665764",
+      "source": "题庄真题 · 天津市河东区2023年中考英语一模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "形容词与副词",
+      "mode": "single",
+      "stem": "（2023·河东模拟）It's a pity that we lost the match because we were sometimes _____when passing the ball, we practice ________this year.",
+      "passage": "【题干原文】\n（2023·河东模拟）It's a pity that we lost the match because we were sometimes _____when passing the ball, we practice ________this year.\n\n【考点】形容词原级;副词的比较级和最高级<br/>\n【出处】天津市河东区2023年中考英语一模试卷 · 2023 · 题庄题号 32665764",
+      "options": [
+        {
+          "key": "A",
+          "text": "careless, carelessly",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "careless, more carefully",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：很遗憾，我们输掉了比赛，因为我们在传球时有时很粗心，今年我们训练得更仔细了。空一，careless，粗心的，careful，细心的，根据we lost the match，可知是粗心造成的，空二，副词修饰动词practice，carelessly，粗心地，副词，carelessly，细心地，副词，此处是今年和过去的对比，故用比较级，more carelessly，更细心地，是比较级，故选B。\n\n【点评】考查比较级，注意识记careless的用法。\n5．（2023·河东模拟）"
+        },
+        {
+          "key": "C",
+          "text": "careful, carefully",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "careful, more carefully",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "形容词与副词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：很遗憾，我们输掉了比赛，因为我们在传球时有时很粗心，今年我们训练得更仔细了。空一，careless，粗心的，careful，细心的，根据we lost the match，可知是粗心造成的，空二，副词修饰动词practice，carelessly，粗心地，副词，carelessly，细心地，副词，此处是今年和过去的对比，故用比较级，more carelessly，更细心地，是比较级，故选B。\n\n【点评】考查比较级，注意识记careless的用法。\n5．（2023·河东模拟）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "2ca6034d5102c997f2029ca51af3fc24",
+      "raw": {
+        "id": 32665764,
+        "title_html": "（2023·河东模拟）It&#x27;s a pity that we lost the match because we were sometimes _____when passing the ball, we practice ________this year. <br>",
+        "options_html": {
+          "A": "careless, carelessly",
+          "B": "careless, more carefully",
+          "C": "careful, carefully",
+          "D": "careful, more carefully"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：很遗憾，我们输掉了比赛，因为我们在传球时有时很粗心，今年我们训练得更仔细了。空一，careless，粗心的，careful，细心的，根据we lost the match，可知是粗心造成的，空二，副词修饰动词practice，carelessly，粗心地，副词，carelessly，细心地，副词，此处是今年和过去的对比，故用比较级，more carelessly，更细心地，是比较级，故选B。<br>\n【点评】考查比较级，注意识记careless的用法。<br>5．（2023·河东模拟）",
+        "content_hash": "2ca6034d5102c997f2029ca51af3fc24",
+        "source": "天津市河东区2023年中考英语一模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "形容词原级;副词的比较级和最高级<br/>",
+        "year": 2023
       }
     }
   ]

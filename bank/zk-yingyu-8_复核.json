@@ -2,39 +2,18 @@
   "note": "以下题未入库，供教师人工复核；脚本不擅自更正答案。",
   "items": [
     {
-      "id": 4478105,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "In the USA, conversation is less lively\nthan in many other cultures, ____ everyone talks at the same time.\n\nA which B that C\nwhere D what",
+      "id": 32670010,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 3）",
+      "title": "（2023八下·永吉期中）—Did you hurt ________ playing soccer?\n—No, I didn't. But my classmate, Mike hurt ________ knee.",
       "answer": "C",
-      "analysis": ""
+      "analysis": "【分析】句意：——你踢足球时受伤了吗？——不，我没有。但是我的同学迈克伤了膝盖。第一空句子的主语和宾语一致，需用you对应的反身代词yourself，作宾语；第二空修饰名词knee，需用Mike对应的形容词性物主代词his，故选C。\n\n【点评】考查代词辨析。注意形容词性物主代词修饰名词。\n3．（2023八下·永吉期中）"
     },
     {
-      "id": 4481626,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "1– I do more exercise and eat _________ meat than I did last year.\n\n– That’s why you’re getting thinner.\n\nA. little\nB.\nless C.\nleast",
-      "answer": "B",
-      "analysis": ""
-    },
-    {
-      "id": 4483697,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "—May I have ____ cake, Dad?\n\n—You’d better not. You shouldn’t go to bed on a\nfull stomach.\n\nA.\nother B.\nothers C.\nanother",
-      "answer": "C",
-      "analysis": ""
-    },
-    {
-      "id": 4485302,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "The Palace Museum is the best\nplace _______I've ever visited. There are many old things in it\n\nA.\nwho B. that C. where",
-      "answer": "B",
-      "analysis": ""
-    },
-    {
-      "id": 6358533,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "In the USA, conversation is less lively than in many other cultures, ____ everyone talks at the same time.\nA which B that C where D what",
-      "answer": "C",
-      "analysis": ""
+      "id": 32670017,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 3）",
+      "title": "（2023八下·永吉期中）Mr. Smith walked around the neighborhood we were doing our homework.",
+      "answer": "A",
+      "analysis": "【分析】句意：当我们做作业时，史密斯先生在附近散步。A.while当……时候；B.before在……之前；C.when当……时候。when引导的从句，表示主句和从句的动作同时发生或从句的动作先于主句的动作发生；while引导的从句表示\"在……的过程中\"，主从句的谓语动词所表示的动作在同一时间发生，此处表示散步和写作业同时发生，需用while。故选A。\n【点评】考查连词辨析。主语when和while引导时间状语从句的区别。\n10．（2023八下·永吉期中）"
     }
   ]
 }
