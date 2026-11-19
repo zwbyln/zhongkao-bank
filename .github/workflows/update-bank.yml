@@ -88,8 +88,8 @@ jobs:
             exit 0
           fi
 
-          echo "今日剩余额度约 ${LEFT} 题（九组共需 130 题）"
-          echo "- 试探后剩余额度：**${LEFT}** 题（九组共需 130）" >> "$SUM"
+          echo "今日剩余额度约 ${LEFT} 题（维护日最多需 144 题）"
+          echo "- 试探后剩余额度：**${LEFT}** 题（维护日最多需 144）" >> "$SUM"
           if [ "$LEFT" -lt 10 ]; then
             # 一组最少 10 题，不够就整轮不做
             echo "::notice::今日额度只剩 ${LEFT} 题，不足一组（最少 10 题），本轮跳过采集。这不是故障。"
@@ -97,8 +97,8 @@ jobs:
             echo "" >> "$SUM"
             echo "只剩 **${LEFT}** 题，不够任何一组。**这不是故障**，题库保持不变，0 点重置后自动补。" >> "$SUM"
             echo "SKIP_FETCH=1" >> "$ENVF"
-          elif [ "$LEFT" -lt 130 ]; then
-            echo "::warning::剩余 ${LEFT} 题，不够九组用（共需 130），靠后的组会被 429 挡回。"
+          elif [ "$LEFT" -lt 144 ]; then
+            echo "::warning::剩余 ${LEFT} 题，不够维护日全部组用（最多 144），靠后的组会被 429 挡回。"
           fi
 
       - name: 采集真题
@@ -131,20 +131,28 @@ jobs:
             fi
           }
           # --append：新题并进旧文件，题庄是 random_order 取题，累加才叫「攒题库」
-          # 额度分配：注册 Key 每天 150 题，九组加起来要压在 130 以内，留出重试余量。
-          pick --subject 语文 --grade 八年级 --limit 15 --out bank/zk-yuwen-8.json
-          pick --subject 语文 --grade 九年级 --limit 15 --out bank/zk-yuwen-9.json
-          # 历史中考是全学段综合考查，放开内容范围
-          pick --subject 历史 --grade 八年级 --limit 15 --keep-out-of-scope --out bank/zk-lishi-8.json
-          pick --subject 历史 --grade 九年级 --limit 15 --keep-out-of-scope --out bank/zk-lishi-9.json
-          # 七年级同步练习：严格按年级内容范围过滤
-          pick --subject 语文 --grade 七年级 --limit 10 --out bank/tb-yuwen-7.json
-          pick --subject 历史 --grade 七年级 --limit 10 --out bank/tb-lishi-7.json
+          # 额度分配（2026-11 调整）：注册 Key 每天 150 题，最重的维护日合计 144 道，留 6 道余量。
+          # 语文 189 / 历史 209 道已经够用，英语只有 83 道且是唯一薄弱项，
+          # 所以把额度大头让给英语。语文/历史改为隔天低量维护，不再每天吃满额度。
+          DAY=$(date -u +%u)   # 1=周一 … 7=周日
+          if [ "$((DAY % 2))" -eq 0 ]; then
+            # 偶数日：语文历史维护（各 6 道，保持题库不缩水）
+            pick --subject 语文 --grade 八年级 --limit 6 --out bank/zk-yuwen-8.json
+            pick --subject 语文 --grade 九年级 --limit 6 --out bank/zk-yuwen-9.json
+            pick --subject 历史 --grade 八年级 --limit 6 --keep-out-of-scope --out bank/zk-lishi-8.json
+            pick --subject 历史 --grade 九年级 --limit 6 --keep-out-of-scope --out bank/zk-lishi-9.json
+            pick --subject 语文 --grade 七年级 --limit 5 --out bank/tb-yuwen-7.json
+            pick --subject 历史 --grade 七年级 --limit 5 --out bank/tb-lishi-7.json
+          fi
           # 英语：只取「选择题」（唯一能自动批改的四选一），按语法点入库。
-          # 新科目题量还薄，所以八/九年级多给一点。
-          pick --subject 英语 --grade 八年级 --limit 20 --out bank/zk-yingyu-8.json
-          pick --subject 英语 --grade 九年级 --limit 20 --out bank/zk-yingyu-9.json
-          pick --subject 英语 --grade 七年级 --limit 10 --out bank/tb-yingyu-7.json
+          # 每天四组打满 110 道；题庄 random_order 会抽到重复题，靠 --append 去重后
+          # 净增才是真入库量。七年级同步 + 八九年级中考 + 中考阶段，覆盖全学段。
+          pick --subject 英语 --grade 七年级 --limit 25 --out bank/tb-yingyu-7.json
+          pick --subject 英语 --grade 八年级 --limit 35 --out bank/zk-yingyu-8.json
+          pick --subject 英语 --grade 九年级 --limit 35 --out bank/zk-yingyu-9.json
+          # 中考阶段：全学段英语综合选择题，扩大来源池（七年级 id 段之外的老题）
+          # grade 必须是元数据里的准确名称「中考阶段」
+          pick --subject 英语 --grade 中考阶段 --limit 15 --out bank/zk-yingyu-zk.json || true
 
           find bank -name '*.json' -size 0 -delete
           ls -l bank
@@ -192,13 +200,19 @@ jobs:
           git config user.name  "bank-bot"
           git config user.email "bank-bot@users.noreply.github.com"
           # 先把本轮的产物存到仓库外面，等下每轮重试都要用到
-          mkdir -p /tmp/bank-out && cp -f bank/*.json /tmp/bank-out/
+          # 把 all.json.gz 和 meta.json 一起存出来：这两个是 merge 步骤生成的，
+          # reset --hard 之后虽然未跟踪文件通常还在，但别赌这个行为——
+          # 少一个 meta.json，手机端就退化成每次重下 1.38 MB，正好是这轮要解决的问题。
+          mkdir -p /tmp/bank-out
+          cp -f bank/*.json /tmp/bank-out/
+          # 分开写：zsh 下 *.gz 没匹配到会把字面量传进去，一个失败连累前半句
+          cp -f bank/all.json.gz bank/meta.json /tmp/bank-out/ 2>/dev/null || true
           for i in 1 2 3 4 5; do
             git fetch -q origin main
             # 对齐远端最新。采集那两三分钟里若有别人也提交（手动改文件、另一个 run），
             # 直接 push 会被「fetch first」拒掉；题库是生成物，冲突时以本轮结果为准。
             git reset -q --hard origin/main
-            cp -f /tmp/bank-out/*.json bank/
+            cp -f /tmp/bank-out/* bank/ 2>/dev/null || true
             git add bank
             if git diff --staged --quiet; then
               echo "题库没有变化，跳过提交"

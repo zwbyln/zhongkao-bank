@@ -582,7 +582,8 @@ def fetch_batch(api_key, subject_label, grade_label, limit, keep_out, include_co
         raise RuntimeError("元数据里找不到 %s / %s；可用 --meta 查看实际名称" % (subject_label, grade_label))
     sid, gid = smap[subject_label], gmap[grade_label]
     subject = SUBJECT_OF.get(subject_label, "chinese")
-    grade = {"七年级": "七", "八年级": "八", "九年级": "九"}[grade_label]
+    # 中考阶段是全学段综合，客户端按「九」年级标签归类即可（中考复习群体）
+    grade = {"七年级": "七", "八年级": "八", "九年级": "九", "中考阶段": "九"}[grade_label]
 
     # 三科都只取「选择题」：它们是唯一能自动批改的标准四选一。
     # 英语的语法填空/句型转换/改错在题庄是主观题（answer 不是单个字母），
@@ -688,7 +689,7 @@ def reclassify_file(path):
 def main():
     ap = argparse.ArgumentParser(description="题庄真题 → 专项训练系统题库 JSON")
     ap.add_argument("--subject", choices=["语文", "历史", "英语"], default="语文")
-    ap.add_argument("--grade", choices=["七年级", "八年级", "九年级"], default="七年级")
+    ap.add_argument("--grade", choices=["七年级", "八年级", "九年级", "中考阶段"], default="七年级")
     ap.add_argument("--limit", type=int, default=15, help="本次最多取多少道（每道消耗 1 次额度）")
     ap.add_argument("--out", default="", help="输出题库 JSON 路径")
     ap.add_argument("--outdir", default=".", help="--all 时的输出目录")
