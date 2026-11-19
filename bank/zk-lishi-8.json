@@ -1,10 +1,10 @@
 {
   "format": "zx-trainer-bank-v1",
   "source": "题庄真题库（tizhuang.qcscience.cc）",
-  "generatedAt": "2026-11-17T03:47:12.877193+00:00",
+  "generatedAt": "2026-11-19T02:31:38.957958+00:00",
   "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。英语题的 grammar_group / grammar_point 由关键词推断（结构类优先于时态类），口语交际与语法填空等主观题不在采集范围内。",
   "stats": {
-    "usable": 50,
+    "usable": 65,
     "skipped": 0,
     "thisRun": 15,
     "added": 15
@@ -3818,6 +3818,1161 @@
         "is_auto_gradable": true,
         "knowledges": "中华民族的抗日战争",
         "year": 2015
+      }
+    },
+    {
+      "id": "TZ11081482",
+      "source": "题庄真题 · 2010-2011学年浙江省杭州市余杭区星桥中学八年级下学期期中考试历史试题",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "历史时序排序",
+      "content_scope": "中国古代史",
+      "memory_type": "sequence",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "提出“地球是宇宙的中心”—“太阳是宇宙的中心”—“宇宙是无限的，没有中心”的科学家依次是（ ）\n①哥白尼 ②布鲁诺 ③托勒密 ④伽利略",
+      "passage": "【题干原文】\n提出“地球是宇宙的中心”—“太阳是宇宙的中心”—“宇宙是无限的，没有中心”的科学家依次是（ ）\n①哥白尼 ②布鲁诺 ③托勒密 ④伽利略\n\n【考点】科学和思想的力量\n【出处】2010-2011学年浙江省杭州市余杭区星桥中学八年级下学期期中考试历史试题 · 2011 · 题庄题号 11081482",
+      "options": [
+        {
+          "key": "A",
+          "text": "②③④",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "①②③",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "③①②",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "②①③",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "3ce08fb4f664aef946aa974f5b73ff6e",
+      "raw": {
+        "id": 11081482,
+        "title_html": "提出“地球是宇宙的中心”—“太阳是宇宙的中心”—“宇宙是无限的，没有中心”的科学家依次是（　　）<br>①哥白尼    ②布鲁诺     ③托勒密     ④伽利略",
+        "options_html": {
+          "A": "②③④",
+          "B": "①②③",
+          "C": "③①②",
+          "D": "②①③"
+        },
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "3ce08fb4f664aef946aa974f5b73ff6e",
+        "source": "2010-2011学年浙江省杭州市余杭区星桥中学八年级下学期期中考试历史试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "科学和思想的力量",
+        "year": 2011
+      }
+    },
+    {
+      "id": "TZ11081740",
+      "source": "题庄真题 · 2010-2011学年浙江省杭州市余杭区星桥中学八年级下学期期中考试历史试题",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "历史选择",
+      "content_scope": "中国古代史",
+      "memory_type": "concept",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "大胆地批判君权神授的神秘色彩，公开宣称“为天下之大害者，君而已矣”的是明未清初的学者（ ）",
+      "passage": "【题干原文】\n大胆地批判君权神授的神秘色彩，公开宣称“为天下之大害者，君而已矣”的是明未清初的学者（ ）\n\n【考点】时代特点鲜明的明清文化\n【出处】2010-2011学年浙江省杭州市余杭区星桥中学八年级下学期期中考试历史试题 · 2011 · 题庄题号 11081740",
+      "options": [
+        {
+          "key": "A",
+          "text": "顾炎武",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "王夫之",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "黄宗羲",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "林则徐",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "ec425ebdc3d0a48cbb4421629547e9a5",
+      "raw": {
+        "id": 11081740,
+        "title_html": "大胆地批判君权神授的神秘色彩，公开宣称“为天下之大害者，君而已矣”的是明未清初的学者（   ）",
+        "options_html": {
+          "A": "顾炎武",
+          "B": "王夫之",
+          "C": "黄宗羲",
+          "D": "林则徐"
+        },
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "ec425ebdc3d0a48cbb4421629547e9a5",
+        "source": "2010-2011学年浙江省杭州市余杭区星桥中学八年级下学期期中考试历史试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "时代特点鲜明的明清文化",
+        "year": 2011
+      }
+    },
+    {
+      "id": "TZ11083278",
+      "source": "题庄真题 · 2011-2012学年江苏省淮安市平桥中学八年级上学期第二次月考历史试卷",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "历史选择",
+      "content_scope": "中国近代史",
+      "memory_type": "concept",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "重庆谈判的最大功绩是（ ）",
+      "passage": "【题干原文】\n重庆谈判的最大功绩是（ ）\n\n【考点】内战烽火\n【出处】2011-2012学年江苏省淮安市平桥中学八年级上学期第二次月考历史试卷 · 2012 · 题庄题号 11083278",
+      "options": [
+        {
+          "key": "A",
+          "text": "争取了国内和平",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "国民党承认了解放区的民主政权和人民军队的合法地位",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "国共双方达成了和平建国的“双十协定”",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "实现了第三次国共合作",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 1,
+      "question_fingerprint": "8313af1a562b7dc512c7406e74af7836",
+      "raw": {
+        "id": 11083278,
+        "title_html": "重庆谈判的最大功绩是（  ）",
+        "options_html": {
+          "A": "争取了国内和平",
+          "B": "国民党承认了解放区的民主政权和人民军队的合法地位",
+          "C": "国共双方达成了和平建国的“双十协定”",
+          "D": "实现了第三次国共合作"
+        },
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "8313af1a562b7dc512c7406e74af7836",
+        "source": "2011-2012学年江苏省淮安市平桥中学八年级上学期第二次月考历史试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "内战烽火",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ11083343",
+      "source": "题庄真题 · 2011-2012学年江苏省淮安市平桥中学八年级上学期第二次月考历史试卷",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "历史时序排序",
+      "content_scope": "中国近代史",
+      "memory_type": "sequence",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "电影《大决战》有三部，按战役的先后顺序排列这三部应是（ ）\n①《辽沈战役》篇\n②《平津战役》篇\n③《淮海战役》篇",
+      "passage": "【题干原文】\n电影《大决战》有三部，按战役的先后顺序排列这三部应是（ ）\n①《辽沈战役》篇\n②《平津战役》篇\n③《淮海战役》篇\n\n【考点】战略大决战\n【出处】2011-2012学年江苏省淮安市平桥中学八年级上学期第二次月考历史试卷 · 2012 · 题庄题号 11083343",
+      "options": [
+        {
+          "key": "A",
+          "text": "①②③",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "①③②",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "②③①",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "②①③",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "首尾锚定 → 逐项插入 → 相邻校验；警惕相邻互换、首尾错置、跨朝代插入",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "47e8e89c9340366d9db4b84d3cf52554",
+      "raw": {
+        "id": 11083343,
+        "title_html": "电影《大决战》有三部，按战役的先后顺序排列这三部应是（  ）<br>①《辽沈战役》篇<br>②《平津战役》篇<br>③《淮海战役》篇",
+        "options_html": {
+          "A": "①②③",
+          "B": "①③②",
+          "C": "②③①",
+          "D": "②①③"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "47e8e89c9340366d9db4b84d3cf52554",
+        "source": "2011-2012学年江苏省淮安市平桥中学八年级上学期第二次月考历史试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "战略大决战",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ11084819",
+      "source": "题庄真题 · 2011－2012学年江西省宜春市高安四中八年级下学期第一次月考历史试题",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "历史选择",
+      "content_scope": "中国现代史",
+      "memory_type": "concept",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "电影《农奴》讲述了新中国成立后藏族奴隶娃子强巴从过去被迫装哑巴到解放军的帮助下开口说话的不平凡人生经历。电影《农奴》主要歌颂了（ ）",
+      "passage": "【题干原文】\n电影《农奴》讲述了新中国成立后藏族奴隶娃子强巴从过去被迫装哑巴到解放军的帮助下开口说话的不平凡人生经历。电影《农奴》主要歌颂了（ ）\n\n【考点】新中国成立；民族团结\n【出处】2011－2012学年江西省宜春市高安四中八年级下学期第一次月考历史试题 · 2011 · 题庄题号 11084819",
+      "options": [
+        {
+          "key": "A",
+          "text": "抗日战争的胜利",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "“一国两制”的科学构想",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "抗美援朝战争的胜利",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "西藏和平解放和民主改革",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "104fce97acc1430f98c8d11e6b37f102",
+      "raw": {
+        "id": 11084819,
+        "title_html": "电影《农奴》讲述了新中国成立后藏族奴隶娃子强巴从过去被迫装哑巴到解放军的帮助下开口说话的不平凡人生经历。电影《农奴》主要歌颂了（   ）",
+        "options_html": {
+          "A": "抗日战争的胜利",
+          "B": "“一国两制”的科学构想",
+          "C": "抗美援朝战争的胜利",
+          "D": "西藏和平解放和民主改革"
+        },
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "104fce97acc1430f98c8d11e6b37f102",
+        "source": "2011－2012学年江西省宜春市高安四中八年级下学期第一次月考历史试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "新中国成立；民族团结",
+        "year": 2011
+      }
+    },
+    {
+      "id": "TZ11088037",
+      "source": "题庄真题 · 2011-2012学年江苏省启东市东海中学八年级下学期第一次质量测试历史试卷",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "历史选择",
+      "content_scope": "中国现代史",
+      "memory_type": "concept",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "从“大跃进”运动、人民公社化运动中，应吸取的教训是（ ）\n①经济建设要遵循客观规律，不能急于求成\n②经济建设要立足于本国国情\n③坚持实事求是，一切从实际出发\n④生产关系一定要适应生产力的发展",
+      "passage": "【题干原文】\n从“大跃进”运动、人民公社化运动中，应吸取的教训是（ ）\n①经济建设要遵循客观规律，不能急于求成\n②经济建设要立足于本国国情\n③坚持实事求是，一切从实际出发\n④生产关系一定要适应生产力的发展\n\n【考点】探索社会主义道路\n【出处】2011-2012学年江苏省启东市东海中学八年级下学期第一次质量测试历史试卷 · 2012 · 题庄题号 11088037",
+      "options": [
+        {
+          "key": "A",
+          "text": "①②③④",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "①②③",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "②③④",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "①③④",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "975c13c065558b04218fe3bd474a96e5",
+      "raw": {
+        "id": 11088037,
+        "title_html": "从“大跃进”运动、人民公社化运动中，应吸取的教训是（   ）<br>①经济建设要遵循客观规律，不能急于求成<br>②经济建设要立足于本国国情<br>③坚持实事求是，一切从实际出发<br>④生产关系一定要适应生产力的发展",
+        "options_html": {
+          "A": "①②③④",
+          "B": "①②③",
+          "C": "②③④",
+          "D": "①③④"
+        },
+        "answer": "A",
+        "answer_html": "A",
+        "analysis_html": "",
+        "content_hash": "975c13c065558b04218fe3bd474a96e5",
+        "source": "2011-2012学年江苏省启东市东海中学八年级下学期第一次质量测试历史试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "探索社会主义道路",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ11095329",
+      "source": "题庄真题 · 2010-2011学年度陕西省西安工大附中八年级第一学期期末教学质量检查历史试卷",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "历史选择",
+      "content_scope": "中国古代史",
+      "memory_type": "concept",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "研制出世界先进的制碱工艺，打破西方国家对碱业的垄断，为我国制碱工业做出贡献的科学家是：",
+      "passage": "【题干原文】\n研制出世界先进的制碱工艺，打破西方国家对碱业的垄断，为我国制碱工业做出贡献的科学家是：\n\n【考点】侯氏制碱法\n【出处】2010-2011学年度陕西省西安工大附中八年级第一学期期末教学质量检查历史试卷 · 2011 · 题庄题号 11095329",
+      "options": [
+        {
+          "key": "A",
+          "text": "张謇",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "侯德榜",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "詹天佑",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "茅以升",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "d3537f3d04263034c2a03507a25f2fc9",
+      "raw": {
+        "id": 11095329,
+        "title_html": "研制出世界先进的制碱工艺，打破西方国家对碱业的垄断，为我国制碱工业做出贡献的科学家是： ",
+        "options_html": {
+          "A": "张謇",
+          "B": "侯德榜",
+          "C": "詹天佑",
+          "D": "茅以升"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "d3537f3d04263034c2a03507a25f2fc9",
+        "source": "2010-2011学年度陕西省西安工大附中八年级第一学期期末教学质量检查历史试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "侯氏制碱法",
+        "year": 2011
+      }
+    },
+    {
+      "id": "TZ11097322",
+      "source": "题庄真题 · 2011-2012学年湖北省宜昌市长阳县八年级上学期期末模拟考试历史试卷",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "历史选择",
+      "content_scope": "中国近代史",
+      "memory_type": "concept",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "下列关于重庆谈判表述正确的是",
+      "passage": "【题干原文】\n下列关于重庆谈判表述正确的是\n\n【考点】内战烽火\n【出处】2011-2012学年湖北省宜昌市长阳县八年级上学期期末模拟考试历史试卷 · 2012 · 题庄题号 11097322",
+      "options": [
+        {
+          "key": "A",
+          "text": "在抗日战争胜利后，国民党为发动内战，实现独裁统治而与共产党开展的假谈判。",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "在抗日战争期间，国民党亲日派与日本的谈判。",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "在抗日战争胜利后，国民党政府为寻求美国经济援助而与美国开展的谈判。",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "在北伐战争取得胜利的背景下，国共两党为组建南京国民政府的谈判。",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "dde45bf94c623d9734c6b328fca38ce4",
+      "raw": {
+        "id": 11097322,
+        "title_html": "下列关于重庆谈判表述正确的是",
+        "options_html": {
+          "A": "在抗日战争胜利后，国民党为发动内战，实现独裁统治而与共产党开展的假谈判。",
+          "B": "在抗日战争期间，国民党亲日派与日本的谈判。",
+          "C": "在抗日战争胜利后，国民党政府为寻求美国经济援助而与美国开展的谈判。",
+          "D": "在北伐战争取得胜利的背景下，国共两党为组建南京国民政府的谈判。"
+        },
+        "answer": "A",
+        "answer_html": "A",
+        "analysis_html": "",
+        "content_hash": "dde45bf94c623d9734c6b328fca38ce4",
+        "source": "2011-2012学年湖北省宜昌市长阳县八年级上学期期末模拟考试历史试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "内战烽火",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ11097357",
+      "source": "题庄真题 · 2011-2012学年湖北省宜昌市长阳县八年级上学期期末模拟考试历史试卷",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "历史选择",
+      "content_scope": "中国近代史",
+      "memory_type": "fact",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "电影《建国大业》于2009年9月在中国内地公映。影片再现了重庆谈判、三大战役与渡江战役、第一届政治协商会议筹备召开等历史画卷。这些史实大致发生在",
+      "passage": "【题干原文】\n电影《建国大业》于2009年9月在中国内地公映。影片再现了重庆谈判、三大战役与渡江战役、第一届政治协商会议筹备召开等历史画卷。这些史实大致发生在\n\n【考点】内战烽火；战略大决战\n【出处】2011-2012学年湖北省宜昌市长阳县八年级上学期期末模拟考试历史试卷 · 2012 · 题庄题号 11097357",
+      "options": [
+        {
+          "key": "A",
+          "text": "北伐战争时期",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "国共十年对峙时期",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "抗日战争时期",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "解放战争时期",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "史实记忆 = 时间锚点 + 前后事件夹逼（上承什么、下启什么）",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": "2009年",
+      "tags": [
+        "题庄真题",
+        "历史",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "bea450ace0c5c93f077aedfba70884bd",
+      "raw": {
+        "id": 11097357,
+        "title_html": "电影《建国大业》于2009年9月在中国内地公映。影片再现了重庆谈判、三大战役与渡江战役、第一届政治协商会议筹备召开等历史画卷。这些史实大致发生在",
+        "options_html": {
+          "A": "北伐战争时期",
+          "B": "国共十年对峙时期",
+          "C": "抗日战争时期",
+          "D": "解放战争时期"
+        },
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "bea450ace0c5c93f077aedfba70884bd",
+        "source": "2011-2012学年湖北省宜昌市长阳县八年级上学期期末模拟考试历史试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "内战烽火；战略大决战",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ11097393",
+      "source": "题庄真题 · 2011-2012学年湖北省宜昌市长阳县八年级上学期期末模拟考试历史试卷",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "历史选择",
+      "content_scope": "中国近代史",
+      "memory_type": "concept",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "中国出现的第一条正式投入运营的铁路是",
+      "passage": "【题干原文】\n中国出现的第一条正式投入运营的铁路是\n\n【考点】詹天佑和京张铁路\n【出处】2011-2012学年湖北省宜昌市长阳县八年级上学期期末模拟考试历史试卷 · 2012 · 题庄题号 11097393",
+      "options": [
+        {
+          "key": "A",
+          "text": "京汉铁路",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "淞沪铁路",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "滇越铁路",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "京张铁路",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 1,
+      "question_fingerprint": "06a7a36a6b6a7043ea4d5f6e5160d104",
+      "raw": {
+        "id": 11097393,
+        "title_html": "中国出现的第一条正式投入运营的铁路是",
+        "options_html": {
+          "A": "京汉铁路",
+          "B": "淞沪铁路",
+          "C": "滇越铁路",
+          "D": "京张铁路"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "06a7a36a6b6a7043ea4d5f6e5160d104",
+        "source": "2011-2012学年湖北省宜昌市长阳县八年级上学期期末模拟考试历史试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "詹天佑和京张铁路",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ11097407",
+      "source": "题庄真题 · 2011-2012学年湖北省宜昌市长阳县八年级上学期期末模拟考试历史试卷",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "历史选择",
+      "content_scope": "中国古代史",
+      "memory_type": "fact",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "《中华人民共和国国歌》创作于20世纪三四十年代，原歌曲名为《义勇军进行曲》，其作曲者是",
+      "passage": "【题干原文】\n《中华人民共和国国歌》创作于20世纪三四十年代，原歌曲名为《义勇军进行曲》，其作曲者是\n\n【考点】讴歌光明的文学艺术家\n【出处】2011-2012学年湖北省宜昌市长阳县八年级上学期期末模拟考试历史试卷 · 2012 · 题庄题号 11097407",
+      "options": [
+        {
+          "key": "A",
+          "text": "聂耳",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "田汉",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "冼星海",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "鲁迅",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "史实记忆 = 时间锚点 + 前后事件夹逼（上承什么、下启什么）",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": "20世纪",
+      "tags": [
+        "题庄真题",
+        "历史",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "f4b0b089ac2269dbc80b9d914424f7ef",
+      "raw": {
+        "id": 11097407,
+        "title_html": "《中华人民共和国国歌》创作于20世纪三四十年代，原歌曲名为《义勇军进行曲》，其作曲者是",
+        "options_html": {
+          "A": "聂耳",
+          "B": "田汉",
+          "C": "冼星海",
+          "D": "鲁迅"
+        },
+        "answer": "A",
+        "answer_html": "A",
+        "analysis_html": "",
+        "content_hash": "f4b0b089ac2269dbc80b9d914424f7ef",
+        "source": "2011-2012学年湖北省宜昌市长阳县八年级上学期期末模拟考试历史试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "讴歌光明的文学艺术家",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ11108219",
+      "source": "题庄真题 · 2010-2011学年度山东省沂水县八年级第二学期期末考试历史试卷",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "历史选择",
+      "content_scope": "中国现代史",
+      "memory_type": "concept",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "小明的爸爸说：“爸爸象你这么大的时候（15岁）一顿能吃5碗饭，你却连2碗都吃不了。”\n小明分辩“我吃了很多肉、鱼、菜，还喝了牛奶，奶奶说你那时几乎没有这些吃!”这段对话说明改革开放以来",
+      "passage": "【题干原文】\n小明的爸爸说：“爸爸象你这么大的时候（15岁）一顿能吃5碗饭，你却连2碗都吃不了。”\n小明分辩“我吃了很多肉、鱼、菜，还喝了牛奶，奶奶说你那时几乎没有这些吃!”这段对话说明改革开放以来\n\n【考点】衣食住行的变迁；就业和社会保障\n【出处】2010-2011学年度山东省沂水县八年级第二学期期末考试历史试卷 · 2011 · 题庄题号 11108219",
+      "options": [
+        {
+          "key": "A",
+          "text": "国家粮食产量有所下降",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "青少年深受西方饮食文化影响",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "青少年的体质有所下降",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "人民物质生活水平不断提高",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 1,
+      "question_fingerprint": "3cb7c449e41d2578b39c23506061c6db",
+      "raw": {
+        "id": 11108219,
+        "title_html": "小明的爸爸说：“爸爸象你这么大的时候（15岁）一顿能吃5碗饭，你却连2碗都吃不了。”<br>小明分辩“我吃了很多肉、鱼、菜，还喝了牛奶，奶奶说你那时几乎没有这些吃!”这段对话说明改革开放以来",
+        "options_html": {
+          "A": "国家粮食产量有所下降",
+          "B": "青少年深受西方饮食文化影响",
+          "C": "青少年的体质有所下降",
+          "D": "人民物质生活水平不断提高"
+        },
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "3cb7c449e41d2578b39c23506061c6db",
+        "source": "2010-2011学年度山东省沂水县八年级第二学期期末考试历史试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "衣食住行的变迁；就业和社会保障",
+        "year": 2011
+      }
+    },
+    {
+      "id": "TZ11108241",
+      "source": "题庄真题 · 2010-2011学年度山东省沂水县八年级第二学期期末考试历史试卷",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "历史选择",
+      "content_scope": "中国现代史",
+      "memory_type": "concept",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "小张在家里一个旧箱子里发现了豆腐票、粉条票，他很惊讶，继续找，又发现了好多粮票、布票、油票等，你能告诉他这些票证反映厂怎样的社会状况吗?",
+      "passage": "【题干原文】\n小张在家里一个旧箱子里发现了豆腐票、粉条票，他很惊讶，继续找，又发现了好多粮票、布票、油票等，你能告诉他这些票证反映厂怎样的社会状况吗?\n\n【考点】衣食住行的变迁；就业和社会保障\n【出处】2010-2011学年度山东省沂水县八年级第二学期期末考试历史试卷 · 2011 · 题庄题号 11108241",
+      "options": [
+        {
+          "key": "A",
+          "text": "商家做促销活动，鼓励消费",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "市场经济，票证流行",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "物资丰富，购物不要钱",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "物资匮乏，凭票购物",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 1,
+      "question_fingerprint": "df7a4548d0296b35bb28372f1938fdf1",
+      "raw": {
+        "id": 11108241,
+        "title_html": "小张在家里一个旧箱子里发现了豆腐票、粉条票，他很惊讶，继续找，又发现了好多粮票、布票、油票等，你能告诉他这些票证反映厂怎样的社会状况吗?",
+        "options_html": {
+          "A": "商家做促销活动，鼓励消费",
+          "B": "市场经济，票证流行",
+          "C": "物资丰富，购物不要钱",
+          "D": "物资匮乏，凭票购物"
+        },
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "df7a4548d0296b35bb28372f1938fdf1",
+        "source": "2010-2011学年度山东省沂水县八年级第二学期期末考试历史试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "衣食住行的变迁；就业和社会保障",
+        "year": 2011
+      }
+    },
+    {
+      "id": "TZ11110050",
+      "source": "题庄真题 · 2011年河南省驻马店市驿城区八年级上学期期终质量监测历史试卷",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "历史选择",
+      "content_scope": "中国近代史",
+      "memory_type": "concept",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "中共中央主动撤离延安是为了（ ）",
+      "passage": "【题干原文】\n中共中央主动撤离延安是为了（ ）\n\n【考点】内战烽火\n【出处】2011年河南省驻马店市驿城区八年级上学期期终质量监测历史试卷 · 2011 · 题庄题号 11110050",
+      "options": [
+        {
+          "key": "A",
+          "text": "声东击西",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "诱敌深入",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "调虎离山",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "迂回战术",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "187ea53b257ab5a33f105ce842bdcf01",
+      "raw": {
+        "id": 11110050,
+        "title_html": "中共中央主动撤离延安是为了（    ）",
+        "options_html": {
+          "A": "声东击西",
+          "B": "诱敌深入",
+          "C": "调虎离山",
+          "D": "迂回战术"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "187ea53b257ab5a33f105ce842bdcf01",
+        "source": "2011年河南省驻马店市驿城区八年级上学期期终质量监测历史试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "内战烽火",
+        "year": 2011
+      }
+    },
+    {
+      "id": "TZ11114329",
+      "source": "题庄真题 · 2011-2012学年贵州省遵义县八年级上学期期末统考历史试卷",
+      "subject": "history",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "历史选择",
+      "content_scope": "中国古代史",
+      "memory_type": "concept",
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "“起来，不愿做奴隶的人们，把我们的血肉筑成我们新的长城……”。这首歌曲是（ ）",
+      "passage": "【题干原文】\n“起来，不愿做奴隶的人们，把我们的血肉筑成我们新的长城……”。这首歌曲是（ ）\n\n【考点】讴歌光明的文学艺术家\n【出处】2011-2012学年贵州省遵义县八年级上学期期末统考历史试卷 · 2012 · 题庄题号 11114329",
+      "options": [
+        {
+          "key": "A",
+          "text": "《国际歌》",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "《义勇军进行曲》",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "《黄河大合唱》",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "《英雄交响曲》",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "先看时间/人物是否匹配，再看程度词是否绝对化，最后回材料找依据",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "历史",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 1,
+      "question_fingerprint": "a044820a4bb6b752ec22ba093c7f0c56",
+      "raw": {
+        "id": 11114329,
+        "title_html": "“起来，不愿做奴隶的人们，把我们的血肉筑成我们新的长城……”。这首歌曲是（   ）",
+        "options_html": {
+          "A": "《国际歌》",
+          "B": "《义勇军进行曲》",
+          "C": "《黄河大合唱》",
+          "D": "《英雄交响曲》"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "a044820a4bb6b752ec22ba093c7f0c56",
+        "source": "2011-2012学年贵州省遵义县八年级上学期期末统考历史试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "讴歌光明的文学艺术家",
+        "year": 2012
       }
     }
   ]
