@@ -1,13 +1,13 @@
 {
   "format": "zx-trainer-bank-v1",
   "source": "题庄真题库（tizhuang.qcscience.cc）",
-  "generatedAt": "2026-11-19T02:31:58.843441+00:00",
+  "generatedAt": "2026-11-20T02:16:50.485182+00:00",
   "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。英语题的 grammar_group / grammar_point 由关键词推断（结构类优先于时态类），口语交际与语法填空等主观题不在采集范围内。",
   "stats": {
-    "usable": 33,
-    "skipped": 2,
-    "thisRun": 18,
-    "added": 0
+    "usable": 48,
+    "skipped": 5,
+    "thisRun": 30,
+    "added": 15
   },
   "items": [
     {
@@ -2513,6 +2513,1161 @@
         "question_type": "选择题",
         "is_auto_gradable": true,
         "knowledges": "数词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6383912",
+      "source": "题庄真题 · 2011-2012学年江苏省扬中市初二下学期期中考试英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "冠词",
+      "mode": "single",
+      "stem": "____ educational CD-ROM has just come out. _____ CD-ROM is called ‘Dora Explorer’.",
+      "passage": "【题干原文】\n____ educational CD-ROM has just come out. _____ CD-ROM is called ‘Dora Explorer’.\n\n【考点】冠词\n【出处】2011-2012学年江苏省扬中市初二下学期期中考试英语试卷（带解析） · 2012 · 题庄题号 6383912",
+      "options": [
+        {
+          "key": "A",
+          "text": "A ; The",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "An ;The",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "The ; The",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "The ;A",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "冠词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "c8a13938b400fc0f061f5e6917c18932",
+      "raw": {
+        "id": 6383912,
+        "title_html": "____ educational CD-ROM has just come out. _____ CD-ROM is called ‘Dora Explorer’.",
+        "options_html": {
+          "A": "A ; The",
+          "B": "An ;The",
+          "C": "The ; The",
+          "D": "The ;A"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "c8a13938b400fc0f061f5e6917c18932",
+        "source": "2011-2012学年江苏省扬中市初二下学期期中考试英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "冠词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6383937",
+      "source": "题庄真题 · 2011-2012学年江苏省扬中市初二下学期期中考试英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "冠词",
+      "mode": "single",
+      "stem": "I think skiing is ____ great fun.",
+      "passage": "【题干原文】\nI think skiing is ____ great fun.\n\n【考点】冠词\n【出处】2011-2012学年江苏省扬中市初二下学期期中考试英语试卷（带解析） · 2012 · 题庄题号 6383937",
+      "options": [
+        {
+          "key": "A",
+          "text": "a",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "/",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "an",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "the",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "冠词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "71e4bb238bdc927380884f714dd1dd81",
+      "raw": {
+        "id": 6383937,
+        "title_html": "I think skiing is ____ great fun.",
+        "options_html": {
+          "A": "a",
+          "B": "/",
+          "C": "an",
+          "D": "the"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "71e4bb238bdc927380884f714dd1dd81",
+        "source": "2011-2012学年江苏省扬中市初二下学期期中考试英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "冠词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6387098",
+      "source": "题庄真题 · 2011-2012学年重庆万州区岩口复兴学校初二4月月考英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "冠词",
+      "mode": "single",
+      "stem": "My brother is studying in ______ university in America; he wants to be ______ astronaut in the future.",
+      "passage": "【题干原文】\nMy brother is studying in ______ university in America; he wants to be ______ astronaut in the future.\n\n【考点】冠词\n【出处】2011-2012学年重庆万州区岩口复兴学校初二4月月考英语试卷（带解析） · 2012 · 题庄题号 6387098",
+      "options": [
+        {
+          "key": "A",
+          "text": "a; a",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "a; an",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "an; a",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "an; an",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "冠词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "10796dc43dded6ed4b2c2db56858988c",
+      "raw": {
+        "id": 6387098,
+        "title_html": "My brother is studying in ______ university in America; he wants to be ______ astronaut in the future.",
+        "options_html": {
+          "A": "a; a",
+          "B": "a; an",
+          "C": "an; a",
+          "D": "an; an"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "10796dc43dded6ed4b2c2db56858988c",
+        "source": "2011-2012学年重庆万州区岩口复兴学校初二4月月考英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "冠词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6393209",
+      "source": "题庄真题 · 2011-2012学年江苏省无锡市南长区初二下学期期中考试英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "名词与数",
+      "mode": "single",
+      "stem": "There was a football match last night. ______ people went to watch it.",
+      "passage": "【题干原文】\nThere was a football match last night. ______ people went to watch it.\n\n【考点】数词\n【出处】2011-2012学年江苏省无锡市南长区初二下学期期中考试英语试卷（带解析） · 2012 · 题庄题号 6393209",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thousand",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "Three thousands",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "Thousands of",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "Thousand of",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "名词与数",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "b0621078e4872530095419a64c502531",
+      "raw": {
+        "id": 6393209,
+        "title_html": "There was a football match last night. ______ people went to watch it.",
+        "options_html": {
+          "A": "Thousand",
+          "B": "Three thousands",
+          "C": "Thousands of",
+          "D": "Thousand of"
+        },
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "b0621078e4872530095419a64c502531",
+        "source": "2011-2012学年江苏省无锡市南长区初二下学期期中考试英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "数词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6397762",
+      "source": "题庄真题 · 2011-2012学年湖南城金海双语实验学校初二下学期入学考试英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "主谓一致",
+      "grammar_point": "主谓一致",
+      "mode": "single",
+      "stem": "My father usually________ a shower _________the morning.",
+      "passage": "【题干原文】\nMy father usually________ a shower _________the morning.\n\n【考点】主谓一致\n【出处】2011-2012学年湖南城金海双语实验学校初二下学期入学考试英语试卷（带解析） · 2012 · 题庄题号 6397762",
+      "options": [
+        {
+          "key": "A",
+          "text": "take; in",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "takes; in",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "take; on",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "takes; at",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "主谓一致",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "c68733fd67ca6aed7b7dd6cb4451ae50",
+      "raw": {
+        "id": 6397762,
+        "title_html": "My father usually________ a shower _________the morning.",
+        "options_html": {
+          "A": "take; in",
+          "B": "takes; in",
+          "C": "take; on",
+          "D": "takes; at"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "c68733fd67ca6aed7b7dd6cb4451ae50",
+        "source": "2011-2012学年湖南城金海双语实验学校初二下学期入学考试英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "主谓一致",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6397802",
+      "source": "题庄真题 · 2011-2012学年湖南城金海双语实验学校初二下学期入学考试英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "主谓一致",
+      "grammar_point": "主谓一致",
+      "mode": "single",
+      "stem": "I ________ two baseballs and my friend ________five baseballs.",
+      "passage": "【题干原文】\nI ________ two baseballs and my friend ________five baseballs.\n\n【考点】主谓一致\n【出处】2011-2012学年湖南城金海双语实验学校初二下学期入学考试英语试卷（带解析） · 2012 · 题庄题号 6397802",
+      "options": [
+        {
+          "key": "A",
+          "text": "have; have",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "have; has",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "has; have",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "has; has",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "主谓一致",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "8ac84b7b7ce33ac02b5a4db4597df2ee",
+      "raw": {
+        "id": 6397802,
+        "title_html": "I ________ two baseballs and my friend ________five baseballs.",
+        "options_html": {
+          "A": "have; have",
+          "B": "have; has",
+          "C": "has; have",
+          "D": "has; has"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "8ac84b7b7ce33ac02b5a4db4597df2ee",
+        "source": "2011-2012学年湖南城金海双语实验学校初二下学期入学考试英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "主谓一致",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6397841",
+      "source": "题庄真题 · 2011-2012学年江苏常州西藏民族中学初二下期末考（1组）英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "名词与数",
+      "mode": "single",
+      "stem": "_______ children in Africa have little food to eat, and we can help them.",
+      "passage": "【题干原文】\n_______ children in Africa have little food to eat, and we can help them.\n\n【考点】数词\n【出处】2011-2012学年江苏常州西藏民族中学初二下期末考（1组）英语试卷（带解析） · 2012 · 题庄题号 6397841",
+      "options": [
+        {
+          "key": "A",
+          "text": "Million",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "A millions",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "Millions of",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "Millions",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "名词与数",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "aa271bcad287305bf277c8b7ae16d9ad",
+      "raw": {
+        "id": 6397841,
+        "title_html": "_______ children in Africa have little food to eat, and we can help them.",
+        "options_html": {
+          "A": "Million",
+          "B": "A millions",
+          "C": "Millions of",
+          "D": "Millions"
+        },
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "aa271bcad287305bf277c8b7ae16d9ad",
+        "source": "2011-2012学年江苏常州西藏民族中学初二下期末考（1组）英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "数词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6397851",
+      "source": "题庄真题 · 2011-2012学年江苏常州西藏民族中学初二下期末考（1组）英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "冠词",
+      "mode": "single",
+      "stem": "Lily likes playing _______ guitar.",
+      "passage": "【题干原文】\nLily likes playing _______ guitar.\n\n【考点】冠词\n【出处】2011-2012学年江苏常州西藏民族中学初二下期末考（1组）英语试卷（带解析） · 2012 · 题庄题号 6397851",
+      "options": [
+        {
+          "key": "A",
+          "text": "a",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "the",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "an",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "/",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "冠词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "1f855d04ad7ec712352537898e434f27",
+      "raw": {
+        "id": 6397851,
+        "title_html": "Lily likes playing _______ guitar.      ",
+        "options_html": {
+          "A": "a",
+          "B": "the",
+          "C": "an",
+          "D": "/"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "1f855d04ad7ec712352537898e434f27",
+        "source": "2011-2012学年江苏常州西藏民族中学初二下期末考（1组）英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "冠词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6397859",
+      "source": "题庄真题 · 2011-2012学年江苏常州西藏民族中学初二下期末考（1组）英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "从句",
+      "grammar_point": "定语从句",
+      "mode": "single",
+      "stem": "I have a friend _______ would like to speak to you.",
+      "passage": "【题干原文】\nI have a friend _______ would like to speak to you.\n\n【考点】定语从句\n【出处】2011-2012学年江苏常州西藏民族中学初二下期末考（1组）英语试卷（带解析） · 2012 · 题庄题号 6397859",
+      "options": [
+        {
+          "key": "A",
+          "text": "which",
+          "is_correct": false,
+          "trap_type": "关系词误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "what",
+          "is_correct": false,
+          "trap_type": "关系词误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "who",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "whom",
+          "is_correct": false,
+          "trap_type": "关系词误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "定语从句",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "8609f94fe9ce64ccff65d925f263a16f",
+      "raw": {
+        "id": 6397859,
+        "title_html": "I have a friend _______ would like to speak to you.",
+        "options_html": {
+          "A": "which",
+          "B": "what",
+          "C": "who",
+          "D": "whom"
+        },
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "8609f94fe9ce64ccff65d925f263a16f",
+        "source": "2011-2012学年江苏常州西藏民族中学初二下期末考（1组）英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "定语从句",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6400819",
+      "source": "题庄真题 · 2011-2012学年江苏仪征大仪中学初二上期期中考试英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "名词与数",
+      "mode": "single",
+      "stem": "--- What a beautiful city our hometown is! There are many trees ___________ of the road!\n--- Yes, and ____________ of the trees is growing larger and larger.",
+      "passage": "【题干原文】\n--- What a beautiful city our hometown is! There are many trees ___________ of the road!\n--- Yes, and ____________ of the trees is growing larger and larger.\n\n【考点】数词\n【出处】2011-2012学年江苏仪征大仪中学初二上期期中考试英语试卷（带解析） · 2012 · 题庄题号 6400819",
+      "options": [
+        {
+          "key": "A",
+          "text": "on both side; a number",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "on each sides; a number",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "on both sides; the number",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "on every side; the number",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "名词与数",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "96a1e4a64a0f09f442876f8fb116a459",
+      "raw": {
+        "id": 6400819,
+        "title_html": "--- What a beautiful city our hometown is! There are many trees ___________ of the road! <br>--- Yes, and ____________ of the trees is growing larger and larger.",
+        "options_html": {
+          "A": "on both side; a number",
+          "B": "on each sides; a number",
+          "C": "on both sides; the number",
+          "D": "on every side; the number"
+        },
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "96a1e4a64a0f09f442876f8fb116a459",
+        "source": "2011-2012学年江苏仪征大仪中学初二上期期中考试英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "数词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6400930",
+      "source": "题庄真题 · 2011-2012学年辽宁大连第四十四中学初二上期期中考试英语卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "冠词",
+      "mode": "single",
+      "stem": "There is long way to go for scientists to study _____space.",
+      "passage": "【题干原文】\nThere is long way to go for scientists to study _____space.\n\n【考点】冠词\n【出处】2011-2012学年辽宁大连第四十四中学初二上期期中考试英语卷（带解析） · 2012 · 题庄题号 6400930",
+      "options": [
+        {
+          "key": "A",
+          "text": "a",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "an",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "the",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "/",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "冠词",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "30e16b22972dccc7c60fff8d16f965e5",
+      "raw": {
+        "id": 6400930,
+        "title_html": "There is long way to go for scientists to study _____space.",
+        "options_html": {
+          "A": "a",
+          "B": "an",
+          "C": "the",
+          "D": "/"
+        },
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "30e16b22972dccc7c60fff8d16f965e5",
+        "source": "2011-2012学年辽宁大连第四十四中学初二上期期中考试英语卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "冠词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6401829",
+      "source": "题庄真题 · 2012-2013学年江苏省启东市东海中学八年级上学期期中考试英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "主谓一致",
+      "grammar_point": "主谓一致",
+      "mode": "single",
+      "stem": "We all think we are tired after the long work. Let，s stop a rest.",
+      "passage": "【题干原文】\nWe all think we are tired after the long work. Let，s stop a rest.\n\n【考点】主谓一致\n【出处】2012-2013学年江苏省启东市东海中学八年级上学期期中考试英语试卷（带解析） · 2013 · 题庄题号 6401829",
+      "options": [
+        {
+          "key": "A",
+          "text": "have",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "to have",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "having",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "to having",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "主谓一致",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "178f22b43e66c4bc47eb2eb9df65633f",
+      "raw": {
+        "id": 6401829,
+        "title_html": "We all think we are tired after the long work. Let<sup>，</sup>s stop<u>      </u>a rest.",
+        "options_html": {
+          "A": "have",
+          "B": "to have",
+          "C": "having",
+          "D": "to having"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "178f22b43e66c4bc47eb2eb9df65633f",
+        "source": "2012-2013学年江苏省启东市东海中学八年级上学期期中考试英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "主谓一致",
+        "year": 2013
+      }
+    },
+    {
+      "id": "TZ6405352",
+      "source": "题庄真题 · 2012-2013学年江苏扬州江都区麾村中学八年级上第一次月考英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "主谓一致",
+      "grammar_point": "主谓一致",
+      "mode": "single",
+      "stem": "The number of pandas(熊猫) becoming .",
+      "passage": "【题干原文】\nThe number of pandas(熊猫) becoming .\n\n【考点】主谓一致\n【出处】2012-2013学年江苏扬州江都区麾村中学八年级上第一次月考英语试卷（带解析） · 2013 · 题庄题号 6405352",
+      "options": [
+        {
+          "key": "A",
+          "text": "is more and more",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "are less and less",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "is smaller and smaller",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "are fewer and fewer",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "主谓一致",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "fa8f3ffe3cb72e164c6e7c21fa7ee93c",
+      "raw": {
+        "id": 6405352,
+        "title_html": "<br>The number of pandas(熊猫) <u>      </u> becoming <u>        </u> .",
+        "options_html": {
+          "A": "is more and more",
+          "B": "are less and less",
+          "C": "is smaller and smaller",
+          "D": "are fewer and fewer"
+        },
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "fa8f3ffe3cb72e164c6e7c21fa7ee93c",
+        "source": "2012-2013学年江苏扬州江都区麾村中学八年级上第一次月考英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "主谓一致",
+        "year": 2013
+      }
+    },
+    {
+      "id": "TZ6408405",
+      "source": "题庄真题 · 2012-2013学年山东临沭第三初级中学八年级上学期10月月考英语卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "名词与数",
+      "mode": "single",
+      "stem": "They watch TV__________.",
+      "passage": "【题干原文】\nThey watch TV__________.\n\n【考点】数词\n【出处】2012-2013学年山东临沭第三初级中学八年级上学期10月月考英语卷（带解析） · 2013 · 题庄题号 6408405",
+      "options": [
+        {
+          "key": "A",
+          "text": "one a week",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "once a week",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "one the week",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "once week",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "名词与数",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "5d1c0ed4a9c7d97d6a9e56955e98dad6",
+      "raw": {
+        "id": 6408405,
+        "title_html": "They watch TV__________.",
+        "options_html": {
+          "A": "one a week",
+          "B": "once a week",
+          "C": "one the week",
+          "D": "once week"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "5d1c0ed4a9c7d97d6a9e56955e98dad6",
+        "source": "2012-2013学年山东临沭第三初级中学八年级上学期10月月考英语卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "数词",
+        "year": 2013
+      }
+    },
+    {
+      "id": "TZ6409120",
+      "source": "题庄真题 · 2011-2012学年浙江乐清市柳市乐成学区八年级下学期期中考英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "主谓一致",
+      "grammar_point": "主谓一致",
+      "mode": "single",
+      "stem": "–Will there be a basketball game on CCTV-5 tonight?\n-__________________. Would you like to watch it with me?",
+      "passage": "【题干原文】\n–Will there be a basketball game on CCTV-5 tonight?\n-__________________. Would you like to watch it with me?\n\n【考点】主谓一致\n【出处】2011-2012学年浙江乐清市柳市乐成学区八年级下学期期中考英语试卷（带解析） · 2012 · 题庄题号 6409120",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, there is.",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "Yes, there will.",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "No, there isn’t.",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "No, there won’t.",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "主谓一致",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "b20085f6bd5902b3b311c0fc20425da6",
+      "raw": {
+        "id": 6409120,
+        "title_html": "–Will there be a basketball game on CCTV-5 tonight?<br>-__________________. Would you like to watch it with me?",
+        "options_html": {
+          "A": "Yes, there is.",
+          "B": "Yes, there will.",
+          "C": "No, there isn’t.",
+          "D": "No, there won’t."
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "b20085f6bd5902b3b311c0fc20425da6",
+        "source": "2011-2012学年浙江乐清市柳市乐成学区八年级下学期期中考英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "主谓一致",
         "year": 2012
       }
     }

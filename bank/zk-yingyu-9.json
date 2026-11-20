@@ -1,13 +1,13 @@
 {
   "format": "zx-trainer-bank-v1",
   "source": "题庄真题库（tizhuang.qcscience.cc）",
-  "generatedAt": "2026-11-19T02:32:22.787981+00:00",
+  "generatedAt": "2026-11-20T02:16:56.544189+00:00",
   "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。英语题的 grammar_group / grammar_point 由关键词推断（结构类优先于时态类），口语交际与语法填空等主观题不在采集范围内。",
   "stats": {
-    "usable": 36,
+    "usable": 51,
     "skipped": 0,
-    "thisRun": 20,
-    "added": 0
+    "thisRun": 35,
+    "added": 15
   },
   "items": [
     {
@@ -2779,6 +2779,1161 @@
         "question_type": "选择题",
         "is_auto_gradable": true,
         "knowledges": "形容词原级;副词的比较级和最高级<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32665766",
+      "source": "题庄真题 · 天津市河东区2023年中考英语一模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "（2023·河东模拟）Among the ways to travel, flying is the fastest and the second cheapest, but you____________ to wait for hours at the airport because of bad weather.",
+      "passage": "【题干原文】\n（2023·河东模拟）Among the ways to travel, flying is the fastest and the second cheapest, but you____________ to wait for hours at the airport because of bad weather.\n\n【考点】情态动词;动词辨析<br/>\n【出处】天津市河东区2023年中考英语一模试卷 · 2023 · 题庄题号 32665766",
+      "options": [
+        {
+          "key": "A",
+          "text": "can",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "may",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "must",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "need",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：在旅行的方式中，乘飞机是最快的，也是第二便宜的，但是由于天气不好，你需要在机场等几个小时。A能，表示能力，B可能，表示能力，C必须，表示义务，D需要，表示条件所需，根据bad weather，wait for hours，可知是因天气条件需要等待，故选D。\n\n【点评】考查动词辨析，注意识记need的用法。\n7．（2023·河东模拟）"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】句意：在旅行的方式中，乘飞机是最快的，也是第二便宜的，但是由于天气不好，你需要在机场等几个小时。A能，表示能力，B可能，表示能力，C必须，表示义务，D需要，表示条件所需，根据bad weather，wait for hours，可知是因天气条件需要等待，故选D。\n\n【点评】考查动词辨析，注意识记need的用法。\n7．（2023·河东模拟）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "6eb3215df5c87d58d366c58d7601113b",
+      "raw": {
+        "id": 32665766,
+        "title_html": "（2023·河东模拟）Among the ways to travel, flying is the fastest and the second cheapest, but you____________ to wait for hours at the airport because of bad weather. <br>",
+        "options_html": {
+          "A": "can  ",
+          "B": "may  ",
+          "C": "must  ",
+          "D": "need"
+        },
+        "answer": "D",
+        "answer_html": "D<br>",
+        "analysis_html": "【分析】句意：在旅行的方式中，乘飞机是最快的，也是第二便宜的，但是由于天气不好，你需要在机场等几个小时。A能，表示能力，B可能，表示能力，C必须，表示义务，D需要，表示条件所需，根据bad weather，wait for hours，可知是因天气条件需要等待，故选D。<br>\n【点评】考查动词辨析，注意识记need的用法。<br>7．（2023·河东模拟）",
+        "content_hash": "6eb3215df5c87d58d366c58d7601113b",
+        "source": "天津市河东区2023年中考英语一模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "情态动词;动词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32665768",
+      "source": "题庄真题 · 天津市河东区2023年中考英语一模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "动词时态",
+      "grammar_point": "过去进行时",
+      "mode": "single",
+      "stem": "（2023·河东模拟）While Alice_______, she______ her cat, Dinah. Suddenly she landed on some dry leaves.",
+      "passage": "【题干原文】\n（2023·河东模拟）While Alice_______, she______ her cat, Dinah. Suddenly she landed on some dry leaves.\n\n【考点】过去进行时<br/>\n【出处】天津市河东区2023年中考英语一模试卷 · 2023 · 题庄题号 32665768",
+      "options": [
+        {
+          "key": "A",
+          "text": "was falling, was thinking about",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：当爱丽丝掉下去的时候，她在想她的猫，黛娜。突然，她落在一些干树叶上。while引导的时间状语从句，主句和从句的动词都是持续状态，故都用过去进行时，cat是名词作宾语，think是不及物动词，故用think about，故选A。\n\n【点评】考查动词，注意识记过去进行时，think about的用法。\n9．（2023·河东模拟）"
+        },
+        {
+          "key": "B",
+          "text": "fell, was thinking about",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "fell, thought about",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "was falling, was thinking",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "过去进行时",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】句意：当爱丽丝掉下去的时候，她在想她的猫，黛娜。突然，她落在一些干树叶上。while引导的时间状语从句，主句和从句的动词都是持续状态，故都用过去进行时，cat是名词作宾语，think是不及物动词，故用think about，故选A。\n\n【点评】考查动词，注意识记过去进行时，think about的用法。\n9．（2023·河东模拟）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "498f9ed4506c4d41410108bf51d73c31",
+      "raw": {
+        "id": 32665768,
+        "title_html": "（2023·河东模拟）While Alice_______, she______ her cat, Dinah. Suddenly she landed on some dry leaves. <br>",
+        "options_html": {
+          "A": "was falling, was thinking about",
+          "B": "fell, was thinking about",
+          "C": "fell, thought about",
+          "D": "was falling, was thinking"
+        },
+        "answer": "A",
+        "answer_html": "A<br>",
+        "analysis_html": "【分析】句意：当爱丽丝掉下去的时候，她在想她的猫，黛娜。突然，她落在一些干树叶上。while引导的时间状语从句，主句和从句的动词都是持续状态，故都用过去进行时，cat是名词作宾语，think是不及物动词，故用think about，故选A。<br>\n【点评】考查动词，注意识记过去进行时，think about的用法。<br>9．（2023·河东模拟）",
+        "content_hash": "498f9ed4506c4d41410108bf51d73c31",
+        "source": "天津市河东区2023年中考英语一模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "过去进行时<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32665770",
+      "source": "题庄真题 · 天津市河东区2023年中考英语一模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "被动语态",
+      "grammar_point": "被动语态",
+      "mode": "single",
+      "stem": "（2023·河东模拟）We're sure that the environment in our city _________greatly through our work in the near future.",
+      "passage": "【题干原文】\n（2023·河东模拟）We're sure that the environment in our city _________greatly through our work in the near future.\n\n【考点】一般将来时的被动语态<br/>\n【出处】天津市河东区2023年中考英语一模试卷 · 2023 · 题庄题号 32665770",
+      "options": [
+        {
+          "key": "A",
+          "text": "improved",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "was improved",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "will improve",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "will be improved",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：我们相信，通过我们的努力，在不久的将来，我们城市的环境会得到很大的改善。A一般过去时，B一般过去时被动语态，C一般将来时，D一般将来时被动语态， in the near future的一般将来时标志，主语是city，与谓语动词improve是被动关系，故用一般将来时被动语态，故选D。\n\n【点评】考查时态，语态，注意识记一般将来时被动语态的用法。\n11．（2023·河东模拟）"
+        }
+      ],
+      "points": [],
+      "formula_ref": "被动语态",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】句意：我们相信，通过我们的努力，在不久的将来，我们城市的环境会得到很大的改善。A一般过去时，B一般过去时被动语态，C一般将来时，D一般将来时被动语态， in the near future的一般将来时标志，主语是city，与谓语动词improve是被动关系，故用一般将来时被动语态，故选D。\n\n【点评】考查时态，语态，注意识记一般将来时被动语态的用法。\n11．（2023·河东模拟）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "d6692f1cfdaeabbd29fdfeaced30ac74",
+      "raw": {
+        "id": 32665770,
+        "title_html": "（2023·河东模拟）We&#x27;re sure that the environment in our city _________greatly through our work in the near future. <br>",
+        "options_html": {
+          "A": "improved  ",
+          "B": "was improved",
+          "C": "will improve  ",
+          "D": "will be improved"
+        },
+        "answer": "D",
+        "answer_html": "D<br>",
+        "analysis_html": "【分析】句意：我们相信，通过我们的努力，在不久的将来，我们城市的环境会得到很大的改善。A一般过去时，B一般过去时被动语态，C一般将来时，D一般将来时被动语态， in the near future的一般将来时标志，主语是city，与谓语动词improve是被动关系，故用一般将来时被动语态，故选D。<br>\n【点评】考查时态，语态，注意识记一般将来时被动语态的用法。<br>11．（2023·河东模拟）",
+        "content_hash": "d6692f1cfdaeabbd29fdfeaced30ac74",
+        "source": "天津市河东区2023年中考英语一模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "一般将来时的被动语态<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32665771",
+      "source": "题庄真题 · 天津市河东区2023年中考英语一模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "连词",
+      "mode": "single",
+      "stem": "（2023·河东模拟）___________ finishing school in 1918, he became a head teacher of a primary school.",
+      "passage": "【题干原文】\n（2023·河东模拟）___________ finishing school in 1918, he became a head teacher of a primary school.\n\n【考点】连词辨析<br/>\n【出处】天津市河东区2023年中考英语一模试卷 · 2023 · 题庄题号 32665771",
+      "options": [
+        {
+          "key": "A",
+          "text": "While",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "When",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "Before",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "After",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：1918年完成学业后，他成为一所小学的校长。A当......的时候，B当......的时候，C之前，D之后，根据became a head teacher，finishing school，可知是先毕业后当老师，故用after，故选D。\n\n【点评】考查连词辨析，注意识记After的用法。\n12．（2023·河东模拟）"
+        }
+      ],
+      "points": [],
+      "formula_ref": "连词",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】句意：1918年完成学业后，他成为一所小学的校长。A当......的时候，B当......的时候，C之前，D之后，根据became a head teacher，finishing school，可知是先毕业后当老师，故用after，故选D。\n\n【点评】考查连词辨析，注意识记After的用法。\n12．（2023·河东模拟）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "8465ea2f6d6b9cf5e3eccf88bc6f26bd",
+      "raw": {
+        "id": 32665771,
+        "title_html": "（2023·河东模拟）___________ finishing school in 1918, he became a head teacher of a primary school. <br>",
+        "options_html": {
+          "A": "While  ",
+          "B": "When  ",
+          "C": "Before  ",
+          "D": "After"
+        },
+        "answer": "D",
+        "answer_html": "D<br>",
+        "analysis_html": "【分析】句意：1918年完成学业后，他成为一所小学的校长。A当......的时候，B当......的时候，C之前，D之后，根据became a head teacher，finishing school，可知是先毕业后当老师，故用after，故选D。<br>\n【点评】考查连词辨析，注意识记After的用法。<br>12．（2023·河东模拟）",
+        "content_hash": "8465ea2f6d6b9cf5e3eccf88bc6f26bd",
+        "source": "天津市河东区2023年中考英语一模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "连词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32665775",
+      "source": "题庄真题 · 天津市河东区2023年中考英语一模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "情景交际",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "情景交际",
+      "grammar_point": "情景交际 · 邀请与建议",
+      "mode": "single",
+      "stem": "（2023·河东模拟）—Hey, Daming! How was your weekend?\n\n—___________! I went to Shenzhen, a magical city.",
+      "passage": "【题干原文】\n（2023·河东模拟）—Hey, Daming! How was your weekend?\n\n—___________! I went to Shenzhen, a magical city.\n\n【考点】情景交际<br/>\n【出处】天津市河东区2023年中考英语一模试卷 · 2023 · 题庄题号 32665775",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pretty good",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——嗨，大明！你周末过得怎么样？——很好！我去了深圳，一个神奇的城市。A很好，B太糟了，C不是很好，D加油，根据a magical city，可知感觉很好，故选A。\n\n【点评】考查情景交际，注意识记Pretty good的用法。"
+        },
+        {
+          "key": "B",
+          "text": "That's too bad",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "Not really good",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "Come on",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "情景交际 · 邀请与建议",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】句意：——嗨，大明！你周末过得怎么样？——很好！我去了深圳，一个神奇的城市。A很好，B太糟了，C不是很好，D加油，根据a magical city，可知感觉很好，故选A。\n\n【点评】考查情景交际，注意识记Pretty good的用法。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "fa8647107da4533febd19ccd3abdb192",
+      "raw": {
+        "id": 32665775,
+        "title_html": "（2023·河东模拟）—Hey, Daming! How was your weekend?\n<br>—___________! I went to Shenzhen, a magical city.<br>",
+        "options_html": {
+          "A": "Pretty good  ",
+          "B": "That&#x27;s too bad",
+          "C": "Not really good  ",
+          "D": "Come on"
+        },
+        "answer": "A",
+        "answer_html": "A<br>",
+        "analysis_html": "【分析】句意：——嗨，大明！你周末过得怎么样？——很好！我去了深圳，一个神奇的城市。A很好，B太糟了，C不是很好，D加油，根据a magical city，可知感觉很好，故选A。<br>\n【点评】考查情景交际，注意识记Pretty good的用法。<br>",
+        "content_hash": "fa8647107da4533febd19ccd3abdb192",
+        "source": "天津市河东区2023年中考英语一模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "情景交际<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32665831",
+      "source": "题庄真题 · 安徽省中考2023年九年级英语调研卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "连词",
+      "mode": "single",
+      "stem": "（1分）（2023·安徽模拟）—___________ you have your health, nothing else matters.\n\n—I can't agree with you any more.",
+      "passage": "【题干原文】\n（1分）（2023·安徽模拟）—___________ you have your health, nothing else matters.\n\n—I can't agree with you any more.\n\n【考点】连词辨析<br/>\n【出处】安徽省中考2023年九年级英语调研卷 · 2023 · 题庄题号 32665831",
+      "options": [
+        {
+          "key": "A",
+          "text": "As long as",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——只要你有健康，其他都不重要。——我再也不能同意你的观点了。A： As long as，只要。B： Although，虽然。C： Until，直到……才。D： As soon as，一……就。根据you have your health, nothing else matters可知，健康是最重要的，所以只要有健康，其他的都不重要。所以要用as long as表示，故答案为A。\n\n【点评】考查连词辨析。注意连词的意思以及用法，结合语境，选出合适的答案。\n9．（1分）（2023·安徽模拟）"
+        },
+        {
+          "key": "B",
+          "text": "Although",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "Until",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "As soon as",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "连词",
+      "total_score": 1,
+      "reference_answer": "标答：A\n原题解析：【分析】句意：——只要你有健康，其他都不重要。——我再也不能同意你的观点了。A： As long as，只要。B： Although，虽然。C： Until，直到……才。D： As soon as，一……就。根据you have your health, nothing else matters可知，健康是最重要的，所以只要有健康，其他的都不重要。所以要用as long as表示，故答案为A。\n\n【点评】考查连词辨析。注意连词的意思以及用法，结合语境，选出合适的答案。\n9．（1分）（2023·安徽模拟）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "ca7850b7539ac2dd70c59735978878e6",
+      "raw": {
+        "id": 32665831,
+        "title_html": "（1分）（2023·安徽模拟）—___________ you have your health, nothing else matters.\n<br>—I can&#x27;t agree with you any more.<br>",
+        "options_html": {
+          "A": "As long as  ",
+          "B": "Although  ",
+          "C": "Until  ",
+          "D": "As soon as"
+        },
+        "answer": "A",
+        "answer_html": "A<br>",
+        "analysis_html": "【分析】句意：——只要你有健康，其他都不重要。——我再也不能同意你的观点了。A： As long as，只要。B： Although，虽然。C： Until，直到……才。D： As soon as，一……就。根据you have your health, nothing else matters可知，健康是最重要的，所以只要有健康，其他的都不重要。所以要用as long as表示，故答案为A。<br>\n【点评】考查连词辨析。注意连词的意思以及用法，结合语境，选出合适的答案。<br>9．（1分）（2023·安徽模拟）",
+        "content_hash": "ca7850b7539ac2dd70c59735978878e6",
+        "source": "安徽省中考2023年九年级英语调研卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "连词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32665832",
+      "source": "题庄真题 · 安徽省中考2023年九年级英语调研卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "被动语态",
+      "grammar_point": "被动语态",
+      "mode": "single",
+      "stem": "（1分）（2023·安徽模拟）—The 2023 Space Day of China __________ on April 24 at Hefei Binhu International Convention and Exhibition Center.\n—How exciting! Our hometown is becoming stronger and stronger.",
+      "passage": "【题干原文】\n（1分）（2023·安徽模拟）—The 2023 Space Day of China __________ on April 24 at Hefei Binhu International Convention and Exhibition Center.\n—How exciting! Our hometown is becoming stronger and stronger.\n\n【考点】一般过去时的被动语态<br/>\n【出处】安徽省中考2023年九年级英语调研卷 · 2023 · 题庄题号 32665832",
+      "options": [
+        {
+          "key": "A",
+          "text": "is held",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "was held",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——2023中国航天日4月24日在合肥滨湖国际会展中心举行。——多么令人兴奋！我们的家乡越来越强大。根据 on April 24 可知，这是过去的时间，所以句子的时态应该是一般过去时，所以排除A选项和C选项。且主语The 2023 Space Day of China是中国航天日，所以应该是被举办，要用被动语态be done，故答案为B。\n\n【点评】考查一般过去时的被动语态。注意要根据时间判断句子的时态，再根据主语以及搭配来判断句子的语态。\n10．（1分）（2023·安徽模拟）"
+        },
+        {
+          "key": "C",
+          "text": "will be held",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "held",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "被动语态",
+      "total_score": 1,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：——2023中国航天日4月24日在合肥滨湖国际会展中心举行。——多么令人兴奋！我们的家乡越来越强大。根据 on April 24 可知，这是过去的时间，所以句子的时态应该是一般过去时，所以排除A选项和C选项。且主语The 2023 Space Day of China是中国航天日，所以应该是被举办，要用被动语态be done，故答案为B。\n\n【点评】考查一般过去时的被动语态。注意要根据时间判断句子的时态，再根据主语以及搭配来判断句子的语态。\n10．（1分）（2023·安徽模拟）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "965beefd10b82f2b31342224bfe48137",
+      "raw": {
+        "id": 32665832,
+        "title_html": "（1分）（2023·安徽模拟）—The 2023 Space Day of China __________ on April 24 at Hefei Binhu International Convention and Exhibition Center. <br>—How exciting! Our hometown is becoming stronger and stronger. <br>",
+        "options_html": {
+          "A": "is held  ",
+          "B": "was held  ",
+          "C": "will be held  ",
+          "D": "held"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：——2023中国航天日4月24日在合肥滨湖国际会展中心举行。——多么令人兴奋！我们的家乡越来越强大。根据 on April 24 可知，这是过去的时间，所以句子的时态应该是一般过去时，所以排除A选项和C选项。且主语The 2023 Space Day of China是中国航天日，所以应该是被举办，要用被动语态be done，故答案为B。<br>\n【点评】考查一般过去时的被动语态。注意要根据时间判断句子的时态，再根据主语以及搭配来判断句子的语态。<br>10．（1分）（2023·安徽模拟）",
+        "content_hash": "965beefd10b82f2b31342224bfe48137",
+        "source": "安徽省中考2023年九年级英语调研卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "一般过去时的被动语态<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32665833",
+      "source": "题庄真题 · 安徽省中考2023年九年级英语调研卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "情景交际",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "情景交际",
+      "grammar_point": "情景交际 · 邀请与建议",
+      "mode": "single",
+      "stem": "（1分）（2023·安徽模拟）— Excuse me, could you help me carry the heavy box?\n—__________",
+      "passage": "【题干原文】\n（1分）（2023·安徽模拟）— Excuse me, could you help me carry the heavy box?\n—__________\n\n【考点】情景交际<br/>\n【出处】安徽省中考2023年九年级英语调研卷 · 2023 · 题庄题号 32665833",
+      "options": [
+        {
+          "key": "A",
+          "text": "Go ahead.",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "My pleasure.",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "Nice idea.",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "With pleasure.",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——对不起，你能帮我搬那个重箱子吗？——很乐意效劳。A： Go ahead.，向前。B： My pleasure.，别客气。C： Nice idea.，好主意。D： With pleasure.，乐意效劳。根据could you help me carry the heavy box?可知，这是请求，要求对他人的请求进行回答，所以D选项更为合适的，故选D。\n\n【点评】考查日常交际用语。要注意平时的语言习惯，明白各个选项的含义及用法，根据现有句子选出正确选项。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "情景交际 · 邀请与建议",
+      "total_score": 1,
+      "reference_answer": "标答：D\n原题解析：【分析】句意：——对不起，你能帮我搬那个重箱子吗？——很乐意效劳。A： Go ahead.，向前。B： My pleasure.，别客气。C： Nice idea.，好主意。D： With pleasure.，乐意效劳。根据could you help me carry the heavy box?可知，这是请求，要求对他人的请求进行回答，所以D选项更为合适的，故选D。\n\n【点评】考查日常交际用语。要注意平时的语言习惯，明白各个选项的含义及用法，根据现有句子选出正确选项。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "2b7c0492ae16bba015fa3103d762bd3f",
+      "raw": {
+        "id": 32665833,
+        "title_html": "（1分）（2023·安徽模拟）— Excuse me, could you help me carry the heavy box? <br>—__________<br>",
+        "options_html": {
+          "A": "Go ahead.  ",
+          "B": "My pleasure.  ",
+          "C": "Nice idea.  ",
+          "D": "With pleasure."
+        },
+        "answer": "D",
+        "answer_html": "D<br>",
+        "analysis_html": "【分析】句意：——对不起，你能帮我搬那个重箱子吗？——很乐意效劳。A： Go ahead.，向前。B： My pleasure.，别客气。C： Nice idea.，好主意。D： With pleasure.，乐意效劳。根据could you help me carry the heavy box?可知，这是请求，要求对他人的请求进行回答，所以D选项更为合适的，故选D。<br>\n【点评】考查日常交际用语。要注意平时的语言习惯，明白各个选项的含义及用法，根据现有句子选出正确选项。<br>",
+        "content_hash": "2b7c0492ae16bba015fa3103d762bd3f",
+        "source": "安徽省中考2023年九年级英语调研卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "情景交际<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32667211",
+      "source": "题庄真题 · 江苏省南京市玄武区2023年英语中考零模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "（1分）（2023·玄武模拟）Please read the poem.Which word is the most suitable for ▲?\n\nA Spring Morning\nBy Meng Haoran\nThis spring morning in bed I'm lying,\nNot to awake till birds are crying.\nAfter one night of wind and▲,\nHow many are the fallen flowers?",
+      "passage": "【题干原文】\n（1分）（2023·玄武模拟）Please read the poem.Which word is the most suitable for ▲?\n\nA Spring Morning\nBy Meng Haoran\nThis spring morning in bed I'm lying,\nNot to awake till birds are crying.\nAfter one night of wind and▲,\nHow many are the fallen flowers?\n\n【考点】语音<br/>\n【出处】江苏省南京市玄武区2023年英语中考零模试卷 · 2023 · 题庄题号 32667211",
+      "options": [
+        {
+          "key": "A",
+          "text": "rains",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "storms",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "snows",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "showers",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：请读这首诗。哪个词最合适？A.雨；B.暴风雨；C.雪；D.阵雨。根据后句How many are the fallen flowers?中flowers，可知是showers，故选D。\n\n【点评】考查诗歌，注意根据关键词flowers确定。\n2．（1分）（2023·玄武模拟）"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 1,
+      "reference_answer": "标答：D\n原题解析：【分析】句意：请读这首诗。哪个词最合适？A.雨；B.暴风雨；C.雪；D.阵雨。根据后句How many are the fallen flowers?中flowers，可知是showers，故选D。\n\n【点评】考查诗歌，注意根据关键词flowers确定。\n2．（1分）（2023·玄武模拟）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "b029c5b1bd8d37a1567c17ba0dac8633",
+      "raw": {
+        "id": 32667211,
+        "title_html": "（1分）（2023·玄武模拟）Please read the poem.Which word is the most suitable for <u>▲</u>?\n<br><table class=\"contentTable\" border=\"1\"><tr><td>A Spring Morning\nBy Meng Haoran\nThis spring morning in bed I&#x27;m lying,\nNot to awake till birds are crying.\nAfter one night of wind and<u>▲</u>,\nHow many are the fallen flowers?</td></tr></table>",
+        "options_html": {
+          "A": "rains  ",
+          "B": "storms  ",
+          "C": "snows  ",
+          "D": "showers"
+        },
+        "answer": "D",
+        "answer_html": "D<br>",
+        "analysis_html": "【分析】句意：请读这首诗。哪个词最合适？A.雨；B.暴风雨；C.雪；D.阵雨。根据后句How many are the fallen flowers?中flowers，可知是showers，故选D。\n<br>【点评】考查诗歌，注意根据关键词flowers确定。<br>2．（1分）（2023·玄武模拟）",
+        "content_hash": "b029c5b1bd8d37a1567c17ba0dac8633",
+        "source": "江苏省南京市玄武区2023年英语中考零模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "语音<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32667215",
+      "source": "题庄真题 · 江苏省南京市玄武区2023年英语中考零模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "词汇辨析",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词汇辨析",
+      "grammar_point": "固定搭配",
+      "mode": "single",
+      "stem": "（1分）（2023·玄武模拟）—Hurry up, Jason! We're going to the cinema, but the clothes still need .\n\n—Don't worry. I think thirty minutes enough.",
+      "passage": "【题干原文】\n（1分）（2023·玄武模拟）—Hurry up, Jason! We're going to the cinema, but the clothes still need .\n\n—Don't worry. I think thirty minutes enough.\n\n【考点】固定搭配;系动词be<br/>\n【出处】江苏省南京市玄武区2023年英语中考零模试卷 · 2023 · 题庄题号 32667215",
+      "options": [
+        {
+          "key": "A",
+          "text": "washing；are",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "to wash；are",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "to wash；is",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "washing；is",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——快点，杰森！我们要去电影院，但衣服还需要洗。——别担心。我想三十分钟就够了。wash洗，实义动词，动词ing是washing。need to do sth.需要做某事，表示主动；need doing sth.需要做某事，表示被动，主语clothes是动作wash的承受者，表示被动，所以用washing，排除B、C；主语thirty minutes指的是时间，所以be动词用is，故选D。\n\n【点评】考查短语辨析和be动词，首先识记need to do sth./doing sth.区别，然后根据主语和wash关系确定短语，最后识记时间做主语谓语动词用单数。\n6．（1分）（2022·扬州）"
+        }
+      ],
+      "points": [],
+      "formula_ref": "固定搭配",
+      "total_score": 1,
+      "reference_answer": "标答：D\n原题解析：【分析】句意：——快点，杰森！我们要去电影院，但衣服还需要洗。——别担心。我想三十分钟就够了。wash洗，实义动词，动词ing是washing。need to do sth.需要做某事，表示主动；need doing sth.需要做某事，表示被动，主语clothes是动作wash的承受者，表示被动，所以用washing，排除B、C；主语thirty minutes指的是时间，所以be动词用is，故选D。\n\n【点评】考查短语辨析和be动词，首先识记need to do sth./doing sth.区别，然后根据主语和wash关系确定短语，最后识记时间做主语谓语动词用单数。\n6．（1分）（2022·扬州）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "9941150c212f87e955c4eadeabc14f61",
+      "raw": {
+        "id": 32667215,
+        "title_html": "（1分）（2023·玄武模拟）—Hurry up, Jason! We&#x27;re going to the cinema, but the clothes still need<u>      </u> .\n<br>—Don&#x27;t worry. I think thirty minutes <u>      </u> enough.<br>",
+        "options_html": {
+          "A": "washing；are  ",
+          "B": "to wash；are  ",
+          "C": "to wash；is  ",
+          "D": "washing；is"
+        },
+        "answer": "D",
+        "answer_html": "D<br>",
+        "analysis_html": "【分析】句意：——快点，杰森！我们要去电影院，但衣服还需要洗。——别担心。我想三十分钟就够了。wash洗，实义动词，动词ing是washing。need to do sth.需要做某事，表示主动；need doing sth.需要做某事，表示被动，主语clothes是动作wash的承受者，表示被动，所以用washing，排除B、C；主语thirty minutes指的是时间，所以be动词用is，故选D。\n<br>【点评】考查短语辨析和be动词，首先识记need to do sth./doing sth.区别，然后根据主语和wash关系确定短语，最后识记时间做主语谓语动词用单数。<br>6．（1分）（2022·扬州）",
+        "content_hash": "9941150c212f87e955c4eadeabc14f61",
+        "source": "江苏省南京市玄武区2023年英语中考零模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "固定搭配;系动词be<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32667217",
+      "source": "题庄真题 · 江苏省南京市玄武区2023年英语中考零模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "连词",
+      "mode": "single",
+      "stem": "（1分）（2023·玄武模拟）You won't fully experience the culture of a foreign country___________ you go there in person.",
+      "passage": "【题干原文】\n（1分）（2023·玄武模拟）You won't fully experience the culture of a foreign country___________ you go there in person.\n\n【考点】连词辨析<br/>\n【出处】江苏省南京市玄武区2023年英语中考零模试卷 · 2023 · 题庄题号 32667217",
+      "options": [
+        {
+          "key": "A",
+          "text": "because",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "unless",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：除非你亲自去，否则你不会完全体验到外国的文化。A.因为；B.除非.....否则.....；C.如果；D.一.....就.....。You won't fully experience the culture of a foreign country你不会完全体验到外国的文化，you go there in person你亲自去，结合选项可知讲的是除非你亲自去，否则你不会完全体验到外国的文化，故选B。\n\n【点评】考查连词辨析，首先理解连词词义，然后根据前后句句意确定连词。\n8．（1分）（2022·昆明）"
+        },
+        {
+          "key": "C",
+          "text": "if",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "as soon as",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "连词",
+      "total_score": 1,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：除非你亲自去，否则你不会完全体验到外国的文化。A.因为；B.除非.....否则.....；C.如果；D.一.....就.....。You won't fully experience the culture of a foreign country你不会完全体验到外国的文化，you go there in person你亲自去，结合选项可知讲的是除非你亲自去，否则你不会完全体验到外国的文化，故选B。\n\n【点评】考查连词辨析，首先理解连词词义，然后根据前后句句意确定连词。\n8．（1分）（2022·昆明）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "021c5c977ec12e8427a5ec35475a8693",
+      "raw": {
+        "id": 32667217,
+        "title_html": "（1分）（2023·玄武模拟）You won&#x27;t fully experience the culture of a foreign country___________ you go there in person. <br>",
+        "options_html": {
+          "A": "because  ",
+          "B": "unless  ",
+          "C": "if  ",
+          "D": "as soon as"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：除非你亲自去，否则你不会完全体验到外国的文化。A.因为；B.除非.....否则.....；C.如果；D.一.....就.....。You won&#x27;t fully experience the culture of a foreign country你不会完全体验到外国的文化，you go there in person你亲自去，结合选项可知讲的是除非你亲自去，否则你不会完全体验到外国的文化，故选B。\n<br>【点评】考查连词辨析，首先理解连词词义，然后根据前后句句意确定连词。<br>8．（1分）（2022·昆明）",
+        "content_hash": "021c5c977ec12e8427a5ec35475a8693",
+        "source": "江苏省南京市玄武区2023年英语中考零模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "连词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32667220",
+      "source": "题庄真题 · 江苏省南京市玄武区2023年英语中考零模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "代词",
+      "mode": "single",
+      "stem": "（1分）（2022·武汉）—To go abroad or not to go after graduation, it's a question.\n—You may take __________ of the roads. But being home in the end matters.",
+      "passage": "【题干原文】\n（1分）（2022·武汉）—To go abroad or not to go after graduation, it's a question.\n—You may take __________ of the roads. But being home in the end matters.\n\n【考点】代词辨析<br/>\n【出处】江苏省南京市玄武区2023年英语中考零模试卷 · 2023 · 题庄题号 32667220",
+      "options": [
+        {
+          "key": "A",
+          "text": "neither",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "either",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：—— 毕业后出国还是不去，这是个问题。 ——两条路你都可以走。但最终回家很重要。 A.两者都不；B.两者之一；C.两者都；D.三者或三者以上都不，没有。根据To go abroad or not to go after graduation, it's a question.和 But being home in the end matters. 可知，此处的意思是选“两者之一”，用either。故选B。\n\n【点评】考查代词辨析，注意代词either的用法。\n11．（1分）（2023·玄武模拟）"
+        },
+        {
+          "key": "C",
+          "text": "both",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "none",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "代词",
+      "total_score": 1,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：—— 毕业后出国还是不去，这是个问题。 ——两条路你都可以走。但最终回家很重要。 A.两者都不；B.两者之一；C.两者都；D.三者或三者以上都不，没有。根据To go abroad or not to go after graduation, it's a question.和 But being home in the end matters. 可知，此处的意思是选“两者之一”，用either。故选B。\n\n【点评】考查代词辨析，注意代词either的用法。\n11．（1分）（2023·玄武模拟）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "3c9d3109f11499077ceb78defc02ef94",
+      "raw": {
+        "id": 32667220,
+        "title_html": "（1分）（2022·武汉）—To go abroad or not to go after graduation, it&#x27;s a question.   <br>—You may take __________ of the roads. But being home in the end matters. <br>",
+        "options_html": {
+          "A": "neither  ",
+          "B": "either  ",
+          "C": "both  ",
+          "D": "none"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：—— 毕业后出国还是不去，这是个问题。 ——两条路你都可以走。但最终回家很重要。 A.两者都不；B.两者之一；C.两者都；D.三者或三者以上都不，没有。根据To go abroad or not to go after graduation, it&#x27;s a question.和 But being home in the end matters. 可知，此处的意思是选“两者之一”，用either。故选B。<br>\n【点评】考查代词辨析，注意代词either的用法。<br>11．（1分）（2023·玄武模拟）",
+        "content_hash": "3c9d3109f11499077ceb78defc02ef94",
+        "source": "江苏省南京市玄武区2023年英语中考零模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "代词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32667221",
+      "source": "题庄真题 · 江苏省南京市玄武区2023年英语中考零模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "被动语态",
+      "grammar_point": "被动语态",
+      "mode": "single",
+      "stem": "（1分）（2023·玄武模拟）It's a long time! I can't remember when this picture ___________ in Xuanwu Lake Park.",
+      "passage": "【题干原文】\n（1分）（2023·玄武模拟）It's a long time! I can't remember when this picture ___________ in Xuanwu Lake Park.\n\n【考点】一般过去时的被动语态<br/>\n【出处】江苏省南京市玄武区2023年英语中考零模试卷 · 2023 · 题庄题号 32667221",
+      "options": [
+        {
+          "key": "A",
+          "text": "was taken",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：时间很长！我不记得这张照片是什么时候在玄武湖公园拍摄的。A.被拍摄，一般过去时的被动语态；B.拍照，一般现在时；C.被拍照，一般现在时的被动语态；D.拍照，一般过去时。主语picture是动作take的承受者，时态是一般过去时，所以用一般过去时的被动语态，结构是was/were+动词过去分词，主语是单数picture，所以be动词用was，take的过去分词是taken，故选A。\n\n【点评】考查一般过去时的被动语态，首先根据主语和谓语关系确定语态，然后识记一般过去时的被动语态结构。\n12．（1分）（2023·玄武模拟）"
+        },
+        {
+          "key": "B",
+          "text": "take",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "is taken",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "took",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "被动语态",
+      "total_score": 1,
+      "reference_answer": "标答：A\n原题解析：【分析】句意：时间很长！我不记得这张照片是什么时候在玄武湖公园拍摄的。A.被拍摄，一般过去时的被动语态；B.拍照，一般现在时；C.被拍照，一般现在时的被动语态；D.拍照，一般过去时。主语picture是动作take的承受者，时态是一般过去时，所以用一般过去时的被动语态，结构是was/were+动词过去分词，主语是单数picture，所以be动词用was，take的过去分词是taken，故选A。\n\n【点评】考查一般过去时的被动语态，首先根据主语和谓语关系确定语态，然后识记一般过去时的被动语态结构。\n12．（1分）（2023·玄武模拟）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "5d9a49a5f845acf1536e01a07a7c341a",
+      "raw": {
+        "id": 32667221,
+        "title_html": "（1分）（2023·玄武模拟）It&#x27;s a long time! I can&#x27;t remember when this picture ___________ in Xuanwu Lake Park.<br>",
+        "options_html": {
+          "A": "was taken  ",
+          "B": "take  ",
+          "C": "is taken  ",
+          "D": "took"
+        },
+        "answer": "A",
+        "answer_html": "A<br>",
+        "analysis_html": "【分析】句意：时间很长！我不记得这张照片是什么时候在玄武湖公园拍摄的。A.被拍摄，一般过去时的被动语态；B.拍照，一般现在时；C.被拍照，一般现在时的被动语态；D.拍照，一般过去时。主语picture是动作take的承受者，时态是一般过去时，所以用一般过去时的被动语态，结构是was/were+动词过去分词，主语是单数picture，所以be动词用was，take的过去分词是taken，故选A。\n<br>【点评】考查一般过去时的被动语态，首先根据主语和谓语关系确定语态，然后识记一般过去时的被动语态结构。<br>12．（1分）（2023·玄武模拟）",
+        "content_hash": "5d9a49a5f845acf1536e01a07a7c341a",
+        "source": "江苏省南京市玄武区2023年英语中考零模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "一般过去时的被动语态<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32667225",
+      "source": "题庄真题 · 江苏省南京市玄武区2023年英语中考零模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "情景交际",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "情景交际",
+      "grammar_point": "情景交际 · 邀请与建议",
+      "mode": "single",
+      "stem": "（1分）（2020·南京）—It was a fantastic trip. So, which city did you like best, Wuhan, Chengdu or Chongqing?\n—______. There were good things and bad things about them.",
+      "passage": "【题干原文】\n（1分）（2020·南京）—It was a fantastic trip. So, which city did you like best, Wuhan, Chengdu or Chongqing?\n—______. There were good things and bad things about them.\n\n【考点】情景交际<br/>\n【出处】江苏省南京市玄武区2023年英语中考零模试卷 · 2023 · 题庄题号 32667225",
+      "options": [
+        {
+          "key": "A",
+          "text": "No problem",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "It is hard to say",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——这是一次美妙的旅行。那么，你最喜欢哪个城市，武汉，成都还是重庆?——很难说。他们有好的一面，也有不好的一面。A.没问题；B.很难说。C.玩得开心。D.你一定是开玩笑。根据句意和There were good things and bad things about them. 可知B符合题意，故答案为B。\n\n【点评】考查情景交际。注意理解句意并识记常用的日常用语。"
+        },
+        {
+          "key": "C",
+          "text": "Enjoy yourself",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "You must be joking",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "情景交际 · 邀请与建议",
+      "total_score": 1,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：——这是一次美妙的旅行。那么，你最喜欢哪个城市，武汉，成都还是重庆?——很难说。他们有好的一面，也有不好的一面。A.没问题；B.很难说。C.玩得开心。D.你一定是开玩笑。根据句意和There were good things and bad things about them. 可知B符合题意，故答案为B。\n\n【点评】考查情景交际。注意理解句意并识记常用的日常用语。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "22dca42a5e214f528dc3ccf60bce1d64",
+      "raw": {
+        "id": 32667225,
+        "title_html": "（1分）（2020·南京）—It was a fantastic trip. So, which city did you like best, Wuhan, Chengdu or Chongqing?  <br>—______. There were good things and bad things about them. <br>",
+        "options_html": {
+          "A": "No problem  ",
+          "B": "It is hard to say",
+          "C": "Enjoy yourself  ",
+          "D": "You must be joking"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：——这是一次美妙的旅行。那么，你最喜欢哪个城市，武汉，成都还是重庆?——很难说。他们有好的一面，也有不好的一面。A.没问题；B.很难说。C.玩得开心。D.你一定是开玩笑。根据句意和There were good things and bad things about them. 可知B符合题意，故答案为B。<br>\n【点评】考查情景交际。注意理解句意并识记常用的日常用语。<br>",
+        "content_hash": "22dca42a5e214f528dc3ccf60bce1d64",
+        "source": "江苏省南京市玄武区2023年英语中考零模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "情景交际<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32667247",
+      "source": "题庄真题 · 江苏省宿迁市泗洪县2023年英语中考一模试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "词汇辨析",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词汇辨析",
+      "grammar_point": "固定搭配",
+      "mode": "single",
+      "stem": "（2分）（2023·泗洪模拟）We Chinese people find_________very important to help develop African countries along the Belt and Road.",
+      "passage": "【题干原文】\n（2分）（2023·泗洪模拟）We Chinese people find_________very important to help develop African countries along the Belt and Road.\n\n【考点】固定搭配<br/>\n【出处】江苏省宿迁市泗洪县2023年英语中考一模试卷 · 2023 · 题庄题号 32667247",
+      "options": [
+        {
+          "key": "A",
+          "text": "it",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：我们中国人认为帮助一带一路沿线非洲国家发展非常重要。A.它；B.这个；C.它的；D.那个。find it+形容词+to do sth.发现做某事是怎样的，固定搭配，故选A。\n\n【点评】考查固定搭配find it+形容词+to do sth.，理解句意。\n3．（2分）（2023·泗洪模拟）"
+        },
+        {
+          "key": "B",
+          "text": "this",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "its",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "that",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "固定搭配",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】句意：我们中国人认为帮助一带一路沿线非洲国家发展非常重要。A.它；B.这个；C.它的；D.那个。find it+形容词+to do sth.发现做某事是怎样的，固定搭配，故选A。\n\n【点评】考查固定搭配find it+形容词+to do sth.，理解句意。\n3．（2分）（2023·泗洪模拟）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "06640bf2d4dda1f3fd5f7988efc1826e",
+      "raw": {
+        "id": 32667247,
+        "title_html": "（2分）（2023·泗洪模拟）We Chinese people find_________very important to help develop African countries along the Belt and Road. <br>",
+        "options_html": {
+          "A": "it  ",
+          "B": "this  ",
+          "C": "its  ",
+          "D": "that"
+        },
+        "answer": "A",
+        "answer_html": "A<br>",
+        "analysis_html": "【分析】句意：我们中国人认为帮助一带一路沿线非洲国家发展非常重要。A.它；B.这个；C.它的；D.那个。find it+形容词+to do sth.发现做某事是怎样的，固定搭配，故选A。\n<br>【点评】考查固定搭配find it+形容词+to do sth.，理解句意。<br>3．（2分）（2023·泗洪模拟）",
+        "content_hash": "06640bf2d4dda1f3fd5f7988efc1826e",
+        "source": "江苏省宿迁市泗洪县2023年英语中考一模试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "固定搭配<br/>",
         "year": 2023
       }
     }

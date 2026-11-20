@@ -1,13 +1,13 @@
 {
   "format": "zx-trainer-bank-v1",
   "source": "题庄真题库（tizhuang.qcscience.cc）",
-  "generatedAt": "2026-11-17T03:47:58.395677+00:00",
+  "generatedAt": "2026-11-20T02:16:31.611697+00:00",
   "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。英语题的 grammar_group / grammar_point 由关键词推断（结构类优先于时态类），口语交际与语法填空等主观题不在采集范围内。",
   "stats": {
-    "usable": 14,
-    "skipped": 0,
-    "thisRun": 10,
-    "added": 10
+    "usable": 16,
+    "skipped": 23,
+    "thisRun": 2,
+    "added": 2
   },
   "items": [
     {
@@ -1071,6 +1071,150 @@
         "is_auto_gradable": true,
         "knowledges": "情景交际",
         "year": 2024
+      }
+    },
+    {
+      "id": "TZ10435672",
+      "source": "题庄真题 · 不详",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "You _____ get down the bus until the bus has stopped.",
+      "passage": "【题干原文】\nYou _____ get down the bus until the bus has stopped.\n\n【考点】虚拟语气,情态动词\n【出处】不详 · 2014 · 题庄题号 10435672",
+      "options": [
+        {
+          "key": "A",
+          "text": "can’t",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "needn’t",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "mustn’t",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "don’t",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "94dcb5295b6afd6c83fddbe7df456ea1",
+      "raw": {
+        "id": 10435672,
+        "title_html": "<div>You _____ get down the bus until the bus has stopped.  <table cellpadding=\"0\" cellspacing=\"0\"><tr><td>A．can’t　　</td><td>B．needn’t　　</td><td>C．mustn’t　　</td><td>D．don’t</td></tr></table></div>",
+        "options_html": {},
+        "answer": "C",
+        "answer_html": "<div>C</div><div>略</div>",
+        "analysis_html": "",
+        "content_hash": "94dcb5295b6afd6c83fddbe7df456ea1",
+        "source": "不详",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "虚拟语气,情态动词",
+        "year": 2014
+      }
+    },
+    {
+      "id": "TZ10435683",
+      "source": "题庄真题 · 不详",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "—Since you can't find a better way out for the time being，why not follow his advice?\n—Oh，_____________．",
+      "passage": "【题干原文】\n—Since you can't find a better way out for the time being，why not follow his advice?\n—Oh，_____________．\n\n【考点】虚拟语气,情态动词\n【出处】不详 · 2014 · 题庄题号 10435683",
+      "options": [
+        {
+          "key": "A",
+          "text": "I believe not",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "I might as well",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "It doesn't matter",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "I don't care",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "43dbeeaa60aa14a376c03bf2dbd67405",
+      "raw": {
+        "id": 10435683,
+        "title_html": "<div>—Since you can&#x27;t find a better way out for the time being，why not follow his advice?<br>—Oh，_____________．<br>A.I believe not    B．I might as well    C．It doesn&#x27;t matter   D．I don&#x27;t care</div>",
+        "options_html": {},
+        "answer": "B",
+        "answer_html": "<div>B</div><div>略</div>",
+        "analysis_html": "",
+        "content_hash": "43dbeeaa60aa14a376c03bf2dbd67405",
+        "source": "不详",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "虚拟语气,情态动词",
+        "year": 2014
       }
     }
   ]
