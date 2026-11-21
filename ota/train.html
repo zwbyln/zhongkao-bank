@@ -26588,8 +26588,14 @@ window.CNDEEP = (function () {
     D.chapMsg = '正在找可用的下载地址…';
     rerender();
     var bases = (window.BANK_MIRRORS || []).slice();
+    /* 本机地址只当保底，排在公网镜像最后：
+       ① 以前 unshift 到第一位，App 里 WebView 的 origin 是 127.0.0.1:8788，
+          HubService 没有章节包路由时就先吃一个 404，用户看到的最后错误就是它；
+       ② 公网镜像能拿到更新版，不该被随包副本抢先。 */
+    var localBase = '';
     if (location.protocol === 'http:' || location.protocol === 'https:') {
-      bases.unshift(location.origin.replace(/\/$/, '') + '/');
+      localBase = location.origin.replace(/\/$/, '') + '/';
+      bases.push(localBase);
     }
     var lastErr = '';
     for (var i = 0; i < bases.length; i++) {
@@ -26607,9 +26613,11 @@ window.CNDEEP = (function () {
         if (n < minB || c < minC) throw new Error('内容不完整（' + n + ' 部 / ' + c + ' 节，至少需 ' + minB + ' 部 / ' + minC + ' 节）');
         localStorage.setItem(CHAPTER_KEY, JSON.stringify(pack));
         localStorage.setItem(CHAPTER_META_KEY, JSON.stringify({ version: pack.version, at: Date.now(), via: url }));
-        D.chapMsg = '已下载 ' + n + ' 部 / ' + c + ' 节 · ' + (pack.version || '新版');
+        var isLocal = localBase && url.indexOf(localBase) === 0;
+        D.chapMsg = (isLocal ? '已加载随包章节包（远端暂不可用）· '
+                             : '已下载 ') + n + ' 部 / ' + c + ' 节 · ' + (pack.version || '新版');
         D.chapBusy = false;
-        say('名著章节包已下载到本地');
+        say(isLocal ? '已加载随包章节包，联网后可再试更新' : '名著章节包已下载到本地');
         rerender();
         return pack;
       } catch (e) {
