@@ -1,13 +1,13 @@
 {
   "format": "zx-trainer-bank-v1",
   "source": "题庄真题库（tizhuang.qcscience.cc）",
-  "generatedAt": "2026-11-20T02:16:50.485182+00:00",
+  "generatedAt": "2026-11-21T02:11:10.525407+00:00",
   "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。英语题的 grammar_group / grammar_point 由关键词推断（结构类优先于时态类），口语交际与语法填空等主观题不在采集范围内。",
   "stats": {
-    "usable": 48,
-    "skipped": 5,
-    "thisRun": 30,
-    "added": 15
+    "usable": 65,
+    "skipped": 18,
+    "thisRun": 17,
+    "added": 17
   },
   "items": [
     {
@@ -3669,6 +3669,1295 @@
         "is_auto_gradable": true,
         "knowledges": "主谓一致",
         "year": 2012
+      }
+    },
+    {
+      "id": "TZ6474783",
+      "source": "题庄真题 · 2013-2014学年江苏南京外国语学校初二上学期期末模拟联考英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "代词",
+      "mode": "single",
+      "stem": "Daniel found ___ easy to finish writing the report on wildlife.",
+      "passage": "【题干原文】\nDaniel found ___ easy to finish writing the report on wildlife.\n\n【考点】指示代词\n【出处】2013-2014学年江苏南京外国语学校初二上学期期末模拟联考英语试卷（带解析） · 2014 · 题庄题号 6474783",
+      "options": [
+        {
+          "key": "A",
+          "text": "it’s",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "its",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "it",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "itself",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "代词",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "eafaeee01c157398f2426e557524e37b",
+      "raw": {
+        "id": 6474783,
+        "title_html": "Daniel found ___ easy to finish writing the report on wildlife.",
+        "options_html": {
+          "A": "it’s",
+          "B": "its",
+          "C": "it",
+          "D": "itself"
+        },
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "eafaeee01c157398f2426e557524e37b",
+        "source": "2013-2014学年江苏南京外国语学校初二上学期期末模拟联考英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "指示代词",
+        "year": 2014
+      }
+    },
+    {
+      "id": "TZ6477815",
+      "source": "题庄真题 · 2013-2014学年浙江宁波外国语学校八年级上学期期末模拟英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "冠词",
+      "mode": "single",
+      "stem": "There is ________ useful book on the desk， _________ useful book belongs to my brother．",
+      "passage": "【题干原文】\nThere is ________ useful book on the desk， _________ useful book belongs to my brother．\n\n【考点】冠词\n【出处】2013-2014学年浙江宁波外国语学校八年级上学期期末模拟英语试卷（带解析） · 2014 · 题庄题号 6477815",
+      "options": [
+        {
+          "key": "A",
+          "text": "a; the",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "an; the",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "a; an",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "an; a",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "冠词",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "3bdf9628f25f7d8a8936ed21b161ef82",
+      "raw": {
+        "id": 6477815,
+        "title_html": "There is ________ useful book on the desk， _________ useful book belongs to my brother．",
+        "options_html": {
+          "A": "a; the",
+          "B": "an; the",
+          "C": "a; an",
+          "D": "an; a"
+        },
+        "answer": "A",
+        "answer_html": "A",
+        "analysis_html": "",
+        "content_hash": "3bdf9628f25f7d8a8936ed21b161ef82",
+        "source": "2013-2014学年浙江宁波外国语学校八年级上学期期末模拟英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "冠词",
+        "year": 2014
+      }
+    },
+    {
+      "id": "TZ6509252",
+      "source": "题庄真题 · 2013-2014学年湖北省黄石市第九中学八年级下第一次月考英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "代词",
+      "mode": "single",
+      "stem": "We find impossible to finish the work in a week.",
+      "passage": "【题干原文】\nWe find impossible to finish the work in a week.\n\n【考点】代词\n【出处】2013-2014学年湖北省黄石市第九中学八年级下第一次月考英语试卷（带解析） · 2014 · 题庄题号 6509252",
+      "options": [
+        {
+          "key": "A",
+          "text": "one",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "that",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "it",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "this",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "代词",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "73df5b8e8f321537c6bb18033cb3a377",
+      "raw": {
+        "id": 6509252,
+        "title_html": "We find <u>    </u> impossible to finish the work in a week.",
+        "options_html": {
+          "A": "one",
+          "B": "that",
+          "C": "it",
+          "D": "this"
+        },
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "73df5b8e8f321537c6bb18033cb3a377",
+        "source": "2013-2014学年湖北省黄石市第九中学八年级下第一次月考英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "代词",
+        "year": 2014
+      }
+    },
+    {
+      "id": "TZ6512503",
+      "source": "题庄真题 · 2013-2014学年江苏赣榆县汇文双语学校八年级下第三次月考英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "代词",
+      "mode": "single",
+      "stem": "is necessary that you start training a few months before the walk.",
+      "passage": "【题干原文】\nis necessary that you start training a few months before the walk.\n\n【考点】代词\n【出处】2013-2014学年江苏赣榆县汇文双语学校八年级下第三次月考英语试卷（带解析） · 2014 · 题庄题号 6512503",
+      "options": [
+        {
+          "key": "A",
+          "text": "This",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "That",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "What",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "It",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "代词",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "e4b61e34ac090a3b22b56e8867c2a146",
+      "raw": {
+        "id": 6512503,
+        "title_html": "<u>       </u>is necessary that you start training a few months before the walk.",
+        "options_html": {
+          "A": "This",
+          "B": "That",
+          "C": "What",
+          "D": "It"
+        },
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "e4b61e34ac090a3b22b56e8867c2a146",
+        "source": "2013-2014学年江苏赣榆县汇文双语学校八年级下第三次月考英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "代词",
+        "year": 2014
+      }
+    },
+    {
+      "id": "TZ6518973",
+      "source": "题庄真题 · 2013-2014学年江苏省泰州二附中八年级下期期末英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "代词",
+      "mode": "single",
+      "stem": "The daytime of the summer is longer than _____ of the winter.",
+      "passage": "【题干原文】\nThe daytime of the summer is longer than _____ of the winter.\n\n【考点】指示代词\n【出处】2013-2014学年江苏省泰州二附中八年级下期期末英语试卷（带解析） · 2014 · 题庄题号 6518973",
+      "options": [
+        {
+          "key": "A",
+          "text": "it",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "this",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "that",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "daytime",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "代词",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 1,
+      "question_fingerprint": "e407bbf1fd37f7a894e5a1cc879a6256",
+      "raw": {
+        "id": 6518973,
+        "title_html": "The daytime of the summer is longer than _____ of the winter.",
+        "options_html": {
+          "A": "it",
+          "B": "this",
+          "C": "that",
+          "D": "daytime"
+        },
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "e407bbf1fd37f7a894e5a1cc879a6256",
+        "source": "2013-2014学年江苏省泰州二附中八年级下期期末英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "指示代词",
+        "year": 2014
+      }
+    },
+    {
+      "id": "TZ6523662",
+      "source": "题庄真题 · 2010—2011学年山东省枣庄东方国际学校八年级下素质评估英语卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "冠词",
+      "mode": "single",
+      "stem": "I know you don’t like ______ music, but what do you think of ______ music in the film?",
+      "passage": "【题干原文】\nI know you don’t like ______ music, but what do you think of ______ music in the film?\n\n【考点】冠词\n【出处】2010—2011学年山东省枣庄东方国际学校八年级下素质评估英语卷 · 2010 · 题庄题号 6523662",
+      "options": [
+        {
+          "key": "A",
+          "text": "/; /",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "the; the",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "the; /",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "/; the",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "冠词",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "9a5b8a8868a9b1a4dcfc5a98b1703f29",
+      "raw": {
+        "id": 6523662,
+        "title_html": "I know you don’t like ______ music, but what do you think of ______ music in the film?",
+        "options_html": {
+          "A": "/; /",
+          "B": "the; the",
+          "C": "the; /",
+          "D": "/; the"
+        },
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "9a5b8a8868a9b1a4dcfc5a98b1703f29",
+        "source": "2010—2011学年山东省枣庄东方国际学校八年级下素质评估英语卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "冠词",
+        "year": 2010
+      }
+    },
+    {
+      "id": "TZ6523677",
+      "source": "题庄真题 · 2010—2011学年山东省枣庄东方国际学校八年级下素质评估英语卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "名词与数",
+      "mode": "single",
+      "stem": "The park is far from here. It’s about ______.",
+      "passage": "【题干原文】\nThe park is far from here. It’s about ______.\n\n【考点】数词\n【出处】2010—2011学年山东省枣庄东方国际学校八年级下素质评估英语卷 · 2010 · 题庄题号 6523677",
+      "options": [
+        {
+          "key": "A",
+          "text": "thirty minutes’ walk",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "thirty minute’s walk",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "thirty-minute’s walk",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "thirty-minutes’ walk",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "名词与数",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "83bfebc61e12c1e1ed181ad18bc81ca9",
+      "raw": {
+        "id": 6523677,
+        "title_html": "The park is far from here. It’s about ______.",
+        "options_html": {
+          "A": "thirty minutes’ walk",
+          "B": "thirty minute’s walk",
+          "C": "thirty-minute’s walk",
+          "D": "thirty-minutes’ walk"
+        },
+        "answer": "A",
+        "answer_html": "A",
+        "analysis_html": "",
+        "content_hash": "83bfebc61e12c1e1ed181ad18bc81ca9",
+        "source": "2010—2011学年山东省枣庄东方国际学校八年级下素质评估英语卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "数词",
+        "year": 2010
+      }
+    },
+    {
+      "id": "TZ6523716",
+      "source": "题庄真题 · 2010—2011学年山东省枣庄东方国际学校八年级下素质评估英语卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "名词与数",
+      "mode": "single",
+      "stem": "There is a river around our town. It is about ______ long.",
+      "passage": "【题干原文】\nThere is a river around our town. It is about ______ long.\n\n【考点】数词\n【出处】2010—2011学年山东省枣庄东方国际学校八年级下素质评估英语卷 · 2010 · 题庄题号 6523716",
+      "options": [
+        {
+          "key": "A",
+          "text": "6 hundreds kilometers",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "6 hundred kilometers",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "6 hundreds kilometer",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "6 hundred kilometer",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "名词与数",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "2ff2325b91e1b3864ed7f80289426a20",
+      "raw": {
+        "id": 6523716,
+        "title_html": "There is a river around our town. It is about ______ long.",
+        "options_html": {
+          "A": "6 hundreds kilometers",
+          "B": "6 hundred kilometers",
+          "C": "6 hundreds kilometer",
+          "D": "6 hundred kilometer"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "2ff2325b91e1b3864ed7f80289426a20",
+        "source": "2010—2011学年山东省枣庄东方国际学校八年级下素质评估英语卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "数词",
+        "year": 2010
+      }
+    },
+    {
+      "id": "TZ6532018",
+      "source": "题庄真题 · 2011-2012学年江苏省常州市武进区八年级第一学期期中考试英语卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "主谓一致",
+      "grammar_point": "主谓一致",
+      "mode": "single",
+      "stem": "_____number of the students in our class ______ 40. _______ number of them ______ sporty.",
+      "passage": "【题干原文】\n_____number of the students in our class ______ 40. _______ number of them ______ sporty.\n\n【考点】主谓一致\n【出处】2011-2012学年江苏省常州市武进区八年级第一学期期中考试英语卷 · 2012 · 题庄题号 6532018",
+      "options": [
+        {
+          "key": "A",
+          "text": "The , is; The, are",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "The, are; A, is",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "The, is; A, are",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "A, are; The, is",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "主谓一致",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "549041da690bc5c44354865ea9290f93",
+      "raw": {
+        "id": 6532018,
+        "title_html": "_____number of the students in our class ______ 40. _______ number of them ______ sporty.",
+        "options_html": {
+          "A": "The , is; The, are",
+          "B": "The, are; A, is",
+          "C": "The, is; A, are",
+          "D": "A, are; The, is"
+        },
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "549041da690bc5c44354865ea9290f93",
+        "source": "2011-2012学年江苏省常州市武进区八年级第一学期期中考试英语卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "主谓一致",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6532240",
+      "source": "题庄真题 · 2011—2012学年度江苏省连云港市新浦中学八年级上学期期中考试英语卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "主谓一致",
+      "grammar_point": "主谓一致",
+      "mode": "single",
+      "stem": "—A small number of students ______ to school by subway.\n—The number of the students ______ 13.",
+      "passage": "【题干原文】\n—A small number of students ______ to school by subway.\n—The number of the students ______ 13.\n\n【考点】主谓一致\n【出处】2011—2012学年度江苏省连云港市新浦中学八年级上学期期中考试英语卷 · 2011 · 题庄题号 6532240",
+      "options": [
+        {
+          "key": "A",
+          "text": "go, are",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "goes, is",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "goes, are",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "go, is",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "主谓一致",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 5,
+      "question_fingerprint": "ef7f6505b71064775f2115749d77dd78",
+      "raw": {
+        "id": 6532240,
+        "title_html": "—A small number of students ______ to school by subway.<br>—The number of the students ______ 13.",
+        "options_html": {
+          "A": "go, are",
+          "B": "goes, is",
+          "C": "goes, are",
+          "D": "go, is"
+        },
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "ef7f6505b71064775f2115749d77dd78",
+        "source": "2011—2012学年度江苏省连云港市新浦中学八年级上学期期中考试英语卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "主谓一致",
+        "year": 2011
+      }
+    },
+    {
+      "id": "TZ6533517",
+      "source": "题庄真题 · 2011-2012学年江苏省镇江市部分学校八年级上学期联考英语卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "主谓一致",
+      "grammar_point": "主谓一致",
+      "mode": "single",
+      "stem": "The number of the students in Woodland School__________1998.",
+      "passage": "【题干原文】\nThe number of the students in Woodland School__________1998.\n\n【考点】主谓一致\n【出处】2011-2012学年江苏省镇江市部分学校八年级上学期联考英语卷 · 2012 · 题庄题号 6533517",
+      "options": [
+        {
+          "key": "A",
+          "text": "are",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "is",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "be",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "in",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "主谓一致",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "ee7e2e608ad68eba4e2274a80749e7a2",
+      "raw": {
+        "id": 6533517,
+        "title_html": "The number of the students in Woodland School__________1998.",
+        "options_html": {
+          "A": "are",
+          "B": "is",
+          "C": "be",
+          "D": "in"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "ee7e2e608ad68eba4e2274a80749e7a2",
+        "source": "2011-2012学年江苏省镇江市部分学校八年级上学期联考英语卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "主谓一致",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6534022",
+      "source": "题庄真题 · 2011—2012学年重庆市万州中学八年级第一学期期中考试英语卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "主谓一致",
+      "grammar_point": "主谓一致",
+      "mode": "single",
+      "stem": "The number of the students _______ 1200. A number of students _______absent （缺席）yesterday.",
+      "passage": "【题干原文】\nThe number of the students _______ 1200. A number of students _______absent （缺席）yesterday.\n\n【考点】主谓一致\n【出处】2011—2012学年重庆市万州中学八年级第一学期期中考试英语卷 · 2011 · 题庄题号 6534022",
+      "options": [
+        {
+          "key": "A",
+          "text": "are, were",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "is, were",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "is was",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "are, was",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "主谓一致",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "6c04f37dfdeeeb456a288a8456a36806",
+      "raw": {
+        "id": 6534022,
+        "title_html": "The number of the students _______ 1200. A number of students _______absent （缺席）yesterday.",
+        "options_html": {
+          "A": "are, were",
+          "B": "is, were",
+          "C": "is was",
+          "D": "are, was"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "6c04f37dfdeeeb456a288a8456a36806",
+        "source": "2011—2012学年重庆市万州中学八年级第一学期期中考试英语卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "主谓一致",
+        "year": 2011
+      }
+    },
+    {
+      "id": "TZ6534889",
+      "source": "题庄真题 · 2011年江苏省泰兴市实验初级中学初二上学期期中考试英语卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "名词与数",
+      "mode": "single",
+      "stem": "There are over ______ books of all kinds in the library.",
+      "passage": "【题干原文】\nThere are over ______ books of all kinds in the library.\n\n【考点】数词\n【出处】2011年江苏省泰兴市实验初级中学初二上学期期中考试英语卷 · 2011 · 题庄题号 6534889",
+      "options": [
+        {
+          "key": "A",
+          "text": "nine hundred of",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "nine hundreds",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "nine hundred",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "hundred of",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "名词与数",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "b95699f827d720c1736652b494e1016c",
+      "raw": {
+        "id": 6534889,
+        "title_html": "There are over ______ books of all kinds in the library.                                 ",
+        "options_html": {
+          "A": "nine hundred of",
+          "B": "nine hundreds",
+          "C": "nine hundred",
+          "D": "hundred of"
+        },
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "b95699f827d720c1736652b494e1016c",
+        "source": "2011年江苏省泰兴市实验初级中学初二上学期期中考试英语卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "数词",
+        "year": 2011
+      }
+    },
+    {
+      "id": "TZ10588578",
+      "source": "题庄真题 · 不详",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "名词与数",
+      "mode": "single",
+      "stem": "--- What a beautiful city our hometown is! There are many trees ___________ of the road!\n--- Yes, and ____________ of the trees is growing larger and larger.",
+      "passage": "【题干原文】\n--- What a beautiful city our hometown is! There are many trees ___________ of the road!\n--- Yes, and ____________ of the trees is growing larger and larger.\n\n【考点】时刻,基数词,序数词,分数\n【出处】不详 · 2014 · 题庄题号 10588578",
+      "options": [
+        {
+          "key": "A",
+          "text": "on both side; a number",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "on each sides; a number",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "on both sides; the number",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "on every side; the number",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "名词与数",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "b52594a0e97f6dc1e0f73e3306bf1542",
+      "raw": {
+        "id": 10588578,
+        "title_html": "<div>--- What a beautiful city our hometown is! There are many trees ___________ of the road! <br>--- Yes, and ____________ of the trees is growing larger and larger. <table cellpadding=\"0\" cellspacing=\"0\"><tr><td>A．on both side; a number </td><td>B．on each sides; a number </td></tr><tr><td>C．on both sides; the number </td><td>D．on every side; the number</td></tr></table></div>",
+        "options_html": {},
+        "answer": "C",
+        "answer_html": "<div>C</div><div><br>试题分析：本题考查的both，表示两者都的意思，所以后接可数名词复数形式，因此将A排除，而each 与every表示每一个，后接可数名词单数形式，所以将B排除，而every表示的是三者或三者以上中的每一个，而路只有两边，故不能用every，故选答案为C，同时the number of sth后接可数名词复数形式，但作为主语时，相当于三单形式，也符合题意。<br>点评：本题结合生活常识内容，马路有两边，同时要学会对于近义词each，every的区别，以及后接名词的适当形式的考查。</div>",
+        "analysis_html": "",
+        "content_hash": "b52594a0e97f6dc1e0f73e3306bf1542",
+        "source": "不详",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "时刻,基数词,序数词,分数",
+        "year": 2014
+      }
+    },
+    {
+      "id": "TZ10590084",
+      "source": "题庄真题 · 期末题       ",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "从句",
+      "grammar_point": "主语从句",
+      "mode": "single",
+      "stem": "What he said about the life in that country is _______.",
+      "passage": "【题干原文】\nWhat he said about the life in that country is _______.\n\n【考点】形容词,主语从句\n【出处】期末题        · 2011 · 题庄题号 10590084",
+      "options": [
+        {
+          "key": "A",
+          "text": "surprise",
+          "is_correct": false,
+          "trap_type": "关系词误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "surprised",
+          "is_correct": false,
+          "trap_type": "关系词误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "surprising",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "to be surprised",
+          "is_correct": false,
+          "trap_type": "关系词误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "主语从句",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "124628550f224f8e589a93ca12cc9705",
+      "raw": {
+        "id": 10590084,
+        "title_html": "What he said about the life in that country is _______. <br><div align=\"right\">[     ]</div><br>A. surprise <br>B. surprised <br>C. surprising <br>D. to be surprised",
+        "options_html": {},
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "124628550f224f8e589a93ca12cc9705",
+        "source": "期末题       ",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "形容词,主语从句",
+        "year": 2011
+      }
+    },
+    {
+      "id": "TZ10590708",
+      "source": "题庄真题 · 云南省期末题       ",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "形容词与副词",
+      "mode": "single",
+      "stem": "I'm going to move .",
+      "passage": "【题干原文】\nI'm going to move .\n\n【考点】地点副词\n【出处】云南省期末题        · 2010 · 题庄题号 10590708",
+      "options": [
+        {
+          "key": "A",
+          "text": "interesting somewhere",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "somewhere interesting",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "interesting anywhere",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "anywhere interesting",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "形容词与副词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "d5a28e753510419a633004b793695e59",
+      "raw": {
+        "id": 10590708,
+        "title_html": "I&#x27;m going to move <u>          </u>. <br><p align=\"right\">[     ]</p><br>A. interesting somewhere<br> B. somewhere interesting <br>C. interesting anywhere <br>D. anywhere interesting",
+        "options_html": {},
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "d5a28e753510419a633004b793695e59",
+        "source": "云南省期末题       ",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "地点副词",
+        "year": 2010
+      }
+    },
+    {
+      "id": "TZ10590717",
+      "source": "题庄真题 · 月考题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "词汇辨析",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词汇辨析",
+      "grammar_point": "短语动词",
+      "mode": "single",
+      "stem": "Can you call me when you _____ home?",
+      "passage": "【题干原文】\nCan you call me when you _____ home?\n\n【考点】地点副词,动词短语\n【出处】月考题 · 2011 · 题庄题号 10590717",
+      "options": [
+        {
+          "key": "A",
+          "text": "get back to",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "get to back",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "get back",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "get to",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "短语动词",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "6645b4a3517497dfaa1725ea528aa073",
+      "raw": {
+        "id": 10590717,
+        "title_html": "Can you call me when you _____ home? <br><div align=\"right\">[     ]</div><br>A. get back to <br>B. get to back<br>C. get back <br>D. get to",
+        "options_html": {},
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "6645b4a3517497dfaa1725ea528aa073",
+        "source": "月考题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "地点副词,动词短语",
+        "year": 2011
       }
     }
   ]

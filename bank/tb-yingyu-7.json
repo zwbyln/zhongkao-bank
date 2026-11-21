@@ -1,13 +1,13 @@
 {
   "format": "zx-trainer-bank-v1",
   "source": "题庄真题库（tizhuang.qcscience.cc）",
-  "generatedAt": "2026-11-20T02:16:31.611697+00:00",
+  "generatedAt": "2026-11-21T02:11:06.812838+00:00",
   "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。英语题的 grammar_group / grammar_point 由关键词推断（结构类优先于时态类），口语交际与语法填空等主观题不在采集范围内。",
   "stats": {
-    "usable": 16,
-    "skipped": 23,
-    "thisRun": 2,
-    "added": 2
+    "usable": 36,
+    "skipped": 4,
+    "thisRun": 21,
+    "added": 20
   },
   "items": [
     {
@@ -1215,6 +1215,1546 @@
         "is_auto_gradable": true,
         "knowledges": "虚拟语气,情态动词",
         "year": 2014
+      }
+    },
+    {
+      "id": "TZ6366745",
+      "source": "题庄真题 · 2011-2012学年江苏省张家港部分学校初一下学期期中考试英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "冠词",
+      "mode": "single",
+      "stem": "There is _______ 11-meter-long bridge over ______ river.",
+      "passage": "【题干原文】\nThere is _______ 11-meter-long bridge over ______ river.\n\n【考点】冠词\n【出处】2011-2012学年江苏省张家港部分学校初一下学期期中考试英语试卷（带解析） · 2012 · 题庄题号 6366745",
+      "options": [
+        {
+          "key": "A",
+          "text": "a; the",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "the; a",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "an; an",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "an; the",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "冠词",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "76fa3d742034892bc92d34d87eecd72e",
+      "raw": {
+        "id": 6366745,
+        "title_html": "There is _______ 11-meter-long bridge over ______ river.",
+        "options_html": {
+          "A": "a; the",
+          "B": "the; a",
+          "C": "an; an",
+          "D": "an; the"
+        },
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "76fa3d742034892bc92d34d87eecd72e",
+        "source": "2011-2012学年江苏省张家港部分学校初一下学期期中考试英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "冠词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6369329",
+      "source": "题庄真题 · 2011-2012学年江苏省泰兴市实验中学初一下学期期中英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "主谓一致",
+      "grammar_point": "主谓一致",
+      "mode": "single",
+      "stem": "Half of the books ________easy for the students to read．",
+      "passage": "【题干原文】\nHalf of the books ________easy for the students to read．\n\n【考点】主谓一致\n【出处】2011-2012学年江苏省泰兴市实验中学初一下学期期中英语试卷（带解析） · 2012 · 题庄题号 6369329",
+      "options": [
+        {
+          "key": "A",
+          "text": "are",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "is",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "am",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "be",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "主谓一致",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "ac187ad17541c1418c846a3070c556b3",
+      "raw": {
+        "id": 6369329,
+        "title_html": "Half of the books ________easy for the students to read．<br>　 ",
+        "options_html": {
+          "A": "are",
+          "B": "is",
+          "C": "am",
+          "D": "be"
+        },
+        "answer": "A",
+        "answer_html": "A",
+        "analysis_html": "",
+        "content_hash": "ac187ad17541c1418c846a3070c556b3",
+        "source": "2011-2012学年江苏省泰兴市实验中学初一下学期期中英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "主谓一致",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6370844",
+      "source": "题庄真题 · 2011-2012学年江苏省兴化市楚水初级中学初一下学期期中英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "名词与数",
+      "mode": "single",
+      "stem": "— How many members does your club have?\n— There are members in my club.",
+      "passage": "【题干原文】\n— How many members does your club have?\n— There are members in my club.\n\n【考点】数词\n【出处】2011-2012学年江苏省兴化市楚水初级中学初一下学期期中英语试卷（带解析） · 2012 · 题庄题号 6370844",
+      "options": [
+        {
+          "key": "A",
+          "text": "two hundred and twenty and two",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "two hundred twenty-two",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "two hundred twenty and two",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "two hundred and twenty-two",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "名词与数",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "788d945f96b84554b891a056380d7416",
+      "raw": {
+        "id": 6370844,
+        "title_html": "— How many members does your club have?<br>— There are <u>                </u> members in my club.",
+        "options_html": {
+          "A": "two hundred and twenty and two",
+          "B": "two hundred twenty-two",
+          "C": "two hundred twenty and two",
+          "D": "two hundred and twenty-two"
+        },
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "788d945f96b84554b891a056380d7416",
+        "source": "2011-2012学年江苏省兴化市楚水初级中学初一下学期期中英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "数词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6370853",
+      "source": "题庄真题 · 2011-2012学年江苏省兴化市楚水初级中学初一下学期期中英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "名词与数",
+      "mode": "single",
+      "stem": "— Andy, are you learning Lesson this week?\n— No. We are learning lesson now.",
+      "passage": "【题干原文】\n— Andy, are you learning Lesson this week?\n— No. We are learning lesson now.\n\n【考点】数词\n【出处】2011-2012学年江苏省兴化市楚水初级中学初一下学期期中英语试卷（带解析） · 2012 · 题庄题号 6370853",
+      "options": [
+        {
+          "key": "A",
+          "text": "Two; three",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "Two; the third",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "Second; the third",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "Second; three",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "名词与数",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "f0f480ee83c0756fa55986a5d49b3d06",
+      "raw": {
+        "id": 6370853,
+        "title_html": "— Andy, are you learning Lesson <u>       </u>this week?<br>— No. We are learning <u>         </u> lesson now.",
+        "options_html": {
+          "A": "Two; three",
+          "B": "Two; the third",
+          "C": "Second; the third",
+          "D": "Second; three"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "f0f480ee83c0756fa55986a5d49b3d06",
+        "source": "2011-2012学年江苏省兴化市楚水初级中学初一下学期期中英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "数词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6373848",
+      "source": "题庄真题 · 2011-2012学年江苏省宿迁市四校七年级下学期5月联考英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "冠词",
+      "mode": "single",
+      "stem": "--How was________ dinner at Mike's house?\n--It was great. Mike's mum is________ wonderful cook.",
+      "passage": "【题干原文】\n--How was________ dinner at Mike's house?\n--It was great. Mike's mum is________ wonderful cook.\n\n【考点】冠词\n【出处】2011-2012学年江苏省宿迁市四校七年级下学期5月联考英语试卷（带解析） · 2012 · 题庄题号 6373848",
+      "options": [
+        {
+          "key": "A",
+          "text": "a; the",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "the; a",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "the; the",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "a; an",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "冠词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "897ad6da6293a00baadc280747601a82",
+      "raw": {
+        "id": 6373848,
+        "title_html": "--How was________ dinner at Mike&#x27;s house?<br>--It was great. Mike&#x27;s mum is________ wonderful cook.",
+        "options_html": {
+          "A": "a; the",
+          "B": "the; a",
+          "C": "the; the",
+          "D": "a; an"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "897ad6da6293a00baadc280747601a82",
+        "source": "2011-2012学年江苏省宿迁市四校七年级下学期5月联考英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "冠词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6374239",
+      "source": "题庄真题 · 2012学年江苏省苏州工业园区星港学校初一5月月考英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "冠词",
+      "mode": "single",
+      "stem": "We don’t be1ieve __________girl is able to draw such a beautiful picture .",
+      "passage": "【题干原文】\nWe don’t be1ieve __________girl is able to draw such a beautiful picture .\n\n【考点】冠词\n【出处】2012学年江苏省苏州工业园区星港学校初一5月月考英语试卷（带解析） · 2012 · 题庄题号 6374239",
+      "options": [
+        {
+          "key": "A",
+          "text": "a 8-year-old",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "a-8-years-old",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "an 8-year-old",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "an 8-years-old",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "冠词",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "289c05ae1f8770a0a72b072873a1cd0a",
+      "raw": {
+        "id": 6374239,
+        "title_html": "We don’t be1ieve __________girl is able to draw such a beautiful picture .",
+        "options_html": {
+          "A": "a 8-year-old",
+          "B": "a-8-years-old",
+          "C": "an 8-year-old",
+          "D": "an 8-years-old"
+        },
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "289c05ae1f8770a0a72b072873a1cd0a",
+        "source": "2012学年江苏省苏州工业园区星港学校初一5月月考英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "冠词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6378419",
+      "source": "题庄真题 · 2011-2012学年浙江省慈吉中学初一下学期第二次月考英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "冠词",
+      "mode": "single",
+      "stem": "Do you eat _____ egg for breakfast every day?",
+      "passage": "【题干原文】\nDo you eat _____ egg for breakfast every day?\n\n【考点】冠词\n【出处】2011-2012学年浙江省慈吉中学初一下学期第二次月考英语试卷（带解析） · 2012 · 题庄题号 6378419",
+      "options": [
+        {
+          "key": "A",
+          "text": "a",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "an",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "the",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "/",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "冠词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "5a5b1abc83f0775058acfcd19bf4986e",
+      "raw": {
+        "id": 6378419,
+        "title_html": "Do you eat _____ egg for breakfast every day?",
+        "options_html": {
+          "A": "a",
+          "B": "an",
+          "C": "the",
+          "D": "/"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "5a5b1abc83f0775058acfcd19bf4986e",
+        "source": "2011-2012学年浙江省慈吉中学初一下学期第二次月考英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "冠词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6381668",
+      "source": "题庄真题 · 2011-2012学年江苏省吴江市青云中学初一下学期期中考试英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "冠词",
+      "mode": "single",
+      "stem": "He went to the garden and saw ________ one-year-old baby on the grass.",
+      "passage": "【题干原文】\nHe went to the garden and saw ________ one-year-old baby on the grass.\n\n【考点】冠词\n【出处】2011-2012学年江苏省吴江市青云中学初一下学期期中考试英语试卷（带解析） · 2012 · 题庄题号 6381668",
+      "options": [
+        {
+          "key": "A",
+          "text": "a",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "an",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "some",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "/",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "冠词",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "94acbfdb78ed3425741877819eb24d14",
+      "raw": {
+        "id": 6381668,
+        "title_html": "He went to the garden and saw ________ one-year-old baby on the grass.",
+        "options_html": {
+          "A": "a",
+          "B": "an",
+          "C": "some",
+          "D": "/"
+        },
+        "answer": "A",
+        "answer_html": "A",
+        "analysis_html": "",
+        "content_hash": "94acbfdb78ed3425741877819eb24d14",
+        "source": "2011-2012学年江苏省吴江市青云中学初一下学期期中考试英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "冠词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6383087",
+      "source": "题庄真题 · 2011-2012学年江苏省泰兴市济川中学初一上学期期末考试英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "代词",
+      "mode": "single",
+      "stem": "I don’t want to buy this pair of black shoes. I want to buy ________.",
+      "passage": "【题干原文】\nI don’t want to buy this pair of black shoes. I want to buy ________.\n\n【考点】指示代词\n【出处】2011-2012学年江苏省泰兴市济川中学初一上学期期末考试英语试卷（带解析） · 2012 · 题庄题号 6383087",
+      "options": [
+        {
+          "key": "A",
+          "text": "that one",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "that pair",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "that ones",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "that a pair",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "代词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 5,
+      "question_fingerprint": "b4ae5e4e9d299d0ebd9deded14771ff1",
+      "raw": {
+        "id": 6383087,
+        "title_html": "I don’t want to buy this pair of black shoes. I want to buy ________.",
+        "options_html": {
+          "A": "that one",
+          "B": "that pair",
+          "C": "that ones",
+          "D": "that a pair"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "b4ae5e4e9d299d0ebd9deded14771ff1",
+        "source": "2011-2012学年江苏省泰兴市济川中学初一上学期期末考试英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "指示代词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6383142",
+      "source": "题庄真题 · 2011-2012学年江苏省泰兴市济川中学初一上学期期末考试英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "名词与数",
+      "mode": "single",
+      "stem": "-- What can I do for you, Madam?\n--I’d like ________.",
+      "passage": "【题干原文】\n-- What can I do for you, Madam?\n--I’d like ________.\n\n【考点】数词\n【出处】2011-2012学年江苏省泰兴市济川中学初一上学期期末考试英语试卷（带解析） · 2012 · 题庄题号 6383142",
+      "options": [
+        {
+          "key": "A",
+          "text": "two kilos of meat",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "two kilo of meat",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "two kilo of meats",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "two kilos of meats",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "名词与数",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "5f127de94735f99bf923fb10f61e3884",
+      "raw": {
+        "id": 6383142,
+        "title_html": "-- What can I do for you, Madam?<br> --I’d like ________.",
+        "options_html": {
+          "A": "two kilos of meat",
+          "B": "two kilo of meat",
+          "C": "two kilo of meats",
+          "D": "two kilos of meats"
+        },
+        "answer": "A",
+        "answer_html": "A",
+        "analysis_html": "",
+        "content_hash": "5f127de94735f99bf923fb10f61e3884",
+        "source": "2011-2012学年江苏省泰兴市济川中学初一上学期期末考试英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "数词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6383244",
+      "source": "题庄真题 · 2011-2012学年山东省博兴县初一上学期期中学业水平测试英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "代词",
+      "mode": "single",
+      "stem": "_______ are my brother and sister．",
+      "passage": "【题干原文】\n_______ are my brother and sister．\n\n【考点】指示代词\n【出处】2011-2012学年山东省博兴县初一上学期期中学业水平测试英语试卷（带解析） · 2012 · 题庄题号 6383244",
+      "options": [
+        {
+          "key": "A",
+          "text": "This",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "These",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "That",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "It",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "代词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "64321d896eb57966a95b67a91aee912a",
+      "raw": {
+        "id": 6383244,
+        "title_html": "_______ are my brother and sister．",
+        "options_html": {
+          "A": "This",
+          "B": "These",
+          "C": "That",
+          "D": "It"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "64321d896eb57966a95b67a91aee912a",
+        "source": "2011-2012学年山东省博兴县初一上学期期中学业水平测试英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "指示代词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6383429",
+      "source": "题庄真题 · 2011-2012学年山东省博兴县初一上学期期中学业水平测试英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "名词与数",
+      "mode": "single",
+      "stem": "My brother is ____ years old．Today is his _____ birthday．",
+      "passage": "【题干原文】\nMy brother is ____ years old．Today is his _____ birthday．\n\n【考点】数词\n【出处】2011-2012学年山东省博兴县初一上学期期中学业水平测试英语试卷（带解析） · 2012 · 题庄题号 6383429",
+      "options": [
+        {
+          "key": "A",
+          "text": "nine, nine",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "nine, ninth",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "ninth, ninth",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "ninth, nine",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "名词与数",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "a6a6c24aec77bc82aa878c49966563ed",
+      "raw": {
+        "id": 6383429,
+        "title_html": "My brother is ____ years old．Today is his _____ birthday．",
+        "options_html": {
+          "A": "nine, nine",
+          "B": "nine, ninth",
+          "C": "ninth, ninth",
+          "D": "ninth, nine"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "a6a6c24aec77bc82aa878c49966563ed",
+        "source": "2011-2012学年山东省博兴县初一上学期期中学业水平测试英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "数词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6384062",
+      "source": "题庄真题 · 2011-2012学年江苏省扬中市初一下学期期中联考英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "名词与数",
+      "mode": "single",
+      "stem": "Each of the singers _______ a ________ swimming pool.",
+      "passage": "【题干原文】\nEach of the singers _______ a ________ swimming pool.\n\n【考点】数词\n【出处】2011-2012学年江苏省扬中市初一下学期期中联考英语试卷（带解析） · 2012 · 题庄题号 6384062",
+      "options": [
+        {
+          "key": "A",
+          "text": "has; fifty-metres-long",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "have; fifty-metres-long",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "has; fifty-metre-long",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "have; fifty-metre-long",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "名词与数",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "538814ca39c56aa806446021164120fc",
+      "raw": {
+        "id": 6384062,
+        "title_html": "Each of the singers _______ a ________ swimming pool.",
+        "options_html": {
+          "A": "has; fifty-metres-long",
+          "B": "have; fifty-metres-long",
+          "C": "has; fifty-metre-long",
+          "D": "have; fifty-metre-long"
+        },
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "538814ca39c56aa806446021164120fc",
+        "source": "2011-2012学年江苏省扬中市初一下学期期中联考英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "数词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6384076",
+      "source": "题庄真题 · 2011-2012学年江苏省扬中市初一下学期期中联考英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "冠词",
+      "mode": "single",
+      "stem": "_______ girl with _______umbrella is my consin.",
+      "passage": "【题干原文】\n_______ girl with _______umbrella is my consin.\n\n【考点】冠词\n【出处】2011-2012学年江苏省扬中市初一下学期期中联考英语试卷（带解析） · 2012 · 题庄题号 6384076",
+      "options": [
+        {
+          "key": "A",
+          "text": "The, the",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "The, a",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "A , the",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "The, an",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "冠词",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "ca817689389ef1eacc6b5924ec68c409",
+      "raw": {
+        "id": 6384076,
+        "title_html": "_______ girl with _______umbrella is my consin.",
+        "options_html": {
+          "A": "The, the",
+          "B": "The, a",
+          "C": "A , the",
+          "D": "The, an"
+        },
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "ca817689389ef1eacc6b5924ec68c409",
+        "source": "2011-2012学年江苏省扬中市初一下学期期中联考英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "冠词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6384477",
+      "source": "题庄真题 · 2011-2012学年江苏省兴化市四校初一第三次月考英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "冠词",
+      "mode": "single",
+      "stem": "There is _______\"u\" and ______\"s\" in the word \"use\"",
+      "passage": "【题干原文】\nThere is _______\"u\" and ______\"s\" in the word \"use\"\n\n【考点】冠词\n【出处】2011-2012学年江苏省兴化市四校初一第三次月考英语试卷（带解析） · 2012 · 题庄题号 6384477",
+      "options": [
+        {
+          "key": "A",
+          "text": "an; an",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "a; an",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "a; a",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "an; a",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "冠词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "4c8f2d2d2b74e21cf01066966be9ace3",
+      "raw": {
+        "id": 6384477,
+        "title_html": "There is _______&quot;u&quot; and ______&quot;s&quot; in the word &quot;use&quot;",
+        "options_html": {
+          "A": "an; an",
+          "B": "a; an",
+          "C": "a; a",
+          "D": "an; a"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "4c8f2d2d2b74e21cf01066966be9ace3",
+        "source": "2011-2012学年江苏省兴化市四校初一第三次月考英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "冠词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6384642",
+      "source": "题庄真题 · 2011-2012学年山东省东营市河口区初一上学期期中考试英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "主谓一致",
+      "grammar_point": "主谓一致",
+      "mode": "single",
+      "stem": "There some milk and two pieces of bread on the table．",
+      "passage": "【题干原文】\nThere some milk and two pieces of bread on the table．\n\n【考点】主谓一致\n【出处】2011-2012学年山东省东营市河口区初一上学期期中考试英语试卷（带解析） · 2012 · 题庄题号 6384642",
+      "options": [
+        {
+          "key": "A",
+          "text": "is",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "are",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "has",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "have",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "主谓一致",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "baa714dcc1e83e2c2438988bc1609a18",
+      "raw": {
+        "id": 6384642,
+        "title_html": "There<u>       </u>some milk and two pieces of bread on the table．",
+        "options_html": {
+          "A": "is",
+          "B": "are",
+          "C": "has",
+          "D": "have"
+        },
+        "answer": "A",
+        "answer_html": "A",
+        "analysis_html": "",
+        "content_hash": "baa714dcc1e83e2c2438988bc1609a18",
+        "source": "2011-2012学年山东省东营市河口区初一上学期期中考试英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "主谓一致",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6384956",
+      "source": "题庄真题 · 2011-2012学年安徽省淮北五校初一下学期期中考试英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "主谓一致",
+      "grammar_point": "主谓一致",
+      "mode": "single",
+      "stem": "Between the bank and the supermarket ____________ their friend’s restaurant.",
+      "passage": "【题干原文】\nBetween the bank and the supermarket ____________ their friend’s restaurant.\n\n【考点】主谓一致\n【出处】2011-2012学年安徽省淮北五校初一下学期期中考试英语试卷（带解析） · 2012 · 题庄题号 6384956",
+      "options": [
+        {
+          "key": "A",
+          "text": "is",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "are",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "has",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "have",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "主谓一致",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "b89355565de74b5675c7287fe1394a6e",
+      "raw": {
+        "id": 6384956,
+        "title_html": "Between the bank and the supermarket ____________ their friend’s restaurant.",
+        "options_html": {
+          "A": "is",
+          "B": "are",
+          "C": "has",
+          "D": "have"
+        },
+        "answer": "A",
+        "answer_html": "A",
+        "analysis_html": "",
+        "content_hash": "b89355565de74b5675c7287fe1394a6e",
+        "source": "2011-2012学年安徽省淮北五校初一下学期期中考试英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "主谓一致",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6386314",
+      "source": "题庄真题 · 2011-2012学年山东省高青县七年级上学期期中考试英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "冠词",
+      "mode": "single",
+      "stem": "Can you see “f” in the word “fine”?",
+      "passage": "【题干原文】\nCan you see “f” in the word “fine”?\n\n【考点】冠词\n【出处】2011-2012学年山东省高青县七年级上学期期中考试英语试卷（带解析） · 2012 · 题庄题号 6386314",
+      "options": [
+        {
+          "key": "A",
+          "text": "an",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "a",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "TWO",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "/.",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "冠词",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "69f35b7ee7851a56b622d91bda7da341",
+      "raw": {
+        "id": 6386314,
+        "title_html": "Can you see<u>    </u>“f” in the word “fine”?",
+        "options_html": {
+          "A": "an",
+          "B": "a",
+          "C": "TWO",
+          "D": "/."
+        },
+        "answer": "A",
+        "answer_html": "A",
+        "analysis_html": "",
+        "content_hash": "69f35b7ee7851a56b622d91bda7da341",
+        "source": "2011-2012学年山东省高青县七年级上学期期中考试英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "冠词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6396398",
+      "source": "题庄真题 · 2011-2012学年浙江省台州六校七年级第二次联考英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "冠词",
+      "mode": "single",
+      "stem": "That’s ___________ ID card",
+      "passage": "【题干原文】\nThat’s ___________ ID card\n\n【考点】冠词\n【出处】2011-2012学年浙江省台州六校七年级第二次联考英语试卷（带解析） · 2012 · 题庄题号 6396398",
+      "options": [
+        {
+          "key": "A",
+          "text": "a",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "an",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "the",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "/",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "冠词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "a281b15b1c44e07aa4d513ffa97afb09",
+      "raw": {
+        "id": 6396398,
+        "title_html": "That’s ___________ ID card",
+        "options_html": {
+          "A": "a",
+          "B": "an",
+          "C": "the",
+          "D": "/"
+        },
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "a281b15b1c44e07aa4d513ffa97afb09",
+        "source": "2011-2012学年浙江省台州六校七年级第二次联考英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "冠词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ6396421",
+      "source": "题庄真题 · 2011-2012学年浙江省台州六校七年级第二次联考英语试卷（带解析）",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "主谓一致",
+      "grammar_point": "主谓一致",
+      "mode": "single",
+      "stem": "Her mother _______ watch TV every day.",
+      "passage": "【题干原文】\nHer mother _______ watch TV every day.\n\n【考点】主谓一致\n【出处】2011-2012学年浙江省台州六校七年级第二次联考英语试卷（带解析） · 2012 · 题庄题号 6396421",
+      "options": [
+        {
+          "key": "A",
+          "text": "isn’t",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "don’t",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "doesn’t",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "aren’t",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "主谓一致",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 4,
+      "question_fingerprint": "dd10984ed7a0c7a1f30d7bcbd860dd5c",
+      "raw": {
+        "id": 6396421,
+        "title_html": "Her mother _______ watch TV every day.",
+        "options_html": {
+          "A": "isn’t",
+          "B": "don’t",
+          "C": "doesn’t",
+          "D": "aren’t"
+        },
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "dd10984ed7a0c7a1f30d7bcbd860dd5c",
+        "source": "2011-2012学年浙江省台州六校七年级第二次联考英语试卷（带解析）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "主谓一致",
+        "year": 2012
       }
     }
   ]
