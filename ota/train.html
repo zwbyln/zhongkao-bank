@@ -26587,16 +26587,13 @@ window.CNDEEP = (function () {
     D.chapBusy = true;
     D.chapMsg = '正在找可用的下载地址…';
     rerender();
+    /* 只走公网镜像，不再把本机 127.0.0.1:8788 当下载源。
+       原因：本机那条 /bank/book-chapters.json 路由是 2.19 才在原生层加的；
+       老版本 App（如 2.18）的原生层没有它，网页 OTA 上去后仍会去请求，
+       公网一挂就落到本机、吃一个 404。可网页 OTA 换不了原生代码，
+       所以只能在网页侧彻底不碰它——内置章节包本来就内嵌在页面里，
+       公网拿不到就直接用内置，不需要、也不该去找本机服务。 */
     var bases = (window.BANK_MIRRORS || []).slice();
-    /* 本机地址只当保底，排在公网镜像最后：
-       ① 以前 unshift 到第一位，App 里 WebView 的 origin 是 127.0.0.1:8788，
-          HubService 没有章节包路由时就先吃一个 404，用户看到的最后错误就是它；
-       ② 公网镜像能拿到更新版，不该被随包副本抢先。 */
-    var localBase = '';
-    if (location.protocol === 'http:' || location.protocol === 'https:') {
-      localBase = location.origin.replace(/\/$/, '') + '/';
-      bases.push(localBase);
-    }
     var lastErr = '';
     for (var i = 0; i < bases.length; i++) {
       var url = String(bases[i]).replace(/\/$/, '') + '/bank/book-chapters.json';
@@ -26613,21 +26610,26 @@ window.CNDEEP = (function () {
         if (n < minB || c < minC) throw new Error('内容不完整（' + n + ' 部 / ' + c + ' 节，至少需 ' + minB + ' 部 / ' + minC + ' 节）');
         localStorage.setItem(CHAPTER_KEY, JSON.stringify(pack));
         localStorage.setItem(CHAPTER_META_KEY, JSON.stringify({ version: pack.version, at: Date.now(), via: url }));
-        var isLocal = localBase && url.indexOf(localBase) === 0;
-        D.chapMsg = (isLocal ? '已加载随包章节包（远端暂不可用）· '
-                             : '已下载 ') + n + ' 部 / ' + c + ' 节 · ' + (pack.version || '新版');
+        D.chapMsg = '已下载 ' + n + ' 部 / ' + c + ' 节 · ' + (pack.version || '新版');
         D.chapBusy = false;
-        say(isLocal ? '已加载随包章节包，联网后可再试更新' : '名著章节包已下载到本地');
+        say('名著章节包已下载到本地');
         rerender();
         return pack;
       } catch (e) {
         lastErr = e && e.message ? e.message : String(e);
       }
     }
+    /* 公网全挂：直接用内嵌章节包，不抛 HTTP 404 吓人。
+       内置包本来就在页面里、随时可看，联网只是「拿更新版」的锦上添花；
+       拿不到就明说用了内置的，别把一个不影响使用的失败摆到孩子面前。 */
     D.chapBusy = false;
-    D.chapMsg = '下载失败（' + lastErr + '）· 仍可用内置章节包';
+    var bi = window.BOOK_CHAPTERS_BUILTIN || {};
+    var bn = bi.bookCount || Object.keys((bi.books || {})).length;
+    var bc = bi.chapterCount || 0;
+    D.chapMsg = '网络暂不可用，已用内置章节包（' + bn + ' 部 / ' + bc + ' 节）';
     rerender();
-    return null;
+    say('网络暂不可用，继续使用内置章节包');
+    return bi && bi.books ? bi : null;
   }
 
   function E() { return window.ENGINE; }
