@@ -1,1 +1,1639 @@
-{"name":"原创完形填空种子题","note":"每空一道四选一、共享短文。merge_bank 会把本文件并入 all.json，每天自动更新不会冲掉。","updatedAt":"2026-11-19T14:41:27.786320+08:00","items":[{"id":"CZ001_1","source":"原创完形 · 一枚旧邮戳（记叙文 · 亲情与成长） · 第1/8空","subject":"english","stage":"初中","grade":"八","genre":"完形填空","content_scope":null,"memory_type":null,"grammar_group":"完形填空","grammar_point":"固定搭配","mode":"single","stem":"第 1 空：读全文，选出最恰当的一项。","passage":"I used to think my grandfather was a man of few words. Last summer, though, I found a small box in his room. It was ＿＿1＿＿ with old letters and stamps. \"Your grandmother wrote to me when I was away,\" he said softly. I had never known that story. Every evening that week, I sat beside him and ＿＿2＿＿ him read the letters aloud. Some words were hard to ＿＿3＿＿, but the love in them was clear. One day I asked why he had ＿＿4＿＿ them for so many years. He smiled, \"Because every letter says she was ＿＿5＿＿ for me to come home.\" That night, I ＿＿6＿＿ understand why he kept the box close to his bed. The letters were not paper to him; they were a life ＿＿7＿＿ together. Now I keep the box, and I ＿＿8＿＿ it will teach me to say the important things while someone can still hear them.","options":[{"key":"A","text":"covered","is_correct":false,"trap_type":"搭配错误","option_analysis":"不选「covered」：be filled with 意为「装满」"},{"key":"B","text":"filled","is_correct":true,"trap_type":null,"option_analysis":"正确。be filled with 意为「装满」；covered 需 with 才通但语义是「覆盖」，此处强调盒子里装满旧信与邮票，filled 最贴切。"},{"key":"C","text":"busy","is_correct":false,"trap_type":"词形误判","option_analysis":"不选「busy」：be filled with 意为「装满」"},{"key":"D","text":"careful","is_correct":false,"trap_type":"句意理解偏差","option_analysis":"不选「careful」：be filled with 意为「装满」"}],"points":[],"formula_ref":"完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配","total_score":1,"reference_answer":"标答：B. filled\n解析：be filled with 意为「装满」；covered 需 with 才通但语义是「覆盖」，此处强调盒子里装满旧信与邮票，filled 最贴切。","time_anchor":null,"tags":["完形填空","原创","一枚旧邮戳（记叙文 · 亲情与成长）","第1空"],"difficulty":4,"question_fingerprint":"778e5d073c368554a587b7dcf524bf7b","cloze_group":"CZ001","cloze_title":"一枚旧邮戳（记叙文 · 亲情与成长）","cloze_no":1,"cloze_total":8,"raw":{"synthetic":true,"kind":"cloze","group":"CZ001"}},{"id":"CZ001_2","source":"原创完形 · 一枚旧邮戳（记叙文 · 亲情与成长） · 第2/8空","subject":"english","stage":"初中","grade":"八","genre":"完形填空","content_scope":null,"memory_type":null,"grammar_group":"完形填空","grammar_point":"动词搭配","mode":"single","stem":"第 2 空：读全文，选出最恰当的一项。","passage":"I used to think my grandfather was a man of few words. Last summer, though, I found a small box in his room. It was ＿＿1＿＿ with old letters and stamps. \"Your grandmother wrote to me when I was away,\" he said softly. I had never known that story. Every evening that week, I sat beside him and ＿＿2＿＿ him read the letters aloud. Some words were hard to ＿＿3＿＿, but the love in them was clear. One day I asked why he had ＿＿4＿＿ them for so many years. He smiled, \"Because every letter says she was ＿＿5＿＿ for me to come home.\" That night, I ＿＿6＿＿ understand why he kept the box close to his bed. The letters were not paper to him; they were a life ＿＿7＿＿ together. Now I keep the box, and I ＿＿8＿＿ it will teach me to say the important things while someone can still hear them.","options":[{"key":"A","text":"heard","is_correct":false,"trap_type":"时态误判","option_analysis":"不选「heard」：listen to sb do sth 表示「听某人做某事」"},{"key":"B","text":"watched","is_correct":false,"trap_type":"近义词混淆","option_analysis":"不选「watched」：listen to sb do sth 表示「听某人做某事」"},{"key":"C","text":"listened to","is_correct":true,"trap_type":null,"option_analysis":"正确。listen to sb do sth 表示「听某人做某事」；read 是动词原形，需用 listen to。hear sb do 虽通但强调「听见」结果，此处是「坐在旁边听他读」，用 listened to。"},{"key":"D","text":"looked at","is_correct":false,"trap_type":"搭配错误","option_analysis":"不选「looked at」：listen to sb do sth 表示「听某人做某事」"}],"points":[],"formula_ref":"完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配","total_score":1,"reference_answer":"标答：C. listened to\n解析：listen to sb do sth 表示「听某人做某事」；read 是动词原形，需用 listen to。hear sb do 虽通但强调「听见」结果，此处是「坐在旁边听他读」，用 listened to。","time_anchor":null,"tags":["完形填空","原创","一枚旧邮戳（记叙文 · 亲情与成长）","第2空"],"difficulty":4,"question_fingerprint":"42f4fa473ab475a4736b8e6e789a4578","cloze_group":"CZ001","cloze_title":"一枚旧邮戳（记叙文 · 亲情与成长）","cloze_no":2,"cloze_total":8,"raw":{"synthetic":true,"kind":"cloze","group":"CZ001"}},{"id":"CZ001_3","source":"原创完形 · 一枚旧邮戳（记叙文 · 亲情与成长） · 第3/8空","subject":"english","stage":"初中","grade":"八","genre":"完形填空","content_scope":null,"memory_type":null,"grammar_group":"完形填空","grammar_point":"词义辨析","mode":"single","stem":"第 3 空：读全文，选出最恰当的一项。","passage":"I used to think my grandfather was a man of few words. Last summer, though, I found a small box in his room. It was ＿＿1＿＿ with old letters and stamps. \"Your grandmother wrote to me when I was away,\" he said softly. I had never known that story. Every evening that week, I sat beside him and ＿＿2＿＿ him read the letters aloud. Some words were hard to ＿＿3＿＿, but the love in them was clear. One day I asked why he had ＿＿4＿＿ them for so many years. He smiled, \"Because every letter says she was ＿＿5＿＿ for me to come home.\" That night, I ＿＿6＿＿ understand why he kept the box close to his bed. The letters were not paper to him; they were a life ＿＿7＿＿ together. Now I keep the box, and I ＿＿8＿＿ it will teach me to say the important things while someone can still hear them.","options":[{"key":"A","text":"believe","is_correct":true,"trap_type":null,"option_analysis":"正确。有些词难以「相信」（这是 retroactive 的情感冲击），但字里行间的爱很清楚；后文 clear 与 hard 形成对比，believe 最合逻辑。"},{"key":"B","text":"remember","is_correct":false,"trap_type":"句意理解偏差","option_analysis":"不选「remember」：有些词难以「相信」（这是 retroactive 的情感冲击），但字里行间的爱很"},{"key":"C","text":"explain","is_correct":false,"trap_type":"词形误判","option_analysis":"不选「explain」：有些词难以「相信」（这是 retroactive 的情感冲击），但字里行间的爱很"},{"key":"D","text":"translate","is_correct":false,"trap_type":"近义词混淆","option_analysis":"不选「translate」：有些词难以「相信」（这是 retroactive 的情感冲击），但字里行间的爱很"}],"points":[],"formula_ref":"完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配","total_score":1,"reference_answer":"标答：A. believe\n解析：有些词难以「相信」（这是 retroactive 的情感冲击），但字里行间的爱很清楚；后文 clear 与 hard 形成对比，believe 最合逻辑。","time_anchor":null,"tags":["完形填空","原创","一枚旧邮戳（记叙文 · 亲情与成长）","第3空"],"difficulty":4,"question_fingerprint":"854571f25710eff99beb884113b09736","cloze_group":"CZ001","cloze_title":"一枚旧邮戳（记叙文 · 亲情与成长）","cloze_no":3,"cloze_total":8,"raw":{"synthetic":true,"kind":"cloze","group":"CZ001"}},{"id":"CZ001_4","source":"原创完形 · 一枚旧邮戳（记叙文 · 亲情与成长） · 第4/8空","subject":"english","stage":"初中","grade":"八","genre":"完形填空","content_scope":null,"memory_type":null,"grammar_group":"完形填空","grammar_point":"动词辨析","mode":"single","stem":"第 4 空：读全文，选出最恰当的一项。","passage":"I used to think my grandfather was a man of few words. Last summer, though, I found a small box in his room. It was ＿＿1＿＿ with old letters and stamps. \"Your grandmother wrote to me when I was away,\" he said softly. I had never known that story. Every evening that week, I sat beside him and ＿＿2＿＿ him read the letters aloud. Some words were hard to ＿＿3＿＿, but the love in them was clear. One day I asked why he had ＿＿4＿＿ them for so many years. He smiled, \"Because every letter says she was ＿＿5＿＿ for me to come home.\" That night, I ＿＿6＿＿ understand why he kept the box close to his bed. The letters were not paper to him; they were a life ＿＿7＿＿ together. Now I keep the box, and I ＿＿8＿＿ it will teach me to say the important things while someone can still hear them.","options":[{"key":"A","text":"thrown","is_correct":false,"trap_type":"句意理解偏差","option_analysis":"不选「thrown」：保留这么多年用 kept"},{"key":"B","text":"forgotten","is_correct":false,"trap_type":"近义词混淆","option_analysis":"不选「forgotten」：保留这么多年用 kept"},{"key":"C","text":"hidden","is_correct":false,"trap_type":"搭配错误","option_analysis":"不选「hidden」：保留这么多年用 kept"},{"key":"D","text":"kept","is_correct":true,"trap_type":null,"option_analysis":"正确。保留这么多年用 kept；与末段 he kept the box 呼应（词汇复现是完形常见线索）。"}],"points":[],"formula_ref":"完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配","total_score":1,"reference_answer":"标答：D. kept\n解析：保留这么多年用 kept；与末段 he kept the box 呼应（词汇复现是完形常见线索）。","time_anchor":null,"tags":["完形填空","原创","一枚旧邮戳（记叙文 · 亲情与成长）","第4空"],"difficulty":4,"question_fingerprint":"b45306feab454193acbdec11c7e47cb0","cloze_group":"CZ001","cloze_title":"一枚旧邮戳（记叙文 · 亲情与成长）","cloze_no":4,"cloze_total":8,"raw":{"synthetic":true,"kind":"cloze","group":"CZ001"}},{"id":"CZ001_5","source":"原创完形 · 一枚旧邮戳（记叙文 · 亲情与成长） · 第5/8空","subject":"english","stage":"初中","grade":"八","genre":"完形填空","content_scope":null,"memory_type":null,"grammar_group":"完形填空","grammar_point":"固定搭配","mode":"single","stem":"第 5 空：读全文，选出最恰当的一项。","passage":"I used to think my grandfather was a man of few words. Last summer, though, I found a small box in his room. It was ＿＿1＿＿ with old letters and stamps. \"Your grandmother wrote to me when I was away,\" he said softly. I had never known that story. Every evening that week, I sat beside him and ＿＿2＿＿ him read the letters aloud. Some words were hard to ＿＿3＿＿, but the love in them was clear. One day I asked why he had ＿＿4＿＿ them for so many years. He smiled, \"Because every letter says she was ＿＿5＿＿ for me to come home.\" That night, I ＿＿6＿＿ understand why he kept the box close to his bed. The letters were not paper to him; they were a life ＿＿7＿＿ together. Now I keep the box, and I ＿＿8＿＿ it will teach me to say the important things while someone can still hear them.","options":[{"key":"A","text":"looking","is_correct":false,"trap_type":"搭配错误","option_analysis":"不选「looking」：wait for sb to do 意为「等某人做某事」"},{"key":"B","text":"waiting","is_correct":true,"trap_type":null,"option_analysis":"正确。wait for sb to do 意为「等某人做某事」；信里说她等我回家，waiting 与 for me to come home 搭配。"},{"key":"C","text":"calling","is_correct":false,"trap_type":"句意理解偏差","option_analysis":"不选「calling」：wait for sb to do 意为「等某人做某事」"},{"key":"D","text":"asking","is_correct":false,"trap_type":"近义词混淆","option_analysis":"不选「asking」：wait for sb to do 意为「等某人做某事」"}],"points":[],"formula_ref":"完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配","total_score":1,"reference_answer":"标答：B. waiting\n解析：wait for sb to do 意为「等某人做某事」；信里说她等我回家，waiting 与 for me to come home 搭配。","time_anchor":null,"tags":["完形填空","原创","一枚旧邮戳（记叙文 · 亲情与成长）","第5空"],"difficulty":4,"question_fingerprint":"80940642178b412735ed11de1b5495a3","cloze_group":"CZ001","cloze_title":"一枚旧邮戳（记叙文 · 亲情与成长）","cloze_no":5,"cloze_total":8,"raw":{"synthetic":true,"kind":"cloze","group":"CZ001"}},{"id":"CZ001_6","source":"原创完形 · 一枚旧邮戳（记叙文 · 亲情与成长） · 第6/8空","subject":"english","stage":"初中","grade":"八","genre":"完形填空","content_scope":null,"memory_type":null,"grammar_group":"完形填空","grammar_point":"副词辨析","mode":"single","stem":"第 6 空：读全文，选出最恰当的一项。","passage":"I used to think my grandfather was a man of few words. Last summer, though, I found a small box in his room. It was ＿＿1＿＿ with old letters and stamps. \"Your grandmother wrote to me when I was away,\" he said softly. I had never known that story. Every evening that week, I sat beside him and ＿＿2＿＿ him read the letters aloud. Some words were hard to ＿＿3＿＿, but the love in them was clear. One day I asked why he had ＿＿4＿＿ them for so many years. He smiled, \"Because every letter says she was ＿＿5＿＿ for me to come home.\" That night, I ＿＿6＿＿ understand why he kept the box close to his bed. The letters were not paper to him; they were a life ＿＿7＿＿ together. Now I keep the box, and I ＿＿8＿＿ it will teach me to say the important things while someone can still hear them.","options":[{"key":"A","text":"suddenly","is_correct":false,"trap_type":"","option_analysis":"不选「suddenly」：经过一周的阅读积累，那天夜里「终于」明白了，finally 体现过程后的领悟"},{"key":"B","text":"quickly","is_correct":false,"trap_type":"近义词混淆","option_analysis":"不选「quickly」：经过一周的阅读积累，那天夜里「终于」明白了，finally 体现过程后的领悟"},{"key":"C","text":"finally","is_correct":true,"trap_type":null,"option_analysis":"正确。经过一周的阅读积累，那天夜里「终于」明白了，finally 体现过程后的领悟；suddenly 强调突发，与叙事铺垫不符。"},{"key":"D","text":"nearly","is_correct":false,"trap_type":"句意理解偏差","option_analysis":"不选「nearly」：经过一周的阅读积累，那天夜里「终于」明白了，finally 体现过程后的领悟"}],"points":[],"formula_ref":"完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配","total_score":1,"reference_answer":"标答：C. finally\n解析：经过一周的阅读积累，那天夜里「终于」明白了，finally 体现过程后的领悟；suddenly 强调突发，与叙事铺垫不符。","time_anchor":null,"tags":["完形填空","原创","一枚旧邮戳（记叙文 · 亲情与成长）","第6空"],"difficulty":4,"question_fingerprint":"19beddac1bf8fae1ca5d1b4da25da86c","cloze_group":"CZ001","cloze_title":"一枚旧邮戳（记叙文 · 亲情与成长）","cloze_no":6,"cloze_total":8,"raw":{"synthetic":true,"kind":"cloze","group":"CZ001"}},{"id":"CZ001_7","source":"原创完形 · 一枚旧邮戳（记叙文 · 亲情与成长） · 第7/8空","subject":"english","stage":"初中","grade":"八","genre":"完形填空","content_scope":null,"memory_type":null,"grammar_group":"完形填空","grammar_point":"词义辨析","mode":"single","stem":"第 7 空：读全文，选出最恰当的一项。","passage":"I used to think my grandfather was a man of few words. Last summer, though, I found a small box in his room. It was ＿＿1＿＿ with old letters and stamps. \"Your grandmother wrote to me when I was away,\" he said softly. I had never known that story. Every evening that week, I sat beside him and ＿＿2＿＿ him read the letters aloud. Some words were hard to ＿＿3＿＿, but the love in them was clear. One day I asked why he had ＿＿4＿＿ them for so many years. He smiled, \"Because every letter says she was ＿＿5＿＿ for me to come home.\" That night, I ＿＿6＿＿ understand why he kept the box close to his bed. The letters were not paper to him; they were a life ＿＿7＿＿ together. Now I keep the box, and I ＿＿8＿＿ it will teach me to say the important things while someone can still hear them.","options":[{"key":"A","text":"lived","is_correct":true,"trap_type":null,"option_analysis":"正确。a life lived together 表示「一起度过的人生」，过去分词 lived 作后置定语；这里把信比作共同生活的见证。"},{"key":"B","text":"spent","is_correct":false,"trap_type":"搭配错误","option_analysis":"不选「spent」：a life lived together 表示「一起度过的人生」，过去分词 l"},{"key":"C","text":"taken","is_correct":false,"trap_type":"句意理解偏差","option_analysis":"不选「taken」：a life lived together 表示「一起度过的人生」，过去分词 l"},{"key":"D","text":"made","is_correct":false,"trap_type":"近义词混淆","option_analysis":"不选「made」：a life lived together 表示「一起度过的人生」，过去分词 l"}],"points":[],"formula_ref":"完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配","total_score":1,"reference_answer":"标答：A. lived\n解析：a life lived together 表示「一起度过的人生」，过去分词 lived 作后置定语；这里把信比作共同生活的见证。","time_anchor":null,"tags":["完形填空","原创","一枚旧邮戳（记叙文 · 亲情与成长）","第7空"],"difficulty":4,"question_fingerprint":"6e332cf56cb02007c1221adf661c26a5","cloze_group":"CZ001","cloze_title":"一枚旧邮戳（记叙文 · 亲情与成长）","cloze_no":7,"cloze_total":8,"raw":{"synthetic":true,"kind":"cloze","group":"CZ001"}},{"id":"CZ001_8","source":"原创完形 · 一枚旧邮戳（记叙文 · 亲情与成长） · 第8/8空","subject":"english","stage":"初中","grade":"八","genre":"完形填空","content_scope":null,"memory_type":null,"grammar_group":"完形填空","grammar_point":"动词辨析","mode":"single","stem":"第 8 空：读全文，选出最恰当的一项。","passage":"I used to think my grandfather was a man of few words. Last summer, though, I found a small box in his room. It was ＿＿1＿＿ with old letters and stamps. \"Your grandmother wrote to me when I was away,\" he said softly. I had never known that story. Every evening that week, I sat beside him and ＿＿2＿＿ him read the letters aloud. Some words were hard to ＿＿3＿＿, but the love in them was clear. One day I asked why he had ＿＿4＿＿ them for so many years. He smiled, \"Because every letter says she was ＿＿5＿＿ for me to come home.\" That night, I ＿＿6＿＿ understand why he kept the box close to his bed. The letters were not paper to him; they were a life ＿＿7＿＿ together. Now I keep the box, and I ＿＿8＿＿ it will teach me to say the important things while someone can still hear them.","options":[{"key":"A","text":"worry","is_correct":false,"trap_type":"句意理解偏差","option_analysis":"不选「worry」：现在盒子归我，我「希望」它教会我在别人还听得见时说出重要的话"},{"key":"B","text":"doubt","is_correct":false,"trap_type":"近义词混淆","option_analysis":"不选「doubt」：现在盒子归我，我「希望」它教会我在别人还听得见时说出重要的话"},{"key":"C","text":"guess","is_correct":false,"trap_type":"搭配错误","option_analysis":"不选「guess」：现在盒子归我，我「希望」它教会我在别人还听得见时说出重要的话"},{"key":"D","text":"hope","is_correct":true,"trap_type":null,"option_analysis":"正确。现在盒子归我，我「希望」它教会我在别人还听得见时说出重要的话；hope 与前文遗憾形成情感收束。"}],"points":[],"formula_ref":"完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配","total_score":1,"reference_answer":"标答：D. hope\n解析：现在盒子归我，我「希望」它教会我在别人还听得见时说出重要的话；hope 与前文遗憾形成情感收束。","time_anchor":null,"tags":["完形填空","原创","一枚旧邮戳（记叙文 · 亲情与成长）","第8空"],"difficulty":4,"question_fingerprint":"7ae46287eb2ab318cb5c3bf301a2e16a","cloze_group":"CZ001","cloze_title":"一枚旧邮戳（记叙文 · 亲情与成长）","cloze_no":8,"cloze_total":8,"raw":{"synthetic":true,"kind":"cloze","group":"CZ001"}},{"id":"CZ002_1","source":"原创完形 · 会「写字」的树（说明文 · 自然科学） · 第1/8空","subject":"english","stage":"初中","grade":"七","genre":"完形填空","content_scope":null,"memory_type":null,"grammar_group":"完形填空","grammar_point":"动词辨析","mode":"single","stem":"第 1 空：读全文，选出最恰当的一项。","passage":"Trees cannot talk, but they can ＿＿1＿＿ messages. When insects bite a tree, it may ＿＿2＿＿ a special smell into the air. Nearby trees ＿＿3＿＿ this smell and get ready to fight. Scientists call this \"tree ＿＿4＿＿\". Trees also share food. Through their roots, a big tree can ＿＿5＿＿ sugar to a small one that cannot get enough sunlight. In this way, the whole forest becomes stronger. What is more ＿＿6＿＿ is that trees remember. A tree that once suffered from drought may grow ＿＿7＿＿ roots the next time, as if it has learned from the past. So next time you walk in a park, remember: the quiet trees around you may be ＿＿8＿＿ to one another.","options":[{"key":"A","text":"hide","is_correct":false,"trap_type":"句意理解偏差","option_analysis":"不选「hide」：树不能说话但能「传递」信息，send messages 与后文释放气味呼应。"},{"key":"B","text":"send","is_correct":true,"trap_type":null,"option_analysis":"正确。树不能说话但能「传递」信息，send messages 与后文释放气味呼应。"},{"key":"C","text":"keep","is_correct":false,"trap_type":"近义词混淆","option_analysis":"不选「keep」：树不能说话但能「传递」信息，send messages 与后文释放气味呼应。"},{"key":"D","text":"change","is_correct":false,"trap_type":"搭配错误","option_analysis":"不选「change」：树不能说话但能「传递」信息，send messages 与后文释放气味呼应。"}],"points":[],"formula_ref":"完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配","total_score":1,"reference_answer":"标答：B. send\n解析：树不能说话但能「传递」信息，send messages 与后文释放气味呼应。","time_anchor":null,"tags":["完形填空","原创","会「写字」的树（说明文 · 自然科学）","第1空"],"difficulty":3,"question_fingerprint":"5f7a0e21e29018259de399e090fea462","cloze_group":"CZ002","cloze_title":"会「写字」的树（说明文 · 自然科学）","cloze_no":1,"cloze_total":8,"raw":{"synthetic":true,"kind":"cloze","group":"CZ002"}},{"id":"CZ002_2","source":"原创完形 · 会「写字」的树（说明文 · 自然科学） · 第2/8空","subject":"english","stage":"初中","grade":"七","genre":"完形填空","content_scope":null,"memory_type":null,"grammar_group":"完形填空","grammar_point":"短语辨析","mode":"single","stem":"第 2 空：读全文，选出最恰当的一项。","passage":"Trees cannot talk, but they can ＿＿1＿＿ messages. When insects bite a tree, it may ＿＿2＿＿ a special smell into the air. Nearby trees ＿＿3＿＿ this smell and get ready to fight. Scientists call this \"tree ＿＿4＿＿\". Trees also share food. Through their roots, a big tree can ＿＿5＿＿ sugar to a small one that cannot get enough sunlight. In this way, the whole forest becomes stronger. What is more ＿＿6＿＿ is that trees remember. A tree that once suffered from drought may grow ＿＿7＿＿ roots the next time, as if it has learned from the past. So next time you walk in a park, remember: the quiet trees around you may be ＿＿8＿＿ to one another.","options":[{"key":"A","text":"give out","is_correct":true,"trap_type":null,"option_analysis":"正确。give out 分发/散发（气味）；give up 放弃，give in 屈服，give away 赠送/泄露，语义均不符。"},{"key":"B","text":"give up","is_correct":false,"trap_type":"近义词混淆","option_analysis":"不选「give up」：give out 分发/散发（气味）"},{"key":"C","text":"give in","is_correct":false,"trap_type":"搭配错误","option_analysis":"不选「give in」：give out 分发/散发（气味）"},{"key":"D","text":"give away","is_correct":false,"trap_type":"句意理解偏差","option_analysis":"不选「give away」：give out 分发/散发（气味）"}],"points":[],"formula_ref":"完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配","total_score":1,"reference_answer":"标答：A. give out\n解析：give out 分发/散发（气味）；give up 放弃，give in 屈服，give away 赠送/泄露，语义均不符。","time_anchor":null,"tags":["完形填空","原创","会「写字」的树（说明文 · 自然科学）","第2空"],"difficulty":3,"question_fingerprint":"f3f47a1e51a636671780c35d5c7f89a5","cloze_group":"CZ002","cloze_title":"会「写字」的树（说明文 · 自然科学）","cloze_no":2,"cloze_total":8,"raw":{"synthetic":true,"kind":"cloze","group":"CZ002"}},{"id":"CZ002_3","source":"原创完形 · 会「写字」的树（说明文 · 自然科学） · 第3/8空","subject":"english","stage":"初中","grade":"七","genre":"完形填空","content_scope":null,"memory_type":null,"grammar_group":"完形填空","grammar_point":"词义辨析","mode":"single","stem":"第 3 空：读全文，选出最恰当的一项。","passage":"Trees cannot talk, but they can ＿＿1＿＿ messages. When insects bite a tree, it may ＿＿2＿＿ a special smell into the air. Nearby trees ＿＿3＿＿ this smell and get ready to fight. Scientists call this \"tree ＿＿4＿＿\". Trees also share food. Through their roots, a big tree can ＿＿5＿＿ sugar to a small one that cannot get enough sunlight. In this way, the whole forest becomes stronger. What is more ＿＿6＿＿ is that trees remember. A tree that once suffered from drought may grow ＿＿7＿＿ roots the next time, as if it has learned from the past. So next time you walk in a park, remember: the quiet trees around you may be ＿＿8＿＿ to one another.","options":[{"key":"A","text":"smell","is_correct":false,"trap_type":"","option_analysis":"不选「smell」：附近的树「察觉到」这种气味并准备抵抗"},{"key":"B","text":"see","is_correct":false,"trap_type":"句意理解偏差","option_analysis":"不选「see」：附近的树「察觉到」这种气味并准备抵抗"},{"key":"C","text":"notice","is_correct":true,"trap_type":null,"option_analysis":"正确。附近的树「察觉到」这种气味并准备抵抗；notice 强调察觉到细微信号，比 smell（单纯闻到）更贴合「接收警告」的科学语境。"},{"key":"D","text":"taste","is_correct":false,"trap_type":"搭配错误","option_analysis":"不选「taste」：附近的树「察觉到」这种气味并准备抵抗"}],"points":[],"formula_ref":"完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配","total_score":1,"reference_answer":"标答：C. notice\n解析：附近的树「察觉到」这种气味并准备抵抗；notice 强调察觉到细微信号，比 smell（单纯闻到）更贴合「接收警告」的科学语境。","time_anchor":null,"tags":["完形填空","原创","会「写字」的树（说明文 · 自然科学）","第3空"],"difficulty":3,"question_fingerprint":"986ce910a0befc044112c221153afbee","cloze_group":"CZ002","cloze_title":"会「写字」的树（说明文 · 自然科学）","cloze_no":3,"cloze_total":8,"raw":{"synthetic":true,"kind":"cloze","group":"CZ002"}},{"id":"CZ002_4","source":"原创完形 · 会「写字」的树（说明文 · 自然科学） · 第4/8空","subject":"english","stage":"初中","grade":"七","genre":"完形填空","content_scope":null,"memory_type":null,"grammar_group":"完形填空","grammar_point":"词义辨析","mode":"single","stem":"第 4 空：读全文，选出最恰当的一项。","passage":"Trees cannot talk, but they can ＿＿1＿＿ messages. When insects bite a tree, it may ＿＿2＿＿ a special smell into the air. Nearby trees ＿＿3＿＿ this smell and get ready to fight. Scientists call this \"tree ＿＿4＿＿\". Trees also share food. Through their roots, a big tree can ＿＿5＿＿ sugar to a small one that cannot get enough sunlight. In this way, the whole forest becomes stronger. What is more ＿＿6＿＿ is that trees remember. A tree that once suffered from drought may grow ＿＿7＿＿ roots the next time, as if it has learned from the past. So next time you walk in a park, remember: the quiet trees around you may be ＿＿8＿＿ to one another.","options":[{"key":"A","text":"language","is_correct":false,"trap_type":"","option_analysis":"不选「language」：科学家称之为「树木交流」tree communication"},{"key":"B","text":"voice","is_correct":false,"trap_type":"近义词混淆","option_analysis":"不选「voice」：科学家称之为「树木交流」tree communication"},{"key":"C","text":"sound","is_correct":false,"trap_type":"词形误判","option_analysis":"不选「sound」：科学家称之为「树木交流」tree communication"},{"key":"D","text":"communication","is_correct":true,"trap_type":null,"option_analysis":"正确。科学家称之为「树木交流」tree communication；全文讲传递信息、分享养分，communication 概括性最强。language 也可，但 communication 与 cannot talk 的对比更自然，且是标准术语。"}],"points":[],"formula_ref":"完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配","total_score":1,"reference_answer":"标答：D. communication\n解析：科学家称之为「树木交流」tree communication；全文讲传递信息、分享养分，communication 概括性最强。language 也可，但 communication 与 cannot talk 的对比更自然，且是标准术语。","time_anchor":null,"tags":["完形填空","原创","会「写字」的树（说明文 · 自然科学）","第4空"],"difficulty":3,"question_fingerprint":"1158c86c09c2ed69f4a7d89cc0b4f403","cloze_group":"CZ002","cloze_title":"会「写字」的树（说明文 · 自然科学）","cloze_no":4,"cloze_total":8,"raw":{"synthetic":true,"kind":"cloze","group":"CZ002"}},{"id":"CZ002_5","source":"原创完形 · 会「写字」的树（说明文 · 自然科学） · 第5/8空","subject":"english","stage":"初中","grade":"七","genre":"完形填空","content_scope":null,"memory_type":null,"grammar_group":"完形填空","grammar_point":"动词辨析","mode":"single","stem":"第 5 空：读全文，选出最恰当的一项。","passage":"Trees cannot talk, but they can ＿＿1＿＿ messages. When insects bite a tree, it may ＿＿2＿＿ a special smell into the air. Nearby trees ＿＿3＿＿ this smell and get ready to fight. Scientists call this \"tree ＿＿4＿＿\". Trees also share food. Through their roots, a big tree can ＿＿5＿＿ sugar to a small one that cannot get enough sunlight. In this way, the whole forest becomes stronger. What is more ＿＿6＿＿ is that trees remember. A tree that once suffered from drought may grow ＿＿7＿＿ roots the next time, as if it has learned from the past. So next time you walk in a park, remember: the quiet trees around you may be ＿＿8＿＿ to one another.","options":[{"key":"A","text":"lend","is_correct":false,"trap_type":"近义词混淆","option_analysis":"不选「lend」：通过根系把糖分「传递」给小树，pass sth to sb"},{"key":"B","text":"pass","is_correct":true,"trap_type":null,"option_analysis":"正确。通过根系把糖分「传递」给小树，pass sth to sb；与上文 share food 呼应。"},{"key":"C","text":"sell","is_correct":false,"trap_type":"句意理解偏差","option_analysis":"不选「sell」：通过根系把糖分「传递」给小树，pass sth to sb"},{"key":"D","text":"show","is_correct":false,"trap_type":"搭配错误","option_analysis":"不选「show」：通过根系把糖分「传递」给小树，pass sth to sb"}],"points":[],"formula_ref":"完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配","total_score":1,"reference_answer":"标答：B. pass\n解析：通过根系把糖分「传递」给小树，pass sth to sb；与上文 share food 呼应。","time_anchor":null,"tags":["完形填空","原创","会「写字」的树（说明文 · 自然科学）","第5空"],"difficulty":3,"question_fingerprint":"17c697a721d67bb84f81e160bc12be28","cloze_group":"CZ002","cloze_title":"会「写字」的树（说明文 · 自然科学）","cloze_no":5,"cloze_total":8,"raw":{"synthetic":true,"kind":"cloze","group":"CZ002"}},{"id":"CZ002_6","source":"原创完形 · 会「写字」的树（说明文 · 自然科学） · 第6/8空","subject":"english","stage":"初中","grade":"七","genre":"完形填空","content_scope":null,"memory_type":null,"grammar_group":"完形填空","grammar_point":"形容词辨析","mode":"single","stem":"第 6 空：读全文，选出最恰当的一项。","passage":"Trees cannot talk, but they can ＿＿1＿＿ messages. When insects bite a tree, it may ＿＿2＿＿ a special smell into the air. Nearby trees ＿＿3＿＿ this smell and get ready to fight. Scientists call this \"tree ＿＿4＿＿\". Trees also share food. Through their roots, a big tree can ＿＿5＿＿ sugar to a small one that cannot get enough sunlight. In this way, the whole forest becomes stronger. What is more ＿＿6＿＿ is that trees remember. A tree that once suffered from drought may grow ＿＿7＿＿ roots the next time, as if it has learned from the past. So next time you walk in a park, remember: the quiet trees around you may be ＿＿8＿＿ to one another.","options":[{"key":"A","text":"amazing","is_correct":true,"trap_type":null,"option_analysis":"正确。树会「记忆」这件事令人惊讶，amazing 与 may grow deeper roots 的拟人科学发现语气一致。"},{"key":"B","text":"boring","is_correct":false,"trap_type":"句意理解偏差","option_analysis":"不选「boring」：树会「记忆」这件事令人惊讶，amazing 与 may grow deeper "},{"key":"C","text":"common","is_correct":false,"trap_type":"近义词混淆","option_analysis":"不选「common」：树会「记忆」这件事令人惊讶，amazing 与 may grow deeper "},{"key":"D","text":"dangerous","is_correct":false,"trap_type":"搭配错误","option_analysis":"不选「dangerous」：树会「记忆」这件事令人惊讶，amazing 与 may grow deeper "}],"points":[],"formula_ref":"完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配","total_score":1,"reference_answer":"标答：A. amazing\n解析：树会「记忆」这件事令人惊讶，amazing 与 may grow deeper roots 的拟人科学发现语气一致。","time_anchor":null,"tags":["完形填空","原创","会「写字」的树（说明文 · 自然科学）","第6空"],"difficulty":3,"question_fingerprint":"3a17e69cd567a92dfbf18237a886d5f3","cloze_group":"CZ002","cloze_title":"会「写字」的树（说明文 · 自然科学）","cloze_no":6,"cloze_total":8,"raw":{"synthetic":true,"kind":"cloze","group":"CZ002"}},{"id":"CZ002_7","source":"原创完形 · 会「写字」的树（说明文 · 自然科学） · 第7/8空","subject":"english","stage":"初中","grade":"七","genre":"完形填空","content_scope":null,"memory_type":null,"grammar_group":"完形填空","grammar_point":"比较级","mode":"single","stem":"第 7 空：读全文，选出最恰当的一项。","passage":"Trees cannot talk, but they can ＿＿1＿＿ messages. When insects bite a tree, it may ＿＿2＿＿ a special smell into the air. Nearby trees ＿＿3＿＿ this smell and get ready to fight. Scientists call this \"tree ＿＿4＿＿\". Trees also share food. Through their roots, a big tree can ＿＿5＿＿ sugar to a small one that cannot get enough sunlight. In this way, the whole forest becomes stronger. What is more ＿＿6＿＿ is that trees remember. A tree that once suffered from drought may grow ＿＿7＿＿ roots the next time, as if it has learned from the past. So next time you walk in a park, remember: the quiet trees around you may be ＿＿8＿＿ to one another.","options":[{"key":"A","text":"shallower","is_correct":false,"trap_type":"句意理解偏差","option_analysis":"不选「shallower」：经历过干旱的树下次会长出「更深的」根以吸水"},{"key":"B","text":"shorter","is_correct":false,"trap_type":"词形误判","option_analysis":"不选「shorter」：经历过干旱的树下次会长出「更深的」根以吸水"},{"key":"C","text":"deeper","is_correct":true,"trap_type":null,"option_analysis":"正确。经历过干旱的树下次会长出「更深的」根以吸水；与前文 learned from the past 呼应，deeper 合逻辑。"},{"key":"D","text":"weaker","is_correct":false,"trap_type":"近义词混淆","option_analysis":"不选「weaker」：经历过干旱的树下次会长出「更深的」根以吸水"}],"points":[],"formula_ref":"完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配","total_score":1,"reference_answer":"标答：C. deeper\n解析：经历过干旱的树下次会长出「更深的」根以吸水；与前文 learned from the past 呼应，deeper 合逻辑。","time_anchor":null,"tags":["完形填空","原创","会「写字」的树（说明文 · 自然科学）","第7空"],"difficulty":3,"question_fingerprint":"cf876929b839f05cec435924e6d851fd","cloze_group":"CZ002","cloze_title":"会「写字」的树（说明文 · 自然科学）","cloze_no":7,"cloze_total":8,"raw":{"synthetic":true,"kind":"cloze","group":"CZ002"}},{"id":"CZ002_8","source":"原创完形 · 会「写字」的树（说明文 · 自然科学） · 第8/8空","subject":"english","stage":"初中","grade":"七","genre":"完形填空","content_scope":null,"memory_type":null,"grammar_group":"完形填空","grammar_point":"动词辨析","mode":"single","stem":"第 8 空：读全文，选出最恰当的一项。","passage":"Trees cannot talk, but they can ＿＿1＿＿ messages. When insects bite a tree, it may ＿＿2＿＿ a special smell into the air. Nearby trees ＿＿3＿＿ this smell and get ready to fight. Scientists call this \"tree ＿＿4＿＿\". Trees also share food. Through their roots, a big tree can ＿＿5＿＿ sugar to a small one that cannot get enough sunlight. In this way, the whole forest becomes stronger. What is more ＿＿6＿＿ is that trees remember. A tree that once suffered from drought may grow ＿＿7＿＿ roots the next time, as if it has learned from the past. So next time you walk in a park, remember: the quiet trees around you may be ＿＿8＿＿ to one another.","options":[{"key":"A","text":"fighting","is_correct":false,"trap_type":"句意理解偏差","option_analysis":"不选「fighting」：呼应开头 cannot talk... but send messages，结尾"},{"key":"B","text":"arguing","is_correct":false,"trap_type":"近义词混淆","option_analysis":"不选「arguing」：呼应开头 cannot talk... but send messages，结尾"},{"key":"C","text":"competing","is_correct":false,"trap_type":"搭配错误","option_analysis":"不选「competing」：呼应开头 cannot talk... but send messages，结尾"},{"key":"D","text":"talking","is_correct":true,"trap_type":null,"option_analysis":"正确。呼应开头 cannot talk... but send messages，结尾点题：树之间也许正在「交谈」，talking 首尾呼应。"}],"points":[],"formula_ref":"完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配","total_score":1,"reference_answer":"标答：D. talking\n解析：呼应开头 cannot talk... but send messages，结尾点题：树之间也许正在「交谈」，talking 首尾呼应。","time_anchor":null,"tags":["完形填空","原创","会「写字」的树（说明文 · 自然科学）","第8空"],"difficulty":3,"question_fingerprint":"741012868d83a3ab7a34f5a4bee43681","cloze_group":"CZ002","cloze_title":"会「写字」的树（说明文 · 自然科学）","cloze_no":8,"cloze_total":8,"raw":{"synthetic":true,"kind":"cloze","group":"CZ002"}},{"id":"CZ003_1","source":"原创完形 · 把 rubbish 变成寶（记叙文 · 环保与人物） · 第1/8空","subject":"english","stage":"初中","grade":"九","genre":"完形填空","content_scope":null,"memory_type":null,"grammar_group":"完形填空","grammar_point":"动词辨析","mode":"single","stem":"第 1 空：读全文，选出最恰当的一项。","passage":"Every Saturday, twelve-year-old Mia puts on her gloves and walks to the park. She is not there to play. She is there to ＿＿1＿＿ rubbish. Two years ago, Mia learned that a single plastic bottle can ＿＿2＿＿ in the ground for hundreds of years. She was shocked and decided to do something. At first, her friends ＿＿3＿＿ her. \"One girl can't change anything,\" they said. But Mia kept going. Slowly, more people ＿＿4＿＿. Now her team has over thirty members, and they have ＿＿5＿＿ more than 2,000 bottles from the park. Mia says the best part is not the number, ＿＿6＿＿ the change in people. Visitors who once dropped litter now ＿＿7＿＿ it into the right bin. \"If you want others to care,\" she says, \"you have to start with ＿＿8＿＿.\"","options":[{"key":"A","text":"collect","is_correct":true,"trap_type":null,"option_analysis":"正确。她去公园是「收集」垃圾，与全文环保主题及后文 collected bottles 呼应。"},{"key":"B","text":"buy","is_correct":false,"trap_type":"句意理解偏差","option_analysis":"不选「buy」：她去公园是「收集」垃圾，与全文环保主题及后文 collected bottles"},{"key":"C","text":"hide","is_correct":false,"trap_type":"近义词混淆","option_analysis":"不选「hide」：她去公园是「收集」垃圾，与全文环保主题及后文 collected bottles"},{"key":"D","text":"make","is_correct":false,"trap_type":"搭配错误","option_analysis":"不选「make」：她去公园是「收集」垃圾，与全文环保主题及后文 collected bottles"}],"points":[],"formula_ref":"完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配","total_score":1,"reference_answer":"标答：A. collect\n解析：她去公园是「收集」垃圾，与全文环保主题及后文 collected bottles 呼应。","time_anchor":null,"tags":["完形填空","原创","把 rubbish 变成寶（记叙文 · 环保与人物）","第1空"],"difficulty":5,"question_fingerprint":"86bcc74f49bbb39770b18330851098be","cloze_group":"CZ003","cloze_title":"把 rubbish 变成寶（记叙文 · 环保与人物）","cloze_no":1,"cloze_total":8,"raw":{"synthetic":true,"kind":"cloze","group":"CZ003"}},{"id":"CZ003_2","source":"原创完形 · 把 rubbish 变成寶（记叙文 · 环保与人物） · 第2/8空","subject":"english","stage":"初中","grade":"九","genre":"完形填空","content_scope":null,"memory_type":null,"grammar_group":"完形填空","grammar_point":"动词辨析","mode":"single","stem":"第 2 空：读全文，选出最恰当的一项。","passage":"Every Saturday, twelve-year-old Mia puts on her gloves and walks to the park. She is not there to play. She is there to ＿＿1＿＿ rubbish. Two years ago, Mia learned that a single plastic bottle can ＿＿2＿＿ in the ground for hundreds of years. She was shocked and decided to do something. At first, her friends ＿＿3＿＿ her. \"One girl can't change anything,\" they said. But Mia kept going. Slowly, more people ＿＿4＿＿. Now her team has over thirty members, and they have ＿＿5＿＿ more than 2,000 bottles from the park. Mia says the best part is not the number, ＿＿6＿＿ the change in people. Visitors who once dropped litter now ＿＿7＿＿ it into the right bin. \"If you want others to care,\" she says, \"you have to start with ＿＿8＿＿.\"","options":[{"key":"A","text":"last","is_correct":false,"trap_type":"词形误判","option_analysis":"不选「last」：塑料瓶能在地下「停留/存留」数百年，stay in the ground"},{"key":"B","text":"stay","is_correct":true,"trap_type":null,"option_analysis":"正确。塑料瓶能在地下「停留/存留」数百年，stay in the ground；last 也可表持续，但 stay 与具体地点 in the ground 搭配更自然。"},{"key":"C","text":"live","is_correct":false,"trap_type":"近义词混淆","option_analysis":"不选「live」：塑料瓶能在地下「停留/存留」数百年，stay in the ground"},{"key":"D","text":"keep","is_correct":false,"trap_type":"搭配错误","option_analysis":"不选「keep」：塑料瓶能在地下「停留/存留」数百年，stay in the ground"}],"points":[],"formula_ref":"完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配","total_score":1,"reference_answer":"标答：B. stay\n解析：塑料瓶能在地下「停留/存留」数百年，stay in the ground；last 也可表持续，但 stay 与具体地点 in the ground 搭配更自然。","time_anchor":null,"tags":["完形填空","原创","把 rubbish 变成寶（记叙文 · 环保与人物）","第2空"],"difficulty":5,"question_fingerprint":"b92da6772a16c484e5026566008cbfbd","cloze_group":"CZ003","cloze_title":"把 rubbish 变成寶（记叙文 · 环保与人物）","cloze_no":2,"cloze_total":8,"raw":{"synthetic":true,"kind":"cloze","group":"CZ003"}},{"id":"CZ003_3","source":"原创完形 · 把 rubbish 变成寶（记叙文 · 环保与人物） · 第3/8空","subject":"english","stage":"初中","grade":"九","genre":"完形填空","content_scope":null,"memory_type":null,"grammar_group":"完形填空","grammar_point":"短语辨析","mode":"single","stem":"第 3 空：读全文，选出最恰当的一项。","passage":"Every Saturday, twelve-year-old Mia puts on her gloves and walks to the park. She is not there to play. She is there to ＿＿1＿＿ rubbish. Two years ago, Mia learned that a single plastic bottle can ＿＿2＿＿ in the ground for hundreds of years. She was shocked and decided to do something. At first, her friends ＿＿3＿＿ her. \"One girl can't change anything,\" they said. But Mia kept going. Slowly, more people ＿＿4＿＿. Now her team has over thirty members, and they have ＿＿5＿＿ more than 2,000 bottles from the park. Mia says the best part is not the number, ＿＿6＿＿ the change in people. Visitors who once dropped litter now ＿＿7＿＿ it into the right bin. \"If you want others to care,\" she says, \"you have to start with ＿＿8＿＿.\"","options":[{"key":"A","text":"praised","is_correct":false,"trap_type":"句意理解偏差","option_analysis":"不选「praised」：朋友「嘲笑」她，与后文 One girl can't change anythi"},{"key":"B","text":"joined","is_correct":false,"trap_type":"近义词混淆","option_analysis":"不选「joined」：朋友「嘲笑」她，与后文 One girl can't change anythi"},{"key":"C","text":"believed","is_correct":false,"trap_type":"搭配错误","option_analysis":"不选「believed」：朋友「嘲笑」她，与后文 One girl can't change anythi"},{"key":"D","text":"laughed at","is_correct":true,"trap_type":null,"option_analysis":"正确。朋友「嘲笑」她，与后文 One girl can't change anything 的否定语气一致；后来 more people joined 形成转折。"}],"points":[],"formula_ref":"完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配","total_score":1,"reference_answer":"标答：D. laughed at\n解析：朋友「嘲笑」她，与后文 One girl can't change anything 的否定语气一致；后来 more people joined 形成转折。","time_anchor":null,"tags":["完形填空","原创","把 rubbish 变成寶（记叙文 · 环保与人物）","第3空"],"difficulty":5,"question_fingerprint":"4e949e50eff75702b4b14ff1be0f6bb4","cloze_group":"CZ003","cloze_title":"把 rubbish 变成寶（记叙文 · 环保与人物）","cloze_no":3,"cloze_total":8,"raw":{"synthetic":true,"kind":"cloze","group":"CZ003"}},{"id":"CZ003_4","source":"原创完形 · 把 rubbish 变成寶（记叙文 · 环保与人物） · 第4/8空","subject":"english","stage":"初中","grade":"九","genre":"完形填空","content_scope":null,"memory_type":null,"grammar_group":"完形填空","grammar_point":"动词辨析","mode":"single","stem":"第 4 空：读全文，选出最恰当的一项。","passage":"Every Saturday, twelve-year-old Mia puts on her gloves and walks to the park. She is not there to play. She is there to ＿＿1＿＿ rubbish. Two years ago, Mia learned that a single plastic bottle can ＿＿2＿＿ in the ground for hundreds of years. She was shocked and decided to do something. At first, her friends ＿＿3＿＿ her. \"One girl can't change anything,\" they said. But Mia kept going. Slowly, more people ＿＿4＿＿. Now her team has over thirty members, and they have ＿＿5＿＿ more than 2,000 bottles from the park. Mia says the best part is not the number, ＿＿6＿＿ the change in people. Visitors who once dropped litter now ＿＿7＿＿ it into the right bin. \"If you want others to care,\" she says, \"you have to start with ＿＿8＿＿.\"","options":[{"key":"A","text":"left","is_correct":false,"trap_type":"句意理解偏差","option_analysis":"不选「left」：慢慢地更多人「加入」，joined"},{"key":"B","text":"returned","is_correct":false,"trap_type":"近义词混淆","option_analysis":"不选「returned」：慢慢地更多人「加入」，joined"},{"key":"C","text":"joined","is_correct":true,"trap_type":null,"option_analysis":"正确。慢慢地更多人「加入」，joined；与前文嘲笑形成对比，且与后文 team has over thirty members 呼应。"},{"key":"D","text":"arrived","is_correct":false,"trap_type":"搭配错误","option_analysis":"不选「arrived」：慢慢地更多人「加入」，joined"}],"points":[],"formula_ref":"完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配","total_score":1,"reference_answer":"标答：C. joined\n解析：慢慢地更多人「加入」，joined；与前文嘲笑形成对比，且与后文 team has over thirty members 呼应。","time_anchor":null,"tags":["完形填空","原创","把 rubbish 变成寶（记叙文 · 环保与人物）","第4空"],"difficulty":5,"question_fingerprint":"f37d9c8b4a1a90385ad374240dd13fa4","cloze_group":"CZ003","cloze_title":"把 rubbish 变成寶（记叙文 · 环保与人物）","cloze_no":4,"cloze_total":8,"raw":{"synthetic":true,"kind":"cloze","group":"CZ003"}},{"id":"CZ003_5","source":"原创完形 · 把 rubbish 变成寶（记叙文 · 环保与人物） · 第5/8空","subject":"english","stage":"初中","grade":"九","genre":"完形填空","content_scope":null,"memory_type":null,"grammar_group":"完形填空","grammar_point":"动词辨析","mode":"single","stem":"第 5 空：读全文，选出最恰当的一项。","passage":"Every Saturday, twelve-year-old Mia puts on her gloves and walks to the park. She is not there to play. She is there to ＿＿1＿＿ rubbish. Two years ago, Mia learned that a single plastic bottle can ＿＿2＿＿ in the ground for hundreds of years. She was shocked and decided to do something. At first, her friends ＿＿3＿＿ her. \"One girl can't change anything,\" they said. But Mia kept going. Slowly, more people ＿＿4＿＿. Now her team has over thirty members, and they have ＿＿5＿＿ more than 2,000 bottles from the park. Mia says the best part is not the number, ＿＿6＿＿ the change in people. Visitors who once dropped litter now ＿＿7＿＿ it into the right bin. \"If you want others to care,\" she says, \"you have to start with ＿＿8＿＿.\"","options":[{"key":"A","text":"collected","is_correct":true,"trap_type":null,"option_analysis":"正确。他们从公园「收集」了 2000 多个瓶子，与开头 collect rubbish 及 must 主题复现。"},{"key":"B","text":"thrown","is_correct":false,"trap_type":"句意理解偏差","option_analysis":"不选「thrown」：他们从公园「收集」了 2000 多个瓶子，与开头 collect rubbish"},{"key":"C","text":"broken","is_correct":false,"trap_type":"词形误判","option_analysis":"不选「broken」：他们从公园「收集」了 2000 多个瓶子，与开头 collect rubbish"},{"key":"D","text":"sold","is_correct":false,"trap_type":"近义词混淆","option_analysis":"不选「sold」：他们从公园「收集」了 2000 多个瓶子，与开头 collect rubbish"}],"points":[],"formula_ref":"完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配","total_score":1,"reference_answer":"标答：A. collected\n解析：他们从公园「收集」了 2000 多个瓶子，与开头 collect rubbish 及 must 主题复现。","time_anchor":null,"tags":["完形填空","原创","把 rubbish 变成寶（记叙文 · 环保与人物）","第5空"],"difficulty":5,"question_fingerprint":"7c8b169bd32599c9239dc4d2f705feec","cloze_group":"CZ003","cloze_title":"把 rubbish 变成寶（记叙文 · 环保与人物）","cloze_no":5,"cloze_total":8,"raw":{"synthetic":true,"kind":"cloze","group":"CZ003"}},{"id":"CZ003_6","source":"原创完形 · 把 rubbish 变成寶（记叙文 · 环保与人物） · 第6/8空","subject":"english","stage":"初中","grade":"九","genre":"完形填空","content_scope":null,"memory_type":null,"grammar_group":"完形填空","grammar_point":"连词辨析","mode":"single","stem":"第 6 空：读全文，选出最恰当的一项。","passage":"Every Saturday, twelve-year-old Mia puts on her gloves and walks to the park. She is not there to play. She is there to ＿＿1＿＿ rubbish. Two years ago, Mia learned that a single plastic bottle can ＿＿2＿＿ in the ground for hundreds of years. She was shocked and decided to do something. At first, her friends ＿＿3＿＿ her. \"One girl can't change anything,\" they said. But Mia kept going. Slowly, more people ＿＿4＿＿. Now her team has over thirty members, and they have ＿＿5＿＿ more than 2,000 bottles from the park. Mia says the best part is not the number, ＿＿6＿＿ the change in people. Visitors who once dropped litter now ＿＿7＿＿ it into the right bin. \"If you want others to care,\" she says, \"you have to start with ＿＿8＿＿.\"","options":[{"key":"A","text":"and","is_correct":false,"trap_type":"搭配错误","option_analysis":"不选「and」：not...but... 结构：最好的不是数字，而是人的改变"},{"key":"B","text":"but","is_correct":true,"trap_type":null,"option_analysis":"正确。not...but... 结构：最好的不是数字，而是人的改变；but 与 not 呼应表转折对比。"},{"key":"C","text":"so","is_correct":false,"trap_type":"句意理解偏差","option_analysis":"不选「so」：not...but... 结构：最好的不是数字，而是人的改变"},{"key":"D","text":"or","is_correct":false,"trap_type":"近义词混淆","option_analysis":"不选「or」：not...but... 结构：最好的不是数字，而是人的改变"}],"points":[],"formula_ref":"完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配","total_score":1,"reference_answer":"标答：B. but\n解析：not...but... 结构：最好的不是数字，而是人的改变；but 与 not 呼应表转折对比。","time_anchor":null,"tags":["完形填空","原创","把 rubbish 变成寶（记叙文 · 环保与人物）","第6空"],"difficulty":5,"question_fingerprint":"300f53c52c18ae1796d5003a1fa77516","cloze_group":"CZ003","cloze_title":"把 rubbish 变成寶（记叙文 · 环保与人物）","cloze_no":6,"cloze_total":8,"raw":{"synthetic":true,"kind":"cloze","group":"CZ003"}},{"id":"CZ003_7","source":"原创完形 · 把 rubbish 变成寶（记叙文 · 环保与人物） · 第7/8空","subject":"english","stage":"初中","grade":"九","genre":"完形填空","content_scope":null,"memory_type":null,"grammar_group":"完形填空","grammar_point":"动词辨析","mode":"single","stem":"第 7 空：读全文，选出最恰当的一项。","passage":"Every Saturday, twelve-year-old Mia puts on her gloves and walks to the park. She is not there to play. She is there to ＿＿1＿＿ rubbish. Two years ago, Mia learned that a single plastic bottle can ＿＿2＿＿ in the ground for hundreds of years. She was shocked and decided to do something. At first, her friends ＿＿3＿＿ her. \"One girl can't change anything,\" they said. But Mia kept going. Slowly, more people ＿＿4＿＿. Now her team has over thirty members, and they have ＿＿5＿＿ more than 2,000 bottles from the park. Mia says the best part is not the number, ＿＿6＿＿ the change in people. Visitors who once dropped litter now ＿＿7＿＿ it into the right bin. \"If you want others to care,\" she says, \"you have to start with ＿＿8＿＿.\"","options":[{"key":"A","text":"throw","is_correct":false,"trap_type":"句意理解偏差","option_analysis":"不选「throw」：曾经乱扔垃圾的游客现在把垃圾「放进」正确的垃圾桶，put...into..."},{"key":"B","text":"forget","is_correct":false,"trap_type":"近义词混淆","option_analysis":"不选「forget」：曾经乱扔垃圾的游客现在把垃圾「放进」正确的垃圾桶，put...into..."},{"key":"C","text":"leave","is_correct":false,"trap_type":"搭配错误","option_analysis":"不选「leave」：曾经乱扔垃圾的游客现在把垃圾「放进」正确的垃圾桶，put...into..."},{"key":"D","text":"put","is_correct":true,"trap_type":null,"option_analysis":"正确。曾经乱扔垃圾的游客现在把垃圾「放进」正确的垃圾桶，put...into...；与 dropped litter 形成行为转变。"}],"points":[],"formula_ref":"完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配","total_score":1,"reference_answer":"标答：D. put\n解析：曾经乱扔垃圾的游客现在把垃圾「放进」正确的垃圾桶，put...into...；与 dropped litter 形成行为转变。","time_anchor":null,"tags":["完形填空","原创","把 rubbish 变成寶（记叙文 · 环保与人物）","第7空"],"difficulty":5,"question_fingerprint":"a86dac05ae9a8d550650ecf318af2750","cloze_group":"CZ003","cloze_title":"把 rubbish 变成寶（记叙文 · 环保与人物）","cloze_no":7,"cloze_total":8,"raw":{"synthetic":true,"kind":"cloze","group":"CZ003"}},{"id":"CZ003_8","source":"原创完形 · 把 rubbish 变成寶（记叙文 · 环保与人物） · 第8/8空","subject":"english","stage":"初中","grade":"九","genre":"完形填空","content_scope":null,"memory_type":null,"grammar_group":"完形填空","grammar_point":"反身代词","mode":"single","stem":"第 8 空：读全文，选出最恰当的一项。","passage":"Every Saturday, twelve-year-old Mia puts on her gloves and walks to the park. She is not there to play. She is there to ＿＿1＿＿ rubbish. Two years ago, Mia learned that a single plastic bottle can ＿＿2＿＿ in the ground for hundreds of years. She was shocked and decided to do something. At first, her friends ＿＿3＿＿ her. \"One girl can't change anything,\" they said. But Mia kept going. Slowly, more people ＿＿4＿＿. Now her team has over thirty members, and they have ＿＿5＿＿ more than 2,000 bottles from the park. Mia says the best part is not the number, ＿＿6＿＿ the change in people. Visitors who once dropped litter now ＿＿7＿＿ it into the right bin. \"If you want others to care,\" she says, \"you have to start with ＿＿8＿＿.\"","options":[{"key":"A","text":"yourself","is_correct":true,"trap_type":null,"option_analysis":"正确。start with yourself 意为「从你自己做起」；主语 you，反身代词用 yourself。"},{"key":"B","text":"themselves","is_correct":false,"trap_type":"句意理解偏差","option_analysis":"不选「themselves」：start with yourself 意为「从你自己做起」"},{"key":"C","text":"myself","is_correct":false,"trap_type":"词形误判","option_analysis":"不选「myself」：start with yourself 意为「从你自己做起」"},{"key":"D","text":"ourselves","is_correct":false,"trap_type":"搭配错误","option_analysis":"不选「ourselves」：start with yourself 意为「从你自己做起」"}],"points":[],"formula_ref":"完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配","total_score":1,"reference_answer":"标答：A. yourself\n解析：start with yourself 意为「从你自己做起」；主语 you，反身代词用 yourself。","time_anchor":null,"tags":["完形填空","原创","把 rubbish 变成寶（记叙文 · 环保与人物）","第8空"],"difficulty":5,"question_fingerprint":"f35e5d077a64bdcb6d403f3284b243f4","cloze_group":"CZ003","cloze_title":"把 rubbish 变成寶（记叙文 · 环保与人物）","cloze_no":8,"cloze_total":8,"raw":{"synthetic":true,"kind":"cloze","group":"CZ003"}}]}
+{
+ "name": "原创完形填空种子题",
+ "note": "每空一道四选一、共享短文。merge_bank 会把本文件并入 all.json，每天自动更新不会冲掉。",
+ "updatedAt": "2026-11-19T14:41:27.786320+08:00",
+ "items": [
+  {
+   "id": "CZ001_1",
+   "source": "原创完形 · 一枚旧邮戳（记叙文 · 亲情与成长） · 第1/8空",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "八",
+   "genre": "完形填空",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "完形填空",
+   "grammar_point": "固定搭配",
+   "mode": "single",
+   "stem": "第 1 空：读全文，选出最恰当的一项。",
+   "passage": "I used to think my grandfather was a man of few words. Last summer, though, I found a small box in his room. It was ＿＿1＿＿ with old letters and stamps. \"Your grandmother wrote to me when I was away,\" he said softly. I had never known that story. Every evening that week, I sat beside him and ＿＿2＿＿ him read the letters aloud. Some words were hard to ＿＿3＿＿, but the love in them was clear. One day I asked why he had ＿＿4＿＿ them for so many years. He smiled, \"Because every letter says she was ＿＿5＿＿ for me to come home.\" That night, I ＿＿6＿＿ understand why he kept the box close to his bed. The letters were not paper to him; they were a life ＿＿7＿＿ together. Now I keep the box, and I ＿＿8＿＿ it will teach me to say the important things while someone can still hear them.",
+   "options": [
+    {
+     "key": "A",
+     "text": "covered",
+     "is_correct": false,
+     "trap_type": "搭配错误",
+     "option_analysis": "不选「covered」：be filled with 意为「装满」"
+    },
+    {
+     "key": "B",
+     "text": "filled",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。be filled with 意为「装满」；covered 需 with 才通但语义是「覆盖」，此处强调盒子里装满旧信与邮票，filled 最贴切。"
+    },
+    {
+     "key": "C",
+     "text": "busy",
+     "is_correct": false,
+     "trap_type": "词形误判",
+     "option_analysis": "不选「busy」：be filled with 意为「装满」"
+    },
+    {
+     "key": "D",
+     "text": "careful",
+     "is_correct": false,
+     "trap_type": "句意理解偏差",
+     "option_analysis": "不选「careful」：be filled with 意为「装满」"
+    }
+   ],
+   "points": [],
+   "formula_ref": "完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配",
+   "total_score": 1,
+   "reference_answer": "标答：B. filled\n解析：be filled with 意为「装满」；covered 需 with 才通但语义是「覆盖」，此处强调盒子里装满旧信与邮票，filled 最贴切。",
+   "time_anchor": null,
+   "tags": [
+    "完形填空",
+    "原创",
+    "一枚旧邮戳（记叙文 · 亲情与成长）",
+    "第1空"
+   ],
+   "difficulty": 1.1,
+   "question_fingerprint": "778e5d073c368554a587b7dcf524bf7b",
+   "cloze_group": "CZ001",
+   "cloze_title": "一枚旧邮戳（记叙文 · 亲情与成长）",
+   "cloze_no": 1,
+   "cloze_total": 8,
+   "raw": {
+    "synthetic": true,
+    "kind": "cloze",
+    "group": "CZ001"
+   },
+   "difficultyWhy": "2.15 结构重估（原标注无梯度或明显偏低）"
+  },
+  {
+   "id": "CZ001_2",
+   "source": "原创完形 · 一枚旧邮戳（记叙文 · 亲情与成长） · 第2/8空",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "八",
+   "genre": "完形填空",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "完形填空",
+   "grammar_point": "动词搭配",
+   "mode": "single",
+   "stem": "第 2 空：读全文，选出最恰当的一项。",
+   "passage": "I used to think my grandfather was a man of few words. Last summer, though, I found a small box in his room. It was ＿＿1＿＿ with old letters and stamps. \"Your grandmother wrote to me when I was away,\" he said softly. I had never known that story. Every evening that week, I sat beside him and ＿＿2＿＿ him read the letters aloud. Some words were hard to ＿＿3＿＿, but the love in them was clear. One day I asked why he had ＿＿4＿＿ them for so many years. He smiled, \"Because every letter says she was ＿＿5＿＿ for me to come home.\" That night, I ＿＿6＿＿ understand why he kept the box close to his bed. The letters were not paper to him; they were a life ＿＿7＿＿ together. Now I keep the box, and I ＿＿8＿＿ it will teach me to say the important things while someone can still hear them.",
+   "options": [
+    {
+     "key": "A",
+     "text": "heard",
+     "is_correct": false,
+     "trap_type": "时态误判",
+     "option_analysis": "不选「heard」：listen to sb do sth 表示「听某人做某事」"
+    },
+    {
+     "key": "B",
+     "text": "watched",
+     "is_correct": false,
+     "trap_type": "近义词混淆",
+     "option_analysis": "不选「watched」：listen to sb do sth 表示「听某人做某事」"
+    },
+    {
+     "key": "C",
+     "text": "listened to",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。listen to sb do sth 表示「听某人做某事」；read 是动词原形，需用 listen to。hear sb do 虽通但强调「听见」结果，此处是「坐在旁边听他读」，用 listened to。"
+    },
+    {
+     "key": "D",
+     "text": "looked at",
+     "is_correct": false,
+     "trap_type": "搭配错误",
+     "option_analysis": "不选「looked at」：listen to sb do sth 表示「听某人做某事」"
+    }
+   ],
+   "points": [],
+   "formula_ref": "完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配",
+   "total_score": 1,
+   "reference_answer": "标答：C. listened to\n解析：listen to sb do sth 表示「听某人做某事」；read 是动词原形，需用 listen to。hear sb do 虽通但强调「听见」结果，此处是「坐在旁边听他读」，用 listened to。",
+   "time_anchor": null,
+   "tags": [
+    "完形填空",
+    "原创",
+    "一枚旧邮戳（记叙文 · 亲情与成长）",
+    "第2空"
+   ],
+   "difficulty": 1.1,
+   "question_fingerprint": "42f4fa473ab475a4736b8e6e789a4578",
+   "cloze_group": "CZ001",
+   "cloze_title": "一枚旧邮戳（记叙文 · 亲情与成长）",
+   "cloze_no": 2,
+   "cloze_total": 8,
+   "raw": {
+    "synthetic": true,
+    "kind": "cloze",
+    "group": "CZ001"
+   },
+   "difficultyWhy": "2.15 结构重估（原标注无梯度或明显偏低）"
+  },
+  {
+   "id": "CZ001_3",
+   "source": "原创完形 · 一枚旧邮戳（记叙文 · 亲情与成长） · 第3/8空",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "八",
+   "genre": "完形填空",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "完形填空",
+   "grammar_point": "词义辨析",
+   "mode": "single",
+   "stem": "第 3 空：读全文，选出最恰当的一项。",
+   "passage": "I used to think my grandfather was a man of few words. Last summer, though, I found a small box in his room. It was ＿＿1＿＿ with old letters and stamps. \"Your grandmother wrote to me when I was away,\" he said softly. I had never known that story. Every evening that week, I sat beside him and ＿＿2＿＿ him read the letters aloud. Some words were hard to ＿＿3＿＿, but the love in them was clear. One day I asked why he had ＿＿4＿＿ them for so many years. He smiled, \"Because every letter says she was ＿＿5＿＿ for me to come home.\" That night, I ＿＿6＿＿ understand why he kept the box close to his bed. The letters were not paper to him; they were a life ＿＿7＿＿ together. Now I keep the box, and I ＿＿8＿＿ it will teach me to say the important things while someone can still hear them.",
+   "options": [
+    {
+     "key": "A",
+     "text": "believe",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。有些词难以「相信」（这是 retroactive 的情感冲击），但字里行间的爱很清楚；后文 clear 与 hard 形成对比，believe 最合逻辑。"
+    },
+    {
+     "key": "B",
+     "text": "remember",
+     "is_correct": false,
+     "trap_type": "句意理解偏差",
+     "option_analysis": "不选「remember」：有些词难以「相信」（这是 retroactive 的情感冲击），但字里行间的爱很"
+    },
+    {
+     "key": "C",
+     "text": "explain",
+     "is_correct": false,
+     "trap_type": "词形误判",
+     "option_analysis": "不选「explain」：有些词难以「相信」（这是 retroactive 的情感冲击），但字里行间的爱很"
+    },
+    {
+     "key": "D",
+     "text": "translate",
+     "is_correct": false,
+     "trap_type": "近义词混淆",
+     "option_analysis": "不选「translate」：有些词难以「相信」（这是 retroactive 的情感冲击），但字里行间的爱很"
+    }
+   ],
+   "points": [],
+   "formula_ref": "完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配",
+   "total_score": 1,
+   "reference_answer": "标答：A. believe\n解析：有些词难以「相信」（这是 retroactive 的情感冲击），但字里行间的爱很清楚；后文 clear 与 hard 形成对比，believe 最合逻辑。",
+   "time_anchor": null,
+   "tags": [
+    "完形填空",
+    "原创",
+    "一枚旧邮戳（记叙文 · 亲情与成长）",
+    "第3空"
+   ],
+   "difficulty": 1.1,
+   "question_fingerprint": "854571f25710eff99beb884113b09736",
+   "cloze_group": "CZ001",
+   "cloze_title": "一枚旧邮戳（记叙文 · 亲情与成长）",
+   "cloze_no": 3,
+   "cloze_total": 8,
+   "raw": {
+    "synthetic": true,
+    "kind": "cloze",
+    "group": "CZ001"
+   },
+   "difficultyWhy": "2.15 结构重估（原标注无梯度或明显偏低）"
+  },
+  {
+   "id": "CZ001_4",
+   "source": "原创完形 · 一枚旧邮戳（记叙文 · 亲情与成长） · 第4/8空",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "八",
+   "genre": "完形填空",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "完形填空",
+   "grammar_point": "动词辨析",
+   "mode": "single",
+   "stem": "第 4 空：读全文，选出最恰当的一项。",
+   "passage": "I used to think my grandfather was a man of few words. Last summer, though, I found a small box in his room. It was ＿＿1＿＿ with old letters and stamps. \"Your grandmother wrote to me when I was away,\" he said softly. I had never known that story. Every evening that week, I sat beside him and ＿＿2＿＿ him read the letters aloud. Some words were hard to ＿＿3＿＿, but the love in them was clear. One day I asked why he had ＿＿4＿＿ them for so many years. He smiled, \"Because every letter says she was ＿＿5＿＿ for me to come home.\" That night, I ＿＿6＿＿ understand why he kept the box close to his bed. The letters were not paper to him; they were a life ＿＿7＿＿ together. Now I keep the box, and I ＿＿8＿＿ it will teach me to say the important things while someone can still hear them.",
+   "options": [
+    {
+     "key": "A",
+     "text": "thrown",
+     "is_correct": false,
+     "trap_type": "句意理解偏差",
+     "option_analysis": "不选「thrown」：保留这么多年用 kept"
+    },
+    {
+     "key": "B",
+     "text": "forgotten",
+     "is_correct": false,
+     "trap_type": "近义词混淆",
+     "option_analysis": "不选「forgotten」：保留这么多年用 kept"
+    },
+    {
+     "key": "C",
+     "text": "hidden",
+     "is_correct": false,
+     "trap_type": "搭配错误",
+     "option_analysis": "不选「hidden」：保留这么多年用 kept"
+    },
+    {
+     "key": "D",
+     "text": "kept",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。保留这么多年用 kept；与末段 he kept the box 呼应（词汇复现是完形常见线索）。"
+    }
+   ],
+   "points": [],
+   "formula_ref": "完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配",
+   "total_score": 1,
+   "reference_answer": "标答：D. kept\n解析：保留这么多年用 kept；与末段 he kept the box 呼应（词汇复现是完形常见线索）。",
+   "time_anchor": null,
+   "tags": [
+    "完形填空",
+    "原创",
+    "一枚旧邮戳（记叙文 · 亲情与成长）",
+    "第4空"
+   ],
+   "difficulty": 1.1,
+   "question_fingerprint": "b45306feab454193acbdec11c7e47cb0",
+   "cloze_group": "CZ001",
+   "cloze_title": "一枚旧邮戳（记叙文 · 亲情与成长）",
+   "cloze_no": 4,
+   "cloze_total": 8,
+   "raw": {
+    "synthetic": true,
+    "kind": "cloze",
+    "group": "CZ001"
+   },
+   "difficultyWhy": "2.15 结构重估（原标注无梯度或明显偏低）"
+  },
+  {
+   "id": "CZ001_5",
+   "source": "原创完形 · 一枚旧邮戳（记叙文 · 亲情与成长） · 第5/8空",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "八",
+   "genre": "完形填空",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "完形填空",
+   "grammar_point": "固定搭配",
+   "mode": "single",
+   "stem": "第 5 空：读全文，选出最恰当的一项。",
+   "passage": "I used to think my grandfather was a man of few words. Last summer, though, I found a small box in his room. It was ＿＿1＿＿ with old letters and stamps. \"Your grandmother wrote to me when I was away,\" he said softly. I had never known that story. Every evening that week, I sat beside him and ＿＿2＿＿ him read the letters aloud. Some words were hard to ＿＿3＿＿, but the love in them was clear. One day I asked why he had ＿＿4＿＿ them for so many years. He smiled, \"Because every letter says she was ＿＿5＿＿ for me to come home.\" That night, I ＿＿6＿＿ understand why he kept the box close to his bed. The letters were not paper to him; they were a life ＿＿7＿＿ together. Now I keep the box, and I ＿＿8＿＿ it will teach me to say the important things while someone can still hear them.",
+   "options": [
+    {
+     "key": "A",
+     "text": "looking",
+     "is_correct": false,
+     "trap_type": "搭配错误",
+     "option_analysis": "不选「looking」：wait for sb to do 意为「等某人做某事」"
+    },
+    {
+     "key": "B",
+     "text": "waiting",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。wait for sb to do 意为「等某人做某事」；信里说她等我回家，waiting 与 for me to come home 搭配。"
+    },
+    {
+     "key": "C",
+     "text": "calling",
+     "is_correct": false,
+     "trap_type": "句意理解偏差",
+     "option_analysis": "不选「calling」：wait for sb to do 意为「等某人做某事」"
+    },
+    {
+     "key": "D",
+     "text": "asking",
+     "is_correct": false,
+     "trap_type": "近义词混淆",
+     "option_analysis": "不选「asking」：wait for sb to do 意为「等某人做某事」"
+    }
+   ],
+   "points": [],
+   "formula_ref": "完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配",
+   "total_score": 1,
+   "reference_answer": "标答：B. waiting\n解析：wait for sb to do 意为「等某人做某事」；信里说她等我回家，waiting 与 for me to come home 搭配。",
+   "time_anchor": null,
+   "tags": [
+    "完形填空",
+    "原创",
+    "一枚旧邮戳（记叙文 · 亲情与成长）",
+    "第5空"
+   ],
+   "difficulty": 1.1,
+   "question_fingerprint": "80940642178b412735ed11de1b5495a3",
+   "cloze_group": "CZ001",
+   "cloze_title": "一枚旧邮戳（记叙文 · 亲情与成长）",
+   "cloze_no": 5,
+   "cloze_total": 8,
+   "raw": {
+    "synthetic": true,
+    "kind": "cloze",
+    "group": "CZ001"
+   },
+   "difficultyWhy": "2.15 结构重估（原标注无梯度或明显偏低）"
+  },
+  {
+   "id": "CZ001_6",
+   "source": "原创完形 · 一枚旧邮戳（记叙文 · 亲情与成长） · 第6/8空",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "八",
+   "genre": "完形填空",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "完形填空",
+   "grammar_point": "副词辨析",
+   "mode": "single",
+   "stem": "第 6 空：读全文，选出最恰当的一项。",
+   "passage": "I used to think my grandfather was a man of few words. Last summer, though, I found a small box in his room. It was ＿＿1＿＿ with old letters and stamps. \"Your grandmother wrote to me when I was away,\" he said softly. I had never known that story. Every evening that week, I sat beside him and ＿＿2＿＿ him read the letters aloud. Some words were hard to ＿＿3＿＿, but the love in them was clear. One day I asked why he had ＿＿4＿＿ them for so many years. He smiled, \"Because every letter says she was ＿＿5＿＿ for me to come home.\" That night, I ＿＿6＿＿ understand why he kept the box close to his bed. The letters were not paper to him; they were a life ＿＿7＿＿ together. Now I keep the box, and I ＿＿8＿＿ it will teach me to say the important things while someone can still hear them.",
+   "options": [
+    {
+     "key": "A",
+     "text": "suddenly",
+     "is_correct": false,
+     "trap_type": "",
+     "option_analysis": "不选「suddenly」：经过一周的阅读积累，那天夜里「终于」明白了，finally 体现过程后的领悟"
+    },
+    {
+     "key": "B",
+     "text": "quickly",
+     "is_correct": false,
+     "trap_type": "近义词混淆",
+     "option_analysis": "不选「quickly」：经过一周的阅读积累，那天夜里「终于」明白了，finally 体现过程后的领悟"
+    },
+    {
+     "key": "C",
+     "text": "finally",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。经过一周的阅读积累，那天夜里「终于」明白了，finally 体现过程后的领悟；suddenly 强调突发，与叙事铺垫不符。"
+    },
+    {
+     "key": "D",
+     "text": "nearly",
+     "is_correct": false,
+     "trap_type": "句意理解偏差",
+     "option_analysis": "不选「nearly」：经过一周的阅读积累，那天夜里「终于」明白了，finally 体现过程后的领悟"
+    }
+   ],
+   "points": [],
+   "formula_ref": "完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配",
+   "total_score": 1,
+   "reference_answer": "标答：C. finally\n解析：经过一周的阅读积累，那天夜里「终于」明白了，finally 体现过程后的领悟；suddenly 强调突发，与叙事铺垫不符。",
+   "time_anchor": null,
+   "tags": [
+    "完形填空",
+    "原创",
+    "一枚旧邮戳（记叙文 · 亲情与成长）",
+    "第6空"
+   ],
+   "difficulty": 1.1,
+   "question_fingerprint": "19beddac1bf8fae1ca5d1b4da25da86c",
+   "cloze_group": "CZ001",
+   "cloze_title": "一枚旧邮戳（记叙文 · 亲情与成长）",
+   "cloze_no": 6,
+   "cloze_total": 8,
+   "raw": {
+    "synthetic": true,
+    "kind": "cloze",
+    "group": "CZ001"
+   },
+   "difficultyWhy": "2.15 结构重估（原标注无梯度或明显偏低）"
+  },
+  {
+   "id": "CZ001_7",
+   "source": "原创完形 · 一枚旧邮戳（记叙文 · 亲情与成长） · 第7/8空",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "八",
+   "genre": "完形填空",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "完形填空",
+   "grammar_point": "词义辨析",
+   "mode": "single",
+   "stem": "第 7 空：读全文，选出最恰当的一项。",
+   "passage": "I used to think my grandfather was a man of few words. Last summer, though, I found a small box in his room. It was ＿＿1＿＿ with old letters and stamps. \"Your grandmother wrote to me when I was away,\" he said softly. I had never known that story. Every evening that week, I sat beside him and ＿＿2＿＿ him read the letters aloud. Some words were hard to ＿＿3＿＿, but the love in them was clear. One day I asked why he had ＿＿4＿＿ them for so many years. He smiled, \"Because every letter says she was ＿＿5＿＿ for me to come home.\" That night, I ＿＿6＿＿ understand why he kept the box close to his bed. The letters were not paper to him; they were a life ＿＿7＿＿ together. Now I keep the box, and I ＿＿8＿＿ it will teach me to say the important things while someone can still hear them.",
+   "options": [
+    {
+     "key": "A",
+     "text": "lived",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。a life lived together 表示「一起度过的人生」，过去分词 lived 作后置定语；这里把信比作共同生活的见证。"
+    },
+    {
+     "key": "B",
+     "text": "spent",
+     "is_correct": false,
+     "trap_type": "搭配错误",
+     "option_analysis": "不选「spent」：a life lived together 表示「一起度过的人生」，过去分词 l"
+    },
+    {
+     "key": "C",
+     "text": "taken",
+     "is_correct": false,
+     "trap_type": "句意理解偏差",
+     "option_analysis": "不选「taken」：a life lived together 表示「一起度过的人生」，过去分词 l"
+    },
+    {
+     "key": "D",
+     "text": "made",
+     "is_correct": false,
+     "trap_type": "近义词混淆",
+     "option_analysis": "不选「made」：a life lived together 表示「一起度过的人生」，过去分词 l"
+    }
+   ],
+   "points": [],
+   "formula_ref": "完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配",
+   "total_score": 1,
+   "reference_answer": "标答：A. lived\n解析：a life lived together 表示「一起度过的人生」，过去分词 lived 作后置定语；这里把信比作共同生活的见证。",
+   "time_anchor": null,
+   "tags": [
+    "完形填空",
+    "原创",
+    "一枚旧邮戳（记叙文 · 亲情与成长）",
+    "第7空"
+   ],
+   "difficulty": 1.1,
+   "question_fingerprint": "6e332cf56cb02007c1221adf661c26a5",
+   "cloze_group": "CZ001",
+   "cloze_title": "一枚旧邮戳（记叙文 · 亲情与成长）",
+   "cloze_no": 7,
+   "cloze_total": 8,
+   "raw": {
+    "synthetic": true,
+    "kind": "cloze",
+    "group": "CZ001"
+   },
+   "difficultyWhy": "2.15 结构重估（原标注无梯度或明显偏低）"
+  },
+  {
+   "id": "CZ001_8",
+   "source": "原创完形 · 一枚旧邮戳（记叙文 · 亲情与成长） · 第8/8空",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "八",
+   "genre": "完形填空",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "完形填空",
+   "grammar_point": "动词辨析",
+   "mode": "single",
+   "stem": "第 8 空：读全文，选出最恰当的一项。",
+   "passage": "I used to think my grandfather was a man of few words. Last summer, though, I found a small box in his room. It was ＿＿1＿＿ with old letters and stamps. \"Your grandmother wrote to me when I was away,\" he said softly. I had never known that story. Every evening that week, I sat beside him and ＿＿2＿＿ him read the letters aloud. Some words were hard to ＿＿3＿＿, but the love in them was clear. One day I asked why he had ＿＿4＿＿ them for so many years. He smiled, \"Because every letter says she was ＿＿5＿＿ for me to come home.\" That night, I ＿＿6＿＿ understand why he kept the box close to his bed. The letters were not paper to him; they were a life ＿＿7＿＿ together. Now I keep the box, and I ＿＿8＿＿ it will teach me to say the important things while someone can still hear them.",
+   "options": [
+    {
+     "key": "A",
+     "text": "worry",
+     "is_correct": false,
+     "trap_type": "句意理解偏差",
+     "option_analysis": "不选「worry」：现在盒子归我，我「希望」它教会我在别人还听得见时说出重要的话"
+    },
+    {
+     "key": "B",
+     "text": "doubt",
+     "is_correct": false,
+     "trap_type": "近义词混淆",
+     "option_analysis": "不选「doubt」：现在盒子归我，我「希望」它教会我在别人还听得见时说出重要的话"
+    },
+    {
+     "key": "C",
+     "text": "guess",
+     "is_correct": false,
+     "trap_type": "搭配错误",
+     "option_analysis": "不选「guess」：现在盒子归我，我「希望」它教会我在别人还听得见时说出重要的话"
+    },
+    {
+     "key": "D",
+     "text": "hope",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。现在盒子归我，我「希望」它教会我在别人还听得见时说出重要的话；hope 与前文遗憾形成情感收束。"
+    }
+   ],
+   "points": [],
+   "formula_ref": "完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配",
+   "total_score": 1,
+   "reference_answer": "标答：D. hope\n解析：现在盒子归我，我「希望」它教会我在别人还听得见时说出重要的话；hope 与前文遗憾形成情感收束。",
+   "time_anchor": null,
+   "tags": [
+    "完形填空",
+    "原创",
+    "一枚旧邮戳（记叙文 · 亲情与成长）",
+    "第8空"
+   ],
+   "difficulty": 1.1,
+   "question_fingerprint": "7ae46287eb2ab318cb5c3bf301a2e16a",
+   "cloze_group": "CZ001",
+   "cloze_title": "一枚旧邮戳（记叙文 · 亲情与成长）",
+   "cloze_no": 8,
+   "cloze_total": 8,
+   "raw": {
+    "synthetic": true,
+    "kind": "cloze",
+    "group": "CZ001"
+   },
+   "difficultyWhy": "2.15 结构重估（原标注无梯度或明显偏低）"
+  },
+  {
+   "id": "CZ002_1",
+   "source": "原创完形 · 会「写字」的树（说明文 · 自然科学） · 第1/8空",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "七",
+   "genre": "完形填空",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "完形填空",
+   "grammar_point": "动词辨析",
+   "mode": "single",
+   "stem": "第 1 空：读全文，选出最恰当的一项。",
+   "passage": "Trees cannot talk, but they can ＿＿1＿＿ messages. When insects bite a tree, it may ＿＿2＿＿ a special smell into the air. Nearby trees ＿＿3＿＿ this smell and get ready to fight. Scientists call this \"tree ＿＿4＿＿\". Trees also share food. Through their roots, a big tree can ＿＿5＿＿ sugar to a small one that cannot get enough sunlight. In this way, the whole forest becomes stronger. What is more ＿＿6＿＿ is that trees remember. A tree that once suffered from drought may grow ＿＿7＿＿ roots the next time, as if it has learned from the past. So next time you walk in a park, remember: the quiet trees around you may be ＿＿8＿＿ to one another.",
+   "options": [
+    {
+     "key": "A",
+     "text": "hide",
+     "is_correct": false,
+     "trap_type": "句意理解偏差",
+     "option_analysis": "不选「hide」：树不能说话但能「传递」信息，send messages 与后文释放气味呼应。"
+    },
+    {
+     "key": "B",
+     "text": "send",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。树不能说话但能「传递」信息，send messages 与后文释放气味呼应。"
+    },
+    {
+     "key": "C",
+     "text": "keep",
+     "is_correct": false,
+     "trap_type": "近义词混淆",
+     "option_analysis": "不选「keep」：树不能说话但能「传递」信息，send messages 与后文释放气味呼应。"
+    },
+    {
+     "key": "D",
+     "text": "change",
+     "is_correct": false,
+     "trap_type": "搭配错误",
+     "option_analysis": "不选「change」：树不能说话但能「传递」信息，send messages 与后文释放气味呼应。"
+    }
+   ],
+   "points": [],
+   "formula_ref": "完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配",
+   "total_score": 1,
+   "reference_answer": "标答：B. send\n解析：树不能说话但能「传递」信息，send messages 与后文释放气味呼应。",
+   "time_anchor": null,
+   "tags": [
+    "完形填空",
+    "原创",
+    "会「写字」的树（说明文 · 自然科学）",
+    "第1空"
+   ],
+   "difficulty": 1.1,
+   "question_fingerprint": "5f7a0e21e29018259de399e090fea462",
+   "cloze_group": "CZ002",
+   "cloze_title": "会「写字」的树（说明文 · 自然科学）",
+   "cloze_no": 1,
+   "cloze_total": 8,
+   "raw": {
+    "synthetic": true,
+    "kind": "cloze",
+    "group": "CZ002"
+   },
+   "difficultyWhy": "2.15 结构重估（原标注无梯度或明显偏低）"
+  },
+  {
+   "id": "CZ002_2",
+   "source": "原创完形 · 会「写字」的树（说明文 · 自然科学） · 第2/8空",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "七",
+   "genre": "完形填空",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "完形填空",
+   "grammar_point": "短语辨析",
+   "mode": "single",
+   "stem": "第 2 空：读全文，选出最恰当的一项。",
+   "passage": "Trees cannot talk, but they can ＿＿1＿＿ messages. When insects bite a tree, it may ＿＿2＿＿ a special smell into the air. Nearby trees ＿＿3＿＿ this smell and get ready to fight. Scientists call this \"tree ＿＿4＿＿\". Trees also share food. Through their roots, a big tree can ＿＿5＿＿ sugar to a small one that cannot get enough sunlight. In this way, the whole forest becomes stronger. What is more ＿＿6＿＿ is that trees remember. A tree that once suffered from drought may grow ＿＿7＿＿ roots the next time, as if it has learned from the past. So next time you walk in a park, remember: the quiet trees around you may be ＿＿8＿＿ to one another.",
+   "options": [
+    {
+     "key": "A",
+     "text": "give out",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。give out 分发/散发（气味）；give up 放弃，give in 屈服，give away 赠送/泄露，语义均不符。"
+    },
+    {
+     "key": "B",
+     "text": "give up",
+     "is_correct": false,
+     "trap_type": "近义词混淆",
+     "option_analysis": "不选「give up」：give out 分发/散发（气味）"
+    },
+    {
+     "key": "C",
+     "text": "give in",
+     "is_correct": false,
+     "trap_type": "搭配错误",
+     "option_analysis": "不选「give in」：give out 分发/散发（气味）"
+    },
+    {
+     "key": "D",
+     "text": "give away",
+     "is_correct": false,
+     "trap_type": "句意理解偏差",
+     "option_analysis": "不选「give away」：give out 分发/散发（气味）"
+    }
+   ],
+   "points": [],
+   "formula_ref": "完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配",
+   "total_score": 1,
+   "reference_answer": "标答：A. give out\n解析：give out 分发/散发（气味）；give up 放弃，give in 屈服，give away 赠送/泄露，语义均不符。",
+   "time_anchor": null,
+   "tags": [
+    "完形填空",
+    "原创",
+    "会「写字」的树（说明文 · 自然科学）",
+    "第2空"
+   ],
+   "difficulty": 1.1,
+   "question_fingerprint": "f3f47a1e51a636671780c35d5c7f89a5",
+   "cloze_group": "CZ002",
+   "cloze_title": "会「写字」的树（说明文 · 自然科学）",
+   "cloze_no": 2,
+   "cloze_total": 8,
+   "raw": {
+    "synthetic": true,
+    "kind": "cloze",
+    "group": "CZ002"
+   },
+   "difficultyWhy": "2.15 结构重估（原标注无梯度或明显偏低）"
+  },
+  {
+   "id": "CZ002_3",
+   "source": "原创完形 · 会「写字」的树（说明文 · 自然科学） · 第3/8空",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "七",
+   "genre": "完形填空",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "完形填空",
+   "grammar_point": "词义辨析",
+   "mode": "single",
+   "stem": "第 3 空：读全文，选出最恰当的一项。",
+   "passage": "Trees cannot talk, but they can ＿＿1＿＿ messages. When insects bite a tree, it may ＿＿2＿＿ a special smell into the air. Nearby trees ＿＿3＿＿ this smell and get ready to fight. Scientists call this \"tree ＿＿4＿＿\". Trees also share food. Through their roots, a big tree can ＿＿5＿＿ sugar to a small one that cannot get enough sunlight. In this way, the whole forest becomes stronger. What is more ＿＿6＿＿ is that trees remember. A tree that once suffered from drought may grow ＿＿7＿＿ roots the next time, as if it has learned from the past. So next time you walk in a park, remember: the quiet trees around you may be ＿＿8＿＿ to one another.",
+   "options": [
+    {
+     "key": "A",
+     "text": "smell",
+     "is_correct": false,
+     "trap_type": "",
+     "option_analysis": "不选「smell」：附近的树「察觉到」这种气味并准备抵抗"
+    },
+    {
+     "key": "B",
+     "text": "see",
+     "is_correct": false,
+     "trap_type": "句意理解偏差",
+     "option_analysis": "不选「see」：附近的树「察觉到」这种气味并准备抵抗"
+    },
+    {
+     "key": "C",
+     "text": "notice",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。附近的树「察觉到」这种气味并准备抵抗；notice 强调察觉到细微信号，比 smell（单纯闻到）更贴合「接收警告」的科学语境。"
+    },
+    {
+     "key": "D",
+     "text": "taste",
+     "is_correct": false,
+     "trap_type": "搭配错误",
+     "option_analysis": "不选「taste」：附近的树「察觉到」这种气味并准备抵抗"
+    }
+   ],
+   "points": [],
+   "formula_ref": "完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配",
+   "total_score": 1,
+   "reference_answer": "标答：C. notice\n解析：附近的树「察觉到」这种气味并准备抵抗；notice 强调察觉到细微信号，比 smell（单纯闻到）更贴合「接收警告」的科学语境。",
+   "time_anchor": null,
+   "tags": [
+    "完形填空",
+    "原创",
+    "会「写字」的树（说明文 · 自然科学）",
+    "第3空"
+   ],
+   "difficulty": 1.1,
+   "question_fingerprint": "986ce910a0befc044112c221153afbee",
+   "cloze_group": "CZ002",
+   "cloze_title": "会「写字」的树（说明文 · 自然科学）",
+   "cloze_no": 3,
+   "cloze_total": 8,
+   "raw": {
+    "synthetic": true,
+    "kind": "cloze",
+    "group": "CZ002"
+   },
+   "difficultyWhy": "2.15 结构重估（原标注无梯度或明显偏低）"
+  },
+  {
+   "id": "CZ002_4",
+   "source": "原创完形 · 会「写字」的树（说明文 · 自然科学） · 第4/8空",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "七",
+   "genre": "完形填空",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "完形填空",
+   "grammar_point": "词义辨析",
+   "mode": "single",
+   "stem": "第 4 空：读全文，选出最恰当的一项。",
+   "passage": "Trees cannot talk, but they can ＿＿1＿＿ messages. When insects bite a tree, it may ＿＿2＿＿ a special smell into the air. Nearby trees ＿＿3＿＿ this smell and get ready to fight. Scientists call this \"tree ＿＿4＿＿\". Trees also share food. Through their roots, a big tree can ＿＿5＿＿ sugar to a small one that cannot get enough sunlight. In this way, the whole forest becomes stronger. What is more ＿＿6＿＿ is that trees remember. A tree that once suffered from drought may grow ＿＿7＿＿ roots the next time, as if it has learned from the past. So next time you walk in a park, remember: the quiet trees around you may be ＿＿8＿＿ to one another.",
+   "options": [
+    {
+     "key": "A",
+     "text": "language",
+     "is_correct": false,
+     "trap_type": "",
+     "option_analysis": "不选「language」：科学家称之为「树木交流」tree communication"
+    },
+    {
+     "key": "B",
+     "text": "voice",
+     "is_correct": false,
+     "trap_type": "近义词混淆",
+     "option_analysis": "不选「voice」：科学家称之为「树木交流」tree communication"
+    },
+    {
+     "key": "C",
+     "text": "sound",
+     "is_correct": false,
+     "trap_type": "词形误判",
+     "option_analysis": "不选「sound」：科学家称之为「树木交流」tree communication"
+    },
+    {
+     "key": "D",
+     "text": "communication",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。科学家称之为「树木交流」tree communication；全文讲传递信息、分享养分，communication 概括性最强。language 也可，但 communication 与 cannot talk 的对比更自然，且是标准术语。"
+    }
+   ],
+   "points": [],
+   "formula_ref": "完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配",
+   "total_score": 1,
+   "reference_answer": "标答：D. communication\n解析：科学家称之为「树木交流」tree communication；全文讲传递信息、分享养分，communication 概括性最强。language 也可，但 communication 与 cannot talk 的对比更自然，且是标准术语。",
+   "time_anchor": null,
+   "tags": [
+    "完形填空",
+    "原创",
+    "会「写字」的树（说明文 · 自然科学）",
+    "第4空"
+   ],
+   "difficulty": 1.1,
+   "question_fingerprint": "1158c86c09c2ed69f4a7d89cc0b4f403",
+   "cloze_group": "CZ002",
+   "cloze_title": "会「写字」的树（说明文 · 自然科学）",
+   "cloze_no": 4,
+   "cloze_total": 8,
+   "raw": {
+    "synthetic": true,
+    "kind": "cloze",
+    "group": "CZ002"
+   },
+   "difficultyWhy": "2.15 结构重估（原标注无梯度或明显偏低）"
+  },
+  {
+   "id": "CZ002_5",
+   "source": "原创完形 · 会「写字」的树（说明文 · 自然科学） · 第5/8空",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "七",
+   "genre": "完形填空",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "完形填空",
+   "grammar_point": "动词辨析",
+   "mode": "single",
+   "stem": "第 5 空：读全文，选出最恰当的一项。",
+   "passage": "Trees cannot talk, but they can ＿＿1＿＿ messages. When insects bite a tree, it may ＿＿2＿＿ a special smell into the air. Nearby trees ＿＿3＿＿ this smell and get ready to fight. Scientists call this \"tree ＿＿4＿＿\". Trees also share food. Through their roots, a big tree can ＿＿5＿＿ sugar to a small one that cannot get enough sunlight. In this way, the whole forest becomes stronger. What is more ＿＿6＿＿ is that trees remember. A tree that once suffered from drought may grow ＿＿7＿＿ roots the next time, as if it has learned from the past. So next time you walk in a park, remember: the quiet trees around you may be ＿＿8＿＿ to one another.",
+   "options": [
+    {
+     "key": "A",
+     "text": "lend",
+     "is_correct": false,
+     "trap_type": "近义词混淆",
+     "option_analysis": "不选「lend」：通过根系把糖分「传递」给小树，pass sth to sb"
+    },
+    {
+     "key": "B",
+     "text": "pass",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。通过根系把糖分「传递」给小树，pass sth to sb；与上文 share food 呼应。"
+    },
+    {
+     "key": "C",
+     "text": "sell",
+     "is_correct": false,
+     "trap_type": "句意理解偏差",
+     "option_analysis": "不选「sell」：通过根系把糖分「传递」给小树，pass sth to sb"
+    },
+    {
+     "key": "D",
+     "text": "show",
+     "is_correct": false,
+     "trap_type": "搭配错误",
+     "option_analysis": "不选「show」：通过根系把糖分「传递」给小树，pass sth to sb"
+    }
+   ],
+   "points": [],
+   "formula_ref": "完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配",
+   "total_score": 1,
+   "reference_answer": "标答：B. pass\n解析：通过根系把糖分「传递」给小树，pass sth to sb；与上文 share food 呼应。",
+   "time_anchor": null,
+   "tags": [
+    "完形填空",
+    "原创",
+    "会「写字」的树（说明文 · 自然科学）",
+    "第5空"
+   ],
+   "difficulty": 1.1,
+   "question_fingerprint": "17c697a721d67bb84f81e160bc12be28",
+   "cloze_group": "CZ002",
+   "cloze_title": "会「写字」的树（说明文 · 自然科学）",
+   "cloze_no": 5,
+   "cloze_total": 8,
+   "raw": {
+    "synthetic": true,
+    "kind": "cloze",
+    "group": "CZ002"
+   },
+   "difficultyWhy": "2.15 结构重估（原标注无梯度或明显偏低）"
+  },
+  {
+   "id": "CZ002_6",
+   "source": "原创完形 · 会「写字」的树（说明文 · 自然科学） · 第6/8空",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "七",
+   "genre": "完形填空",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "完形填空",
+   "grammar_point": "形容词辨析",
+   "mode": "single",
+   "stem": "第 6 空：读全文，选出最恰当的一项。",
+   "passage": "Trees cannot talk, but they can ＿＿1＿＿ messages. When insects bite a tree, it may ＿＿2＿＿ a special smell into the air. Nearby trees ＿＿3＿＿ this smell and get ready to fight. Scientists call this \"tree ＿＿4＿＿\". Trees also share food. Through their roots, a big tree can ＿＿5＿＿ sugar to a small one that cannot get enough sunlight. In this way, the whole forest becomes stronger. What is more ＿＿6＿＿ is that trees remember. A tree that once suffered from drought may grow ＿＿7＿＿ roots the next time, as if it has learned from the past. So next time you walk in a park, remember: the quiet trees around you may be ＿＿8＿＿ to one another.",
+   "options": [
+    {
+     "key": "A",
+     "text": "amazing",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。树会「记忆」这件事令人惊讶，amazing 与 may grow deeper roots 的拟人科学发现语气一致。"
+    },
+    {
+     "key": "B",
+     "text": "boring",
+     "is_correct": false,
+     "trap_type": "句意理解偏差",
+     "option_analysis": "不选「boring」：树会「记忆」这件事令人惊讶，amazing 与 may grow deeper "
+    },
+    {
+     "key": "C",
+     "text": "common",
+     "is_correct": false,
+     "trap_type": "近义词混淆",
+     "option_analysis": "不选「common」：树会「记忆」这件事令人惊讶，amazing 与 may grow deeper "
+    },
+    {
+     "key": "D",
+     "text": "dangerous",
+     "is_correct": false,
+     "trap_type": "搭配错误",
+     "option_analysis": "不选「dangerous」：树会「记忆」这件事令人惊讶，amazing 与 may grow deeper "
+    }
+   ],
+   "points": [],
+   "formula_ref": "完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配",
+   "total_score": 1,
+   "reference_answer": "标答：A. amazing\n解析：树会「记忆」这件事令人惊讶，amazing 与 may grow deeper roots 的拟人科学发现语气一致。",
+   "time_anchor": null,
+   "tags": [
+    "完形填空",
+    "原创",
+    "会「写字」的树（说明文 · 自然科学）",
+    "第6空"
+   ],
+   "difficulty": 1.1,
+   "question_fingerprint": "3a17e69cd567a92dfbf18237a886d5f3",
+   "cloze_group": "CZ002",
+   "cloze_title": "会「写字」的树（说明文 · 自然科学）",
+   "cloze_no": 6,
+   "cloze_total": 8,
+   "raw": {
+    "synthetic": true,
+    "kind": "cloze",
+    "group": "CZ002"
+   },
+   "difficultyWhy": "2.15 结构重估（原标注无梯度或明显偏低）"
+  },
+  {
+   "id": "CZ002_7",
+   "source": "原创完形 · 会「写字」的树（说明文 · 自然科学） · 第7/8空",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "七",
+   "genre": "完形填空",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "完形填空",
+   "grammar_point": "比较级",
+   "mode": "single",
+   "stem": "第 7 空：读全文，选出最恰当的一项。",
+   "passage": "Trees cannot talk, but they can ＿＿1＿＿ messages. When insects bite a tree, it may ＿＿2＿＿ a special smell into the air. Nearby trees ＿＿3＿＿ this smell and get ready to fight. Scientists call this \"tree ＿＿4＿＿\". Trees also share food. Through their roots, a big tree can ＿＿5＿＿ sugar to a small one that cannot get enough sunlight. In this way, the whole forest becomes stronger. What is more ＿＿6＿＿ is that trees remember. A tree that once suffered from drought may grow ＿＿7＿＿ roots the next time, as if it has learned from the past. So next time you walk in a park, remember: the quiet trees around you may be ＿＿8＿＿ to one another.",
+   "options": [
+    {
+     "key": "A",
+     "text": "shallower",
+     "is_correct": false,
+     "trap_type": "句意理解偏差",
+     "option_analysis": "不选「shallower」：经历过干旱的树下次会长出「更深的」根以吸水"
+    },
+    {
+     "key": "B",
+     "text": "shorter",
+     "is_correct": false,
+     "trap_type": "词形误判",
+     "option_analysis": "不选「shorter」：经历过干旱的树下次会长出「更深的」根以吸水"
+    },
+    {
+     "key": "C",
+     "text": "deeper",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。经历过干旱的树下次会长出「更深的」根以吸水；与前文 learned from the past 呼应，deeper 合逻辑。"
+    },
+    {
+     "key": "D",
+     "text": "weaker",
+     "is_correct": false,
+     "trap_type": "近义词混淆",
+     "option_analysis": "不选「weaker」：经历过干旱的树下次会长出「更深的」根以吸水"
+    }
+   ],
+   "points": [],
+   "formula_ref": "完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配",
+   "total_score": 1,
+   "reference_answer": "标答：C. deeper\n解析：经历过干旱的树下次会长出「更深的」根以吸水；与前文 learned from the past 呼应，deeper 合逻辑。",
+   "time_anchor": null,
+   "tags": [
+    "完形填空",
+    "原创",
+    "会「写字」的树（说明文 · 自然科学）",
+    "第7空"
+   ],
+   "difficulty": 1.1,
+   "question_fingerprint": "cf876929b839f05cec435924e6d851fd",
+   "cloze_group": "CZ002",
+   "cloze_title": "会「写字」的树（说明文 · 自然科学）",
+   "cloze_no": 7,
+   "cloze_total": 8,
+   "raw": {
+    "synthetic": true,
+    "kind": "cloze",
+    "group": "CZ002"
+   },
+   "difficultyWhy": "2.15 结构重估（原标注无梯度或明显偏低）"
+  },
+  {
+   "id": "CZ002_8",
+   "source": "原创完形 · 会「写字」的树（说明文 · 自然科学） · 第8/8空",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "七",
+   "genre": "完形填空",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "完形填空",
+   "grammar_point": "动词辨析",
+   "mode": "single",
+   "stem": "第 8 空：读全文，选出最恰当的一项。",
+   "passage": "Trees cannot talk, but they can ＿＿1＿＿ messages. When insects bite a tree, it may ＿＿2＿＿ a special smell into the air. Nearby trees ＿＿3＿＿ this smell and get ready to fight. Scientists call this \"tree ＿＿4＿＿\". Trees also share food. Through their roots, a big tree can ＿＿5＿＿ sugar to a small one that cannot get enough sunlight. In this way, the whole forest becomes stronger. What is more ＿＿6＿＿ is that trees remember. A tree that once suffered from drought may grow ＿＿7＿＿ roots the next time, as if it has learned from the past. So next time you walk in a park, remember: the quiet trees around you may be ＿＿8＿＿ to one another.",
+   "options": [
+    {
+     "key": "A",
+     "text": "fighting",
+     "is_correct": false,
+     "trap_type": "句意理解偏差",
+     "option_analysis": "不选「fighting」：呼应开头 cannot talk... but send messages，结尾"
+    },
+    {
+     "key": "B",
+     "text": "arguing",
+     "is_correct": false,
+     "trap_type": "近义词混淆",
+     "option_analysis": "不选「arguing」：呼应开头 cannot talk... but send messages，结尾"
+    },
+    {
+     "key": "C",
+     "text": "competing",
+     "is_correct": false,
+     "trap_type": "搭配错误",
+     "option_analysis": "不选「competing」：呼应开头 cannot talk... but send messages，结尾"
+    },
+    {
+     "key": "D",
+     "text": "talking",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。呼应开头 cannot talk... but send messages，结尾点题：树之间也许正在「交谈」，talking 首尾呼应。"
+    }
+   ],
+   "points": [],
+   "formula_ref": "完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配",
+   "total_score": 1,
+   "reference_answer": "标答：D. talking\n解析：呼应开头 cannot talk... but send messages，结尾点题：树之间也许正在「交谈」，talking 首尾呼应。",
+   "time_anchor": null,
+   "tags": [
+    "完形填空",
+    "原创",
+    "会「写字」的树（说明文 · 自然科学）",
+    "第8空"
+   ],
+   "difficulty": 1.1,
+   "question_fingerprint": "741012868d83a3ab7a34f5a4bee43681",
+   "cloze_group": "CZ002",
+   "cloze_title": "会「写字」的树（说明文 · 自然科学）",
+   "cloze_no": 8,
+   "cloze_total": 8,
+   "raw": {
+    "synthetic": true,
+    "kind": "cloze",
+    "group": "CZ002"
+   },
+   "difficultyWhy": "2.15 结构重估（原标注无梯度或明显偏低）"
+  },
+  {
+   "id": "CZ003_1",
+   "source": "原创完形 · 把 rubbish 变成寶（记叙文 · 环保与人物） · 第1/8空",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "九",
+   "genre": "完形填空",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "完形填空",
+   "grammar_point": "动词辨析",
+   "mode": "single",
+   "stem": "第 1 空：读全文，选出最恰当的一项。",
+   "passage": "Every Saturday, twelve-year-old Mia puts on her gloves and walks to the park. She is not there to play. She is there to ＿＿1＿＿ rubbish. Two years ago, Mia learned that a single plastic bottle can ＿＿2＿＿ in the ground for hundreds of years. She was shocked and decided to do something. At first, her friends ＿＿3＿＿ her. \"One girl can't change anything,\" they said. But Mia kept going. Slowly, more people ＿＿4＿＿. Now her team has over thirty members, and they have ＿＿5＿＿ more than 2,000 bottles from the park. Mia says the best part is not the number, ＿＿6＿＿ the change in people. Visitors who once dropped litter now ＿＿7＿＿ it into the right bin. \"If you want others to care,\" she says, \"you have to start with ＿＿8＿＿.\"",
+   "options": [
+    {
+     "key": "A",
+     "text": "collect",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。她去公园是「收集」垃圾，与全文环保主题及后文 collected bottles 呼应。"
+    },
+    {
+     "key": "B",
+     "text": "buy",
+     "is_correct": false,
+     "trap_type": "句意理解偏差",
+     "option_analysis": "不选「buy」：她去公园是「收集」垃圾，与全文环保主题及后文 collected bottles"
+    },
+    {
+     "key": "C",
+     "text": "hide",
+     "is_correct": false,
+     "trap_type": "近义词混淆",
+     "option_analysis": "不选「hide」：她去公园是「收集」垃圾，与全文环保主题及后文 collected bottles"
+    },
+    {
+     "key": "D",
+     "text": "make",
+     "is_correct": false,
+     "trap_type": "搭配错误",
+     "option_analysis": "不选「make」：她去公园是「收集」垃圾，与全文环保主题及后文 collected bottles"
+    }
+   ],
+   "points": [],
+   "formula_ref": "完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配",
+   "total_score": 1,
+   "reference_answer": "标答：A. collect\n解析：她去公园是「收集」垃圾，与全文环保主题及后文 collected bottles 呼应。",
+   "time_anchor": null,
+   "tags": [
+    "完形填空",
+    "原创",
+    "把 rubbish 变成寶（记叙文 · 环保与人物）",
+    "第1空"
+   ],
+   "difficulty": 1.1,
+   "question_fingerprint": "86bcc74f49bbb39770b18330851098be",
+   "cloze_group": "CZ003",
+   "cloze_title": "把 rubbish 变成寶（记叙文 · 环保与人物）",
+   "cloze_no": 1,
+   "cloze_total": 8,
+   "raw": {
+    "synthetic": true,
+    "kind": "cloze",
+    "group": "CZ003"
+   },
+   "difficultyWhy": "2.15 结构重估（原标注无梯度或明显偏低）"
+  },
+  {
+   "id": "CZ003_2",
+   "source": "原创完形 · 把 rubbish 变成寶（记叙文 · 环保与人物） · 第2/8空",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "九",
+   "genre": "完形填空",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "完形填空",
+   "grammar_point": "动词辨析",
+   "mode": "single",
+   "stem": "第 2 空：读全文，选出最恰当的一项。",
+   "passage": "Every Saturday, twelve-year-old Mia puts on her gloves and walks to the park. She is not there to play. She is there to ＿＿1＿＿ rubbish. Two years ago, Mia learned that a single plastic bottle can ＿＿2＿＿ in the ground for hundreds of years. She was shocked and decided to do something. At first, her friends ＿＿3＿＿ her. \"One girl can't change anything,\" they said. But Mia kept going. Slowly, more people ＿＿4＿＿. Now her team has over thirty members, and they have ＿＿5＿＿ more than 2,000 bottles from the park. Mia says the best part is not the number, ＿＿6＿＿ the change in people. Visitors who once dropped litter now ＿＿7＿＿ it into the right bin. \"If you want others to care,\" she says, \"you have to start with ＿＿8＿＿.\"",
+   "options": [
+    {
+     "key": "A",
+     "text": "last",
+     "is_correct": false,
+     "trap_type": "词形误判",
+     "option_analysis": "不选「last」：塑料瓶能在地下「停留/存留」数百年，stay in the ground"
+    },
+    {
+     "key": "B",
+     "text": "stay",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。塑料瓶能在地下「停留/存留」数百年，stay in the ground；last 也可表持续，但 stay 与具体地点 in the ground 搭配更自然。"
+    },
+    {
+     "key": "C",
+     "text": "live",
+     "is_correct": false,
+     "trap_type": "近义词混淆",
+     "option_analysis": "不选「live」：塑料瓶能在地下「停留/存留」数百年，stay in the ground"
+    },
+    {
+     "key": "D",
+     "text": "keep",
+     "is_correct": false,
+     "trap_type": "搭配错误",
+     "option_analysis": "不选「keep」：塑料瓶能在地下「停留/存留」数百年，stay in the ground"
+    }
+   ],
+   "points": [],
+   "formula_ref": "完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配",
+   "total_score": 1,
+   "reference_answer": "标答：B. stay\n解析：塑料瓶能在地下「停留/存留」数百年，stay in the ground；last 也可表持续，但 stay 与具体地点 in the ground 搭配更自然。",
+   "time_anchor": null,
+   "tags": [
+    "完形填空",
+    "原创",
+    "把 rubbish 变成寶（记叙文 · 环保与人物）",
+    "第2空"
+   ],
+   "difficulty": 1.1,
+   "question_fingerprint": "b92da6772a16c484e5026566008cbfbd",
+   "cloze_group": "CZ003",
+   "cloze_title": "把 rubbish 变成寶（记叙文 · 环保与人物）",
+   "cloze_no": 2,
+   "cloze_total": 8,
+   "raw": {
+    "synthetic": true,
+    "kind": "cloze",
+    "group": "CZ003"
+   },
+   "difficultyWhy": "2.15 结构重估（原标注无梯度或明显偏低）"
+  },
+  {
+   "id": "CZ003_3",
+   "source": "原创完形 · 把 rubbish 变成寶（记叙文 · 环保与人物） · 第3/8空",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "九",
+   "genre": "完形填空",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "完形填空",
+   "grammar_point": "短语辨析",
+   "mode": "single",
+   "stem": "第 3 空：读全文，选出最恰当的一项。",
+   "passage": "Every Saturday, twelve-year-old Mia puts on her gloves and walks to the park. She is not there to play. She is there to ＿＿1＿＿ rubbish. Two years ago, Mia learned that a single plastic bottle can ＿＿2＿＿ in the ground for hundreds of years. She was shocked and decided to do something. At first, her friends ＿＿3＿＿ her. \"One girl can't change anything,\" they said. But Mia kept going. Slowly, more people ＿＿4＿＿. Now her team has over thirty members, and they have ＿＿5＿＿ more than 2,000 bottles from the park. Mia says the best part is not the number, ＿＿6＿＿ the change in people. Visitors who once dropped litter now ＿＿7＿＿ it into the right bin. \"If you want others to care,\" she says, \"you have to start with ＿＿8＿＿.\"",
+   "options": [
+    {
+     "key": "A",
+     "text": "praised",
+     "is_correct": false,
+     "trap_type": "句意理解偏差",
+     "option_analysis": "不选「praised」：朋友「嘲笑」她，与后文 One girl can't change anythi"
+    },
+    {
+     "key": "B",
+     "text": "joined",
+     "is_correct": false,
+     "trap_type": "近义词混淆",
+     "option_analysis": "不选「joined」：朋友「嘲笑」她，与后文 One girl can't change anythi"
+    },
+    {
+     "key": "C",
+     "text": "believed",
+     "is_correct": false,
+     "trap_type": "搭配错误",
+     "option_analysis": "不选「believed」：朋友「嘲笑」她，与后文 One girl can't change anythi"
+    },
+    {
+     "key": "D",
+     "text": "laughed at",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。朋友「嘲笑」她，与后文 One girl can't change anything 的否定语气一致；后来 more people joined 形成转折。"
+    }
+   ],
+   "points": [],
+   "formula_ref": "完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配",
+   "total_score": 1,
+   "reference_answer": "标答：D. laughed at\n解析：朋友「嘲笑」她，与后文 One girl can't change anything 的否定语气一致；后来 more people joined 形成转折。",
+   "time_anchor": null,
+   "tags": [
+    "完形填空",
+    "原创",
+    "把 rubbish 变成寶（记叙文 · 环保与人物）",
+    "第3空"
+   ],
+   "difficulty": 1.1,
+   "question_fingerprint": "4e949e50eff75702b4b14ff1be0f6bb4",
+   "cloze_group": "CZ003",
+   "cloze_title": "把 rubbish 变成寶（记叙文 · 环保与人物）",
+   "cloze_no": 3,
+   "cloze_total": 8,
+   "raw": {
+    "synthetic": true,
+    "kind": "cloze",
+    "group": "CZ003"
+   },
+   "difficultyWhy": "2.15 结构重估（原标注无梯度或明显偏低）"
+  },
+  {
+   "id": "CZ003_4",
+   "source": "原创完形 · 把 rubbish 变成寶（记叙文 · 环保与人物） · 第4/8空",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "九",
+   "genre": "完形填空",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "完形填空",
+   "grammar_point": "动词辨析",
+   "mode": "single",
+   "stem": "第 4 空：读全文，选出最恰当的一项。",
+   "passage": "Every Saturday, twelve-year-old Mia puts on her gloves and walks to the park. She is not there to play. She is there to ＿＿1＿＿ rubbish. Two years ago, Mia learned that a single plastic bottle can ＿＿2＿＿ in the ground for hundreds of years. She was shocked and decided to do something. At first, her friends ＿＿3＿＿ her. \"One girl can't change anything,\" they said. But Mia kept going. Slowly, more people ＿＿4＿＿. Now her team has over thirty members, and they have ＿＿5＿＿ more than 2,000 bottles from the park. Mia says the best part is not the number, ＿＿6＿＿ the change in people. Visitors who once dropped litter now ＿＿7＿＿ it into the right bin. \"If you want others to care,\" she says, \"you have to start with ＿＿8＿＿.\"",
+   "options": [
+    {
+     "key": "A",
+     "text": "left",
+     "is_correct": false,
+     "trap_type": "句意理解偏差",
+     "option_analysis": "不选「left」：慢慢地更多人「加入」，joined"
+    },
+    {
+     "key": "B",
+     "text": "returned",
+     "is_correct": false,
+     "trap_type": "近义词混淆",
+     "option_analysis": "不选「returned」：慢慢地更多人「加入」，joined"
+    },
+    {
+     "key": "C",
+     "text": "joined",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。慢慢地更多人「加入」，joined；与前文嘲笑形成对比，且与后文 team has over thirty members 呼应。"
+    },
+    {
+     "key": "D",
+     "text": "arrived",
+     "is_correct": false,
+     "trap_type": "搭配错误",
+     "option_analysis": "不选「arrived」：慢慢地更多人「加入」，joined"
+    }
+   ],
+   "points": [],
+   "formula_ref": "完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配",
+   "total_score": 1,
+   "reference_answer": "标答：C. joined\n解析：慢慢地更多人「加入」，joined；与前文嘲笑形成对比，且与后文 team has over thirty members 呼应。",
+   "time_anchor": null,
+   "tags": [
+    "完形填空",
+    "原创",
+    "把 rubbish 变成寶（记叙文 · 环保与人物）",
+    "第4空"
+   ],
+   "difficulty": 1.1,
+   "question_fingerprint": "f37d9c8b4a1a90385ad374240dd13fa4",
+   "cloze_group": "CZ003",
+   "cloze_title": "把 rubbish 变成寶（记叙文 · 环保与人物）",
+   "cloze_no": 4,
+   "cloze_total": 8,
+   "raw": {
+    "synthetic": true,
+    "kind": "cloze",
+    "group": "CZ003"
+   },
+   "difficultyWhy": "2.15 结构重估（原标注无梯度或明显偏低）"
+  },
+  {
+   "id": "CZ003_5",
+   "source": "原创完形 · 把 rubbish 变成寶（记叙文 · 环保与人物） · 第5/8空",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "九",
+   "genre": "完形填空",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "完形填空",
+   "grammar_point": "动词辨析",
+   "mode": "single",
+   "stem": "第 5 空：读全文，选出最恰当的一项。",
+   "passage": "Every Saturday, twelve-year-old Mia puts on her gloves and walks to the park. She is not there to play. She is there to ＿＿1＿＿ rubbish. Two years ago, Mia learned that a single plastic bottle can ＿＿2＿＿ in the ground for hundreds of years. She was shocked and decided to do something. At first, her friends ＿＿3＿＿ her. \"One girl can't change anything,\" they said. But Mia kept going. Slowly, more people ＿＿4＿＿. Now her team has over thirty members, and they have ＿＿5＿＿ more than 2,000 bottles from the park. Mia says the best part is not the number, ＿＿6＿＿ the change in people. Visitors who once dropped litter now ＿＿7＿＿ it into the right bin. \"If you want others to care,\" she says, \"you have to start with ＿＿8＿＿.\"",
+   "options": [
+    {
+     "key": "A",
+     "text": "collected",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。他们从公园「收集」了 2000 多个瓶子，与开头 collect rubbish 及 must 主题复现。"
+    },
+    {
+     "key": "B",
+     "text": "thrown",
+     "is_correct": false,
+     "trap_type": "句意理解偏差",
+     "option_analysis": "不选「thrown」：他们从公园「收集」了 2000 多个瓶子，与开头 collect rubbish"
+    },
+    {
+     "key": "C",
+     "text": "broken",
+     "is_correct": false,
+     "trap_type": "词形误判",
+     "option_analysis": "不选「broken」：他们从公园「收集」了 2000 多个瓶子，与开头 collect rubbish"
+    },
+    {
+     "key": "D",
+     "text": "sold",
+     "is_correct": false,
+     "trap_type": "近义词混淆",
+     "option_analysis": "不选「sold」：他们从公园「收集」了 2000 多个瓶子，与开头 collect rubbish"
+    }
+   ],
+   "points": [],
+   "formula_ref": "完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配",
+   "total_score": 1,
+   "reference_answer": "标答：A. collected\n解析：他们从公园「收集」了 2000 多个瓶子，与开头 collect rubbish 及 must 主题复现。",
+   "time_anchor": null,
+   "tags": [
+    "完形填空",
+    "原创",
+    "把 rubbish 变成寶（记叙文 · 环保与人物）",
+    "第5空"
+   ],
+   "difficulty": 1.1,
+   "question_fingerprint": "7c8b169bd32599c9239dc4d2f705feec",
+   "cloze_group": "CZ003",
+   "cloze_title": "把 rubbish 变成寶（记叙文 · 环保与人物）",
+   "cloze_no": 5,
+   "cloze_total": 8,
+   "raw": {
+    "synthetic": true,
+    "kind": "cloze",
+    "group": "CZ003"
+   },
+   "difficultyWhy": "2.15 结构重估（原标注无梯度或明显偏低）"
+  },
+  {
+   "id": "CZ003_6",
+   "source": "原创完形 · 把 rubbish 变成寶（记叙文 · 环保与人物） · 第6/8空",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "九",
+   "genre": "完形填空",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "完形填空",
+   "grammar_point": "连词辨析",
+   "mode": "single",
+   "stem": "第 6 空：读全文，选出最恰当的一项。",
+   "passage": "Every Saturday, twelve-year-old Mia puts on her gloves and walks to the park. She is not there to play. She is there to ＿＿1＿＿ rubbish. Two years ago, Mia learned that a single plastic bottle can ＿＿2＿＿ in the ground for hundreds of years. She was shocked and decided to do something. At first, her friends ＿＿3＿＿ her. \"One girl can't change anything,\" they said. But Mia kept going. Slowly, more people ＿＿4＿＿. Now her team has over thirty members, and they have ＿＿5＿＿ more than 2,000 bottles from the park. Mia says the best part is not the number, ＿＿6＿＿ the change in people. Visitors who once dropped litter now ＿＿7＿＿ it into the right bin. \"If you want others to care,\" she says, \"you have to start with ＿＿8＿＿.\"",
+   "options": [
+    {
+     "key": "A",
+     "text": "and",
+     "is_correct": false,
+     "trap_type": "搭配错误",
+     "option_analysis": "不选「and」：not...but... 结构：最好的不是数字，而是人的改变"
+    },
+    {
+     "key": "B",
+     "text": "but",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。not...but... 结构：最好的不是数字，而是人的改变；but 与 not 呼应表转折对比。"
+    },
+    {
+     "key": "C",
+     "text": "so",
+     "is_correct": false,
+     "trap_type": "句意理解偏差",
+     "option_analysis": "不选「so」：not...but... 结构：最好的不是数字，而是人的改变"
+    },
+    {
+     "key": "D",
+     "text": "or",
+     "is_correct": false,
+     "trap_type": "近义词混淆",
+     "option_analysis": "不选「or」：not...but... 结构：最好的不是数字，而是人的改变"
+    }
+   ],
+   "points": [],
+   "formula_ref": "完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配",
+   "total_score": 1,
+   "reference_answer": "标答：B. but\n解析：not...but... 结构：最好的不是数字，而是人的改变；but 与 not 呼应表转折对比。",
+   "time_anchor": null,
+   "tags": [
+    "完形填空",
+    "原创",
+    "把 rubbish 变成寶（记叙文 · 环保与人物）",
+    "第6空"
+   ],
+   "difficulty": 1.1,
+   "question_fingerprint": "300f53c52c18ae1796d5003a1fa77516",
+   "cloze_group": "CZ003",
+   "cloze_title": "把 rubbish 变成寶（记叙文 · 环保与人物）",
+   "cloze_no": 6,
+   "cloze_total": 8,
+   "raw": {
+    "synthetic": true,
+    "kind": "cloze",
+    "group": "CZ003"
+   },
+   "difficultyWhy": "2.15 结构重估（原标注无梯度或明显偏低）"
+  },
+  {
+   "id": "CZ003_7",
+   "source": "原创完形 · 把 rubbish 变成寶（记叙文 · 环保与人物） · 第7/8空",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "九",
+   "genre": "完形填空",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "完形填空",
+   "grammar_point": "动词辨析",
+   "mode": "single",
+   "stem": "第 7 空：读全文，选出最恰当的一项。",
+   "passage": "Every Saturday, twelve-year-old Mia puts on her gloves and walks to the park. She is not there to play. She is there to ＿＿1＿＿ rubbish. Two years ago, Mia learned that a single plastic bottle can ＿＿2＿＿ in the ground for hundreds of years. She was shocked and decided to do something. At first, her friends ＿＿3＿＿ her. \"One girl can't change anything,\" they said. But Mia kept going. Slowly, more people ＿＿4＿＿. Now her team has over thirty members, and they have ＿＿5＿＿ more than 2,000 bottles from the park. Mia says the best part is not the number, ＿＿6＿＿ the change in people. Visitors who once dropped litter now ＿＿7＿＿ it into the right bin. \"If you want others to care,\" she says, \"you have to start with ＿＿8＿＿.\"",
+   "options": [
+    {
+     "key": "A",
+     "text": "throw",
+     "is_correct": false,
+     "trap_type": "句意理解偏差",
+     "option_analysis": "不选「throw」：曾经乱扔垃圾的游客现在把垃圾「放进」正确的垃圾桶，put...into..."
+    },
+    {
+     "key": "B",
+     "text": "forget",
+     "is_correct": false,
+     "trap_type": "近义词混淆",
+     "option_analysis": "不选「forget」：曾经乱扔垃圾的游客现在把垃圾「放进」正确的垃圾桶，put...into..."
+    },
+    {
+     "key": "C",
+     "text": "leave",
+     "is_correct": false,
+     "trap_type": "搭配错误",
+     "option_analysis": "不选「leave」：曾经乱扔垃圾的游客现在把垃圾「放进」正确的垃圾桶，put...into..."
+    },
+    {
+     "key": "D",
+     "text": "put",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。曾经乱扔垃圾的游客现在把垃圾「放进」正确的垃圾桶，put...into...；与 dropped litter 形成行为转变。"
+    }
+   ],
+   "points": [],
+   "formula_ref": "完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配",
+   "total_score": 1,
+   "reference_answer": "标答：D. put\n解析：曾经乱扔垃圾的游客现在把垃圾「放进」正确的垃圾桶，put...into...；与 dropped litter 形成行为转变。",
+   "time_anchor": null,
+   "tags": [
+    "完形填空",
+    "原创",
+    "把 rubbish 变成寶（记叙文 · 环保与人物）",
+    "第7空"
+   ],
+   "difficulty": 1.1,
+   "question_fingerprint": "a86dac05ae9a8d550650ecf318af2750",
+   "cloze_group": "CZ003",
+   "cloze_title": "把 rubbish 变成寶（记叙文 · 环保与人物）",
+   "cloze_no": 7,
+   "cloze_total": 8,
+   "raw": {
+    "synthetic": true,
+    "kind": "cloze",
+    "group": "CZ003"
+   },
+   "difficultyWhy": "2.15 结构重估（原标注无梯度或明显偏低）"
+  },
+  {
+   "id": "CZ003_8",
+   "source": "原创完形 · 把 rubbish 变成寶（记叙文 · 环保与人物） · 第8/8空",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "九",
+   "genre": "完形填空",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "完形填空",
+   "grammar_point": "反身代词",
+   "mode": "single",
+   "stem": "第 8 空：读全文，选出最恰当的一项。",
+   "passage": "Every Saturday, twelve-year-old Mia puts on her gloves and walks to the park. She is not there to play. She is there to ＿＿1＿＿ rubbish. Two years ago, Mia learned that a single plastic bottle can ＿＿2＿＿ in the ground for hundreds of years. She was shocked and decided to do something. At first, her friends ＿＿3＿＿ her. \"One girl can't change anything,\" they said. But Mia kept going. Slowly, more people ＿＿4＿＿. Now her team has over thirty members, and they have ＿＿5＿＿ more than 2,000 bottles from the park. Mia says the best part is not the number, ＿＿6＿＿ the change in people. Visitors who once dropped litter now ＿＿7＿＿ it into the right bin. \"If you want others to care,\" she says, \"you have to start with ＿＿8＿＿.\"",
+   "options": [
+    {
+     "key": "A",
+     "text": "yourself",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。start with yourself 意为「从你自己做起」；主语 you，反身代词用 yourself。"
+    },
+    {
+     "key": "B",
+     "text": "themselves",
+     "is_correct": false,
+     "trap_type": "句意理解偏差",
+     "option_analysis": "不选「themselves」：start with yourself 意为「从你自己做起」"
+    },
+    {
+     "key": "C",
+     "text": "myself",
+     "is_correct": false,
+     "trap_type": "词形误判",
+     "option_analysis": "不选「myself」：start with yourself 意为「从你自己做起」"
+    },
+    {
+     "key": "D",
+     "text": "ourselves",
+     "is_correct": false,
+     "trap_type": "搭配错误",
+     "option_analysis": "不选「ourselves」：start with yourself 意为「从你自己做起」"
+    }
+   ],
+   "points": [],
+   "formula_ref": "完形填空 = 通读全文 → 看上下文逻辑 → 辨词义搭配",
+   "total_score": 1,
+   "reference_answer": "标答：A. yourself\n解析：start with yourself 意为「从你自己做起」；主语 you，反身代词用 yourself。",
+   "time_anchor": null,
+   "tags": [
+    "完形填空",
+    "原创",
+    "把 rubbish 变成寶（记叙文 · 环保与人物）",
+    "第8空"
+   ],
+   "difficulty": 1.1,
+   "question_fingerprint": "f35e5d077a64bdcb6d403f3284b243f4",
+   "cloze_group": "CZ003",
+   "cloze_title": "把 rubbish 变成寶（记叙文 · 环保与人物）",
+   "cloze_no": 8,
+   "cloze_total": 8,
+   "raw": {
+    "synthetic": true,
+    "kind": "cloze",
+    "group": "CZ003"
+   },
+   "difficultyWhy": "2.15 结构重估（原标注无梯度或明显偏低）"
+  }
+ ]
+}

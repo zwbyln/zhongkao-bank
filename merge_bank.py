@@ -21,13 +21,16 @@
 import argparse
 import datetime
 import glob
+import gzip
 import hashlib
 import json
 import os
 import re
 import sys
 
-SKIP_WORDS = ("复核", "review", "all")
+# "meta" 一定要在里面：meta.json 也是 bank/*.json，不跳过的话它会当成题库文件
+# 读进来（虽然没有 items，会被过滤成空），perFile 里白白多一行 0，看着像出错。
+SKIP_WORDS = ("复核", "review", "all", "meta")
 
 
 def content_key(q):
@@ -132,6 +135,36 @@ def main():
 
     kb = os.path.getsize(out_path) / 1024.0
     print("合并完成 → %s，共 %d 道（来自 %d 个文件，%.0f KB）" % (out_path, len(items), len(files), kb))
+
+    # ---- 顺带产出两个给手机端省流量的文件 ----
+    # 为什么必须做这一步：手机到 GitHub 本来就不稳，每次更新都下 1.38 MB，
+    # 弱网下一断就白下。改成「先问 1 KB 的版本号，一样就不下」，成功率完全不同。
+    #
+    # 指纹只算 items，不算 updatedAt / stats：这两个字段每轮都会变，
+    # 拿整个文件算哈希，结果是「一道新题都没有，手机也照样重下 148 KB」。
+    # 排序 + 紧凑分隔符，保证同样一批题在任何机器上算出同一个值。
+    key_src = json.dumps(items, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+    sha = hashlib.sha256(key_src.encode("utf-8")).hexdigest()[:12]
+
+    raw = open(out_path, "rb").read()
+    gz_path = out_path + ".gz"
+    # mtime=0：不然每次生成的 gz 字节都不同，白白让 CDN 缓存失效
+    with open(gz_path, "wb") as fg:
+        with gzip.GzipFile(filename="", mode="wb", fileobj=fg, compresslevel=9, mtime=0) as gz:
+            gz.write(raw)
+
+    meta = {
+        "format": doc["format"],
+        "sha": sha,
+        "bytes": len(raw),
+        "gz": os.path.getsize(gz_path),
+        "items": len(items),
+        "at": doc["updatedAt"],
+    }
+    meta_path = os.path.join(os.path.dirname(os.path.abspath(out_path)) or ".", "meta.json")
+    with open(meta_path, "w", encoding="utf-8") as f:
+        json.dump(meta, f, ensure_ascii=False, separators=(",", ":"))
+    print("  版本 %s · all.json.gz %.0f KB · meta.json 已写完" % (sha, meta["gz"] / 1024.0))
     for k, v in per.items():
         print("  %-28s +%d" % (k, v))
     if bad_type:

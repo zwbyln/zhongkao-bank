@@ -1,1 +1,1957 @@
-{"name": "原创阅读理解种子题", "note": "整篇短文拆成多道单选题，共享 passage。merge_bank 并入 all.json，每天更新不会冲掉。", "updatedAt": "2026-11-19T15:29:46.653566+08:00", "items": [{"id": "RD001_1", "source": "原创阅读 · The Old Bike（记叙文 · 亲情与成长） · 第1/5题", "subject": "english", "stage": "初中", "grade": "八", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "细节理解", "mode": "single", "stem": "第 1 题（细节理解）：Where did the writer find the old bike at first?", "passage": "Last Saturday, I found an old bike in the corner of our garage. It was covered with dust and its paint had faded. I almost walked away, but something made me stop. It was the bike my father used to ride to work twenty years ago.\n\nI cleaned it carefully and took it to a small shop nearby. The owner, an old man with grey hair, looked at it for a long time. \"This is a Forever bike,\" he said. \"People once waited months to buy one.\" He repaired the wheels and polished the frame for only fifty yuan.\n\nWhen I rode it home, I felt something I had never felt before. The bike was slow and the bell was loud, but every turn seemed to tell a story. My father saw it and smiled. \"I bought it with my first month's salary,\" he said. That evening he told me about the long rides to the factory, about the rain and the cold winter mornings.\n\nNow the bike stands in our living room, not in the garage. It is too old to ride every day, but to my father it is the most valuable thing in our home.", "options": [{"key": "A", "text": "In a small repair shop", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「In a small repair shop」：修理店是后来才去的地方，不是最初发现自行车的地方"}, {"key": "B", "text": "In the corner of the garage", "is_correct": true, "trap_type": null, "option_analysis": "正确。对应首句「in the corner of our garage」，正确"}, {"key": "C", "text": "On the street near home", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「On the street near home」：文中未说在街上发现"}, {"key": "D", "text": "In the factory", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「In the factory」：factory 只出现在父亲骑车的回忆里"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：B. In the corner of the garage\n解析：定位第一段首句：old bike 在自家车库角落（in the corner of our garage）。", "time_anchor": null, "tags": ["阅读理解", "原创", "记叙文 · 亲情与成长", "第1题", "细节理解"], "difficulty": 3, "question_fingerprint": "RD001_1", "reading_group": "RD001", "reading_title": "The Old Bike", "reading_no": 1, "reading_total": 5, "reading_type": "细节理解", "raw": ""}, {"id": "RD001_2", "source": "原创阅读 · The Old Bike（记叙文 · 亲情与成长） · 第2/5题", "subject": "english", "stage": "初中", "grade": "八", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "词义猜测", "mode": "single", "stem": "第 2 题（词义猜测）：The underlined word \"faded\" in Paragraph 1 probably means \"___\".", "passage": "Last Saturday, I found an old bike in the corner of our garage. It was covered with dust and its paint had faded. I almost walked away, but something made me stop. It was the bike my father used to ride to work twenty years ago.\n\nI cleaned it carefully and took it to a small shop nearby. The owner, an old man with grey hair, looked at it for a long time. \"This is a Forever bike,\" he said. \"People once waited months to buy one.\" He repaired the wheels and polished the frame for only fifty yuan.\n\nWhen I rode it home, I felt something I had never felt before. The bike was slow and the bell was loud, but every turn seemed to tell a story. My father saw it and smiled. \"I bought it with my first month's salary,\" he said. That evening he told me about the long rides to the factory, about the rain and the cold winter mornings.\n\nNow the bike stands in our living room, not in the garage. It is too old to ride every day, but to my father it is the most valuable thing in our home.", "options": [{"key": "A", "text": "became less bright", "is_correct": true, "trap_type": null, "option_analysis": "正确。前文说蒙尘、后文又提到旧，faded 指颜色变淡、褪色，正确"}, {"key": "B", "text": "became much heavier", "is_correct": false, "trap_type": "词义猜测", "option_analysis": "不选「became much heavier」：与 paint（油漆）搭配不当"}, {"key": "C", "text": "was completely new", "is_correct": false, "trap_type": "词义猜测", "option_analysis": "不选「was completely new」：与 old、dust 语义相反"}, {"key": "D", "text": "was broken into pieces", "is_correct": false, "trap_type": "词义猜测", "option_analysis": "不选「was broken into pieces」：若已碎裂就不会只是 cleaned 后拿去修"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：A. became less bright\n解析：由 covered with dust 和 old bike 的语境可推断 faded 是「褪色、失去光泽」。", "time_anchor": null, "tags": ["阅读理解", "原创", "记叙文 · 亲情与成长", "第2题", "词义猜测"], "difficulty": 4, "question_fingerprint": "RD001_2", "reading_group": "RD001", "reading_title": "The Old Bike", "reading_no": 2, "reading_total": 5, "reading_type": "词义猜测", "raw": ""}, {"id": "RD001_3", "source": "原创阅读 · The Old Bike（记叙文 · 亲情与成长） · 第3/5题", "subject": "english", "stage": "初中", "grade": "八", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "推理判断", "mode": "single", "stem": "第 3 题（推理判断）：Why did the shop owner look at the bike for a long time?", "passage": "Last Saturday, I found an old bike in the corner of our garage. It was covered with dust and its paint had faded. I almost walked away, but something made me stop. It was the bike my father used to ride to work twenty years ago.\n\nI cleaned it carefully and took it to a small shop nearby. The owner, an old man with grey hair, looked at it for a long time. \"This is a Forever bike,\" he said. \"People once waited months to buy one.\" He repaired the wheels and polished the frame for only fifty yuan.\n\nWhen I rode it home, I felt something I had never felt before. The bike was slow and the bell was loud, but every turn seemed to tell a story. My father saw it and smiled. \"I bought it with my first month's salary,\" he said. That evening he told me about the long rides to the factory, about the rain and the cold winter mornings.\n\nNow the bike stands in our living room, not in the garage. It is too old to ride every day, but to my father it is the most valuable thing in our home.", "options": [{"key": "A", "text": "He had never seen a bike before", "is_correct": false, "trap_type": "推理判断", "option_analysis": "不选「He had never seen a bike before」：不合常理，文中也无依据"}, {"key": "B", "text": "He wanted to buy it from the writer", "is_correct": false, "trap_type": "推理判断", "option_analysis": "不选「He wanted to buy it from the writer」：文中是他帮着修理，并未提出购买"}, {"key": "C", "text": "He recognized it as a valuable old model", "is_correct": true, "trap_type": null, "option_analysis": "正确。他随后说这是 Forever 牌、当年要等几个月才能买，说明他认出了它的价值"}, {"key": "D", "text": "He was too tired to work", "is_correct": false, "trap_type": "推理判断", "option_analysis": "不选「He was too tired to work」：无中生有"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：C. He recognized it as a valuable old model\n解析：老板看了很久后说「这是永久牌，以前要等几个月才能买到」，可推断他认出这是有价值的旧款。", "time_anchor": null, "tags": ["阅读理解", "原创", "记叙文 · 亲情与成长", "第3题", "推理判断"], "difficulty": 4, "question_fingerprint": "RD001_3", "reading_group": "RD001", "reading_title": "The Old Bike", "reading_no": 3, "reading_total": 5, "reading_type": "推理判断", "raw": ""}, {"id": "RD001_4", "source": "原创阅读 · The Old Bike（记叙文 · 亲情与成长） · 第4/5题", "subject": "english", "stage": "初中", "grade": "八", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "主旨大意", "mode": "single", "stem": "第 4 题（主旨大意）：What is the best title for the passage?", "passage": "Last Saturday, I found an old bike in the corner of our garage. It was covered with dust and its paint had faded. I almost walked away, but something made me stop. It was the bike my father used to ride to work twenty years ago.\n\nI cleaned it carefully and took it to a small shop nearby. The owner, an old man with grey hair, looked at it for a long time. \"This is a Forever bike,\" he said. \"People once waited months to buy one.\" He repaired the wheels and polished the frame for only fifty yuan.\n\nWhen I rode it home, I felt something I had never felt before. The bike was slow and the bell was loud, but every turn seemed to tell a story. My father saw it and smiled. \"I bought it with my first month's salary,\" he said. That evening he told me about the long rides to the factory, about the rain and the cold winter mornings.\n\nNow the bike stands in our living room, not in the garage. It is too old to ride every day, but to my father it is the most valuable thing in our home.", "options": [{"key": "A", "text": "A Bike Full of Stories", "is_correct": true, "trap_type": null, "option_analysis": "正确。全文借一辆旧车串起父亲的往事与亲情，概括最准"}, {"key": "B", "text": "How to Repair an Old Bike", "is_correct": false, "trap_type": "主旨大意", "option_analysis": "不选「How to Repair an Old Bike」：修理只是中间一小段，不是主旨"}, {"key": "C", "text": "A Busy Saturday", "is_correct": false, "trap_type": "主旨大意", "option_analysis": "不选「A Busy Saturday」：只对应开头时间，过于片面"}, {"key": "D", "text": "My Father's Factory", "is_correct": false, "trap_type": "主旨大意", "option_analysis": "不选「My Father's Factory」：factory 只是回忆里的地点，以偏概全"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：A. A Bike Full of Stories\n解析：文章核心是旧自行车承载的回忆与父爱，A 最能概括全文。", "time_anchor": null, "tags": ["阅读理解", "原创", "记叙文 · 亲情与成长", "第4题", "主旨大意"], "difficulty": 4, "question_fingerprint": "RD001_4", "reading_group": "RD001", "reading_title": "The Old Bike", "reading_no": 4, "reading_total": 5, "reading_type": "主旨大意", "raw": ""}, {"id": "RD001_5", "source": "原创阅读 · The Old Bike（记叙文 · 亲情与成长） · 第5/5题", "subject": "english", "stage": "初中", "grade": "八", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "推理判断", "mode": "single", "stem": "第 5 题（推理判断）：What can we learn from the last paragraph?", "passage": "Last Saturday, I found an old bike in the corner of our garage. It was covered with dust and its paint had faded. I almost walked away, but something made me stop. It was the bike my father used to ride to work twenty years ago.\n\nI cleaned it carefully and took it to a small shop nearby. The owner, an old man with grey hair, looked at it for a long time. \"This is a Forever bike,\" he said. \"People once waited months to buy one.\" He repaired the wheels and polished the frame for only fifty yuan.\n\nWhen I rode it home, I felt something I had never felt before. The bike was slow and the bell was loud, but every turn seemed to tell a story. My father saw it and smiled. \"I bought it with my first month's salary,\" he said. That evening he told me about the long rides to the factory, about the rain and the cold winter mornings.\n\nNow the bike stands in our living room, not in the garage. It is too old to ride every day, but to my father it is the most valuable thing in our home.", "options": [{"key": "A", "text": "The bike is useless and should be thrown away", "is_correct": false, "trap_type": "推理判断", "option_analysis": "不选「The bike is useless and should be thrown away」：与 valuable 直接矛盾"}, {"key": "B", "text": "The father no longer likes the bike", "is_correct": false, "trap_type": "推理判断", "option_analysis": "不选「The father no longer likes the bike」：与父亲的珍惜态度相反"}, {"key": "C", "text": "The bike is precious to the family though it is old", "is_correct": true, "trap_type": null, "option_analysis": "正确。too old to ride 却 the most valuable，正说明它珍贵"}, {"key": "D", "text": "The writer will sell the bike one day", "is_correct": false, "trap_type": "推理判断", "option_analysis": "不选「The writer will sell the bike one day」：文中没有要卖的意思"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：C. The bike is precious to the family though it is old\n解析：末段「太旧不能常骑，却是家里最珍贵的东西」直接点明：旧但珍贵。", "time_anchor": null, "tags": ["阅读理解", "原创", "记叙文 · 亲情与成长", "第5题", "推理判断"], "difficulty": 4, "question_fingerprint": "RD001_5", "reading_group": "RD001", "reading_title": "The Old Bike", "reading_no": 5, "reading_total": 5, "reading_type": "推理判断", "raw": ""}, {"id": "RD002_1", "source": "原创阅读 · Why Sleep Matters（说明文 · 健康与科学） · 第1/5题", "subject": "english", "stage": "初中", "grade": "八", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "细节理解", "mode": "single", "stem": "第 1 题（细节理解）：How many hours of sleep do teenagers need every night according to scientists?", "passage": "Sleep is not a waste of time. While you are asleep, your body is still working hard. It repairs tired muscles, fights off illness and stores what you learned during the day. Scientists say that teenagers need about eight to ten hours of sleep every night.\n\nBut many students get far less. Staying up late with phones or homework has become common. Research shows that less sleep can make it harder to pay attention in class, slow down your reactions and even change your mood. Students who sleep well usually remember new words better and do well in sports.\n\nSo how can you sleep better? First, keep a regular bedtime, even on weekends. Second, put away your phone at least half an hour before bed — the bright screen tells your brain that it is still daytime. Third, keep your room cool and quiet. Small changes can make a big difference.\n\nRemember, sleep is not the enemy of hard work. It is part of it.", "options": [{"key": "A", "text": "About five to six hours", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「About five to six hours」：数字与原文不符"}, {"key": "B", "text": "About eight to ten hours", "is_correct": true, "trap_type": null, "option_analysis": "正确。对应第一段末句 eight to ten hours，正确"}, {"key": "C", "text": "About twelve hours", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「About twelve hours」：数字偏大，文中未提"}, {"key": "D", "text": "As many as possible", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「As many as possible」：文中给的是明确区间，不是越多越好"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：B. About eight to ten hours\n解析：第一段末句：teenagers need about eight to ten hours of sleep every night。", "time_anchor": null, "tags": ["阅读理解", "原创", "说明文 · 健康与科学", "第1题", "细节理解"], "difficulty": 3, "question_fingerprint": "RD002_1", "reading_group": "RD002", "reading_title": "Why Sleep Matters", "reading_no": 1, "reading_total": 5, "reading_type": "细节理解", "raw": ""}, {"id": "RD002_2", "source": "原创阅读 · Why Sleep Matters（说明文 · 健康与科学） · 第2/5题", "subject": "english", "stage": "初中", "grade": "八", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "细节理解", "mode": "single", "stem": "第 2 题（细节理解）：Which of the following is NOT mentioned as a result of less sleep?", "passage": "Sleep is not a waste of time. While you are asleep, your body is still working hard. It repairs tired muscles, fights off illness and stores what you learned during the day. Scientists say that teenagers need about eight to ten hours of sleep every night.\n\nBut many students get far less. Staying up late with phones or homework has become common. Research shows that less sleep can make it harder to pay attention in class, slow down your reactions and even change your mood. Students who sleep well usually remember new words better and do well in sports.\n\nSo how can you sleep better? First, keep a regular bedtime, even on weekends. Second, put away your phone at least half an hour before bed — the bright screen tells your brain that it is still daytime. Third, keep your room cool and quiet. Small changes can make a big difference.\n\nRemember, sleep is not the enemy of hard work. It is part of it.", "options": [{"key": "A", "text": "Harder to pay attention in class", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「Harder to pay attention in class」：原文明确提到 pay attention 变难"}, {"key": "B", "text": "Slower reactions", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「Slower reactions」：原文提到 slow down your reactions"}, {"key": "C", "text": "Better memory of new words", "is_correct": true, "trap_type": null, "option_analysis": "正确。记忆更好是「睡得好」的结果，属于反向干扰"}, {"key": "D", "text": "Changes in mood", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「Changes in mood」：原文提到 even change your mood"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：C. Better memory of new words\n解析：原文说睡得好才 remember new words better，睡不好不会让记忆更好，故选 C。", "time_anchor": null, "tags": ["阅读理解", "原创", "说明文 · 健康与科学", "第2题", "细节理解"], "difficulty": 3, "question_fingerprint": "RD002_2", "reading_group": "RD002", "reading_title": "Why Sleep Matters", "reading_no": 2, "reading_total": 5, "reading_type": "细节理解", "raw": ""}, {"id": "RD002_3", "source": "原创阅读 · Why Sleep Matters（说明文 · 健康与科学） · 第3/5题", "subject": "english", "stage": "初中", "grade": "八", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "词义猜测", "mode": "single", "stem": "第 3 题（词义猜测）：What does the underlined phrase \"Staying up late\" mean in Chinese?", "passage": "Sleep is not a waste of time. While you are asleep, your body is still working hard. It repairs tired muscles, fights off illness and stores what you learned during the day. Scientists say that teenagers need about eight to ten hours of sleep every night.\n\nBut many students get far less. Staying up late with phones or homework has become common. Research shows that less sleep can make it harder to pay attention in class, slow down your reactions and even change your mood. Students who sleep well usually remember new words better and do well in sports.\n\nSo how can you sleep better? First, keep a regular bedtime, even on weekends. Second, put away your phone at least half an hour before bed — the bright screen tells your brain that it is still daytime. Third, keep your room cool and quiet. Small changes can make a big difference.\n\nRemember, sleep is not the enemy of hard work. It is part of it.", "options": [{"key": "A", "text": "早睡", "is_correct": false, "trap_type": "词义猜测", "option_analysis": "不选「早睡」：与 late 矛盾"}, {"key": "B", "text": "熬夜", "is_correct": true, "trap_type": null, "option_analysis": "正确。与后半句 with phones or homework 及 sleep less 对应，意为熬夜"}, {"key": "C", "text": "睡懒觉", "is_correct": false, "trap_type": "词义猜测", "option_analysis": "不选「睡懒觉」：睡懒觉不会导致 get far less sleep"}, {"key": "D", "text": "午休", "is_correct": false, "trap_type": "词义猜测", "option_analysis": "不选「午休」：与语境无关"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：B. 熬夜\n解析：由 get far less sleep 与「玩手机/赶作业」可推断是「熬夜」。", "time_anchor": null, "tags": ["阅读理解", "原创", "说明文 · 健康与科学", "第3题", "词义猜测"], "difficulty": 4, "question_fingerprint": "RD002_3", "reading_group": "RD002", "reading_title": "Why Sleep Matters", "reading_no": 3, "reading_total": 5, "reading_type": "词义猜测", "raw": ""}, {"id": "RD002_4", "source": "原创阅读 · Why Sleep Matters（说明文 · 健康与科学） · 第4/5题", "subject": "english", "stage": "初中", "grade": "八", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "推理判断", "mode": "single", "stem": "第 4 题（推理判断）：Why should you put away your phone before bed?", "passage": "Sleep is not a waste of time. While you are asleep, your body is still working hard. It repairs tired muscles, fights off illness and stores what you learned during the day. Scientists say that teenagers need about eight to ten hours of sleep every night.\n\nBut many students get far less. Staying up late with phones or homework has become common. Research shows that less sleep can make it harder to pay attention in class, slow down your reactions and even change your mood. Students who sleep well usually remember new words better and do well in sports.\n\nSo how can you sleep better? First, keep a regular bedtime, even on weekends. Second, put away your phone at least half an hour before bed — the bright screen tells your brain that it is still daytime. Third, keep your room cool and quiet. Small changes can make a big difference.\n\nRemember, sleep is not the enemy of hard work. It is part of it.", "options": [{"key": "A", "text": "Because phones are expensive", "is_correct": false, "trap_type": "推理判断", "option_analysis": "不选「Because phones are expensive」：文中未提价格"}, {"key": "B", "text": "Because the bright screen makes the brain think it is still daytime", "is_correct": true, "trap_type": null, "option_analysis": "正确。第三段明确解释了屏幕亮光的影响"}, {"key": "C", "text": "Because phones cannot be charged in bed", "is_correct": false, "trap_type": "推理判断", "option_analysis": "不选「Because phones cannot be charged in bed」：无中生有"}, {"key": "D", "text": "Because phones will wake you up with calls", "is_correct": false, "trap_type": "推理判断", "option_analysis": "不选「Because phones will wake you up with calls」：文中未提来电"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：B. Because the bright screen makes the brain think it is still daytime\n解析：第三段：the bright screen tells your brain that it is still daytime。", "time_anchor": null, "tags": ["阅读理解", "原创", "说明文 · 健康与科学", "第4题", "推理判断"], "difficulty": 4, "question_fingerprint": "RD002_4", "reading_group": "RD002", "reading_title": "Why Sleep Matters", "reading_no": 4, "reading_total": 5, "reading_type": "推理判断", "raw": ""}, {"id": "RD002_5", "source": "原创阅读 · Why Sleep Matters（说明文 · 健康与科学） · 第5/5题", "subject": "english", "stage": "初中", "grade": "八", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "主旨大意", "mode": "single", "stem": "第 5 题（主旨大意）：What is the main idea of the passage?", "passage": "Sleep is not a waste of time. While you are asleep, your body is still working hard. It repairs tired muscles, fights off illness and stores what you learned during the day. Scientists say that teenagers need about eight to ten hours of sleep every night.\n\nBut many students get far less. Staying up late with phones or homework has become common. Research shows that less sleep can make it harder to pay attention in class, slow down your reactions and even change your mood. Students who sleep well usually remember new words better and do well in sports.\n\nSo how can you sleep better? First, keep a regular bedtime, even on weekends. Second, put away your phone at least half an hour before bed — the bright screen tells your brain that it is still daytime. Third, keep your room cool and quiet. Small changes can make a big difference.\n\nRemember, sleep is not the enemy of hard work. It is part of it.", "options": [{"key": "A", "text": "Sleep is important and we should sleep well", "is_correct": true, "trap_type": null, "option_analysis": "正确。全文讲睡眠的作用、不足的危害和改善方法，概括最全"}, {"key": "B", "text": "Students should do more homework", "is_correct": false, "trap_type": "主旨大意", "option_analysis": "不选「Students should do more homework」：与文章主旨无关"}, {"key": "C", "text": "Phones are bad for everyone", "is_correct": false, "trap_type": "主旨大意", "option_analysis": "不选「Phones are bad for everyone」：手机只是影响睡眠的一个因素，以偏概全"}, {"key": "D", "text": "Teenagers like staying up late", "is_correct": false, "trap_type": "主旨大意", "option_analysis": "不选「Teenagers like staying up late」：只是现象描述，不是文章要传达的核心"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：A. Sleep is important and we should sleep well\n解析：文章从作用、危害到建议都在说明「睡眠重要、要睡好」，A 最全面。", "time_anchor": null, "tags": ["阅读理解", "原创", "说明文 · 健康与科学", "第5题", "主旨大意"], "difficulty": 4, "question_fingerprint": "RD002_5", "reading_group": "RD002", "reading_title": "Why Sleep Matters", "reading_no": 5, "reading_total": 5, "reading_type": "主旨大意", "raw": ""}, {"id": "RD003_1", "source": "原创阅读 · Should Students Use Phones at School?（议论文 · 校园与规则） · 第1/5题", "subject": "english", "stage": "初中", "grade": "九", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "细节理解", "mode": "single", "stem": "第 1 题（细节理解）：What is one reason some students support using phones at school?", "passage": "More and more students bring smartphones to school. Should they be allowed to use them in class? People hold different views.\n\nSome students think phones help them learn. They can look up new words, take photos of key points and check information quickly. When a problem is hard, a phone can be a useful tool.\n\nOthers, however, worry that phones cause trouble. Games and short videos can easily draw students' attention away from lessons. Chatting in class may disturb both the user and classmates. Worse still, some students compare phones and feel unhappy about what they own.\n\nIn my opinion, the key is self-control, not the phone itself. Schools can set clear rules: keep phones silent during class and use them only for learning with a teacher's permission. If students can manage themselves, phones can stay; if not, they should be kept at home. Technology is neither good nor bad — it depends on how we use it.", "options": [{"key": "A", "text": "They can play games between classes", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「They can play games between classes」：游戏是反对者担心的问题，不是支持理由"}, {"key": "B", "text": "They can look up new words and check information", "is_correct": true, "trap_type": null, "option_analysis": "正确。第二段列举了查单词、拍重点、查资料等学习用途"}, {"key": "C", "text": "They can compare phones with classmates", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「They can compare phones with classmates」：这是反对者提到的负面现象"}, {"key": "D", "text": "They can chat freely in class", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「They can chat freely in class」：课堂聊天是作者反对的行为"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：B. They can look up new words and check information\n解析：第二段：look up new words, take photos of key points and check information。", "time_anchor": null, "tags": ["阅读理解", "原创", "议论文 · 校园与规则", "第1题", "细节理解"], "difficulty": 3, "question_fingerprint": "RD003_1", "reading_group": "RD003", "reading_title": "Should Students Use Phones at School?", "reading_no": 1, "reading_total": 5, "reading_type": "细节理解", "raw": ""}, {"id": "RD003_2", "source": "原创阅读 · Should Students Use Phones at School?（议论文 · 校园与规则） · 第2/5题", "subject": "english", "stage": "初中", "grade": "九", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "词义猜测", "mode": "single", "stem": "第 2 题（词义猜测）：The underlined word \"disturb\" in Paragraph 3 is closest to \"___\".", "passage": "More and more students bring smartphones to school. Should they be allowed to use them in class? People hold different views.\n\nSome students think phones help them learn. They can look up new words, take photos of key points and check information quickly. When a problem is hard, a phone can be a useful tool.\n\nOthers, however, worry that phones cause trouble. Games and short videos can easily draw students' attention away from lessons. Chatting in class may disturb both the user and classmates. Worse still, some students compare phones and feel unhappy about what they own.\n\nIn my opinion, the key is self-control, not the phone itself. Schools can set clear rules: keep phones silent during class and use them only for learning with a teacher's permission. If students can manage themselves, phones can stay; if not, they should be kept at home. Technology is neither good nor bad — it depends on how we use it.", "options": [{"key": "A", "text": "help", "is_correct": false, "trap_type": "词义猜测", "option_analysis": "不选「help」：语义相反"}, {"key": "B", "text": "trouble", "is_correct": true, "trap_type": null, "option_analysis": "正确。课堂上聊天会打扰自己和同学，disturb 意为打扰、干扰"}, {"key": "C", "text": "protect", "is_correct": false, "trap_type": "词义猜测", "option_analysis": "不选「protect」：语义相反"}, {"key": "D", "text": "follow", "is_correct": false, "trap_type": "词义猜测", "option_analysis": "不选「follow」：与语境不符"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：B. trouble\n解析：由 Chatting in class 影响 user 和 classmates 可知 disturb 意为「打扰、干扰」。", "time_anchor": null, "tags": ["阅读理解", "原创", "议论文 · 校园与规则", "第2题", "词义猜测"], "difficulty": 4, "question_fingerprint": "RD003_2", "reading_group": "RD003", "reading_title": "Should Students Use Phones at School?", "reading_no": 2, "reading_total": 5, "reading_type": "词义猜测", "raw": ""}, {"id": "RD003_3", "source": "原创阅读 · Should Students Use Phones at School?（议论文 · 校园与规则） · 第3/5题", "subject": "english", "stage": "初中", "grade": "九", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "推理判断", "mode": "single", "stem": "第 3 题（推理判断）：What is the writer's opinion about phones at school?", "passage": "More and more students bring smartphones to school. Should they be allowed to use them in class? People hold different views.\n\nSome students think phones help them learn. They can look up new words, take photos of key points and check information quickly. When a problem is hard, a phone can be a useful tool.\n\nOthers, however, worry that phones cause trouble. Games and short videos can easily draw students' attention away from lessons. Chatting in class may disturb both the user and classmates. Worse still, some students compare phones and feel unhappy about what they own.\n\nIn my opinion, the key is self-control, not the phone itself. Schools can set clear rules: keep phones silent during class and use them only for learning with a teacher's permission. If students can manage themselves, phones can stay; if not, they should be kept at home. Technology is neither good nor bad — it depends on how we use it.", "options": [{"key": "A", "text": "Phones should be banned completely", "is_correct": false, "trap_type": "推理判断", "option_analysis": "不选「Phones should be banned completely」：作者没有主张完全禁止"}, {"key": "B", "text": "Phones should be used freely anytime", "is_correct": false, "trap_type": "推理判断", "option_analysis": "不选「Phones should be used freely anytime」：作者强调规则和自我控制"}, {"key": "C", "text": "It depends on students' self-control", "is_correct": true, "trap_type": null, "option_analysis": "正确。第四段首句 the key is self-control 是核心观点"}, {"key": "D", "text": "Only teachers may bring phones", "is_correct": false, "trap_type": "推理判断", "option_analysis": "不选「Only teachers may bring phones」：文中无此主张"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：C. It depends on students' self-control\n解析：第四段明确：关键在于 self-control，能自控就可带、不能自控就留在家。", "time_anchor": null, "tags": ["阅读理解", "原创", "议论文 · 校园与规则", "第3题", "推理判断"], "difficulty": 4, "question_fingerprint": "RD003_3", "reading_group": "RD003", "reading_title": "Should Students Use Phones at School?", "reading_no": 3, "reading_total": 5, "reading_type": "推理判断", "raw": ""}, {"id": "RD003_4", "source": "原创阅读 · Should Students Use Phones at School?（议论文 · 校园与规则） · 第4/5题", "subject": "english", "stage": "初中", "grade": "九", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "推理判断", "mode": "single", "stem": "第 4 题（推理判断）：Which rule would the writer probably agree with?", "passage": "More and more students bring smartphones to school. Should they be allowed to use them in class? People hold different views.\n\nSome students think phones help them learn. They can look up new words, take photos of key points and check information quickly. When a problem is hard, a phone can be a useful tool.\n\nOthers, however, worry that phones cause trouble. Games and short videos can easily draw students' attention away from lessons. Chatting in class may disturb both the user and classmates. Worse still, some students compare phones and feel unhappy about what they own.\n\nIn my opinion, the key is self-control, not the phone itself. Schools can set clear rules: keep phones silent during class and use them only for learning with a teacher's permission. If students can manage themselves, phones can stay; if not, they should be kept at home. Technology is neither good nor bad — it depends on how we use it.", "options": [{"key": "A", "text": "Use phones for fun in every class", "is_correct": false, "trap_type": "推理判断", "option_analysis": "不选「Use phones for fun in every class」：与作者主张相悖"}, {"key": "B", "text": "Keep phones silent in class and use them for learning with permission", "is_correct": true, "trap_type": null, "option_analysis": "正确。与第四段提出的规则完全一致"}, {"key": "C", "text": "Ban all technology at school", "is_correct": false, "trap_type": "推理判断", "option_analysis": "不选「Ban all technology at school」：作者认为技术本身无好坏"}, {"key": "D", "text": "Allow phone comparisons in class", "is_correct": false, "trap_type": "推理判断", "option_analysis": "不选「Allow phone comparisons in class」：比较手机是作者提到的负面影响"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：B. Keep phones silent in class and use them for learning with permission\n解析：第四段：keep phones silent during class and use them only for learning with a teacher's permission。", "time_anchor": null, "tags": ["阅读理解", "原创", "议论文 · 校园与规则", "第4题", "推理判断"], "difficulty": 4, "question_fingerprint": "RD003_4", "reading_group": "RD003", "reading_title": "Should Students Use Phones at School?", "reading_no": 4, "reading_total": 5, "reading_type": "推理判断", "raw": ""}, {"id": "RD003_5", "source": "原创阅读 · Should Students Use Phones at School?（议论文 · 校园与规则） · 第5/5题", "subject": "english", "stage": "初中", "grade": "九", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "主旨大意", "mode": "single", "stem": "第 5 题（主旨大意）：Which is the best title for the passage?", "passage": "More and more students bring smartphones to school. Should they be allowed to use them in class? People hold different views.\n\nSome students think phones help them learn. They can look up new words, take photos of key points and check information quickly. When a problem is hard, a phone can be a useful tool.\n\nOthers, however, worry that phones cause trouble. Games and short videos can easily draw students' attention away from lessons. Chatting in class may disturb both the user and classmates. Worse still, some students compare phones and feel unhappy about what they own.\n\nIn my opinion, the key is self-control, not the phone itself. Schools can set clear rules: keep phones silent during class and use them only for learning with a teacher's permission. If students can manage themselves, phones can stay; if not, they should be kept at home. Technology is neither good nor bad — it depends on how we use it.", "options": [{"key": "A", "text": "Phones at School: A Balanced View", "is_correct": true, "trap_type": null, "option_analysis": "正确。文章呈现正反两方并给出折中观点，标题最贴切"}, {"key": "B", "text": "Phones Are Good for Study", "is_correct": false, "trap_type": "主旨大意", "option_analysis": "不选「Phones Are Good for Study」：只写了一个方面"}, {"key": "C", "text": "Never Bring Phones to School", "is_correct": false, "trap_type": "主旨大意", "option_analysis": "不选「Never Bring Phones to School」：只写了反对观点"}, {"key": "D", "text": "How to Buy a Smartphone", "is_correct": false, "trap_type": "主旨大意", "option_analysis": "不选「How to Buy a Smartphone」：完全无关"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：A. Phones at School: A Balanced View\n解析：文章既讲好处也讲担忧，最后给出平衡观点，A 概括最准。", "time_anchor": null, "tags": ["阅读理解", "原创", "议论文 · 校园与规则", "第5题", "主旨大意"], "difficulty": 4, "question_fingerprint": "RD003_5", "reading_group": "RD003", "reading_title": "Should Students Use Phones at School?", "reading_no": 5, "reading_total": 5, "reading_type": "主旨大意", "raw": ""}, {"id": "RD004_1", "source": "原创阅读 · School Clubs Fair（应用文 · 海报与广告） · 第1/5题", "subject": "english", "stage": "初中", "grade": "八", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "细节理解", "mode": "single", "stem": "第 1 题（细节理解）：When will the Clubs Fair be held?", "passage": "SUNSHINE MIDDLE SCHOOL — CLUBS FAIR\nFriday, September 12 | 3:30 p.m. – 5:00 p.m. | School Hall\n\nCome and find a club you love! All students are welcome. Each club will show what they do and you can sign up on the spot.\n\n• Green Club — Learn to protect the environment. We meet every Wednesday after school and plant trees in spring. (Open to Grade 7–9)\n• English Drama Club — Put on a short play at the school art festival. Practice every Tuesday. No experience needed! (Grade 8–9 only)\n• Robot Club — Build and program your own robot. Space is limited to 20 members. Bring your own computer. (Grade 7–8 only)\n• Reading Club — Read one book a month and share your ideas over tea. Every Thursday afternoon. (All grades)\n\nFree entry. Bring a friend and join us!", "options": [{"key": "A", "text": "On Friday, September 12", "is_correct": true, "trap_type": null, "option_analysis": "正确。海报顶部时间：Friday, September 12"}, {"key": "B", "text": "On Tuesday, September 12", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「On Tuesday, September 12」：Tuesday 是戏剧社活动时间，不是博览会时间"}, {"key": "C", "text": "On Wednesday after school", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「On Wednesday after school」：这是环保社活动时间"}, {"key": "D", "text": "On the school art festival", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「On the school art festival」：艺术节是戏剧社演出的场合"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：A. On Friday, September 12\n解析：海报第一行时间栏写明 Friday, September 12。", "time_anchor": null, "tags": ["阅读理解", "原创", "应用文 · 海报与广告", "第1题", "细节理解"], "difficulty": 3, "question_fingerprint": "RD004_1", "reading_group": "RD004", "reading_title": "School Clubs Fair", "reading_no": 1, "reading_total": 5, "reading_type": "细节理解", "raw": ""}, {"id": "RD004_2", "source": "原创阅读 · School Clubs Fair（应用文 · 海报与广告） · 第2/5题", "subject": "english", "stage": "初中", "grade": "八", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "细节理解", "mode": "single", "stem": "第 2 题（细节理解）：Which club can a Grade 7 student join?", "passage": "SUNSHINE MIDDLE SCHOOL — CLUBS FAIR\nFriday, September 12 | 3:30 p.m. – 5:00 p.m. | School Hall\n\nCome and find a club you love! All students are welcome. Each club will show what they do and you can sign up on the spot.\n\n• Green Club — Learn to protect the environment. We meet every Wednesday after school and plant trees in spring. (Open to Grade 7–9)\n• English Drama Club — Put on a short play at the school art festival. Practice every Tuesday. No experience needed! (Grade 8–9 only)\n• Robot Club — Build and program your own robot. Space is limited to 20 members. Bring your own computer. (Grade 7–8 only)\n• Reading Club — Read one book a month and share your ideas over tea. Every Thursday afternoon. (All grades)\n\nFree entry. Bring a friend and join us!", "options": [{"key": "A", "text": "English Drama Club", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「English Drama Club」：戏剧社限 Grade 8–9，七年级不符合"}, {"key": "B", "text": "English Drama Club and Green Club", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「English Drama Club and Green Club」：戏剧社限 Grade 8–9，七年级不能加入"}, {"key": "C", "text": "Green Club, Robot Club and Reading Club", "is_correct": true, "trap_type": null, "option_analysis": "正确。环保社 Grade 7–9、机器人社 Grade 7–8、读书社 All grades，七年级三个都可参加"}, {"key": "D", "text": "Only the Reading Club", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「Only the Reading Club」：不完整——七年级还可参加环保社和机器人社"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：C. Green Club, Robot Club and Reading Club\n解析：逐条核对：环保社 7–9 ✓、机器人社 7–8 ✓、读书社 All grades ✓；戏剧社限 8–9 ✗。", "time_anchor": null, "tags": ["阅读理解", "原创", "应用文 · 海报与广告", "第2题", "细节理解"], "difficulty": 3, "question_fingerprint": "RD004_2", "reading_group": "RD004", "reading_title": "School Clubs Fair", "reading_no": 2, "reading_total": 5, "reading_type": "细节理解", "raw": ""}, {"id": "RD004_3", "source": "原创阅读 · School Clubs Fair（应用文 · 海报与广告） · 第3/5题", "subject": "english", "stage": "初中", "grade": "八", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "细节理解", "mode": "single", "stem": "第 3 题（细节理解）：What should members of the Robot Club bring?", "passage": "SUNSHINE MIDDLE SCHOOL — CLUBS FAIR\nFriday, September 12 | 3:30 p.m. – 5:00 p.m. | School Hall\n\nCome and find a club you love! All students are welcome. Each club will show what they do and you can sign up on the spot.\n\n• Green Club — Learn to protect the environment. We meet every Wednesday after school and plant trees in spring. (Open to Grade 7–9)\n• English Drama Club — Put on a short play at the school art festival. Practice every Tuesday. No experience needed! (Grade 8–9 only)\n• Robot Club — Build and program your own robot. Space is limited to 20 members. Bring your own computer. (Grade 7–8 only)\n• Reading Club — Read one book a month and share your ideas over tea. Every Thursday afternoon. (All grades)\n\nFree entry. Bring a friend and join us!", "options": [{"key": "A", "text": "A book", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「A book」：读书社才需要读书"}, {"key": "B", "text": "Their own computer", "is_correct": true, "trap_type": null, "option_analysis": "正确。机器人社说明中写明 Bring your own computer"}, {"key": "C", "text": "A robot", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「A robot」：机器人是去做的，不是自带的"}, {"key": "D", "text": "Some tea", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「Some tea」：茶是读书社分享时的"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：B. Their own computer\n解析：Robot Club 条目：Bring your own computer。", "time_anchor": null, "tags": ["阅读理解", "原创", "应用文 · 海报与广告", "第3题", "细节理解"], "difficulty": 3, "question_fingerprint": "RD004_3", "reading_group": "RD004", "reading_title": "School Clubs Fair", "reading_no": 3, "reading_total": 5, "reading_type": "细节理解", "raw": ""}, {"id": "RD004_4", "source": "原创阅读 · School Clubs Fair（应用文 · 海报与广告） · 第4/5题", "subject": "english", "stage": "初中", "grade": "八", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "推理判断", "mode": "single", "stem": "第 4 题（推理判断）：Which club would be best for a student who loves acting but has no experience?", "passage": "SUNSHINE MIDDLE SCHOOL — CLUBS FAIR\nFriday, September 12 | 3:30 p.m. – 5:00 p.m. | School Hall\n\nCome and find a club you love! All students are welcome. Each club will show what they do and you can sign up on the spot.\n\n• Green Club — Learn to protect the environment. We meet every Wednesday after school and plant trees in spring. (Open to Grade 7–9)\n• English Drama Club — Put on a short play at the school art festival. Practice every Tuesday. No experience needed! (Grade 8–9 only)\n• Robot Club — Build and program your own robot. Space is limited to 20 members. Bring your own computer. (Grade 7–8 only)\n• Reading Club — Read one book a month and share your ideas over tea. Every Thursday afternoon. (All grades)\n\nFree entry. Bring a friend and join us!", "options": [{"key": "A", "text": "Green Club", "is_correct": false, "trap_type": "推理判断", "option_analysis": "不选「Green Club」：环保社与表演无关"}, {"key": "B", "text": "English Drama Club", "is_correct": true, "trap_type": null, "option_analysis": "正确。戏剧社说 put on a short play 且 No experience needed，正符合"}, {"key": "C", "text": "Robot Club", "is_correct": false, "trap_type": "推理判断", "option_analysis": "不选「Robot Club」：与表演无关且需电脑"}, {"key": "D", "text": "Reading Club", "is_correct": false, "trap_type": "推理判断", "option_analysis": "不选「Reading Club」：读书社是读书分享，不上台表演"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：B. English Drama Club\n解析：戏剧社明说无需经验、会在艺术节演短剧，最适合想表演的新手。", "time_anchor": null, "tags": ["阅读理解", "原创", "应用文 · 海报与广告", "第4题", "推理判断"], "difficulty": 4, "question_fingerprint": "RD004_4", "reading_group": "RD004", "reading_title": "School Clubs Fair", "reading_no": 4, "reading_total": 5, "reading_type": "推理判断", "raw": ""}, {"id": "RD004_5", "source": "原创阅读 · School Clubs Fair（应用文 · 海报与广告） · 第5/5题", "subject": "english", "stage": "初中", "grade": "八", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "主旨大意", "mode": "single", "stem": "第 5 题（主旨大意）：What is the main purpose of this passage?", "passage": "SUNSHINE MIDDLE SCHOOL — CLUBS FAIR\nFriday, September 12 | 3:30 p.m. – 5:00 p.m. | School Hall\n\nCome and find a club you love! All students are welcome. Each club will show what they do and you can sign up on the spot.\n\n• Green Club — Learn to protect the environment. We meet every Wednesday after school and plant trees in spring. (Open to Grade 7–9)\n• English Drama Club — Put on a short play at the school art festival. Practice every Tuesday. No experience needed! (Grade 8–9 only)\n• Robot Club — Build and program your own robot. Space is limited to 20 members. Bring your own computer. (Grade 7–8 only)\n• Reading Club — Read one book a month and share your ideas over tea. Every Thursday afternoon. (All grades)\n\nFree entry. Bring a friend and join us!", "options": [{"key": "A", "text": "To invite students to join clubs", "is_correct": true, "trap_type": null, "option_analysis": "正确。海报开头 Come and find a club you love、结尾 join us，目的是招募"}, {"key": "B", "text": "To teach students how to plant trees", "is_correct": false, "trap_type": "主旨大意", "option_analysis": "不选「To teach students how to plant trees」：植树只是环保社的一项活动"}, {"key": "C", "text": "To introduce a new school", "is_correct": false, "trap_type": "主旨大意", "option_analysis": "不选「To introduce a new school」：学校只是背景"}, {"key": "D", "text": "To sell computers to students", "is_correct": false, "trap_type": "主旨大意", "option_analysis": "不选「To sell computers to students」：电脑是学生自备，不出售"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：A. To invite students to join clubs\n解析：这是一则社团招新海报，核心目的是邀请学生参加社团。", "time_anchor": null, "tags": ["阅读理解", "原创", "应用文 · 海报与广告", "第5题", "主旨大意"], "difficulty": 4, "question_fingerprint": "RD004_5", "reading_group": "RD004", "reading_title": "School Clubs Fair", "reading_no": 5, "reading_total": 5, "reading_type": "主旨大意", "raw": ""}, {"id": "RD005_1", "source": "原创阅读 · My New Friend Lisa（记叙文 · 校园与友谊（七年级）） · 第1/5题", "subject": "english", "stage": "初中", "grade": "七", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "细节理解", "mode": "single", "stem": "第 1 题（细节理解）：Where did Lisa come from?", "passage": "Lisa is my new classmate. She came to our school last month from Canada. At first, she was very quiet. She sat alone and did not talk much. I wanted to help her feel at home.\n\nOne day, I brought some Chinese cookies to school and gave her one. She smiled and said \"thank you\" in Chinese. Then she told me she loved our school lunch, especially the dumplings. We started to eat together every day.\n\nLisa is good at drawing. She drew a small picture of our classroom and gave it to me. In the picture, everyone is smiling. I was surprised because I never thought she watched us so carefully. Now we are best friends. She teaches me English and I teach her Chinese.\n\nI learn one thing from Lisa: a friend is someone who shares your cookies and sees the smile on your face.", "options": [{"key": "A", "text": "Canada", "is_correct": true, "trap_type": null, "option_analysis": "正确。首段 from Canada，正确"}, {"key": "B", "text": "China", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「China」：中国是作者所在的地方，不是 Lisa 的来源"}, {"key": "C", "text": "England", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「England」：文中未提"}, {"key": "D", "text": "Australia", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「Australia」：文中未提"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：A. Canada\n解析：定位第一段：She came to our school last month from Canada。", "time_anchor": null, "tags": ["阅读理解", "原创", "记叙文 · 校园与友谊（七年级）", "第1题", "细节理解"], "difficulty": 3, "question_fingerprint": "RD005_1", "reading_group": "RD005", "reading_title": "My New Friend Lisa", "reading_no": 1, "reading_total": 5, "reading_type": "细节理解", "raw": ""}, {"id": "RD005_2", "source": "原创阅读 · My New Friend Lisa（记叙文 · 校园与友谊（七年级）） · 第2/5题", "subject": "english", "stage": "初中", "grade": "七", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "词义猜测", "mode": "single", "stem": "第 2 题（词义猜测）：What does the underlined word \"alone\" mean in Chinese?", "passage": "Lisa is my new classmate. She came to our school last month from Canada. At first, she was very quiet. She sat alone and did not talk much. I wanted to help her feel at home.\n\nOne day, I brought some Chinese cookies to school and gave her one. She smiled and said \"thank you\" in Chinese. Then she told me she loved our school lunch, especially the dumplings. We started to eat together every day.\n\nLisa is good at drawing. She drew a small picture of our classroom and gave it to me. In the picture, everyone is smiling. I was surprised because I never thought she watched us so carefully. Now we are best friends. She teaches me English and I teach her Chinese.\n\nI learn one thing from Lisa: a friend is someone who shares your cookies and sees the smile on your face.", "options": [{"key": "A", "text": "开心地", "is_correct": false, "trap_type": "词义猜测", "option_analysis": "不选「开心地」：与 quiet、did not talk much 的语境不符"}, {"key": "B", "text": "独自地", "is_correct": true, "trap_type": null, "option_analysis": "正确。她刚来、安静、不多说话，sat alone 意为独自坐着"}, {"key": "C", "text": "大声地", "is_correct": false, "trap_type": "词义猜测", "option_analysis": "不选「大声地」：与 quiet 矛盾"}, {"key": "D", "text": "匆忙地", "is_correct": false, "trap_type": "词义猜测", "option_analysis": "不选「匆忙地」：与语境无关"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：B. 独自地\n解析：由 she was very quiet 和 did not talk much 可推断 alone 是「独自」。", "time_anchor": null, "tags": ["阅读理解", "原创", "记叙文 · 校园与友谊（七年级）", "第2题", "词义猜测"], "difficulty": 4, "question_fingerprint": "RD005_2", "reading_group": "RD005", "reading_title": "My New Friend Lisa", "reading_no": 2, "reading_total": 5, "reading_type": "词义猜测", "raw": ""}, {"id": "RD005_3", "source": "原创阅读 · My New Friend Lisa（记叙文 · 校园与友谊（七年级）） · 第3/5题", "subject": "english", "stage": "初中", "grade": "七", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "细节理解", "mode": "single", "stem": "第 3 题（细节理解）：What did the writer give Lisa first?", "passage": "Lisa is my new classmate. She came to our school last month from Canada. At first, she was very quiet. She sat alone and did not talk much. I wanted to help her feel at home.\n\nOne day, I brought some Chinese cookies to school and gave her one. She smiled and said \"thank you\" in Chinese. Then she told me she loved our school lunch, especially the dumplings. We started to eat together every day.\n\nLisa is good at drawing. She drew a small picture of our classroom and gave it to me. In the picture, everyone is smiling. I was surprised because I never thought she watched us so carefully. Now we are best friends. She teaches me English and I teach her Chinese.\n\nI learn one thing from Lisa: a friend is someone who shares your cookies and sees the smile on your face.", "options": [{"key": "A", "text": "A picture", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「A picture」：picture 是 Lisa 后来送给作者的"}, {"key": "B", "text": "Some Chinese cookies", "is_correct": true, "trap_type": null, "option_analysis": "正确。第二段 brought some Chinese cookies and gave her one"}, {"key": "C", "text": "A dumpling", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「A dumpling」：dumplings 是学校午餐，不是作者给的"}, {"key": "D", "text": "An English book", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「An English book」：文中未提"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：B. Some Chinese cookies\n解析：第二段首句：I brought some Chinese cookies to school and gave her one。", "time_anchor": null, "tags": ["阅读理解", "原创", "记叙文 · 校园与友谊（七年级）", "第3题", "细节理解"], "difficulty": 3, "question_fingerprint": "RD005_3", "reading_group": "RD005", "reading_title": "My New Friend Lisa", "reading_no": 3, "reading_total": 5, "reading_type": "细节理解", "raw": ""}, {"id": "RD005_4", "source": "原创阅读 · My New Friend Lisa（记叙文 · 校园与友谊（七年级）） · 第4/5题", "subject": "english", "stage": "初中", "grade": "七", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "推理判断", "mode": "single", "stem": "第 4 题（推理判断）：Why was the writer surprised?", "passage": "Lisa is my new classmate. She came to our school last month from Canada. At first, she was very quiet. She sat alone and did not talk much. I wanted to help her feel at home.\n\nOne day, I brought some Chinese cookies to school and gave her one. She smiled and said \"thank you\" in Chinese. Then she told me she loved our school lunch, especially the dumplings. We started to eat together every day.\n\nLisa is good at drawing. She drew a small picture of our classroom and gave it to me. In the picture, everyone is smiling. I was surprised because I never thought she watched us so carefully. Now we are best friends. She teaches me English and I teach her Chinese.\n\nI learn one thing from Lisa: a friend is someone who shares your cookies and sees the smile on your face.", "options": [{"key": "A", "text": "Because Lisa drew very fast", "is_correct": false, "trap_type": "推理判断", "option_analysis": "不选「Because Lisa drew very fast」：文中没说画得快"}, {"key": "B", "text": "Because Lisa was good at drawing", "is_correct": false, "trap_type": "推理判断", "option_analysis": "不选「Because Lisa was good at drawing」：这是事实，但不是作者惊讶的原因"}, {"key": "C", "text": "Because Lisa watched the class carefully and drew everyone smiling", "is_correct": true, "trap_type": null, "option_analysis": "正确。作者没想到她把大家观察得这么仔细、画里人人都在笑"}, {"key": "D", "text": "Because Lisa left the school", "is_correct": false, "trap_type": "推理判断", "option_analysis": "不选「Because Lisa left the school」：与文中不符"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：C. Because Lisa watched the class carefully and drew everyone smiling\n解析：第三段：I was surprised because I never thought she watched us so carefully。", "time_anchor": null, "tags": ["阅读理解", "原创", "记叙文 · 校园与友谊（七年级）", "第4题", "推理判断"], "difficulty": 4, "question_fingerprint": "RD005_4", "reading_group": "RD005", "reading_title": "My New Friend Lisa", "reading_no": 4, "reading_total": 5, "reading_type": "推理判断", "raw": ""}, {"id": "RD005_5", "source": "原创阅读 · My New Friend Lisa（记叙文 · 校园与友谊（七年级）） · 第5/5题", "subject": "english", "stage": "初中", "grade": "七", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "主旨大意", "mode": "single", "stem": "第 5 题（主旨大意）：What is the passage mainly about?", "passage": "Lisa is my new classmate. She came to our school last month from Canada. At first, she was very quiet. She sat alone and did not talk much. I wanted to help her feel at home.\n\nOne day, I brought some Chinese cookies to school and gave her one. She smiled and said \"thank you\" in Chinese. Then she told me she loved our school lunch, especially the dumplings. We started to eat together every day.\n\nLisa is good at drawing. She drew a small picture of our classroom and gave it to me. In the picture, everyone is smiling. I was surprised because I never thought she watched us so carefully. Now we are best friends. She teaches me English and I teach her Chinese.\n\nI learn one thing from Lisa: a friend is someone who shares your cookies and sees the smile on your face.", "options": [{"key": "A", "text": "How to draw nice pictures", "is_correct": false, "trap_type": "主旨大意", "option_analysis": "不选「How to draw nice pictures」：画画只是其中一个细节"}, {"key": "B", "text": "How the writer made a new friend", "is_correct": true, "trap_type": null, "option_analysis": "正确。全文讲作者和 Lisa 从陌生到成为好朋友的过程"}, {"key": "C", "text": "Chinese food at school", "is_correct": false, "trap_type": "主旨大意", "option_analysis": "不选「Chinese food at school」：食物是友谊的线索，不是全文主旨"}, {"key": "D", "text": "A hard school day", "is_correct": false, "trap_type": "主旨大意", "option_analysis": "不选「A hard school day」：与文章温暖基调不符"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：B. How the writer made a new friend\n解析：文章围绕作者如何与 Lisa 成为朋友展开，B 最贴切。", "time_anchor": null, "tags": ["阅读理解", "原创", "记叙文 · 校园与友谊（七年级）", "第5题", "主旨大意"], "difficulty": 4, "question_fingerprint": "RD005_5", "reading_group": "RD005", "reading_title": "My New Friend Lisa", "reading_no": 5, "reading_total": 5, "reading_type": "主旨大意", "raw": ""}, {"id": "RD006_1", "source": "原创阅读 · The Clever Crow（记叙文 · 动物故事（七年级）） · 第1/5题", "subject": "english", "stage": "初中", "grade": "七", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "细节理解", "mode": "single", "stem": "第 1 题（细节理解）：What did the crow want to find?", "passage": "It was a hot summer day. A crow was very thirsty. He flew everywhere to find water, but he could not find any. At last, he saw a bottle under a tree. There was a little water in it.\n\nThe crow was happy, but then he had a problem. The bottle was tall and his beak could not reach the water. He thought and thought. He saw some small stones on the ground.\n\nSuddenly, he had an idea. He picked up the stones one by one and put them into the bottle. Slowly, the water came up. At last, the crow could reach the water and drank it.\n\nThis story tells us that we should never give up. When we have a problem, we should think carefully and try different ways. Even a small, clever step can help us win.", "options": [{"key": "A", "text": "Food", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「Food」：文中说的是 thirsty 想找水"}, {"key": "B", "text": "Water", "is_correct": true, "trap_type": null, "option_analysis": "正确。首段 He flew everywhere to find water"}, {"key": "C", "text": "A friend", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「A friend」：文中未提"}, {"key": "D", "text": "A tree", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「A tree」：树只是瓶子所在的地方"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：B. Water\n解析：定位第一段：A crow was very thirsty... to find water。", "time_anchor": null, "tags": ["阅读理解", "原创", "记叙文 · 动物故事（七年级）", "第1题", "细节理解"], "difficulty": 3, "question_fingerprint": "RD006_1", "reading_group": "RD006", "reading_title": "The Clever Crow", "reading_no": 1, "reading_total": 5, "reading_type": "细节理解", "raw": ""}, {"id": "RD006_2", "source": "原创阅读 · The Clever Crow（记叙文 · 动物故事（七年级）） · 第2/5题", "subject": "english", "stage": "初中", "grade": "七", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "细节理解", "mode": "single", "stem": "第 2 题（细节理解）：Why could the crow not drink the water at first?", "passage": "It was a hot summer day. A crow was very thirsty. He flew everywhere to find water, but he could not find any. At last, he saw a bottle under a tree. There was a little water in it.\n\nThe crow was happy, but then he had a problem. The bottle was tall and his beak could not reach the water. He thought and thought. He saw some small stones on the ground.\n\nSuddenly, he had an idea. He picked up the stones one by one and put them into the bottle. Slowly, the water came up. At last, the crow could reach the water and drank it.\n\nThis story tells us that we should never give up. When we have a problem, we should think carefully and try different ways. Even a small, clever step can help us win.", "options": [{"key": "A", "text": "The water was dirty", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「The water was dirty」：文中没说水脏"}, {"key": "B", "text": "The bottle was tall and his beak could not reach it", "is_correct": true, "trap_type": null, "option_analysis": "正确。第二段明确说明瓶子高、喙够不到"}, {"key": "C", "text": "There was no water in the bottle", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「There was no water in the bottle」：瓶里其实有一点水"}, {"key": "D", "text": "The crow was not thirsty", "is_correct": false, "trap_type": "细节理解", "option_analysis": "不选「The crow was not thirsty」：与首段 thirsty 矛盾"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：B. The bottle was tall and his beak could not reach it\n解析：第二段：The bottle was tall and his beak could not reach the water。", "time_anchor": null, "tags": ["阅读理解", "原创", "记叙文 · 动物故事（七年级）", "第2题", "细节理解"], "difficulty": 3, "question_fingerprint": "RD006_2", "reading_group": "RD006", "reading_title": "The Clever Crow", "reading_no": 2, "reading_total": 5, "reading_type": "细节理解", "raw": ""}, {"id": "RD006_3", "source": "原创阅读 · The Clever Crow（记叙文 · 动物故事（七年级）） · 第3/5题", "subject": "english", "stage": "初中", "grade": "七", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "推理判断", "mode": "single", "stem": "第 3 题（推理判断）：How did the stones help the crow?", "passage": "It was a hot summer day. A crow was very thirsty. He flew everywhere to find water, but he could not find any. At last, he saw a bottle under a tree. There was a little water in it.\n\nThe crow was happy, but then he had a problem. The bottle was tall and his beak could not reach the water. He thought and thought. He saw some small stones on the ground.\n\nSuddenly, he had an idea. He picked up the stones one by one and put them into the bottle. Slowly, the water came up. At last, the crow could reach the water and drank it.\n\nThis story tells us that we should never give up. When we have a problem, we should think carefully and try different ways. Even a small, clever step can help us win.", "options": [{"key": "A", "text": "They made the water come up", "is_correct": true, "trap_type": null, "option_analysis": "正确。石头放进瓶里，水位上升，乌鸦才够得到"}, {"key": "B", "text": "They made the water clean", "is_correct": false, "trap_type": "推理判断", "option_analysis": "不选「They made the water clean」：文中没说净化水"}, {"key": "C", "text": "They broke the bottle", "is_correct": false, "trap_type": "推理判断", "option_analysis": "不选「They broke the bottle」：与原文不符"}, {"key": "D", "text": "They gave the crow food", "is_correct": false, "trap_type": "推理判断", "option_analysis": "不选「They gave the crow food」：无关"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：A. They made the water come up\n解析：第三段：He put stones into the bottle... the water came up。", "time_anchor": null, "tags": ["阅读理解", "原创", "记叙文 · 动物故事（七年级）", "第3题", "推理判断"], "difficulty": 4, "question_fingerprint": "RD006_3", "reading_group": "RD006", "reading_title": "The Clever Crow", "reading_no": 3, "reading_total": 5, "reading_type": "推理判断", "raw": ""}, {"id": "RD006_4", "source": "原创阅读 · The Clever Crow（记叙文 · 动物故事（七年级）） · 第4/5题", "subject": "english", "stage": "初中", "grade": "七", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "词义猜测", "mode": "single", "stem": "第 4 题（词义猜测）：The phrase \"give up\" in the last paragraph means \"___\".", "passage": "It was a hot summer day. A crow was very thirsty. He flew everywhere to find water, but he could not find any. At last, he saw a bottle under a tree. There was a little water in it.\n\nThe crow was happy, but then he had a problem. The bottle was tall and his beak could not reach the water. He thought and thought. He saw some small stones on the ground.\n\nSuddenly, he had an idea. He picked up the stones one by one and put them into the bottle. Slowly, the water came up. At last, the crow could reach the water and drank it.\n\nThis story tells us that we should never give up. When we have a problem, we should think carefully and try different ways. Even a small, clever step can help us win.", "options": [{"key": "A", "text": "尝试", "is_correct": false, "trap_type": "词义猜测", "option_analysis": "不选「尝试」：与 never 搭配和全文主旨不符"}, {"key": "B", "text": "放弃", "is_correct": true, "trap_type": null, "option_analysis": "正确。never give up 是「永不放弃」，符合故事寓意"}, {"key": "C", "text": "成功", "is_correct": false, "trap_type": "词义猜测", "option_analysis": "不选「成功」：语义不通"}, {"key": "D", "text": "休息", "is_correct": false, "trap_type": "词义猜测", "option_analysis": "不选「休息」：与语境无关"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：B. 放弃\n解析：由结尾寓意「遇到问题要多想办法」可知 give up 是「放弃」。", "time_anchor": null, "tags": ["阅读理解", "原创", "记叙文 · 动物故事（七年级）", "第4题", "词义猜测"], "difficulty": 4, "question_fingerprint": "RD006_4", "reading_group": "RD006", "reading_title": "The Clever Crow", "reading_no": 4, "reading_total": 5, "reading_type": "词义猜测", "raw": ""}, {"id": "RD006_5", "source": "原创阅读 · The Clever Crow（记叙文 · 动物故事（七年级）） · 第5/5题", "subject": "english", "stage": "初中", "grade": "七", "genre": "阅读理解", "content_scope": null, "memory_type": null, "grammar_group": "阅读理解", "grammar_point": "主旨大意", "mode": "single", "stem": "第 5 题（主旨大意）：What does the story want to tell us?", "passage": "It was a hot summer day. A crow was very thirsty. He flew everywhere to find water, but he could not find any. At last, he saw a bottle under a tree. There was a little water in it.\n\nThe crow was happy, but then he had a problem. The bottle was tall and his beak could not reach the water. He thought and thought. He saw some small stones on the ground.\n\nSuddenly, he had an idea. He picked up the stones one by one and put them into the bottle. Slowly, the water came up. At last, the crow could reach the water and drank it.\n\nThis story tells us that we should never give up. When we have a problem, we should think carefully and try different ways. Even a small, clever step can help us win.", "options": [{"key": "A", "text": "Crows like drinking water", "is_correct": false, "trap_type": "主旨大意", "option_analysis": "不选「Crows like drinking water」：只是故事表层"}, {"key": "B", "text": "Never give up and think of clever ways", "is_correct": true, "trap_type": null, "option_analysis": "正确。末段明确点出寓意"}, {"key": "C", "text": "Stones are useful", "is_correct": false, "trap_type": "主旨大意", "option_analysis": "不选「Stones are useful」：石头是方法，不是道理"}, {"key": "D", "text": "Summer is hot", "is_correct": false, "trap_type": "主旨大意", "option_analysis": "不选「Summer is hot」：天气只是背景"}], "points": [], "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨", "total_score": 2, "reference_answer": "标答：B. Never give up and think of clever ways\n解析：末段：we should never give up... think carefully and try different ways。", "time_anchor": null, "tags": ["阅读理解", "原创", "记叙文 · 动物故事（七年级）", "第5题", "主旨大意"], "difficulty": 4, "question_fingerprint": "RD006_5", "reading_group": "RD006", "reading_title": "The Clever Crow", "reading_no": 5, "reading_total": 5, "reading_type": "主旨大意", "raw": ""}]}
+{
+ "name": "原创阅读理解种子题",
+ "note": "整篇短文拆成多道单选题，共享 passage。merge_bank 并入 all.json，每天更新不会冲掉。",
+ "updatedAt": "2026-11-19T15:29:46.653566+08:00",
+ "items": [
+  {
+   "id": "RD001_1",
+   "source": "原创阅读 · The Old Bike（记叙文 · 亲情与成长） · 第1/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "八",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "细节理解",
+   "mode": "single",
+   "stem": "第 1 题（细节理解）：Where did the writer find the old bike at first?",
+   "passage": "Last Saturday, I found an old bike in the corner of our garage. It was covered with dust and its paint had faded. I almost walked away, but something made me stop. It was the bike my father used to ride to work twenty years ago.\n\nI cleaned it carefully and took it to a small shop nearby. The owner, an old man with grey hair, looked at it for a long time. \"This is a Forever bike,\" he said. \"People once waited months to buy one.\" He repaired the wheels and polished the frame for only fifty yuan.\n\nWhen I rode it home, I felt something I had never felt before. The bike was slow and the bell was loud, but every turn seemed to tell a story. My father saw it and smiled. \"I bought it with my first month's salary,\" he said. That evening he told me about the long rides to the factory, about the rain and the cold winter mornings.\n\nNow the bike stands in our living room, not in the garage. It is too old to ride every day, but to my father it is the most valuable thing in our home.",
+   "options": [
+    {
+     "key": "A",
+     "text": "In a small repair shop",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「In a small repair shop」：修理店是后来才去的地方，不是最初发现自行车的地方"
+    },
+    {
+     "key": "B",
+     "text": "In the corner of the garage",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。对应首句「in the corner of our garage」，正确"
+    },
+    {
+     "key": "C",
+     "text": "On the street near home",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「On the street near home」：文中未说在街上发现"
+    },
+    {
+     "key": "D",
+     "text": "In the factory",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「In the factory」：factory 只出现在父亲骑车的回忆里"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：B. In the corner of the garage\n解析：定位第一段首句：old bike 在自家车库角落（in the corner of our garage）。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "记叙文 · 亲情与成长",
+    "第1题",
+    "细节理解"
+   ],
+   "difficulty": 3,
+   "question_fingerprint": "RD001_1",
+   "reading_group": "RD001",
+   "reading_title": "The Old Bike",
+   "reading_no": 1,
+   "reading_total": 5,
+   "reading_type": "细节理解",
+   "raw": ""
+  },
+  {
+   "id": "RD001_2",
+   "source": "原创阅读 · The Old Bike（记叙文 · 亲情与成长） · 第2/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "八",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "词义猜测",
+   "mode": "single",
+   "stem": "第 2 题（词义猜测）：The underlined word \"faded\" in Paragraph 1 probably means \"___\".",
+   "passage": "Last Saturday, I found an old bike in the corner of our garage. It was covered with dust and its paint had faded. I almost walked away, but something made me stop. It was the bike my father used to ride to work twenty years ago.\n\nI cleaned it carefully and took it to a small shop nearby. The owner, an old man with grey hair, looked at it for a long time. \"This is a Forever bike,\" he said. \"People once waited months to buy one.\" He repaired the wheels and polished the frame for only fifty yuan.\n\nWhen I rode it home, I felt something I had never felt before. The bike was slow and the bell was loud, but every turn seemed to tell a story. My father saw it and smiled. \"I bought it with my first month's salary,\" he said. That evening he told me about the long rides to the factory, about the rain and the cold winter mornings.\n\nNow the bike stands in our living room, not in the garage. It is too old to ride every day, but to my father it is the most valuable thing in our home.",
+   "options": [
+    {
+     "key": "A",
+     "text": "became less bright",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。前文说蒙尘、后文又提到旧，faded 指颜色变淡、褪色，正确"
+    },
+    {
+     "key": "B",
+     "text": "became much heavier",
+     "is_correct": false,
+     "trap_type": "词义猜测",
+     "option_analysis": "不选「became much heavier」：与 paint（油漆）搭配不当"
+    },
+    {
+     "key": "C",
+     "text": "was completely new",
+     "is_correct": false,
+     "trap_type": "词义猜测",
+     "option_analysis": "不选「was completely new」：与 old、dust 语义相反"
+    },
+    {
+     "key": "D",
+     "text": "was broken into pieces",
+     "is_correct": false,
+     "trap_type": "词义猜测",
+     "option_analysis": "不选「was broken into pieces」：若已碎裂就不会只是 cleaned 后拿去修"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：A. became less bright\n解析：由 covered with dust 和 old bike 的语境可推断 faded 是「褪色、失去光泽」。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "记叙文 · 亲情与成长",
+    "第2题",
+    "词义猜测"
+   ],
+   "difficulty": 4,
+   "question_fingerprint": "RD001_2",
+   "reading_group": "RD001",
+   "reading_title": "The Old Bike",
+   "reading_no": 2,
+   "reading_total": 5,
+   "reading_type": "词义猜测",
+   "raw": ""
+  },
+  {
+   "id": "RD001_3",
+   "source": "原创阅读 · The Old Bike（记叙文 · 亲情与成长） · 第3/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "八",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "推理判断",
+   "mode": "single",
+   "stem": "第 3 题（推理判断）：Why did the shop owner look at the bike for a long time?",
+   "passage": "Last Saturday, I found an old bike in the corner of our garage. It was covered with dust and its paint had faded. I almost walked away, but something made me stop. It was the bike my father used to ride to work twenty years ago.\n\nI cleaned it carefully and took it to a small shop nearby. The owner, an old man with grey hair, looked at it for a long time. \"This is a Forever bike,\" he said. \"People once waited months to buy one.\" He repaired the wheels and polished the frame for only fifty yuan.\n\nWhen I rode it home, I felt something I had never felt before. The bike was slow and the bell was loud, but every turn seemed to tell a story. My father saw it and smiled. \"I bought it with my first month's salary,\" he said. That evening he told me about the long rides to the factory, about the rain and the cold winter mornings.\n\nNow the bike stands in our living room, not in the garage. It is too old to ride every day, but to my father it is the most valuable thing in our home.",
+   "options": [
+    {
+     "key": "A",
+     "text": "He had never seen a bike before",
+     "is_correct": false,
+     "trap_type": "推理判断",
+     "option_analysis": "不选「He had never seen a bike before」：不合常理，文中也无依据"
+    },
+    {
+     "key": "B",
+     "text": "He wanted to buy it from the writer",
+     "is_correct": false,
+     "trap_type": "推理判断",
+     "option_analysis": "不选「He wanted to buy it from the writer」：文中是他帮着修理，并未提出购买"
+    },
+    {
+     "key": "C",
+     "text": "He recognized it as a valuable old model",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。他随后说这是 Forever 牌、当年要等几个月才能买，说明他认出了它的价值"
+    },
+    {
+     "key": "D",
+     "text": "He was too tired to work",
+     "is_correct": false,
+     "trap_type": "推理判断",
+     "option_analysis": "不选「He was too tired to work」：无中生有"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：C. He recognized it as a valuable old model\n解析：老板看了很久后说「这是永久牌，以前要等几个月才能买到」，可推断他认出这是有价值的旧款。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "记叙文 · 亲情与成长",
+    "第3题",
+    "推理判断"
+   ],
+   "difficulty": 4,
+   "question_fingerprint": "RD001_3",
+   "reading_group": "RD001",
+   "reading_title": "The Old Bike",
+   "reading_no": 3,
+   "reading_total": 5,
+   "reading_type": "推理判断",
+   "raw": ""
+  },
+  {
+   "id": "RD001_4",
+   "source": "原创阅读 · The Old Bike（记叙文 · 亲情与成长） · 第4/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "八",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "主旨大意",
+   "mode": "single",
+   "stem": "第 4 题（主旨大意）：What is the best title for the passage?",
+   "passage": "Last Saturday, I found an old bike in the corner of our garage. It was covered with dust and its paint had faded. I almost walked away, but something made me stop. It was the bike my father used to ride to work twenty years ago.\n\nI cleaned it carefully and took it to a small shop nearby. The owner, an old man with grey hair, looked at it for a long time. \"This is a Forever bike,\" he said. \"People once waited months to buy one.\" He repaired the wheels and polished the frame for only fifty yuan.\n\nWhen I rode it home, I felt something I had never felt before. The bike was slow and the bell was loud, but every turn seemed to tell a story. My father saw it and smiled. \"I bought it with my first month's salary,\" he said. That evening he told me about the long rides to the factory, about the rain and the cold winter mornings.\n\nNow the bike stands in our living room, not in the garage. It is too old to ride every day, but to my father it is the most valuable thing in our home.",
+   "options": [
+    {
+     "key": "A",
+     "text": "A Bike Full of Stories",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。全文借一辆旧车串起父亲的往事与亲情，概括最准"
+    },
+    {
+     "key": "B",
+     "text": "How to Repair an Old Bike",
+     "is_correct": false,
+     "trap_type": "主旨大意",
+     "option_analysis": "不选「How to Repair an Old Bike」：修理只是中间一小段，不是主旨"
+    },
+    {
+     "key": "C",
+     "text": "A Busy Saturday",
+     "is_correct": false,
+     "trap_type": "主旨大意",
+     "option_analysis": "不选「A Busy Saturday」：只对应开头时间，过于片面"
+    },
+    {
+     "key": "D",
+     "text": "My Father's Factory",
+     "is_correct": false,
+     "trap_type": "主旨大意",
+     "option_analysis": "不选「My Father's Factory」：factory 只是回忆里的地点，以偏概全"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：A. A Bike Full of Stories\n解析：文章核心是旧自行车承载的回忆与父爱，A 最能概括全文。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "记叙文 · 亲情与成长",
+    "第4题",
+    "主旨大意"
+   ],
+   "difficulty": 4,
+   "question_fingerprint": "RD001_4",
+   "reading_group": "RD001",
+   "reading_title": "The Old Bike",
+   "reading_no": 4,
+   "reading_total": 5,
+   "reading_type": "主旨大意",
+   "raw": ""
+  },
+  {
+   "id": "RD001_5",
+   "source": "原创阅读 · The Old Bike（记叙文 · 亲情与成长） · 第5/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "八",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "推理判断",
+   "mode": "single",
+   "stem": "第 5 题（推理判断）：What can we learn from the last paragraph?",
+   "passage": "Last Saturday, I found an old bike in the corner of our garage. It was covered with dust and its paint had faded. I almost walked away, but something made me stop. It was the bike my father used to ride to work twenty years ago.\n\nI cleaned it carefully and took it to a small shop nearby. The owner, an old man with grey hair, looked at it for a long time. \"This is a Forever bike,\" he said. \"People once waited months to buy one.\" He repaired the wheels and polished the frame for only fifty yuan.\n\nWhen I rode it home, I felt something I had never felt before. The bike was slow and the bell was loud, but every turn seemed to tell a story. My father saw it and smiled. \"I bought it with my first month's salary,\" he said. That evening he told me about the long rides to the factory, about the rain and the cold winter mornings.\n\nNow the bike stands in our living room, not in the garage. It is too old to ride every day, but to my father it is the most valuable thing in our home.",
+   "options": [
+    {
+     "key": "A",
+     "text": "The bike is useless and should be thrown away",
+     "is_correct": false,
+     "trap_type": "推理判断",
+     "option_analysis": "不选「The bike is useless and should be thrown away」：与 valuable 直接矛盾"
+    },
+    {
+     "key": "B",
+     "text": "The father no longer likes the bike",
+     "is_correct": false,
+     "trap_type": "推理判断",
+     "option_analysis": "不选「The father no longer likes the bike」：与父亲的珍惜态度相反"
+    },
+    {
+     "key": "C",
+     "text": "The bike is precious to the family though it is old",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。too old to ride 却 the most valuable，正说明它珍贵"
+    },
+    {
+     "key": "D",
+     "text": "The writer will sell the bike one day",
+     "is_correct": false,
+     "trap_type": "推理判断",
+     "option_analysis": "不选「The writer will sell the bike one day」：文中没有要卖的意思"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：C. The bike is precious to the family though it is old\n解析：末段「太旧不能常骑，却是家里最珍贵的东西」直接点明：旧但珍贵。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "记叙文 · 亲情与成长",
+    "第5题",
+    "推理判断"
+   ],
+   "difficulty": 4,
+   "question_fingerprint": "RD001_5",
+   "reading_group": "RD001",
+   "reading_title": "The Old Bike",
+   "reading_no": 5,
+   "reading_total": 5,
+   "reading_type": "推理判断",
+   "raw": ""
+  },
+  {
+   "id": "RD002_1",
+   "source": "原创阅读 · Why Sleep Matters（说明文 · 健康与科学） · 第1/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "八",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "细节理解",
+   "mode": "single",
+   "stem": "第 1 题（细节理解）：How many hours of sleep do teenagers need every night according to scientists?",
+   "passage": "Sleep is not a waste of time. While you are asleep, your body is still working hard. It repairs tired muscles, fights off illness and stores what you learned during the day. Scientists say that teenagers need about eight to ten hours of sleep every night.\n\nBut many students get far less. Staying up late with phones or homework has become common. Research shows that less sleep can make it harder to pay attention in class, slow down your reactions and even change your mood. Students who sleep well usually remember new words better and do well in sports.\n\nSo how can you sleep better? First, keep a regular bedtime, even on weekends. Second, put away your phone at least half an hour before bed — the bright screen tells your brain that it is still daytime. Third, keep your room cool and quiet. Small changes can make a big difference.\n\nRemember, sleep is not the enemy of hard work. It is part of it.",
+   "options": [
+    {
+     "key": "A",
+     "text": "About five to six hours",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「About five to six hours」：数字与原文不符"
+    },
+    {
+     "key": "B",
+     "text": "About eight to ten hours",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。对应第一段末句 eight to ten hours，正确"
+    },
+    {
+     "key": "C",
+     "text": "About twelve hours",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「About twelve hours」：数字偏大，文中未提"
+    },
+    {
+     "key": "D",
+     "text": "As many as possible",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「As many as possible」：文中给的是明确区间，不是越多越好"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：B. About eight to ten hours\n解析：第一段末句：teenagers need about eight to ten hours of sleep every night。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "说明文 · 健康与科学",
+    "第1题",
+    "细节理解"
+   ],
+   "difficulty": 3,
+   "question_fingerprint": "RD002_1",
+   "reading_group": "RD002",
+   "reading_title": "Why Sleep Matters",
+   "reading_no": 1,
+   "reading_total": 5,
+   "reading_type": "细节理解",
+   "raw": ""
+  },
+  {
+   "id": "RD002_2",
+   "source": "原创阅读 · Why Sleep Matters（说明文 · 健康与科学） · 第2/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "八",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "细节理解",
+   "mode": "single",
+   "stem": "第 2 题（细节理解）：Which of the following is NOT mentioned as a result of less sleep?",
+   "passage": "Sleep is not a waste of time. While you are asleep, your body is still working hard. It repairs tired muscles, fights off illness and stores what you learned during the day. Scientists say that teenagers need about eight to ten hours of sleep every night.\n\nBut many students get far less. Staying up late with phones or homework has become common. Research shows that less sleep can make it harder to pay attention in class, slow down your reactions and even change your mood. Students who sleep well usually remember new words better and do well in sports.\n\nSo how can you sleep better? First, keep a regular bedtime, even on weekends. Second, put away your phone at least half an hour before bed — the bright screen tells your brain that it is still daytime. Third, keep your room cool and quiet. Small changes can make a big difference.\n\nRemember, sleep is not the enemy of hard work. It is part of it.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Harder to pay attention in class",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「Harder to pay attention in class」：原文明确提到 pay attention 变难"
+    },
+    {
+     "key": "B",
+     "text": "Slower reactions",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「Slower reactions」：原文提到 slow down your reactions"
+    },
+    {
+     "key": "C",
+     "text": "Better memory of new words",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。记忆更好是「睡得好」的结果，属于反向干扰"
+    },
+    {
+     "key": "D",
+     "text": "Changes in mood",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「Changes in mood」：原文提到 even change your mood"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：C. Better memory of new words\n解析：原文说睡得好才 remember new words better，睡不好不会让记忆更好，故选 C。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "说明文 · 健康与科学",
+    "第2题",
+    "细节理解"
+   ],
+   "difficulty": 3,
+   "question_fingerprint": "RD002_2",
+   "reading_group": "RD002",
+   "reading_title": "Why Sleep Matters",
+   "reading_no": 2,
+   "reading_total": 5,
+   "reading_type": "细节理解",
+   "raw": ""
+  },
+  {
+   "id": "RD002_3",
+   "source": "原创阅读 · Why Sleep Matters（说明文 · 健康与科学） · 第3/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "八",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "词义猜测",
+   "mode": "single",
+   "stem": "第 3 题（词义猜测）：What does the underlined phrase \"Staying up late\" mean in Chinese?",
+   "passage": "Sleep is not a waste of time. While you are asleep, your body is still working hard. It repairs tired muscles, fights off illness and stores what you learned during the day. Scientists say that teenagers need about eight to ten hours of sleep every night.\n\nBut many students get far less. Staying up late with phones or homework has become common. Research shows that less sleep can make it harder to pay attention in class, slow down your reactions and even change your mood. Students who sleep well usually remember new words better and do well in sports.\n\nSo how can you sleep better? First, keep a regular bedtime, even on weekends. Second, put away your phone at least half an hour before bed — the bright screen tells your brain that it is still daytime. Third, keep your room cool and quiet. Small changes can make a big difference.\n\nRemember, sleep is not the enemy of hard work. It is part of it.",
+   "options": [
+    {
+     "key": "A",
+     "text": "早睡",
+     "is_correct": false,
+     "trap_type": "词义猜测",
+     "option_analysis": "不选「早睡」：与 late 矛盾"
+    },
+    {
+     "key": "B",
+     "text": "熬夜",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。与后半句 with phones or homework 及 sleep less 对应，意为熬夜"
+    },
+    {
+     "key": "C",
+     "text": "睡懒觉",
+     "is_correct": false,
+     "trap_type": "词义猜测",
+     "option_analysis": "不选「睡懒觉」：睡懒觉不会导致 get far less sleep"
+    },
+    {
+     "key": "D",
+     "text": "午休",
+     "is_correct": false,
+     "trap_type": "词义猜测",
+     "option_analysis": "不选「午休」：与语境无关"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：B. 熬夜\n解析：由 get far less sleep 与「玩手机/赶作业」可推断是「熬夜」。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "说明文 · 健康与科学",
+    "第3题",
+    "词义猜测"
+   ],
+   "difficulty": 4,
+   "question_fingerprint": "RD002_3",
+   "reading_group": "RD002",
+   "reading_title": "Why Sleep Matters",
+   "reading_no": 3,
+   "reading_total": 5,
+   "reading_type": "词义猜测",
+   "raw": ""
+  },
+  {
+   "id": "RD002_4",
+   "source": "原创阅读 · Why Sleep Matters（说明文 · 健康与科学） · 第4/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "八",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "推理判断",
+   "mode": "single",
+   "stem": "第 4 题（推理判断）：Why should you put away your phone before bed?",
+   "passage": "Sleep is not a waste of time. While you are asleep, your body is still working hard. It repairs tired muscles, fights off illness and stores what you learned during the day. Scientists say that teenagers need about eight to ten hours of sleep every night.\n\nBut many students get far less. Staying up late with phones or homework has become common. Research shows that less sleep can make it harder to pay attention in class, slow down your reactions and even change your mood. Students who sleep well usually remember new words better and do well in sports.\n\nSo how can you sleep better? First, keep a regular bedtime, even on weekends. Second, put away your phone at least half an hour before bed — the bright screen tells your brain that it is still daytime. Third, keep your room cool and quiet. Small changes can make a big difference.\n\nRemember, sleep is not the enemy of hard work. It is part of it.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Because phones are expensive",
+     "is_correct": false,
+     "trap_type": "推理判断",
+     "option_analysis": "不选「Because phones are expensive」：文中未提价格"
+    },
+    {
+     "key": "B",
+     "text": "Because the bright screen makes the brain think it is still daytime",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。第三段明确解释了屏幕亮光的影响"
+    },
+    {
+     "key": "C",
+     "text": "Because phones cannot be charged in bed",
+     "is_correct": false,
+     "trap_type": "推理判断",
+     "option_analysis": "不选「Because phones cannot be charged in bed」：无中生有"
+    },
+    {
+     "key": "D",
+     "text": "Because phones will wake you up with calls",
+     "is_correct": false,
+     "trap_type": "推理判断",
+     "option_analysis": "不选「Because phones will wake you up with calls」：文中未提来电"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：B. Because the bright screen makes the brain think it is still daytime\n解析：第三段：the bright screen tells your brain that it is still daytime。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "说明文 · 健康与科学",
+    "第4题",
+    "推理判断"
+   ],
+   "difficulty": 4,
+   "question_fingerprint": "RD002_4",
+   "reading_group": "RD002",
+   "reading_title": "Why Sleep Matters",
+   "reading_no": 4,
+   "reading_total": 5,
+   "reading_type": "推理判断",
+   "raw": ""
+  },
+  {
+   "id": "RD002_5",
+   "source": "原创阅读 · Why Sleep Matters（说明文 · 健康与科学） · 第5/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "八",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "主旨大意",
+   "mode": "single",
+   "stem": "第 5 题（主旨大意）：What is the main idea of the passage?",
+   "passage": "Sleep is not a waste of time. While you are asleep, your body is still working hard. It repairs tired muscles, fights off illness and stores what you learned during the day. Scientists say that teenagers need about eight to ten hours of sleep every night.\n\nBut many students get far less. Staying up late with phones or homework has become common. Research shows that less sleep can make it harder to pay attention in class, slow down your reactions and even change your mood. Students who sleep well usually remember new words better and do well in sports.\n\nSo how can you sleep better? First, keep a regular bedtime, even on weekends. Second, put away your phone at least half an hour before bed — the bright screen tells your brain that it is still daytime. Third, keep your room cool and quiet. Small changes can make a big difference.\n\nRemember, sleep is not the enemy of hard work. It is part of it.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Sleep is important and we should sleep well",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。全文讲睡眠的作用、不足的危害和改善方法，概括最全"
+    },
+    {
+     "key": "B",
+     "text": "Students should do more homework",
+     "is_correct": false,
+     "trap_type": "主旨大意",
+     "option_analysis": "不选「Students should do more homework」：与文章主旨无关"
+    },
+    {
+     "key": "C",
+     "text": "Phones are bad for everyone",
+     "is_correct": false,
+     "trap_type": "主旨大意",
+     "option_analysis": "不选「Phones are bad for everyone」：手机只是影响睡眠的一个因素，以偏概全"
+    },
+    {
+     "key": "D",
+     "text": "Teenagers like staying up late",
+     "is_correct": false,
+     "trap_type": "主旨大意",
+     "option_analysis": "不选「Teenagers like staying up late」：只是现象描述，不是文章要传达的核心"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：A. Sleep is important and we should sleep well\n解析：文章从作用、危害到建议都在说明「睡眠重要、要睡好」，A 最全面。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "说明文 · 健康与科学",
+    "第5题",
+    "主旨大意"
+   ],
+   "difficulty": 4,
+   "question_fingerprint": "RD002_5",
+   "reading_group": "RD002",
+   "reading_title": "Why Sleep Matters",
+   "reading_no": 5,
+   "reading_total": 5,
+   "reading_type": "主旨大意",
+   "raw": ""
+  },
+  {
+   "id": "RD003_1",
+   "source": "原创阅读 · Should Students Use Phones at School?（议论文 · 校园与规则） · 第1/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "九",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "细节理解",
+   "mode": "single",
+   "stem": "第 1 题（细节理解）：What is one reason some students support using phones at school?",
+   "passage": "More and more students bring smartphones to school. Should they be allowed to use them in class? People hold different views.\n\nSome students think phones help them learn. They can look up new words, take photos of key points and check information quickly. When a problem is hard, a phone can be a useful tool.\n\nOthers, however, worry that phones cause trouble. Games and short videos can easily draw students' attention away from lessons. Chatting in class may disturb both the user and classmates. Worse still, some students compare phones and feel unhappy about what they own.\n\nIn my opinion, the key is self-control, not the phone itself. Schools can set clear rules: keep phones silent during class and use them only for learning with a teacher's permission. If students can manage themselves, phones can stay; if not, they should be kept at home. Technology is neither good nor bad — it depends on how we use it.",
+   "options": [
+    {
+     "key": "A",
+     "text": "They can play games between classes",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「They can play games between classes」：游戏是反对者担心的问题，不是支持理由"
+    },
+    {
+     "key": "B",
+     "text": "They can look up new words and check information",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。第二段列举了查单词、拍重点、查资料等学习用途"
+    },
+    {
+     "key": "C",
+     "text": "They can compare phones with classmates",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「They can compare phones with classmates」：这是反对者提到的负面现象"
+    },
+    {
+     "key": "D",
+     "text": "They can chat freely in class",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「They can chat freely in class」：课堂聊天是作者反对的行为"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：B. They can look up new words and check information\n解析：第二段：look up new words, take photos of key points and check information。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "议论文 · 校园与规则",
+    "第1题",
+    "细节理解"
+   ],
+   "difficulty": 3,
+   "question_fingerprint": "RD003_1",
+   "reading_group": "RD003",
+   "reading_title": "Should Students Use Phones at School?",
+   "reading_no": 1,
+   "reading_total": 5,
+   "reading_type": "细节理解",
+   "raw": ""
+  },
+  {
+   "id": "RD003_2",
+   "source": "原创阅读 · Should Students Use Phones at School?（议论文 · 校园与规则） · 第2/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "九",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "词义猜测",
+   "mode": "single",
+   "stem": "第 2 题（词义猜测）：The underlined word \"disturb\" in Paragraph 3 is closest to \"___\".",
+   "passage": "More and more students bring smartphones to school. Should they be allowed to use them in class? People hold different views.\n\nSome students think phones help them learn. They can look up new words, take photos of key points and check information quickly. When a problem is hard, a phone can be a useful tool.\n\nOthers, however, worry that phones cause trouble. Games and short videos can easily draw students' attention away from lessons. Chatting in class may disturb both the user and classmates. Worse still, some students compare phones and feel unhappy about what they own.\n\nIn my opinion, the key is self-control, not the phone itself. Schools can set clear rules: keep phones silent during class and use them only for learning with a teacher's permission. If students can manage themselves, phones can stay; if not, they should be kept at home. Technology is neither good nor bad — it depends on how we use it.",
+   "options": [
+    {
+     "key": "A",
+     "text": "help",
+     "is_correct": false,
+     "trap_type": "词义猜测",
+     "option_analysis": "不选「help」：语义相反"
+    },
+    {
+     "key": "B",
+     "text": "trouble",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。课堂上聊天会打扰自己和同学，disturb 意为打扰、干扰"
+    },
+    {
+     "key": "C",
+     "text": "protect",
+     "is_correct": false,
+     "trap_type": "词义猜测",
+     "option_analysis": "不选「protect」：语义相反"
+    },
+    {
+     "key": "D",
+     "text": "follow",
+     "is_correct": false,
+     "trap_type": "词义猜测",
+     "option_analysis": "不选「follow」：与语境不符"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：B. trouble\n解析：由 Chatting in class 影响 user 和 classmates 可知 disturb 意为「打扰、干扰」。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "议论文 · 校园与规则",
+    "第2题",
+    "词义猜测"
+   ],
+   "difficulty": 4,
+   "question_fingerprint": "RD003_2",
+   "reading_group": "RD003",
+   "reading_title": "Should Students Use Phones at School?",
+   "reading_no": 2,
+   "reading_total": 5,
+   "reading_type": "词义猜测",
+   "raw": ""
+  },
+  {
+   "id": "RD003_3",
+   "source": "原创阅读 · Should Students Use Phones at School?（议论文 · 校园与规则） · 第3/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "九",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "推理判断",
+   "mode": "single",
+   "stem": "第 3 题（推理判断）：What is the writer's opinion about phones at school?",
+   "passage": "More and more students bring smartphones to school. Should they be allowed to use them in class? People hold different views.\n\nSome students think phones help them learn. They can look up new words, take photos of key points and check information quickly. When a problem is hard, a phone can be a useful tool.\n\nOthers, however, worry that phones cause trouble. Games and short videos can easily draw students' attention away from lessons. Chatting in class may disturb both the user and classmates. Worse still, some students compare phones and feel unhappy about what they own.\n\nIn my opinion, the key is self-control, not the phone itself. Schools can set clear rules: keep phones silent during class and use them only for learning with a teacher's permission. If students can manage themselves, phones can stay; if not, they should be kept at home. Technology is neither good nor bad — it depends on how we use it.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Phones should be banned completely",
+     "is_correct": false,
+     "trap_type": "推理判断",
+     "option_analysis": "不选「Phones should be banned completely」：作者没有主张完全禁止"
+    },
+    {
+     "key": "B",
+     "text": "Phones should be used freely anytime",
+     "is_correct": false,
+     "trap_type": "推理判断",
+     "option_analysis": "不选「Phones should be used freely anytime」：作者强调规则和自我控制"
+    },
+    {
+     "key": "C",
+     "text": "It depends on students' self-control",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。第四段首句 the key is self-control 是核心观点"
+    },
+    {
+     "key": "D",
+     "text": "Only teachers may bring phones",
+     "is_correct": false,
+     "trap_type": "推理判断",
+     "option_analysis": "不选「Only teachers may bring phones」：文中无此主张"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：C. It depends on students' self-control\n解析：第四段明确：关键在于 self-control，能自控就可带、不能自控就留在家。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "议论文 · 校园与规则",
+    "第3题",
+    "推理判断"
+   ],
+   "difficulty": 4,
+   "question_fingerprint": "RD003_3",
+   "reading_group": "RD003",
+   "reading_title": "Should Students Use Phones at School?",
+   "reading_no": 3,
+   "reading_total": 5,
+   "reading_type": "推理判断",
+   "raw": ""
+  },
+  {
+   "id": "RD003_4",
+   "source": "原创阅读 · Should Students Use Phones at School?（议论文 · 校园与规则） · 第4/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "九",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "推理判断",
+   "mode": "single",
+   "stem": "第 4 题（推理判断）：Which rule would the writer probably agree with?",
+   "passage": "More and more students bring smartphones to school. Should they be allowed to use them in class? People hold different views.\n\nSome students think phones help them learn. They can look up new words, take photos of key points and check information quickly. When a problem is hard, a phone can be a useful tool.\n\nOthers, however, worry that phones cause trouble. Games and short videos can easily draw students' attention away from lessons. Chatting in class may disturb both the user and classmates. Worse still, some students compare phones and feel unhappy about what they own.\n\nIn my opinion, the key is self-control, not the phone itself. Schools can set clear rules: keep phones silent during class and use them only for learning with a teacher's permission. If students can manage themselves, phones can stay; if not, they should be kept at home. Technology is neither good nor bad — it depends on how we use it.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Use phones for fun in every class",
+     "is_correct": false,
+     "trap_type": "推理判断",
+     "option_analysis": "不选「Use phones for fun in every class」：与作者主张相悖"
+    },
+    {
+     "key": "B",
+     "text": "Keep phones silent in class and use them for learning with permission",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。与第四段提出的规则完全一致"
+    },
+    {
+     "key": "C",
+     "text": "Ban all technology at school",
+     "is_correct": false,
+     "trap_type": "推理判断",
+     "option_analysis": "不选「Ban all technology at school」：作者认为技术本身无好坏"
+    },
+    {
+     "key": "D",
+     "text": "Allow phone comparisons in class",
+     "is_correct": false,
+     "trap_type": "推理判断",
+     "option_analysis": "不选「Allow phone comparisons in class」：比较手机是作者提到的负面影响"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：B. Keep phones silent in class and use them for learning with permission\n解析：第四段：keep phones silent during class and use them only for learning with a teacher's permission。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "议论文 · 校园与规则",
+    "第4题",
+    "推理判断"
+   ],
+   "difficulty": 4,
+   "question_fingerprint": "RD003_4",
+   "reading_group": "RD003",
+   "reading_title": "Should Students Use Phones at School?",
+   "reading_no": 4,
+   "reading_total": 5,
+   "reading_type": "推理判断",
+   "raw": ""
+  },
+  {
+   "id": "RD003_5",
+   "source": "原创阅读 · Should Students Use Phones at School?（议论文 · 校园与规则） · 第5/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "九",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "主旨大意",
+   "mode": "single",
+   "stem": "第 5 题（主旨大意）：Which is the best title for the passage?",
+   "passage": "More and more students bring smartphones to school. Should they be allowed to use them in class? People hold different views.\n\nSome students think phones help them learn. They can look up new words, take photos of key points and check information quickly. When a problem is hard, a phone can be a useful tool.\n\nOthers, however, worry that phones cause trouble. Games and short videos can easily draw students' attention away from lessons. Chatting in class may disturb both the user and classmates. Worse still, some students compare phones and feel unhappy about what they own.\n\nIn my opinion, the key is self-control, not the phone itself. Schools can set clear rules: keep phones silent during class and use them only for learning with a teacher's permission. If students can manage themselves, phones can stay; if not, they should be kept at home. Technology is neither good nor bad — it depends on how we use it.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Phones at School: A Balanced View",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。文章呈现正反两方并给出折中观点，标题最贴切"
+    },
+    {
+     "key": "B",
+     "text": "Phones Are Good for Study",
+     "is_correct": false,
+     "trap_type": "主旨大意",
+     "option_analysis": "不选「Phones Are Good for Study」：只写了一个方面"
+    },
+    {
+     "key": "C",
+     "text": "Never Bring Phones to School",
+     "is_correct": false,
+     "trap_type": "主旨大意",
+     "option_analysis": "不选「Never Bring Phones to School」：只写了反对观点"
+    },
+    {
+     "key": "D",
+     "text": "How to Buy a Smartphone",
+     "is_correct": false,
+     "trap_type": "主旨大意",
+     "option_analysis": "不选「How to Buy a Smartphone」：完全无关"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：A. Phones at School: A Balanced View\n解析：文章既讲好处也讲担忧，最后给出平衡观点，A 概括最准。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "议论文 · 校园与规则",
+    "第5题",
+    "主旨大意"
+   ],
+   "difficulty": 4,
+   "question_fingerprint": "RD003_5",
+   "reading_group": "RD003",
+   "reading_title": "Should Students Use Phones at School?",
+   "reading_no": 5,
+   "reading_total": 5,
+   "reading_type": "主旨大意",
+   "raw": ""
+  },
+  {
+   "id": "RD004_1",
+   "source": "原创阅读 · School Clubs Fair（应用文 · 海报与广告） · 第1/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "八",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "细节理解",
+   "mode": "single",
+   "stem": "第 1 题（细节理解）：When will the Clubs Fair be held?",
+   "passage": "SUNSHINE MIDDLE SCHOOL — CLUBS FAIR\nFriday, September 12 | 3:30 p.m. – 5:00 p.m. | School Hall\n\nCome and find a club you love! All students are welcome. Each club will show what they do and you can sign up on the spot.\n\n• Green Club — Learn to protect the environment. We meet every Wednesday after school and plant trees in spring. (Open to Grade 7–9)\n• English Drama Club — Put on a short play at the school art festival. Practice every Tuesday. No experience needed! (Grade 8–9 only)\n• Robot Club — Build and program your own robot. Space is limited to 20 members. Bring your own computer. (Grade 7–8 only)\n• Reading Club — Read one book a month and share your ideas over tea. Every Thursday afternoon. (All grades)\n\nFree entry. Bring a friend and join us!",
+   "options": [
+    {
+     "key": "A",
+     "text": "On Friday, September 12",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。海报顶部时间：Friday, September 12"
+    },
+    {
+     "key": "B",
+     "text": "On Tuesday, September 12",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「On Tuesday, September 12」：Tuesday 是戏剧社活动时间，不是博览会时间"
+    },
+    {
+     "key": "C",
+     "text": "On Wednesday after school",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「On Wednesday after school」：这是环保社活动时间"
+    },
+    {
+     "key": "D",
+     "text": "On the school art festival",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「On the school art festival」：艺术节是戏剧社演出的场合"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：A. On Friday, September 12\n解析：海报第一行时间栏写明 Friday, September 12。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "应用文 · 海报与广告",
+    "第1题",
+    "细节理解"
+   ],
+   "difficulty": 3,
+   "question_fingerprint": "RD004_1",
+   "reading_group": "RD004",
+   "reading_title": "School Clubs Fair",
+   "reading_no": 1,
+   "reading_total": 5,
+   "reading_type": "细节理解",
+   "raw": ""
+  },
+  {
+   "id": "RD004_2",
+   "source": "原创阅读 · School Clubs Fair（应用文 · 海报与广告） · 第2/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "八",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "细节理解",
+   "mode": "single",
+   "stem": "第 2 题（细节理解）：Which club can a Grade 7 student join?",
+   "passage": "SUNSHINE MIDDLE SCHOOL — CLUBS FAIR\nFriday, September 12 | 3:30 p.m. – 5:00 p.m. | School Hall\n\nCome and find a club you love! All students are welcome. Each club will show what they do and you can sign up on the spot.\n\n• Green Club — Learn to protect the environment. We meet every Wednesday after school and plant trees in spring. (Open to Grade 7–9)\n• English Drama Club — Put on a short play at the school art festival. Practice every Tuesday. No experience needed! (Grade 8–9 only)\n• Robot Club — Build and program your own robot. Space is limited to 20 members. Bring your own computer. (Grade 7–8 only)\n• Reading Club — Read one book a month and share your ideas over tea. Every Thursday afternoon. (All grades)\n\nFree entry. Bring a friend and join us!",
+   "options": [
+    {
+     "key": "A",
+     "text": "English Drama Club",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「English Drama Club」：戏剧社限 Grade 8–9，七年级不符合"
+    },
+    {
+     "key": "B",
+     "text": "English Drama Club and Green Club",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「English Drama Club and Green Club」：戏剧社限 Grade 8–9，七年级不能加入"
+    },
+    {
+     "key": "C",
+     "text": "Green Club, Robot Club and Reading Club",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。环保社 Grade 7–9、机器人社 Grade 7–8、读书社 All grades，七年级三个都可参加"
+    },
+    {
+     "key": "D",
+     "text": "Only the Reading Club",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「Only the Reading Club」：不完整——七年级还可参加环保社和机器人社"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：C. Green Club, Robot Club and Reading Club\n解析：逐条核对：环保社 7–9 ✓、机器人社 7–8 ✓、读书社 All grades ✓；戏剧社限 8–9 ✗。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "应用文 · 海报与广告",
+    "第2题",
+    "细节理解"
+   ],
+   "difficulty": 3,
+   "question_fingerprint": "RD004_2",
+   "reading_group": "RD004",
+   "reading_title": "School Clubs Fair",
+   "reading_no": 2,
+   "reading_total": 5,
+   "reading_type": "细节理解",
+   "raw": ""
+  },
+  {
+   "id": "RD004_3",
+   "source": "原创阅读 · School Clubs Fair（应用文 · 海报与广告） · 第3/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "八",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "细节理解",
+   "mode": "single",
+   "stem": "第 3 题（细节理解）：What should members of the Robot Club bring?",
+   "passage": "SUNSHINE MIDDLE SCHOOL — CLUBS FAIR\nFriday, September 12 | 3:30 p.m. – 5:00 p.m. | School Hall\n\nCome and find a club you love! All students are welcome. Each club will show what they do and you can sign up on the spot.\n\n• Green Club — Learn to protect the environment. We meet every Wednesday after school and plant trees in spring. (Open to Grade 7–9)\n• English Drama Club — Put on a short play at the school art festival. Practice every Tuesday. No experience needed! (Grade 8–9 only)\n• Robot Club — Build and program your own robot. Space is limited to 20 members. Bring your own computer. (Grade 7–8 only)\n• Reading Club — Read one book a month and share your ideas over tea. Every Thursday afternoon. (All grades)\n\nFree entry. Bring a friend and join us!",
+   "options": [
+    {
+     "key": "A",
+     "text": "A book",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「A book」：读书社才需要读书"
+    },
+    {
+     "key": "B",
+     "text": "Their own computer",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。机器人社说明中写明 Bring your own computer"
+    },
+    {
+     "key": "C",
+     "text": "A robot",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「A robot」：机器人是去做的，不是自带的"
+    },
+    {
+     "key": "D",
+     "text": "Some tea",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「Some tea」：茶是读书社分享时的"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：B. Their own computer\n解析：Robot Club 条目：Bring your own computer。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "应用文 · 海报与广告",
+    "第3题",
+    "细节理解"
+   ],
+   "difficulty": 3,
+   "question_fingerprint": "RD004_3",
+   "reading_group": "RD004",
+   "reading_title": "School Clubs Fair",
+   "reading_no": 3,
+   "reading_total": 5,
+   "reading_type": "细节理解",
+   "raw": ""
+  },
+  {
+   "id": "RD004_4",
+   "source": "原创阅读 · School Clubs Fair（应用文 · 海报与广告） · 第4/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "八",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "推理判断",
+   "mode": "single",
+   "stem": "第 4 题（推理判断）：Which club would be best for a student who loves acting but has no experience?",
+   "passage": "SUNSHINE MIDDLE SCHOOL — CLUBS FAIR\nFriday, September 12 | 3:30 p.m. – 5:00 p.m. | School Hall\n\nCome and find a club you love! All students are welcome. Each club will show what they do and you can sign up on the spot.\n\n• Green Club — Learn to protect the environment. We meet every Wednesday after school and plant trees in spring. (Open to Grade 7–9)\n• English Drama Club — Put on a short play at the school art festival. Practice every Tuesday. No experience needed! (Grade 8–9 only)\n• Robot Club — Build and program your own robot. Space is limited to 20 members. Bring your own computer. (Grade 7–8 only)\n• Reading Club — Read one book a month and share your ideas over tea. Every Thursday afternoon. (All grades)\n\nFree entry. Bring a friend and join us!",
+   "options": [
+    {
+     "key": "A",
+     "text": "Green Club",
+     "is_correct": false,
+     "trap_type": "推理判断",
+     "option_analysis": "不选「Green Club」：环保社与表演无关"
+    },
+    {
+     "key": "B",
+     "text": "English Drama Club",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。戏剧社说 put on a short play 且 No experience needed，正符合"
+    },
+    {
+     "key": "C",
+     "text": "Robot Club",
+     "is_correct": false,
+     "trap_type": "推理判断",
+     "option_analysis": "不选「Robot Club」：与表演无关且需电脑"
+    },
+    {
+     "key": "D",
+     "text": "Reading Club",
+     "is_correct": false,
+     "trap_type": "推理判断",
+     "option_analysis": "不选「Reading Club」：读书社是读书分享，不上台表演"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：B. English Drama Club\n解析：戏剧社明说无需经验、会在艺术节演短剧，最适合想表演的新手。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "应用文 · 海报与广告",
+    "第4题",
+    "推理判断"
+   ],
+   "difficulty": 4,
+   "question_fingerprint": "RD004_4",
+   "reading_group": "RD004",
+   "reading_title": "School Clubs Fair",
+   "reading_no": 4,
+   "reading_total": 5,
+   "reading_type": "推理判断",
+   "raw": ""
+  },
+  {
+   "id": "RD004_5",
+   "source": "原创阅读 · School Clubs Fair（应用文 · 海报与广告） · 第5/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "八",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "主旨大意",
+   "mode": "single",
+   "stem": "第 5 题（主旨大意）：What is the main purpose of this passage?",
+   "passage": "SUNSHINE MIDDLE SCHOOL — CLUBS FAIR\nFriday, September 12 | 3:30 p.m. – 5:00 p.m. | School Hall\n\nCome and find a club you love! All students are welcome. Each club will show what they do and you can sign up on the spot.\n\n• Green Club — Learn to protect the environment. We meet every Wednesday after school and plant trees in spring. (Open to Grade 7–9)\n• English Drama Club — Put on a short play at the school art festival. Practice every Tuesday. No experience needed! (Grade 8–9 only)\n• Robot Club — Build and program your own robot. Space is limited to 20 members. Bring your own computer. (Grade 7–8 only)\n• Reading Club — Read one book a month and share your ideas over tea. Every Thursday afternoon. (All grades)\n\nFree entry. Bring a friend and join us!",
+   "options": [
+    {
+     "key": "A",
+     "text": "To invite students to join clubs",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。海报开头 Come and find a club you love、结尾 join us，目的是招募"
+    },
+    {
+     "key": "B",
+     "text": "To teach students how to plant trees",
+     "is_correct": false,
+     "trap_type": "主旨大意",
+     "option_analysis": "不选「To teach students how to plant trees」：植树只是环保社的一项活动"
+    },
+    {
+     "key": "C",
+     "text": "To introduce a new school",
+     "is_correct": false,
+     "trap_type": "主旨大意",
+     "option_analysis": "不选「To introduce a new school」：学校只是背景"
+    },
+    {
+     "key": "D",
+     "text": "To sell computers to students",
+     "is_correct": false,
+     "trap_type": "主旨大意",
+     "option_analysis": "不选「To sell computers to students」：电脑是学生自备，不出售"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：A. To invite students to join clubs\n解析：这是一则社团招新海报，核心目的是邀请学生参加社团。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "应用文 · 海报与广告",
+    "第5题",
+    "主旨大意"
+   ],
+   "difficulty": 4,
+   "question_fingerprint": "RD004_5",
+   "reading_group": "RD004",
+   "reading_title": "School Clubs Fair",
+   "reading_no": 5,
+   "reading_total": 5,
+   "reading_type": "主旨大意",
+   "raw": ""
+  },
+  {
+   "id": "RD005_1",
+   "source": "原创阅读 · My New Friend Lisa（记叙文 · 校园与友谊（七年级）） · 第1/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "七",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "细节理解",
+   "mode": "single",
+   "stem": "第 1 题（细节理解）：Where did Lisa come from?",
+   "passage": "Lisa is my new classmate. She came to our school last month from Canada. At first, she was very quiet. She sat alone and did not talk much. I wanted to help her feel at home.\n\nOne day, I brought some Chinese cookies to school and gave her one. She smiled and said \"thank you\" in Chinese. Then she told me she loved our school lunch, especially the dumplings. We started to eat together every day.\n\nLisa is good at drawing. She drew a small picture of our classroom and gave it to me. In the picture, everyone is smiling. I was surprised because I never thought she watched us so carefully. Now we are best friends. She teaches me English and I teach her Chinese.\n\nI learn one thing from Lisa: a friend is someone who shares your cookies and sees the smile on your face.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Canada",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。首段 from Canada，正确"
+    },
+    {
+     "key": "B",
+     "text": "China",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「China」：中国是作者所在的地方，不是 Lisa 的来源"
+    },
+    {
+     "key": "C",
+     "text": "England",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「England」：文中未提"
+    },
+    {
+     "key": "D",
+     "text": "Australia",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「Australia」：文中未提"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：A. Canada\n解析：定位第一段：She came to our school last month from Canada。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "记叙文 · 校园与友谊（七年级）",
+    "第1题",
+    "细节理解"
+   ],
+   "difficulty": 3,
+   "question_fingerprint": "RD005_1",
+   "reading_group": "RD005",
+   "reading_title": "My New Friend Lisa",
+   "reading_no": 1,
+   "reading_total": 5,
+   "reading_type": "细节理解",
+   "raw": ""
+  },
+  {
+   "id": "RD005_2",
+   "source": "原创阅读 · My New Friend Lisa（记叙文 · 校园与友谊（七年级）） · 第2/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "七",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "词义猜测",
+   "mode": "single",
+   "stem": "第 2 题（词义猜测）：What does the underlined word \"alone\" mean in Chinese?",
+   "passage": "Lisa is my new classmate. She came to our school last month from Canada. At first, she was very quiet. She sat alone and did not talk much. I wanted to help her feel at home.\n\nOne day, I brought some Chinese cookies to school and gave her one. She smiled and said \"thank you\" in Chinese. Then she told me she loved our school lunch, especially the dumplings. We started to eat together every day.\n\nLisa is good at drawing. She drew a small picture of our classroom and gave it to me. In the picture, everyone is smiling. I was surprised because I never thought she watched us so carefully. Now we are best friends. She teaches me English and I teach her Chinese.\n\nI learn one thing from Lisa: a friend is someone who shares your cookies and sees the smile on your face.",
+   "options": [
+    {
+     "key": "A",
+     "text": "开心地",
+     "is_correct": false,
+     "trap_type": "词义猜测",
+     "option_analysis": "不选「开心地」：与 quiet、did not talk much 的语境不符"
+    },
+    {
+     "key": "B",
+     "text": "独自地",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。她刚来、安静、不多说话，sat alone 意为独自坐着"
+    },
+    {
+     "key": "C",
+     "text": "大声地",
+     "is_correct": false,
+     "trap_type": "词义猜测",
+     "option_analysis": "不选「大声地」：与 quiet 矛盾"
+    },
+    {
+     "key": "D",
+     "text": "匆忙地",
+     "is_correct": false,
+     "trap_type": "词义猜测",
+     "option_analysis": "不选「匆忙地」：与语境无关"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：B. 独自地\n解析：由 she was very quiet 和 did not talk much 可推断 alone 是「独自」。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "记叙文 · 校园与友谊（七年级）",
+    "第2题",
+    "词义猜测"
+   ],
+   "difficulty": 4,
+   "question_fingerprint": "RD005_2",
+   "reading_group": "RD005",
+   "reading_title": "My New Friend Lisa",
+   "reading_no": 2,
+   "reading_total": 5,
+   "reading_type": "词义猜测",
+   "raw": ""
+  },
+  {
+   "id": "RD005_3",
+   "source": "原创阅读 · My New Friend Lisa（记叙文 · 校园与友谊（七年级）） · 第3/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "七",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "细节理解",
+   "mode": "single",
+   "stem": "第 3 题（细节理解）：What did the writer give Lisa first?",
+   "passage": "Lisa is my new classmate. She came to our school last month from Canada. At first, she was very quiet. She sat alone and did not talk much. I wanted to help her feel at home.\n\nOne day, I brought some Chinese cookies to school and gave her one. She smiled and said \"thank you\" in Chinese. Then she told me she loved our school lunch, especially the dumplings. We started to eat together every day.\n\nLisa is good at drawing. She drew a small picture of our classroom and gave it to me. In the picture, everyone is smiling. I was surprised because I never thought she watched us so carefully. Now we are best friends. She teaches me English and I teach her Chinese.\n\nI learn one thing from Lisa: a friend is someone who shares your cookies and sees the smile on your face.",
+   "options": [
+    {
+     "key": "A",
+     "text": "A picture",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「A picture」：picture 是 Lisa 后来送给作者的"
+    },
+    {
+     "key": "B",
+     "text": "Some Chinese cookies",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。第二段 brought some Chinese cookies and gave her one"
+    },
+    {
+     "key": "C",
+     "text": "A dumpling",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「A dumpling」：dumplings 是学校午餐，不是作者给的"
+    },
+    {
+     "key": "D",
+     "text": "An English book",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「An English book」：文中未提"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：B. Some Chinese cookies\n解析：第二段首句：I brought some Chinese cookies to school and gave her one。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "记叙文 · 校园与友谊（七年级）",
+    "第3题",
+    "细节理解"
+   ],
+   "difficulty": 3,
+   "question_fingerprint": "RD005_3",
+   "reading_group": "RD005",
+   "reading_title": "My New Friend Lisa",
+   "reading_no": 3,
+   "reading_total": 5,
+   "reading_type": "细节理解",
+   "raw": ""
+  },
+  {
+   "id": "RD005_4",
+   "source": "原创阅读 · My New Friend Lisa（记叙文 · 校园与友谊（七年级）） · 第4/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "七",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "推理判断",
+   "mode": "single",
+   "stem": "第 4 题（推理判断）：Why was the writer surprised?",
+   "passage": "Lisa is my new classmate. She came to our school last month from Canada. At first, she was very quiet. She sat alone and did not talk much. I wanted to help her feel at home.\n\nOne day, I brought some Chinese cookies to school and gave her one. She smiled and said \"thank you\" in Chinese. Then she told me she loved our school lunch, especially the dumplings. We started to eat together every day.\n\nLisa is good at drawing. She drew a small picture of our classroom and gave it to me. In the picture, everyone is smiling. I was surprised because I never thought she watched us so carefully. Now we are best friends. She teaches me English and I teach her Chinese.\n\nI learn one thing from Lisa: a friend is someone who shares your cookies and sees the smile on your face.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Because Lisa drew very fast",
+     "is_correct": false,
+     "trap_type": "推理判断",
+     "option_analysis": "不选「Because Lisa drew very fast」：文中没说画得快"
+    },
+    {
+     "key": "B",
+     "text": "Because Lisa was good at drawing",
+     "is_correct": false,
+     "trap_type": "推理判断",
+     "option_analysis": "不选「Because Lisa was good at drawing」：这是事实，但不是作者惊讶的原因"
+    },
+    {
+     "key": "C",
+     "text": "Because Lisa watched the class carefully and drew everyone smiling",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。作者没想到她把大家观察得这么仔细、画里人人都在笑"
+    },
+    {
+     "key": "D",
+     "text": "Because Lisa left the school",
+     "is_correct": false,
+     "trap_type": "推理判断",
+     "option_analysis": "不选「Because Lisa left the school」：与文中不符"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：C. Because Lisa watched the class carefully and drew everyone smiling\n解析：第三段：I was surprised because I never thought she watched us so carefully。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "记叙文 · 校园与友谊（七年级）",
+    "第4题",
+    "推理判断"
+   ],
+   "difficulty": 4,
+   "question_fingerprint": "RD005_4",
+   "reading_group": "RD005",
+   "reading_title": "My New Friend Lisa",
+   "reading_no": 4,
+   "reading_total": 5,
+   "reading_type": "推理判断",
+   "raw": ""
+  },
+  {
+   "id": "RD005_5",
+   "source": "原创阅读 · My New Friend Lisa（记叙文 · 校园与友谊（七年级）） · 第5/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "七",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "主旨大意",
+   "mode": "single",
+   "stem": "第 5 题（主旨大意）：What is the passage mainly about?",
+   "passage": "Lisa is my new classmate. She came to our school last month from Canada. At first, she was very quiet. She sat alone and did not talk much. I wanted to help her feel at home.\n\nOne day, I brought some Chinese cookies to school and gave her one. She smiled and said \"thank you\" in Chinese. Then she told me she loved our school lunch, especially the dumplings. We started to eat together every day.\n\nLisa is good at drawing. She drew a small picture of our classroom and gave it to me. In the picture, everyone is smiling. I was surprised because I never thought she watched us so carefully. Now we are best friends. She teaches me English and I teach her Chinese.\n\nI learn one thing from Lisa: a friend is someone who shares your cookies and sees the smile on your face.",
+   "options": [
+    {
+     "key": "A",
+     "text": "How to draw nice pictures",
+     "is_correct": false,
+     "trap_type": "主旨大意",
+     "option_analysis": "不选「How to draw nice pictures」：画画只是其中一个细节"
+    },
+    {
+     "key": "B",
+     "text": "How the writer made a new friend",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。全文讲作者和 Lisa 从陌生到成为好朋友的过程"
+    },
+    {
+     "key": "C",
+     "text": "Chinese food at school",
+     "is_correct": false,
+     "trap_type": "主旨大意",
+     "option_analysis": "不选「Chinese food at school」：食物是友谊的线索，不是全文主旨"
+    },
+    {
+     "key": "D",
+     "text": "A hard school day",
+     "is_correct": false,
+     "trap_type": "主旨大意",
+     "option_analysis": "不选「A hard school day」：与文章温暖基调不符"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：B. How the writer made a new friend\n解析：文章围绕作者如何与 Lisa 成为朋友展开，B 最贴切。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "记叙文 · 校园与友谊（七年级）",
+    "第5题",
+    "主旨大意"
+   ],
+   "difficulty": 4,
+   "question_fingerprint": "RD005_5",
+   "reading_group": "RD005",
+   "reading_title": "My New Friend Lisa",
+   "reading_no": 5,
+   "reading_total": 5,
+   "reading_type": "主旨大意",
+   "raw": ""
+  },
+  {
+   "id": "RD006_1",
+   "source": "原创阅读 · The Clever Crow（记叙文 · 动物故事（七年级）） · 第1/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "七",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "细节理解",
+   "mode": "single",
+   "stem": "第 1 题（细节理解）：What did the crow want to find?",
+   "passage": "It was a hot summer day. A crow was very thirsty. He flew everywhere to find water, but he could not find any. At last, he saw a bottle under a tree. There was a little water in it.\n\nThe crow was happy, but then he had a problem. The bottle was tall and his beak could not reach the water. He thought and thought. He saw some small stones on the ground.\n\nSuddenly, he had an idea. He picked up the stones one by one and put them into the bottle. Slowly, the water came up. At last, the crow could reach the water and drank it.\n\nThis story tells us that we should never give up. When we have a problem, we should think carefully and try different ways. Even a small, clever step can help us win.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Food",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「Food」：文中说的是 thirsty 想找水"
+    },
+    {
+     "key": "B",
+     "text": "Water",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。首段 He flew everywhere to find water"
+    },
+    {
+     "key": "C",
+     "text": "A friend",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「A friend」：文中未提"
+    },
+    {
+     "key": "D",
+     "text": "A tree",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「A tree」：树只是瓶子所在的地方"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：B. Water\n解析：定位第一段：A crow was very thirsty... to find water。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "记叙文 · 动物故事（七年级）",
+    "第1题",
+    "细节理解"
+   ],
+   "difficulty": 3,
+   "question_fingerprint": "RD006_1",
+   "reading_group": "RD006",
+   "reading_title": "The Clever Crow",
+   "reading_no": 1,
+   "reading_total": 5,
+   "reading_type": "细节理解",
+   "raw": ""
+  },
+  {
+   "id": "RD006_2",
+   "source": "原创阅读 · The Clever Crow（记叙文 · 动物故事（七年级）） · 第2/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "七",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "细节理解",
+   "mode": "single",
+   "stem": "第 2 题（细节理解）：Why could the crow not drink the water at first?",
+   "passage": "It was a hot summer day. A crow was very thirsty. He flew everywhere to find water, but he could not find any. At last, he saw a bottle under a tree. There was a little water in it.\n\nThe crow was happy, but then he had a problem. The bottle was tall and his beak could not reach the water. He thought and thought. He saw some small stones on the ground.\n\nSuddenly, he had an idea. He picked up the stones one by one and put them into the bottle. Slowly, the water came up. At last, the crow could reach the water and drank it.\n\nThis story tells us that we should never give up. When we have a problem, we should think carefully and try different ways. Even a small, clever step can help us win.",
+   "options": [
+    {
+     "key": "A",
+     "text": "The water was dirty",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「The water was dirty」：文中没说水脏"
+    },
+    {
+     "key": "B",
+     "text": "The bottle was tall and his beak could not reach it",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。第二段明确说明瓶子高、喙够不到"
+    },
+    {
+     "key": "C",
+     "text": "There was no water in the bottle",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「There was no water in the bottle」：瓶里其实有一点水"
+    },
+    {
+     "key": "D",
+     "text": "The crow was not thirsty",
+     "is_correct": false,
+     "trap_type": "细节理解",
+     "option_analysis": "不选「The crow was not thirsty」：与首段 thirsty 矛盾"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：B. The bottle was tall and his beak could not reach it\n解析：第二段：The bottle was tall and his beak could not reach the water。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "记叙文 · 动物故事（七年级）",
+    "第2题",
+    "细节理解"
+   ],
+   "difficulty": 3,
+   "question_fingerprint": "RD006_2",
+   "reading_group": "RD006",
+   "reading_title": "The Clever Crow",
+   "reading_no": 2,
+   "reading_total": 5,
+   "reading_type": "细节理解",
+   "raw": ""
+  },
+  {
+   "id": "RD006_3",
+   "source": "原创阅读 · The Clever Crow（记叙文 · 动物故事（七年级）） · 第3/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "七",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "推理判断",
+   "mode": "single",
+   "stem": "第 3 题（推理判断）：How did the stones help the crow?",
+   "passage": "It was a hot summer day. A crow was very thirsty. He flew everywhere to find water, but he could not find any. At last, he saw a bottle under a tree. There was a little water in it.\n\nThe crow was happy, but then he had a problem. The bottle was tall and his beak could not reach the water. He thought and thought. He saw some small stones on the ground.\n\nSuddenly, he had an idea. He picked up the stones one by one and put them into the bottle. Slowly, the water came up. At last, the crow could reach the water and drank it.\n\nThis story tells us that we should never give up. When we have a problem, we should think carefully and try different ways. Even a small, clever step can help us win.",
+   "options": [
+    {
+     "key": "A",
+     "text": "They made the water come up",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。石头放进瓶里，水位上升，乌鸦才够得到"
+    },
+    {
+     "key": "B",
+     "text": "They made the water clean",
+     "is_correct": false,
+     "trap_type": "推理判断",
+     "option_analysis": "不选「They made the water clean」：文中没说净化水"
+    },
+    {
+     "key": "C",
+     "text": "They broke the bottle",
+     "is_correct": false,
+     "trap_type": "推理判断",
+     "option_analysis": "不选「They broke the bottle」：与原文不符"
+    },
+    {
+     "key": "D",
+     "text": "They gave the crow food",
+     "is_correct": false,
+     "trap_type": "推理判断",
+     "option_analysis": "不选「They gave the crow food」：无关"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：A. They made the water come up\n解析：第三段：He put stones into the bottle... the water came up。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "记叙文 · 动物故事（七年级）",
+    "第3题",
+    "推理判断"
+   ],
+   "difficulty": 4,
+   "question_fingerprint": "RD006_3",
+   "reading_group": "RD006",
+   "reading_title": "The Clever Crow",
+   "reading_no": 3,
+   "reading_total": 5,
+   "reading_type": "推理判断",
+   "raw": ""
+  },
+  {
+   "id": "RD006_4",
+   "source": "原创阅读 · The Clever Crow（记叙文 · 动物故事（七年级）） · 第4/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "七",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "词义猜测",
+   "mode": "single",
+   "stem": "第 4 题（词义猜测）：The phrase \"give up\" in the last paragraph means \"___\".",
+   "passage": "It was a hot summer day. A crow was very thirsty. He flew everywhere to find water, but he could not find any. At last, he saw a bottle under a tree. There was a little water in it.\n\nThe crow was happy, but then he had a problem. The bottle was tall and his beak could not reach the water. He thought and thought. He saw some small stones on the ground.\n\nSuddenly, he had an idea. He picked up the stones one by one and put them into the bottle. Slowly, the water came up. At last, the crow could reach the water and drank it.\n\nThis story tells us that we should never give up. When we have a problem, we should think carefully and try different ways. Even a small, clever step can help us win.",
+   "options": [
+    {
+     "key": "A",
+     "text": "尝试",
+     "is_correct": false,
+     "trap_type": "词义猜测",
+     "option_analysis": "不选「尝试」：与 never 搭配和全文主旨不符"
+    },
+    {
+     "key": "B",
+     "text": "放弃",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。never give up 是「永不放弃」，符合故事寓意"
+    },
+    {
+     "key": "C",
+     "text": "成功",
+     "is_correct": false,
+     "trap_type": "词义猜测",
+     "option_analysis": "不选「成功」：语义不通"
+    },
+    {
+     "key": "D",
+     "text": "休息",
+     "is_correct": false,
+     "trap_type": "词义猜测",
+     "option_analysis": "不选「休息」：与语境无关"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：B. 放弃\n解析：由结尾寓意「遇到问题要多想办法」可知 give up 是「放弃」。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "记叙文 · 动物故事（七年级）",
+    "第4题",
+    "词义猜测"
+   ],
+   "difficulty": 4,
+   "question_fingerprint": "RD006_4",
+   "reading_group": "RD006",
+   "reading_title": "The Clever Crow",
+   "reading_no": 4,
+   "reading_total": 5,
+   "reading_type": "词义猜测",
+   "raw": ""
+  },
+  {
+   "id": "RD006_5",
+   "source": "原创阅读 · The Clever Crow（记叙文 · 动物故事（七年级）） · 第5/5题",
+   "subject": "english",
+   "stage": "初中",
+   "grade": "七",
+   "genre": "阅读理解",
+   "content_scope": null,
+   "memory_type": null,
+   "grammar_group": "阅读理解",
+   "grammar_point": "主旨大意",
+   "mode": "single",
+   "stem": "第 5 题（主旨大意）：What does the story want to tell us?",
+   "passage": "It was a hot summer day. A crow was very thirsty. He flew everywhere to find water, but he could not find any. At last, he saw a bottle under a tree. There was a little water in it.\n\nThe crow was happy, but then he had a problem. The bottle was tall and his beak could not reach the water. He thought and thought. He saw some small stones on the ground.\n\nSuddenly, he had an idea. He picked up the stones one by one and put them into the bottle. Slowly, the water came up. At last, the crow could reach the water and drank it.\n\nThis story tells us that we should never give up. When we have a problem, we should think carefully and try different ways. Even a small, clever step can help us win.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Crows like drinking water",
+     "is_correct": false,
+     "trap_type": "主旨大意",
+     "option_analysis": "不选「Crows like drinking water」：只是故事表层"
+    },
+    {
+     "key": "B",
+     "text": "Never give up and think of clever ways",
+     "is_correct": true,
+     "trap_type": null,
+     "option_analysis": "正确。末段明确点出寓意"
+    },
+    {
+     "key": "C",
+     "text": "Stones are useful",
+     "is_correct": false,
+     "trap_type": "主旨大意",
+     "option_analysis": "不选「Stones are useful」：石头是方法，不是道理"
+    },
+    {
+     "key": "D",
+     "text": "Summer is hot",
+     "is_correct": false,
+     "trap_type": "主旨大意",
+     "option_analysis": "不选「Summer is hot」：天气只是背景"
+    }
+   ],
+   "points": [],
+   "formula_ref": "阅读理解 = 先看题干定位 → 回原文找依据 → 细节比对 / 逻辑推理 / 概括主旨",
+   "total_score": 2,
+   "reference_answer": "标答：B. Never give up and think of clever ways\n解析：末段：we should never give up... think carefully and try different ways。",
+   "time_anchor": null,
+   "tags": [
+    "阅读理解",
+    "原创",
+    "记叙文 · 动物故事（七年级）",
+    "第5题",
+    "主旨大意"
+   ],
+   "difficulty": 4,
+   "question_fingerprint": "RD006_5",
+   "reading_group": "RD006",
+   "reading_title": "The Clever Crow",
+   "reading_no": 5,
+   "reading_total": 5,
+   "reading_type": "主旨大意",
+   "raw": ""
+  }
+ ]
+}
