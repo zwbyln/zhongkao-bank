@@ -1,13 +1,13 @@
 {
   "format": "zx-trainer-bank-v1",
   "source": "题庄真题库（tizhuang.qcscience.cc）",
-  "generatedAt": "2026-11-20T02:16:56.544189+00:00",
+  "generatedAt": "2026-11-22T01:13:45.197013+00:00",
   "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。英语题的 grammar_group / grammar_point 由关键词推断（结构类优先于时态类），口语交际与语法填空等主观题不在采集范围内。",
   "stats": {
-    "usable": 51,
-    "skipped": 0,
-    "thisRun": 35,
-    "added": 15
+    "usable": 62,
+    "skipped": 8,
+    "thisRun": 27,
+    "added": 11
   },
   "items": [
     {
@@ -3935,6 +3935,853 @@
         "is_auto_gradable": true,
         "knowledges": "固定搭配<br/>",
         "year": 2023
+      }
+    },
+    {
+      "id": "TZ14920357",
+      "source": "题庄真题 · 2015春•相城区期末",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "-How does Jack usually go to work？\n-He drive a car，but now he there to lose weight．（ ）",
+      "passage": "【题干原文】\n-How does Jack usually go to work？\n-He drive a car，but now he there to lose weight．（ ）\n\n【考点】语态的辨析\n【出处】2015春•相城区期末 · 2015 · 题庄题号 14920357",
+      "options": [
+        {
+          "key": "A",
+          "text": "used to；is used to walk",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "was used to；is used to waIking",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "was used to；is used to walk",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "used to；is used to walking",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--Jack通常怎样去上班？\n--他过去常常开车去，但现在为了减肥习惯于步行去上班．"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】--Jack通常怎样去上班？\n--他过去常常开车去，但现在为了减肥习惯于步行去上班．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "4f636fc74a31c701db40ebdde653505c",
+      "raw": {
+        "id": 14920357,
+        "title_html": "-How does Jack usually go to work？<br>-He<bdo class=\"mathjye-underline\">       </bdo>drive a car，but now he<bdo class=\"mathjye-underline\">       </bdo>there to lose weight．（　　）",
+        "options_html": {
+          "A": "used to；is used to walk",
+          "B": "was used to；is used to waIking",
+          "C": "was used to；is used to walk",
+          "D": "used to；is used to walking"
+        },
+        "answer": "D",
+        "answer_html": "【解答】答案：D．<br>used to do sth过去常常做某事，后跟动词原形，be used to doing习惯于做某事，后跟动名词形式，根据He__drive a car，but now he__there to lose weight，可知这里的意思是过去常常开车去，但现在为了减肥习惯于步行去上班．故选D．",
+        "analysis_html": "【分析】--Jack通常怎样去上班？<br>--他过去常常开车去，但现在为了减肥习惯于步行去上班．",
+        "content_hash": "4f636fc74a31c701db40ebdde653505c",
+        "source": "2015春•相城区期末",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "语态的辨析",
+        "year": 2015
+      }
+    },
+    {
+      "id": "TZ14920399",
+      "source": "题庄真题 · 2015秋•河口区期中",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "形容词与副词",
+      "mode": "single",
+      "stem": "Our school is only a ________walk from here．（ ）",
+      "passage": "【题干原文】\nOur school is only a ________walk from here．（ ）\n\n【考点】复合形容词\n【出处】2015秋•河口区期中 · 2015 · 题庄题号 14920399",
+      "options": [
+        {
+          "key": "A",
+          "text": "five-minute",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】我们学校从这里只有五分钟的路程．"
+        },
+        {
+          "key": "B",
+          "text": "five minute's",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "five minutes",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "five-minutes",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "形容词与副词",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】我们学校从这里只有五分钟的路程．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "3be0e8dffcfb91730e6cfcb19b3b0920",
+      "raw": {
+        "id": 14920399,
+        "title_html": "Our school is only a ________walk from here．（　　）",
+        "options_html": {
+          "A": "five-minute",
+          "B": "five minute&#x27;s",
+          "C": "five minutes",
+          "D": "five-minutes"
+        },
+        "answer": "A",
+        "answer_html": "【解答】答案：A．根据题干，本句的意思是我们学校从这里只有五分钟的路程．根据名词walk可知，本空放在其前作定语，应用复合形容词；又根据复合形容词的结构是：数字-名词（单数）-＜形容词＞．在这种结构中应注意两点：一是用连字符，二是名词必须用单数．故选A．",
+        "analysis_html": "【分析】我们学校从这里只有五分钟的路程．",
+        "content_hash": "3be0e8dffcfb91730e6cfcb19b3b0920",
+        "source": "2015秋•河口区期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "复合形容词",
+        "year": 2015
+      }
+    },
+    {
+      "id": "TZ14920406",
+      "source": "题庄真题 · 2014春•白银区期中",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "He won't go to bed until he his work．（ ）",
+      "passage": "【题干原文】\nHe won't go to bed until he his work．（ ）\n\n【考点】时态辨析\n【出处】2014春•白银区期中 · 2014 · 题庄题号 14920406",
+      "options": [
+        {
+          "key": "A",
+          "text": "ﬁnish",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "will finish",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "finishes",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】直到他完成工作他才会去睡觉．"
+        },
+        {
+          "key": "D",
+          "text": "ﬁnishing",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】直到他完成工作他才会去睡觉．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "003a8ff423e4c01af2285d648be4bd8e",
+      "raw": {
+        "id": 14920406,
+        "title_html": "He won&#x27;t go to bed until he <bdo class=\"mathjye-underline\">           </bdo>his work．（　　）",
+        "options_html": {
+          "A": "ﬁnish",
+          "B": "will finish",
+          "C": "finishes",
+          "D": "ﬁnishing"
+        },
+        "answer": "C",
+        "answer_html": "【解答】答案：C 本题考查时态辨析．根据题干，until引导的从句，时态是主将从现原则，从句主语是he，后面动词要用第三人称单数形式故选择C．",
+        "analysis_html": "【分析】直到他完成工作他才会去睡觉．",
+        "content_hash": "003a8ff423e4c01af2285d648be4bd8e",
+        "source": "2014春•白银区期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "时态辨析",
+        "year": 2014
+      }
+    },
+    {
+      "id": "TZ14920410",
+      "source": "题庄真题 · 2015秋•包河区期中",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "-Do you know if it _____ on Sunday？\n-I don't care．If it _____，I will stay at home watching TV．（ ）",
+      "passage": "【题干原文】\n-Do you know if it _____ on Sunday？\n-I don't care．If it _____，I will stay at home watching TV．（ ）\n\n【考点】时态辨析\n【出处】2015秋•包河区期中 · 2015 · 题庄题号 14920410",
+      "options": [
+        {
+          "key": "A",
+          "text": "rains，rains",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "will rain，will rain",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "rains，will rain",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "will rain，rains",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--你知道周日是否下雨吗？\n--我不关心．如果下雨，我在家看电视．"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】--你知道周日是否下雨吗？\n--我不关心．如果下雨，我在家看电视．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "7343b2192746d8c2b67da747e227ac8a",
+      "raw": {
+        "id": 14920410,
+        "title_html": "-Do you know if it _____ on Sunday？<br>-I don&#x27;t care．If it _____，I will stay at home watching TV．（　　）",
+        "options_html": {
+          "A": "rains，rains",
+          "B": "will rain，will rain",
+          "C": "rains，will rain",
+          "D": "will rain，rains"
+        },
+        "answer": "D",
+        "answer_html": "【解答】答案：D本题考查时态辨析．根据句意第一个空还没有发生，要用一般将来时，构成是will do，先排除A、C．第二个空if引导的条件状语从句，时态是主将从现原则，故从句用一般现在时，主语是it，后面动词rain要用第三人称单数形式rains．故选择D．",
+        "analysis_html": "【分析】--你知道周日是否下雨吗？<br>--我不关心．如果下雨，我在家看电视．",
+        "content_hash": "7343b2192746d8c2b67da747e227ac8a",
+        "source": "2015秋•包河区期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "时态辨析",
+        "year": 2015
+      }
+    },
+    {
+      "id": "TZ14920428",
+      "source": "题庄真题 · 2016春•苏州期中",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "形容词与副词",
+      "mode": "single",
+      "stem": "-Is your pencil case mine？--Yes，it is．（ ）",
+      "passage": "【题干原文】\n-Is your pencil case mine？--Yes，it is．（ ）\n\n【考点】形容词的原级比较\n【出处】2016春•苏州期中 · 2016 · 题庄题号 14920428",
+      "options": [
+        {
+          "key": "A",
+          "text": "the same big as",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "as bigger as",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "the same size as",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--你的铅笔盒和我的一样吗？\n--是的，它是．"
+        },
+        {
+          "key": "D",
+          "text": "as same size as",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "形容词与副词",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】--你的铅笔盒和我的一样吗？\n--是的，它是．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "dad14d55115e3baff124213a950d817a",
+      "raw": {
+        "id": 14920428,
+        "title_html": "-Is your pencil case <bdo class=\"mathjye-underline\">     </bdo>mine？--Yes，it is．（　　）",
+        "options_html": {
+          "A": "the same big as",
+          "B": "as bigger as",
+          "C": "the same size as",
+          "D": "as same size as"
+        },
+        "answer": "C",
+        "answer_html": "【解答】答案：C 考查形容词的原级比较．根据题干：as…as中要用形容词或副词比较级，故先排除B，the same+名词+as+名词，和…一样，中间要用名店，big是形容词，故选择C．",
+        "analysis_html": "【分析】--你的铅笔盒和我的一样吗？<br>--是的，它是．",
+        "content_hash": "dad14d55115e3baff124213a950d817a",
+        "source": "2016春•苏州期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "形容词的原级比较",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ14920568",
+      "source": "题庄真题 · 2015秋•盐城校级期末",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "Neil Armstrong _________ the Medal of Freedom because of his excellent service．（ ）",
+      "passage": "【题干原文】\nNeil Armstrong _________ the Medal of Freedom because of his excellent service．（ ）\n\n【考点】语态的辨析\n【出处】2015秋•盐城校级期末 · 2015 · 题庄题号 14920568",
+      "options": [
+        {
+          "key": "A",
+          "text": "presents",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "presented",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "was presented",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】尼尔•阿姆斯特朗被授予自由勋章因为他的优质服务．"
+        },
+        {
+          "key": "D",
+          "text": "were presented",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】尼尔•阿姆斯特朗被授予自由勋章因为他的优质服务．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "c87cc32a1c23bd798048e53726c137e4",
+      "raw": {
+        "id": 14920568,
+        "title_html": "Neil Armstrong _________ the Medal of Freedom because of his excellent service．（　　）",
+        "options_html": {
+          "A": "presents",
+          "B": "presented",
+          "C": "was presented",
+          "D": "were presented"
+        },
+        "answer": "C",
+        "answer_html": "【解答】答案：C．根据题干可知，主语Neil Armstrong是动作present的承受者，和动词构成被动的关系，应该用被动语态，表示&quot;被授予&quot;．被动语态的结构是&quot;be+过去分词&quot;；根据句意可知，应是被授予了，应该用一般过去时．一般过去时态的被动语态的构成：was/were+及物动词的过去分词；Neil Armstrong是第三人称单数，应用was．故选C．",
+        "analysis_html": "【分析】尼尔•阿姆斯特朗被授予自由勋章因为他的优质服务．",
+        "content_hash": "c87cc32a1c23bd798048e53726c137e4",
+        "source": "2015秋•盐城校级期末",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "语态的辨析",
+        "year": 2015
+      }
+    },
+    {
+      "id": "TZ14920593",
+      "source": "题庄真题 · 2013秋•海原县校级期末",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "-- are the blue hats on sale？--They are on sale for 100dollars．（ ）",
+      "passage": "【题干原文】\n-- are the blue hats on sale？--They are on sale for 100dollars．（ ）\n\n【考点】数量（how many/how much）\n【出处】2013秋•海原县校级期末 · 2013 · 题庄题号 14920593",
+      "options": [
+        {
+          "key": "A",
+          "text": "What",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "How long",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "How many",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "How much",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--减价出售的蓝色帽子多少钱？\n--它们只卖 100 美元．"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】--减价出售的蓝色帽子多少钱？\n--它们只卖 100 美元．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "9c82b44a9c3a4049ff4ebee73235589b",
+      "raw": {
+        "id": 14920593,
+        "title_html": "--<bdo class=\"mathjye-underline\">       </bdo>are the blue hats on sale？--They are on sale for 100dollars．（　　）",
+        "options_html": {
+          "A": "What",
+          "B": "How long",
+          "C": "How many",
+          "D": "How much"
+        },
+        "answer": "D",
+        "answer_html": "【解答】答案：D．考查疑问词．句意&quot;--减价出售的蓝色帽子多少钱？--它们只卖 100 美元．&quot;．what什么．how long多久，对一段时间或长度提问．how many多少，修饰可数名词复数．How much多少钱．结合语境&quot;100美元&quot;，可知对价钱提问用how much．答案是D．",
+        "analysis_html": "【分析】--减价出售的蓝色帽子多少钱？<br>--它们只卖 100 美元．",
+        "content_hash": "9c82b44a9c3a4049ff4ebee73235589b",
+        "source": "2013秋•海原县校级期末",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "数量（how many/how much）",
+        "year": 2013
+      }
+    },
+    {
+      "id": "TZ14920618",
+      "source": "题庄真题 · 2016春•重庆校级期中",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "情景交际",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "情景交际",
+      "grammar_point": "情景交际 · 邀请与建议",
+      "mode": "single",
+      "stem": "Must I wear uniforms every day？…_______（ ）",
+      "passage": "【题干原文】\nMust I wear uniforms every day？…_______（ ）\n\n【考点】常用日常交际用语\n【出处】2016春•重庆校级期中 · 2016 · 题庄题号 14920618",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes，I must",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "No，you mustn't",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "No，you needn't",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--我每天必须穿制服吗？\n--不，不需要．"
+        },
+        {
+          "key": "D",
+          "text": "No，you don't",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "情景交际 · 邀请与建议",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】--我每天必须穿制服吗？\n--不，不需要．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "c114856262b4b5f9cb795b5fa90fe50a",
+      "raw": {
+        "id": 14920618,
+        "title_html": "Must I wear uniforms every day？…_______（　　）",
+        "options_html": {
+          "A": "Yes，I must",
+          "B": "No，you mustn&#x27;t",
+          "C": "No，you needn&#x27;t",
+          "D": "No，you don&#x27;t"
+        },
+        "answer": "C",
+        "answer_html": "【解答】答案：C<br>&quot;Must I wear uniforms every day？&quot;的肯定回答为&quot;Yes，you must&quot;，否定回答为&quot;No，you don&#x27;t have to&quot;或&quot;No，you needn&#x27;t&quot;．结合选项可知，答案为C",
+        "analysis_html": "【分析】--我每天必须穿制服吗？<br>--不，不需要．",
+        "content_hash": "c114856262b4b5f9cb795b5fa90fe50a",
+        "source": "2016春•重庆校级期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "常用日常交际用语",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ14920656",
+      "source": "题庄真题 · 2015秋•阳山县期中",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "形容词与副词",
+      "mode": "single",
+      "stem": "-You look happy．Why？\n-Oh，I've got some very news（消息） for you．（ ）",
+      "passage": "【题干原文】\n-You look happy．Why？\n-Oh，I've got some very news（消息） for you．（ ）\n\n【考点】ing形容词和ed形容词\n【出处】2015秋•阳山县期中 · 2015 · 题庄题号 14920656",
+      "options": [
+        {
+          "key": "A",
+          "text": "exciting",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--你看上去很高兴．为什么？\n--Oh，我有一些令人兴奋的消息告诉你．"
+        },
+        {
+          "key": "B",
+          "text": "excited",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "excite",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "interest",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "形容词与副词",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】--你看上去很高兴．为什么？\n--Oh，我有一些令人兴奋的消息告诉你．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "6b00f849959246fd5480bbc0933eb535",
+      "raw": {
+        "id": 14920656,
+        "title_html": "-You look happy．Why？<br>-Oh，I&#x27;ve got some very<bdo class=\"mathjye-underline\">     </bdo>news（消息） for you．（　　）",
+        "options_html": {
+          "A": "exciting",
+          "B": "excited",
+          "C": "excite",
+          "D": "interest"
+        },
+        "answer": "A",
+        "answer_html": "【解答】答案：A．根据题干，本句的意思是我有一些令人兴奋的消息告诉你．根据本空放在名词news之前可知，本空需填形容词，故排除CD．英语动词变形容词有两种形式，一种是过去分词作形容词，一种是现在分词作形容词．一般来说，过去分词的形容词，多形容人或其他生物的情绪或感受，对于被修饰的对象来说，这种形容词体现了它的主观感受．如：I am interested in the book． 现在分词的形容词，多形容客观事物体现在外的性质，其修饰的对象多不具有生命．如：I always remember the interesting story my teacher had told． 关于此题，很显然，news是客观事物，描述客观事物的属性的，应用exciting；所以正确答案是A．",
+        "analysis_html": "【分析】--你看上去很高兴．为什么？<br>--Oh，我有一些令人兴奋的消息告诉你．",
+        "content_hash": "6b00f849959246fd5480bbc0933eb535",
+        "source": "2015秋•阳山县期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "ing形容词和ed形容词",
+        "year": 2015
+      }
+    },
+    {
+      "id": "TZ14920678",
+      "source": "题庄真题 · 2016春•洛阳校级期中",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "情景交际",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "情景交际",
+      "grammar_point": "情景交际 · 邀请与建议",
+      "mode": "single",
+      "stem": "Can you tell me how to get to the cinema？\n---_________．Let me draw a map for you．（ ）",
+      "passage": "【题干原文】\nCan you tell me how to get to the cinema？\n---_________．Let me draw a map for you．（ ）\n\n【考点】常用日常交际用语\n【出处】2016春•洛阳校级期中 · 2016 · 题庄题号 14920678",
+      "options": [
+        {
+          "key": "A",
+          "text": "No way．",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "Good luck．",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "No problem．",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--你能告诉我怎么去电影院吗？\n--没问题，我给你画张地图吧．"
+        },
+        {
+          "key": "D",
+          "text": "You do it yourself．",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "情景交际 · 邀请与建议",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】--你能告诉我怎么去电影院吗？\n--没问题，我给你画张地图吧．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "2ca7ce6837a33fd2e2336cba83c661c8",
+      "raw": {
+        "id": 14920678,
+        "title_html": "Can you tell me how to get to the cinema？<br>---_________．Let me draw a map for you．（　　）",
+        "options_html": {
+          "A": "No way．",
+          "B": "Good luck．",
+          "C": "No problem．",
+          "D": "You do it yourself．"
+        },
+        "answer": "C",
+        "answer_html": "【解答】答案：C．考查交际用语．句意&quot;--你能告诉我怎么去电影院吗？--没问题，我给你画张地图吧．&quot;．A不行．B好运．C没问题．D你自己做．根据语境&quot;我给你画张地图吧．&quot;，可知应该回答&quot;没问题&quot;，其它不符合．答案是C．",
+        "analysis_html": "【分析】--你能告诉我怎么去电影院吗？<br>--没问题，我给你画张地图吧．",
+        "content_hash": "2ca7ce6837a33fd2e2336cba83c661c8",
+        "source": "2016春•洛阳校级期中",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "常用日常交际用语",
+        "year": 2016
+      }
+    },
+    {
+      "id": "TZ14920681",
+      "source": "题庄真题 · 2015春•南沙区期末",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "The brown desk_____ of wood．It looks nice．（ ）",
+      "passage": "【题干原文】\nThe brown desk_____ of wood．It looks nice．（ ）\n\n【考点】语态的辨析\n【出处】2015春•南沙区期末 · 2015 · 题庄题号 14920681",
+      "options": [
+        {
+          "key": "A",
+          "text": "is making",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "is made",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】那棕色的桌子是用木头做的．看起来很好．"
+        },
+        {
+          "key": "C",
+          "text": "make",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "makes",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】那棕色的桌子是用木头做的．看起来很好．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "d1c12cb57de029f53f9fb7d52f87ee4c",
+      "raw": {
+        "id": 14920681,
+        "title_html": "The brown desk_____<bdo class=\"mathjye-underline\"> </bdo> of wood．It looks nice．（　　）",
+        "options_html": {
+          "A": "is making",
+          "B": "is made",
+          "C": "make",
+          "D": "makes"
+        },
+        "answer": "B",
+        "answer_html": "【解答】答案：B．<br>根据The brown desk_____<bdo class=\"mathjye-underline\"> </bdo> of wood．可知那棕色的桌子是用木头做的，desk是make这一动作的承受者，句子用被动语态形式，在这里叙述一件事实，所以用一般现在时，所以句子使用了一般现在时的被动语态，由be+动词的过去分词构成．desk是单数，所以用is．故选B．",
+        "analysis_html": "【分析】那棕色的桌子是用木头做的．看起来很好．",
+        "content_hash": "d1c12cb57de029f53f9fb7d52f87ee4c",
+        "source": "2015春•南沙区期末",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "语态的辨析",
+        "year": 2015
       }
     }
   ]

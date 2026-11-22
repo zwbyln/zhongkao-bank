@@ -1,13 +1,13 @@
 {
   "format": "zx-trainer-bank-v1",
   "source": "题庄真题库（tizhuang.qcscience.cc）",
-  "generatedAt": "2026-11-21T02:11:10.525407+00:00",
+  "generatedAt": "2026-11-22T01:13:40.135582+00:00",
   "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。英语题的 grammar_group / grammar_point 由关键词推断（结构类优先于时态类），口语交际与语法填空等主观题不在采集范围内。",
   "stats": {
-    "usable": 65,
-    "skipped": 18,
-    "thisRun": 17,
-    "added": 17
+    "usable": 80,
+    "skipped": 2,
+    "thisRun": 33,
+    "added": 15
   },
   "items": [
     {
@@ -4958,6 +4958,1161 @@
         "is_auto_gradable": true,
         "knowledges": "地点副词,动词短语",
         "year": 2011
+      }
+    },
+    {
+      "id": "TZ32672887",
+      "source": "题庄真题 · 广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "连词",
+      "mode": "single",
+      "stem": "（2021·达州）— Hurry up, dear! we won't catch up with the train.\n— Don't worry! Time is still enough we can make it.",
+      "passage": "【题干原文】\n（2021·达州）— Hurry up, dear! we won't catch up with the train.\n— Don't worry! Time is still enough we can make it.\n\n【考点】表并列关系的连词;表转折关系的连词;连词辨析<br/>\n【出处】广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题 · 2023 · 题庄题号 32672887",
+      "options": [
+        {
+          "key": "A",
+          "text": "And; or",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "Or; but",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "And; but",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "Or; and",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——快点，亲爱的！否则我们就赶不上火车了。——别担心！时间还是足够的，我们可以做到。and和；or否则；but但是。根据\"we won't catch up with the train\"可知快点是赶上火车的条件，用or表示否定的条件；第二空前后句意是顺承关系，用and连接。故选D。\n\n【点评】考查连词辨析，注意连词or和and的用法。\n11．（2023八下·仁化月考）"
+        }
+      ],
+      "points": [],
+      "formula_ref": "连词",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】句意：——快点，亲爱的！否则我们就赶不上火车了。——别担心！时间还是足够的，我们可以做到。and和；or否则；but但是。根据\"we won't catch up with the train\"可知快点是赶上火车的条件，用or表示否定的条件；第二空前后句意是顺承关系，用and连接。故选D。\n\n【点评】考查连词辨析，注意连词or和and的用法。\n11．（2023八下·仁化月考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "28e7e3bdc1ee54334598ca30736ee895",
+      "raw": {
+        "id": 32672887,
+        "title_html": "（2021·达州）— Hurry up, dear! <u>      </u> we won&#x27;t catch up with the train.  <br>— Don&#x27;t worry! Time is still enough <u>      </u> we can make it.<br>",
+        "options_html": {
+          "A": "And; or  ",
+          "B": "Or; but  ",
+          "C": "And; but  ",
+          "D": "Or; and"
+        },
+        "answer": "D",
+        "answer_html": "D<br>",
+        "analysis_html": "【分析】句意：——快点，亲爱的！否则我们就赶不上火车了。——别担心！时间还是足够的，我们可以做到。and和；or否则；but但是。根据&quot;we won&#x27;t catch up with the train&quot;可知快点是赶上火车的条件，用or表示否定的条件；第二空前后句意是顺承关系，用and连接。故选D。<br>\n【点评】考查连词辨析，注意连词or和and的用法。<br>11．（2023八下·仁化月考）",
+        "content_hash": "28e7e3bdc1ee54334598ca30736ee895",
+        "source": "广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "表并列关系的连词;表转折关系的连词;连词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32672888",
+      "source": "题庄真题 · 广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "连词",
+      "mode": "single",
+      "stem": "（2023八下·仁化月考） Tom is always full of hope ____he met many difficulties in his life.",
+      "passage": "【题干原文】\n（2023八下·仁化月考） Tom is always full of hope ____he met many difficulties in his life.\n\n【考点】连词辨析<br/>\n【出处】广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题 · 2023 · 题庄题号 32672888",
+      "options": [
+        {
+          "key": "A",
+          "text": "unless",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "though",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：尽管汤姆在生活中遇到了许多困难，但他始终充满希望。A：unless除非；B：though虽然；C：until直到；D：because因为。根据句子he met many difficulties in his life. 他在生活中遇到了许多困难。可知此处是指虽然遇到很多困难，但是没有放弃，前后为转折关系，应用though，故选B。\n\n【点评】考查连词辨析，注意识记though的用法。\n12．（2023八下·仁化月考）"
+        },
+        {
+          "key": "C",
+          "text": "until",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "because",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "连词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：尽管汤姆在生活中遇到了许多困难，但他始终充满希望。A：unless除非；B：though虽然；C：until直到；D：because因为。根据句子he met many difficulties in his life. 他在生活中遇到了许多困难。可知此处是指虽然遇到很多困难，但是没有放弃，前后为转折关系，应用though，故选B。\n\n【点评】考查连词辨析，注意识记though的用法。\n12．（2023八下·仁化月考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "942b822cf23066b6e9daf20a350f8185",
+      "raw": {
+        "id": 32672888,
+        "title_html": "（2023八下·仁化月考） Tom is always full of hope ____he met many difficulties in his life. <br>",
+        "options_html": {
+          "A": "unless  ",
+          "B": "though  ",
+          "C": "until  ",
+          "D": "because"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：尽管汤姆在生活中遇到了许多困难，但他始终充满希望。A：unless除非；B：though虽然；C：until直到；D：because因为。根据句子he met many difficulties in his life. 他在生活中遇到了许多困难。可知此处是指虽然遇到很多困难，但是没有放弃，前后为转折关系，应用though，故选B。<br>\n【点评】考查连词辨析，注意识记though的用法。<br>12．（2023八下·仁化月考）",
+        "content_hash": "942b822cf23066b6e9daf20a350f8185",
+        "source": "广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "连词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32672889",
+      "source": "题庄真题 · 广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "连词",
+      "mode": "single",
+      "stem": "（2023八下·仁化月考） I don't understand my teacher's great love ____ I become a teacher myself.",
+      "passage": "【题干原文】\n（2023八下·仁化月考） I don't understand my teacher's great love ____ I become a teacher myself.\n\n【考点】连词辨析<br/>\n【出处】广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题 · 2023 · 题庄题号 32672889",
+      "options": [
+        {
+          "key": "A",
+          "text": "if",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "until",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：直到我自己成为一名教师，我才明白老师的伟大爱。A：if如果；B：until直到；C：since自从；D：though虽然。根据句子I become a teacher myself. 我自己成为一名教师。可知此处是指直到我成为老师我才明白老师的爱，固定搭配not...until，直到......才，可知此处应用until，故选B。\n\n【点评】考查连词辨析，注意识记not...until的用法。\n13．（2023八下·仁化月考）"
+        },
+        {
+          "key": "C",
+          "text": "since",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "though",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "连词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：直到我自己成为一名教师，我才明白老师的伟大爱。A：if如果；B：until直到；C：since自从；D：though虽然。根据句子I become a teacher myself. 我自己成为一名教师。可知此处是指直到我成为老师我才明白老师的爱，固定搭配not...until，直到......才，可知此处应用until，故选B。\n\n【点评】考查连词辨析，注意识记not...until的用法。\n13．（2023八下·仁化月考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "8e2a0743663ba323b15b338cfce7b8bf",
+      "raw": {
+        "id": 32672889,
+        "title_html": "（2023八下·仁化月考） I don&#x27;t understand my teacher&#x27;s great love ____ I become a teacher myself. <br>",
+        "options_html": {
+          "A": "if  ",
+          "B": "until  ",
+          "C": "since  ",
+          "D": "though"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：直到我自己成为一名教师，我才明白老师的伟大爱。A：if如果；B：until直到；C：since自从；D：though虽然。根据句子I become a teacher myself. 我自己成为一名教师。可知此处是指直到我成为老师我才明白老师的爱，固定搭配not...until，直到......才，可知此处应用until，故选B。<br>\n【点评】考查连词辨析，注意识记not...until的用法。<br>13．（2023八下·仁化月考）",
+        "content_hash": "8e2a0743663ba323b15b338cfce7b8bf",
+        "source": "广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "连词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32672891",
+      "source": "题庄真题 · 广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "代词",
+      "mode": "single",
+      "stem": "（2023八下·仁化月考） I remember the day ____ we worked together and the day ____ we spent together.",
+      "passage": "【题干原文】\n（2023八下·仁化月考） I remember the day ____ we worked together and the day ____ we spent together.\n\n【考点】代词辨析<br/>\n【出处】广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题 · 2023 · 题庄题号 32672891",
+      "options": [
+        {
+          "key": "A",
+          "text": "when; which",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：我记得我们一起工作的日子，我们一起度过的日子。when在定语从句中作时间状语；which在定语从句作主语和宾语成分，指物；which在定语从句作主语和宾语成分，指物或人；what不引导定语从句。分析句子此处为定语从句，先行词为the day，表示时间，从句不缺成分，应用when作时间状语；分析句子此处为定语从句，先行词为the day，表示时间，从句缺少spent的宾语，应用which/that引导，故选A。\n\n【点评】考查关系代词，注意识记关系代词when和which的用法。\n15．The factory ______ we'll visit next week is not far from here.\nA．where B．to which C．which D．in which\n【答案】C\n【知识点】定语从句\n【解析】【分析】which是关系代词，在从句中作forget的宾语。其他几个答案都不能作宾语。\n【点评】考查定语从句。\n16．（2017七下·蒙阴期末）"
+        },
+        {
+          "key": "B",
+          "text": "which; when",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "what; that",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "on which; when",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "代词",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】句意：我记得我们一起工作的日子，我们一起度过的日子。when在定语从句中作时间状语；which在定语从句作主语和宾语成分，指物；which在定语从句作主语和宾语成分，指物或人；what不引导定语从句。分析句子此处为定语从句，先行词为the day，表示时间，从句不缺成分，应用when作时间状语；分析句子此处为定语从句，先行词为the day，表示时间，从句缺少spent的宾语，应用which/that引导，故选A。\n\n【点评】考查关系代词，注意识记关系代词when和which的用法。\n15．The factory ______ we'll visit next week is not far from here.\nA．where B．to which C．which D．in which\n【答案】C\n【知识点】定语从句\n【解析】【分析】which是关系代词，在从句中作forget的宾语。其他几个答案都不能作宾语。\n【点评】考查定语从句。\n16．（2017七下·蒙阴期末）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "e61197c0832271ce75b4b3720ea0f905",
+      "raw": {
+        "id": 32672891,
+        "title_html": "（2023八下·仁化月考） I remember the day ____ we worked together and the day ____ we spent together. <br>",
+        "options_html": {
+          "A": "when; which  ",
+          "B": "which; when",
+          "C": "what; that  ",
+          "D": "on which; when"
+        },
+        "answer": "A",
+        "answer_html": "A<br>",
+        "analysis_html": "【分析】句意：我记得我们一起工作的日子，我们一起度过的日子。when在定语从句中作时间状语；which在定语从句作主语和宾语成分，指物；which在定语从句作主语和宾语成分，指物或人；what不引导定语从句。分析句子此处为定语从句，先行词为the day，表示时间，从句不缺成分，应用when作时间状语；分析句子此处为定语从句，先行词为the day，表示时间，从句缺少spent的宾语，应用which/that引导，故选A。<br>\n【点评】考查关系代词，注意识记关系代词when和which的用法。<br>15．The factory ______ we&#x27;ll visit next week is not far from here.<br>A．where  B．to which  C．which  D．in which<br>【答案】C<br>【知识点】定语从句<br>【解析】【分析】which是关系代词，在从句中作forget的宾语。其他几个答案都不能作宾语。<br>【点评】考查定语从句。<br>16．（2017七下·蒙阴期末）",
+        "content_hash": "e61197c0832271ce75b4b3720ea0f905",
+        "source": "广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "代词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32672893",
+      "source": "题庄真题 · 广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "词汇辨析",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词汇辨析",
+      "grammar_point": "固定搭配",
+      "mode": "single",
+      "stem": "（2023八下·仁化月考） Suzhou is not ____ beautiful ____ Hangzhou.",
+      "passage": "【题干原文】\n（2023八下·仁化月考） Suzhou is not ____ beautiful ____ Hangzhou.\n\n【考点】固定搭配<br/>\n【出处】广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题 · 2023 · 题庄题号 32672893",
+      "options": [
+        {
+          "key": "A",
+          "text": "as; than",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "so; as",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：苏州不如杭州漂亮。A：as作为；than比；B：so...as不如；C：even甚至；than比；D：/；than比。not so...as，不如......，结合句意，此处是指苏州不如杭州漂亮，应用so，as，故选B。\n\n【点评】考查固定搭配，注意识记not so...as的用法。\n18．（2023八下·仁化月考）"
+        },
+        {
+          "key": "C",
+          "text": "even; than",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "/; than",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "固定搭配",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：苏州不如杭州漂亮。A：as作为；than比；B：so...as不如；C：even甚至；than比；D：/；than比。not so...as，不如......，结合句意，此处是指苏州不如杭州漂亮，应用so，as，故选B。\n\n【点评】考查固定搭配，注意识记not so...as的用法。\n18．（2023八下·仁化月考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "ae18721dc345e3a3382c22d9acc7f4dd",
+      "raw": {
+        "id": 32672893,
+        "title_html": "（2023八下·仁化月考） Suzhou is not ____ beautiful ____ Hangzhou. <br>",
+        "options_html": {
+          "A": "as; than  ",
+          "B": "so; as  ",
+          "C": "even; than  ",
+          "D": "/; than"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：苏州不如杭州漂亮。A：as作为；than比；B：so...as不如；C：even甚至；than比；D：/；than比。not so...as，不如......，结合句意，此处是指苏州不如杭州漂亮，应用so，as，故选B。<br>\n【点评】考查固定搭配，注意识记not so...as的用法。<br>18．（2023八下·仁化月考）",
+        "content_hash": "ae18721dc345e3a3382c22d9acc7f4dd",
+        "source": "广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "固定搭配<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32672895",
+      "source": "题庄真题 · 广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "连词",
+      "mode": "single",
+      "stem": "（2023八下·仁化月考） Could you tell me ____ we are going mountain hiking tomorrow or not?",
+      "passage": "【题干原文】\n（2023八下·仁化月考） Could you tell me ____ we are going mountain hiking tomorrow or not?\n\n【考点】连词辨析<br/>\n【出处】广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题 · 2023 · 题庄题号 32672895",
+      "options": [
+        {
+          "key": "A",
+          "text": "whether",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：你能告诉我明天我们是否去爬山吗？A：whether是否；B：if是否；C：when什么时候；D：where在哪里。分析句子此处为宾语从句，固定搭配whether...or not，是否，可知此处应用whether引导宾语从句，故选A。\n\n【点评】考查代词辨析，注意识记whether...or not的用法。\n20．— What are you looking for?\n— I'm looking for the book ____________ you lent me yesterday.\nA．what B．who C．when D．/\n【答案】D\n【知识点】关系代词\n【解析】【分析】句意：——你正在找什么？——我正在找你昨天借给我的书。这是一个定语从句，先行词是the book，指物，可以用关系代词that或者which；又因为这里的关系代词作了you lent me的间接宾语，因此关系代词可以省略，故选D。\n\n【点评】考查关系代词，注意定语从句中关系代词作了宾语，关系代词可以省略。\n21．（2023八下·仁化月考）"
+        },
+        {
+          "key": "B",
+          "text": "if",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "when",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "where",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "连词",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】句意：你能告诉我明天我们是否去爬山吗？A：whether是否；B：if是否；C：when什么时候；D：where在哪里。分析句子此处为宾语从句，固定搭配whether...or not，是否，可知此处应用whether引导宾语从句，故选A。\n\n【点评】考查代词辨析，注意识记whether...or not的用法。\n20．— What are you looking for?\n— I'm looking for the book ____________ you lent me yesterday.\nA．what B．who C．when D．/\n【答案】D\n【知识点】关系代词\n【解析】【分析】句意：——你正在找什么？——我正在找你昨天借给我的书。这是一个定语从句，先行词是the book，指物，可以用关系代词that或者which；又因为这里的关系代词作了you lent me的间接宾语，因此关系代词可以省略，故选D。\n\n【点评】考查关系代词，注意定语从句中关系代词作了宾语，关系代词可以省略。\n21．（2023八下·仁化月考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "6c6fcd05c4295529ffeedb765f7ced94",
+      "raw": {
+        "id": 32672895,
+        "title_html": "（2023八下·仁化月考） Could you tell me ____ we are going mountain hiking tomorrow or not?<br>",
+        "options_html": {
+          "A": "whether  ",
+          "B": "if  ",
+          "C": "when  ",
+          "D": "where"
+        },
+        "answer": "A",
+        "answer_html": "A<br>",
+        "analysis_html": "【分析】句意：你能告诉我明天我们是否去爬山吗？A：whether是否；B：if是否；C：when什么时候；D：where在哪里。分析句子此处为宾语从句，固定搭配whether...or not，是否，可知此处应用whether引导宾语从句，故选A。<br>\n【点评】考查代词辨析，注意识记whether...or not的用法。<br>20．— What are you looking for?  <br>— I&#x27;m looking for the book ____________ you lent me yesterday.<br>A．what  B．who  C．when  D．/<br>【答案】D<br>【知识点】关系代词<br>【解析】【分析】句意：——你正在找什么？——我正在找你昨天借给我的书。这是一个定语从句，先行词是the book，指物，可以用关系代词that或者which；又因为这里的关系代词作了you lent me的间接宾语，因此关系代词可以省略，故选D。\n<br>【点评】考查关系代词，注意定语从句中关系代词作了宾语，关系代词可以省略。<br>21．（2023八下·仁化月考）",
+        "content_hash": "6c6fcd05c4295529ffeedb765f7ced94",
+        "source": "广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "连词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32672896",
+      "source": "题庄真题 · 广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "连词",
+      "mode": "single",
+      "stem": "（2023八下·仁化月考） I'd like to have a try, ____ I may fail.",
+      "passage": "【题干原文】\n（2023八下·仁化月考） I'd like to have a try, ____ I may fail.\n\n【考点】连词辨析<br/>\n【出处】广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题 · 2023 · 题庄题号 32672896",
+      "options": [
+        {
+          "key": "A",
+          "text": "since",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "though",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：我想试一试，尽管我可能会失败。A：since自从；B：though虽然；C：until直到；D：after在......之后。​​​​​根据句子I may fail. 我可能会失败。可知此处是指尽管我可能失败，但是我也要试一试，前后为转折关系，应用though引导，故选B。\n\n【点评】考查连词辨析，注意识记though的用法。\n22．Laura opened the door and rushed into the rain ____I could stop her.\nA．until B．after C．before D．unless\n【答案】C\n【知识点】时间状语从句；代词辨析\n【解析】【分析】句意： 劳拉打开门，我还没来得及阻止，她就冲进雨里。A直到，B在......之后，C没来得及，D除非，根据 rushed into the rain和I could stop her，可知此处强调两个动作之快，几乎分不出先后，故引导时间状语从句，表示没来得及，故是before ，故选C。\n\n【点评】考查连词辨析，注意before的用法。\n23．（2023八下·仁化月考）"
+        },
+        {
+          "key": "C",
+          "text": "until",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "after",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "连词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：我想试一试，尽管我可能会失败。A：since自从；B：though虽然；C：until直到；D：after在......之后。​​​​​根据句子I may fail. 我可能会失败。可知此处是指尽管我可能失败，但是我也要试一试，前后为转折关系，应用though引导，故选B。\n\n【点评】考查连词辨析，注意识记though的用法。\n22．Laura opened the door and rushed into the rain ____I could stop her.\nA．until B．after C．before D．unless\n【答案】C\n【知识点】时间状语从句；代词辨析\n【解析】【分析】句意： 劳拉打开门，我还没来得及阻止，她就冲进雨里。A直到，B在......之后，C没来得及，D除非，根据 rushed into the rain和I could stop her，可知此处强调两个动作之快，几乎分不出先后，故引导时间状语从句，表示没来得及，故是before ，故选C。\n\n【点评】考查连词辨析，注意before的用法。\n23．（2023八下·仁化月考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "2235cc5327c901a2b18d7ea21e2389a9",
+      "raw": {
+        "id": 32672896,
+        "title_html": "（2023八下·仁化月考） I&#x27;d like to have a try, ____ I may fail. <br>",
+        "options_html": {
+          "A": "since  ",
+          "B": "though  ",
+          "C": "until  ",
+          "D": "after"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：我想试一试，尽管我可能会失败。A：since自从；B：though虽然；C：until直到；D：after在......之后。​​​​​根据句子I may fail. 我可能会失败。可知此处是指尽管我可能失败，但是我也要试一试，前后为转折关系，应用though引导，故选B。<br>\n【点评】考查连词辨析，注意识记though的用法。<br>22．Laura opened the door and rushed into the rain ____I could stop her.   <br>A．until  B．after  C．before  D．unless<br>【答案】C<br>【知识点】时间状语从句；代词辨析<br>【解析】【分析】句意： 劳拉打开门，我还没来得及阻止，她就冲进雨里。A直到，B在......之后，C没来得及，D除非，根据 rushed into the rain和I could stop her，可知此处强调两个动作之快，几乎分不出先后，故引导时间状语从句，表示没来得及，故是before ，故选C。\n<br>【点评】考查连词辨析，注意before的用法。<br>23．（2023八下·仁化月考）",
+        "content_hash": "2235cc5327c901a2b18d7ea21e2389a9",
+        "source": "广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "连词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32672897",
+      "source": "题庄真题 · 广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "代词",
+      "mode": "single",
+      "stem": "（2023八下·仁化月考） He didn't tell me the place ____ he was born.",
+      "passage": "【题干原文】\n（2023八下·仁化月考） He didn't tell me the place ____ he was born.\n\n【考点】代词辨析<br/>\n【出处】广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题 · 2023 · 题庄题号 32672897",
+      "options": [
+        {
+          "key": "A",
+          "text": "that",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "which",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "where",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：他没有告诉我他出生的地方。A：that在定语从句中作主语和宾语成分，指人或物；B：which在定语从句中作主语和宾语成分，指物；C：where在定语从句中作地点状语；D：when在定语从句中作时间状语。分析句子此处为定语从句，先行词为the place，表示地点，从句不缺成分，可知此处应用where作地点状语，故选C。\n\n【点评】考查代词辨析，注意识记where引导定语从句的用法。\n24．（2023八下·仁化月考）"
+        },
+        {
+          "key": "D",
+          "text": "when",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "代词",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】句意：他没有告诉我他出生的地方。A：that在定语从句中作主语和宾语成分，指人或物；B：which在定语从句中作主语和宾语成分，指物；C：where在定语从句中作地点状语；D：when在定语从句中作时间状语。分析句子此处为定语从句，先行词为the place，表示地点，从句不缺成分，可知此处应用where作地点状语，故选C。\n\n【点评】考查代词辨析，注意识记where引导定语从句的用法。\n24．（2023八下·仁化月考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "324bd440b3409df879fa79ac248847d1",
+      "raw": {
+        "id": 32672897,
+        "title_html": "（2023八下·仁化月考） He didn&#x27;t tell me the place ____ he was born. <br>",
+        "options_html": {
+          "A": "that  ",
+          "B": "which  ",
+          "C": "where  ",
+          "D": "when"
+        },
+        "answer": "C",
+        "answer_html": "C<br>",
+        "analysis_html": "【分析】句意：他没有告诉我他出生的地方。A：that在定语从句中作主语和宾语成分，指人或物；B：which在定语从句中作主语和宾语成分，指物；C：where在定语从句中作地点状语；D：when在定语从句中作时间状语。分析句子此处为定语从句，先行词为the place，表示地点，从句不缺成分，可知此处应用where作地点状语，故选C。<br>\n【点评】考查代词辨析，注意识记where引导定语从句的用法。<br>24．（2023八下·仁化月考）",
+        "content_hash": "324bd440b3409df879fa79ac248847d1",
+        "source": "广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "代词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32672898",
+      "source": "题庄真题 · 广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "动词时态",
+      "grammar_point": "过去进行时",
+      "mode": "single",
+      "stem": "（2023八下·仁化月考） I ____ my homework when Mike came last night.",
+      "passage": "【题干原文】\n（2023八下·仁化月考） I ____ my homework when Mike came last night.\n\n【考点】过去进行时<br/>\n【出处】广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题 · 2023 · 题庄题号 32672898",
+      "options": [
+        {
+          "key": "A",
+          "text": "do",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "was doing",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：迈克昨晚来的时候，我正在做作业。A：do做，动词原形；B：was doing正在做，过去进行时；C：am doing正在做，现在进行时；D：have done现在完成时。 根据句子when Mike came last night. 迈克昨晚来的时候。可知此处是指来的时候正在做作业，从句为一般过去时，可知时态为过去进行时，结构为was/were doing，主语为单数形式，可知此处应用was doing，故选B。\n\n【点评】考查动词的时态，注意识记过去进行时was/were doing的用法。\n25．（2023八下·仁化月考）"
+        },
+        {
+          "key": "C",
+          "text": "am doing",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "have done",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "过去进行时",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：迈克昨晚来的时候，我正在做作业。A：do做，动词原形；B：was doing正在做，过去进行时；C：am doing正在做，现在进行时；D：have done现在完成时。 根据句子when Mike came last night. 迈克昨晚来的时候。可知此处是指来的时候正在做作业，从句为一般过去时，可知时态为过去进行时，结构为was/were doing，主语为单数形式，可知此处应用was doing，故选B。\n\n【点评】考查动词的时态，注意识记过去进行时was/were doing的用法。\n25．（2023八下·仁化月考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "98afe5ab46616d426ae4ca2cdbcc5c38",
+      "raw": {
+        "id": 32672898,
+        "title_html": "（2023八下·仁化月考） I ____ my homework when Mike came last night. <br>",
+        "options_html": {
+          "A": "do  ",
+          "B": "was doing  ",
+          "C": "am doing  ",
+          "D": "have done"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：迈克昨晚来的时候，我正在做作业。A：do做，动词原形；B：was doing正在做，过去进行时；C：am doing正在做，现在进行时；D：have done现在完成时。 根据句子when Mike came last night. 迈克昨晚来的时候。可知此处是指来的时候正在做作业，从句为一般过去时，可知时态为过去进行时，结构为was/were doing，主语为单数形式，可知此处应用was doing，故选B。<br>\n【点评】考查动词的时态，注意识记过去进行时was/were doing的用法。<br>25．（2023八下·仁化月考）",
+        "content_hash": "98afe5ab46616d426ae4ca2cdbcc5c38",
+        "source": "广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "过去进行时<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32672900",
+      "source": "题庄真题 · 广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句型与倒装",
+      "grammar_point": "反意疑问句",
+      "mode": "single",
+      "stem": "（2023八下·仁化月考） Kate was late for school yesterday, ____ she?",
+      "passage": "【题干原文】\n（2023八下·仁化月考） Kate was late for school yesterday, ____ she?\n\n【考点】反意疑问句<br/>\n【出处】广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题 · 2023 · 题庄题号 32672900",
+      "options": [
+        {
+          "key": "A",
+          "text": "is",
+          "is_correct": false,
+          "trap_type": "语序错误",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "isn't",
+          "is_correct": false,
+          "trap_type": "语序错误",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "wasn't",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：凯特昨天上学迟到了，是吗？分析句子此处为反意疑问句，遵循前肯后否，前否后肯的原则，主句为肯定形式，可知疑问部分应用否定形式，排除A和D。根据主句中was，可知反意部分应用wasn't，故选C。\n\n【点评】考查反意疑问句，注意识记反意疑问句的用法。\n27．（2023八下·仁化月考）"
+        },
+        {
+          "key": "D",
+          "text": "was",
+          "is_correct": false,
+          "trap_type": "语序错误",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "反意疑问句",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】句意：凯特昨天上学迟到了，是吗？分析句子此处为反意疑问句，遵循前肯后否，前否后肯的原则，主句为肯定形式，可知疑问部分应用否定形式，排除A和D。根据主句中was，可知反意部分应用wasn't，故选C。\n\n【点评】考查反意疑问句，注意识记反意疑问句的用法。\n27．（2023八下·仁化月考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "5792d4520028e8419735c53c21661f23",
+      "raw": {
+        "id": 32672900,
+        "title_html": "（2023八下·仁化月考） Kate was late for school yesterday, ____ she?<br>",
+        "options_html": {
+          "A": "is  ",
+          "B": "isn&#x27;t  ",
+          "C": "wasn&#x27;t  ",
+          "D": "was"
+        },
+        "answer": "C",
+        "answer_html": "C<br>",
+        "analysis_html": "【分析】句意：凯特昨天上学迟到了，是吗？分析句子此处为反意疑问句，遵循前肯后否，前否后肯的原则，主句为肯定形式，可知疑问部分应用否定形式，排除A和D。根据主句中was，可知反意部分应用wasn&#x27;t，故选C。<br>\n【点评】考查反意疑问句，注意识记反意疑问句的用法。<br>27．（2023八下·仁化月考）",
+        "content_hash": "5792d4520028e8419735c53c21661f23",
+        "source": "广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "反意疑问句<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32672903",
+      "source": "题庄真题 · 广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "代词",
+      "mode": "single",
+      "stem": "（2023八下·仁化月考） There are twenty teachers in this grade. Eight of them are women teachers and ____ are men teachers.",
+      "passage": "【题干原文】\n（2023八下·仁化月考） There are twenty teachers in this grade. Eight of them are women teachers and ____ are men teachers.\n\n【考点】代词辨析<br/>\n【出处】广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题 · 2023 · 题庄题号 32672903",
+      "options": [
+        {
+          "key": "A",
+          "text": "the other",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "the others",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：这个年级有二十名老师。其中八位是女教师，其他的是男教师。A：the other其他的，后加复数名词；B：the others剩下的其他人，表示特指剩余的人；C：others其他人，表示泛指；D：other其他的，后加复数名词。根据句子There are twenty teachers in this grade. Eight of them are women teachers. 这个年级有二十名老师。其中八位是女教师。可知此处是指剩下的十二位老师，表示特指剩余的人，应用the others，故选B。\n\n【点评】考查代词辨析，注意识记the others的用法。\n30．（2023八下·仁化月考）"
+        },
+        {
+          "key": "C",
+          "text": "others",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "other",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "代词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：这个年级有二十名老师。其中八位是女教师，其他的是男教师。A：the other其他的，后加复数名词；B：the others剩下的其他人，表示特指剩余的人；C：others其他人，表示泛指；D：other其他的，后加复数名词。根据句子There are twenty teachers in this grade. Eight of them are women teachers. 这个年级有二十名老师。其中八位是女教师。可知此处是指剩下的十二位老师，表示特指剩余的人，应用the others，故选B。\n\n【点评】考查代词辨析，注意识记the others的用法。\n30．（2023八下·仁化月考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "837a500aaf9aba13563acf0ad82df742",
+      "raw": {
+        "id": 32672903,
+        "title_html": "（2023八下·仁化月考） There are twenty teachers in this grade. Eight of them are women teachers and ____ are men teachers. <br>",
+        "options_html": {
+          "A": "the other  ",
+          "B": "the others  ",
+          "C": "others  ",
+          "D": "other"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：这个年级有二十名老师。其中八位是女教师，其他的是男教师。A：the other其他的，后加复数名词；B：the others剩下的其他人，表示特指剩余的人；C：others其他人，表示泛指；D：other其他的，后加复数名词。根据句子There are twenty teachers in this grade. Eight of them are women teachers. 这个年级有二十名老师。其中八位是女教师。可知此处是指剩下的十二位老师，表示特指剩余的人，应用the others，故选B。<br>\n【点评】考查代词辨析，注意识记the others的用法。<br>30．（2023八下·仁化月考）",
+        "content_hash": "837a500aaf9aba13563acf0ad82df742",
+        "source": "广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "代词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32672904",
+      "source": "题庄真题 · 广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "代词",
+      "mode": "single",
+      "stem": "（2023八下·仁化月考） ____ office is much smaller than ____.",
+      "passage": "【题干原文】\n（2023八下·仁化月考） ____ office is much smaller than ____.\n\n【考点】代词辨析<br/>\n【出处】广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题 · 2023 · 题庄题号 32672904",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ours; yours",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "Our; yours",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：我们的办公室比你们的小得多。our我们的，形容词性物主代词；yours你们的，名词性物主代词；theirs他们的，名词性物主代词；their他们的，形容词性物主代词。根据空格后office为名词，办公室，可知此处应用形容词修饰名词作定语，应用Our；根据than，比，可知此处是指我们的比你们的更小，空格后无名词，可知此处应用名词性物主代词，应用yours，故选B。\n\n【点评】考查代词辨析，注意识记形容词性物主代词our和名词性物主代词yours的用法。"
+        },
+        {
+          "key": "C",
+          "text": "Theirs; our",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "Your; their",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "代词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：我们的办公室比你们的小得多。our我们的，形容词性物主代词；yours你们的，名词性物主代词；theirs他们的，名词性物主代词；their他们的，形容词性物主代词。根据空格后office为名词，办公室，可知此处应用形容词修饰名词作定语，应用Our；根据than，比，可知此处是指我们的比你们的更小，空格后无名词，可知此处应用名词性物主代词，应用yours，故选B。\n\n【点评】考查代词辨析，注意识记形容词性物主代词our和名词性物主代词yours的用法。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "5c8e7d7e43dcc22efdebaa43a3cb6e40",
+      "raw": {
+        "id": 32672904,
+        "title_html": "（2023八下·仁化月考） ____ office is much smaller than ____. <br>",
+        "options_html": {
+          "A": "Ours; yours  ",
+          "B": "Our; yours  ",
+          "C": "Theirs; our  ",
+          "D": "Your; their"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：我们的办公室比你们的小得多。our我们的，形容词性物主代词；yours你们的，名词性物主代词；theirs他们的，名词性物主代词；their他们的，形容词性物主代词。根据空格后office为名词，办公室，可知此处应用形容词修饰名词作定语，应用Our；根据than，比，可知此处是指我们的比你们的更小，空格后无名词，可知此处应用名词性物主代词，应用yours，故选B。<br>\n【点评】考查代词辨析，注意识记形容词性物主代词our和名词性物主代词yours的用法。<br>",
+        "content_hash": "5c8e7d7e43dcc22efdebaa43a3cb6e40",
+        "source": "广东省韶关市仁化县2022-2023学年八年级下学期5月月考英语试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "代词辨析<br/>",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32897161",
+      "source": "题庄真题 · 云南省大理州祥云县2022-2023学年八年级下学期期末考试英语试题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "动词时态",
+      "grammar_point": "过去进行时",
+      "mode": "single",
+      "stem": "— I was at the cinema at nine yesterday evening. what about you ?\n—I ____ books.",
+      "passage": "【题干原文】\n— I was at the cinema at nine yesterday evening. what about you ?\n—I ____ books.\n\n【考点】过去进行时\n【出处】云南省大理州祥云县2022-2023学年八年级下学期期末考试英语试题 · 2023 · 题庄题号 32897161",
+      "options": [
+        {
+          "key": "A",
+          "text": "am reading",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "was reading",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——昨天晚上九点我在电影院。你呢？——我在看书。A现在进行时，B过去进行时，C一般将来时，D过去完成时。根据 I was at the cinema at nine yesterday evening. what about you ? 昨天晚上九点我在电影院。你呢？可知动作过去正在发生，句子时态为过去进行时 was reading 。故选B。\n\n【点评】考查过去进行时。注意熟记动词read“阅读”：第三人称单数： reads；现在分词： reading；过去式： read；过去分词： read。"
+        },
+        {
+          "key": "C",
+          "text": "will read",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "had read",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "过去进行时",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：——昨天晚上九点我在电影院。你呢？——我在看书。A现在进行时，B过去进行时，C一般将来时，D过去完成时。根据 I was at the cinema at nine yesterday evening. what about you ? 昨天晚上九点我在电影院。你呢？可知动作过去正在发生，句子时态为过去进行时 was reading 。故选B。\n\n【点评】考查过去进行时。注意熟记动词read“阅读”：第三人称单数： reads；现在分词： reading；过去式： read；过去分词： read。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "e341232f0b6f8eeb0e4fc494dec38993",
+      "raw": {
+        "id": 32897161,
+        "title_html": "— I was at the cinema at nine yesterday evening. what about you ?<br>—I ____ books. <br>",
+        "options_html": {
+          "A": "am reading  ",
+          "B": "was reading  ",
+          "C": "will read  ",
+          "D": "had read"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：——昨天晚上九点我在电影院。你呢？——我在看书。A现在进行时，B过去进行时，C一般将来时，D过去完成时。根据 I was at the cinema at nine yesterday evening. what about you ? 昨天晚上九点我在电影院。你呢？可知动作过去正在发生，句子时态为过去进行时 was reading 。故选B。<br>\n【点评】考查过去进行时。注意熟记动词read“阅读”：第三人称单数： reads；现在分词： reading；过去式： read；过去分词： read。<br>",
+        "content_hash": "e341232f0b6f8eeb0e4fc494dec38993",
+        "source": "云南省大理州祥云县2022-2023学年八年级下学期期末考试英语试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "过去进行时",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32897163",
+      "source": "题庄真题 · 云南省大理州祥云县2022-2023学年八年级下学期期末考试英语试题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "词汇辨析",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词汇辨析",
+      "grammar_point": "固定搭配",
+      "mode": "single",
+      "stem": "____ doctors went to shanghai to take care of the sick during the COVID-19.",
+      "passage": "【题干原文】\n____ doctors went to shanghai to take care of the sick during the COVID-19.\n\n【考点】固定搭配\n【出处】云南省大理州祥云县2022-2023学年八年级下学期期末考试英语试题 · 2023 · 题庄题号 32897163",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thousands",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "Two thousands",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "Thousands of",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：新冠肺炎期间，数千名医生们到上海照顾病人。A缺少介词of；B错误形式，基数词后用单数形式thousand；C多长时间，数千；D错误形式，多了介词of。 根据可数名词复数doctors，可知应用固定搭配thousands of“数千”。故选C。\n\n【点评】考查固定搭配。注意熟记动词go“去”：第三人称单数： goes；现在分词： going；过去式： went；过去分词： gone。"
+        },
+        {
+          "key": "D",
+          "text": "Two thousands of",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "固定搭配",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】句意：新冠肺炎期间，数千名医生们到上海照顾病人。A缺少介词of；B错误形式，基数词后用单数形式thousand；C多长时间，数千；D错误形式，多了介词of。 根据可数名词复数doctors，可知应用固定搭配thousands of“数千”。故选C。\n\n【点评】考查固定搭配。注意熟记动词go“去”：第三人称单数： goes；现在分词： going；过去式： went；过去分词： gone。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "ff8d4b63546af8abe34569d401fadba3",
+      "raw": {
+        "id": 32897163,
+        "title_html": "____ doctors went to shanghai to take care of the sick during the COVID-19. <br>",
+        "options_html": {
+          "A": "Thousands  ",
+          "B": "Two thousands",
+          "C": "Thousands of  ",
+          "D": "Two thousands of"
+        },
+        "answer": "C",
+        "answer_html": "C<br>",
+        "analysis_html": "【分析】句意：新冠肺炎期间，数千名医生们到上海照顾病人。A缺少介词of；B错误形式，基数词后用单数形式thousand；C多长时间，数千；D错误形式，多了介词of。 根据可数名词复数doctors，可知应用固定搭配thousands of“数千”。故选C。<br>\n【点评】考查固定搭配。注意熟记动词go“去”：第三人称单数： goes；现在分词： going；过去式： went；过去分词： gone。<br>",
+        "content_hash": "ff8d4b63546af8abe34569d401fadba3",
+        "source": "云南省大理州祥云县2022-2023学年八年级下学期期末考试英语试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "固定搭配",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32897164",
+      "source": "题庄真题 · 云南省大理州祥云县2022-2023学年八年级下学期期末考试英语试题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "词汇辨析",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词汇辨析",
+      "grammar_point": "固定搭配",
+      "mode": "single",
+      "stem": "—why do you like this picture ?\n— Because it reminds me ____ my best friend",
+      "passage": "【题干原文】\n—why do you like this picture ?\n— Because it reminds me ____ my best friend\n\n【考点】固定搭配\n【出处】云南省大理州祥云县2022-2023学年八年级下学期期末考试英语试题 · 2023 · 题庄题号 32897164",
+      "options": [
+        {
+          "key": "A",
+          "text": "In",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "of",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——你为什么喜欢这张照片？——因为它让我想起了我最好的朋友。 根据固定搭配remind sb. of sth.“让某人想起”，可知介词用of。故选B。\n\n【点评】考查固定搭配。注意熟记动词remind“使想起”：第三人称单数： reminds；现在分词： reminding；过去式： reminded；过去分词： reminded。"
+        },
+        {
+          "key": "C",
+          "text": "with",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "at",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "固定搭配",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：——你为什么喜欢这张照片？——因为它让我想起了我最好的朋友。 根据固定搭配remind sb. of sth.“让某人想起”，可知介词用of。故选B。\n\n【点评】考查固定搭配。注意熟记动词remind“使想起”：第三人称单数： reminds；现在分词： reminding；过去式： reminded；过去分词： reminded。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "dab23e1198ec905728695fb66fde01ed",
+      "raw": {
+        "id": 32897164,
+        "title_html": "—why do you like this picture ?<br>— Because it reminds me ____ my best friend<br>",
+        "options_html": {
+          "A": "In  ",
+          "B": "of  ",
+          "C": "with  ",
+          "D": "at"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：——你为什么喜欢这张照片？——因为它让我想起了我最好的朋友。 根据固定搭配remind sb. of sth.“让某人想起”，可知介词用of。故选B。<br>\n【点评】考查固定搭配。注意熟记动词remind“使想起”：第三人称单数： reminds；现在分词： reminding；过去式： reminded；过去分词： reminded。<br>",
+        "content_hash": "dab23e1198ec905728695fb66fde01ed",
+        "source": "云南省大理州祥云县2022-2023学年八年级下学期期末考试英语试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "固定搭配",
+        "year": 2023
       }
     }
   ]

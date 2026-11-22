@@ -28,6 +28,34 @@
       "title": "The red bike is Jim's and the blue one me．（ ）",
       "answer": "C",
       "analysis": "【分析】这辆红色自行车是吉姆的，蓝色的属于我．"
+    },
+    {
+      "id": 14920368,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 3）",
+      "title": "-I feel really tired..-______（ ）",
+      "answer": "C",
+      "analysis": "【分析】--我感觉真的很累．\n--为什么不休息一会？"
+    },
+    {
+      "id": 14920432,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 3）",
+      "title": "In order to know what the weather is like tomorrow，you can listen to the ________．（ ）",
+      "answer": "A",
+      "analysis": "【分析】为了了解明天的天气怎么样，你可以听天气预报．"
+    },
+    {
+      "id": 14920576,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 3）",
+      "title": "What's ____ with you？（ ）",
+      "answer": "B",
+      "analysis": "【分析】你怎么了？"
+    },
+    {
+      "id": 14920633,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 3）",
+      "title": "When shall we go to see him in the hospital？\nOh，I nearly forget．What about this afternoon as soon as we ______our work？（ ）",
+      "answer": "C",
+      "analysis": "【分析】-我们什么时候去医院看他？\n-哦，我差点忘了．今天下午我们一做完工作怎么样？"
     }
   ]
 }

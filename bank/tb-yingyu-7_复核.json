@@ -2,31 +2,52 @@
   "note": "以下题未入库，供教师人工复核；脚本不擅自更正答案。",
   "items": [
     {
+      "id": 4475929,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
+      "title": "1—What are those?\n\n— are\ntheir books．\n\nA．That B．They’re C．They",
+      "answer": "C",
+      "analysis": ""
+    },
+    {
+      "id": 4475931,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
+      "title": "1—Is this _____ basketball?\n\n—No．It's _____ basketball．\n\nA．you；my B．my；you C．your；his",
+      "answer": "C",
+      "analysis": ""
+    },
+    {
+      "id": 4475934,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
+      "title": "1Mum,\nmy teacher（老师）, Mr. Wang．\n\nA．she is B．this is C．here is",
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 4475938,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
+      "title": "1—_______ are your pens?\n\n—________ black．\n\nA．What; It’s\n\nB．What color; They’re\n\nC．Where; Them",
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 4475964,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
+      "title": "1—\nare my keys? —They are on the sofa.\n\nA．What B．Where C．Why",
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 4478929,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
+      "title": "找出划线部分读音与其它三个不同的选项\n1.A.cow B. know C. flower D.brown\n2.A. flew B. grew C. knew D. drew\n3.A. finished B. jumped C. camped D. stayed\n4.A. language B. something C.",
+      "answer": "B",
+      "analysis": "【解析】\n试题分析：\n1.ow [aʊ]；B. know [əʊ];C. flower [aʊ]；D.brown [aʊ],故选B。\n2.. flew [uː];B. grew[uː];C. knew [juː];D. drew[uː],故选C。\n3.. finished [t];B. jumped [t]; C. camped [t]; D. stayed[d] ,故选D。\n4.. language [ŋɡ];B. something [ŋ]; C. dumpling[ŋ]; D. song[ŋ] ,故选A。\n5.. stop [ɒ]; B. hot [ɒ]; C. blonde [ɒ]; "
+    },
+    {
       "id": 6378879,
       "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
       "title": "This is ______ key, and that is ________ orange.\nA. a; a B. a; an C. an; an",
       "answer": "B",
-      "analysis": ""
-    },
-    {
-      "id": 6385806,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "His father is ________ English teacher in Liuzhou.\nA. a B. an C. the",
-      "answer": "B",
-      "analysis": ""
-    },
-    {
-      "id": 6385858,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "My mother buys _________ for me on my birthday .\nA. a pairs of jeans B. a pair of jeans C. a pair of jean",
-      "answer": "B",
-      "analysis": ""
-    },
-    {
-      "id": 6386171,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "She is an ______ girl.\nA. USA B. nice C. American",
-      "answer": "C",
       "analysis": ""
     }
   ]
