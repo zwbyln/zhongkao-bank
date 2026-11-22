@@ -32,6 +32,15 @@ import sys
 # 读进来（虽然没有 items，会被过滤成空），perFile 里白白多一行 0，看着像出错。
 SKIP_WORDS = ("复核", "review", "all", "meta")
 
+# 非题库的数据文件虽然也叫 *.json、也可能带 items，但不能当题收进来：
+#   history-timeline / shishi 是年表与时政（有 items 但每条没有 stem），
+#   混进来就会在题库里出现「无题干的幽灵题」——以前踩过一次（normalizeItem
+#   把诊断对象当题目），这次直接从文件名 + 字段两道关拦。
+SKIP_NAMES = ("history-timeline", "shishi")
+
+# 一道题至少要有这两个字段。少任何一个都不算题，宁可漏收也不能收错。
+REQUIRED_FIELDS = ("subject", "stem")
+
 
 def content_key(q):
     """内容指纹：宁可放过，不可误杀。
@@ -91,6 +100,8 @@ def main():
             continue
         if any(w in os.path.basename(f) or w in name for w in SKIP_WORDS):
             continue
+        if any(w in name for w in SKIP_NAMES):
+            continue
         files.append(f)
 
     if not files:
@@ -103,6 +114,12 @@ def main():
         n0 = len(items)
         for q in load_items(f):
             if not isinstance(q, dict) or not q.get("id"):
+                bad_type += 1
+                continue
+            # 字段关：没有 subject / stem 的不是题（年表、时政条目就长这样）。
+            # 这一关和上面的文件名关是「双保险」——以后再有新的非题库文件
+            # 混进 bank/ 目录，也不会变成孩子题库里的空题。
+            if any(not q.get(k) for k in REQUIRED_FIELDS):
                 bad_type += 1
                 continue
             k = str(q["id"])
