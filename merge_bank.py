@@ -23,6 +23,7 @@ import datetime
 import glob
 import gzip
 import hashlib
+import html as html_lib
 import json
 import os
 import re
@@ -40,6 +41,146 @@ SKIP_NAMES = ("history-timeline", "shishi")
 
 # 一道题至少要有这两个字段。少任何一个都不算题，宁可漏收也不能收错。
 REQUIRED_FIELDS = ("subject", "stem")
+
+# ---------------------------------------------------------------- 原题标记恢复
+# 题庄的原始 HTML（raw.title_html / raw.options_html）里，被画线的词写作
+# <u>词</u>，被加点的词写作 <u>字</u> 加注音。抓取入库时这些标签被剥掉，
+# 只剩「词前面多一个空格」这种残迹。
+#
+# 前端因此只能靠空格猜：遇到半角标点重排过的选项
+# （「身材 , 有一头长发 , 都会 鹤立鸡群」）就直接放弃，一个线都不画。
+# 孩子看到的就是「题干说画线，题里找不到线」——这正是用户反复报的那个问题。
+#
+# 这里在合并时把 raw 里的 <u> 原样搬回来；前端按真标记渲染，不再猜。
+U_OPEN, U_CLOSE = "\u0001u>", "\u0001/u>"
+
+
+def _plain(html_text):
+    """把题庄的 HTML 压成纯文本，唯独 <u> 留下（先换成控制字符，免得被剥标签)。"""
+    s = str(html_text or "")
+    s = re.sub(r"<br\s*/?>", "\n", s, flags=re.I)
+    s = re.sub(r"</p\s*>\s*<p[^>]*>", "\n", s, flags=re.I)
+    s = re.sub(r"<u(?:\s[^>]*)?>", U_OPEN, s, flags=re.I)
+    s = re.sub(r"</u\s*>", U_CLOSE, s, flags=re.I)
+    s = re.sub(r"<[^>]+>", "", s)
+    s = html_lib.unescape(s)
+    return s.replace(U_OPEN, "<u>").replace(U_CLOSE, "</u>")
+
+
+def _flat(s):
+    """抹掉全部空白后比较：题庄原文用 \xa0 / 全角空格做分隔，和入库版差在这里。"""
+    return re.sub(r"[\s\u00a0\u3000]+", "", str(s or ""))
+
+
+def _tidy(s):
+    return str(s or "").replace("\u00a0", " ").replace("\u3000", " ").strip()
+
+
+def _no_u(s):
+    return re.sub(r"</?u>", "", str(s or ""))
+
+
+def _tight_u(s):
+    """收线下沿：`<u> 词 </u>` 两端空白不要，`<u>颔首低眉 .</u>` 的句号也别画进线里。"""
+    def one(m):
+        inner = m.group(1).strip()
+        inner = re.sub(r"[\s，。；：！？,.;:!?]+$", "", inner)
+        return "<u>" + inner + "</u>" if inner else ""
+    return re.sub(r"<u>(.*?)</u>", one, s, flags=re.S)
+
+
+def recover_marks(q):
+    """把 raw 里的下划线搬进 stem / options。返回改动的段数。"""
+    raw = q.get("raw")
+    if not isinstance(raw, dict):
+        return 0
+    n = 0
+    th = _plain(raw.get("title_html"))
+    if "<u>" in th and _flat(_no_u(th)) == _flat(q.get("stem")):
+        q["stem"] = _tight_u(_tidy(th))
+        n += 1
+    oh = raw.get("options_html")
+    if isinstance(oh, dict):
+        for o in q.get("options") or []:
+            if not isinstance(o, dict):
+                continue
+            h = _plain(oh.get(o.get("key")))
+            if "<u>" in h and _flat(_no_u(h)) == _flat(o.get("text")):
+                o["text"] = _tight_u(_tidy(h))
+                n += 1
+    return n
+
+
+def sync_u_to_passage(q):
+    """题干里标了线，材料卡里那段同样的文字也得有线。
+
+    题庄的材料和题干是两份文本：画线信息只落在 title_html 上，passage 里
+    是同一段话的副本、没有标记。左侧「选文/材料」卡渲染 passage，于是出现
+    「题干有蓝线、上面的材料没线」——同一段字两种样子，看着像没修好。
+    """
+    stem = q.get("stem") or ""
+    p = q.get("passage") or ""
+    if "<u>" not in stem or not p:
+        return 0
+    n = 0
+    for w in re.findall(r"<u>(.*?)</u>", stem, flags=re.S):
+        if not w or len(w) < 2:
+            continue
+        tagged = "<u>" + w + "</u>"
+        if tagged in p:
+            continue
+        if w in p:
+            p = p.replace(w, tagged, 1)
+            n += 1
+    if n:
+        q["passage"] = p
+    return n
+
+
+def clean_br(q):
+    """题庄把换行写成 <br/>，前端按纯文本渲染会原样显示成「<br/>」。"""
+    n = 0
+    for k in ("stem", "passage"):
+        v = q.get(k)
+        if isinstance(v, str) and re.search(r"<br\s*/?>", v, flags=re.I):
+            q[k] = re.sub(r"<br\s*/?>", "\n", v, flags=re.I)
+            n += 1
+    for o in q.get("options") or []:
+        if isinstance(o, dict) and isinstance(o.get("text"), str) \
+                and re.search(r"<br\s*/?>", o["text"], flags=re.I):
+            o["text"] = re.sub(r"<br\s*/?>", "\n", o["text"], flags=re.I)
+            n += 1
+    return n
+
+
+# ---------------------------------------------------------------- 入库质检
+# 用户的原话：「题干不完整、根本看不到所谓的第二自然段，这种题就不要进入系统；
+# 下划线解决不了的题也不要进系统。」这三类在下面各有一道关卡。
+MARK_RE = re.compile(r"画[线線]|画横线|下划线|加点|加粗|着重号")
+HAS_MARK_RE = re.compile(r"<u>|</u>|•|＿{2,}|_{3,}")
+# 注音被压成竖排：原题是「字 + 拼音点」上下结构，抓成文本后成了「辍\n•\n\n耕（chuò）」，
+# 四个选项全是一堆孤立圆点，读都读不成句。
+MATH_JUNK_RE = re.compile(r"(?:^|\n)\s*•\s*(?:\n|$)")
+
+
+def _visible(q):
+    parts = [q.get("stem") or "", q.get("passage") or ""]
+    for o in q.get("options") or []:
+        parts.append(str(o.get("text") or "") if isinstance(o, dict) else str(o))
+    return "\n".join(parts)
+
+
+def quality_reject(q):
+    """不合格返回原因，合格返回 None。宁可少收题，也不收一道做不了的题。"""
+    v = _visible(q)
+    if re.search(r"原文见上一?题|见上一题|见上题|详见上题", v):
+        return "材料在别的题里（原文见上一题）"
+    if MATH_JUNK_RE.search(v):
+        return "注音符号被压成竖排乱码"
+    if MARK_RE.search(q.get("stem") or "") and not HAS_MARK_RE.search(v):
+        return "题干要求看画线/加点，但题里没有任何标记"
+    return None
+
 
 
 def content_key(q):
@@ -110,6 +251,9 @@ def main():
 
     seen, items, per = set(), [], {}
     dup_id, dup_txt, bad_type = 0, 0, 0
+    # 本轮质检的账：恢复了多少段下划线、清了多少个 <br/>、拒了多少题、各为什么
+    marks_fixed, br_fixed, rejected = 0, 0, 0
+    reject_why = {}
     for f in files:
         n0 = len(items)
         for q in load_items(f):
@@ -121,6 +265,16 @@ def main():
             # 混进 bank/ 目录，也不会变成孩子题库里的空题。
             if any(not q.get(k) for k in REQUIRED_FIELDS):
                 bad_type += 1
+                continue
+            # 先把 raw 里的 <u> 搬回来、把 <br/> 换成换行，再做质检——
+            # 顺序反了会把「本来能修」的题当成「没标记」拒掉。
+            marks_fixed += recover_marks(q)
+            marks_fixed += sync_u_to_passage(q)
+            br_fixed += clean_br(q)
+            why = quality_reject(q)
+            if why:
+                rejected += 1
+                reject_why[why] = reject_why.get(why, 0) + 1
                 continue
             k = str(q["id"])
             if k in seen:
@@ -140,7 +294,9 @@ def main():
         "source": "题庄真题库 · 自动更新",
         "updatedAt": datetime.datetime.now().astimezone().isoformat(timespec="seconds"),
         "stats": {"usable": len(items), "files": len(files), "perFile": per,
-                  "dropped": bad_type, "dupId": dup_id, "dupContent": dup_txt},
+                  "dropped": bad_type, "dupId": dup_id, "dupContent": dup_txt,
+                  "rejected": rejected, "rejectWhy": reject_why,
+                  "marksFixed": marks_fixed, "brFixed": br_fixed},
         "items": items,
     }
     os.makedirs(os.path.dirname(os.path.abspath(out_path)) or ".", exist_ok=True)
@@ -186,6 +342,14 @@ def main():
         print("  %-28s +%d" % (k, v))
     if bad_type:
         print("  · %d 条不是合法题目对象，已丢弃" % bad_type)
+    if marks_fixed:
+        print("  · 从原始 HTML 恢复下划线 %d 段（前端不再靠空格猜）" % marks_fixed)
+    if br_fixed:
+        print("  · 把 %d 处 <br/> 换成换行" % br_fixed)
+    if rejected:
+        print("  · 质检拒收 %d 道：" % rejected)
+        for reason, cnt in sorted(reject_why.items(), key=lambda x: -x[1]):
+            print("      %-34s %d 道" % (reason, cnt))
     if dup_id or dup_txt:
         print("  · 去重：同 id %d 条、同内容换 id %d 条" % (dup_id, dup_txt))
     return 0
