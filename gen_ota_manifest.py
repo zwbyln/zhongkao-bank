@@ -17,12 +17,12 @@ OTA = os.path.join(ROOT, 'ota')
 HTML = os.path.join(OTA, 'train.html')
 MANIFEST = os.path.join(OTA, 'manifest.json')
 
-VERSION = '2.24'
-BUILD = 35  # 与 APK versionCode 一致
-NOTE = ('题库入库加了质检闸门：题干要求「看画线/加点」但题里没有任何标记的、'
-        '注音被压成竖排乱码的、材料写着「原文见上一题」的，一律不收（本轮拒 19 道，649→631）；'
-        '下划线不再靠空格猜：从题庄原始 HTML 把 <u>词</u> 搬回题库，43 道题恢复了精确标记，'
-        '半角标点重排过的选项也能正常画线；47 处 <br/> 换成真换行，不再显示成字面标签')
+VERSION = '2.25'
+BUILD = 36  # 与 APK versionCode 一致
+NOTE = ('修掉一个会在夜里发作的隐患：题库元信息的发布时间带时区偏移（我们写 +08:00，'
+        'GitHub Actions 的 bank-bot 写 +00:00），原来按字符串比大小挑「最新镜像」，'
+        '只要本地发布的小时数大于 21，就会把凌晨那份更旧的题库判成最新、整包下回来覆盖；'
+        '现在一律转时间戳再比。附 3 项跨时区排序验收')
 
 
 def main():

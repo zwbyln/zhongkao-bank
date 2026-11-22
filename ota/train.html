@@ -22782,6 +22782,17 @@ window.EN_VSRC = {
      为什么不「谁先回用谁」：踩过这个坑——cdn.jsdelivr.net 缓存着前一版，
      gcore 已经是最新，先回的那个反而更旧。只看速度会稳定拿到过期题库。
      慢的镜像最多让它拖 6 秒，超时就当它没回。 */
+  /* meta.at 是带时区偏移的 ISO 串，不同镜像/不同生成脚本写出来的偏移并不一致：
+     我们自己写的是 +08:00（2026-11-22T13:47:17+08:00），GitHub Actions 跑出来的
+     是 +00:00（2026-11-22T01:13:49+00:00）——后者其实早 4 小时，但按字符串比
+     「01」小于「13」，排序恰好蒙对；哪天两头的小时数反过来（比如 Actions 在
+     北京时间上午跑、我们在下午发），就会把旧题库判成最新，整包下回来把新题覆盖掉。
+     一律先转成时间戳再比。解析失败给 0，让它排在最后而不是排最前。 */
+  function metaTs(m) {
+    var t = Date.parse(String((m && m.at) || ''));
+    return isNaN(t) ? 0 : t;
+  }
+
   function bankProbeAll(urls, ms) {
     return Promise.all(urls.map(function (u) {
       return fetchText(u, ms).then(function (t) {
@@ -22791,9 +22802,9 @@ window.EN_VSRC = {
     })).then(function (arr) {
       var ok = arr.filter(function (x) { return !!x; });
       ok.sort(function (a, b) {
-        var x = String(a.meta.at || ''), y = String(b.meta.at || '');
+        var x = metaTs(a.meta), y = metaTs(b.meta);
         if (x === y) return (b.meta.items || 0) - (a.meta.items || 0);
-        return y < x ? -1 : (y > x ? 1 : 0);     // 字符串倒序，别用 localeCompare（各端行为不一致）
+        return y - x;                            // 按真时间戳倒序，见 metaTs
       });
       return ok;
     });
