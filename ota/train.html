@@ -673,6 +673,37 @@ body[data-theme="dark"] .fm-miss.warm{color:#dfe9ff}
 }
 .gram-lock-icon{width:23px;height:23px;display:block;margin:0 auto 8px;color:var(--ink2);opacity:.62}
 .gram-lock-title{font-size:14.5px;font-weight:800;color:var(--ink2);margin-bottom:4px}
+.memo-card{
+  margin-top:12px;border:1.5px solid var(--line,#d6dbe4);border-radius:12px;
+  padding:12px 14px;background:linear-gradient(180deg,#fffdf5,#fff);
+}
+.memo-card.in-fb{margin-top:14px}
+.memo-head{display:flex;align-items:center;gap:8px;margin-bottom:7px}
+.memo-tag{
+  font-size:11.5px;font-weight:800;letter-spacing:.06em;color:#8a5a00;
+  background:#fff1cc;border-radius:6px;padding:2px 7px;
+}
+.memo-point{font-size:12.5px;color:var(--ink2);font-weight:700}
+.memo-body{
+  font-size:16px;line-height:1.62;font-weight:800;color:var(--ink,#1c2230);
+  letter-spacing:.01em;
+}
+.memo-trap{font-size:13px;color:var(--ink2);line-height:1.66;margin-top:9px}
+/* 「本题的坑」是个小标签，不能只靠右边距和正文分开——
+   手机上两者会挤成「本题的坑when I…」，读起来像一句话没断句。 */
+.memo-trap b{
+  display:inline-block;vertical-align:1px;margin-right:6px;
+  font-size:11.5px;font-weight:800;color:#a86200;
+  background:#fff4e0;border-radius:5px;padding:1px 6px;
+}
+.memo-vote{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-top:11px}
+.memo-vote-q{font-size:12.5px;color:var(--ink2)}
+.memo-btn{
+  font:inherit;font-size:12.5px;padding:4px 11px;border-radius:8px;
+  border:1.5px solid var(--line,#d6dbe4);background:#fff;color:var(--ink2);cursor:pointer;
+}
+.memo-btn:active{transform:scale(.97)}
+.memo-count{font-size:12px;color:var(--ink2);opacity:.78}
 .gram-lock-sub{font-size:12.5px;color:var(--ink2);opacity:.72;line-height:1.6}
 .gram-peek-btn{display:block;width:100%;text-align:center;opacity:.85}
 .gram-peek-hint{text-align:center;font-size:11.5px;color:var(--ink2);opacity:.55;margin-top:6px;letter-spacing:.2px}
@@ -13583,6 +13614,68 @@ window.FORMULA_GROUPS = {
   english: ['动词时态', '被动语态', '非谓语动词', '从句', '词法', '主谓一致', '句型与倒装', '词汇辨析', '情景交际', '句子理解']
 };
 
+/* ---------- 英语语法口诀（2.26）----------
+   为什么加：题做错时孩子最需要的是「一句话把这条规则拉回来」，而卡里的
+   body / steps 是三层结构，答错那一刻没人愿意读完。口诀补的就是这 2 秒。
+
+   为什么不是抄 GitHub 上的：查遍了，没有任何专门做英语语法口诀的开源项目
+   （hzpt-inet-club/english-note 是图解的概念讲解，codeyu/EnglishGrammarBook
+   是电子书，都不含口诀）。所以这里按题库真实的 73 道语法题的考法自己写，
+   每条都对着具体题目写，不做通用顺口溜。
+
+   写法上的三条自律（来自研究）：
+   ① 只做「几秒内唤起规则」的判据，不做规则的复述——复述规则的书上就有，
+      口诀的价值只在于把规则压缩成一个能瞬间调出来的钩子；
+   ② 一条不超过一行，超过一行就不叫口诀，叫笔记；
+   ③ 只给有配套题的考点写。题库里只有 1—2 道题的考点给了也用不上，
+      反而让卡看起来「什么都有」，虚胖。 */
+window.GRAM_MEMO = {
+  /* --- 代词 12 道：题库里考得最多的一类，且集中在 4 个坑上 --- */
+  '代词': {rule:'代词四问：空后有名用形容词性，没名用名词性；动作回到主语用反身；疑问/否定用 anything 类',
+    memo:'有名 my，没名 mine；回到自己 -self；疑问否定 any 上场',
+    trap:'「爸爸的」「我的」后面紧跟名词 → my / his / your，不能写 mine / his（那是单独用的）。'},
+  /* --- 连词 10 道 --- */
+  '连词': {rule:'先判两句是并列还是主从；Although 与 but 只能留一个；because 与 so 同理',
+    memo:'有 although 就不填 but；不填就填 /（四个选项都是连词时选「空」）',
+    trap:'「Although…, ___ he…」四个选项全是连词时，正确答案是「不填」。看到 although 还想填 but，就是这一分丢掉的地方。'},
+  /* --- 名词与数 7 道 --- */
+  '名词与数': {rule:'数字前不加复数，hundreds of 才加 s；the number of 是单数、a number of 是复数',
+    memo:'前面有数不加 s，后面接 of 才加 s',
+    trap:'two hundred students（对）／two hundreds students（错）／hundreds of students（对）。判断只看「数字在不在前面」。'},
+  /* --- 主谓一致 6 道 --- */
+  '主谓一致': {rule:'先划掉修饰语找中心词；the number of 单数，a number of 复数；there be 就近',
+    memo:'the number 单，a number 复；with 不算主语，看它前面那个',
+    trap:'A boy with two dogs ___ sleeping —— with 后面的 dogs 不参与，主语是 A boy，用 was。'},
+  /* --- 被动语态 6 道 --- */
+  '被动语态': {rule:'主语是「被做」才用被动；时态全部写在 be 上，动词用过去分词',
+    memo:'被动看 be，时态看 be；过去的事 be 也用过去',
+    trap:'「这本书是十年前写的」→ was written。只写 is written 是把时态丢了，只写 written 是把 be 丢了。'},
+  /* --- 情态动词 4 道 --- */
+  '情态动词': {rule:'推测（must / may / can\'t）、义务（must / mustn\'t / needn\'t）、请求（can / may）三栏不能混',
+    memo:'must 问、needn\'t 答；can\'t 一定不是，must 一定是',
+    trap:'—Must I…? —No, you needn\'t.（不是 mustn\'t）。mustn\'t 是「禁止」，needn\'t 是「不必」，一字之差。'},
+  /* --- 动名词作宾语 3 道 --- */
+  '动名词作宾语': {rule:'介词后面一律 doing；enjoy / finish / mind / practise / be interested in 后面也是 doing',
+    memo:'介词后面不接 to；enjoy / finish / mind 只认 -ing',
+    trap:'be interested in ___ novels → reading（in 是介词）；What about ___? → making（about 是介词）。看到介词就别找 to。'},
+  /* --- 状语从句 3 道 --- */
+  '状语从句': {rule:'时间 / 条件从句里不用将来时；not…until 表示「直到…才」',
+    memo:'if / when / as soon as 后面用现在，主句才用将来（主将从现）',
+    trap:'I will call you as soon as I ___（arrive）。从句里不写 will arrive——这是「主将从现」最常考的一分。'},
+  /* --- 形容词与副词 3 道 --- */
+  '形容词与副词': {rule:'修饰名词用形容词，修饰动词用副词；as…as 中间用原级；比较级常与 than 同现',
+    memo:'as…as 中间放原形，不升级；than 前面必须比较级',
+    trap:'doesn\'t run as ___ as John → fast（原级）。这里是 as…as，填 faster 就把原级错当比较级了。'},
+  /* --- 一般过去时 3 道 --- */
+  '一般过去时': {rule:'过去时间标志词（yesterday / last… / …ago / just now / when 从句）出现，动词用过式',
+    memo:'有过去时间，动词就穿过去式',
+    trap:'when I ___ the exam 前面是 encouraged（过去），后面也用过去：failed。别因为「现在还在说」就写 have failed。'},
+  /* --- 冠词 3 道 --- */
+  '冠词': {rule:'a / an 听第一个音，不看第一个字母；by + 交通工具不加冠词；the + 姓氏复数表示一家人',
+    memo:'看音不看字：a useful、an hour、an "l"；by bike 不带 a',
+    trap:'「the Smiths」是「史密斯一家人」，用 the 加复数姓氏。写成 A Smiths 是把「一家人」当成了「一个」。'}
+};
+
 window.FORMULAS = {
   chinese: [
     /* ---------- 现代文阅读 · 内容理解 ---------- */
@@ -19841,6 +19934,92 @@ window.EN_VSRC = {
   }
   var STORE = load();
 
+  /* ---------- 英语语法口诀：渲染 + 效力自测（2.26）----------
+     口诀只在三处出现：①答错后的反馈区（主要入口）②语法卡展开后的末尾
+     ③卡详情页。答对不给——做对的那一刻需要的是下一题，不是又一段字。
+     研究结论也是这个用法：口诀的作用是「犯错后重新辨认同类线索」时的
+     回溯钩子，而不是学习内容本身。
+
+     为什么不搞「一天背 10 条」的打卡：Dunlosky 等人 2013 那篇综述把
+     keyword mnemonic 评为低效用（不能泛化），只有 practice testing 与
+     distributed practice 是高效用。所以口诀永远挂在题后面，不单独成课。 */
+  function memoOf(q) {
+    if (!q || q.subject !== 'english') return null;
+    var m = (window.GRAM_MEMO || {})[q.grammar_point || ''];
+    return m ? { point: q.grammar_point, memo: m.memo, trap: m.trap, rule: m.rule } : null;
+  }
+  /* 每条的效力账：投过票数、认为管用的数、用了之后同类题仍错的次数。
+     存在 STORE.settings.memoStat 里，和题库一起备份/导走，不额外开字段。 */
+  function memoStat() {
+    STORE.settings.memoStat = STORE.settings.memoStat || {};
+    return STORE.settings.memoStat;
+  }
+  function memoRec(point) {
+    var st = memoStat();
+    st[point] = st[point] || { up: 0, down: 0, miss: 0, seen: 0, lastAt: 0 };
+    return st[point];
+  }
+  function memoVote(point, ok) {
+    var r = memoRec(point);
+    if (ok) r.up++; else r.down++;
+    r.lastAt = nowTs();
+    save();
+    return r;
+  }
+  /* 记一次「见过这条口诀的题又错了」——这是被动数据，比投票可信：
+     投票会受心情影响，而「给了口诀同类题还是错」是硬事实。 */
+  function memoMiss(point) {
+    var r = memoRec(point);
+    r.miss++; r.lastAt = nowTs();
+    save();
+  }
+  function memoSeen(point) {
+    var r = memoRec(point);
+    r.seen++; r.lastAt = nowTs();
+    save();
+  }
+  /* 这一块要挂到 window 上给界面模块调用，不能依赖本模块外的 esc——
+     引擎模块里根本没有 esc（那是界面模块的局部函数）。
+     自带一个转义，搬到哪里都能独立跑。 */
+  function memoEsc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+  /* mode: 'fb' 答复区（带投票）｜'block' 卡片内（带投票）｜'detail' 详情页 */
+  function memoCardHtml(point, gm, mode) {
+    if (!gm) return '';
+    var r = memoRec(point);
+    var vote = mode === 'detail' ? '' :
+      '<div class="memo-vote">' +
+        '<span class="memo-vote-q">这句管用吗？</span>' +
+        '<button class="memo-btn" data-act="memo-vote" data-point="' + memoEsc(point) + '" data-ok="1">管用</button>' +
+        '<button class="memo-btn" data-act="memo-vote" data-point="' + memoEsc(point) + '" data-ok="0">没帮上</button>' +
+        /* 投过票就把票数亮出来：不亮的话，孩子不知道自己的判断有没有被记下，
+           下次就不会再点。 */
+        (r.up + r.down ? '<span class="memo-count">已记：管用 ' + r.up + ' · 没帮上 ' + r.down + '</span>' : '') +
+      '</div>';
+    return '<div class="memo-card' + (mode === 'fb' ? ' in-fb' : '') + '">' +
+      '<div class="memo-head"><span class="memo-tag">口诀</span>' +
+        '<span class="memo-point">' + memoEsc(point) + '</span></div>' +
+      '<div class="memo-body">' + memoEsc(gm.memo) + '</div>' +
+      /* 公式页没有具体题目，写「本题的坑」是错话——那里只有一个考点，
+         应该说「这类题的坑」。 */
+      '<div class="memo-trap"><b>' + (mode === 'detail' ? '这类题的坑' : '本题的坑') + '</b>' +
+        memoEsc(gm.trap) + '</div>' +
+      vote + '</div>';
+  }
+  /* 口诀这几个函数要跨模块用：埋点在 ENGINE 模块（answerSingle），
+     渲染在 UI 模块（renderExercise / renderFeedback / formulaCardHtml）。
+     两个都是独立 IIFE，函数声明不共享——所以显式挂一次 window，
+     UI 那边取 MEMO 别名调用。漏了这一步的后果不是「口诀不显示」这么轻：
+     renderExercise 抛 ReferenceError 会让整个 render() 中断，
+     DOM 停在上一帧，孩子看到的反馈区一直停在「再想一步」。 */
+  window.MEMO = {
+    of: memoOf, stat: memoStat, rec: memoRec,
+    vote: memoVote, miss: memoMiss, seen: memoSeen, card: memoCardHtml
+  };
+
   /* 旧数据迁移：早期题庄题目把「出处 / 考点 / 年份 / 题号」排在材料最前面，
      题干被挤到下面，每做一题都要先往下滚一段才看到题。
      这里把题干提到第一行，来源压到最后——已经导入档案里的题也一并修好。 */
@@ -20790,6 +20969,13 @@ window.EN_VSRC = {
     var fb2 = baseFeedback(correct ? 'correct' : 'revealed', correct ? '✓ 正确' : '✗ 再看解析', '', q);
     fb2.formula_box = q.formula_ref;
     fb2.chosen = chosen.text;
+    /* 答错时记一笔「这条口诀此前已给过、同类题还是错」。
+       只有「见过」过才记：第一次见这条口诀就答错，不怪口诀。
+       这条被动数据比投票可信——投票看心情，这个看结果。 */
+    if (!correct && q.subject === 'english' && q.grammar_point) {
+      var ms = memoStat()[q.grammar_point];
+      if (ms && ms.seen > 0) memoMiss(q.grammar_point);
+    }
     var mem;
 
     if (correct) {
@@ -28775,6 +28961,10 @@ window.CNDEEP = (function () {
   // 严格模式下不能直接引用未声明变量。
   var ic = window.ic;
   var ICONS = window.ICONS || {};
+  // 语法口诀：函数定义在引擎模块里，这里只取别名（详见 window.MEMO 处的注释）。
+  var MEMO = window.MEMO || { card: function () { return ''; }, of: function () { return null; },
+                              vote: function () { return { up: 0, down: 0 }; },
+                              seen: function () { }, miss: function () { }, stat: function () { return {}; } };
   var $ = function (s) { return document.querySelector(s); };
   // 审题环节的三步门：stem=只给题干（藏选项），guess=勾了考点但仍藏选项，choices=放选项。
   // 只对「新题首答」生效，复习 / 错题回流 / 重试直接进 choices，避免反复被挡。
@@ -29420,6 +29610,21 @@ window.CNDEEP = (function () {
       var m = fb.memory_state_update;
       h += '<div style="margin-top:9px;font-size:12px;color:var(--ink2)">记忆状态 S=' + m.stability + ' · D=' + m.difficulty + ' · R=' + m.retrievability + ' · 下次复习 ' + esc(m.nextReviewAt) + '</div>';
     }
+    /* 口诀只在「最终答错」时给。答对不给——那一刻需要的是下一题。
+       首次错选（retry）也不给：还没让孩子自己再想一次，就等于直接报答案。 */
+    if (fb.status === 'revealed' && q && q.subject === 'english') {
+      var mo = MEMO.of(q);
+      if (mo) {
+        /* 每道题只记一次「看到」（同一题反复重做不该刷高分母）。
+           要不要记 miss 由作答处判定——那里知道「这条口诀此前已经给过」，
+           而这里只是渲染，拿不到「之前给过没有」。 */
+        if (fb.memoSeenPoint !== mo.point) {
+          fb.memoSeenPoint = mo.point;
+          MEMO.seen(mo.point);
+        }
+        h += MEMO.card(mo.point, mo, 'fb');
+      }
+    }
     if (fb.status !== 'retry') {
       // 做过错、或者错过一次才答对，才给「举一反三」：全对的题没必要再刷同类
       var simCause = fb.similarCause || '';
@@ -29813,9 +30018,12 @@ window.CNDEEP = (function () {
       }
       // 只有「已定论」才展开（答对 / 最终答错）。首次错选进入 retry 时仍收起——
       // 否则乱点一个选项就能把规则骗出来，等于绕过了这道锁。
+      // 口诀（GRAM_MEMO）跟着这段走：它虽是压缩版，但「有 although 就不填 but」
+      // 这种一句就是答案，答题前露出来等于送分。
       var answered = !!(fb && fb.status !== 'retry');
       var showRule = answered || state.ruleOpen;
       var peeked = !answered && state.ruleOpen;
+      var gm = (window.GRAM_MEMO || {})[q.grammar_point || ''] || null;
       var ruleBody;
       if (showRule) {
         ruleBody = (fm
@@ -29823,13 +30031,14 @@ window.CNDEEP = (function () {
             '<ol class="gram-steps">' + fm.steps.map(function (s2) { return '<li>' + esc(s2) + '</li>'; }).join('') + '</ol>' +
             '<div class="gram-tip">' + ic('bulb','gram-tip-icon') + esc(fm.tip) + '</div>'
           : '<div class="gram-body">' + esc(q.formula_ref || '') + '</div>') +
+          (gm ? MEMO.card(q.grammar_point, gm, 'block') : '') +
           (peeked ? '<div class="gram-peek-warn">你提前看了规则。下次先自己判断再看——先看规则，等于连答案一起看了。</div>' : '');
       } else {
         // 收起态：只说是哪条规则，不给内容。锁定式排版，一眼看出「有东西但没开」
         ruleBody = '<div class="gram-locked">' +
           ic('lock','gram-lock-icon') +
           '<div class="gram-lock-title">规则答完这题再展开</div>' +
-          '<div class="gram-lock-sub">包含：判断口径 · 分步自检 · 常见坑</div>' +
+          '<div class="gram-lock-sub">包含：判断口径 · 分步自检 · 常见坑' + (gm ? ' · 一句话口诀' : '') + '</div>' +
           '</div>' +
           '<button class="mini-btn gram-peek-btn" data-act="peek-rule">我卡住了，看规则</button>' +
           '<div class="gram-peek-hint">点开会看到答案，慎点</div>';
@@ -30369,6 +30578,10 @@ window.CNDEEP = (function () {
     /* 每张卡都算一次「有没有配套题」：有就直接给入口，没有就直说。
        搜索时也在算——同一份缓存，不额外花钱。 */
     var fx = fxFor(f, sub, 3);
+    /* 口诀插在「答案三步」之后、tip 之前：先看怎么算，再看一句话钩子，
+       最后才是易错提醒。顺序反了会让人觉得口诀只是装饰。 */
+    var memoBlock = (sub === 'english' && (window.GRAM_MEMO || {})[f.name])
+      ? MEMO.card(f.name, window.GRAM_MEMO[f.name], 'detail') : '';
     var foot;
     if (fx.total) {
       foot = '<span class="fcard-n"><b>' + fx.total + '</b> 道' +
@@ -30388,6 +30601,7 @@ window.CNDEEP = (function () {
     return '<div class="formula-card"><h3>' + h(f.name) + '</h3><div class="body">' + h(f.body) + '</div>' +
       '<ol>' + f.steps.map(function (s) { return '<li>' + h(s) + '</li>'; }).join('') + '</ol>' +
       '<div class="tip">' + ic('bulb','gram-tip-icon') + h(f.tip) + '</div>' +
+      memoBlock +
       '<div class="fcard-foot">' + foot +
         '<button class="fcard-more" data-act="formula-detail" data-sub="' +
         sub + '" data-i="' + o.i + '">详情 ›</button></div></div>';
@@ -31844,6 +32058,28 @@ window.CNDEEP = (function () {
         case 'close-modal': closeModal(); break;
         case 'toggle-passage': state.passageOpen = !state.passageOpen; render(); break;
         case 'kw-toggle': state.kwOn = !state.kwOn; render(); break;
+        case 'memo-vote': {
+          /* 口诀效力自测：投一票，当场回显累计票数。
+             只记「管用/没帮上」，不问原因——多一个输入框，孩子就不点了。 */
+          var mp = el.getAttribute('data-point') || '';
+          var okv = el.getAttribute('data-ok') === '1';
+          var rec = MEMO.vote(mp, okv);
+          toast(okv ? '记下了：这一条管用' : '记下了：这一条没帮上，攒够样本会换掉');
+          try {
+            var box = el.parentNode;
+            if (box) {
+              var cnt = box.querySelector('.memo-count');
+              var txt = '已记：管用 ' + rec.up + ' · 没帮上 ' + rec.down;
+              if (cnt) cnt.textContent = txt;
+              else {
+                var sp2 = document.createElement('span');
+                sp2.className = 'memo-count'; sp2.textContent = txt;
+                box.appendChild(sp2);
+              }
+            }
+          } catch (eMV) { render(); }
+          break;
+        }
         case 'peek-rule':
           // 主动破例看规则：记下是哪道题，答完后在反馈里提醒一句
           state.ruleOpen = true;

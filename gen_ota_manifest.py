@@ -17,12 +17,13 @@ OTA = os.path.join(ROOT, 'ota')
 HTML = os.path.join(OTA, 'train.html')
 MANIFEST = os.path.join(OTA, 'manifest.json')
 
-VERSION = '2.25'
-BUILD = 36  # 与 APK versionCode 一致
-NOTE = ('修掉一个会在夜里发作的隐患：题库元信息的发布时间带时区偏移（我们写 +08:00，'
-        'GitHub Actions 的 bank-bot 写 +00:00），原来按字符串比大小挑「最新镜像」，'
-        '只要本地发布的小时数大于 21，就会把凌晨那份更旧的题库判成最新、整包下回来覆盖；'
-        '现在一律转时间戳再比。附 3 项跨时区排序验收')
+VERSION = '2.26'
+BUILD = 37  # 与 APK versionCode 一致
+NOTE = ('英语语法加了「一句话口诀」：11 个高频考点（覆盖 60 道题）各一条，'
+        '只在最终答错后出现，答对不给——做对那一刻需要的是下一题，不是又一段字。'
+        '口诀按题库真实考法自己写，不对着题就写不出「有 although 就不填 but」这种话。'
+        '带「管用 / 没帮上」自测，两周后看数据，点了也照样错的超过一半就换掉。'
+        '附 29 项验收')
 
 
 def main():
