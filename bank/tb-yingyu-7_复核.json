@@ -2,52 +2,178 @@
   "note": "以下题未入库，供教师人工复核；脚本不擅自更正答案。",
   "items": [
     {
-      "id": 4475929,
+      "id": 7620689,
       "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "1—What are those?\n\n— are\ntheir books．\n\nA．That B．They’re C．They",
+      "title": "---Shall I show you how to write? ----_____.A．Yes, of courseB．Thank youC．Not at allD．You’re welcome",
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 7620698,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
+      "title": "---Don’t you feel cold, Tim? You wear such a jacket in a day at -5℃．\n---___________．I’m boiling．A．No worryB．Take it easyC．Not in the leastD．That’s OK",
       "answer": "C",
       "analysis": ""
     },
     {
-      "id": 4475931,
+      "id": 7620718,
       "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "1—Is this _____ basketball?\n\n—No．It's _____ basketball．\n\nA．you；my B．my；you C．your；his",
+      "title": "—Do you think the fine weather will keep up?\n—______.A．I believe itB．I don’t believe it\nC．I believe not soD．I don’t believe so",
+      "answer": "D",
+      "analysis": ""
+    },
+    {
+      "id": 7622004,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
+      "title": "The government tried ____ they could ____ the people in YushuA．all; helpB．what; to helpC．that; helpD．that; to help",
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 7622022,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
+      "title": "It was impossible to avoid _____ by his opinion。A．affectingB．to be affectedC．affectedD．being affected",
+      "answer": "D",
+      "analysis": ""
+    },
+    {
+      "id": 7622038,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
+      "title": ".\nThe report shows that global climate change__________the drought in Southwest of China but ______ we need to make greater efforts.A．accounts for; thatB．due to",
+      "answer": "A",
+      "analysis": ""
+    },
+    {
+      "id": 7622060,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
+      "title": "________ countries and areas have been seriously hit by the typhoon. Now people in the affected\nareas are ______food and fresh water.A．A number of; lacking inB．",
+      "answer": "A",
+      "analysis": ""
+    },
+    {
+      "id": 7622077,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
+      "title": "You should try to get a good night’s sleep ____ much work you have to do. A．howeverB．no matterC．althoughD．whatever",
+      "answer": "A",
+      "analysis": ""
+    },
+    {
+      "id": 7622093,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
+      "title": "________ you are free tonight, why not go to the movies with me ?A．As ifB．Even ifC．As forD．Now that",
+      "answer": "D",
+      "analysis": ""
+    },
+    {
+      "id": 7622114,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
+      "title": "The _____, I think, he drew from his simple experiment is not scientific.A．conclusionB．chargeC．promiseD．relation",
+      "answer": "A",
+      "analysis": ""
+    },
+    {
+      "id": 7622138,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
+      "title": ".\nWhen I left _________ college, I got a job as _________ journalist in a magazine office．A．a; theB．/; aC．the; a D．/; the",
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 7622155,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
+      "title": "Our life is becoming better and better, while in some countries there are still some people ______ from hunger.A．sufferB．sufferedC．being sufferedD．suffering",
+      "answer": "D",
+      "analysis": ""
+    },
+    {
+      "id": 7622188,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
+      "title": "-- Excuse me, Sir. You_________take your camera into the museum.\n-- Sorry, I didn't know and I promise you I_________. A．needn't; mustn'tB．can't; won't\nC．mustn'",
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 7622208,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
+      "title": "Her answer was so confused that the teacher could hardly make any ______ of it.A．ideaB．senseC．differenceD．meaning",
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 7622228,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
+      "title": ".\nThere is no electricity or water and even no textbooks____.A．tooB．eitherC．butD．so",
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 7622248,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
+      "title": "It is obvious to the students ______they should get well prepared for their future.A．whichB．thatC．asD．whether",
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 7622265,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
+      "title": "This kind of animal is able to protect itself from danger in many years. ________, the colouring of its hide makes it almost invisible when it is feeding in the",
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 7622281,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
+      "title": "It is reported that housing prices of China rose by 1.5% in January this year, ______ with the same month last year, ______ the public doubt deeply.A．compared, ",
       "answer": "C",
       "analysis": ""
     },
     {
-      "id": 4475934,
+      "id": 7622300,
       "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "1Mum,\nmy teacher（老师）, Mr. Wang．\n\nA．she is B．this is C．here is",
-      "answer": "B",
+      "title": "No sooner _____ Jim left the room _____ the telephone rang.A．had; whenB．did; thanC．had; thanD．did; when",
+      "answer": "C",
       "analysis": ""
     },
     {
-      "id": 4475938,
+      "id": 7622317,
       "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "1—_______ are your pens?\n\n—________ black．\n\nA．What; It’s\n\nB．What color; They’re\n\nC．Where; Them",
-      "answer": "B",
+      "title": "It seems that creative thinking, which is one of the most___________skills in society, is a matter of habits. A．high valuedB．high valuingC．highly valuedD．highly",
+      "answer": "C",
       "analysis": ""
     },
     {
-      "id": 4475964,
+      "id": 7622337,
       "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "1—\nare my keys? —They are on the sofa.\n\nA．What B．Where C．Why",
-      "answer": "B",
+      "title": "Scientists photographed for the first time ever _____ wild gorillas used a stick to test the depth of a pool before getting into it, according to a recent study",
+      "answer": "C",
       "analysis": ""
     },
     {
-      "id": 4478929,
+      "id": 7622357,
       "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "找出划线部分读音与其它三个不同的选项\n1.A.cow B. know C. flower D.brown\n2.A. flew B. grew C. knew D. drew\n3.A. finished B. jumped C. camped D. stayed\n4.A. language B. something C.",
-      "answer": "B",
-      "analysis": "【解析】\n试题分析：\n1.ow [aʊ]；B. know [əʊ];C. flower [aʊ]；D.brown [aʊ],故选B。\n2.. flew [uː];B. grew[uː];C. knew [juː];D. drew[uː],故选C。\n3.. finished [t];B. jumped [t]; C. camped [t]; D. stayed[d] ,故选D。\n4.. language [ŋɡ];B. something [ŋ]; C. dumpling[ŋ]; D. song[ŋ] ,故选A。\n5.. stop [ɒ]; B. hot [ɒ]; C. blonde [ɒ]; "
+      "title": ".\n. To her disappointment, what she had devoted herself to ____ in nothing but failure.A．resultingB．resultsC．has resultedD．resulted",
+      "answer": "D",
+      "analysis": ""
     },
     {
-      "id": 6378879,
+      "id": 7622376,
       "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "This is ______ key, and that is ________ orange.\nA. a; a B. a; an C. an; an",
-      "answer": "B",
+      "title": "They served raw vegetables with the hamburgers and boiled the potatoes ________ fried them.A．other thanB．more thanC．rather thanD．less than",
+      "answer": "C",
+      "analysis": ""
+    },
+    {
+      "id": 7622399,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
+      "title": "I’m sure you ______ to us just now, because we already know the truth.A．layB．laidC．lieD．lied",
+      "answer": "D",
+      "analysis": ""
+    },
+    {
+      "id": 7622420,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
+      "title": "——Hi, Steve, you look tired.\n——I am tired. I ______ the living room all the afternoon.A．paintedB．had paintedC．have been paintingD．have painted",
+      "answer": "C",
       "analysis": ""
     }
   ]

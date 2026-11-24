@@ -1,13 +1,13 @@
 {
   "format": "zx-trainer-bank-v1",
   "source": "题庄真题库（tizhuang.qcscience.cc）",
-  "generatedAt": "2026-11-22T01:13:45.197013+00:00",
+  "generatedAt": "2026-11-24T05:19:35.405255+00:00",
   "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。英语题的 grammar_group / grammar_point 由关键词推断（结构类优先于时态类），口语交际与语法填空等主观题不在采集范围内。",
   "stats": {
-    "usable": 62,
-    "skipped": 8,
-    "thisRun": 27,
-    "added": 11
+    "usable": 74,
+    "skipped": 23,
+    "thisRun": 12,
+    "added": 12
   },
   "items": [
     {
@@ -4782,6 +4782,870 @@
         "is_auto_gradable": true,
         "knowledges": "语态的辨析",
         "year": 2015
+      }
+    },
+    {
+      "id": "TZ10668149",
+      "source": "题庄真题 · 模拟题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "词汇辨析",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词汇辨析",
+      "grammar_point": "固定搭配",
+      "mode": "single",
+      "stem": "— How are you getting on with your study?\n— _____, I haven't made _____ I expected.",
+      "passage": "【题干原文】\n— How are you getting on with your study?\n— _____, I haven't made _____ I expected.\n\n【考点】日常用语、谚语,固定搭配\n【出处】模拟题 · 2010 · 题庄题号 10668149",
+      "options": [
+        {
+          "key": "A",
+          "text": "Well, as much progress as",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "Oh, so much progress as",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "What, as many progress as",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "Yes, so more progress as",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "固定搭配",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "976b4dec466c2cf391e798e6ff7b8119",
+      "raw": {
+        "id": 10668149,
+        "title_html": "— How are you getting on with your study?      <br>— _____, I haven&#x27;t made _____ I expected. <br><div align=\"right\">[     ]</div><br>A. Well, as much progress as <br>B. Oh, so much progress as<br>C. What, as many progress as <br>D. Yes, so more progress as",
+        "options_html": {},
+        "answer": "A",
+        "answer_html": "A",
+        "analysis_html": "",
+        "content_hash": "976b4dec466c2cf391e798e6ff7b8119",
+        "source": "模拟题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "日常用语、谚语,固定搭配",
+        "year": 2010
+      }
+    },
+    {
+      "id": "TZ10669072",
+      "source": "题庄真题 · 广东省中考真题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "名词与数",
+      "mode": "single",
+      "stem": "—Could you please tell me something about the two _______?\n—_______. They are exchange students of No. 1 Middle School.",
+      "passage": "【题干原文】\n—Could you please tell me something about the two _______?\n—_______. They are exchange students of No. 1 Middle School.\n\n【考点】日常用语、谚语,专有名词\n【出处】广东省中考真题 · 2011 · 题庄题号 10669072",
+      "options": [
+        {
+          "key": "A",
+          "text": "Frenchmen; Yes, please",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "Frenchmans; Come on",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "Germen; Not at all",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "Germans; All right",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "名词与数",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "71f48e0b65b64f4893367d5fdb3b7f9a",
+      "raw": {
+        "id": 10669072,
+        "title_html": "—Could you please tell me something about the two _______?<br>—_______. They are exchange students of No. 1 Middle School. <br><div align=\"right\">[     ]</div><br>A. Frenchmen; Yes, please <br>B. Frenchmans; Come on <br>C. Germen; Not at all <br>D. Germans; All right",
+        "options_html": {},
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "71f48e0b65b64f4893367d5fdb3b7f9a",
+        "source": "广东省中考真题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "日常用语、谚语,专有名词",
+        "year": 2011
+      }
+    },
+    {
+      "id": "TZ10669374",
+      "source": "题庄真题 · 江苏中考真题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "—I'm going to Sanya for my holiday tomorrow.\n—_______",
+      "passage": "【题干原文】\n—I'm going to Sanya for my holiday tomorrow.\n—_______\n\n【考点】日常用语、谚语\n【出处】江苏中考真题 · 2012 · 题庄题号 10669374",
+      "options": [
+        {
+          "key": "A",
+          "text": "Have a good time!",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "You're right.",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "It's good.",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "Goodbye!",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "6234e920d3c4eeac0237479efc89475a",
+      "raw": {
+        "id": 10669374,
+        "title_html": "—I&#x27;m going to Sanya for my holiday tomorrow.<br>—_______ <br><p align=\"right\">[     ]</p><br>A. Have a good time! <br>B. You&#x27;re right.<br> C. It&#x27;s good.<br> D. Goodbye!",
+        "options_html": {},
+        "answer": "A",
+        "answer_html": "A",
+        "analysis_html": "",
+        "content_hash": "6234e920d3c4eeac0237479efc89475a",
+        "source": "江苏中考真题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "日常用语、谚语",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ10669380",
+      "source": "题庄真题 · 天津中考真题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "— I hope you'll have a good journey.\n— _____.",
+      "passage": "【题干原文】\n— I hope you'll have a good journey.\n— _____.\n\n【考点】日常用语、谚语\n【出处】天津中考真题 · 2012 · 题庄题号 10669380",
+      "options": [
+        {
+          "key": "A",
+          "text": "Well done",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "Don't mention it",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "Certainly",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "Thank you very much",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "892645a88ca1372a3f541c156bf6351d",
+      "raw": {
+        "id": 10669380,
+        "title_html": "— I hope you&#x27;ll have a good journey. <br>— _____. <br><p align=\"right\">[     ]</p><br>A. Well done <br>B. Don&#x27;t mention it <br>C. Certainly <br>D. Thank you very much",
+        "options_html": {},
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "892645a88ca1372a3f541c156bf6351d",
+        "source": "天津中考真题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "日常用语、谚语",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ10669399",
+      "source": "题庄真题 · 天津中考真题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "— Shall we raise some money for children of Yushu, Qinghai Province?\n— _____.",
+      "passage": "【题干原文】\n— Shall we raise some money for children of Yushu, Qinghai Province?\n— _____.\n\n【考点】日常用语、谚语\n【出处】天津中考真题 · 2012 · 题庄题号 10669399",
+      "options": [
+        {
+          "key": "A",
+          "text": "I see.",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "It's a pleasure.",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "I don't believe it.",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "That's a good idea.",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "f4a85b83c4dfb89883b615f53f2dfc16",
+      "raw": {
+        "id": 10669399,
+        "title_html": "— Shall we raise some money for children of Yushu, Qinghai Province? <br>— _____. <br><p align=\"right\">[     ]</p><br>A. I see. <br>B. It&#x27;s a pleasure. <br>C. I don&#x27;t believe it. <br>D. That&#x27;s a good idea.",
+        "options_html": {},
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "f4a85b83c4dfb89883b615f53f2dfc16",
+        "source": "天津中考真题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "日常用语、谚语",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ10669410",
+      "source": "题庄真题 · 四川省中考真题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "—Can you come to my birthday party next Sunday?\n—Oh, thanks _______.",
+      "passage": "【题干原文】\n—Can you come to my birthday party next Sunday?\n—Oh, thanks _______.\n\n【考点】日常用语、谚语\n【出处】四川省中考真题 · 2012 · 题庄题号 10669410",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, please.",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "I've no idea.",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "I'd love to.",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "Yes, I would.",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "7abbbc9e57bc0c0ada7b7b2ed135b6a7",
+      "raw": {
+        "id": 10669410,
+        "title_html": "—Can you come to my birthday party next Sunday?<br>—Oh, thanks _______. <br><p align=\"right\">[     ]</p><br>A. Yes, please. <br>B. I&#x27;ve no idea.<br> C. I&#x27;d love to.<br> D. Yes, I would.",
+        "options_html": {},
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "7abbbc9e57bc0c0ada7b7b2ed135b6a7",
+        "source": "四川省中考真题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "日常用语、谚语",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ10669436",
+      "source": "题庄真题 · 云南省中考真题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "People in English-speaking countries usually greet each other in this way \"______\".",
+      "passage": "【题干原文】\nPeople in English-speaking countries usually greet each other in this way \"______\".\n\n【考点】日常用语、谚语\n【出处】云南省中考真题 · 2012 · 题庄题号 10669436",
+      "options": [
+        {
+          "key": "A",
+          "text": "Have you eaten?",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "A nice day, isn't it?",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "B and",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "D. Nice to see you.",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "24a2a5040093d328111404a1960731e5",
+      "raw": {
+        "id": 10669436,
+        "title_html": "People in English-speaking countries usually greet each other in this way &quot;______&quot;. <br><p align=\"right\">[     ]</p><br>A. Have you eaten? <br>B. A nice day, isn&#x27;t it?<br> C. B and D. <br>D. Nice to see you.",
+        "options_html": {},
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "24a2a5040093d328111404a1960731e5",
+        "source": "云南省中考真题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "日常用语、谚语",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ10669481",
+      "source": "题庄真题 · 澳门特别行政区中考真题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "—I'll go and climb the Western Hills this weekend. Would you like to go with me?\n—_____. Please call me when you go.",
+      "passage": "【题干原文】\n—I'll go and climb the Western Hills this weekend. Would you like to go with me?\n—_____. Please call me when you go.\n\n【考点】日常用语、谚语\n【出处】澳门特别行政区中考真题 · 2012 · 题庄题号 10669481",
+      "options": [
+        {
+          "key": "A",
+          "text": "No, I won't",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "I won't go",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "Sorry, I'm busy",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "Yes, I'd love to",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "533a349315f4fc853226d2b5afe1a862",
+      "raw": {
+        "id": 10669481,
+        "title_html": "—I&#x27;ll go and climb the Western Hills this weekend. Would you like to go with me? <br>—_____. Please call me when you go. <br><p align=\"right\">[     ]</p><br>A. No, I won&#x27;t<br> B. I won&#x27;t go <br>C. Sorry, I&#x27;m busy <br>D. Yes, I&#x27;d love to",
+        "options_html": {},
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "533a349315f4fc853226d2b5afe1a862",
+        "source": "澳门特别行政区中考真题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "日常用语、谚语",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ10669487",
+      "source": "题庄真题 · 湖北省中考真题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "—Emma has been ill for a week. Is she all right now?\n—__________. The teacher says she can come to school tomorrow.",
+      "passage": "【题干原文】\n—Emma has been ill for a week. Is she all right now?\n—__________. The teacher says she can come to school tomorrow.\n\n【考点】日常用语、谚语\n【出处】湖北省中考真题 · 2012 · 题庄题号 10669487",
+      "options": [
+        {
+          "key": "A",
+          "text": "I think so",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "That's it",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "I'm afraid not",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "That's true",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "909c864a00468b87c8e3966440610485",
+      "raw": {
+        "id": 10669487,
+        "title_html": "—Emma has been ill for a week. Is she all right now?<br>—__________. The teacher says she can come to school tomorrow. <br><p align=\"right\">[     ]</p><br>A. I think so<br> B. That&#x27;s it <br>C. I&#x27;m afraid not <br>D. That&#x27;s true",
+        "options_html": {},
+        "answer": "A",
+        "answer_html": "A",
+        "analysis_html": "",
+        "content_hash": "909c864a00468b87c8e3966440610485",
+        "source": "湖北省中考真题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "日常用语、谚语",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ10669499",
+      "source": "题庄真题 · 江苏中考真题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "—How about going shopping on Hunan Road this evening?\n—______. But I've to prepare for tomorrow's exam.",
+      "passage": "【题干原文】\n—How about going shopping on Hunan Road this evening?\n—______. But I've to prepare for tomorrow's exam.\n\n【考点】日常用语、谚语\n【出处】江苏中考真题 · 2012 · 题庄题号 10669499",
+      "options": [
+        {
+          "key": "A",
+          "text": "I can't",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "Sounds great",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "That's right",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "No, I'm terribly sorry",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "367c9d9582f551979043e5893747dd84",
+      "raw": {
+        "id": 10669499,
+        "title_html": "—How about going shopping on Hunan Road this evening?<br> —______. But I&#x27;ve to prepare for tomorrow&#x27;s exam. <br><p align=\"right\">[     ]</p><br>A. I can&#x27;t <br>B. Sounds great <br>C. That&#x27;s right <br>D. No, I&#x27;m terribly sorry",
+        "options_html": {},
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "367c9d9582f551979043e5893747dd84",
+        "source": "江苏中考真题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "日常用语、谚语",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ10669504",
+      "source": "题庄真题 · 湖北省中考真题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "— Would you help me put away these things?\n— _____.",
+      "passage": "【题干原文】\n— Would you help me put away these things?\n— _____.\n\n【考点】日常用语、谚语\n【出处】湖北省中考真题 · 2012 · 题庄题号 10669504",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, quite right",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "Never mind",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "You're welcome",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "With pleasure",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "2672baf0ef7ea84bb224ee6df976756c",
+      "raw": {
+        "id": 10669504,
+        "title_html": "— Would you help me put away these things?<br> — _____. <br><p align=\"right\">[     ]</p><br>A. Yes, quite right <br>B. Never mind <br>C. You&#x27;re welcome <br>D. With pleasure",
+        "options_html": {},
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "2672baf0ef7ea84bb224ee6df976756c",
+        "source": "湖北省中考真题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "日常用语、谚语",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ10669528",
+      "source": "题庄真题 · 浙江省中考真题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "— Mike, would you mind not wearing those old jeans? They look terrible.\n— _____",
+      "passage": "【题干原文】\n— Mike, would you mind not wearing those old jeans? They look terrible.\n— _____\n\n【考点】日常用语、谚语\n【出处】浙江省中考真题 · 2012 · 题庄题号 10669528",
+      "options": [
+        {
+          "key": "A",
+          "text": "OK. I'll put on another pair.",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "B",
+          "text": "Sure. I'll do it right away.",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "Sorry, I won't be long.",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "Alright. I'll do them in a minute.",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "c451581468f4901f785a148c1ef2f420",
+      "raw": {
+        "id": 10669528,
+        "title_html": "— Mike, would you mind not wearing those old jeans? They look terrible. <br>— _____<br><br>A. OK. I&#x27;ll put on another pair. <br>B. Sure. I&#x27;ll do it right away. <br>C. Sorry, I won&#x27;t be long. <br>D. Alright. I&#x27;ll do them in a minute.",
+        "options_html": {},
+        "answer": "A",
+        "answer_html": "A",
+        "analysis_html": "",
+        "content_hash": "c451581468f4901f785a148c1ef2f420",
+        "source": "浙江省中考真题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "日常用语、谚语",
+        "year": 2012
       }
     }
   ]

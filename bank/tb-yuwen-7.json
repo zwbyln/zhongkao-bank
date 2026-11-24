@@ -1,13 +1,13 @@
 {
   "format": "zx-trainer-bank-v1",
   "source": "题庄真题库（tizhuang.qcscience.cc）",
-  "generatedAt": "2026-11-21T02:10:53.454071+00:00",
+  "generatedAt": "2026-11-24T05:19:04.161845+00:00",
   "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。英语题的 grammar_group / grammar_point 由关键词推断（结构类优先于时态类），口语交际与语法填空等主观题不在采集范围内。",
   "stats": {
-    "usable": 43,
+    "usable": 46,
     "skipped": 0,
     "thisRun": 5,
-    "added": 0
+    "added": 3
   },
   "items": [
     {
@@ -3289,6 +3289,222 @@
         "is_auto_gradable": true,
         "knowledges": "量词;数词;助词;并列短语;偏正短语",
         "year": 2023
+      }
+    },
+    {
+      "id": "TZ7386575",
+      "source": "题庄真题 · 广东省月考题",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "依次填入下列句子横线处的词语,最恰当的一项是\n\n\n⑴ 英子，不要怕，_____什么困难的事，只要硬着头皮去做，就闯过去了。\n⑵_____你是一只天鹅蛋，就算是生在养鸭场里也没有什么关系。\n⑶黄河以它英雄的气魄，_____在亚洲的原野。\n⑷拍雪人和塑雪罗汉需要人们_____，这是荒园，人迹罕至，所以不相宜，只好来捕鸟。",
+      "passage": "【题干原文】\n依次填入下列句子横线处的词语,最恰当的一项是\n\n\n⑴ 英子，不要怕，_____什么困难的事，只要硬着头皮去做，就闯过去了。\n⑵_____你是一只天鹅蛋，就算是生在养鸭场里也没有什么关系。\n⑶黄河以它英雄的气魄，_____在亚洲的原野。\n⑷拍雪人和塑雪罗汉需要人们_____，这是荒园，人迹罕至，所以不相宜，只好来捕鸟。\n\n【考点】正确使用词语,关联词语\n【出处】广东省月考题 · 2012 · 题庄题号 7386575",
+      "options": [
+        {
+          "key": "A",
+          "text": "尽管 只要 涌现 鉴赏",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "无论 只要 出现 鉴赏",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "无论 如果 出现 欣赏",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "尽管 如果 涌现 欣赏",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "792b2e829275b135612937bb9004ad54",
+      "raw": {
+        "id": 7386575,
+        "title_html": "依次填入下列句子横线处的词语,最恰当的一项是<br><div align=\"right\">[     ]</div><br>⑴ 英子，不要怕，_____什么困难的事，只要硬着头皮去做，就闯过去了。 <br>⑵_____你是一只天鹅蛋，就算是生在养鸭场里也没有什么关系。 <br>⑶黄河以它英雄的气魄，_____在亚洲的原野。 <br>⑷拍雪人和塑雪罗汉需要人们_____，这是荒园，人迹罕至，所以不相宜，只好来捕鸟。 <br>A．尽管  只要  涌现  鉴赏    <br>B．无论  只要  出现  鉴赏 <br>C．无论  如果  出现  欣赏    <br>D．尽管  如果  涌现  欣赏",
+        "options_html": {},
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "792b2e829275b135612937bb9004ad54",
+        "source": "广东省月考题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "正确使用词语,关联词语",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ7386643",
+      "source": "题庄真题 · 月考题",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "依次填入横线处最恰当的一项是\n\n\n（1）“春冰薄薄压枝柯，分与清香是月娥。忽似暑天深涧底，老松擎雪白婆娑。”这首诗描摹了琼花的形之美丽，色之___________，香之清淡，晶之高洁。\n（2）1月26日，2008年北京奥运火炬传递路线的发布仪式在北京中华世纪坛______，扬州成为入选的l35个城市之一。\n（3）一个人_____能够通过读书充分领略心灵的快乐，形成丰富的内心世界，他______拥有了一个永不枯竭的快乐源泉。",
+      "passage": "【题干原文】\n依次填入横线处最恰当的一项是\n\n\n（1）“春冰薄薄压枝柯，分与清香是月娥。忽似暑天深涧底，老松擎雪白婆娑。”这首诗描摹了琼花的形之美丽，色之___________，香之清淡，晶之高洁。\n（2）1月26日，2008年北京奥运火炬传递路线的发布仪式在北京中华世纪坛______，扬州成为入选的l35个城市之一。\n（3）一个人_____能够通过读书充分领略心灵的快乐，形成丰富的内心世界，他______拥有了一个永不枯竭的快乐源泉。\n\n【考点】正确使用词语,关联词语\n【出处】月考题 · 2012 · 题庄题号 7386643",
+      "options": [
+        {
+          "key": "A",
+          "text": "素雅 举办 即使／也",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "素雅 举行 倘若／就",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "文雅 举行 即使／也",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "文雅 举办 倘若／就",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 B。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "3bbc3cd4e242fb4c730b0466c8b4da00",
+      "raw": {
+        "id": 7386643,
+        "title_html": "依次填入横线处最恰当的一项是<br><div align=\"right\">[     ]</div><br>（1）“春冰薄薄压枝柯，分与清香是月娥。忽似暑天深涧底，老松擎雪白婆娑。”这首诗描摹了琼花的形之美丽，色之___________，香之清淡，晶之高洁。   <br>（2）1月26日，2008年北京奥运火炬传递路线的发布仪式在北京中华世纪坛______，扬州成为入选的l35个城市之一。   <br>（3）一个人_____能够通过读书充分领略心灵的快乐，形成丰富的内心世界，他______拥有了一个永不枯竭的快乐源泉。  <br>A．素雅  举办  即使／也    <br>B．素雅  举行  倘若／就   <br>C．文雅  举行  即使／也    <br>D．文雅  举办  倘若／就",
+        "options_html": {},
+        "answer": "B",
+        "answer_html": "<table style=\"word-break:break-all\"><tr><td>B</td></tr></table>",
+        "analysis_html": "",
+        "content_hash": "3bbc3cd4e242fb4c730b0466c8b4da00",
+        "source": "月考题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "正确使用词语,关联词语",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ7390488",
+      "source": "题庄真题 · 同步题",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "文言文",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "下列说法有错误的一项是",
+      "passage": "【题干原文】\n下列说法有错误的一项是\n\n【考点】词类活用,古今异义,通假字,文言句式\n【出处】同步题 · 2012 · 题庄题号 7390488",
+      "options": [
+        {
+          "key": "A",
+          "text": "“温故而知新”中的“故”“新”都是形容词用作名词，指旧知识和新知识",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "“孔文子何以谓之文也”，“何以”是“以何”的倒装，属宾语前置句",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "“学而时习之，不亦说乎”中的“说”通“悦”，高兴，愉快",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "“默而识之”中的“识”，古义是“认识、了解”，今义是“记住”",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "留删换调补贯六字诀 + 语境推断/组词推断/课内迁移；先判实词四大类",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "a021973ad62648ca7488f9a4035a093b",
+      "raw": {
+        "id": 7390488,
+        "title_html": "下列说法有错误的一项是<br><div align=\"right\">[     ]</div><br>A．“温故而知新”中的“故”“新”都是形容词用作名词，指旧知识和新知识。 <br>B．“孔文子何以谓之文也”，“何以”是“以何”的倒装，属宾语前置句。 <br>C．“学而时习之，不亦说乎”中的“说”通“悦”，高兴，愉快。 <br>D．“默而识之”中的“识”，古义是“认识、了解”，今义是“记住”。",
+        "options_html": {},
+        "answer": "D",
+        "answer_html": "D",
+        "analysis_html": "",
+        "content_hash": "a021973ad62648ca7488f9a4035a093b",
+        "source": "同步题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "词类活用,古今异义,通假字,文言句式",
+        "year": 2012
       }
     }
   ]
