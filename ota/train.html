@@ -705,6 +705,170 @@ body[data-theme="dark"] .fm-miss.warm{color:#dfe9ff}
 .memo-btn:active{transform:scale(.97)}
 .memo-count{font-size:12px;color:var(--ink2);opacity:.78}
 .gram-lock-sub{font-size:12.5px;color:var(--ink2);opacity:.72;line-height:1.6}
+/* ---------- 学法访谈录（2.27） ----------
+   一套独立的卡片语言，跟做题界面刻意不一样：
+   做题是「快、准、有对错」，这里是「慢一点、先共情、再给动作」。
+   所以这里不用对错的绿红，改用频道色（--c）。 */
+.method-entry{
+  display:flex;align-items:center;gap:11px;width:100%;text-align:left;
+  background:linear-gradient(135deg,#fff8ec,#fff);border:1.5px solid #f0d9b5;
+  border-radius:14px;padding:12px 14px;margin:10px 0 2px;cursor:pointer;font:inherit;
+}
+.method-entry:active{transform:scale(.995)}
+.me-ic{flex:0 0 auto;width:34px;height:34px;border-radius:10px;background:#fff1d6;
+  display:flex;align-items:center;justify-content:center;color:#a86200}
+.me-icon{width:19px;height:19px}
+.me-txt{flex:1;min-width:0}
+.me-txt b{display:block;font-size:15px;color:var(--ink);letter-spacing:.3px}
+.me-txt i{display:block;font-style:normal;font-size:12px;color:var(--ink2);opacity:.8;margin-top:2px}
+.me-badge{flex:0 0 auto;font-size:11.5px;color:#a86200;background:#fff1d6;border-radius:7px;padding:3px 8px}
+.me-go{flex:0 0 auto;font-size:12.5px;color:#a86200;font-weight:700}
+
+.method-wrap{max-width:760px;margin:0 auto}
+.method-back{
+  background:none;border:none;font:inherit;font-size:13.5px;color:var(--ink2);
+  padding:6px 2px 12px;cursor:pointer;opacity:.85;
+}
+.method-hero{
+  background:linear-gradient(160deg,#fffbf2,#fff);border:1.5px solid #f0e2c8;
+  border-radius:16px;padding:18px 18px 16px;margin-bottom:14px;
+}
+.mh-title{font-size:21px;font-weight:800;letter-spacing:.5px;color:var(--ink)}
+.mh-sub{font-size:13.5px;line-height:1.75;color:var(--ink2);margin-top:8px}
+.mh-note{font-size:12.5px;color:#a86200;margin-top:9px;font-weight:600}
+
+.mh-pick{display:flex;flex-direction:column;gap:9px}
+.mch{
+  display:flex;align-items:center;gap:12px;width:100%;text-align:left;font:inherit;
+  background:var(--card,#fff);border:1.5px solid var(--line,#d6dbe4);border-left:4px solid var(--c,#888);
+  border-radius:13px;padding:13px 14px;cursor:pointer;
+}
+.mch:active{transform:scale(.994)}
+.mch-ic{flex:0 0 auto;width:32px;height:32px;border-radius:9px;
+  background:#f3f5f8;
+  background:color-mix(in srgb,var(--c,#888) 12%,#fff);
+  display:flex;align-items:center;justify-content:center;color:var(--c,#666)}
+.mch-icon{width:18px;height:18px}
+.mch-body{flex:1;min-width:0}
+.mch-body b{display:block;font-size:15.5px;color:var(--ink)}
+.mch-body i{display:block;font-style:normal;font-size:12.5px;color:var(--ink2);margin-top:2px}
+.mch-n{flex:0 0 auto;font-size:12px;color:var(--ink2);text-align:right;line-height:1.5}
+.mch-n em{display:block;font-style:normal;font-size:11px;color:#0a7c5a;font-weight:700}
+
+.mh-sec{font-size:13px;font-weight:800;color:var(--ink2);margin:19px 0 9px;letter-spacing:.4px}
+
+.mcard-list{display:flex;flex-direction:column;gap:10px}
+.mcard{
+  display:block;width:100%;text-align:left;font:inherit;background:var(--card,#fff);
+  border:1.5px solid var(--line,#d6dbe4);border-radius:13px;padding:13px 15px;cursor:pointer;
+}
+.mcard:active{transform:scale(.994)}
+.mc-top{display:flex;align-items:center;gap:8px;margin-bottom:7px}
+.mc-no{font-size:11.5px;font-weight:800;color:#fff;background:#b9a17a;border-radius:5px;
+  width:19px;height:19px;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+.mc-kind{font-size:11px;border-radius:5px;padding:2px 7px;font-weight:700}
+.k-low{color:#8a4b00;background:#fff1dd}
+.k-anti{color:#1d5d7a;background:#e6f3f8}
+.mc-tried{margin-left:auto;font-size:11px;color:#0a7c5a;font-weight:700}
+.mc-title{font-size:16px;font-weight:800;color:var(--ink);line-height:1.42;letter-spacing:.2px}
+.mc-story{font-size:13px;color:var(--ink2);line-height:1.7;margin-top:7px}
+.mc-foot{font-size:11.5px;color:var(--ink2);opacity:.72;margin-top:9px}
+.mc-more{color:#a86200;font-weight:700;opacity:1}
+
+.method-chhead{border-left:4px solid var(--c,#888);padding:2px 0 2px 12px;margin-bottom:8px}
+.mchh-name{font-size:19px;font-weight:800;color:var(--ink)}
+.mchh-sub{font-size:12.5px;color:var(--ink2);margin-top:3px}
+.method-hint{font-size:12.5px;color:var(--ink2);opacity:.8;margin:2px 0 13px;line-height:1.6}
+
+.mdetail{background:var(--card,#fff);border:1.5px solid var(--line,#d6dbe4);border-radius:15px;
+  padding:17px 17px 14px;border-top:4px solid var(--c,#888)}
+.md-kind{font-size:11.5px;font-weight:800;color:var(--c,#888);letter-spacing:.6px}
+.md-title{font-size:20px;line-height:1.42;margin:7px 0 3px;color:var(--ink);letter-spacing:.2px}
+.md-sec{margin-top:17px}
+.md-label{font-size:12.5px;font-weight:800;color:var(--c,#888);letter-spacing:.4px;
+  margin-bottom:7px;display:flex;align-items:center;gap:8px}
+.md-count{margin-left:auto;font-size:11.5px;font-weight:600;color:var(--ink2);opacity:.8}
+.md-p{font-size:14.5px;line-height:1.85;color:var(--ink);margin:0}
+.md-said{
+  font-size:14.5px;line-height:1.8;color:var(--ink);
+  background:#faf7f1;border-left:3px solid #e2cfa8;border-radius:0 8px 8px 0;
+  padding:10px 13px;font-weight:600;
+}
+.try-item{
+  display:flex;align-items:flex-start;gap:10px;width:100%;text-align:left;font:inherit;
+  background:#fbfbfc;border:1.5px solid var(--line,#d6dbe4);border-radius:10px;
+  padding:10px 12px;margin-bottom:8px;cursor:pointer;line-height:1.6;
+}
+.try-item.on{background:#f0fbf5;border-color:#9ad4b8}
+.ti-box{flex:0 0 auto;width:19px;height:19px;border-radius:5px;border:1.5px solid #c3cbd6;
+  display:flex;align-items:center;justify-content:center;font-size:12px;color:#0a7c5a;
+  font-weight:800;margin-top:1px;background:var(--card,#fff)}
+.try-item.on .ti-box{background:#0a7c5a;border-color:#0a7c5a;color:#fff}
+.ti-t{flex:1;font-size:14px;color:var(--ink)}
+
+.md-warn{
+  margin-top:16px;font-size:13px;line-height:1.75;color:#7a5a12;
+  background:#fffbe9;border:1px solid #f0e0b0;border-radius:10px;padding:11px 13px;
+}
+.md-warn b{display:block;font-size:11.5px;color:#a86200;letter-spacing:.5px;margin-bottom:4px}
+
+.md-check{margin-top:16px;background:#f7f9fb;border-radius:11px;padding:13px}
+.md-q{font-size:14.5px;line-height:1.7;color:var(--ink);margin:0 0 11px;font-weight:600}
+.md-check-btns{display:flex;gap:9px;flex-wrap:wrap}
+.md-check-res{font-size:13.5px;line-height:1.8;border-radius:9px;padding:11px 13px}
+.r-yes{background:#effaf4;color:#0a6b4e}
+.r-no{background:#fff6ec;color:#8a4b00}
+.md-again{display:block;margin-top:8px;background:none;border:none;font:inherit;
+  font-size:12px;color:var(--ink2);text-decoration:underline;padding:0;cursor:pointer;opacity:.8}
+
+.md-bottom{margin-top:18px;padding-top:12px;border-top:1px dashed var(--line,#d6dbe4);
+  font-size:11.5px;color:var(--ink2);display:flex;gap:7px;flex-wrap:wrap;align-items:center}
+.md-bottom .dot{opacity:.4}
+.md-actions{display:flex;gap:9px;margin-top:14px;flex-wrap:wrap}
+
+.method-foot{font-size:11.5px;color:var(--ink2);opacity:.62;line-height:1.7;
+  margin:20px 0 10px;padding:11px 13px;background:#fafafa;border-radius:9px}
+
+.mrow{
+  display:block;width:100%;text-align:left;font:inherit;background:var(--card,#fff);
+  border:1.5px solid var(--line,#d6dbe4);border-radius:11px;padding:11px 13px;
+  cursor:pointer;margin-bottom:8px;
+}
+.mrow-t{display:block;font-size:14.5px;font-weight:700;color:var(--ink);line-height:1.45}
+.mrow-m{display:block;font-size:11.5px;color:var(--ink2);opacity:.75;margin-top:4px}
+
+/* 深色主题：学法页这几处用的是浅底（引语块 / 提醒框 / 自检区），
+   直接沿用浅色会在夜里刺眼，这里按暗色重配一遍。
+   频道色（--c）不动——它是识别频道的锚点，暗色下也认得出来。 */
+body[data-theme="dark"] .method-entry{
+  background:linear-gradient(135deg,#2a2113,#1d2633);border-color:#4a3a20;
+}
+body[data-theme="dark"] .me-ic{background:#3a2c17;color:#e0b062}
+body[data-theme="dark"] .me-badge{background:#3a2c17;color:#e0b062}
+body[data-theme="dark"] .me-go{color:#e0b062}
+body[data-theme="dark"] .method-hero{
+  background:linear-gradient(160deg,#241d12,#1d2633);border-color:#463a20;
+}
+body[data-theme="dark"] .mh-note{color:#e0b062}
+body[data-theme="dark"] .mch-ic{background:#243043}
+body[data-theme="dark"] .mch-n em{color:#54c79a}
+body[data-theme="dark"] .mc-no{background:#5a5546}
+body[data-theme="dark"] .k-low{background:#3a2c17;color:#e0b062}
+body[data-theme="dark"] .k-anti{background:#1c3340;color:#79c2dd}
+body[data-theme="dark"] .mc-tried{color:#54c79a}
+body[data-theme="dark"] .mc-more{color:#e0b062}
+body[data-theme="dark"] .md-said{background:#232c1e;border-left-color:#4a5a3a}
+body[data-theme="dark"] .try-item{background:#202a38}
+body[data-theme="dark"] .try-item.on{background:#17342a;border-color:#2f6b52}
+body[data-theme="dark"] .ti-box{background:#1d2633;border-color:#3a4a60}
+body[data-theme="dark"] .try-item.on .ti-box{background:#0a7c5a;border-color:#0a7c5a}
+body[data-theme="dark"] .md-warn{background:#2e2617;border-color:#4a3a20;color:#dcc08a}
+body[data-theme="dark"] .md-warn b{color:#e0b062}
+body[data-theme="dark"] .md-check{background:#1a2330}
+body[data-theme="dark"] .r-yes{background:#16332a;color:#6fd8ae}
+body[data-theme="dark"] .r-no{background:#332616;color:#e0b062}
+body[data-theme="dark"] .method-foot{background:#1a2330}
+
 .gram-peek-btn{display:block;width:100%;text-align:center;opacity:.85}
 .gram-peek-hint{text-align:center;font-size:11.5px;color:var(--ink2);opacity:.55;margin-top:6px;letter-spacing:.2px}
 .gram-peek-warn{
@@ -29108,7 +29272,7 @@ window.CNDEEP = (function () {
     else if (p0 && p0.activeSubject === 'politics') items.splice(1, 0, { id: 'shishi', ni: 'news', name: '时政' });
     var dense = items.length > 5 ? ' dense' : '';
     return items.map(function (t) {
-      return '<button data-act="view" data-view="' + t.id + '" class="' + (state.view === t.id ? 'on' : '') + dense + '"><span class="nav-ic-wrap">' + ic(t.ni, 'nav-ic') + '</span>' + t.name + '</button>';
+      return '<button data-act="view" data-view="' + t.id + '" class="' + ((state.view === t.id || (state.view === 'method' && t.id === 'exercise')) ? 'on' : '') + dense + '"><span class="nav-ic-wrap">' + ic(t.ni, 'nav-ic') + '</span>' + t.name + '</button>';
     }).join('');
   }
 
@@ -29974,7 +30138,8 @@ window.CNDEEP = (function () {
   function renderExercise() {
     var p = E.activeProfile();
     if (!p) return '<div class="card empty"><span class="big">' + ic('sprout','big-icon') + '</span><h3>先建一个档案吧</h3><p>填名字、年级、学期和要练的学科，就能开始点选做题。</p><button class="btn" data-act="profile">创建档案</button></div>';
-    var bar = practiceBar(p) + reviewEntryBar(p) + deepEntryBar(p) + vocabEntryBar(p) + dailyEntryBar(p);
+    var bar = practiceBar(p) + reviewEntryBar(p) + deepEntryBar(p) + vocabEntryBar(p) + dailyEntryBar(p)
+            + (window.METHOD ? window.METHOD.bar() : '');
     var cv = E.currentView();
     if (cv.action === 'done') {
       var ov = E.overview();
@@ -31869,6 +32034,7 @@ window.CNDEEP = (function () {
              : state.view === 'formulas' ? renderFormulas()
              : state.view === 'errors' ? renderErrors()
              : state.view === 'bank' ? renderBank()
+             : state.view === 'method' ? (window.METHOD ? window.METHOD.render() : renderSettings())
              : state.view === 'deep' ? (window.ENDEEP ? window.ENDEEP.render(state) : renderSettings())
              : state.view === 'cnd' ? (window.CNDEEP ? window.CNDEEP.render() : renderSettings())
              : state.view === 'histline' ? (window.HISTLINE ? window.HISTLINE.render() : renderSettings())
@@ -31890,7 +32056,7 @@ window.CNDEEP = (function () {
     var scrollMod = state.view === 'cnd' ? window.CNDEEP
                   : state.view === 'histline' ? window.HISTLINE
                   : state.view === 'shishi' ? window.SHISHI
-                  : (state.view === 'deep' ? window.ENDEEP : null);
+                  : (state.view === 'method' ? window.METHOD : (state.view === 'deep' ? window.ENDEEP : null));
     if (scrollMod && scrollMod.key) nowKey += '|' + scrollMod.key();
     if (nowKey !== render.lastKey) {
       mainEl.scrollTop = 0;
@@ -33197,6 +33363,661 @@ window.EN_VSRC2 = {"v":"2026-VSRC2","long":[{"w":"tie","g":"中考 高考","en":
    「图鉴 136 张」却列出 3245 张这种对不上的数字。 */
 if (window.__refreshMeta) window.__refreshMeta();
 /* ===== VSRC2:END ===== */
+</script>
+<script>
+/* ============================================================
+   学法访谈录 ·《学霸的笨办法》
+   ------------------------------------------------------------
+   这个栏目解决的问题很具体：孩子不缺「要努力」的道理，缺的是
+   「我现在这个毛病，别人是怎么爬出来的」。
+
+   所以它按「痛点」分频道，不按人物排。孩子不会主动搜某个学长的名字，
+   但会点「错题本白做」——那是他自己的处境。
+
+   版权处理（这一条不能省，写在这里免得以后有人「优化」掉）：
+   卡片的事实骨架与方法来自公开访谈报道，但——
+     · 不出现受访者真实姓名，只留「清华车辆系 · 理科 689」这类去标识描述；
+     · 不保留任何引号引语。原话的措辞受著作权保护，整篇拼接引用已超出
+       「适当引用」范围；而事实（考到 866 名）和方法（错题本只记三种题）
+       不受版权保护。所以只取事实与方法，用自己的话重写。
+     · 底部标「亲述 / 整理」而不是「原话 / 转述」，避免暗示逐字引用。
+   这样既守住了著作权，也不会编造——每个数字都是报道里有的。
+
+   栏目结构：
+   7 个痛点频道 → 26 张卡片；每张卡片 7 段（有多惨 / 怎么做的 /
+   他怎么说 / 今晚能试 / 别急着放弃 / 自检一问 / 底部）。
+   ============================================================ */
+
+window.METHOD_CHANNELS = [
+  { id: 'sit',   name: '坐不住',     sub: '一坐下就想摸手机',      icon: 'clock',  color: '#c2410c' },
+  { id: 'mem',   name: '记不住',     sub: '记完就忘，笔记不翻',    icon: 'list',   color: '#7c3aed' },
+  { id: 'wrong', name: '错题本白做', sub: '抄了一本，还错同样的',  icon: 'search', color: '#0369a1' },
+  { id: 'exam',  name: '一考就崩',   sub: '平时会，考场脑子空白',  icon: 'bolt',   color: '#b91c1c' },
+  { id: 'weak',  name: '偏科救急',   sub: '有一科怎么学都上不去',  icon: 'target', color: '#047857' },
+  { id: 'time',  name: '时间不够用', sub: '写到十二点还写不完',    icon: 'hourglass', color: '#a16207' },
+  { id: 'why',   name: '不知道为啥学', sub: '知道该学，提不起劲',  icon: 'sprout', color: '#be185d' }
+];
+
+window.METHOD_CARDS = [
+  /* ---------- 频道 1 · 坐不住 ---------- */
+  {
+    id: 'sit1', ch: 'sit', kind: 'low',
+    title: '躺床上先别睡，回想今天学了啥',
+    story: '有天晚上躺下，想回想白天学了什么，结果一片空白。不是记性差——是那天他学了整整一天，等于没学。这个发现比考砸还让人难受。',
+    action: '从那以后他养成当天梳理的习惯：睡前把当天的东西过一遍，想不起来的第二天早读先补。放假自己跑去学校自习，上网找资料和教材，卡住的地方先自己想办法，不急着问人。',
+    said: '他后来说，那次才意识到，那样学太亏了。',
+    try: ['睡前躺下先回想今天 3 个知识点', '想不起来的，明天早读先补', '每周日再回想一次这周学了什么'],
+    patience: '头几天会「什么都想不起来」，这恰恰是这招在起作用，不是你没救。',
+    check: '你今天合上书，能说出 3 个知识点吗？',
+    src: '清华自强计划 · 物理类 689', tag: '亲述', grade: '初二—高三'
+  },
+  {
+    id: 'sit2', ch: 'sit', kind: 'low',
+    title: '学习前，把手机放到另一个房间',
+    story: '不是不会学，是一拿起手机就停不下来。学一会儿就想摸一下，摸一下就半小时。他自己说这不是意志力问题——是手机就在手边。',
+    action: '学习前先清桌面，手机放到另一个房间。上课只做两件事：听和想。自习只盯一个任务，做完再说下一个。课间就彻底放松，不假装学习。睡前记一笔：今天时间都花在哪了。',
+    said: '他总结的经验是，专注的关键之一，是主动把干扰拿远，而不是硬扛。',
+    try: ['写作业前手机放另一个房间', '睡前写一句「今天手机用了多久」', '课间真的离开座位放松'],
+    patience: '前三天会很难受，一周后摸手机的冲动会明显下降。',
+    check: '你写作业时，手机离你几米？',
+    src: '两位清华 2025 级学长', tag: '整理', grade: '初一—高三'
+  },
+  {
+    id: 'sit3', ch: 'sit', kind: 'anti',
+    title: '新概念先钻透，再刷题',
+    story: '有个地方挺反常识：多数人一上来就刷题，用题量找安全感。他反着来——看到课本上的杨辉三角，肯花一两节自习课自己推一遍数列求和，进度看着比别人慢。',
+    action: '他把学和习分开看：学是从不懂到懂，习是把懂了的巩固住。顺序不能倒——没懂就刷，刷的是手熟，不是脑子。所以新概念先钻到能自己讲出来，再去做题。',
+    said: '他的判断很直接：学得不充分，习就没多大意义。',
+    try: ['选一个没懂透的概念，今晚只钻它', '钻懂之前不做这章的题', '钻懂后写一句话总结'],
+    patience: '这一晚题量会比别人少，但第二天做题会明显快。',
+    check: '你上周刷的题，有多少是「没懂就刷」的？',
+    src: '清华 2025 级学长', tag: '亲述', grade: '初二—高三'
+  },
+  {
+    id: 'sit4', ch: 'sit', kind: 'anti',
+    title: '作业不回家，也不靠补习班堆时间',
+    story: '反常识的地方在于：他家有物理老师，却没人给他辅导；父母基本放养；他自己一个补习班都没上。',
+    action: '他的做法是把作业在校内解决完，不往家带。回家只做一件事：补自己弱的那块。他打游戏，但不沉迷——用他的说法，玩可以，被游戏牵着走不行。',
+    said: '他认为真正撑得久的学习优势，来自自己想学，不是硬熬时间。',
+    try: ['争取在校把当天作业做完', '回家只留一件「补弱」的事', '睡前写一句「今天哪件事是我自己想做的」'],
+    patience: '在校写完作业，前两周会很赶，第三周节奏才顺。',
+    check: '你的时间，多少是被安排的，多少是自己想做的？',
+    src: '清华行健书院 · 江苏 681', tag: '整理', grade: '初二—高三'
+  },
+
+  /* ---------- 频道 2 · 记不住 ---------- */
+  {
+    id: 'mem1', ch: 'mem', kind: 'low',
+    title: '英语本折出一条边栏',
+    story: '英语长期卡在 125 分上不去。老师翻他的笔记，发现一个很尴尬的事实：记是记了，记完再没翻过。',
+    action: '他把积累本折出一条边栏，把本子分成两栏用：大块地方写好句子，窄边栏摘好词。黑笔记录，彩笔在旁边批。复习的时候一眼扫到的是重点，不用从头读到尾。',
+    said: '他自己后来复盘，问题不在记不记，而在记完不看等于没记。',
+    try: ['英语本折出侧栏', '今天记的好句写大块、好词写侧栏', '每周回看一次侧栏'],
+    patience: '前两周看不出分数变化，但翻本子的速度会明显变快。',
+    check: '你的笔记，记完以后你翻过第几次？',
+    src: '清华 2026 级 · 自动化', tag: '整理', grade: '初一—高三'
+  },
+  {
+    id: 'mem2', ch: 'mem', kind: 'anti',
+    title: '黑笔记基础，红笔记重点，旁边写句自己的话',
+    story: '反常识的是：大多数人笔记抄得整整齐齐，一笔一划，却从来不写「自己怎么想」。抄得再漂亮，那也是别人的话。',
+    action: '他定了两色分工：黑笔记基础，红笔记重点。更关键的是第三步——在知识点旁边用跟自己说话的方式写体会，哪怕只有一句「这里我原来以为是……」。第二天回看这两句话，才知道自己当时到底懂没懂。',
+    said: '他的说法是，把体会写在旁边，等于用跟自己对话的方式在学。',
+    try: ['整理一页笔记，黑红两色分工', '挑 2 个知识点，旁边各写一句「我觉得……」', '明天回看这两句话'],
+    patience: '写「自己的话」一开始特别别扭，写满一页就顺了。',
+    check: '你的笔记里，有几句是你自己的话？',
+    src: '北大地空 · 学长', tag: '整理', grade: '初一—高三'
+  },
+  {
+    id: 'mem3', ch: 'mem', kind: 'anti',
+    title: '用兴趣领域的英文材料学英语',
+    story: '反常识的是：他没怎么刷英语题，英语考了 144。',
+    action: '他看的是费曼的英文物理讲座，读《费曼物理学讲义》的原版。一边学物理，一边把英语喂进去了。对他来说这不是「学英语」，是「看自己爱看的东西，顺便用了英文」。长期的原版输入就这么攒下来。',
+    said: '他的体会是，兴趣材料能一次学两样东西，比硬背单词撑得久。',
+    try: ['找一段你兴趣领域的英文材料，看 15 分钟', '不查每个词，先听懂大意', '记 3 个反复出现的词进侧栏'],
+    patience: '前一周只能听懂三成，正常。坚持两周会突然顺一截。',
+    check: '你愿意为「兴趣」多听 15 分钟英文吗？',
+    src: '清华 2025 级 · 英语 144', tag: '整理', grade: '初一—高三'
+  },
+
+  /* ---------- 频道 3 · 错题本白做 ---------- */
+  {
+    id: 'wro1', ch: 'wrong', kind: 'low',
+    title: '错题本只记三种题',
+    story: '竞赛入门晚，一路挫折，第一次联赛只拿了省二等奖。他说那阵子最大的问题是：错题抄了一堆，抄完还是不会。',
+    action: '后来他给错题本加了门槛——只收两种：完全不会的，和思路有新意的。已经掌握的定期清出去。他的理由是，错题本不是收藏夹，是待办清单，越薄越好用。效率靠的是全神贯注、找个安静地方沉进去。',
+    said: '他的原话大意是，只记完全不会或者思路有新意的，而且必须定期清理。',
+    try: ['翻一遍错题本，把已经会的删掉', '新错题只收「不会」和「有新意」两种', '学习前找个安静角落'],
+    patience: '错题本会变薄，这是好事，不是偷懒。',
+    check: '你的错题本里，有多少题你其实早就会了？',
+    src: '清华强基 · 664', tag: '亲述', grade: '初三—高三'
+  },
+  {
+    id: 'wro2', ch: 'wrong', kind: 'low',
+    title: '积累本写完，得自己愿意翻',
+    story: '高三下第一次考试，年级 866 名。这个名次摆在那，谁都难受。',
+    action: '他没急着刷题，反而先把错题整理排到刷题前面。积累本他定了一条很硬的标准：写完以后自己愿意翻。翻不动的，就重写——排版、字号、留白，全按「自己看着顺眼」来，不按「看着工整」来。',
+    said: '他后来说，如果积累本写完自己都不愿意翻，还怎么指望它起作用。',
+    try: ['翻一遍积累本', '翻不下去的那页重写', '之后每周固定翻一次'],
+    patience: '重写很费时间，但重写完那本你会真的用起来。',
+    check: '你的积累本，你自己愿意翻吗？',
+    src: '清华车辆系 · 理科 689', tag: '亲述', grade: '初三—高三'
+  },
+  {
+    id: 'wro3', ch: 'wrong', kind: 'anti',
+    title: '错题本按模块贴标签',
+    story: '反常识的是：错题本不是越厚越好，是越「找得到」越好。厚厚一本没有索引，等于没有。',
+    action: '他准备两个本子：一本记基础，一本记进阶技巧，不混着来。错题按模块贴标签——函数、几何、力学，各归各的。复习的时候只翻一个模块，一次只解决一类问题。',
+    said: '他的说法是，错题按模块分好类，复习时才找得到，不然翻半小时就放弃了。',
+    try: ['给错题本加模块标签', '这周的错题归到对应标签下', '复习时只翻一个模块'],
+    patience: '前几天分类很慢，一周后找题速度会翻倍。',
+    check: '你能在 30 秒内找到某一类错题吗？',
+    src: '清华 · 学姐', tag: '整理', grade: '初二—高三'
+  },
+  {
+    id: 'wro4', ch: 'wrong', kind: 'anti',
+    title: '错题统计成折线图，规律自己会跳出来',
+    story: '反常识的是：大多数人只记错题，不统计错题。记了一百道，还是不知道自己的毛病在哪。',
+    action: '他一直坚持用答题卡，把每次考试各知识点的错题率算出来，画成折线。看几次之后，规律自己就出来了——哪个模块在反复掉，哪类题越考越差。高一高二他不追难题，先把课本上的例题习题做扎实。',
+    said: '他的体会是，同一类错题攒够几次考试，分布趋势比任何自我感觉都准。',
+    try: ['用表格统计这个月的错题分布', '找出错得最多的 1 个知识点', '下周只攻这 1 个'],
+    patience: '第一个月数据太少，看不出规律。攒够三次考试再判断。',
+    check: '你知道自己错得最多的是哪个知识点吗？',
+    src: '清华社科 · 学长', tag: '整理', grade: '初三—高三'
+  },
+  {
+    id: 'wro5', ch: 'wrong', kind: 'anti',
+    title: '第一次没懂，后面要花两倍时间',
+    story: '反常识的是：欠下的「没懂」是要付利息的。当时觉得先放一放，回头再说，那个回头通常要花两倍甚至更多的时间。',
+    action: '他的原则是知识点最好第一次就弄懂。听课时把模棱两可的地方记下来，当堂举手问，不留在心里过夜。他承认当场问有点丢脸，但算过账之后觉得值。',
+    said: '他说，第一次没弄懂，后面得花两倍甚至更多时间才能补上。',
+    try: ['今天课上没懂的，今晚就问清', '不欠「隔夜账」', '把模棱两可的地方单独记下来当天问'],
+    patience: '当堂问会有点丢脸，但比期末补要省两倍时间。',
+    check: '你上周有几个「当时没懂、后来也没补」的点？',
+    src: '清华物理系 · 学长', tag: '亲述', grade: '初一—高三'
+  },
+
+  /* ---------- 频道 4 · 一考就崩 ---------- */
+  {
+    id: 'exa1', ch: 'exam', kind: 'low',
+    title: '考砸后，先写感受，再写原因',
+    story: '一模考到年级四五百名。这个位置对她来说是很重的打击。',
+    action: '她妈妈没指责，先让她缓下来，等情绪落定了再一起找原因。后来她考年级第二，妈妈也只是平平地肯定一句，没大张旗鼓。她自己的感受被放在第一位——先接住情绪，再谈问题。',
+    said: '她后来回忆，妈妈的第一反应不是问分数，是让她先喘口气。',
+    try: ['考砸后先写 3 行感受，想写什么写什么', '写完再写 1 条原因', '感受没写完，先别谈补救'],
+    patience: '先写感受看起来「不务正业」，但不接住情绪，原因根本写不下去。',
+    check: '你考砸后，是先骂自己，还是先看原因？',
+    src: '清华 · 689 分博士（学姐）', tag: '整理', grade: '初三—高三'
+  },
+  {
+    id: 'exa2', ch: 'exam', kind: 'low',
+    title: '模考考砸了，先别改错题',
+    story: '高三下第一次考试，年级 866 名。换成多数人，这时候已经开始怀疑人生了。',
+    action: '他把每次模考当成「漏洞探测」，不做成绩审判。考完第一件事不是刷题，是把这次暴露的漏洞一条条记下来。错题整理排在刷新题前面。目标高度一点没降。',
+    said: '他的态度是：这又不是高考，看我最后一次的。漏洞暴露得越多，最后剩下的越少。',
+    try: ['模考后只写「暴露了哪 3 个漏洞」', '错题本先于新题打开', '不写「我完了」这三个字'],
+    patience: '前两次模考分数可能不升反降，因为你在暴露而不是掩盖，正常。',
+    check: '你考砸后第一反应是「我完了」还是「漏在哪」？',
+    src: '清华车辆系 · 理科 689', tag: '亲述', grade: '初三—高三'
+  },
+  {
+    id: 'exa3', ch: 'exam', kind: 'low',
+    title: '考完一科，写「已结束」再翻下一科',
+    story: '高考首日，语文漏涂了三道题。这是很多人会崩掉一整场的失误。',
+    action: '她妈妈跟她说的是考完一门丢一门。她自己也认这个理：你的感受才是最真实的，别让自己一直陷在自责里。她的做法是每科考完就给这一科画个句号，不对答案，直接翻下一科的资料。',
+    said: '那句「考完一门丢一门」，她记住了很多年。',
+    try: ['每科考完写两个字「已结束」', '不对答案', '直接翻下一科的资料'],
+    patience: '不对答案会心里痒，忍过第一科就顺了。',
+    check: '你考完一科，会忍不住对答案吗？',
+    src: '清华 · 689 分博士（学姐）', tag: '亲述', grade: '初三—高三'
+  },
+  {
+    id: 'exa4', ch: 'exam', kind: 'anti',
+    title: '先保证容易题不丢分',
+    story: '反常识的是：他不追求把必做的难题都啃下来，先把容易题的分数守住。',
+    action: '他的打法是「易题不丢分，难题多得分」——顺序不能反。每次考完他会专门统计一类分数：本该拿到却丢了的。这部分通常比难题的分更容易捡回来，而且捡得最快。',
+    said: '他的判断是，先保住容易题，再谈难题多拿，总分才稳。',
+    try: ['下次测验先扫一遍容易题，把该拿的先拿到手', '考后统计「本该得分却丢」的分', '只针对这一类去练'],
+    patience: '不碰难题会心慌，但容易题的分先稳住，总分才稳。',
+    check: '你上次考试，有多少分是「本该拿到」的？',
+    src: '北大数学系 · 学长', tag: '整理', grade: '初三—高三'
+  },
+
+  /* ---------- 频道 5 · 偏科救急 ---------- */
+  {
+    id: 'wea1', ch: 'weak', kind: 'low',
+    title: '只挑扣分最多的那一块，攻两周',
+    story: '高三时语文成了短板，高考前最后一次考试，全班倒数第一。',
+    action: '他没去报班，也没从头补。他翻出自己的语文答卷，一块一块算扣分：哪块扣得最多，就先攻哪块。线下资源不够就上网找。最后高考语文 125，全班第一。',
+    said: '他的方法很朴素——哪块扣分多，就针对哪块专项练，别的先放着。',
+    try: ['翻最近一张卷，圈出扣分最多的那个板块', '只攻这一块，两周', '两周后再统计一次'],
+    patience: '只攻一块，别的板块会暂时不动。两周后你会看到这块的明显变化。',
+    check: '你能说出自己最该补的那一块吗？',
+    src: '清华自强计划 · 物理类 689', tag: '整理', grade: '初三—高三'
+  },
+  {
+    id: 'wea2', ch: 'weak', kind: 'low',
+    title: '弱科连续做 8 周，别盯单次分数',
+    story: '学理综生物，他连着三个月做知识点总结。这三个月里成绩不但没起色，还退了一步。',
+    action: '他没换方法，继续做。最后高考生物 85 分以上。他的经验是：薄弱科要长期深耕，判断标准不能是单次分数，得看「动作有没有完成」——今天该总结的总结了没有，该补的补了没有。',
+    said: '他说那三个月成绩没动，但漏洞在一点点补上，只是分数还没反映出来。',
+    try: ['选 1 个弱科', '连续 8 周，只记录「今天的动作完成没有」', '不看单次分数'],
+    patience: '第 3 到第 5 周最想放弃，那正是漏洞在补的阶段。',
+    check: '你的弱科，你连续坚持过 8 周吗？',
+    src: '清华车辆系 · 理科 689', tag: '整理', grade: '初二—高三'
+  },
+  {
+    id: 'wea3', ch: 'weak', kind: 'low',
+    title: '主观题拆设问、拆答案结构、拆踩分点',
+    story: '高二转文科之后，政治主观题总是踩点不全。写了一大段，分数一半都拿不到。',
+    action: '她妈妈花了一个月，把近五年真题一道一道拆：这道题问的是哪种设问类型、标准答案是什么结构、踩分点落在哪几个词上。拆完之后她自己也学会了这个动作——先看设问定框架，再往框架里填关键词，不再一上来就堆字。',
+    said: '她的体会是，主观题不是写得多，是踩得准。拆一个月就看得出效果。',
+    try: ['每周拆 1 道主观题真题', '标出这道题的设问类型', '标出答案的踩分点'],
+    patience: '拆第一道要花 40 分钟，拆到第五道就快了。',
+    check: '你答主观题，是先想结构，还是先堆字？',
+    src: '北大 · 689 分文科学姐', tag: '整理', grade: '初三—高三'
+  },
+
+  /* ---------- 频道 6 · 时间不够用 ---------- */
+  {
+    id: 'tim1', ch: 'time', kind: 'anti',
+    title: '计划表只是工具，关键是「每天都做得到」',
+    story: '反常识的是：很多人计划表做得漂亮，三天就废。问题不在自律，在计划本身——那张表从一开始就不是给人做的。',
+    action: '她用周计划表加每日六项总结（计划完成、学习、体育、生活各自打勾）。核心原则是：计划一定得可行，每天完成一项就算鼓励，绝不写「看上去就完成不了」的计划。计划永远赶不上变化，所以要学会调整，不是硬扛。',
+    said: '她的判断是，写一张看着就完不成的计划，只会给自己打击。',
+    try: ['做一张周计划表', '把量砍到「一定做得到」', '每晚只勾 3 行'],
+    patience: '完成率 70% 就合格，不用追求 100%。',
+    check: '你的计划，是写给别人看的，还是自己真做得到的？',
+    src: '清华特等奖学金 · 双胞胎学姐', tag: '亲述', grade: '初二—高三'
+  },
+  {
+    id: 'tim2', ch: 'time', kind: 'anti',
+    title: '整块时间给最难的科，做完马上订正',
+    story: '反常识的是：精力最好的那段时间，很多人用来做最轻松的作业。把最难的留到脑子最钝的时候，然后抱怨学不进去。',
+    action: '她把整块时间留给数学——一天里脑子最清醒的那一段，只给最难的那科。做完马上订正，不攒着。背诵挪到碎片时间：课间、路上、睡前。几门课轮换着学，不容易厌。',
+    said: '她的分法很清楚：整块时间给数学，碎片时间给背诵。',
+    try: ['第一节晚自习给数学或物理', '做完立刻订正', '背诵挪到课间和路上'],
+    patience: '订正会占掉做题时间，但一周后同样的时间能做对更多。',
+    check: '你精力最好的时段，用来做最难的科了吗？',
+    src: '北大学姐 / 清华特奖学长', tag: '整理', grade: '初三—高三'
+  },
+  {
+    id: 'tim3', ch: 'time', kind: 'anti',
+    title: '先干最紧急的，提前预判截止日',
+    story: '反常识的是：大多数人是拖到最后一刻才动，然后把「赶」当成「努力」。',
+    action: '他自己做日程表，把最紧急的事放第一位，先做。更重要的是「预判」——平时做事就往前看，估摸这件事什么时候会到期，提前把它的第一步做掉。不把所有事都攒到最后一个时间点。',
+    said: '他的两条原则：最紧急的放第一位；平时多预判，别都拖到最后那个点。',
+    try: ['列任务时标上截止日', '每件事标出「今天该做的一步」', '最紧急的先做'],
+    patience: '提前做会显得「没必要」，但截止日临近时你会感谢自己。',
+    check: '你有几件事，是拖到最后一天才做的？',
+    src: '清华特等奖学金 · 学长', tag: '亲述', grade: '初三—高三'
+  },
+  {
+    id: 'tim4', ch: 'time', kind: 'anti',
+    title: '任务清单勾选，每天看得见进步',
+    story: '反常识的是：不是没时间，是看不见自己到底做了多少。一天忙下来，问「今天干了什么」，答不上来。',
+    action: '他列任务清单，完成一项勾一项。每小时起身活动两分钟，别一坐三小时。每天记录已完成的任务——进步要看得见，不然撑不下去。做题也是，做一道争取会一类。',
+    said: '他的经验是，把完成的事记下来，进步就看得见，看得见才撑得住。',
+    try: ['睡前列明天的清单', '完成一项勾一项', '每小时起身活动 2 分钟'],
+    patience: '前几天的勾选像形式主义，一周后你会靠它撑过不想学的晚上。',
+    check: '你今天完成了什么？说得出来吗？',
+    src: '清华 · 学长', tag: '整理', grade: '初一—高三'
+  },
+
+  /* ---------- 频道 7 · 不知道为啥学 ---------- */
+  {
+    id: 'why1', ch: 'why', kind: 'anti',
+    title: '把「我很优秀」接到「我能帮到谁」',
+    story: '反常识的是：她的动力不是「考高分」，是「这份天赋要用去帮人」。分数是结果，不是燃料。',
+    action: '祖父母从小鼓励她，种下一颗「我就是优秀的」的种子。她后来把这颗种子接到了更大的地方：既然上天给了天赋，就用它去帮更多人。所以她的努力有个指向，不是为了让谁满意。',
+    said: '她的说法是，天赋不是用来证明自己的，是用来帮别人的。',
+    try: ['写一句「我擅长的东西能用来做什么」', '贴在书桌上', '每周看一眼'],
+    patience: '这句话一开始会觉得假大空，写具体了就不空。',
+    check: '你擅长的东西，能帮到谁？',
+    src: '北大新生 · 重庆 666', tag: '整理', grade: '初二—高三'
+  },
+  {
+    id: 'why2', ch: 'why', kind: 'anti',
+    title: '先写清「我要什么」，再决定怎么学',
+    story: '反常识的是：多数人用「焦虑」做取舍判据——哪科慌就先学哪科。结果是急的地方越来越急，该打的地基一直没打。',
+    action: '她的做法是先定义什么叫成功：不是单一分数，是终身幸福、身心健康、眼里有光。定义清楚了再倒推——赢得应试，但不把应试当终点；长期目标拆成本周能做的 3 个动作。取舍的时候拿这三个动作对照，不拿焦虑对照。',
+    said: '她的思路是先想清楚要什么，才决定怎么学，顺序反了就会一直救火。',
+    try: ['写一句长期目标贴书桌', '拆成 3 个本周动作', '每周对照一次做取舍'],
+    patience: '写目标会觉得太远，但拆成本周动作就不远了。',
+    check: '你现在做的事，指向你想要的生活吗？',
+    src: '北大学姐（其母为中学教师）', tag: '整理', grade: '初二—高三'
+  },
+  {
+    id: 'why3', ch: 'why', kind: 'anti',
+    title: '做一道题，争取做会一类题',
+    story: '反常识的是：刷 100 道不如吃透 1 类。题海能给你熟练感，给不了你「这一类我都会」的底气。',
+    action: '他的做法是：新专题先列提纲搭框架，知道这一类题有几种问法；做题时争取做会一类，试一题多解，甚至自己命一道同类型的题。把一套题真正吃透，比熬夜刷题更有收获。',
+    said: '他的原话大意是，做一道题就要争取做会一类题，不是做完就算。',
+    try: ['选 1 道典型题', '自己命 1 道同类题', '隔天做自己命的题'],
+    patience: '自命题前几天很别扭，写顺了你会发现自己真懂了。',
+    check: '你上次「做会一类题」，是什么时候？',
+    src: '清华（生物奥赛金牌）/ 北大学长', tag: '整理', grade: '初三—高三'
+  }
+];
+
+/* ============================================================
+   模块：渲染 + 交互
+   ------------------------------------------------------------
+   不用 ES6（要兼容旧 WebView），也不用箭头函数。
+   事件自己绑、自己拦：只处理 data-act 以 method- 开头的元素，
+   不侵入主界面的点击分发。
+   ============================================================ */
+window.METHOD = (function () {
+  'use strict';
+
+  var E = window.ENGINE;
+  var D = { ch: null, id: null, filter: 'all' };
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+  function say(m) { try { if (window.__toast) window.__toast(m); } catch (e) { } }
+
+  /* 状态存在 settings 里：跟备份、导走同一份，不额外开字段。
+     fav: 收藏的卡片 id；tried: 每张卡「今晚就试」勾了哪几条；
+     check: 自检一问的回答（yes / no）。 */
+  function store() {
+    var st = E.settings();
+    st.method = st.method || { fav: [], tried: {}, check: {} };
+    var m = st.method;
+    m.fav = m.fav || []; m.tried = m.tried || {}; m.check = m.check || {};
+    return m;
+  }
+  function saveIt() { try { E.save(); } catch (e) { } }
+
+  var CH = window.METHOD_CHANNELS || [];
+  var CARDS = window.METHOD_CARDS || [];
+  var BY_ID = {};
+  for (var i = 0; i < CARDS.length; i++) BY_ID[CARDS[i].id] = CARDS[i];
+
+  function chOf(id) {
+    for (var i = 0; i < CH.length; i++) if (CH[i].id === id) return CH[i];
+    return null;
+  }
+  /* 频道内顺序：不是随手排的。
+     先「真踩过坑」的（完整低谷故事），再「反常识」的（没有低谷）。
+     理由：孩子点开一张卡，是因为「这人跟我一样惨」，不是因为「这招很妙」。
+     同组内按下面的 ORDER 走，手动指定——把最惨、最好的那张放第一。 */
+  var ORDER = {
+    sit:   ['sit1', 'sit2', 'sit3', 'sit4'],
+    mem:   ['mem1', 'mem2', 'mem3'],
+    wrong: ['wro2', 'wro1', 'wro3', 'wro4', 'wro5'],
+    exam:  ['exa2', 'exa1', 'exa3', 'exa4'],
+    weak:  ['wea1', 'wea2', 'wea3'],
+    time:  ['tim1', 'tim2', 'tim3', 'tim4'],
+    why:   ['why1', 'why2', 'why3']
+  };
+  function cardsOf(ch) {
+    var list = CARDS.filter(function (c) { return c.ch === ch; });
+    var ord = ORDER[ch] || [];
+    list.sort(function (a, b) {
+      var ia = ord.indexOf(a.id), ib = ord.indexOf(b.id);
+      if (ia < 0) ia = 99; if (ib < 0) ib = 99;
+      return ia - ib;
+    });
+    return list;
+  }
+  function triedN(id) {
+    var t = store().tried[id];
+    return t ? t.length : 0;
+  }
+
+  /* ---------- 入口条（挂在练习页顶部） ---------- */
+  function bar() {
+    var m = store();
+    var n = CARDS.length, fav = m.fav.length;
+    var tried = 0, k;
+    for (k in m.tried) if (m.tried[k] && m.tried[k].length) tried++;
+    return '<button class="method-entry" data-act="method-open">' +
+      '<span class="me-ic">' + (window.ic ? window.ic('bulb', 'me-icon') : '') + '</span>' +
+      '<span class="me-txt"><b>学法访谈录</b>' +
+        '<i>7 种卡点 · ' + n + ' 个笨办法' + (tried ? ' · 你在试 ' + tried + ' 个' : '') + '</i>' +
+      '</span>' +
+      (fav ? '<span class="me-badge">收藏 ' + fav + '</span>' : '<span class="me-go">去看看 ›</span>') +
+      '</button>';
+  }
+
+  /* ---------- 第一层：频道 ---------- */
+  function renderHome() {
+    var m = store();
+    var h = '<div class="method-hero">' +
+      '<div class="mh-title">学法访谈录</div>' +
+      '<div class="mh-sub">这里没有「要努力」的道理。只有 26 个具体的笨办法——<br>' +
+        '每个都是某个学长学姐在自己最难受的时候，硬试出来的。</div>' +
+      '<div class="mh-note">按你现在的卡点挑一个进去。不用从头看。</div>' +
+      '</div>';
+
+    h += '<div class="mh-pick">' + CH.map(function (c) {
+      var list = cardsOf(c.id);
+      var done = list.filter(function (x) { return triedN(x.id) > 0; }).length;
+      return '<button class="mch" data-act="method-ch" data-id="' + c.id + '" style="--c:' + c.color + '">' +
+        '<span class="mch-ic">' + (window.ic ? window.ic(c.icon, 'mch-icon') : '') + '</span>' +
+        '<span class="mch-body"><b>' + esc(c.name) + '</b><i>' + esc(c.sub) + '</i></span>' +
+        '<span class="mch-n">' + list.length + ' 招' + (done ? '<em>试过 ' + done + '</em>' : '') + '</span>' +
+        '</button>';
+    }).join('') + '</div>';
+
+    if (m.fav.length) {
+      h += '<div class="mh-sec">我收藏的</div><div class="mcard-list">' +
+        m.fav.map(function (id) {
+          var c = BY_ID[id]; if (!c) return '';
+          return cardRow(c);
+        }).join('') + '</div>';
+    }
+
+    h += '<div class="method-foot">' +
+      '方法整理自公开访谈报道（清华官网、央视、澎湃、环球网等），' +
+      '只取事实与方法，不转载原文，也不出现受访者姓名。' +
+      '文中「训练动作」是按方法设计的，不是受访者原话。' +
+      '</div>';
+    return h;
+  }
+
+  function cardRow(c) {
+    var n = triedN(c.id);
+    return '<button class="mrow" data-act="method-card" data-id="' + c.id + '">' +
+      '<span class="mrow-t">' + esc(c.title) + '</span>' +
+      '<span class="mrow-m">' + esc(c.src) + ' · ' + esc(c.grade) +
+        (n ? ' · 已试 ' + n + ' 条' : '') + '</span>' +
+      '</button>';
+  }
+
+  /* ---------- 第二层：一个频道的卡片 ---------- */
+  function renderChannel(cid) {
+    var c = chOf(cid);
+    if (!c) return renderHome();
+    var list = cardsOf(cid);
+    var h = '<button class="method-back" data-act="method-back">‹ 全部卡点</button>' +
+      '<div class="method-chhead" style="--c:' + c.color + '">' +
+        '<div class="mchh-name">' + esc(c.name) + '</div>' +
+        '<div class="mchh-sub">' + esc(c.sub) + '　·　' + list.length + ' 个办法</div>' +
+      '</div>' +
+      '<div class="method-hint">先看「他当时有多惨」——如果跟你像，再往下看。不像就换一个。</div>';
+
+    h += '<div class="mcard-list">' + list.map(function (x, i) {
+      var n = triedN(x.id);
+      return '<button class="mcard" data-act="method-card" data-id="' + x.id + '">' +
+        '<div class="mc-top"><span class="mc-no">' + (i + 1) + '</span>' +
+          '<span class="mc-kind ' + (x.kind === 'low' ? 'k-low' : 'k-anti') + '">' +
+            (x.kind === 'low' ? '他曾掉进这个坑' : '反常识的一招') + '</span>' +
+          (n ? '<span class="mc-tried">已试 ' + n + '/3</span>' : '') +
+        '</div>' +
+        '<div class="mc-title">' + esc(x.title) + '</div>' +
+        '<div class="mc-story">' + esc(x.story) + '</div>' +
+        '<div class="mc-foot">' + esc(x.src) + ' · 适用 ' + esc(x.grade) + '　<span class="mc-more">展开 ›</span></div>' +
+        '</button>';
+    }).join('') + '</div>';
+    return h;
+  }
+
+  /* ---------- 第三层：一张卡片 ---------- */
+  function renderCard(id) {
+    var c = BY_ID[id];
+    if (!c) return renderHome();
+    var m = store();
+    var ch = chOf(c.ch) || { name: '', color: '#555' };
+    var tried = m.tried[id] || [];
+    var fav = m.fav.indexOf(id) >= 0;
+    var ck = m.check[id] || '';
+
+    var h = '<button class="method-back" data-act="method-ch" data-id="' + c.ch + '">‹ ' + esc(ch.name) + '</button>';
+
+    h += '<div class="mdetail" style="--c:' + ch.color + '">' +
+      '<div class="md-kind">' + (c.kind === 'low' ? '学霸的笨办法' : '学霸的笨办法 · 反常识') + '</div>' +
+      '<h2 class="md-title">' + esc(c.title) + '</h2>';
+
+    /* 1 有多惨 / 反常识 */
+    h += '<div class="md-sec">' +
+      '<div class="md-label">' + (c.kind === 'low' ? '他当时有多惨' : '有个地方挺反常识') + '</div>' +
+      '<p class="md-p">' + esc(c.story) + '</p></div>';
+
+    /* 2 怎么做的 */
+    h += '<div class="md-sec">' +
+      '<div class="md-label">他后来怎么做的</div>' +
+      '<p class="md-p">' + esc(c.action) + '</p></div>';
+
+    /* 3 他怎么说（无引号，避免逐字引用） */
+    h += '<div class="md-sec">' +
+      '<div class="md-label">他后来这么说</div>' +
+      '<p class="md-p md-said">' + esc(c.said) + '</p></div>';
+
+    /* 4 今晚就能试（可勾选） */
+    h += '<div class="md-sec md-try">' +
+      '<div class="md-label">今晚就能试' +
+        '<span class="md-count">' + (tried.length ? '已勾 ' + tried.length + '/' + c.try.length : '') + '</span></div>' +
+      c.try.map(function (t, i) {
+        var on = tried.indexOf(i) >= 0;
+        return '<button class="try-item' + (on ? ' on' : '') + '" data-act="method-try" data-id="' + id + '" data-i="' + i + '">' +
+          '<span class="ti-box">' + (on ? '✓' : '') + '</span>' +
+          '<span class="ti-t">' + esc(t) + '</span></button>';
+      }).join('') +
+      '</div>';
+
+    /* 5 别急着放弃 */
+    h += '<div class="md-warn">' +
+      '<b>先别急着放弃</b>' + esc(c.patience) + '</div>';
+
+    /* 6 自检一问 */
+    h += '<div class="md-sec md-check">' +
+      '<div class="md-label">自检一问</div>' +
+      '<p class="md-q">' + esc(c.check) + '</p>';
+    if (!ck) {
+      h += '<div class="md-check-btns">' +
+        '<button class="btn soft" data-act="method-check" data-id="' + id + '" data-v="yes">能，我大概知道</button>' +
+        '<button class="btn ghost" data-act="method-check" data-id="' + id + '" data-v="no">说不准 / 不能</button>' +
+        '</div>';
+    } else {
+      h += '<div class="md-check-res ' + (ck === 'yes' ? 'r-yes' : 'r-no') + '">' +
+        (ck === 'yes'
+          ? '那这一招你缺的可能不是「知道」，是「今晚真的做一次」。先勾上面第一条。'
+          : '那正好——这招就是给这种情况准备的。今晚只做第一条，别管后面两条。') +
+        '<button class="md-again" data-act="method-check-reset" data-id="' + id + '">重答</button>' +
+        '</div>';
+    }
+    h += '</div>';
+
+    /* 7 底部 */
+    h += '<div class="md-bottom">' +
+      '<span>' + esc(c.src) + '</span><span class="dot">·</span>' +
+      '<span>' + (c.tag === '亲述' ? '本人亲述' : '公开报道整理') + '</span><span class="dot">·</span>' +
+      '<span>适用 ' + esc(c.grade) + '</span>' +
+      '</div>';
+
+    h += '<div class="md-actions">' +
+      '<button class="btn ' + (fav ? 'warm' : 'ghost') + '" data-act="method-fav" data-id="' + id + '">' +
+        (fav ? '★ 已收藏' : '☆ 收藏这一招') + '</button>' +
+      '<button class="btn ghost" data-act="method-next" data-id="' + id + '">下一招 ›</button>' +
+      '</div>';
+
+    h += '<div class="method-foot">方法来自公开访谈报道；文字为重写，不含原文引用。</div>';
+    h += '</div>';
+    return h;
+  }
+
+  function render() {
+    var body = !D.ch ? renderHome()
+             : !D.id ? renderChannel(D.ch)
+             : renderCard(D.id);
+    return '<div class="method-wrap">' + body + '</div>';
+  }
+
+  /* ---------- 交互 ---------- */
+  function onClick(e) {
+    var el = e.target;
+    while (el && el !== document.body) {
+      if (el.getAttribute && el.getAttribute('data-act')) break;
+      el = el.parentNode;
+    }
+    if (!el || !el.getAttribute) return;
+    var act = el.getAttribute('data-act') || '';
+    if (act.indexOf('method-') !== 0) return;
+
+    var id = el.getAttribute('data-id') || '';
+    var m = store();
+
+    if (act === 'method-open') {
+      D.ch = null; D.id = null;
+      if (window.__uiView) window.__uiView('method');
+      return;
+    }
+    if (act === 'method-back') { D.ch = null; D.id = null; rerender(); return; }
+    if (act === 'method-ch') { D.ch = id; D.id = null; rerender(); return; }
+    if (act === 'method-card') { D.ch = (BY_ID[id] || {}).ch || D.ch; D.id = id; rerender(); return; }
+
+    if (act === 'method-try') {
+      var i = parseInt(el.getAttribute('data-i'), 10);
+      var arr = m.tried[id] || (m.tried[id] = []);
+      var k = arr.indexOf(i);
+      if (k >= 0) arr.splice(k, 1); else arr.push(i);
+      saveIt(); rerender(); return;
+    }
+    if (act === 'method-check') {
+      m.check[id] = el.getAttribute('data-v') === 'yes' ? 'yes' : 'no';
+      saveIt(); rerender(); return;
+    }
+    if (act === 'method-check-reset') { delete m.check[id]; saveIt(); rerender(); return; }
+    if (act === 'method-fav') {
+      var p = m.fav.indexOf(id);
+      if (p >= 0) { m.fav.splice(p, 1); say('已取消收藏'); }
+      else { m.fav.push(id); say('收藏了，之后在首页能看到'); }
+      saveIt(); rerender(); return;
+    }
+    if (act === 'method-next') {
+      var list = cardsOf(D.ch), idx = -1;
+      for (var j = 0; j < list.length; j++) if (list[j].id === id) idx = j;
+      var nx = list[idx + 1];
+      if (nx) { D.id = nx.id; rerender(); }
+      else {
+        var chs = CH.map(function (x) { return x.id; });
+        var ci = chs.indexOf(D.ch);
+        var nch = CH[ci + 1];
+        if (nch) { D.ch = nch.id; D.id = cardsOf(nch.id)[0].id; rerender(); }
+        else { D.ch = null; D.id = null; rerender(); say('26 招都看完了'); }
+      }
+      return;
+    }
+  }
+
+  function rerender() { if (window.__uiRender) window.__uiRender(); }
+
+  document.addEventListener('click', onClick, false);
+
+  return {
+    render: render,
+    bar: bar,
+    key: function () { return (D.ch || '') + '|' + (D.id || ''); },
+    D: D,
+    reset: function () { D.ch = null; D.id = null; }
+  };
+})();
+
 </script>
 </body>
 </html>
