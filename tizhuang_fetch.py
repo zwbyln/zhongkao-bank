@@ -291,8 +291,19 @@ FORMULA_HI_DEFAULT = "先看时间/人物是否匹配，再看程度词是否绝
 # 结构类优先于时态：「被动语态 一般现在时」这类标注，真正要考的是结构。
 # 与客户端 tizhuang.js 的 FORMULA_EN 保持一致，两边改规则要同步。
 FORMULA_EN = [
-    (r"情态动词.*被动|must be|should be|can be", "情态动词被动"),
+    # 「情态动词被动」必须排在「情态动词」之前——更具体的那条先匹配。
+    # 这里只认中文标签「情态动词…被动」，不再靠 must be / can be 这类英文短语：
+    # 实测「冠词」题里出现 can be 就被误判成情态动词被动，一次错分能把
+    # 整道题的口诀换成另一条。
+    (r"情态动词.{0,6}被动", "情态动词被动"),
+    # 单独一条「情态动词」。缺这条的时候，题庄标签写着「情态动词」的题
+    # 会一路落到默认值「句子成分」——口诀匹配不上，等于白写。
+    (r"情态动词", "情态动词"),
     (r"被动语态|被动", "被动语态"),
+    # 「动名词作宾语」和「作主语」必须分开：作宾语看的是前面的动词搭配
+    # （enjoy / finish / mind 只认 -ing），作主语看的是谓语用单数；
+    # 两者口诀完全不同，混成一个标签等于没标。
+    (r"动名词作宾语|动名词做宾语", "动名词作宾语"),
     (r"动名词|v-ing", "动名词作主语"),
     (r"不定式|to do", "不定式表目的"),
     (r"非谓语|分词", "分词作定语"),
@@ -334,6 +345,7 @@ EN_GROUP = {
     "动名词作主语": "非谓语动词", "不定式表目的": "非谓语动词", "分词作定语": "非谓语动词",
     "宾语从句": "从句", "定语从句": "从句", "状语从句": "从句", "主语从句": "从句",
     "冠词": "词法", "代词": "词法", "形容词与副词": "词法", "介词": "词法",
+    "情态动词": "情态动词", "动名词作宾语": "非谓语动词",
     "名词与数": "词法", "连词": "词法", "主谓一致": "主谓一致",
     "感叹句": "句型与倒装", "反意疑问句": "句型与倒装", "强调句": "句型与倒装", "倒装句": "句型与倒装",
     "近义词辨析": "词汇辨析", "短语动词": "词汇辨析", "固定搭配": "词汇辨析",
@@ -483,7 +495,14 @@ def convert(it, subject, grade, keep_out_of_scope=False, include_conflicts=False
     if conflict and not include_conflicts:
         return None, conflict
 
-    knowledges = str(it.get("knowledges") or "")
+    # 题庄的 knowledges 是富文本，形如「情态动词<br/>」「固定搭配;动词不定式」。
+    # 原样用有两个后果：界面上会显示成「【考点】情态动词<br/>」；
+    # 而且标签里夹着 HTML 会让考点判定的规则表更难对齐。这里统一清成纯文本，
+    # 多个标签之间的分号换成顿号（「固定搭配、动词不定式」比「;」好读）。
+    knowledges_raw = str(it.get("knowledges") or "")
+    knowledges = re.sub(r"<[^>]+>", " ", knowledges_raw)
+    knowledges = re.sub(r"\s+", " ", knowledges).strip()
+    knowledges = re.sub(r"\s*[;；]\s*", "、", knowledges)
     source = str(it.get("source") or "题庄题库")
     blob = title + " " + knowledges + " " + analysis[:300]
     sub_label = SUBJECT_LABEL.get(subject, "语文")
@@ -661,6 +680,27 @@ def reclassify_file(path):
     items = doc.get("items") or []
     changed, no_raw = 0, 0
     for q in items:
+        # 英语也要重标：考点判定表改过（情态动词、动名词作宾语、冠词误伤），
+        # 旧题不重标就会出现「同一道题两种标法」，口诀也会一半对一半错。
+        if q.get("subject") == "english":
+            raw = q.get("raw") or {}
+            if not raw:
+                no_raw += 1
+                continue
+            title = clean_html(raw.get("title_html") or q.get("stem", ""))
+            know = str(raw.get("knowledges") or "")
+            old_gp = q.get("grammar_point")
+            gp = formula_for("english", title + " " + know, None)
+            if gp != old_gp:
+                changed += 1
+            q["grammar_point"] = gp
+            q["grammar_group"] = group_of_en(gp)
+            q["genre"] = infer_en_genre(title + " " + know, gp)
+            # 干扰项陷阱由板块决定，考点一变就得跟着变，否则错题本聚合会按旧板块走
+            for o in (q.get("options") or []):
+                if not o.get("is_correct"):
+                    o["trap_type"] = trap_of_en(gp)
+            continue
         if q.get("subject") != "history":
             continue
         raw = q.get("raw") or {}
