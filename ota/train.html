@@ -23061,6 +23061,18 @@ window.EN_VSRC = {
      如果 meta 里的版本号和本地记着的一样，直接结束——日常检查只花 1 KB。
   */
   var BANK_REPO = 'zwbyln/zhongkao-bank';
+  /* 兜底镜像用的版本标签（对应仓库里的 git tag，如 v2.27）。
+     为什么需要它：
+     jsDelivr 的 @main 是个「会变」的别名，它按分支名缓存，purge 之后
+     有时仍要几分钟到几十分钟才刷干净（实测：raw 上已经是最新的 713 道，
+     cdn / gcore / fastly 三家同时还在给 11-24 那份 783 道的旧副本）。
+     可变引用卡住的时候，不可变引用是唯一能立刻拿到正确文件的写法——
+     同一个 commit 下三家 CDN 全部命中，而 @main 那三家还是旧的。
+
+     所以这两条排在最后当兜底：@main 都还是旧的就轮到它。它不会让镜像
+     变快（第一轮 probe 仍以 @main 为主），只保证「@main 没刷干净时也能
+     取到这一版的题库」。发布新版本时把这个值改成新标签号，别手改别的。 */
+  var BANK_VERSION = 'v2.27';
   /* 挂到 window 上：章节包、时政这些模块在别的 <script> 里，
      直接写 window.BANK_MIRRORS 拿到的是 undefined —— 之前时政同步
      就是读不到镜像列表，cand 只剩本机一条，失败后无源可换。 */
@@ -23071,7 +23083,11 @@ window.EN_VSRC = {
     'https://fastly.jsdelivr.net/gh/' + BANK_REPO + '@main/',
     'https://ghfast.top/https://raw.githubusercontent.com/' + BANK_REPO + '/main/',
     'https://gh-proxy.com/https://raw.githubusercontent.com/' + BANK_REPO + '/main/',
-    'https://raw.githubusercontent.com/' + BANK_REPO + '/main/'
+    'https://raw.githubusercontent.com/' + BANK_REPO + '/main/',
+    /* 兜底：不可变版本标签，见 BANK_VERSION 注释。放最后是因为它存在
+       「这一版的标签还没建」的窗口期，不该抢 @main 的主场。 */
+    'https://gcore.jsdelivr.net/gh/' + BANK_REPO + '@' + BANK_VERSION + '/',
+    'https://cdn.jsdelivr.net/gh/' + BANK_REPO + '@' + BANK_VERSION + '/'
   ];
   window.BANK_MIRRORS = BANK_MIRRORS;
 
