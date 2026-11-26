@@ -18,7 +18,7 @@ HTML = os.path.join(OTA, 'train.html')
 MANIFEST = os.path.join(OTA, 'manifest.json')
 
 VERSION = '2.30'
-BUILD = 43  # 与 APK versionCode 一致
+BUILD = 44  # 与 APK versionCode 一致
 NOTE = ('词卡新增「联想记忆」：能拆的词给两截熟词（air + port，各带中文），'
         '具体名词配一个 emoji 当图像锚点，其余的词给三个问题让孩子自己编；'
         '写下的那一句存在档案里，复习时先看到自己的句子，说明页可一键复制整本联想。'
@@ -30,6 +30,10 @@ NOTE = ('词卡新增「联想记忆」：能拆的词给两截熟词（air + po
         'accountant 被讲成「账户 + 蚂蚁」，backward 成了「back + 病房」——'
         '词典义放到合成词里就偏了，这类给人工释义覆盖；词尾另标「表示人 / 表示朝…方向」。'
         '讲不通的 7 条（forbid、withdraw、fireworks 等）直接删掉。'
+        '另外修了两处「看不见的错」：some- 类词（somebody = some + body）'
+        '曾被注成「词尾，表示…的」，因为词尾表按字符串查，some 恰好也在里面——'
+        '改成只认末段；「我的画面」保存时读的是全局当前词，孩子写好句子后'
+        '若发生一次重绘，句子会拐到另一张词卡上，改成以输入框绑定的词为准。'
         '词表页同时多了「有联想」筛选（551 词）。')
 
 
