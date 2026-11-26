@@ -1278,6 +1278,56 @@ body[data-theme="dark"] .fs-hit{background:rgba(255,214,102,.28);color:#ffe6a8}
 .vc-blk-snt{border-top:none;margin-top:12px;padding-top:0;
   border-left:3px solid var(--accent);padding-left:11px}
 .vc-blk-snt .vc-blk-h{margin-bottom:6px}
+/* 联想记忆：工具只给「原材料」，画面留给孩子自己接。
+   给现成的故事看着省事，但那是最容易「记住故事、记不住词」的做法；
+   给两截熟词 + 各自的意思，孩子自己接一句，才落在他自己的脑回路上。 */
+.vc-mem-top{display:flex;gap:11px;align-items:flex-start}
+.vc-mem-pic{flex:0 0 auto;width:52px;height:52px;border-radius:14px;background:var(--bg);
+  border:1px solid var(--line);display:grid;place-items:center;font-size:29px;line-height:1;
+  font-family:"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji","Segoe UI Symbol",sans-serif;
+  user-select:none;-webkit-user-select:none}
+.vc-mem-split{display:flex;align-items:center;gap:5px;flex-wrap:wrap;padding-top:2px}
+.vc-mem-split b{font-size:16.5px;font-weight:750;font-family:Georgia,serif;
+  background:var(--accent-soft);color:var(--accent-ink);border-radius:7px;padding:2px 8px}
+.vc-mem-split i{font-style:normal;font-size:13px;color:var(--ink2)}
+.vc-mem-gloss{margin-top:7px;font-size:12.5px;line-height:1.65;color:var(--ink2)}
+.vc-mem-gloss em{font-style:normal;color:var(--ink);font-weight:650}
+.vc-mem-tip{margin-top:5px;font-size:12.5px;line-height:1.6;color:var(--ink2)}
+.vc-mem-q{font-size:12.8px;line-height:1.8;color:var(--ink2)}
+.vc-mem-q b{color:var(--accent-ink);font-weight:800;margin-right:6px}
+.vc-mem-qs{display:flex;flex-direction:column;gap:3px;margin-top:5px;font-size:13px;line-height:1.75;color:var(--ink)}
+.vc-mem-note{margin-top:11px}
+.vc-mem-saved{position:relative;background:var(--warm-soft);border-radius:10px;
+  padding:9px 11px 9px 30px;font-size:13.5px;line-height:1.65;color:var(--ink);white-space:pre-wrap}
+.vc-mem-saved:before{content:'“';position:absolute;left:10px;top:4px;font-size:22px;
+  color:var(--warm);font-family:Georgia,serif;line-height:1}
+.vc-mem-saved-acts{display:flex;gap:7px;margin-top:6px}
+.vc-mem-ta{width:100%;min-height:64px;resize:vertical;border:1px solid var(--line);border-radius:10px;
+  padding:9px 10px;font-size:14px;line-height:1.65;font-family:inherit;
+  background:var(--card);color:var(--ink);box-sizing:border-box}
+.vc-mem-ta:focus{outline:none;border-color:var(--accent)}
+.vc-mem-acts{display:flex;gap:8px;margin-top:8px;align-items:center}
+.vc-mem-help{margin-left:auto;flex:0 0 auto;font-size:11.5px;font-weight:700;color:var(--accent-ink);
+  background:none;border:none;padding:2px 0;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.vc-mem-help:after{content:' ›'}
+/* 联想记忆说明页：三步 + 自检 + 我的联想本 */
+.vc-help-lead{font-size:13.5px;line-height:1.75;color:var(--ink2);margin:0 0 16px}
+.vc-step{display:flex;gap:10px;margin:0 0 16px}
+.vc-step-n{flex:0 0 24px;width:24px;height:24px;border-radius:50%;background:var(--accent);color:#fff;
+  font-size:12.5px;font-weight:800;display:grid;place-items:center;margin-top:1px}
+.vc-step-b{flex:1;min-width:0}
+.vc-step-t{font-size:14.5px;font-weight:800;margin-bottom:6px;line-height:1.4}
+.vc-step-b p{font-size:13.5px;line-height:1.75;color:var(--ink);margin:0 0 6px}
+.vc-step-b p.q{font-size:12.5px;color:var(--ink2);line-height:1.7}
+.vc-eg{background:var(--bg);border-radius:9px;padding:8px 10px;font-size:13px;line-height:1.75;margin:7px 0}
+.vc-eg b{font-weight:750}
+.vc-eg i{font-style:normal;color:var(--ink2)}
+.vc-chk{list-style:none;padding:0;margin:6px 0 0}
+.vc-chk li{font-size:13.5px;line-height:2;color:var(--ink)}
+.vc-chk li:before{content:'□';color:var(--accent);font-weight:800;margin-right:7px}
+.vc-nb{display:flex;flex-direction:column;gap:7px;margin-top:9px}
+.vc-nb-row{background:var(--bg);border-radius:9px;padding:8px 10px;font-size:13px;line-height:1.65}
+.vc-nb-row b{display:block;font-size:12.5px;color:var(--accent-ink);margin-bottom:2px}
 .vc-wf{display:flex;flex-wrap:wrap;gap:6px}
 .vc-wf span{font-size:13px;padding:5px 9px;border-radius:9px;background:var(--bg);border:1px solid var(--line)}
 .vc-wf i{font-style:normal;font-size:11px;color:var(--ink2);margin-right:5px}
@@ -2026,6 +2076,9 @@ body[data-theme="dark"] .dz-bd.on b{color:#e0a86a}
 </style>
 <script src="en_texts.js" data-text="1"></script>
 <script src="vocab_data.js" data-vocab="1"></script>
+<!-- MEM-DATA:BEGIN 由 tools/build_vocab_mem.py 生成，勿手改 -->
+<script>window.EN_VOCAB_MEM={"v":"2026-CURRICULUM","n":558,"src":"emoji 为人工挑选的 Unicode 字符；拆分为本词表内互拆，非词源","items":{"accountant":{"s":["account","ant"],"n":["","词尾，表示「人」"]},"afternoon":{"s":["after","noon"]},"afterward":{"s":["after","ward"],"n":["","词尾，表示「朝…方向」"]},"airline":{"s":["air","line"]},"airmail":{"s":["air","mail"]},"airplane":{"s":["air","plane"],"e":"✈️"},"airport":{"s":["air","port"]},"airspace":{"s":["air","space"]},"alongside":{"s":["along","side"]},"ambulance":{"e":"🚑"},"anchor":{"e":"⚓"},"ant":{"e":"🐜"},"anybody":{"s":["any","body"]},"anyhow":{"s":["any","how"]},"anymore":{"s":["any","more"]},"anyone":{"s":["any","one"]},"anything":{"s":["any","thing"]},"anyway":{"s":["any","way"]},"anywhere":{"s":["any","where"]},"apple":{"e":"🍎"},"armchair":{"s":["arm","chair"]},"artist":{"e":"🎨"},"assistant":{"s":["assist","ant"],"n":["","词尾，表示「人」"]},"attendant":{"s":["attend","ant"],"n":["","词尾，表示「人」"]},"baby":{"e":"👶"},"backache":{"s":["back","ache"]},"background":{"s":["back","ground"]},"backward":{"s":["back","ward"],"n":["","词尾，表示「朝…方向」"]},"badminton":{"e":"🏸"},"bag":{"e":"👜"},"balloon":{"e":"🎈"},"ballpoint":{"s":["ball","point"]},"banana":{"e":"🍌"},"bandage":{"s":["band","age"],"n":["","词尾，多表名词"]},"bank":{"e":"🏦"},"barbershop":{"s":["barber","shop"]},"baseball":{"s":["base","ball"],"e":"⚾"},"basket":{"e":"🧺"},"basketball":{"s":["basket","ball"],"e":"🏀"},"bathroom":{"s":["bath","room"]},"bathtub":{"e":"🛁"},"battleground":{"s":["battle","ground"]},"bear":{"e":"🐻"},"bed":{"e":"🛏️"},"bedclothes":{"s":["bed","clothes"]},"bedroom":{"s":["bed","room"]},"bee":{"e":"🐝"},"beehive":{"s":["bee","hive"]},"bell":{"e":"🔔"},"bicycle":{"e":"🚲"},"bird":{"e":"🐦"},"birdcage":{"s":["bird","cage"]},"birthday":{"s":["birth","day"]},"birthplace":{"s":["birth","place"]},"blackboard":{"s":["black","board"]},"blood":{"e":"🩸"},"boat":{"e":"⛵"},"bone":{"e":"🦴"},"book":{"e":"📖"},"bookcase":{"s":["book","case"]},"bookmark":{"s":["book","mark"],"e":"🔖"},"bookshelf":{"s":["book","shelf"]},"bookshop":{"s":["book","shop"]},"bookstore":{"s":["book","store"]},"bowl":{"e":"🥣"},"bowling":{"e":"🎳"},"box":{"e":"📦"},"boxing":{"e":"🥊"},"boy":{"e":"👦"},"brain":{"e":"🧠"},"bread":{"e":"🍞"},"breakfast":{"s":["break","fast"]},"breakthrough":{"s":["break","through"]},"brick":{"e":"🧱"},"broadcast":{"s":["broad","cast"]},"broom":{"e":"🧹"},"bucket":{"e":"🪣"},"bulb":{"e":"💡"},"bus":{"e":"🚌"},"businessman":{"s":["business","man"]},"businesswoman":{"s":["business","woman"]},"butterfly":{"s":["butter","fly"],"e":"🦋"},"cake":{"e":"🍰"},"camel":{"e":"🐫"},"camera":{"e":"📷"},"candle":{"e":"🕯️"},"candy":{"e":"🍬"},"cap":{"e":"🧢"},"car":{"e":"🚗"},"carpet":{"s":["car","pet"]},"carrot":{"e":"🥕"},"castle":{"e":"🏰"},"cat":{"e":"🐈"},"chair":{"e":"🪑"},"chairman":{"s":["chair","man"]},"chairwoman":{"s":["chair","woman"]},"cheese":{"e":"🧀"},"chess":{"e":"♟️"},"chicken":{"e":"🐔"},"church":{"e":"⛪"},"cinema":{"e":"🎬"},"classroom":{"s":["class","room"]},"clock":{"e":"⏰"},"cloud":{"e":"☁️"},"coat":{"e":"🧥"},"coffee":{"e":"☕"},"coin":{"e":"🪙"},"compass":{"e":"🧭"},"computer":{"e":"💻"},"confirm":{"s":["con","firm"]},"conscience":{"s":["con","science"]},"consultant":{"s":["consult","ant"],"n":["","词尾，表示「人」"]},"contemporary":{"s":["con","temporary"]},"cook":{"e":"🧑‍🍳"},"cookie":{"e":"🍪"},"corn":{"e":"🌽"},"countryside":{"s":["country","side"]},"courtyard":{"s":["court","yard"]},"cow":{"e":"🐄"},"cowboy":{"s":["cow","boy"]},"crayon":{"e":"🖍️"},"cup":{"e":"☕"},"cupboard":{"s":["cup","board"]},"database":{"s":["data","base"]},"daylight":{"s":["day","light"]},"deadline":{"s":["dead","line"]},"deer":{"e":"🦌"},"desert":{"e":"🏜️"},"diamond":{"e":"💎"},"diary":{"e":"📔"},"dictionary":{"e":"📖"},"doctor":{"e":"🩺"},"dog":{"e":"🐕"},"door":{"e":"🚪"},"download":{"s":["down","load"]},"downstairs":{"s":["down","stairs"]},"downtown":{"s":["down","town"]},"downward":{"s":["down","ward"],"n":["","词尾，表示「朝…方向」"]},"drawback":{"s":["draw","back"]},"dress":{"e":"👗"},"drum":{"e":"🥁"},"duck":{"e":"🦆"},"dumpling":{"e":"🥟"},"eagle":{"e":"🦅"},"ear":{"e":"👂"},"earth":{"e":"🌍"},"earthquake":{"s":["earth","quake"]},"eastward":{"s":["east","ward"],"n":["","词尾，表示「朝…方向」"]},"egg":{"e":"🥚"},"eggplant":{"s":["egg","plant"],"e":"🍆"},"elephant":{"e":"🐘"},"endless":{"s":["end","less"],"n":["","词尾，表示「没有…的」"]},"envelope":{"e":"✉️"},"everybody":{"s":["every","body"]},"everyday":{"s":["every","day"]},"everyone":{"s":["every","one"]},"everything":{"s":["every","thing"]},"everywhere":{"s":["every","where"]},"extraordinary":{"s":["extra","ordinary"]},"eye":{"e":"👁️"},"eyesight":{"s":["eye","sight"]},"eyewitness":{"s":["eye","witness"]},"factory":{"e":"🏭"},"farmer":{"e":"👨‍🌾"},"feather":{"e":"🪶"},"fingernail":{"s":["finger","nail"]},"fire":{"e":"🔥"},"firefighter":{"s":["fire","fighter"],"e":"🧑‍🚒"},"fireplace":{"s":["fire","place"]},"firewood":{"s":["fire","wood"]},"firework":{"s":["fire","work"]},"fireworks":{"s":["fire","works"]},"fish":{"e":"🐟"},"flag":{"e":"🏳️"},"flashlight":{"s":["flash","light"]},"flower":{"e":"🌸"},"fog":{"e":"🌫️"},"foot":{"e":"🦶"},"football":{"s":["foot","ball"],"e":"⚽"},"forbid":{"s":["for","bid"]},"forest":{"e":"🌲"},"forever":{"s":["for","ever"],"n":["","词尾，表示「无论…」"]},"fork":{"e":"🍴"},"forward":{"s":["for","ward"],"n":["","词尾，表示「朝…方向」"]},"fourteen":{"s":["four","teen"],"n":["","词尾，表示「十几」"]},"fox":{"e":"🦊"},"freeway":{"s":["free","way"]},"frenchman":{"s":["french","man"]},"frog":{"e":"🐸"},"garlic":{"e":"🧄"},"gentleman":{"s":["gentle","man"]},"gift":{"e":"🎁"},"giraffe":{"e":"🦒"},"girl":{"e":"👧"},"girlfriend":{"s":["girl","friend"]},"glasshouse":{"s":["glass","house"]},"glove":{"e":"🧤"},"goat":{"e":"🐐"},"goldfish":{"s":["gold","fish"]},"golf":{"e":"⛳"},"goodbye":{"s":["good","bye"]},"goose":{"e":"🪿"},"grandchild":{"s":["grand","child"]},"granddaughter":{"s":["grand","daughter"]},"grandfather":{"s":["grand","father"]},"grandmother":{"s":["grand","mother"]},"grandparent":{"s":["grand","parent"]},"grandson":{"s":["grand","son"]},"grape":{"e":"🍇"},"grass":{"e":"🌿"},"greengrocer":{"s":["green","grocer"]},"guitar":{"e":"🎸"},"haircut":{"s":["hair","cut"]},"hallway":{"s":["hall","way"]},"hamburger":{"e":"🍔"},"hammer":{"e":"🔨"},"hand":{"e":"✋"},"handbag":{"s":["hand","bag"],"e":"👜"},"handsome":{"s":["hand","some"],"n":["","词尾，表示「…的」"]},"handtruck":{"s":["hand","truck"]},"handwriting":{"s":["hand","writing"]},"hat":{"e":"👒"},"headache":{"s":["head","ache"]},"headline":{"s":["head","line"]},"headmaster":{"s":["head","master"]},"headteacher":{"s":["head","teacher"]},"heart":{"e":"❤️"},"helicopter":{"e":"🚁"},"helmet":{"e":"⛑️"},"hen":{"e":"🐔"},"herself":{"s":["her","self"]},"highway":{"s":["high","way"]},"hillside":{"s":["hill","side"]},"himself":{"s":["him","self"]},"homeland":{"s":["home","land"]},"hometown":{"s":["home","town"]},"homework":{"s":["home","work"]},"honey":{"e":"🍯"},"hook":{"e":"🪝"},"horse":{"e":"🐎"},"hospital":{"e":"🏥"},"hotdog":{"s":["hot","dog"]},"hotel":{"e":"🏨"},"house":{"e":"🏠"},"housewife":{"s":["house","wife"]},"housework":{"s":["house","work"]},"however":{"s":["how","ever"],"n":["","词尾，表示「无论…」"]},"ice":{"e":"🧊"},"iceland":{"s":["ice","land"]},"important":{"s":["import","ant"],"n":["","词尾，表示「人」"]},"insect":{"e":"🐛"},"island":{"e":"🏝️"},"jar":{"e":"🫙"},"jeans":{"e":"👖"},"judge":{"e":"🧑‍⚖️"},"juice":{"e":"🧃"},"kangaroo":{"e":"🦘"},"key":{"e":"🔑"},"keyboard":{"s":["key","board"],"e":"⌨️"},"kilogram":{"s":["kilo","gram"]},"kilometer":{"s":["kilo","meter"]},"kilometre":{"s":["kilo","metre"]},"kite":{"e":"🪁"},"knife":{"e":"🔪"},"labour":{"s":["lab","our"]},"ladder":{"e":"🪜"},"lamp":{"e":"💡"},"lantern":{"e":"🏮"},"leaf":{"e":"🍃"},"leftover":{"s":["left","over"]},"leg":{"e":"🦵"},"lemon":{"e":"🍋"},"library":{"e":"📚"},"lifestyle":{"s":["life","style"]},"lifetime":{"s":["life","time"]},"lightning":{"e":"⚡"},"lion":{"e":"🦁"},"lock":{"e":"🔒"},"lookout":{"s":["look","out"]},"lorry":{"e":"🚛"},"loudspeaker":{"s":["loud","speaker"]},"mailbox":{"s":["mail","box"]},"mainland":{"s":["main","land"]},"mankind":{"s":["man","kind"]},"map":{"e":"🗺️"},"mask":{"e":"😷"},"meanwhile":{"s":["mean","while"]},"meat":{"e":"🥩"},"medal":{"e":"🏅"},"melon":{"e":"🍈"},"milk":{"e":"🥛"},"minibus":{"e":"🚐"},"mirror":{"e":"🪞"},"money":{"e":"💰"},"monkey":{"e":"🐒"},"moon":{"e":"🌙"},"mosquito":{"e":"🦟"},"motherland":{"s":["mother","land"]},"motorbike":{"s":["motor","bike"]},"motorcycle":{"s":["motor","cycle"],"e":"🏍️"},"mountain":{"e":"⛰️"},"mouse":{"e":"🐭"},"mouth":{"e":"👄"},"museum":{"e":"🏛️"},"mushroom":{"e":"🍄"},"nationwide":{"s":["nation","wide"]},"necktie":{"s":["neck","tie"]},"needle":{"e":"🪡"},"network":{"s":["net","work"]},"newspaper":{"s":["news","paper"],"e":"📰"},"nineteen":{"s":["nine","teen"],"n":["","词尾，表示「十几」"]},"noodle":{"e":"🍜"},"northeast":{"s":["north","east"]},"northwest":{"s":["north","west"]},"nose":{"e":"👃"},"notebook":{"s":["note","book"],"e":"📓"},"nowhere":{"s":["now","here"]},"nurse":{"e":"🧑‍⚕️"},"offshore":{"s":["off","shore"]},"oilfield":{"s":["oil","field"]},"oneself":{"s":["one","self"]},"onion":{"e":"🧅"},"orange":{"e":"🍊"},"otherwise":{"s":["other","wise"],"n":["","词尾，表示「在…方面」"]},"outcome":{"s":["out","come"]},"outdoor":{"s":["out","door"]},"outline":{"s":["out","line"]},"output":{"s":["out","put"]},"outside":{"s":["out","side"]},"outspoken":{"s":["out","spoken"]},"outward":{"s":["out","ward"],"n":["","词尾，表示「朝…方向」"]},"overcoat":{"s":["over","coat"]},"overcome":{"s":["over","come"]},"overhead":{"s":["over","head"]},"overlook":{"s":["over","look"]},"overweight":{"s":["over","weight"]},"ox":{"e":"🐂"},"package":{"s":["pack","age"],"n":["","词尾，多表名词"],"e":"📦"},"pancake":{"s":["pan","cake"]},"panda":{"e":"🐼"},"paperwork":{"s":["paper","work"]},"parrot":{"e":"🦜"},"passage":{"s":["pass","age"],"n":["","词尾，多表名词"]},"passport":{"s":["pass","port"]},"peach":{"e":"🍑"},"pear":{"e":"🍐"},"pen":{"e":"🖊️"},"pencil":{"e":"✏️"},"pepper":{"e":"🫑"},"percent":{"s":["per","cent"]},"percentage":{"s":["percent","age"],"n":["","词尾，多表名词"]},"perform":{"s":["per","form"]},"phone":{"e":"📱"},"photograph":{"s":["photo","graph"]},"piano":{"e":"🎹"},"picture":{"e":"🖼️"},"pie":{"e":"🥧"},"pig":{"e":"🐖"},"pilot":{"e":"👨‍✈️"},"pin":{"e":"📌"},"pineapple":{"s":["pine","apple"],"e":"🍍"},"plate":{"e":"🍽️"},"playground":{"s":["play","ground"],"e":"🛝"},"playroom":{"s":["play","room"]},"policeman":{"s":["police","man"]},"popcorn":{"s":["pop","corn"],"e":"🍿"},"postage":{"s":["post","age"],"n":["","词尾，多表名词"]},"postbox":{"s":["post","box"]},"postcard":{"s":["post","card"]},"postman":{"s":["post","man"]},"potato":{"e":"🥔"},"printer":{"e":"🖨️"},"program":{"s":["pro","gram"]},"purse":{"e":"👛"},"rabbit":{"e":"🐇"},"radio":{"e":"📻"},"radioactive":{"s":["radio","active"]},"railway":{"s":["rail","way"]},"rain":{"e":"🌧️"},"rainbow":{"s":["rain","bow"],"e":"🌈"},"raincoat":{"s":["rain","coat"]},"rainfall":{"s":["rain","fall"]},"rat":{"e":"🐀"},"razor":{"e":"🪒"},"receipt":{"e":"🧾"},"restaurant":{"e":"🍽️"},"restroom":{"s":["rest","room"]},"rice":{"e":"🍚"},"ring":{"e":"💍"},"robot":{"e":"🤖"},"rock":{"e":"🪨"},"rocket":{"e":"🚀"},"rooster":{"e":"🐓"},"rose":{"e":"🌹"},"roundabout":{"s":["round","about"]},"ruler":{"e":"📏"},"running":{"e":"🏃"},"salad":{"e":"🥗"},"salt":{"e":"🧂"},"sandwich":{"e":"🥪"},"scarf":{"e":"🧣"},"school":{"e":"🏫"},"schoolbag":{"s":["school","bag"]},"schoolwork":{"s":["school","work"]},"scientist":{"e":"🔬"},"scissors":{"e":"✂️"},"sea":{"e":"🌊"},"seal":{"e":"🦭"},"seaman":{"s":["sea","man"]},"seashell":{"s":["sea","shell"]},"seaside":{"s":["sea","side"]},"seat":{"e":"💺"},"seaweed":{"s":["sea","weed"]},"secondhand":{"s":["second","hand"]},"seventeen":{"s":["seven","teen"],"n":["","词尾，表示「十几」"]},"shark":{"e":"🦈"},"sheep":{"e":"🐑"},"shell":{"e":"🐚"},"ship":{"e":"🚢"},"shirt":{"e":"👕"},"shoe":{"e":"👟"},"shop":{"e":"🏪"},"shopkeeper":{"s":["shop","keeper"]},"shorts":{"e":"🩳"},"sideway":{"s":["side","way"]},"singer":{"e":"🎤"},"sixteen":{"s":["six","teen"],"n":["","词尾，表示「十几」"]},"skate":{"e":"⛸️"},"skateboard":{"s":["skate","board"],"e":"🛹"},"snake":{"e":"🐍"},"snow":{"e":"❄️"},"snowball":{"s":["snow","ball"]},"snowman":{"s":["snow","man"],"e":"☃️"},"soccer":{"e":"⚽"},"sock":{"e":"🧦"},"sofa":{"e":"🛋️"},"softball":{"s":["soft","ball"]},"somebody":{"s":["some","body"],"n":["词尾，表示「…的」",""]},"somehow":{"s":["some","how"],"n":["词尾，表示「…的」",""]},"someone":{"s":["some","one"],"n":["词尾，表示「…的」",""]},"something":{"s":["some","thing"],"n":["词尾，表示「…的」",""]},"somewhere":{"s":["some","where"],"n":["词尾，表示「…的」",""]},"soup":{"e":"🥣"},"southeast":{"s":["south","east"]},"southwest":{"s":["south","west"]},"spaghetti":{"e":"🍝"},"spider":{"e":"🕷️"},"spoon":{"e":"🥄"},"spotlight":{"s":["spot","light"]},"squid":{"e":"🦑"},"stadium":{"e":"🏟️"},"star":{"e":"⭐"},"station":{"e":"🚉"},"stomachache":{"s":["stomach","ache"]},"stone":{"e":"🪨"},"stopwatch":{"s":["stop","watch"]},"storm":{"e":"⛈️"},"straightforward":{"s":["straight","forward"]},"strawberry":{"e":"🍓"},"student":{"e":"🎓"},"subway":{"e":"🚇"},"suitcase":{"s":["suit","case"]},"sun":{"e":"☀️"},"sunday":{"s":["sun","day"]},"sunglasses":{"e":"🕶️"},"sunlight":{"s":["sun","light"]},"sunrise":{"s":["sun","rise"],"e":"🌅"},"sunset":{"s":["sun","set"],"e":"🌇"},"sunshine":{"s":["sun","shine"]},"superman":{"s":["super","man"]},"supermarket":{"s":["super","market"],"e":"🛒"},"swimming":{"e":"🏊"},"sword":{"e":"🗡️"},"taxi":{"e":"🚕"},"tea":{"e":"🍵"},"teacher":{"e":"🧑‍🏫"},"teamwork":{"s":["team","work"]},"teapot":{"s":["tea","pot"]},"telephone":{"e":"☎️"},"telescope":{"e":"🔭"},"television":{"e":"📺"},"temple":{"e":"🛕"},"tennis":{"e":"🎾"},"tent":{"e":"⛺"},"textbook":{"s":["text","book"]},"theatre":{"e":"🎭"},"thread":{"e":"🧵"},"throughout":{"s":["through","out"]},"thunder":{"e":"⛈️"},"thunderstorm":{"s":["thunder","storm"]},"ticket":{"e":"🎫"},"tiger":{"e":"🐯"},"timetable":{"s":["time","table"]},"tiresome":{"s":["tire","some"],"n":["","词尾，表示「…的」"]},"toilet":{"e":"🚻"},"tomato":{"e":"🍅"},"tongue":{"e":"👅"},"tooth":{"e":"🦷"},"toothache":{"s":["tooth","ache"]},"toothbrush":{"s":["tooth","brush"],"e":"🪥"},"tower":{"e":"🗼"},"toy":{"e":"🧸"},"tractor":{"e":"🚜"},"train":{"e":"🚆"},"tram":{"e":"🚊"},"tree":{"e":"🌳"},"troublesome":{"s":["trouble","some"],"n":["","词尾，表示「…的」"]},"trousers":{"e":"👖"},"truck":{"e":"🚚"},"turkey":{"e":"🦃"},"turtle":{"e":"🐢"},"typewriter":{"s":["type","writer"]},"umbrella":{"e":"☂️"},"underground":{"s":["under","ground"]},"underline":{"s":["under","line"]},"understand":{"s":["under","stand"]},"undertake":{"s":["under","take"]},"underwater":{"s":["under","water"]},"underwear":{"s":["under","wear"]},"useless":{"s":["use","less"],"n":["","词尾，表示「没有…的」"]},"vest":{"e":"🦺"},"videophone":{"s":["video","phone"]},"violin":{"e":"🎻"},"volcano":{"e":"🌋"},"volleyball":{"e":"🏐"},"walkman":{"s":["walk","man"]},"wallet":{"e":"👛"},"washroom":{"s":["wash","room"]},"watch":{"e":"⌚"},"watermelon":{"s":["water","melon"],"e":"🍉"},"wayside":{"s":["way","side"]},"weatherman":{"s":["weather","man"]},"weekday":{"s":["week","day"]},"weekend":{"s":["week","end"]},"whale":{"e":"🐳"},"whatever":{"s":["what","ever"],"n":["","词尾，表示「无论…」"]},"wheel":{"e":"🛞"},"whenever":{"s":["when","ever"],"n":["","词尾，表示「无论…」"]},"whichever":{"s":["which","ever"],"n":["","词尾，表示「无论…」"]},"widespread":{"s":["wide","spread"]},"wildlife":{"s":["wild","life"]},"wind":{"e":"🌬️"},"window":{"e":"🪟"},"wine":{"e":"🍷"},"withdraw":{"s":["with","draw"]},"without":{"s":["with","out"]},"wolf":{"e":"🐺"},"wood":{"e":"🪵"},"workday":{"s":["work","day"]},"worker":{"e":"👷"},"workforce":{"s":["work","force"]},"workplace":{"s":["work","place"]},"worldwide":{"s":["world","wide"]},"worm":{"e":"🪱"},"worthwhile":{"s":["worth","while"]},"writer":{"e":"✍️"},"yourself":{"s":["your","self"]},"zebra":{"e":"🦓"}}};</script>
+<!-- MEM-DATA:END -->
 <script src="daily.js" data-daily="1"></script>
 </head>
 <body data-theme="light" data-subject="chinese">
@@ -23577,7 +23630,7 @@ window.EN_VSRC = {
      所以这两条排在最后当兜底：@main 都还是旧的就轮到它。它不会让镜像
      变快（第一轮 probe 仍以 @main 为主），只保证「@main 没刷干净时也能
      取到这一版的题库」。发布新版本时把这个值改成新标签号，别手改别的。 */
-  var BANK_VERSION = 'v2.29';
+  var BANK_VERSION = 'v2.30';
   /* 挂到 window 上：章节包、时政这些模块在别的 <script> 里，
      直接写 window.BANK_MIRRORS 拿到的是 undefined —— 之前时政同步
      就是读不到镜像列表，cand 只剩本机一条，失败后无源可换。 */
@@ -26772,14 +26825,19 @@ window.EN_VSRC = {
        所以在词表里点「记住了」，错因路径里的 SM-2 排期也会跟着更新。 */
     sort: 'az',        // az | za | fresh | hard
     filter: 'all',     // all | new | learn | done
-    letter: ''         // '' 或 a-z
+    letter: '',        // '' 或 a-z
+    note: null,        // 正在编辑「我的画面」的词，只可能有一个
+    memHelp: false     // 联想记忆三步说明页
   };
 
   var FILTERS = [
     { k: 'all', n: '全部' },
     { k: 'new', n: '没学过' },
     { k: 'learn', n: '在学' },
-    { k: 'done', n: '已掌握' }
+    { k: 'done', n: '已掌握' },
+    /* 第五个不是学习状态，是「有联想素材可看」——单独一栏，
+       因为孩子想「就看有图有拆法的」时，状态筛选帮不上忙。 */
+    { k: 'mem', n: '有联想' }
   ];
 
   /* ---------------- 渲染：今天 ---------------- */
@@ -26787,6 +26845,7 @@ window.EN_VSRC = {
     var p = E.activeProfile();
     if (!p) return '<div class="card empty"><h3>先创建档案</h3></div>';
     load();
+    if (V.memHelp) return renderMemHelp(p);
     if (V.drill) return renderDrill(p);
     if (V.card) return renderCard(p, V.card);
     if (V.tab === 'today') return renderToday(p);
@@ -26904,8 +26963,11 @@ window.EN_VSRC = {
   }
 
   function countsOf(rows) {
-    var m = vs(E.activeProfile()), c = { all: rows.length, new: 0, learn: 0, done: 0 };
-    for (var i = 0; i < rows.length; i++) c[statusOf(m[rows[i].key])]++;
+    var m = vs(E.activeProfile()), c = { all: rows.length, new: 0, learn: 0, done: 0, mem: 0 };
+    for (var i = 0; i < rows.length; i++) {
+      c[statusOf(m[rows[i].key])]++;
+      if (memOf(rows[i].key)) c.mem++;
+    }
     return c;
   }
 
@@ -26931,7 +26993,8 @@ window.EN_VSRC = {
       });
     } else {
       if (V.letter) out = out.filter(function (x) { return x.key.charAt(0) === V.letter; });
-      if (V.filter !== 'all') out = out.filter(function (x) { return statusOf(m[x.key]) === V.filter; });
+      if (V.filter === 'mem') out = out.filter(function (x) { return !!memOf(x.key); });
+      else if (V.filter !== 'all') out = out.filter(function (x) { return statusOf(m[x.key]) === V.filter; });
     }
     if (V.sort === 'za') {
       out.sort(function (a, b) { return a.key < b.key ? 1 : a.key > b.key ? -1 : 0; });
@@ -27092,6 +27155,144 @@ window.EN_VSRC = {
     return out;
   }
 
+  /* ---------------- 词卡：联想记忆 ----------------
+     素材只有两种，来历见 tools/build_vocab_mem.py 顶部：
+       s 拆分——两截都必须是本词表里查得到的词，不是词源；
+       e 图像——人工挑的 emoji，只给具体名词。
+     画面一定留白：别人编的故事记得住别人的，记不住自己的。 */
+  function memOf(key) {
+    var m = window.EN_VOCAB_MEM && window.EN_VOCAB_MEM.items;
+    return (m && m[key]) || null;
+  }
+  function notesOf(p) {
+    if (!p) return {};
+    if (!p.vocabNotes) p.vocabNotes = {};
+    return p.vocabNotes;
+  }
+  /* 释义长这样：「n. 空气, 空中, 神态, 样子」。
+     取前两个义项、去掉词性标签——孩子只要认出「这截是空气」，不要读整条词典。 */
+  function glossOf(k) {
+    var it = BYWORD && BYWORD[k];
+    if (!it || !it.tr.length) return '';
+    var t = String(it.tr[0]).replace(/^[a-z]{1,4}\.\s*/i, '').replace(/[；;]/g, ',');
+    var one = t.split(',')[0].replace(/\([^)]*\)/g, '').replace(/\s+/g, ' ').trim();
+    return one.length > 9 ? one.slice(0, 9) + '…' : one;
+  }
+
+  function memBlock(p, it) {
+    var mm = memOf(it.key);
+    var note = notesOf(p)[it.key] || '';
+    var body = '';
+
+    if (mm && mm.s) {
+      /* 有一截可能是词尾（accountant 的 ant、backward 的 ward）。
+         这时候给「词尾表人 / 朝…方向」，别给词典义——不然孩子会记住
+         「会计 = 账户 + 蚂蚁」。 */
+      var tn = mm.n || [];
+      var g0 = tn[0] || glossOf(mm.s[0]);
+      var g1 = tn[1] || glossOf(mm.s[1]);
+      body = '<div class="vc-mem-top">' +
+        (mm.e ? '<div class="vc-mem-pic">' + esc(mm.e) + '</div>' : '') +
+        '<div>' +
+          '<div class="vc-mem-split"><b>' + esc(mm.s[0]) + '</b><i>+</i><b>' + esc(mm.s[1]) + '</b></div>' +
+          '<div class="vc-mem-gloss"><em>' + esc(mm.s[0]) + '</em>　' + esc(g0) +
+            '<br><em>' + esc(mm.s[1]) + '</em>　' + esc(g1) + '</div>' +
+          '<div class="vc-mem-tip">两截都是你学过的词 —— 画面自己接一句。</div>' +
+        '</div></div>';
+    } else if (mm && mm.e) {
+      body = '<div class="vc-mem-top"><div class="vc-mem-pic">' + esc(mm.e) + '</div>' +
+        '<div class="vc-mem-tip" style="padding-top:5px">先看着图说一遍中文，再读一遍音标。<br>' +
+        '图和声音一起进脑子，比只读中文释义牢。</div></div>';
+    } else {
+      body = '<div class="vc-mem-q">这个词没有现成的拆法，三个问题任选一个答：' +
+        '<div class="vc-mem-qs"><span><b>①</b>里面有没有你学过的词？</span>' +
+        '<span><b>②</b>读音像哪个中文词？</span>' +
+        '<span><b>③</b>能画成什么画面？</span></div></div>';
+    }
+
+    var noteHtml;
+    if (V.note === it.key) {
+      noteHtml = '<div class="vc-mem-note"><textarea class="vc-mem-ta" data-note="' + esc(it.key) + '"' +
+        (note ? '' : ' placeholder="例：air 空气 + port 港口 → 飞机从空气里落到港口"') + '>' +
+        esc(note) + '</textarea>' +
+        '<div class="vc-mem-acts"><button class="btn soft" data-act="vocab-note-save">存到词卡</button>' +
+        '<button class="mini-btn" data-act="vocab-note-cancel">取消</button></div></div>';
+    } else if (note) {
+      noteHtml = '<div class="vc-mem-note"><div class="vc-mem-saved">' + esc(note) + '</div>' +
+        '<div class="vc-mem-saved-acts"><button class="mini-btn" data-act="vocab-note-edit">改</button>' +
+        '<button class="mini-btn" data-act="vocab-note-del">删</button></div></div>';
+    } else {
+      noteHtml = '<div class="vc-mem-acts"><button class="mini-btn" data-act="vocab-note-edit">＋ 我的画面</button></div>';
+    }
+
+    return '<div class="vc-blk vc-blk-mem"><div class="vc-blk-h">' + ic('spark', 'vc-bic') + '联想记忆' +
+      '<button class="vc-mem-help" data-act="vocab-mem-help">怎么编</button></div>' +
+      body + noteHtml + '</div>';
+  }
+
+  /* ---------------- 联想记忆 · 三步说明 ----------------
+     这一页教的是「怎么写自己的钩子」，不是给现成故事。
+     公开资料里那些成批生成的「记忆辅助」抽样看下来大半是循环解释
+     （「把 climb 和 climber 联系起来就容易记了」），抄进来只会占地方，
+     所以这里只留方法、例子和自己写的那一本。 */
+  function renderMemHelp(p) {
+    var notes = notesOf(p), rows = '';
+    var list = [];
+    for (var k in notes) if (notes.hasOwnProperty(k)) list.push([k, notes[k]]);
+    list.sort(function (a, b) { return a[0] < b[0] ? -1 : 1; });
+    rows = list.map(function (x) {
+      return '<div class="vc-nb-row"><b>' + esc(x[0]) + '</b>' + esc(x[1]) + '</div>';
+    }).join('');
+
+    return '<div class="vc-card vc-help">' +
+      '<button class="vc-back" data-act="vocab-mem-help-back">' + ic('arrow', 'vc-back-ic') + '返回</button>' +
+      '<div class="vc-head"><div class="vc-title">联想记忆 · 三步<small>工具给原料，画面自己接</small></div></div>' +
+      '<div class="vc-help-lead">别人编的故事，记得住他，记不住你。所以这里只给能拆的拆、能配图的配图，' +
+      '剩下那句画面留给你自己写。</div>' +
+
+      '<div class="vc-step"><div class="vc-step-n">1</div><div class="vc-step-b">' +
+        '<div class="vc-step-t">拆：先在词里找你认识的部分</div>' +
+        '<p>词卡上出现 <b>air + port</b> 这种，两截都是你词表里的真词，下面还各带中文。' +
+        '看一眼就知道这词是「空气 + 港口」拼出来的。</p>' +
+        '<p>没有现成拆法的，自己找：<b>handsome</b> 里有 hand（手）和 some（一些）。</p>' +
+        '<p class="q">词卡上的拆分是按字母找熟词，不是词源。能帮上拼写和意思就够用，不用管拉丁语原来怎么写。</p>' +
+      '</div></div>' +
+
+      '<div class="vc-step"><div class="vc-step-n">2</div><div class="vc-step-b">' +
+        '<div class="vc-step-t">想：三个入口，哪个有画面用哪个</div>' +
+        '<div class="vc-eg"><b>谐音</b>　ambulance「俺不能死」→ 救护车；pest「拍死它」→ 害虫<br>' +
+          '<i>谐音只帮记意思和拼写。读音还是看音标，别把谐音当发音。</i></div>' +
+        '<div class="vc-eg"><b>熟词</b>　island = is + land，「是陆地，中间插了个 s 就成了岛」</div>' +
+        '<div class="vc-eg"><b>画面</b>　abandon 想成「一个人被扔在荒岛上，回头什么都没有」</div>' +
+      '</div></div>' +
+
+      '<div class="vc-step"><div class="vc-step-n">3</div><div class="vc-step-b">' +
+        '<div class="vc-step-t">串：写成一句你自己的话</div>' +
+        '<p>点词卡里的「＋ 我的画面」，写完存上。存过的会一直挂在那张词卡上，' +
+        '复习时先看到你的句子，再看到释义。</p>' +
+        '<p class="q">写不出画面的，就是还没记住 —— 那就先回去看例句。</p>' +
+      '</div></div>' +
+
+      '<div class="vc-blk"><div class="vc-blk-h">' + ic('check', 'vc-bic') + '写完自检四条</div>' +
+        '<ul class="vc-chk">' +
+          '<li>画面里有一个具体的东西（不是「感觉」「概念」）</li>' +
+          '<li>这句话里有读音或拼写的线索</li>' +
+          '<li>一句话说完，两句以上就不是钩子，是作文</li>' +
+          '<li>合上手机，明天还想得起来</li>' +
+        '</ul>' +
+        '<div class="vc-mem-tip" style="margin-top:9px">联想是拐杖，词义和例句才是路。' +
+        '钩子帮你把词捞出来，在句子里用过一次，才算真会。</div>' +
+      '</div>' +
+
+      '<div class="vc-blk"><div class="vc-blk-h">' + ic('pen', 'vc-bic') + '我的联想本 · ' + list.length + ' 条' +
+        (list.length ? '<button class="vc-mem-help" data-act="vocab-mem-copy">复制全部</button>' : '') + '</div>' +
+        (list.length ? '<div class="vc-nb">' + rows + '</div>'
+          : '<div class="vc-mem-q">一条都还没写。写到第一条，这里就会出现。</div>') +
+      '</div>' +
+
+      '<div class="vc-page-pad"></div></div>';
+  }
+
   function renderCard(p, key) {
     var it = BYWORD && BYWORD[key];
     if (!it) { V.card = null; return renderToday(p); }
@@ -27234,7 +27435,7 @@ window.EN_VSRC = {
          原顺序是「怎么记住它 → 搭配 → 易混 → 例句」，孩子滑到例句时往往已经
          在往下找按钮了。Rodriguez 1999 那项九年级课堂研究里，效果最好的
          是「语境 + 记忆线索」这一组——语境那一半就是这条例句。 */
-      sntBlock + affBlock + phrBlock + cfBlock + deepBlock + wfBlock +
+      sntBlock + memBlock(p, it) + affBlock + phrBlock + cfBlock + deepBlock + wfBlock +
       '<div class="vc-page-pad"></div>' +
       '<div class="vc-card-acts">' +
         '<button class="btn soft" data-act="vocab-card-grade" data-q="again">还没记住</button>' +
@@ -27452,6 +27653,7 @@ window.EN_VSRC = {
         // 打开词卡前把搜索词清掉：返回列表时若还留着旧关键字，
         // 会看到「搜了词却回到筛选列表」的错觉。
         V.card = String(el.dataset.w || '').toLowerCase();
+        V.note = null;
         ensureSent();
         break;
       case 'vocab-back':
@@ -27514,6 +27716,57 @@ window.EN_VSRC = {
         if (E.save) E.save();
         break;
       }
+      /* 「我的画面」：孩子自己写的那一句，存在档案里（跟着备份走，不另开一个 key）。
+         保存时按词卡当前的词存，不用 dataset —— 编辑中被切走也不会存错词。 */
+      case 'vocab-note-edit':
+        V.note = V.card;
+        // 画完再聚焦：act 结尾才 rerender，同步聚焦会落到旧节点上
+        setTimeout(function () {
+          var t = document.querySelector('.vc-mem-ta');
+          if (t) { try { t.focus(); } catch (eF) { } }
+        }, 40);
+        break;
+      case 'vocab-note-save': {
+        var ta = document.querySelector('.vc-mem-ta');
+        var txt = ta ? String(ta.value || '').replace(/\s+$/, '') : '';
+        var pn = notesOf(p);
+        if (txt) pn[V.card] = txt.slice(0, 240); else delete pn[V.card];
+        V.note = null;
+        if (E.save) E.save();
+        break;
+      }
+      case 'vocab-note-del': {
+        var pd = notesOf(p);
+        delete pd[V.card];
+        V.note = null;
+        if (E.save) E.save();
+        break;
+      }
+      case 'vocab-note-cancel':
+        V.note = null;
+        break;
+      case 'vocab-mem-help':
+        V.memHelp = true;
+        break;
+      case 'vocab-mem-help-back':
+        V.memHelp = false;
+        break;
+      case 'vocab-mem-copy': {
+        var pnc = notesOf(p), lines = [];
+        for (var nk in pnc) {
+          if (pnc.hasOwnProperty(nk)) lines.push(nk + '：' + pnc[nk]);
+        }
+        var allTxt = '我的联想本（' + lines.length + ' 条）\n' + lines.join('\n');
+        try { navigator.clipboard.writeText(allTxt); } catch (eN) {
+          try {
+            var taN = document.createElement('textarea');
+            taN.value = allTxt; document.body.appendChild(taN); taN.select();
+            document.execCommand('copy'); taN.remove();
+          } catch (eN2) { }
+        }
+        say('已复制 ' + lines.length + ' 条联想');
+        break;
+      }
       case 'vocab-drill-exit':
         V.drill = null;
         // 从词表里开的那一轮，做完/退出都回词表（带着刚更新的「已掌握」标记），
@@ -27572,6 +27825,7 @@ window.EN_VSRC = {
   /* ---------------- 对外的口子 ---------------- */
   /* 页内层级：词卡 / 小测各一层。 */
   function nav() {
+    if (V.memHelp) return { d: 1, name: '联想记忆', back: function () { V.memHelp = false; } };
     if (V.drill) return { d: 1, name: '词汇小测', back: function () { V.drill = null; } };
     if (V.card) return { d: 1, name: '词卡', back: function () { V.card = null; V.q = ''; V.cardFrom = null; } };
     return { d: 0 };
