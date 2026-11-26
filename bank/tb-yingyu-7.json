@@ -1,13 +1,13 @@
 {
   "format": "zx-trainer-bank-v1",
   "source": "题庄真题库（tizhuang.qcscience.cc）",
-  "generatedAt": "2026-11-24T05:19:18.111621+00:00",
+  "generatedAt": "2026-11-26T03:32:38.772338+00:00",
   "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。英语题的 grammar_group / grammar_point 由关键词推断（结构类优先于时态类），口语交际与语法填空等主观题不在采集范围内。",
   "stats": {
-    "usable": 36,
-    "skipped": 25,
-    "thisRun": 0,
-    "added": 0
+    "usable": 51,
+    "skipped": 0,
+    "thisRun": 25,
+    "added": 15
   },
   "items": [
     {
@@ -2755,6 +2755,1161 @@
         "is_auto_gradable": true,
         "knowledges": "主谓一致",
         "year": 2012
+      }
+    },
+    {
+      "id": "TZ32895666",
+      "source": "题庄真题 · 上海市上外附中2023-2024学年七年级上学期英语第一学期阶段",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "情态动词",
+      "grammar_point": "情态动词",
+      "mode": "single",
+      "stem": "（2023七上·上海市月考） You ____ go to the post office. Do you see the dark clouds over there?It is going to rain.",
+      "passage": "【题干原文】\n（2023七上·上海市月考） You ____ go to the post office. Do you see the dark clouds over there?It is going to rain.\n\n【考点】情态动词、否定陈述句\n【出处】上海市上外附中2023-2024学年七年级上学期英语第一学期阶段 · 2024 · 题庄题号 32895666",
+      "options": [
+        {
+          "key": "A",
+          "text": "had better not to",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "had not better",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "had better not",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：你最好不要去邮局。你看到那边的乌云了吗？天要下雨了。had better not do，固定搭配，最好别做某事，是情态动词，故选C。\n\n【点评】考查动词，注意识记had better not的用法。\n19．（2023七上·上海市月考）"
+        },
+        {
+          "key": "D",
+          "text": "had not better to",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "情态动词",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】句意：你最好不要去邮局。你看到那边的乌云了吗？天要下雨了。had better not do，固定搭配，最好别做某事，是情态动词，故选C。\n\n【点评】考查动词，注意识记had better not的用法。\n19．（2023七上·上海市月考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "648993ab97c79d6e6f435fe4bada1e7c",
+      "raw": {
+        "id": 32895666,
+        "title_html": "（2023七上·上海市月考） You ____ go to the post office. Do you see the dark clouds over there?It is going to rain. <br>",
+        "options_html": {
+          "A": "had better not to  ",
+          "B": "had not better",
+          "C": "had better not  ",
+          "D": "had not better to"
+        },
+        "answer": "C",
+        "answer_html": "C<br>",
+        "analysis_html": "【分析】句意：你最好不要去邮局。你看到那边的乌云了吗？天要下雨了。had better not do，固定搭配，最好别做某事，是情态动词，故选C。<br>\n【点评】考查动词，注意识记had better not的用法。<br>19．（2023七上·上海市月考）",
+        "content_hash": "648993ab97c79d6e6f435fe4bada1e7c",
+        "source": "上海市上外附中2023-2024学年七年级上学期英语第一学期阶段",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "情态动词;否定陈述句",
+        "year": 2024
+      }
+    },
+    {
+      "id": "TZ32895668",
+      "source": "题庄真题 · 上海市上外附中2023-2024学年七年级上学期英语第一学期阶段",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "被动语态",
+      "grammar_point": "被动语态",
+      "mode": "single",
+      "stem": "（2023七上·上海市月考） Which of the following sentences is CORRECT?",
+      "passage": "【题干原文】\n（2023七上·上海市月考） Which of the following sentences is CORRECT?\n\n【考点】动名词、一般现在时的被动语态\n【出处】上海市上外附中2023-2024学年七年级上学期英语第一学期阶段 · 2024 · 题庄题号 32895668",
+      "options": [
+        {
+          "key": "A",
+          "text": "His hope is become a doctor.",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "My wish is to study in a well-known university.",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：下面的句子哪个是正确的？A、 他的希望是成为一名医生。B、 我的愿望是在一所著名的大学学习。C、 她的爱好主要是设计衣服和看电影。D、 看足球赛是我父亲的爱好。A，C选项为主系表结构，hope，hobby作主语，表语的动词需用动词不定式，故错误；D选项动词短语作主语，动词需用动名词形式，故错误；B项符合语法结构，故选B。\n\n【点评】考查动名词，不定式，注意识记不定式做表语的用法。"
+        },
+        {
+          "key": "C",
+          "text": "Her hobby is mainly designing clothes and seeing films.",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "Watch football match is my father's hobby.",
+          "is_correct": false,
+          "trap_type": "语态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "被动语态",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：下面的句子哪个是正确的？A、 他的希望是成为一名医生。B、 我的愿望是在一所著名的大学学习。C、 她的爱好主要是设计衣服和看电影。D、 看足球赛是我父亲的爱好。A，C选项为主系表结构，hope，hobby作主语，表语的动词需用动词不定式，故错误；D选项动词短语作主语，动词需用动名词形式，故错误；B项符合语法结构，故选B。\n\n【点评】考查动名词，不定式，注意识记不定式做表语的用法。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "a7377fa8677a3cfa6fdd5ca1824a955e",
+      "raw": {
+        "id": 32895668,
+        "title_html": "（2023七上·上海市月考） Which of the following sentences is CORRECT?<br>",
+        "options_html": {
+          "A": "His hope is become a doctor.",
+          "B": "My wish is to study in a well-known university.",
+          "C": "Her hobby is mainly designing clothes and seeing films.",
+          "D": "Watch football match is my father&#x27;s hobby."
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：下面的句子哪个是正确的？A、 他的希望是成为一名医生。B、 我的愿望是在一所著名的大学学习。C、 她的爱好主要是设计衣服和看电影。D、 看足球赛是我父亲的爱好。A，C选项为主系表结构，hope，hobby作主语，表语的动词需用动词不定式，故错误；D选项动词短语作主语，动词需用动名词形式，故错误；B项符合语法结构，故选B。<br>\n【点评】考查动名词，不定式，注意识记不定式做表语的用法。<br>",
+        "content_hash": "a7377fa8677a3cfa6fdd5ca1824a955e",
+        "source": "上海市上外附中2023-2024学年七年级上学期英语第一学期阶段",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "动名词;一般现在时的被动语态",
+        "year": 2024
+      }
+    },
+    {
+      "id": "TZ32897625",
+      "source": "题庄真题 · 云南省文山州文山市第二学区2022-2023学年七年级下学期期末英语试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "代词",
+      "mode": "single",
+      "stem": "（2023七下·文山期末） Lucy is sleeping now. Remember to ____ at seven o'clock.",
+      "passage": "【题干原文】\n（2023七下·文山期末） Lucy is sleeping now. Remember to ____ at seven o'clock.\n\n【考点】代词辨析\n【出处】云南省文山州文山市第二学区2022-2023学年七年级下学期期末英语试卷 · 2023 · 题庄题号 32897625",
+      "options": [
+        {
+          "key": "A",
+          "text": "wake up her",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "wake her up",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：露西正在睡觉。记得七点叫醒她。her她，代词宾格；she她，代词主格；wake up叫醒，跟代词宾格，且宾格应该放在中间，故选B。\n\n【点评】考查代词辨析和代词的位置。注意wake up跟代词宾格，且宾格应该放在中间。\n5．（2023七下·文山期末）"
+        },
+        {
+          "key": "C",
+          "text": "wake up she",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "wake she up",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "代词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：露西正在睡觉。记得七点叫醒她。her她，代词宾格；she她，代词主格；wake up叫醒，跟代词宾格，且宾格应该放在中间，故选B。\n\n【点评】考查代词辨析和代词的位置。注意wake up跟代词宾格，且宾格应该放在中间。\n5．（2023七下·文山期末）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "b798df072abc28259155c2d03b96a2b3",
+      "raw": {
+        "id": 32897625,
+        "title_html": "（2023七下·文山期末） Lucy is sleeping now. Remember to ____ at seven o&#x27;clock. <br>",
+        "options_html": {
+          "A": "wake up her  ",
+          "B": "wake her up  ",
+          "C": "wake up she  ",
+          "D": "wake she up"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：露西正在睡觉。记得七点叫醒她。her她，代词宾格；she她，代词主格；wake up叫醒，跟代词宾格，且宾格应该放在中间，故选B。<br>\n【点评】考查代词辨析和代词的位置。注意wake up跟代词宾格，且宾格应该放在中间。<br>5．（2023七下·文山期末）",
+        "content_hash": "b798df072abc28259155c2d03b96a2b3",
+        "source": "云南省文山州文山市第二学区2022-2023学年七年级下学期期末英语试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "代词辨析",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32897627",
+      "source": "题庄真题 · 云南省文山州文山市第二学区2022-2023学年七年级下学期期末英语试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "情景交际",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "情景交际",
+      "grammar_point": "情景交际 · 邀请与建议",
+      "mode": "single",
+      "stem": "（2023七下·文山期末） —____？\n—It's rainy.",
+      "passage": "【题干原文】\n（2023七下·文山期末） —____？\n—It's rainy.\n\n【考点】情景交际\n【出处】云南省文山州文山市第二学区2022-2023学年七年级下学期期末英语试卷 · 2023 · 题庄题号 32897627",
+      "options": [
+        {
+          "key": "A",
+          "text": "How is the weather",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——天气怎么样？——下雨。A.天气怎么样；B.今天星期几；C.表述错误；D.最近好吗。根据回答 It's rainy. 可知，此处是问天气，故选A。\n\n【点评】考查情景交际。注意询问天气的固定句型。\n7．（2023七下·铁岭期末）"
+        },
+        {
+          "key": "B",
+          "text": "What day is it today",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "What's the weather",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "How is it going",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "情景交际 · 邀请与建议",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】句意：——天气怎么样？——下雨。A.天气怎么样；B.今天星期几；C.表述错误；D.最近好吗。根据回答 It's rainy. 可知，此处是问天气，故选A。\n\n【点评】考查情景交际。注意询问天气的固定句型。\n7．（2023七下·铁岭期末）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "cdbeaa0c97964cfc2007b6337c43d4ba",
+      "raw": {
+        "id": 32897627,
+        "title_html": "（2023七下·文山期末） —____？<br>—It&#x27;s rainy. <br>",
+        "options_html": {
+          "A": "How is the weather  ",
+          "B": "What day is it today",
+          "C": "What&#x27;s the weather  ",
+          "D": "How is it going"
+        },
+        "answer": "A",
+        "answer_html": "A<br>",
+        "analysis_html": "【分析】句意：——天气怎么样？——下雨。A.天气怎么样；B.今天星期几；C.表述错误；D.最近好吗。根据回答 It&#x27;s rainy.  可知，此处是问天气，故选A。<br>\n【点评】考查情景交际。注意询问天气的固定句型。<br>7．（2023七下·铁岭期末）",
+        "content_hash": "cdbeaa0c97964cfc2007b6337c43d4ba",
+        "source": "云南省文山州文山市第二学区2022-2023学年七年级下学期期末英语试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "情景交际",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32897631",
+      "source": "题庄真题 · 云南省文山州文山市第二学区2022-2023学年七年级下学期期末英语试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "情景交际",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "情景交际",
+      "grammar_point": "情景交际 · 邀请与建议",
+      "mode": "single",
+      "stem": "（2023七下·文山期末） —____？\n\n—Yes, I'd like some rice and beef.",
+      "passage": "【题干原文】\n（2023七下·文山期末） —____？\n\n—Yes, I'd like some rice and beef.\n\n【考点】情景交际\n【出处】云南省文山州文山市第二学区2022-2023学年七年级下学期期末英语试卷 · 2023 · 题庄题号 32897631",
+      "options": [
+        {
+          "key": "A",
+          "text": "What would you like",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "What kind of noodles would you like",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "What size would you like",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "May I take your order",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——您要点菜吗？——是的，我想要一些米饭和牛肉。A.你想要什么；B.你想要哪种面条；C.你想要什么尺码；D.您要点菜吗。根据肯定回答可知，此处应该是一般疑问句，且是点餐的场景，故选D。\n\n【点评】考查情景交际和一般疑问句。注意一般疑问句要用肯定或否定回答。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "情景交际 · 邀请与建议",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】句意：——您要点菜吗？——是的，我想要一些米饭和牛肉。A.你想要什么；B.你想要哪种面条；C.你想要什么尺码；D.您要点菜吗。根据肯定回答可知，此处应该是一般疑问句，且是点餐的场景，故选D。\n\n【点评】考查情景交际和一般疑问句。注意一般疑问句要用肯定或否定回答。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "bd3769f720612e42605e97d080a47773",
+      "raw": {
+        "id": 32897631,
+        "title_html": "（2023七下·文山期末） —____？\n<br>—Yes, I&#x27;d like some rice and beef. <br>",
+        "options_html": {
+          "A": "What would you like",
+          "B": "What kind of noodles would you like",
+          "C": "What size would you like",
+          "D": "May I take your order"
+        },
+        "answer": "D",
+        "answer_html": "D<br>",
+        "analysis_html": "【分析】句意：——您要点菜吗？——是的，我想要一些米饭和牛肉。A.你想要什么；B.你想要哪种面条；C.你想要什么尺码；D.您要点菜吗。根据肯定回答可知，此处应该是一般疑问句，且是点餐的场景，故选D。<br>\n【点评】考查情景交际和一般疑问句。注意一般疑问句要用肯定或否定回答。<br>",
+        "content_hash": "bd3769f720612e42605e97d080a47773",
+        "source": "云南省文山州文山市第二学区2022-2023学年七年级下学期期末英语试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "情景交际",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32897709",
+      "source": "题庄真题 · 云南省文山州（人教版）2022-2023学年七年级下学期期末考试英语试题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "情景交际",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "情景交际",
+      "grammar_point": "情景交际 · 邀请与建议",
+      "mode": "single",
+      "stem": "— Tina, let's go to clean the park.\n—____",
+      "passage": "【题干原文】\n— Tina, let's go to clean the park.\n—____\n\n【考点】情景交际\n【出处】云南省文山州（人教版）2022-2023学年七年级下学期期末考试英语试题 · 2023 · 题庄题号 32897709",
+      "options": [
+        {
+          "key": "A",
+          "text": "I'm fine.",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "Thank you.",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "The same to you.",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "Sounds good.",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——提娜，让我们一起打扫公园儿吧。——听上去很好。A我很好，B谢谢你，C你也一样，D听上去很好，回答祈使句let's go to用sounds good，故选D。\n\n【点评】考查情景交际，注意识记sounds good的用法。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "情景交际 · 邀请与建议",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】句意：——提娜，让我们一起打扫公园儿吧。——听上去很好。A我很好，B谢谢你，C你也一样，D听上去很好，回答祈使句let's go to用sounds good，故选D。\n\n【点评】考查情景交际，注意识记sounds good的用法。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "09d103ca0434e07488452be29a94aa7b",
+      "raw": {
+        "id": 32897709,
+        "title_html": "— Tina, let&#x27;s go to clean the park.<br>—____<br>",
+        "options_html": {
+          "A": "I&#x27;m fine.  ",
+          "B": "Thank you.",
+          "C": "The same to you.  ",
+          "D": "Sounds good."
+        },
+        "answer": "D",
+        "answer_html": "D<br>",
+        "analysis_html": "【分析】句意：——提娜，让我们一起打扫公园儿吧。——听上去很好。A我很好，B谢谢你，C你也一样，D听上去很好，回答祈使句let&#x27;s go to用sounds good，故选D。<br>\n【点评】考查情景交际，注意识记sounds good的用法。<br>",
+        "content_hash": "09d103ca0434e07488452be29a94aa7b",
+        "source": "云南省文山州（人教版）2022-2023学年七年级下学期期末考试英语试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "情景交际",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32897712",
+      "source": "题庄真题 · 云南省文山州（人教版）2022-2023学年七年级下学期期末考试英语试题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "非谓语动词",
+      "grammar_point": "不定式表目的",
+      "mode": "single",
+      "stem": "My parents ask me not ____ TV too much.",
+      "passage": "【题干原文】\nMy parents ask me not ____ TV too much.\n\n【考点】固定搭配、动词不定式\n【出处】云南省文山州（人教版）2022-2023学年七年级下学期期末考试英语试题 · 2023 · 题庄题号 32897712",
+      "options": [
+        {
+          "key": "A",
+          "text": "watch",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "watches",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "to watch",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：我父母不让我多看电视。A动词原型，B单三式，C不定式，D动名词，ask somebody to do something，固定搭配，让某人做某事，故用不定式。，故选C。\n\n【点评】考查不定式，注意识记 ask somebody to do something的用法。"
+        },
+        {
+          "key": "D",
+          "text": "watching",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "不定式表目的",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】句意：我父母不让我多看电视。A动词原型，B单三式，C不定式，D动名词，ask somebody to do something，固定搭配，让某人做某事，故用不定式。，故选C。\n\n【点评】考查不定式，注意识记 ask somebody to do something的用法。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "d41f571b3dd23f01d73cb35938902bbd",
+      "raw": {
+        "id": 32897712,
+        "title_html": "My parents ask me not ____ TV too much.<br>",
+        "options_html": {
+          "A": "watch  ",
+          "B": "watches  ",
+          "C": "to watch  ",
+          "D": "watching"
+        },
+        "answer": "C",
+        "answer_html": "C<br>",
+        "analysis_html": "【分析】句意：我父母不让我多看电视。A动词原型，B单三式，C不定式，D动名词，ask somebody to do something，固定搭配，让某人做某事，故用不定式。，故选C。<br>\n【点评】考查不定式，注意识记 ask somebody to do something的用法。<br>",
+        "content_hash": "d41f571b3dd23f01d73cb35938902bbd",
+        "source": "云南省文山州（人教版）2022-2023学年七年级下学期期末考试英语试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "固定搭配;动词不定式",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32897732",
+      "source": "题庄真题 · 云南省文山州（仁爱版）2022-2023学年七年级下学期期末考试英语试题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "情景交际",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "情景交际",
+      "grammar_point": "情景交际 · 邀请与建议",
+      "mode": "single",
+      "stem": "— Help yourself to some fish, Jeff.\n—____",
+      "passage": "【题干原文】\n— Help yourself to some fish, Jeff.\n—____\n\n【考点】情景交际\n【出处】云南省文山州（仁爱版）2022-2023学年七年级下学期期末考试英语试题 · 2023 · 题庄题号 32897732",
+      "options": [
+        {
+          "key": "A",
+          "text": "OK, thanks.",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——杰夫，随便吃点鱼吧。——好的谢谢。A好的谢谢，B再见，C不用谢，D很难说。help oneself to招待客人用语，要说谢谢，故选A。\n\n【点评】考查情景交际，注意识记Ok, thanks.的用法。"
+        },
+        {
+          "key": "B",
+          "text": "See you.",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "You're welcome.",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "It's hard to say.",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "情景交际 · 邀请与建议",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】句意：——杰夫，随便吃点鱼吧。——好的谢谢。A好的谢谢，B再见，C不用谢，D很难说。help oneself to招待客人用语，要说谢谢，故选A。\n\n【点评】考查情景交际，注意识记Ok, thanks.的用法。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "765ded2f408a6e98bfa549059818695e",
+      "raw": {
+        "id": 32897732,
+        "title_html": "— Help yourself to some fish, Jeff. <br>—____<br>",
+        "options_html": {
+          "A": "OK, thanks.  ",
+          "B": "See you.",
+          "C": "You&#x27;re welcome.  ",
+          "D": "It&#x27;s hard to say."
+        },
+        "answer": "A",
+        "answer_html": "A<br>",
+        "analysis_html": "【分析】句意：——杰夫，随便吃点鱼吧。——好的谢谢。A好的谢谢，B再见，C不用谢，D很难说。help oneself to招待客人用语，要说谢谢，故选A。<br>\n【点评】考查情景交际，注意识记Ok, thanks.的用法。<br>",
+        "content_hash": "765ded2f408a6e98bfa549059818695e",
+        "source": "云南省文山州（仁爱版）2022-2023学年七年级下学期期末考试英语试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "情景交际",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32897737",
+      "source": "题庄真题 · 云南省文山州（仁爱版）2022-2023学年七年级下学期期末考试英语试题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "主谓一致",
+      "grammar_point": "主谓一致",
+      "mode": "single",
+      "stem": "— Excuse me, ____ there a bookstore near here?\n— Yes. Go along this road to the end, then you can see it.",
+      "passage": "【题干原文】\n— Excuse me, ____ there a bookstore near here?\n— Yes. Go along this road to the end, then you can see it.\n\n【考点】主谓一致、there be结构\n【出处】云南省文山州（仁爱版）2022-2023学年七年级下学期期末考试英语试题 · 2023 · 题庄题号 32897737",
+      "options": [
+        {
+          "key": "A",
+          "text": "be",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "am",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "is",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——请问这儿附近有书店吗？——有的，沿着这条路走到尽头。你就会看到它。这是there be句型的一般疑问句，主语是名词单数，系动词用is，故选C。\n\n【点评】考查There be句型，注意识记主谓一致的用法。"
+        },
+        {
+          "key": "D",
+          "text": "are",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "主谓一致",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】句意：——请问这儿附近有书店吗？——有的，沿着这条路走到尽头。你就会看到它。这是there be句型的一般疑问句，主语是名词单数，系动词用is，故选C。\n\n【点评】考查There be句型，注意识记主谓一致的用法。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "0684886a649d9a15bd07780e66e58aaa",
+      "raw": {
+        "id": 32897737,
+        "title_html": "— Excuse me, ____ there a bookstore near here?<br>— Yes. Go along this road to the end, then you can see it. <br>",
+        "options_html": {
+          "A": "be  ",
+          "B": "am  ",
+          "C": "is  ",
+          "D": "are"
+        },
+        "answer": "C",
+        "answer_html": "C<br>",
+        "analysis_html": "【分析】句意：——请问这儿附近有书店吗？——有的，沿着这条路走到尽头。你就会看到它。这是there be句型的一般疑问句，主语是名词单数，系动词用is，故选C。<br>\n【点评】考查There be句型，注意识记主谓一致的用法。<br>",
+        "content_hash": "0684886a649d9a15bd07780e66e58aaa",
+        "source": "云南省文山州（仁爱版）2022-2023学年七年级下学期期末考试英语试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "主谓一致;there be结构",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32897739",
+      "source": "题庄真题 · 云南省文山州（仁爱版）2022-2023学年七年级下学期期末考试英语试题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "动词时态",
+      "grammar_point": "现在进行时",
+      "mode": "single",
+      "stem": "Look! Wendy ____ a picture in the art room.",
+      "passage": "【题干原文】\nLook! Wendy ____ a picture in the art room.\n\n【考点】现在进行时\n【出处】云南省文山州（仁爱版）2022-2023学年七年级下学期期末考试英语试题 · 2023 · 题庄题号 32897739",
+      "options": [
+        {
+          "key": "A",
+          "text": "draw",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "drew",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "draws",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "is drawing",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：看，温迪正在艺术室里面画一幅画。A动词原形，B过去式，C单数第三人称形式，D现在进行时，look是现在进行时标志，故时态现在进行时，故选D。\n\n【点评】考查时态，注意识记现在进行时的用法。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "现在进行时",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】句意：看，温迪正在艺术室里面画一幅画。A动词原形，B过去式，C单数第三人称形式，D现在进行时，look是现在进行时标志，故时态现在进行时，故选D。\n\n【点评】考查时态，注意识记现在进行时的用法。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "f5fdf68d7b8d69c36e478711ca869f95",
+      "raw": {
+        "id": 32897739,
+        "title_html": "Look! Wendy ____ a picture in the art room. <br>",
+        "options_html": {
+          "A": "draw  ",
+          "B": "drew  ",
+          "C": "draws  ",
+          "D": "is drawing"
+        },
+        "answer": "D",
+        "answer_html": "D<br>",
+        "analysis_html": "【分析】句意：看，温迪正在艺术室里面画一幅画。A动词原形，B过去式，C单数第三人称形式，D现在进行时，look是现在进行时标志，故时态现在进行时，故选D。<br>\n【点评】考查时态，注意识记现在进行时的用法。<br>",
+        "content_hash": "f5fdf68d7b8d69c36e478711ca869f95",
+        "source": "云南省文山州（仁爱版）2022-2023学年七年级下学期期末考试英语试题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "现在进行时",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32897855",
+      "source": "题庄真题 · 云南省昆明市五华区2021-2022学年七年级上学期开学英语试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "代词",
+      "mode": "single",
+      "stem": "（2021七上·五华开学考）—What are____?\n\n—They are____.",
+      "passage": "【题干原文】\n（2021七上·五华开学考）—What are____?\n\n—They are____.\n\n【考点】规则可数名词的复数、指示代词\n【出处】云南省昆明市五华区2021-2022学年七年级上学期开学英语试卷 · 2022 · 题庄题号 32897855",
+      "options": [
+        {
+          "key": "A",
+          "text": "that；tomato",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "these；tomatos",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "those；tomatoes",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——那些是什么？——那是一些西红柿。that，那个，this，这个，these这些，those那些，都是指示代词，前两个是单数，后两个是复数。结合题干中的are，可知两个空格都要用复数形式，tomato的复数形式为tomatoes，排除A与B。this是单数形式，排除D，故答案为C。\n\n【点评】考查指示代词的辨析。分析名词单复数和代词单复数变化，结合语境，选择正确答案。\n3．（2021七上·五华开学考）"
+        },
+        {
+          "key": "D",
+          "text": "this；tomatoes",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "代词",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】句意：——那些是什么？——那是一些西红柿。that，那个，this，这个，these这些，those那些，都是指示代词，前两个是单数，后两个是复数。结合题干中的are，可知两个空格都要用复数形式，tomato的复数形式为tomatoes，排除A与B。this是单数形式，排除D，故答案为C。\n\n【点评】考查指示代词的辨析。分析名词单复数和代词单复数变化，结合语境，选择正确答案。\n3．（2021七上·五华开学考）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "3210e001c873bac5b2109301c0488c36",
+      "raw": {
+        "id": 32897855,
+        "title_html": "（2021七上·五华开学考）—What are____?\n<br>—They are____. <br>",
+        "options_html": {
+          "A": "that；tomato  ",
+          "B": "these；tomatos",
+          "C": "those；tomatoes  ",
+          "D": "this；tomatoes"
+        },
+        "answer": "C",
+        "answer_html": "C<br>",
+        "analysis_html": "【分析】句意：——那些是什么？——那是一些西红柿。that，那个，this，这个，these这些，those那些，都是指示代词，前两个是单数，后两个是复数。结合题干中的are，可知两个空格都要用复数形式，tomato的复数形式为tomatoes，排除A与B。this是单数形式，排除D，故答案为C。<br>\n【点评】考查指示代词的辨析。分析名词单复数和代词单复数变化，结合语境，选择正确答案。<br>3．（2021七上·五华开学考）",
+        "content_hash": "3210e001c873bac5b2109301c0488c36",
+        "source": "云南省昆明市五华区2021-2022学年七年级上学期开学英语试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "规则可数名词的复数;指示代词",
+        "year": 2022
+      }
+    },
+    {
+      "id": "TZ32897863",
+      "source": "题庄真题 · 云南省昆明市五华区2021-2022学年七年级上学期开学英语试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "情景交际",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "情景交际",
+      "grammar_point": "情景交际 · 邀请与建议",
+      "mode": "single",
+      "stem": "（2021七上·五华开学考） —Chen Jie, what does your aunt do?\n—____",
+      "passage": "【题干原文】\n（2021七上·五华开学考） —Chen Jie, what does your aunt do?\n—____\n\n【考点】情景交际\n【出处】云南省昆明市五华区2021-2022学年七年级上学期开学英语试卷 · 2022 · 题庄题号 32897863",
+      "options": [
+        {
+          "key": "A",
+          "text": "She does kung fu.",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "She can do kung fu.",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "She is a coach.",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——陈杰，你阿姨是做什么的？——她是一名教练。A她表演功夫；B她会功夫；C她是一名教练；D她表演了功夫。根据上句what does your aunt do? (你阿姨是做什么的?)可知，这里是在问阿姨的职业，C选项\"她是一名教练。\"符合题意。故选C。\n\n【点评】考查情境对话。在日常学习时多积累日常交际用语。做题时要先了解各选项的意思，对其用法做到心里有数，再根据具体的语境来选择正确答案。"
+        },
+        {
+          "key": "D",
+          "text": "She did kung fu.",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "情景交际 · 邀请与建议",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】句意：——陈杰，你阿姨是做什么的？——她是一名教练。A她表演功夫；B她会功夫；C她是一名教练；D她表演了功夫。根据上句what does your aunt do? (你阿姨是做什么的?)可知，这里是在问阿姨的职业，C选项\"她是一名教练。\"符合题意。故选C。\n\n【点评】考查情境对话。在日常学习时多积累日常交际用语。做题时要先了解各选项的意思，对其用法做到心里有数，再根据具体的语境来选择正确答案。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "129338035680c6df945ba9029adfd3d2",
+      "raw": {
+        "id": 32897863,
+        "title_html": "（2021七上·五华开学考） —Chen Jie, what does your aunt do?<br>—____<br>",
+        "options_html": {
+          "A": "She does kung fu.  ",
+          "B": "She can do kung fu.",
+          "C": "She is a coach.  ",
+          "D": "She did kung fu."
+        },
+        "answer": "C",
+        "answer_html": "C<br>",
+        "analysis_html": "【分析】句意：——陈杰，你阿姨是做什么的？——她是一名教练。A她表演功夫；B她会功夫；C她是一名教练；D她表演了功夫。根据上句what does your aunt do? (你阿姨是做什么的?)可知，这里是在问阿姨的职业，C选项&quot;她是一名教练。&quot;符合题意。故选C。<br>\n【点评】考查情境对话。在日常学习时多积累日常交际用语。做题时要先了解各选项的意思，对其用法做到心里有数，再根据具体的语境来选择正确答案。<br>",
+        "content_hash": "129338035680c6df945ba9029adfd3d2",
+        "source": "云南省昆明市五华区2021-2022学年七年级上学期开学英语试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "情景交际",
+        "year": 2022
+      }
+    },
+    {
+      "id": "TZ32902206",
+      "source": "题庄真题 · 内蒙古呼和浩特市2022-2023学年七年级下学期期末英语试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "连词",
+      "mode": "single",
+      "stem": "（2023七下·呼和浩特期末） Becky plans to join the Dance Club ____ she can dance really well.",
+      "passage": "【题干原文】\n（2023七下·呼和浩特期末） Becky plans to join the Dance Club ____ she can dance really well.\n\n【考点】连词辨析\n【出处】内蒙古呼和浩特市2022-2023学年七年级下学期期末英语试卷 · 2023 · 题庄题号 32902206",
+      "options": [
+        {
+          "key": "A",
+          "text": "but",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "or",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "because",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：贝基计划加入舞蹈俱乐部，因为她跳得很好。A.但是，B.或者，C.因为，D.所以。根据 Becky plans to join the Dance Club 贝基计划加入舞蹈俱乐部，可知是因为她跳得很好。故选C。\n【点评】考查连词辨析。注意熟记plan\"计划\"：第三人称单数： plans；现在分词： planning；过去式： planned；过去分词： planned。"
+        },
+        {
+          "key": "D",
+          "text": "so",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "连词",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】句意：贝基计划加入舞蹈俱乐部，因为她跳得很好。A.但是，B.或者，C.因为，D.所以。根据 Becky plans to join the Dance Club 贝基计划加入舞蹈俱乐部，可知是因为她跳得很好。故选C。\n【点评】考查连词辨析。注意熟记plan\"计划\"：第三人称单数： plans；现在分词： planning；过去式： planned；过去分词： planned。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "9922bb8fc2fae23bda5e930682e62071",
+      "raw": {
+        "id": 32902206,
+        "title_html": "（2023七下·呼和浩特期末） Becky plans to join the Dance Club ____ she can dance really well. <br>",
+        "options_html": {
+          "A": "but  ",
+          "B": "or  ",
+          "C": "because  ",
+          "D": "so"
+        },
+        "answer": "C",
+        "answer_html": "C<br>",
+        "analysis_html": "【分析】句意：贝基计划加入舞蹈俱乐部，因为她跳得很好。A.但是，B.或者，C.因为，D.所以。根据 Becky plans to join the Dance Club 贝基计划加入舞蹈俱乐部，可知是因为她跳得很好。故选C。<br> 【点评】考查连词辨析。注意熟记plan&quot;计划&quot;：第三人称单数： plans；现在分词： planning；过去式： planned；过去分词： planned。<br>",
+        "content_hash": "9922bb8fc2fae23bda5e930682e62071",
+        "source": "内蒙古呼和浩特市2022-2023学年七年级下学期期末英语试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "连词辨析",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32902209",
+      "source": "题庄真题 · 内蒙古呼和浩特市2022-2023学年七年级下学期期末英语试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "情景交际",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "情景交际",
+      "grammar_point": "情景交际 · 邀请与建议",
+      "mode": "single",
+      "stem": "（2023七下·呼和浩特期末） —What are these new postmen like?\n—____",
+      "passage": "【题干原文】\n（2023七下·呼和浩特期末） —What are these new postmen like?\n—____\n\n【考点】情景交际\n【出处】内蒙古呼和浩特市2022-2023学年七年级下学期期末英语试卷 · 2023 · 题庄题号 32902209",
+      "options": [
+        {
+          "key": "A",
+          "text": "They like my friends.",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "They like playing sports.",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "They are friendly and ready to help us.",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——这些新来的邮递员是什么样的？A.他们喜欢我的朋友；B.他们喜欢做运动；C.他们很友好，随时准备帮助我们；D.他们在邮局。根据 What are these new postmen like? 这些新来的邮递员是什么样的？可知应回答：他们很友好，随时准备帮助我们。故选C。\n【点评】考查情景交际。注意熟记固定搭配be ready to do sth.\"准备做某事\"。"
+        },
+        {
+          "key": "D",
+          "text": "They are in the post office.",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "情景交际 · 邀请与建议",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】句意：——这些新来的邮递员是什么样的？A.他们喜欢我的朋友；B.他们喜欢做运动；C.他们很友好，随时准备帮助我们；D.他们在邮局。根据 What are these new postmen like? 这些新来的邮递员是什么样的？可知应回答：他们很友好，随时准备帮助我们。故选C。\n【点评】考查情景交际。注意熟记固定搭配be ready to do sth.\"准备做某事\"。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "e67eb88140710492f99022c09777a087",
+      "raw": {
+        "id": 32902209,
+        "title_html": "（2023七下·呼和浩特期末） —What are these new postmen like? <br>—____<br>",
+        "options_html": {
+          "A": "They like my friends.",
+          "B": "They like playing sports.",
+          "C": "They are friendly and ready to help us.",
+          "D": "They are in the post office."
+        },
+        "answer": "C",
+        "answer_html": "C<br>",
+        "analysis_html": "【分析】句意：——这些新来的邮递员是什么样的？A.他们喜欢我的朋友；B.他们喜欢做运动；C.他们很友好，随时准备帮助我们；D.他们在邮局。根据 What are these new postmen like? 这些新来的邮递员是什么样的？可知应回答：他们很友好，随时准备帮助我们。故选C。<br> 【点评】考查情景交际。注意熟记固定搭配be ready to do sth.&quot;准备做某事&quot;。<br>",
+        "content_hash": "e67eb88140710492f99022c09777a087",
+        "source": "内蒙古呼和浩特市2022-2023学年七年级下学期期末英语试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "情景交际",
+        "year": 2023
+      }
+    },
+    {
+      "id": "TZ32902211",
+      "source": "题庄真题 · 内蒙古呼和浩特市2022-2023学年七年级下学期期末英语试卷",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "七",
+      "genre": "情景交际",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "情景交际",
+      "grammar_point": "情景交际 · 邀请与建议",
+      "mode": "single",
+      "stem": "（2023七下·呼和浩特期末） —Can you come to the party at half past six in the evening?\n—____. The meeting won't be over at that time.",
+      "passage": "【题干原文】\n（2023七下·呼和浩特期末） —Can you come to the party at half past six in the evening?\n—____. The meeting won't be over at that time.\n\n【考点】情景交际\n【出处】内蒙古呼和浩特市2022-2023学年七年级下学期期末英语试卷 · 2023 · 题庄题号 32902211",
+      "options": [
+        {
+          "key": "A",
+          "text": "I think so",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "I'm afraid not",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】句意：——你能在晚上六点半来参加聚会吗？——____。会议那时不会结束。A.我也觉得，B.我恐怕不行，C.我愿意，D.我希望不是。根据 The meeting won't be over at that time. 会议那时不会结束 ，可知是回复：我恐怕不行。故选B。\n【点评】考查情景交际。注意熟记动词come\"来\"：第三人称单数： comes；现在分词： coming；过去式： came；过去分词： come。"
+        },
+        {
+          "key": "C",
+          "text": "I'd like to",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "I hope not",
+          "is_correct": false,
+          "trap_type": "交际用语误用",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "情景交际 · 邀请与建议",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】句意：——你能在晚上六点半来参加聚会吗？——____。会议那时不会结束。A.我也觉得，B.我恐怕不行，C.我愿意，D.我希望不是。根据 The meeting won't be over at that time. 会议那时不会结束 ，可知是回复：我恐怕不行。故选B。\n【点评】考查情景交际。注意熟记动词come\"来\"：第三人称单数： comes；现在分词： coming；过去式： came；过去分词： come。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "七年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "a2e0117c9f7843bdadf9691333df3c01",
+      "raw": {
+        "id": 32902211,
+        "title_html": "（2023七下·呼和浩特期末） —Can you come to the party at half past six in the evening? <br>—____. The meeting won&#x27;t be over at that time. <br>",
+        "options_html": {
+          "A": "I think so  ",
+          "B": "I&#x27;m afraid not",
+          "C": "I&#x27;d like to  ",
+          "D": "I hope not"
+        },
+        "answer": "B",
+        "answer_html": "B<br>",
+        "analysis_html": "【分析】句意：——你能在晚上六点半来参加聚会吗？——____。会议那时不会结束。A.我也觉得，B.我恐怕不行，C.我愿意，D.我希望不是。根据 The meeting won&#x27;t be over at that time. 会议那时不会结束 ，可知是回复：我恐怕不行。故选B。<br> 【点评】考查情景交际。注意熟记动词come&quot;来&quot;：第三人称单数： comes；现在分词： coming；过去式： came；过去分词： come。<br>",
+        "content_hash": "a2e0117c9f7843bdadf9691333df3c01",
+        "source": "内蒙古呼和浩特市2022-2023学年七年级下学期期末英语试卷",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "情景交际",
+        "year": 2023
       }
     }
   ]
