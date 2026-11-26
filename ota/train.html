@@ -27179,6 +27179,30 @@ window.EN_VSRC = {
     return one.length > 9 ? one.slice(0, 9) + '…' : one;
   }
 
+  /* 复制：navigator.clipboard 返回的是 Promise，被拒时 try/catch 接不住
+     （会变成 unhandled rejection，控制台报红），必须挂 .catch 再退回 execCommand。
+     file:// 打开时浏览器一律拒绝剪贴板权限，正好走退路。 */
+  function legacyCopy(t) {
+    try {
+      var ta = document.createElement('textarea');
+      ta.value = t;
+      ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select();
+      document.execCommand('copy'); ta.remove();
+    } catch (e) { }
+  }
+  function copyText(t) {
+    var asked = false;
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        var pr = navigator.clipboard.writeText(t);
+        if (pr && pr.catch) pr.catch(function () { legacyCopy(t); });
+        asked = true;
+      }
+    } catch (e) { asked = false; }
+    if (!asked) legacyCopy(t);
+  }
+
   function memBlock(p, it) {
     var mm = memOf(it.key);
     var note = notesOf(p)[it.key] || '';
@@ -27757,14 +27781,10 @@ window.EN_VSRC = {
           if (pnc.hasOwnProperty(nk)) lines.push(nk + '：' + pnc[nk]);
         }
         var allTxt = '我的联想本（' + lines.length + ' 条）\n' + lines.join('\n');
-        try { navigator.clipboard.writeText(allTxt); } catch (eN) {
-          try {
-            var taN = document.createElement('textarea');
-            taN.value = allTxt; document.body.appendChild(taN); taN.select();
-            document.execCommand('copy'); taN.remove();
-          } catch (eN2) { }
-        }
-        say('已复制 ' + lines.length + ' 条联想');
+        copyText(allTxt);
+        /* 本模块没有 say()，别去借隔壁时政模块的——那是另一个 IIFE 里的函数，
+           作用域不同，点了会直接 ReferenceError。 */
+        try { if (typeof window.__toast === 'function') window.__toast('已复制 ' + lines.length + ' 条联想'); } catch (eT) { }
         break;
       }
       case 'vocab-drill-exit':

@@ -18,7 +18,7 @@ HTML = os.path.join(OTA, 'train.html')
 MANIFEST = os.path.join(OTA, 'manifest.json')
 
 VERSION = '2.30'
-BUILD = 41  # 与 APK versionCode 一致
+BUILD = 42  # 与 APK versionCode 一致
 NOTE = ('词卡新增「联想记忆」：能拆的词给两截熟词（air + port，各带中文），'
         '具体名词配一个 emoji 当图像锚点，其余的词给三个问题让孩子自己编；'
         '写下的那一句存在档案里，复习时先看到自己的句子，说明页可一键复制整本联想。'
