@@ -1322,8 +1322,6 @@ body[data-theme="dark"] .fs-hit{background:rgba(255,214,102,.28);color:#ffe6a8}
 /* 同一类 · 语义场：看一个通一类。chip 默认只露 6 个，其余折叠，
    一次铺 12 个月份正好踩中「同类词同时呈现」的短期干扰。 */
 .vc-fld-hd{display:flex;align-items:center;gap:8px;margin-bottom:9px}
-.vc-fld-name{font-size:15px;font-weight:750;color:var(--ink);
-  font-family:"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji","Segoe UI Symbol",sans-serif}
 .vc-fld-count{font-size:11.5px;color:var(--ink2);font-weight:500}
 .vc-fld-more{margin-left:auto;flex:0 0 auto;font-size:11.5px;font-weight:700;color:var(--accent-ink);
   background:none;border:none;padding:2px 0;cursor:pointer;-webkit-tap-highlight-color:transparent}
@@ -27353,10 +27351,14 @@ window.EN_VSRC = {
           '" data-act="vocab-field-more" data-f="' + esc(id) + '">' +
           (opened ? '收起' : '全部 ' + f.words.length) + '</button>'
         : '';
+      /* 展开按钮靠右排；没有按钮（场里 ≤6 词）时不渲染这一行，留空行很丑。
+         不在标题里放 emoji 图标：沙箱/少数机型没有彩色 emoji 字体会显示成方框，
+         而「同一类 · 月份」这行字本身已经够清楚，不靠图标。 */
+      var hd = more ? '<div class="vc-fld-hd">' + more + '</div>' : '';
       return '<div class="vc-blk vc-blk-fld" data-field="' + esc(id) + '">' +
         '<div class="vc-blk-h">' + ic('books', 'vc-bic') + '同一类 · ' + esc(f.name) +
         '<span class="vc-fld-count">' + f.words.length + ' 词</span></div>' +
-        '<div class="vc-fld-hd"><span class="vc-fld-name">' + esc(f.icon) + '</span>' + more + '</div>' +
+        hd +
         '<div class="vc-fld-chips">' + chips + '</div>' +
         '<div class="vc-fld-cue"><b>怎么通这一类：</b>' + esc(f.cue) + '</div>' +
         '</div>';
