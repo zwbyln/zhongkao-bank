@@ -1266,6 +1266,18 @@ body[data-theme="dark"] .fs-hit{background:rgba(255,214,102,.28);color:#ffe6a8}
 .vc-cf .mini-btn{align-self:flex-start;margin-top:2px}
 .vc-snt b{display:block;font-size:14.5px;font-weight:600;line-height:1.65;font-family:Georgia,serif}
 .vc-snt span{display:block;margin-top:6px;font-size:13px;color:var(--ink2);line-height:1.6}
+/* 例句里的目标词单独拎出来。词卡上最该看一眼的就是「这个词在句子里长什么样」，
+   但整句是同一种字体时，眼睛会先扫到最短的那个词——经常不是目标词。
+   这里用底色 + 略重一点的字重做锚点，不换字体、不加粗到变形，
+   读整句的节奏不被打断。 */
+.vc-snt .vc-hit{background:var(--accent-soft);color:var(--accent-ink);
+  border-radius:4px;padding:1px 3px;font-weight:750;box-decoration-break:clone;
+  -webkit-box-decoration-break:clone}
+/* 例句块提到释义正下方：读完中文立刻看到它怎么用。
+   其余块还是虚线分隔，这一块用左侧色条区分身份。 */
+.vc-blk-snt{border-top:none;margin-top:12px;padding-top:0;
+  border-left:3px solid var(--accent);padding-left:11px}
+.vc-blk-snt .vc-blk-h{margin-bottom:6px}
 .vc-wf{display:flex;flex-wrap:wrap;gap:6px}
 .vc-wf span{font-size:13px;padding:5px 9px;border-radius:9px;background:var(--bg);border:1px solid var(--line)}
 .vc-wf i{font-style:normal;font-size:11px;color:var(--ink2);margin-right:5px}
@@ -23565,7 +23577,7 @@ window.EN_VSRC = {
      所以这两条排在最后当兜底：@main 都还是旧的就轮到它。它不会让镜像
      变快（第一轮 probe 仍以 @main 为主），只保证「@main 没刷干净时也能
      取到这一版的题库」。发布新版本时把这个值改成新标签号，别手改别的。 */
-  var BANK_VERSION = 'v2.28';
+  var BANK_VERSION = 'v2.29';
   /* 挂到 window 上：章节包、时政这些模块在别的 <script> 里，
      直接写 window.BANK_MIRRORS 拿到的是 undefined —— 之前时政同步
      就是读不到镜像列表，cand 只剩本机一条，失败后无源可换。 */
@@ -27043,6 +27055,43 @@ window.EN_VSRC = {
   }
 
   /* ---------------- 渲染：词卡 ---------------- */
+  /* 把例句里的目标词标出来。
+     只认「整个单词」，不认词中片段：查 act 不该把 practice 里的 act 也点亮。
+     词形变化也算命中（played / playing / plays 遇到 play），
+     否则查 play 时那句里明明有 played，孩子会以为例句配错了。
+     先把整句 escape，再往 escape 后的串里插标签——
+     反过来的话标签会被一起转义，页面上会看见字面的 <b>。 */
+  function hlWord(sent, word) {
+    var safe = esc(sent);
+    var w = String(word || '').trim();
+    if (!safe || w.length < 2) return safe;
+    var forms = [w, w + 's', w + 'es', w + 'd', w + 'ed', w + 'ing',
+                 w + 'er', w + 'ly', w + 'ness'];
+    if (/e$/.test(w)) forms.push(w.slice(0, -1) + 'ing', w.slice(0, -1) + 'ed');
+    if (/y$/.test(w)) forms.push(w.slice(0, -1) + 'ies', w.slice(0, -1) + 'ied');
+    if (/[^aeiou][aeiou][bdgklmnprt]$/.test(w)) {
+      var t = w.slice(0, -1) + w.slice(-1) + w.slice(-1);
+      forms.push(t + 'ed', t + 'ing', t + 'er');
+    }
+    var uniq = [];
+    forms.forEach(function (f) {
+      var lf = f.toLowerCase();
+      if (f.length >= 2 && uniq.indexOf(lf) < 0) uniq.push(lf);
+    });
+    // 长的先匹配：先点 playing 再点 play，否则 playing 会被切成 play + ing
+    uniq.sort(function (a, b) { return b.length - a.length; });
+    var re = new RegExp('\\b(' + uniq.map(function (f) {
+      return f.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }).join('|') + ')\\b', 'gi');
+    var hit = false;
+    var out = safe.replace(re, function (m) {
+      if (hit) return m;       // 一句只点亮第一处，满屏底色反而看不见
+      hit = true;
+      return '<i class="vc-hit">' + m + '</i>';
+    });
+    return out;
+  }
+
   function renderCard(p, key) {
     var it = BYWORD && BYWORD[key];
     if (!it) { V.card = null; return renderToday(p); }
@@ -27120,8 +27169,8 @@ window.EN_VSRC = {
     }
     var sntBlock = '';
     if (it.snt) {
-      sntBlock = '<div class="vc-blk"><div class="vc-blk-h">' + ic('bulb', 'vc-bic') + '例句</div>' +
-        '<div class="vc-snt"><b>' + esc(it.snt[0]) +
+      sntBlock = '<div class="vc-blk vc-blk-snt"><div class="vc-blk-h">' + ic('bulb', 'vc-bic') + '例句</div>' +
+        '<div class="vc-snt"><b>' + hlWord(it.snt[0], it.w) +
           (SPEAK.on()
             ? '<button class="vc-snt-spk" data-act="vocab-say" data-w="' + esc(key) +
               '" data-kind="sent" data-accent="' + (SPEAK.can('us') ? 'us' : 'uk') + '" title="读这句">' +
@@ -27167,7 +27216,7 @@ window.EN_VSRC = {
         (s.due && s.due <= now() ? '<b>今天该复习</b>' : '下次复习 ' + fmtDue(s.due)) + '</div>'
       : '';
 
-    return '<div class="vc-card">' +
+    return '<div class="vc-card" data-card="' + esc(key) + '">' +
       '<button class="vc-back" data-act="vocab-back">' + ic('arrow', 'vc-back-ic') + '返回</button>' +
       '<div class="vc-card-w">' + esc(it.w) +
         (SPEAK.on()
@@ -27181,7 +27230,11 @@ window.EN_VSRC = {
         (stage ? '<span class="vc-bd gray">' + stage + '</span>' : '') +
         '<span class="vc-bd star">' + new Array(it.d + 1).join('★') + '</span></div>' +
       tr + stateLine +
-      affBlock + phrBlock + cfBlock + sntBlock + deepBlock + wfBlock +
+      /* 例句排在最前：读完中文释义，下一眼就该看到这个词在句子里怎么用。
+         原顺序是「怎么记住它 → 搭配 → 易混 → 例句」，孩子滑到例句时往往已经
+         在往下找按钮了。Rodriguez 1999 那项九年级课堂研究里，效果最好的
+         是「语境 + 记忆线索」这一组——语境那一半就是这条例句。 */
+      sntBlock + affBlock + phrBlock + cfBlock + deepBlock + wfBlock +
       '<div class="vc-page-pad"></div>' +
       '<div class="vc-card-acts">' +
         '<button class="btn soft" data-act="vocab-card-grade" data-q="again">还没记住</button>' +

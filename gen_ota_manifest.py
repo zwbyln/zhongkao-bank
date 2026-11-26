@@ -17,12 +17,17 @@ OTA = os.path.join(ROOT, 'ota')
 HTML = os.path.join(OTA, 'train.html')
 MANIFEST = os.path.join(OTA, 'manifest.json')
 
-VERSION = '2.28'
-BUILD = 39  # 与 APK versionCode 一致
-NOTE = ('补齐「动名词作宾语 / 状语从句 / 形容词与副词 / 一般过去时」四个最薄的口诀考点：'
-        '内置题库里这四个原来只有 0 / 1 / 1 / 1 道四选一题（动名词作宾语一道都没有），'
-        '口诀写得再对也弹不出来。现按考点自编 17 道，每个补到 5 道。'
-        '另修题库镜像：jsDelivr 的 @main 缓存卡在旧版本时，改为用不可变版本标签兜底。')
+VERSION = '2.29'
+BUILD = 40  # 与 APK versionCode 一致
+NOTE = ('词卡改版：例句提到释义正下方，目标词在句子里点亮。'
+        '原来例句排在「怎么记住它 / 搭配 / 易混」之后，孩子滑到那儿已经在找按钮了；'
+        '现在读完中文就直接看到这个词怎么用，词形变化（played / studying）也认得出来。'
+        '另修了一个更该修的旧毛病：词卡的「怎么记住它」里 1572 条拆解有 1488 条'
+        '（94%）的词根写的是占位符「核心含义」，等于在教错的构词——'
+        'ability 被拆成 abil + 性质，rugby 被拆成 rugb + 的。'
+        '这批全部清掉，改按「剥掉前后缀后必须还是词库里另一个真词」重建，'
+        '现有 295 条真拆解（unhappy / careful / biography / tasty），'
+        '宁缺毋滥：拆不出来的词干脆不显示这一块。')
 
 
 def main():
