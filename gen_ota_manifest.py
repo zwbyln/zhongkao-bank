@@ -18,7 +18,7 @@ HTML = os.path.join(OTA, 'train.html')
 MANIFEST = os.path.join(OTA, 'manifest.json')
 
 VERSION = '2.30'
-BUILD = 42  # 与 APK versionCode 一致
+BUILD = 43  # 与 APK versionCode 一致
 NOTE = ('词卡新增「联想记忆」：能拆的词给两截熟词（air + port，各带中文），'
         '具体名词配一个 emoji 当图像锚点，其余的词给三个问题让孩子自己编；'
         '写下的那一句存在档案里，复习时先看到自己的句子，说明页可一键复制整本联想。'
@@ -26,7 +26,11 @@ NOTE = ('词卡新增「联想记忆」：能拆的词给两截熟词（air + po
         '1662 条「记忆辅助」抽样大半是「把 climb 和 climber 联系起来就记住了」这种循环解释，'
         '搬进来只会占地方，还带传染性协议；CC0 图库实测只有 25 张。'
         '所以只借方法、不搬文本，拆分规则也硬：拆出来的两截必须都是这孩子词表里的真词。'
-        '词表页同时多了「有联想」筛选（558 词）。')
+        '审核时又抓出两处会教错的：breakfast 被拆成「休息 + 快速的」，'
+        'accountant 被讲成「账户 + 蚂蚁」，backward 成了「back + 病房」——'
+        '词典义放到合成词里就偏了，这类给人工释义覆盖；词尾另标「表示人 / 表示朝…方向」。'
+        '讲不通的 7 条（forbid、withdraw、fireworks 等）直接删掉。'
+        '词表页同时多了「有联想」筛选（551 词）。')
 
 
 def main():
