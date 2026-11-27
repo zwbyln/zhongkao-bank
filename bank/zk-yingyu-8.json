@@ -1,13 +1,13 @@
 {
   "format": "zx-trainer-bank-v1",
   "source": "题庄真题库（tizhuang.qcscience.cc）",
-  "generatedAt": "2026-11-24T05:19:31.356832+00:00",
+  "generatedAt": "2026-11-27T03:37:28.026527+00:00",
   "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。英语题的 grammar_group / grammar_point 由关键词推断（结构类优先于时态类），口语交际与语法填空等主观题不在采集范围内。",
   "stats": {
-    "usable": 80,
-    "skipped": 5,
-    "thisRun": 30,
-    "added": 0
+    "usable": 88,
+    "skipped": 23,
+    "thisRun": 12,
+    "added": 8
   },
   "items": [
     {
@@ -6113,6 +6113,582 @@
         "is_auto_gradable": true,
         "knowledges": "固定搭配",
         "year": 2023
+      }
+    },
+    {
+      "id": "TZ10594821",
+      "source": "题庄真题 · 同步题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "—What your father do in the evening?\n—He always watches TV.",
+      "passage": "【题干原文】\n—What your father do in the evening?\n—He always watches TV.\n\n【考点】助动词的单数第三人称形式\n【出处】同步题 · 2012 · 题庄题号 10594821",
+      "options": [
+        {
+          "key": "A",
+          "text": "do",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "does",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "is",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "are",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "5ff17274ee9c08e0a3766c1075420956",
+      "raw": {
+        "id": 10594821,
+        "title_html": "<table class=\"ke-zeroborder\" border=\"0\" cellspacing=\"0\">\t<tbody>\t\t<tr>\t\t\t<td>\t\t\t\t—What <u>           </u> your father do in the evening?     <br>—He always watches TV.    \t\t\t</td>\t\t</tr>\t\t<tr>\t\t\t<td>\t\t\t\t<br>A. do                       <br>B. does     <br>C. is                        <br>D. are      \t\t\t</td>\t\t</tr>\t</tbody></table>",
+        "options_html": {},
+        "answer": "B",
+        "answer_html": "<table style=\"word-break:break-all\"><tr><td>B</td></tr></table>",
+        "analysis_html": "",
+        "content_hash": "5ff17274ee9c08e0a3766c1075420956",
+        "source": "同步题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "助动词的单数第三人称形式",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ10602761",
+      "source": "题庄真题 · 山东省期末题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "非谓语动词",
+      "grammar_point": "分词作定语",
+      "mode": "single",
+      "stem": "He ______ in 1998.",
+      "passage": "【题干原文】\nHe ______ in 1998.\n\n【考点】一般过去时,实义动词的过去分词\n【出处】山东省期末题 · 2012 · 题庄题号 10602761",
+      "options": [
+        {
+          "key": "A",
+          "text": "is born",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "was born",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "is birth",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "was birth",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "分词作定语",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "114e2b0758570ec95bc255c89a9e9480",
+      "raw": {
+        "id": 10602761,
+        "title_html": "He ______ in 1998. <br><div align=\"right\">[     ]</div><br>A. is born           <br>B. was born       <br>C. is birth         <br>D. was birth",
+        "options_html": {},
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "114e2b0758570ec95bc255c89a9e9480",
+        "source": "山东省期末题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "一般过去时,实义动词的过去分词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ10602823",
+      "source": "题庄真题 · 新疆自治区同步题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "动词时态",
+      "grammar_point": "一般过去时",
+      "mode": "single",
+      "stem": "What ______ Tina do on her last day off?",
+      "passage": "【题干原文】\nWhat ______ Tina do on her last day off?\n\n【考点】一般过去时,助动词的过去式\n【出处】新疆自治区同步题 · 2012 · 题庄题号 10602823",
+      "options": [
+        {
+          "key": "A",
+          "text": "was",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "does",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "did",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "do",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "一般过去时",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "9d777c7953ca64942adc63b811384ba6",
+      "raw": {
+        "id": 10602823,
+        "title_html": "What ______ Tina do on her last day off?<br><div align=\"right\">[     ]</div><br>A. was     <br>B. does    <br>C. did         <br>D. do",
+        "options_html": {},
+        "answer": "C",
+        "answer_html": "C",
+        "analysis_html": "",
+        "content_hash": "9d777c7953ca64942adc63b811384ba6",
+        "source": "新疆自治区同步题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "一般过去时,助动词的过去式",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ10609992",
+      "source": "题庄真题 · 同步题       ",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "动词时态",
+      "grammar_point": "现在完成时",
+      "mode": "single",
+      "stem": "— Mike, where is Alice?\n— She is still studying in the classroom. She ______ for three hours.",
+      "passage": "【题干原文】\n— Mike, where is Alice?\n— She is still studying in the classroom. She ______ for three hours.\n\n【考点】现在完成进行时\n【出处】同步题        · 2010 · 题庄题号 10609992",
+      "options": [
+        {
+          "key": "A",
+          "text": "study",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "studied",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "studies",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "has been studying",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "现在完成时",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "ed8a198bbc07ab466b419ebd67d95cc6",
+      "raw": {
+        "id": 10609992,
+        "title_html": "<table cellspacing=\"0\">\t<tbody>\t\t<tr>\t\t\t<td>\t\t\t\t— Mike, where is Alice? <br>— She is still studying in the classroom. She ______ for three hours.\t\t\t</td>\t\t</tr>\t\t<tr>\t\t\t<td>\t\t\t\t<br>A. study<br>B. studied<br>C. studies<br>D. has been studying\t\t\t</td>\t\t</tr>\t</tbody></table>",
+        "options_html": {},
+        "answer": "D",
+        "answer_html": "<table style=\"word-break:break-all\"><tr><td>D</td></tr></table>",
+        "analysis_html": "",
+        "content_hash": "ed8a198bbc07ab466b419ebd67d95cc6",
+        "source": "同步题       ",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "现在完成进行时",
+        "year": 2010
+      }
+    },
+    {
+      "id": "TZ10610017",
+      "source": "题庄真题 · 同步题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "动词时态",
+      "grammar_point": "现在完成时",
+      "mode": "single",
+      "stem": "—How long ______ you ______ English?\n—For five years.",
+      "passage": "【题干原文】\n—How long ______ you ______ English?\n—For five years.\n\n【考点】现在完成进行时\n【出处】同步题 · 2012 · 题庄题号 10610017",
+      "options": [
+        {
+          "key": "A",
+          "text": "do; learn",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "are; learning",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "have; been learning",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "did; learn",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "现在完成时",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "db6653104b6190affda956b185a21ed4",
+      "raw": {
+        "id": 10610017,
+        "title_html": "<table cellspacing=\"0\">\t<tbody>\t\t<tr>\t\t\t<td>\t\t\t\t—How long ______ you ______ English?       <br>—For five years.     \t\t\t</td>\t\t</tr>\t\t<tr>\t\t\t<td>\t\t\t\t<br>A. do; learn   <br>B. are; learning     <br>C. have; been learning   <br>D. did; learn\t\t\t</td>\t\t</tr>\t</tbody></table>",
+        "options_html": {},
+        "answer": "C",
+        "answer_html": "<table style=\"word-break:break-all\"><tr><td>C</td></tr></table>",
+        "analysis_html": "",
+        "content_hash": "db6653104b6190affda956b185a21ed4",
+        "source": "同步题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "现在完成进行时",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ10610026",
+      "source": "题庄真题 · 同步题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "动词时态",
+      "grammar_point": "现在完成时",
+      "mode": "single",
+      "stem": "Mr Wang ______ us the interesting story since this class began.",
+      "passage": "【题干原文】\nMr Wang ______ us the interesting story since this class began.\n\n【考点】现在完成进行时\n【出处】同步题 · 2012 · 题庄题号 10610026",
+      "options": [
+        {
+          "key": "A",
+          "text": "tells",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "is telling",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "told",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "has been telling",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "现在完成时",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "ad2cd30e5e962840a1b99a749fa103ca",
+      "raw": {
+        "id": 10610026,
+        "title_html": "<table cellspacing=\"0\">\t<tbody>\t\t<tr>\t\t\t<td>\t\t\t\tMr Wang ______ us the interesting story since this class began.\t\t\t</td>\t\t</tr>\t\t<tr>\t\t\t<td>\t\t\t\t<br>A. tells<br>B. is telling<br>C. told<br>D. has been telling\t\t\t</td>\t\t</tr>\t</tbody></table>",
+        "options_html": {},
+        "answer": "D",
+        "answer_html": "<table style=\"word-break:break-all\"><tr><td>D</td></tr></table>",
+        "analysis_html": "",
+        "content_hash": "ad2cd30e5e962840a1b99a749fa103ca",
+        "source": "同步题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "现在完成进行时",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ10610043",
+      "source": "题庄真题 · 同步题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "动词时态",
+      "grammar_point": "现在完成时",
+      "mode": "single",
+      "stem": "All the students in our class ________ for two years.",
+      "passage": "【题干原文】\nAll the students in our class ________ for two years.\n\n【考点】现在完成进行时\n【出处】同步题 · 2012 · 题庄题号 10610043",
+      "options": [
+        {
+          "key": "A",
+          "text": "learned",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "have been learning",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "C",
+          "text": "learn",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "are learning",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "现在完成时",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "f5bcd2412884bdcd1ed0cf84d75516c2",
+      "raw": {
+        "id": 10610043,
+        "title_html": "All the students in our class ________ for two years.     <br><div align=\"right\">[     ]</div><br>A. learned                              <br>B. have been learning     <br>C. learn                                <br>D. are learning",
+        "options_html": {},
+        "answer": "B",
+        "answer_html": "B",
+        "analysis_html": "",
+        "content_hash": "f5bcd2412884bdcd1ed0cf84d75516c2",
+        "source": "同步题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "现在完成进行时",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ10610107",
+      "source": "题庄真题 · 同步题",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "八",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "动词时态",
+      "grammar_point": "一般将来时",
+      "mode": "single",
+      "stem": "Mother asked me if I________ to the park .",
+      "passage": "【题干原文】\nMother asked me if I________ to the park .\n\n【考点】过去将来时\n【出处】同步题 · 2012 · 题庄题号 10610107",
+      "options": [
+        {
+          "key": "A",
+          "text": "will go",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "went",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "was going",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "will going",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "一般将来时",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "八年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "9230ed922c8552d4a40455592ebeae34",
+      "raw": {
+        "id": 10610107,
+        "title_html": "<table class=\"ke-zeroborder\" border=\"0\" cellspacing=\"0\">\t<tbody>\t\t<tr>\t\t\t<td>\t\t\t\tMother asked me if I________ to the park .\t\t\t</td>\t\t</tr>\t\t<tr>\t\t\t<td>\t\t\t\t<br>A. will go<br>B. went<br>C. was going<br>D. will going\t\t\t</td>\t\t</tr>\t</tbody></table>",
+        "options_html": {},
+        "answer": "C",
+        "answer_html": "<table style=\"word-break:break-all\"><tr><td>C</td></tr></table>",
+        "analysis_html": "",
+        "content_hash": "9230ed922c8552d4a40455592ebeae34",
+        "source": "同步题",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "过去将来时",
+        "year": 2012
       }
     }
   ]
