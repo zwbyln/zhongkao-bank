@@ -1,13 +1,13 @@
 {
   "format": "zx-trainer-bank-v1",
   "source": "题庄真题库（tizhuang.qcscience.cc）",
-  "generatedAt": "2026-11-26T03:31:47.418273+00:00",
+  "generatedAt": "2026-11-28T03:16:18.529991+00:00",
   "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。英语题的 grammar_group / grammar_point 由关键词推断（结构类优先于时态类），口语交际与语法填空等主观题不在采集范围内。",
   "stats": {
-    "usable": 39,
+    "usable": 44,
     "skipped": 1,
     "thisRun": 5,
-    "added": 0
+    "added": 5
   },
   "items": [
     {
@@ -2971,6 +2971,386 @@
         "is_auto_gradable": true,
         "knowledges": "排列句子顺序",
         "year": 2024
+      }
+    },
+    {
+      "id": "TZ23635227",
+      "source": "题庄真题 · 2017年深圳市初中毕业生学业水平升学考试语文试题(模拟三)",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "请选出下列说法错误的一项( )",
+      "passage": "【题干原文】\n请选出下列说法错误的一项( )\n\n【考点】初中语文知识点》句式变换与仿写》句式变换》长句与短句的变换###\n【出处】2017年深圳市初中毕业生学业水平升学考试语文试题(模拟三) · 2017 · 题庄题号 23635227",
+      "options": [
+        {
+          "key": "A",
+          "text": "“在科技高度发达的今天，人们仍然喜欢关于月亮的神话传说。”这句话的主干是：“人们喜欢月亮”。",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "本题考查病句辨析及修改，学生要学会从不同的角度分析病句原因．可以从内容角度分析词义的不同理解病因，可从语法角度分析病因．更要掌握病句的常见类型及辨识病句的方法，还需要提高修改病句的语感能力．A这句话的主干是：“人们喜欢传说”。"
+        },
+        {
+          "key": "B",
+          "text": "“只有人人讲究文明卫生，我们的环境才会更好。”这是个条件复句。",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "王羲之《兰亭集序》帖是我国古代书法艺术最灿烂的瑰宝，被称为“天下第一行书”。",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "有些古文，其标题就表明了文章的体裁。如《陋室铭》《醉翁亭记》《出师表》《马说》等题目中的“铭”“记”“表”“说”都表明了该文的文体。",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：本题考查病句辨析及修改，学生要学会从不同的角度分析病句原因．可以从内容角度分析词义的不同理解病因，可从语法角度分析病因．更要掌握病句的常见类型及辨识病句的方法，还需要提高修改病句的语感能力．A这句话的主干是：“人们喜欢传说”。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "2f89ba1bcb50c786bfd854c63873d162",
+      "raw": {
+        "id": 23635227,
+        "title_html": "<p>请选出下列说法错误的一项( )<br>",
+        "options_html": {
+          "A": "“在科技高度发达的今天，人们仍然喜欢关于月亮的神话传说。”这句话的主干是：“人们喜欢月亮”。<br>",
+          "B": "“只有人人讲究文明卫生，我们的环境才会更好。”这是个条件复句。<br>",
+          "C": "王羲之《兰亭集序》帖是我国古代书法艺术最灿烂的瑰宝，被称为“天下第一行书”。<br>",
+          "D": "有些古文，其标题就表明了文章的体裁。如《陋室铭》《醉翁亭记》《出师表》《马说》等题目中的“铭”“记”“表”“说”都表明了该文的文体。"
+        },
+        "answer": "A",
+        "answer_html": "<p>A<br>",
+        "analysis_html": "<p>本题考查病句辨析及修改，学生要学会从不同的角度分析病句原因．可以从内容角度分析词义的不同理解病因，可从语法角度分析病因．更要掌握病句的常见类型及辨识病句的方法，还需要提高修改病句的语感能力．A这句话的主干是：“人们喜欢传说”。</p>",
+        "content_hash": "2f89ba1bcb50c786bfd854c63873d162",
+        "source": "2017年深圳市初中毕业生学业水平升学考试语文试题(模拟三)",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "初中语文知识点》句式变换与仿写》句式变换》长句与短句的变换###",
+        "year": 2017
+      }
+    },
+    {
+      "id": "TZ23635234",
+      "source": "题庄真题 · 2017年深圳市初中毕业生学业水平升学考试语文试题(模拟二)",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "请选出下列词语中加下划线字的读音完全正确的一项( )",
+      "passage": "【题干原文】\n请选出下列词语中加下划线字的读音完全正确的一项( )\n\n【考点】初中语文知识点》字音》字音基础》常用字字音###初中语文知识点》字音》字音基础》多音字字音###\n【出处】2017年深圳市初中毕业生学业水平升学考试语文试题(模拟二) · 2017 · 题庄题号 23635234",
+      "options": [
+        {
+          "key": "A",
+          "text": "绝伦(1ún) 窈窕(tiǎo) 荒谬(miào) 引经据典(jū)",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "重荷(hé) 愧怍(zuò) 攫取(jué) 鲜为人知(xiān)",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "伎俩(jì) 执拗(niù) 荣膺(yīng) 相形见绌(chù)",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "题庄原题未提供解析，请以试卷标准答案为准。"
+        },
+        {
+          "key": "D",
+          "text": "两栖(xī) 倒坍(tān) 狩猎(shǒu) 合辙押韵(zhé)",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：（原题未提供解析）",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "686f2c635bdc077323a6b476a43fb9c6",
+      "raw": {
+        "id": 23635234,
+        "title_html": "<p><span>请选出下列词语中加下划线字的读音完全正确的一项( )</span><br><span>A.绝</span><span style=\"text-decoration:underline\">伦</span><span>(1ún)</span><span> </span><span> </span><span> </span><span> 窈</span><span style=\"text-decoration:underline\">窕</span><span>(tiǎo)</span><span> </span><span> </span><span> </span><span> 荒</span><span style=\"text-decoration:underline\">谬</span><span>(miào)</span><span> </span><span> </span><span> </span><span> 引经</span><span style=\"text-decoration:underline\">据</span><span>典(jū)</span><br><span>B.重</span><span style=\"text-decoration:underline\">荷</span><span>(hé)</span><span> </span><span> </span><span> </span><span> 愧</span><span style=\"text-decoration:underline\">怍</span><span>(zuò)</span><span> </span><span> </span><span> </span><span> </span><span style=\"text-decoration:underline\">攫</span><span>取(jué)</span><span> </span><span> </span><span> </span><span> </span><span style=\"text-decoration:underline\">鲜</span><span>为人知(xiān)</span><br><span>C.</span><span style=\"text-decoration:underline\">伎</span><span>俩(jì)</span><span> </span><span> </span><span> </span><span> 执</span><span style=\"text-decoration:underline\">拗</span><span>(niù)</span><span> </span><span> </span><span> </span><span> 荣</span><span style=\"text-decoration:underline\">膺</span><span>(yīng)</span><span> </span><span> </span><span> </span><span> 相形见</span><span style=\"text-decoration:underline\">绌</span><span>(chù)</span><br><span>D.两</span><span style=\"text-decoration:underline\">栖</span><span>(xī)</span><span> </span><span> </span><span> </span><span> 倒</span><span style=\"text-decoration:underline\">坍</span><span>(tān)</span><span> </span><span> </span><span> </span><span> </span><span style=\"text-decoration:underline\">狩</span><span>猎(shǒu)</span><span> </span><span> </span><span> </span><span> 合</span><span style=\"text-decoration:underline\">辙</span><span>押韵(zhé)</span></p>",
+        "options_html": {},
+        "answer": "C",
+        "answer_html": "<p><span>C</span><br><span>选C。本题主要考查学生对本课我会认的字的掌握情况，学生应在理解的基础上认读生字。A荒</span><span style=\"text-decoration:underline\">谬</span><span>miù；引经</span><span style=\"text-decoration:underline\">据</span><span>典jù。 B</span><span>“鲜”是多音字，</span><span style=\"text-decoration:underline\">鲜</span><span>为人知xiǎn。D 两</span><span style=\"text-decoration:underline\">栖</span><span>qī</span><span style=\"text-decoration:underline\"> </span></p>",
+        "analysis_html": "",
+        "content_hash": "686f2c635bdc077323a6b476a43fb9c6",
+        "source": "2017年深圳市初中毕业生学业水平升学考试语文试题(模拟二)",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "初中语文知识点》字音》字音基础》常用字字音###初中语文知识点》字音》字音基础》多音字字音###",
+        "year": 2017
+      }
+    },
+    {
+      "id": "TZ23635238",
+      "source": "题庄真题 · 2017年深圳市初中毕业生学业水平升学考试语文试题(模拟二)",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "请选出下列说法错误的一项( )",
+      "passage": "【题干原文】\n请选出下列说法错误的一项( )\n\n【考点】初中语文知识点》短语》主谓短语###初中语文知识点》短语》动宾短语###\n【出处】2017年深圳市初中毕业生学业水平升学考试语文试题(模拟二) · 2017 · 题庄题号 23635238",
+      "options": [
+        {
+          "key": "A",
+          "text": "“心情愉快、精力充沛、敬畏生命”这三个短语都是主谓短语。",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "本题考查病句辨析及修改，学生要学会从不同的角度分析病句原因．可以从内容角度分析词义的不同理解病因，可从语法角度分析病因．更要掌握病句的常见类型及辨识病句的方法，还需要提高修改病句的语感能力．A“心情愉快、精力充沛”都是主谓短语；“敬畏生命”是动宾短语。"
+        },
+        {
+          "key": "B",
+          "text": "词又称“长短句”，句式长短不一。兴盛于宋代，苏轼和辛弃疾是豪放派的代表人物，而李清照可以说是婉约派的代表。",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "鲁迅(1881—1936)，原名周树人，浙江绍兴人。我国现代伟大的无产阶级文学家、思想家、革命家。",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "《左传》相传是春秋末期的鲁国史官左丘明所著，是我国第一部编年体史书。",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 A。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：本题考查病句辨析及修改，学生要学会从不同的角度分析病句原因．可以从内容角度分析词义的不同理解病因，可从语法角度分析病因．更要掌握病句的常见类型及辨识病句的方法，还需要提高修改病句的语感能力．A“心情愉快、精力充沛”都是主谓短语；“敬畏生命”是动宾短语。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "d5fd11e614c50601a3362e6d7ee00a9d",
+      "raw": {
+        "id": 23635238,
+        "title_html": "<p>请选出下列说法错误的一项( )<br>",
+        "options_html": {
+          "A": "“心情愉快、精力充沛、敬畏生命”这三个短语都是主谓短语。<br>",
+          "B": "词又称“长短句”，句式长短不一。兴盛于宋代，苏轼和辛弃疾是豪放派的代表人物，而李清照可以说是婉约派的代表。<br>",
+          "C": "鲁迅(1881—1936)，原名周树人，浙江绍兴人。我国现代伟大的无产阶级文学家、思想家、革命家。<br>",
+          "D": "《左传》相传是春秋末期的鲁国史官左丘明所著，是我国第一部编年体史书。"
+        },
+        "answer": "A",
+        "answer_html": "<p>A<br>",
+        "analysis_html": "<p>本题考查病句辨析及修改，学生要学会从不同的角度分析病句原因．可以从内容角度分析词义的不同理解病因，可从语法角度分析病因．更要掌握病句的常见类型及辨识病句的方法，还需要提高修改病句的语感能力．A“心情愉快、精力充沛”都是主谓短语；“敬畏生命”是动宾短语。</p>",
+        "content_hash": "d5fd11e614c50601a3362e6d7ee00a9d",
+        "source": "2017年深圳市初中毕业生学业水平升学考试语文试题(模拟二)",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "初中语文知识点》短语》主谓短语###初中语文知识点》短语》动宾短语###",
+        "year": 2017
+      }
+    },
+    {
+      "id": "TZ23635258",
+      "source": "题庄真题 · 2017年广东省深圳市罗湖区九年级下学期第二次调研语文试题（二模）",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "请选出下列说法不正确的一项（ ）",
+      "passage": "【题干原文】\n请选出下列说法不正确的一项（ ）\n\n【考点】初中语文知识点》单句与复句》复句》选择复句###\n【出处】2017年广东省深圳市罗湖区九年级下学期第二次调研语文试题（二模） · 2017 · 题庄题号 23635258",
+      "options": [
+        {
+          "key": "A",
+          "text": "剧本主要靠人物用自己的语言和动作来表现性格。",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "《最后一课》《我的叔叔于勒》《变色龙》的作者分别是法国的都德、法国的莫泊桑、俄国的契诃夫。",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "“每天夜晚，他都来到林中草地，或是无忧无虑地嬉戏，或是心旷神怡地赏月。”这一句是并列关系复句。",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "本题考查病句辨析及修改，学生要学会从不同的角度分析病句原因．可以从内容角度分析词义的不同理解病因，可从语法角度分析病因．更要掌握病句的常见类型及辨识病句的方法，还需要提高修改病句的语感能力．C是选择关系复句。"
+        },
+        {
+          "key": "D",
+          "text": "“要一个什么样的结尾：现实主义的?传统的?大团圆的?荒诞的?民族形式的?有象征意义的?”这句话中的问号使用正确。",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 C。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：本题考查病句辨析及修改，学生要学会从不同的角度分析病句原因．可以从内容角度分析词义的不同理解病因，可从语法角度分析病因．更要掌握病句的常见类型及辨识病句的方法，还需要提高修改病句的语感能力．C是选择关系复句。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "126b4cb718a7106a24045ce33f908778",
+      "raw": {
+        "id": 23635258,
+        "title_html": "<p>请选出下列说法不正确的一项（ ）<br>",
+        "options_html": {
+          "A": "剧本主要靠人物用自己的语言和动作来表现性格。<br>",
+          "B": "《最后一课》《我的叔叔于勒》《变色龙》的作者分别是法国的都德、法国的莫泊桑、俄国的契诃夫。<br>",
+          "C": "“每天夜晚，他都来到林中草地，或是无忧无虑地嬉戏，或是心旷神怡地赏月。”这一句是并列关系复句。<br>",
+          "D": "“要一个什么样的结尾：现实主义的?传统的?大团圆的?荒诞的?民族形式的?有象征意义的?”这句话中的问号使用正确。"
+        },
+        "answer": "C",
+        "answer_html": "<p>C<br>",
+        "analysis_html": "<p>本题考查病句辨析及修改，学生要学会从不同的角度分析病句原因．可以从内容角度分析词义的不同理解病因，可从语法角度分析病因．更要掌握病句的常见类型及辨识病句的方法，还需要提高修改病句的语感能力．C是选择关系复句。</p>",
+        "content_hash": "126b4cb718a7106a24045ce33f908778",
+        "source": "2017年广东省深圳市罗湖区九年级下学期第二次调研语文试题（二模）",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "初中语文知识点》单句与复句》复句》选择复句###",
+        "year": 2017
+      }
+    },
+    {
+      "id": "TZ23635740",
+      "source": "题庄真题 · 语文版初中语文九年级上册第二单元第六课一厘米课时训练",
+      "subject": "chinese",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "记叙文",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": null,
+      "grammar_point": null,
+      "mode": "single",
+      "stem": "下列词语中没有错别字的一组是（ ）",
+      "passage": "【题干原文】\n下列词语中没有错别字的一组是（ ）\n\n【考点】初中语文知识点》字形》字形辨析》同音字字形辨析###初中语文知识点》字形》字形辨析》形近字字形辨析###初中语文知识点》字形》字形辨析》音形相近字字形辨析###课文库》Y》一厘米###\n【出处】语文版初中语文九年级上册第二单元第六课一厘米课时训练 · 2018 · 题庄题号 23635740",
+      "options": [
+        {
+          "key": "A",
+          "text": "刹那 古筝 蚯蚓 报消",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "踏板 释然 耐烦 配服",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "印堂 帐蓬 冰晶 潇洒",
+          "is_correct": false,
+          "trap_type": null,
+          "option_analysis": "本题标答为 D。该项请回到题干与材料核对依据（原题解析原文见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "检点 内疚 反驳 无措",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "D项正确。其余三项是同音字、形近字弄错，A项“消”应为“销”；B项“配”应为“佩”；C项“蓬”应为“篷”。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "审设问方向 → 回原文定位依据 → 逐项核对选项（警惕绝对化、以偏概全、无中生有）",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：D项正确。其余三项是同音字、形近字弄错，A项“消”应为“销”；B项“配”应为“佩”；C项“蓬”应为“篷”。",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "语文",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "fb59a82021b07f09e7252fb534cad0f4",
+      "raw": {
+        "id": 23635740,
+        "title_html": "<p>下列词语中没有错别字的一组是（ ）<br>",
+        "options_html": {
+          "A": "刹那     古筝     蚯蚓     报消<br>",
+          "B": "踏板     释然     耐烦     配服<br>",
+          "C": "印堂     帐蓬     冰晶     潇洒<br>",
+          "D": "检点     内疚     反驳     无措"
+        },
+        "answer": "D",
+        "answer_html": "<p>D<br>",
+        "analysis_html": "<p>D项正确。其余三项是同音字、形近字弄错，A项“消”应为“销”；B项“配”应为“佩”；C项“蓬”应为“篷”。</p>",
+        "content_hash": "fb59a82021b07f09e7252fb534cad0f4",
+        "source": "语文版初中语文九年级上册第二单元第六课一厘米课时训练",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "初中语文知识点》字形》字形辨析》同音字字形辨析###初中语文知识点》字形》字形辨析》形近字字形辨析###初中语文知识点》字形》字形辨析》音形相近字字形辨析###课文库》Y》一厘米###",
+        "year": 2018
       }
     }
   ]

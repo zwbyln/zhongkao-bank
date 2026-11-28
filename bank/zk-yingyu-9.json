@@ -1,13 +1,13 @@
 {
   "format": "zx-trainer-bank-v1",
   "source": "题庄真题库（tizhuang.qcscience.cc）",
-  "generatedAt": "2026-11-27T03:37:35.466180+00:00",
+  "generatedAt": "2026-11-28T03:17:31.007348+00:00",
   "note": "本文件由 tizhuang_fetch.py 从题庄真题库生成。题干、选项、标答、解析均取自题庄原始字段，仅做 HTML 标签清洗，未改写/重排/重算；每道题的 raw 字段保留原始 HTML 供核对。formula_ref、genre、content_scope、memory_type、time_anchor 是训练系统的调度与教学标注，由脚本按关键词推断，建议教师复核；干扰项的 option_analysis 为本系统占位提示语，非原题解析。答案与解析冲突、含图片、非标准四选一、内容范围不匹配的题已剔除并写入同目录的复核文件。英语题的 grammar_group / grammar_point 由关键词推断（结构类优先于时态类），口语交际与语法填空等主观题不在采集范围内。",
   "stats": {
-    "usable": 74,
-    "skipped": 0,
-    "thisRun": 35,
-    "added": 0
+    "usable": 106,
+    "skipped": 3,
+    "thisRun": 32,
+    "added": 32
   },
   "items": [
     {
@@ -5646,6 +5646,2470 @@
         "is_auto_gradable": true,
         "knowledges": "日常用语、谚语",
         "year": 2012
+      }
+    },
+    {
+      "id": "TZ2826654",
+      "source": "题庄真题 · 2013•嘉定区二模",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "形容词与副词",
+      "mode": "single",
+      "stem": "Peter walked out of the classroom quickly．Obviously，he was _______ at the ________ news．（ ）",
+      "passage": "【题干原文】\nPeter walked out of the classroom quickly．Obviously，he was _______ at the ________ news．（ ）\n\n【考点】ing形容词和ed形容词\n【出处】2013•嘉定区二模 · 2013 · 题庄题号 2826654",
+      "options": [
+        {
+          "key": "A",
+          "text": "excited…excited",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "excited…exciting",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】彼得快速的走出了教室．很明显，他对那个令人兴奋的消息感到很兴奋．"
+        },
+        {
+          "key": "C",
+          "text": "exciting…exciting",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "exciting…excited",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "形容词与副词",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】彼得快速的走出了教室．很明显，他对那个令人兴奋的消息感到很兴奋．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "e30466474593a2adeedc02babd383281",
+      "raw": {
+        "id": 2826654,
+        "title_html": "Peter walked out of the classroom quickly．Obviously，he was _______ at the ________ news．（　　）",
+        "options_html": {
+          "A": "excited…excited",
+          "B": "excited…exciting",
+          "C": "exciting…exciting",
+          "D": "exciting…excited"
+        },
+        "answer": "B",
+        "answer_html": "【解答】答案B．ing形容词修饰物，ed形容词修饰人，he was（他…）主语he（他）是人，要用ed形容词修饰，所以第一空填excited，news（消息）属于物，其前要用ing形容词修饰，所以第二空填exciting，故答案选B．excited…exciting",
+        "analysis_html": "【分析】彼得快速的走出了教室．很明显，他对那个令人兴奋的消息感到很兴奋．",
+        "content_hash": "e30466474593a2adeedc02babd383281",
+        "source": "2013•嘉定区二模",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "ing形容词和ed形容词",
+        "year": 2013
+      }
+    },
+    {
+      "id": "TZ2826663",
+      "source": "题庄真题 · 2014•深圳模拟",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "形容词与副词",
+      "mode": "single",
+      "stem": "The questioned he raised seems very________．Yes，I am also so _________about it．（ ）",
+      "passage": "【题干原文】\nThe questioned he raised seems very________．Yes，I am also so _________about it．（ ）\n\n【考点】ing形容词和ed形容词\n【出处】2014•深圳模拟 · 2014 · 题庄题号 2826663",
+      "options": [
+        {
+          "key": "A",
+          "text": "confused，confused",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "confusing，confusing",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "confusing，confused",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】-他提出的质疑似乎很令人困惑．\n-是的，我也糊涂了．"
+        },
+        {
+          "key": "D",
+          "text": "confused，confusing",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "形容词与副词",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】-他提出的质疑似乎很令人困惑．\n-是的，我也糊涂了．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "39a96582d1b45a1307f01947b090d9ee",
+      "raw": {
+        "id": 2826663,
+        "title_html": "The questioned he raised seems very________．Yes，I am also so _________about it．（　　）",
+        "options_html": {
+          "A": "confused，confused",
+          "B": "confusing，confusing",
+          "C": "confusing，confused",
+          "D": "confused，confusing"
+        },
+        "answer": "C",
+        "answer_html": "【解答】答案：C<br>confusing令人困惑的，主语应该是物；confused感到困惑的，糊涂的，主语应该是人；The questioned he raised他提出的问题，属于物；I我，属于人，故选C．",
+        "analysis_html": "【分析】-他提出的质疑似乎很令人困惑．<br>-是的，我也糊涂了．",
+        "content_hash": "39a96582d1b45a1307f01947b090d9ee",
+        "source": "2014•深圳模拟",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "ing形容词和ed形容词",
+        "year": 2014
+      }
+    },
+    {
+      "id": "TZ2826666",
+      "source": "题庄真题 · 2015•黔西南州",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "形容词与副词",
+      "mode": "single",
+      "stem": "A _______ woman was saved from the ship on June 2nd，2015（ ）",
+      "passage": "【题干原文】\nA _______ woman was saved from the ship on June 2nd，2015（ ）\n\n【考点】复合形容词\n【出处】2015•黔西南州 · 2015 · 题庄题号 2826666",
+      "options": [
+        {
+          "key": "A",
+          "text": "65 year old",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "65-year-olds",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "65-year-old",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】一位65岁的妇女在2015年6月2日从船上得救了．"
+        },
+        {
+          "key": "D",
+          "text": "65-years-old",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "形容词与副词",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】一位65岁的妇女在2015年6月2日从船上得救了．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "778e575ce38ede552a535f89294ae8a6",
+      "raw": {
+        "id": 2826666,
+        "title_html": "A _______ woman was saved from the ship on June 2nd，2015（　　）",
+        "options_html": {
+          "A": "65 year old",
+          "B": "65-year-olds",
+          "C": "65-year-old",
+          "D": "65-years-old"
+        },
+        "answer": "C",
+        "answer_html": "【解答】答案：C．<br>从选项推知此题考查复合形容词的用法，即一位65岁的妇女．须具备1．必须有连字符．2．名词用单数．正确表达为a 65-year-old women．A缺乏连字符；B和D项中old和years都不能加s．故选C．",
+        "analysis_html": "【分析】一位65岁的妇女在2015年6月2日从船上得救了．",
+        "content_hash": "778e575ce38ede552a535f89294ae8a6",
+        "source": "2015•黔西南州",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "复合形容词",
+        "year": 2015
+      }
+    },
+    {
+      "id": "TZ2826692",
+      "source": "题庄真题 · 2013•市中区一模",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "If you find a house is on fire，you should call ___________ at once．（ ）",
+      "passage": "【题干原文】\nIf you find a house is on fire，you should call ___________ at once．（ ）\n\n【考点】英文常识\n【出处】2013•市中区一模 · 2013 · 题庄题号 2826692",
+      "options": [
+        {
+          "key": "A",
+          "text": "119",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】如果你发现一个房子着火了，你应当立即拨打119．"
+        },
+        {
+          "key": "B",
+          "text": "120",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "122",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "114",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】如果你发现一个房子着火了，你应当立即拨打119．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "38d31b3573c65d67963f41eb8b0ffd65",
+      "raw": {
+        "id": 2826692,
+        "title_html": "If you find a house is on fire，you should call ___________ at once．（　　）",
+        "options_html": {
+          "A": "119",
+          "B": "120",
+          "C": "122",
+          "D": "114"
+        },
+        "answer": "A",
+        "answer_html": "【解答】答案：A<br>根据题干信息房子着火，据生活常识知发生火灾时应拨打119．选项B：为急救电话；选项C：为交通事故处理电话；选项D：为号码查询电话．故选A",
+        "analysis_html": "【分析】如果你发现一个房子着火了，你应当立即拨打119．",
+        "content_hash": "38d31b3573c65d67963f41eb8b0ffd65",
+        "source": "2013•市中区一模",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "英文常识",
+        "year": 2013
+      }
+    },
+    {
+      "id": "TZ2826730",
+      "source": "题庄真题 · 2014•简阳市模拟",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句型与倒装",
+      "grammar_point": "反意疑问句",
+      "mode": "single",
+      "stem": "-Betty didn’t come to school yesterday，did she？\n-______．Though she was not feeling very well．（ ）",
+      "passage": "【题干原文】\n-Betty didn’t come to school yesterday，did she？\n-______．Though she was not feeling very well．（ ）\n\n【考点】反意疑问句\n【出处】2014•简阳市模拟 · 2014 · 题庄题号 2826730",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes，she didn’t",
+          "is_correct": false,
+          "trap_type": "语序错误",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "Yes，she did",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】翻译：--贝蒂昨天没有来学校，是吗？\n--虽然她昨天不是很舒服，但还是来了．"
+        },
+        {
+          "key": "C",
+          "text": "No，she did",
+          "is_correct": false,
+          "trap_type": "语序错误",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "No，she didn’t",
+          "is_correct": false,
+          "trap_type": "语序错误",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "反意疑问句",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】翻译：--贝蒂昨天没有来学校，是吗？\n--虽然她昨天不是很舒服，但还是来了．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "c197c3ee77f5985d8bfb6bf4fd9a5bbf",
+      "raw": {
+        "id": 2826730,
+        "title_html": "-Betty didn’t come to school yesterday，did she？<br>-______．Though she was not feeling very well．（　　）",
+        "options_html": {
+          "A": "Yes，she didn’t",
+          "B": "Yes，she did",
+          "C": "No，she did",
+          "D": "No，she didn’t"
+        },
+        "answer": "B",
+        "answer_html": "【解答】答案：B．首先，排除A，C．这种句型的回答一定要“吻合”，就是说，如果前面是Yes，后面就要是肯定，如果前面是No，后面就要是否定．从后文的内容Though she was not feeling very well．可知事实上是肯定的，要用Yes，所以，后面也必须是she did，前后形式要一致起来．但注意Yes的翻译正好和汉语相反．故选B．",
+        "analysis_html": "【分析】翻译：--贝蒂昨天没有来学校，是吗？<br>--虽然她昨天不是很舒服，但还是来了．",
+        "content_hash": "c197c3ee77f5985d8bfb6bf4fd9a5bbf",
+        "source": "2014•简阳市模拟",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "反意疑问句",
+        "year": 2014
+      }
+    },
+    {
+      "id": "TZ2826735",
+      "source": "题庄真题 · 2014•仁寿县校级模拟",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "连词",
+      "mode": "single",
+      "stem": "Lily Sam likes popular songs，so they went to Zhou Jielun’s concert together last night．（ ）",
+      "passage": "【题干原文】\nLily Sam likes popular songs，so they went to Zhou Jielun’s concert together last night．（ ）\n\n【考点】并列连词\n【出处】2014•仁寿县校级模拟 · 2014 · 题庄题号 2826735",
+      "options": [
+        {
+          "key": "A",
+          "text": "Both，and",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "Either，or",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "Not only，but also",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】不但Lily而且Sam喜欢流行歌曲，所以他们昨晚一起去周杰伦的演唱会．"
+        },
+        {
+          "key": "D",
+          "text": "Neither，nor",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "连词",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】不但Lily而且Sam喜欢流行歌曲，所以他们昨晚一起去周杰伦的演唱会．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "b262180e0fa8883cee44918bad44499b",
+      "raw": {
+        "id": 2826735,
+        "title_html": "<u>       </u> Lily <u>           </u> Sam likes popular songs，so they went to Zhou Jielun’s concert together last night．（　　）",
+        "options_html": {
+          "A": "Both，and",
+          "B": "Either，or",
+          "C": "Not only，but also",
+          "D": "Neither，nor"
+        },
+        "answer": "C",
+        "answer_html": "【解答】答案：C；both…and…意为“两者都…”，连接名词或代词作主语时，谓语动词用复数形式，不受‘就近原则’的限制；either…or意为要么…要么，表示两者中有一个，动词谓语为就近原则；neither…nor表示两者都不，动词谓语为就近原则；Not only，but also意为“不仅…而且…”；若连接两个成分作主语，其谓语通常与靠近的主语保持一致；根据句中信息so they went to Zhou Jielun’s concert together last night．（所以他们昨晚他们一起去了周杰伦的演唱会．）可知莉莉和萨姆都喜欢流行歌曲，而且谓语动词要用三单形式，故选C．",
+        "analysis_html": "【分析】不但Lily而且Sam喜欢流行歌曲，所以他们昨晚一起去周杰伦的演唱会．",
+        "content_hash": "b262180e0fa8883cee44918bad44499b",
+        "source": "2014•仁寿县校级模拟",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "并列连词",
+        "year": 2014
+      }
+    },
+    {
+      "id": "TZ2826741",
+      "source": "题庄真题 · 2012•淄博模拟",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句型与倒装",
+      "grammar_point": "反意疑问句",
+      "mode": "single",
+      "stem": "---There is enough food for the birds，isn’t _______？\n---No．We need to get some．（ ）",
+      "passage": "【题干原文】\n---There is enough food for the birds，isn’t _______？\n---No．We need to get some．（ ）\n\n【考点】反意疑问句\n【出处】2012•淄博模拟 · 2012 · 题庄题号 2826741",
+      "options": [
+        {
+          "key": "A",
+          "text": "it",
+          "is_correct": false,
+          "trap_type": "语序错误",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "there",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--这里为鸟准备了充足的食物，是吗？\n--不．我们需要买一些．"
+        },
+        {
+          "key": "C",
+          "text": "that",
+          "is_correct": false,
+          "trap_type": "语序错误",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "this",
+          "is_correct": false,
+          "trap_type": "语序错误",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "反意疑问句",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】--这里为鸟准备了充足的食物，是吗？\n--不．我们需要买一些．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "dd93036d39a742fca8502fe3f2f7fc02",
+      "raw": {
+        "id": 2826741,
+        "title_html": "---There is enough food for the birds，isn’t _______？<br>---No．We need to get some．（　　）",
+        "options_html": {
+          "A": "it",
+          "B": "there",
+          "C": "that",
+          "D": "this"
+        },
+        "answer": "B",
+        "answer_html": "【解答】答案：B．根据There is enough food for the birds，isn’t _____？可知这里考查了反义疑问句，在反义疑问句，注意前肯后否，前否后肯，There be句型要用be there来反问，故选B．",
+        "analysis_html": "【分析】--这里为鸟准备了充足的食物，是吗？<br>--不．我们需要买一些．",
+        "content_hash": "dd93036d39a742fca8502fe3f2f7fc02",
+        "source": "2012•淄博模拟",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "反意疑问句",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ2826749",
+      "source": "题庄真题 · 2014•德州模拟",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "---What’s the matter？\n---I have stomachache．Maybe I have eaten _____________ tonight．（ ）",
+      "passage": "【题干原文】\n---What’s the matter？\n---I have stomachache．Maybe I have eaten _____________ tonight．（ ）\n\n【考点】量词\n【出处】2014•德州模拟 · 2014 · 题庄题号 2826749",
+      "options": [
+        {
+          "key": "A",
+          "text": "too much",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--怎么了？\n--我胃痛．可能今晚我吃的太多．"
+        },
+        {
+          "key": "B",
+          "text": "too many",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "much too",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "many too",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】--怎么了？\n--我胃痛．可能今晚我吃的太多．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "15f127032e9df793665763d564236f6e",
+      "raw": {
+        "id": 2826749,
+        "title_html": "---What’s the matter？<br>---I have stomachache．Maybe I have eaten _____________ tonight．（　　）",
+        "options_html": {
+          "A": "too much",
+          "B": "too many",
+          "C": "much too",
+          "D": "many too"
+        },
+        "answer": "A",
+        "answer_html": "【解答】答案：A．much too中心词是too，much此处做副词表示程度，意思是太；too much中心词是much，much此处意思是多，too作为副词修饰much，too much意思是太多，修饰不可数名词；too many太多，用来修饰可数名词复数；结合句意，吃得太多eat too much，故选A．",
+        "analysis_html": "【分析】--怎么了？<br>--我胃痛．可能今晚我吃的太多．",
+        "content_hash": "15f127032e9df793665763d564236f6e",
+        "source": "2014•德州模拟",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "量词",
+        "year": 2014
+      }
+    },
+    {
+      "id": "TZ2826762",
+      "source": "题庄真题 · 2012•历下区一模",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "More and more people found _________ necessary to have a balanced diet．（ ）",
+      "passage": "【题干原文】\nMore and more people found _________ necessary to have a balanced diet．（ ）\n\n【考点】形式宾语\n【出处】2012•历下区一模 · 2012 · 题庄题号 2826762",
+      "options": [
+        {
+          "key": "A",
+          "text": "it",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】越来越多的人发现拥有平衡饮食很必要．"
+        },
+        {
+          "key": "B",
+          "text": "that",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "this",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "it’s",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】越来越多的人发现拥有平衡饮食很必要．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "e38eba215737d74ad97aaf8a4a754409",
+      "raw": {
+        "id": 2826762,
+        "title_html": "More and more people found _________ necessary to have a balanced diet．（　　）",
+        "options_html": {
+          "A": "it",
+          "B": "that",
+          "C": "this",
+          "D": "it’s"
+        },
+        "answer": "A",
+        "answer_html": "【解答】答案：A find it+形容词+to do sth．发现做某事…，这里it为形式宾语，真正的宾语为动词不定式短语，find后面还可接宾语从句，find that…可以表达为：More and more people found （that） it was necessary to…排除答案B、C、D，故选：A．",
+        "analysis_html": "【分析】越来越多的人发现拥有平衡饮食很必要．",
+        "content_hash": "e38eba215737d74ad97aaf8a4a754409",
+        "source": "2012•历下区一模",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "形式宾语",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ2826771",
+      "source": "题庄真题 · 2014•南京二模",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "-Mrs Green．Do you think I can get an“A”in the final exam if I start working hard now？\n-Of course．________．（ ）",
+      "passage": "【题干原文】\n-Mrs Green．Do you think I can get an“A”in the final exam if I start working hard now？\n-Of course．________．（ ）\n\n【考点】谚语\n【出处】2014•南京二模 · 2014 · 题庄题号 2826771",
+      "options": [
+        {
+          "key": "A",
+          "text": "Better late than never",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--格林女士，如果我现在开始努力学习的话，你认为我可以在期末考试中得“A”吗？\n--当然． 晚做总比不做好．"
+        },
+        {
+          "key": "B",
+          "text": "Many hands make light work",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "You cannot burn the candle at both sides",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "Actions speak louder than words",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】--格林女士，如果我现在开始努力学习的话，你认为我可以在期末考试中得“A”吗？\n--当然． 晚做总比不做好．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "6cb33334a2bdc980acbe44b94a412e00",
+      "raw": {
+        "id": 2826771,
+        "title_html": "-Mrs Green．Do you think I can get an“A”in the final exam if I start working hard now？<br>-Of course．________．（　　）",
+        "options_html": {
+          "A": "Better late than never",
+          "B": "Many hands make light work",
+          "C": "You cannot burn the candle at both sides",
+          "D": "Actions speak louder than words"
+        },
+        "answer": "A",
+        "answer_html": "【解答】答案：A<br>选项A：晚做总比不做好；选项B：众人拾柴火焰高；选项C：蜡烛不能两头点，精力不可过分耗；选项D：行动胜于雄辩．<br>根据题干可考虑为学生向老师咨询意见，老师用来鼓励学生努力学习的谚语，故选A．",
+        "analysis_html": "【分析】--格林女士，如果我现在开始努力学习的话，你认为我可以在期末考试中得“A”吗？<br>--当然． 晚做总比不做好．",
+        "content_hash": "6cb33334a2bdc980acbe44b94a412e00",
+        "source": "2014•南京二模",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "谚语",
+        "year": 2014
+      }
+    },
+    {
+      "id": "TZ2826811",
+      "source": "题庄真题 · 2013•湖北模拟",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句型与倒装",
+      "grammar_point": "反意疑问句",
+      "mode": "single",
+      "stem": "--Your brother didn’t use to be very quiet，did he？\n--_________．He was quite outgoing．（ ）",
+      "passage": "【题干原文】\n--Your brother didn’t use to be very quiet，did he？\n--_________．He was quite outgoing．（ ）\n\n【考点】反意疑问句\n【出处】2013•湖北模拟 · 2013 · 题庄题号 2826811",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes，he did",
+          "is_correct": false,
+          "trap_type": "语序错误",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "Yes，he was",
+          "is_correct": false,
+          "trap_type": "语序错误",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "No，he didn’t",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--你弟弟过去不是很内向，是吗？\n--是的，他不是很内向．他相当外向．"
+        },
+        {
+          "key": "D",
+          "text": "No，he wasn’t",
+          "is_correct": false,
+          "trap_type": "语序错误",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "反意疑问句",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】--你弟弟过去不是很内向，是吗？\n--是的，他不是很内向．他相当外向．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "fa3ad2065489809f726d0321822802ec",
+      "raw": {
+        "id": 2826811,
+        "title_html": "--Your brother didn’t use to be very quiet，did he？<br>--_________．He was quite outgoing．（　　）",
+        "options_html": {
+          "A": "Yes，he did",
+          "B": "Yes，he was",
+          "C": "No，he didn’t",
+          "D": "No，he wasn’t"
+        },
+        "answer": "C",
+        "answer_html": "【解答】答案：C．考点是反义疑问句．对反意疑问句的回答，无论问题提法如何，如果事实是肯定的，就用yes；如果事实是否定的，就用no；根据题干--______．He was quite outgoing．可知，“是的，他不是很内向．他相当外向．“说明内向是否定的，在这里以did引导的问句，回答还应该用did，否定形式为didn&#x27;t，前后形式要保持一致性，但翻译时No要翻译成“是的”．故选C．",
+        "analysis_html": "【分析】--你弟弟过去不是很内向，是吗？<br>--是的，他不是很内向．他相当外向．",
+        "content_hash": "fa3ad2065489809f726d0321822802ec",
+        "source": "2013•湖北模拟",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "反意疑问句",
+        "year": 2013
+      }
+    },
+    {
+      "id": "TZ2826834",
+      "source": "题庄真题 · 2012•黄冈模拟",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "词汇辨析",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词汇辨析",
+      "grammar_point": "近义词辨析",
+      "mode": "single",
+      "stem": "Her sister is a nurse and her job is to care for sick people．（ ）",
+      "passage": "【题干原文】\nHer sister is a nurse and her job is to care for sick people．（ ）\n\n【考点】同义词、近义词的辨析\n【出处】2012•黄冈模拟 · 2012 · 题庄题号 2826834",
+      "options": [
+        {
+          "key": "A",
+          "text": "look at",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "look up",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "look after",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】她的姐姐是一位护士，她的工作是照顾病人．"
+        },
+        {
+          "key": "D",
+          "text": "look for",
+          "is_correct": false,
+          "trap_type": "近义词混淆",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "近义词辨析",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】她的姐姐是一位护士，她的工作是照顾病人．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "56c7914f52a6731ed927776701d591d6",
+      "raw": {
+        "id": 2826834,
+        "title_html": "Her sister is a nurse and her job is to<u> care for</u> sick people．（　　）",
+        "options_html": {
+          "A": "look at",
+          "B": "look up",
+          "C": "look after",
+          "D": "look for"
+        },
+        "answer": "C",
+        "answer_html": "【解答】答案：C care for照顾，照看，答案A look at看着…，答案B look up向上看或查阅…，答案C look after照看，照顾，答案D look for寻找，故选：C",
+        "analysis_html": "【分析】她的姐姐是一位护士，她的工作是照顾病人．",
+        "content_hash": "56c7914f52a6731ed927776701d591d6",
+        "source": "2012•黄冈模拟",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "同义词、近义词的辨析",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ2826835",
+      "source": "题庄真题 · 2014•昆明模拟",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "A friend without faults will never be found．（ ）",
+      "passage": "【题干原文】\nA friend without faults will never be found．（ ）\n\n【考点】谚语\n【出处】2014•昆明模拟 · 2014 · 题庄题号 2826835",
+      "options": [
+        {
+          "key": "A",
+          "text": "没有错误的朋友不容易被发现",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "没有十全十美的朋友",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】没有十全十美的朋友．"
+        },
+        {
+          "key": "C",
+          "text": "不难发现一个没有错误的朋友",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "绝不能寻找有错误的朋友",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】没有十全十美的朋友．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "660b52eeb9bb9c61b684f4da6654ef47",
+      "raw": {
+        "id": 2826835,
+        "title_html": "<u>A friend without faults will never be found．</u>（　　）",
+        "options_html": {
+          "A": "没有错误的朋友不容易被发现",
+          "B": "没有十全十美的朋友",
+          "C": "不难发现一个没有错误的朋友",
+          "D": "绝不能寻找有错误的朋友"
+        },
+        "answer": "B",
+        "answer_html": "【解答】答案：B<br>without“无、没有”表伴随，fault“错误、缺点”，will+be+过去分词“被动语态结构”．故根据句子字面意思理解该谚语意为“没有缺点的朋友将无法被找到”即可延伸为“没有十全十美的朋友”，故选B．",
+        "analysis_html": "【分析】没有十全十美的朋友．",
+        "content_hash": "660b52eeb9bb9c61b684f4da6654ef47",
+        "source": "2014•昆明模拟",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "谚语",
+        "year": 2014
+      }
+    },
+    {
+      "id": "TZ2826837",
+      "source": "题庄真题 · 2014•高邮市一模",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "---Come on，everyone!We must be the first to complete the poster for the charity show．\n---Sure．____________．（ ）",
+      "passage": "【题干原文】\n---Come on，everyone!We must be the first to complete the poster for the charity show．\n---Sure．____________．（ ）\n\n【考点】谚语\n【出处】2014•高邮市一模 · 2014 · 题庄题号 2826837",
+      "options": [
+        {
+          "key": "A",
+          "text": "East or west，home is the best",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "The early bird catches the worm",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--大家，快点儿！我们必须是第一个完成慈善演出海报的人．\n--当然．早起的鸟儿有虫吃．"
+        },
+        {
+          "key": "C",
+          "text": "Many hands make light work",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "Don’t put all your eggs in one basket",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】--大家，快点儿！我们必须是第一个完成慈善演出海报的人．\n--当然．早起的鸟儿有虫吃．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "1a49340d85dabd8344977fa874101bd7",
+      "raw": {
+        "id": 2826837,
+        "title_html": "---Come on，everyone!We must be the first to complete the poster for the charity show．<br>---Sure．____________．（　　）",
+        "options_html": {
+          "A": "East or west，home is the best",
+          "B": "The early bird catches the worm",
+          "C": "Many hands make light work",
+          "D": "Don’t put all your eggs in one basket"
+        },
+        "answer": "B",
+        "answer_html": "【解答】答案：B<br>选项A：金窝银窝不如自己的狗窝；选项B：早起的鸟儿有虫吃；选项C：众人拾柴火焰高；选项D：不要孤注一掷．<br>根据题干知说话者在催促其他人快点，力争第一个完成任务，故推测想早开始做以提早完成，故选B．",
+        "analysis_html": "【分析】--大家，快点儿！我们必须是第一个完成慈善演出海报的人．<br>--当然．早起的鸟儿有虫吃．",
+        "content_hash": "1a49340d85dabd8344977fa874101bd7",
+        "source": "2014•高邮市一模",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "谚语",
+        "year": 2014
+      }
+    },
+    {
+      "id": "TZ2826877",
+      "source": "题庄真题 · 2014•包河区二模",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "I don’t think possible to master a foreign language without much hard work．（ ）",
+      "passage": "【题干原文】\nI don’t think possible to master a foreign language without much hard work．（ ）\n\n【考点】形式主语\n【出处】2014•包河区二模 · 2014 · 题庄题号 2826877",
+      "options": [
+        {
+          "key": "A",
+          "text": "it",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--我认为掌握一门外语，不努力学习是不可能的．"
+        },
+        {
+          "key": "B",
+          "text": "that",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "this",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "one",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】--我认为掌握一门外语，不努力学习是不可能的．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "76dfdc719a5fa0502c1d23726ed22e2a",
+      "raw": {
+        "id": 2826877,
+        "title_html": "I don’t think <u>      </u> possible to master a foreign language without much hard work．（　　）",
+        "options_html": {
+          "A": "it",
+          "B": "that",
+          "C": "this",
+          "D": "one"
+        },
+        "answer": "A",
+        "answer_html": "【解答】答案：A 分析句子结构，这是一个宾语从句，通常that 接从句，从句要有主语，谓语和宾语；该句填that就缺主语了，所以考虑另外一种形式，it+adj．to do sth．此时it作形式宾语，真正的宾语为后面的不定式to master a foreigh language，所以选A",
+        "analysis_html": "【分析】--我认为掌握一门外语，不努力学习是不可能的．",
+        "content_hash": "76dfdc719a5fa0502c1d23726ed22e2a",
+        "source": "2014•包河区二模",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "形式主语",
+        "year": 2014
+      }
+    },
+    {
+      "id": "TZ2826898",
+      "source": "题庄真题 · 2012•连云港模拟",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "形容词与副词",
+      "mode": "single",
+      "stem": "Unluckily，Mr Brown drove so __that his car crashed into a tree yesterday evening．（副词 ）（ ）",
+      "passage": "【题干原文】\nUnluckily，Mr Brown drove so __that his car crashed into a tree yesterday evening．（副词 ）（ ）\n\n【考点】副词的位置\n【出处】2012•连云港模拟 · 2012 · 题庄题号 2826898",
+      "options": [
+        {
+          "key": "A",
+          "text": "careless",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "careful",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "carefully",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "carelessly",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】不幸的是，布朗先生昨天晚上开车太不小心了，以至于他的车撞上了一棵树上．"
+        }
+      ],
+      "points": [],
+      "formula_ref": "形容词与副词",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】不幸的是，布朗先生昨天晚上开车太不小心了，以至于他的车撞上了一棵树上．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "7b5e65b6c5180c80d2547c5941e88b6b",
+      "raw": {
+        "id": 2826898,
+        "title_html": "Unluckily，Mr Brown drove so <u> __</u>that his car crashed into a tree yesterday evening．（副词  ）（　　）",
+        "options_html": {
+          "A": "careless",
+          "B": "careful",
+          "C": "carefully",
+          "D": "carelessly"
+        },
+        "answer": "D",
+        "answer_html": "【解答】答案：D careless粗心的，careful细心的，形容词，作形容词或表语；carefully细心地，carelessly粗心地，副词，修饰实义动词，根据句子中动词drove可知，要用副词修饰，排除答案A和B；根据that后面提到“他的车撞上了一棵树上”，这说明他开车不小心，故选：D．",
+        "analysis_html": "【分析】不幸的是，布朗先生昨天晚上开车太不小心了，以至于他的车撞上了一棵树上．",
+        "content_hash": "7b5e65b6c5180c80d2547c5941e88b6b",
+        "source": "2012•连云港模拟",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "副词的位置",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ2826942",
+      "source": "题庄真题 · 2012•黄冈模拟",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "When you are doing some shopping，you’d better use your eyes，not your ears．（ ）",
+      "passage": "【题干原文】\nWhen you are doing some shopping，you’d better use your eyes，not your ears．（ ）\n\n【考点】谚语\n【出处】2012•黄冈模拟 · 2012 · 题庄题号 2826942",
+      "options": [
+        {
+          "key": "A",
+          "text": "decide by yourself",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】当你购物的时候，你最好用眼莫用耳．"
+        },
+        {
+          "key": "B",
+          "text": "follow the others",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "listen to the others",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "look at the others",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】当你购物的时候，你最好用眼莫用耳．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "c025b39046c4c52840c252b12b4dc83a",
+      "raw": {
+        "id": 2826942,
+        "title_html": "When you are doing some shopping，you’d better <u>use your eyes，not your ears</u>．（　　）",
+        "options_html": {
+          "A": "decide by yourself",
+          "B": "follow the others",
+          "C": "listen to the others",
+          "D": "look at the others"
+        },
+        "answer": "A",
+        "answer_html": "【解答】答案：A<br>根据题干中<u>use your eyes，not your ears（</u>用眼莫用耳<u>），可知意为购物时不要听信别人，而是要自己观察，自己做决定．故选A．</u>",
+        "analysis_html": "【分析】当你购物的时候，你最好用眼莫用耳．",
+        "content_hash": "c025b39046c4c52840c252b12b4dc83a",
+        "source": "2012•黄冈模拟",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "谚语",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ2826977",
+      "source": "题庄真题 · 2012•黄冈模拟",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "I bought _____ China Daily from a street-corner machine this morning．（ ）",
+      "passage": "【题干原文】\nI bought _____ China Daily from a street-corner machine this morning．（ ）\n\n【考点】量词\n【出处】2012•黄冈模拟 · 2012 · 题庄题号 2826977",
+      "options": [
+        {
+          "key": "A",
+          "text": "a page of",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "a piece of",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "a copy of",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】今早我从街角的售报机上买了一份《中国日报》．"
+        },
+        {
+          "key": "D",
+          "text": "a book of",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】今早我从街角的售报机上买了一份《中国日报》．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "afabdc2232be61c552de410fb49ae367",
+      "raw": {
+        "id": 2826977,
+        "title_html": "I bought _____ China Daily from a street-corner machine this morning．（　　）",
+        "options_html": {
+          "A": "a page of",
+          "B": "a piece of",
+          "C": "a copy of",
+          "D": "a book of"
+        },
+        "answer": "C",
+        "answer_html": "【解答】答案：C．<br>a page of一页；a piece of一张；a book of一本；a copy of一份．根据China Daily，可知这里指的是《中国日报》，在这里应该说一份《中国日报》．a copy of一份．故选C．",
+        "analysis_html": "【分析】今早我从街角的售报机上买了一份《中国日报》．",
+        "content_hash": "afabdc2232be61c552de410fb49ae367",
+        "source": "2012•黄冈模拟",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "量词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ2827052",
+      "source": "题庄真题 · 2013•苏州模拟",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "介词",
+      "mode": "single",
+      "stem": "-I am a little weak_______ Maths．I fell_______ others in this test．\n-Don't worry．I'll help you．（ ）",
+      "passage": "【题干原文】\n-I am a little weak_______ Maths．I fell_______ others in this test．\n-Don't worry．I'll help you．（ ）\n\n【考点】其他介词\n【出处】2013•苏州模拟 · 2013 · 题庄题号 2827052",
+      "options": [
+        {
+          "key": "A",
+          "text": "at； after",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "in； with",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "in； behind",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--我在数学这方面有点差，这次考试我落在了别人后面．\n--别担心．我会帮你的．"
+        },
+        {
+          "key": "D",
+          "text": "with； behind",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "介词",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】--我在数学这方面有点差，这次考试我落在了别人后面．\n--别担心．我会帮你的．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "f716f0abc89343a4850f0c17e481f52b",
+      "raw": {
+        "id": 2827052,
+        "title_html": "-I am a little weak_______ Maths．I fell_______ others in this test．<br>-Don&#x27;t worry．I&#x27;ll help you．（　　）",
+        "options_html": {
+          "A": "at； after",
+          "B": "in； with",
+          "C": "in； behind",
+          "D": "with； behind"
+        },
+        "answer": "C",
+        "answer_html": "【解答】答案：C．<br>结合题干并根据两个设空处前面的单词weak和fell可以推断这句话表达的意思是“我在数学这方面有点差，这次考试我落在了别人后面．”其中句中的两个介词短语表达“在某一方面差；不擅长于…”和“落后”的意思，应该为：be weak in 和fall behind，故选C．",
+        "analysis_html": "【分析】--我在数学这方面有点差，这次考试我落在了别人后面．<br>--别担心．我会帮你的．",
+        "content_hash": "f716f0abc89343a4850f0c17e481f52b",
+        "source": "2013•苏州模拟",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "其他介词",
+        "year": 2013
+      }
+    },
+    {
+      "id": "TZ2827059",
+      "source": "题庄真题 · 2012•淄博模拟",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "动词时态",
+      "grammar_point": "过去完成时",
+      "mode": "single",
+      "stem": "Tom said he to Guangzhou．（ ）",
+      "passage": "【题干原文】\nTom said he to Guangzhou．（ ）\n\n【考点】过去完成时\n【出处】2012•淄博模拟 · 2012 · 题庄题号 2827059",
+      "options": [
+        {
+          "key": "A",
+          "text": "never went",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "had never been",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】TOM说他从未去过广州．"
+        },
+        {
+          "key": "C",
+          "text": "has never gone",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "has never been",
+          "is_correct": false,
+          "trap_type": "时态误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "过去完成时",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】TOM说他从未去过广州．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "0efad609f2e82476f255bfa78f56f9ec",
+      "raw": {
+        "id": 2827059,
+        "title_html": "Tom said he <u>         </u> to Guangzhou．（　　）",
+        "options_html": {
+          "A": "never went",
+          "B": "had never been",
+          "C": "has never gone",
+          "D": "has never been"
+        },
+        "answer": "B",
+        "answer_html": "【解答】答案：B．根据“Tom said he <u>         </u> to Guangzhou”中“he <u>         </u> to Guangzhou”是宾语从句，主句是一般过去时，从句用过去的某种时态，说之前未去过广州是在说（said）这个动作之前就已完成，是发生在过去的过去，所以用过去完成时，过去完成时的构成：主语+had+动词过去分词．故选B．",
+        "analysis_html": "【分析】TOM说他从未去过广州．",
+        "content_hash": "0efad609f2e82476f255bfa78f56f9ec",
+        "source": "2012•淄博模拟",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "过去完成时",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ2827069",
+      "source": "题庄真题 · 2015•青浦区二模",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "介词",
+      "mode": "single",
+      "stem": "This book provides us ______ lots of skills to solve problems we meet in life．（ ）",
+      "passage": "【题干原文】\nThis book provides us ______ lots of skills to solve problems we meet in life．（ ）\n\n【考点】方式介词\n【出处】2015•青浦区二模 · 2015 · 题庄题号 2827069",
+      "options": [
+        {
+          "key": "A",
+          "text": "to",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "for",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "with",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】这本书向我们提供解决我们生活中遇到的问题的许多技能．"
+        },
+        {
+          "key": "D",
+          "text": "of",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "介词",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】这本书向我们提供解决我们生活中遇到的问题的许多技能．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "441623ec9160215580f85a2ad57379c8",
+      "raw": {
+        "id": 2827069,
+        "title_html": "This book provides us ______ lots of skills to solve problems we meet in life．（　　）",
+        "options_html": {
+          "A": "to",
+          "B": "for",
+          "C": "with",
+          "D": "of"
+        },
+        "answer": "C",
+        "answer_html": "【解答】答案：C．根据“provides us ___ lots of skills”，可以想到固定搭配 provide sb with sth/provide sth for sb 向某人提供某物，其宾语一个是人，一个是物，而题干是provide us，所以其后用with．故选C．",
+        "analysis_html": "【分析】这本书向我们提供解决我们生活中遇到的问题的许多技能．",
+        "content_hash": "441623ec9160215580f85a2ad57379c8",
+        "source": "2015•青浦区二模",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "方式介词",
+        "year": 2015
+      }
+    },
+    {
+      "id": "TZ2827085",
+      "source": "题庄真题 · 2012•乐陵市二模",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "非谓语动词",
+      "grammar_point": "分词作定语",
+      "mode": "single",
+      "stem": "More and more people are using iPhone _________ by Steve Jobs to connect with others．（ ）",
+      "passage": "【题干原文】\nMore and more people are using iPhone _________ by Steve Jobs to connect with others．（ ）\n\n【考点】实义动词的过去分词\n【出处】2012•乐陵市二模 · 2012 · 题庄题号 2827085",
+      "options": [
+        {
+          "key": "A",
+          "text": "create",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "creates",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "creating",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "created",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】越来越多的人正使用史蒂夫•乔布斯创造的苹果手机与其他人联取得系．"
+        }
+      ],
+      "points": [],
+      "formula_ref": "分词作定语",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】越来越多的人正使用史蒂夫•乔布斯创造的苹果手机与其他人联取得系．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "abff4f3b7e4c5fd00dae9d6049d63e8f",
+      "raw": {
+        "id": 2827085,
+        "title_html": "More and more people are using iPhone _________ by Steve Jobs to connect with others．（　　）",
+        "options_html": {
+          "A": "create",
+          "B": "creates",
+          "C": "creating",
+          "D": "created"
+        },
+        "answer": "D",
+        "answer_html": "【解答】答案：D．<br>根据 More and more people are using iPhone _________ by Steve Jobs to connect with others，可知 本题考查过去分词做后置定语的用法． 根据by可知，要表示被动，created在此作后置定语，修饰iPhone．故选D．",
+        "analysis_html": "【分析】越来越多的人正使用史蒂夫•乔布斯创造的苹果手机与其他人联取得系．",
+        "content_hash": "abff4f3b7e4c5fd00dae9d6049d63e8f",
+        "source": "2012•乐陵市二模",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "实义动词的过去分词",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ2827116",
+      "source": "题庄真题 · 2015•仪征市一模",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "---My friend has achieved his goal after years of hard work．\n---Great!________．（ ）",
+      "passage": "【题干原文】\n---My friend has achieved his goal after years of hard work．\n---Great!________．（ ）\n\n【考点】谚语\n【出处】2015•仪征市一模 · 2015 · 题庄题号 2827116",
+      "options": [
+        {
+          "key": "A",
+          "text": "One tree can’t make a forest",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "Where there is a will，there is a way",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--我的朋友在经过数年的努力工作后实现了他的目标．\n--太棒了！有志者，事竟成．"
+        },
+        {
+          "key": "C",
+          "text": "Many hands make light work",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "A friend in need is a friend indeed",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】--我的朋友在经过数年的努力工作后实现了他的目标．\n--太棒了！有志者，事竟成．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "ca9c8cbe5e2ffa671b02c0910813190f",
+      "raw": {
+        "id": 2827116,
+        "title_html": "---My friend has achieved his goal after years of hard work．<br>---Great!________．（　　）",
+        "options_html": {
+          "A": "One tree can’t make a forest",
+          "B": "Where there is a will，there is a way",
+          "C": "Many hands make light work",
+          "D": "A friend in need is a friend indeed"
+        },
+        "answer": "B",
+        "answer_html": "【解答】答案：B<br>选项A：独木难成林；选项B：有志者，事竟成；选项C：众人拾柴火焰高；选项D：患难见真情．<br>根据题干My friend has achieved his goal after years of hard work．（我的朋友在经过数年的努力工作后实现了他的目标），故选B．",
+        "analysis_html": "【分析】--我的朋友在经过数年的努力工作后实现了他的目标．<br>--太棒了！有志者，事竟成．",
+        "content_hash": "ca9c8cbe5e2ffa671b02c0910813190f",
+        "source": "2015•仪征市一模",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "谚语",
+        "year": 2015
+      }
+    },
+    {
+      "id": "TZ2827127",
+      "source": "题庄真题 · 2015•黔西南州",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "名词与数",
+      "mode": "single",
+      "stem": "________ people died because of the earthquake．（ ）",
+      "passage": "【题干原文】\n________ people died because of the earthquake．（ ）\n\n【考点】数词的用法\n【出处】2015•黔西南州 · 2015 · 题庄题号 2827127",
+      "options": [
+        {
+          "key": "A",
+          "text": "Two thousands",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "Thousand of",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "Two thousands of",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 D。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "Thousands of",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】数以千计的人因为地震而死亡．"
+        }
+      ],
+      "points": [],
+      "formula_ref": "名词与数",
+      "total_score": 2,
+      "reference_answer": "标答：D\n原题解析：【分析】数以千计的人因为地震而死亡．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "964b9005c203cec28dd954a293de362c",
+      "raw": {
+        "id": 2827127,
+        "title_html": "________ people died because of the earthquake．（　　）",
+        "options_html": {
+          "A": "Two thousands",
+          "B": "Thousand of",
+          "C": "Two thousands of",
+          "D": "Thousands of"
+        },
+        "answer": "D",
+        "answer_html": "【解答】答案：D 根据选项中出现的thousand，可知本题考查数词thousand的用法（数字+thousand表确数或是thousands of表约数）．A选项因为有基数词，故thousand不需要加s，故排除．B选项中有介词of，thousand应该加s．故排除B．C选项中，thousand加了s，又有of，故不需要基数词．故排除．故选D，指成千上万的人，表约数．",
+        "analysis_html": "【分析】数以千计的人因为地震而死亡．",
+        "content_hash": "964b9005c203cec28dd954a293de362c",
+        "source": "2015•黔西南州",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "数词的用法",
+        "year": 2015
+      }
+    },
+    {
+      "id": "TZ2827153",
+      "source": "题庄真题 · 2012•浙江模拟",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "-Jane got an“A“in the Math test．\n- ．She works the hardest in our class．（ ）",
+      "passage": "【题干原文】\n-Jane got an“A“in the Math test．\n- ．She works the hardest in our class．（ ）\n\n【考点】谚语\n【出处】2012•浙江模拟 · 2012 · 题庄题号 2827153",
+      "options": [
+        {
+          "key": "A",
+          "text": "Many hands make light work",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "The grass is always greener on the other side",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "Early birds catch the worm",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--简在数学考试中得了A．--早起的鸟儿有虫吃．她是我们班上学习最刻苦的．"
+        },
+        {
+          "key": "D",
+          "text": "A man can do no more than he can．",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】--简在数学考试中得了A．--早起的鸟儿有虫吃．她是我们班上学习最刻苦的．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "17aa9ee1ef34656a7bf729aa4571b58d",
+      "raw": {
+        "id": 2827153,
+        "title_html": "-Jane got an“A“in the Math test．<br>-<u>          </u>．She works the hardest in our class．（　　）",
+        "options_html": {
+          "A": "Many hands make light work",
+          "B": "The grass is always greener on the other side",
+          "C": "Early birds catch the worm",
+          "D": "A man can do no more than he can．"
+        },
+        "answer": "C",
+        "answer_html": "【解答】答案：C．选项A人多力量大，选项B这山望着那山高，选项D凡事要量力而行．根据“简得了A”和“她是我们班上学习最刻苦的”，谚语“早起的鸟儿有虫吃”符合．故选C",
+        "analysis_html": "【分析】--简在数学考试中得了A．--早起的鸟儿有虫吃．她是我们班上学习最刻苦的．",
+        "content_hash": "17aa9ee1ef34656a7bf729aa4571b58d",
+        "source": "2012•浙江模拟",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "谚语",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ2827174",
+      "source": "题庄真题 · 2012•西城区一模",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "非谓语动词",
+      "grammar_point": "不定式表目的",
+      "mode": "single",
+      "stem": "Dentists advise people ______ too many sweets．（ ）",
+      "passage": "【题干原文】\nDentists advise people ______ too many sweets．（ ）\n\n【考点】不定式,否定句\n【出处】2012•西城区一模 · 2012 · 题庄题号 2827174",
+      "options": [
+        {
+          "key": "A",
+          "text": "to eat",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "not to eat",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】牙医建议人们不要吃太多甜食．"
+        },
+        {
+          "key": "C",
+          "text": "eating",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "not eat",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 B。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "不定式表目的",
+      "total_score": 2,
+      "reference_answer": "标答：B\n原题解析：【分析】牙医建议人们不要吃太多甜食．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "879d8bccbf2a0ed2a4863b64512ae261",
+      "raw": {
+        "id": 2827174,
+        "title_html": "Dentists advise people ______ too many sweets．（　　）",
+        "options_html": {
+          "A": "to eat",
+          "B": "not to eat",
+          "C": "eating",
+          "D": "not eat"
+        },
+        "answer": "B",
+        "answer_html": "【解答】答案：B．根据Dentists advise people ______ too many sweets，可知这里考查了advise的用法，advise sb to do sth建议某人做某事，在这里吃太多甜食对牙齿不好，所以应该是牙医建议人们不要吃太多甜食．这里使用了advise sb not to do sth建议某人不要做某事．故选B．",
+        "analysis_html": "【分析】牙医建议人们不要吃太多甜食．",
+        "content_hash": "879d8bccbf2a0ed2a4863b64512ae261",
+        "source": "2012•西城区一模",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "不定式,否定句",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ2827233",
+      "source": "题庄真题 · 2013•莘县模拟",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "非谓语动词",
+      "grammar_point": "分词作定语",
+      "mode": "single",
+      "stem": "I often heard her in the room..（ ）",
+      "passage": "【题干原文】\nI often heard her in the room..（ ）\n\n【考点】非谓语动词\n【出处】2013•莘县模拟 · 2013 · 题庄题号 2827233",
+      "options": [
+        {
+          "key": "A",
+          "text": "sing",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】我经常听到她在房间里唱歌．"
+        },
+        {
+          "key": "B",
+          "text": "sang",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "singing",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "sings",
+          "is_correct": false,
+          "trap_type": "非谓语误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "分词作定语",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】我经常听到她在房间里唱歌．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 2,
+      "question_fingerprint": "4b7ed77d84bc31f4a016841acbcd607f",
+      "raw": {
+        "id": 2827233,
+        "title_html": "I often heard her <u>          </u> in the room..（　　）",
+        "options_html": {
+          "A": "sing",
+          "B": "sang",
+          "C": "singing",
+          "D": "sings"
+        },
+        "answer": "A",
+        "answer_html": "【解答】答案：A．根据I often heard her <u>          </u> in the room，可知本句考查了hear的用法：hear sb doing sth，听到某人正在做某事，hear sb do  听到某人做某事．再根据often，表示在一个时间段内的常规行为，而非每秒每刻都正在进行的行为，所以用动词原形sing．故选A．",
+        "analysis_html": "【分析】我经常听到她在房间里唱歌．",
+        "content_hash": "4b7ed77d84bc31f4a016841acbcd607f",
+        "source": "2013•莘县模拟",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "非谓语动词",
+        "year": 2013
+      }
+    },
+    {
+      "id": "TZ2827240",
+      "source": "题庄真题 · 2012•槐荫区三模",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "After visiting different countries，I found _______ very important to learn about table manners．（ ）",
+      "passage": "【题干原文】\nAfter visiting different countries，I found _______ very important to learn about table manners．（ ）\n\n【考点】形式宾语\n【出处】2012•槐荫区三模 · 2012 · 题庄题号 2827240",
+      "options": [
+        {
+          "key": "A",
+          "text": "it",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】参观过不同的国家之后，我发现了解餐桌礼仪很重要．"
+        },
+        {
+          "key": "B",
+          "text": "that",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "this",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "us",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】参观过不同的国家之后，我发现了解餐桌礼仪很重要．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "d78778afc6c5867ce2e3fd971a042af0",
+      "raw": {
+        "id": 2827240,
+        "title_html": "After visiting different countries，I found _______ very important to learn about table manners．（　　）",
+        "options_html": {
+          "A": "it",
+          "B": "that",
+          "C": "this",
+          "D": "us"
+        },
+        "answer": "A",
+        "answer_html": "【解答】答案：A find it+形容词+to do sth．发现做某事…，这里it为形式宾语，真正的宾语为动词不定式词组．find还可以接宾语从句，find that…，可以表达为：After visiting different countries，I found that it was very important to learn about tabel manners，故选：A．",
+        "analysis_html": "【分析】参观过不同的国家之后，我发现了解餐桌礼仪很重要．",
+        "content_hash": "d78778afc6c5867ce2e3fd971a042af0",
+        "source": "2012•槐荫区三模",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "形式宾语",
+        "year": 2012
+      }
+    },
+    {
+      "id": "TZ2827243",
+      "source": "题庄真题 · 2013•苏州校级一模",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "-It's easy for five workers to push the broken van away．\n-Yes，_______．（ ）",
+      "passage": "【题干原文】\n-It's easy for five workers to push the broken van away．\n-Yes，_______．（ ）\n\n【考点】谚语\n【出处】2013•苏州校级一模 · 2013 · 题庄题号 2827243",
+      "options": [
+        {
+          "key": "A",
+          "text": "When the cat's away，the mice will play",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "Every dog has its day",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "Many hands make light work",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】对五位工人来说，推开那个坏掉的货车很容易．是的，众人拾柴火焰高．"
+        },
+        {
+          "key": "D",
+          "text": "Don't put all your eggs in one basket",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】对五位工人来说，推开那个坏掉的货车很容易．是的，众人拾柴火焰高．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "388fc7786b48d22038d54e04cb79d480",
+      "raw": {
+        "id": 2827243,
+        "title_html": "-It&#x27;s easy for five workers to push the broken van away．<br>-Yes，_______．（　　）",
+        "options_html": {
+          "A": "When the cat&#x27;s away，the mice will play",
+          "B": "Every dog has its day",
+          "C": "Many hands make light work",
+          "D": "Don&#x27;t put all your eggs in one basket"
+        },
+        "answer": "C",
+        "answer_html": "【解答】答案：C．A“山中无老虎，猴子称霸王”；B“凡人皆有得意日”；C“众人拾柴火焰高”；D“不要孤注一掷”．根据情景对话，前面说对五个工人来说推开那个坏掉的货车很难．所以C项符合句意．故选C．",
+        "analysis_html": "【分析】对五位工人来说，推开那个坏掉的货车很容易．是的，众人拾柴火焰高．",
+        "content_hash": "388fc7786b48d22038d54e04cb79d480",
+        "source": "2013•苏州校级一模",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "谚语",
+        "year": 2013
+      }
+    },
+    {
+      "id": "TZ2827249",
+      "source": "题庄真题 · 2013•南京一模",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "--Mr Zhang，please teach me how to draw on the computer today．\n--Oh，no． ．You have to get familiar with the keyboard first．（ ）",
+      "passage": "【题干原文】\n--Mr Zhang，please teach me how to draw on the computer today．\n--Oh，no． ．You have to get familiar with the keyboard first．（ ）\n\n【考点】谚语\n【出处】2013•南京一模 · 2013 · 题庄题号 2827249",
+      "options": [
+        {
+          "key": "A",
+          "text": "Learn to walk before you run",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--张先生，今天，请教我如何在电脑上画画．--噢，不．一定要循序渐进，你们必须从熟悉键盘开始．"
+        },
+        {
+          "key": "B",
+          "text": "It's never too old to learn",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "A good beginning is half done",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "The early bird catches the worm",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】--张先生，今天，请教我如何在电脑上画画．--噢，不．一定要循序渐进，你们必须从熟悉键盘开始．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "d3ef59d63ea52c95c94fef98126f966c",
+      "raw": {
+        "id": 2827249,
+        "title_html": "--Mr Zhang，please teach me how to draw on the computer today．<br>--Oh，no．<u>      </u>．You have to get familiar with the keyboard first．（　　）",
+        "options_html": {
+          "A": "Learn to walk before you run",
+          "B": "It&#x27;s never too old to learn",
+          "C": "A good beginning is half done",
+          "D": "The early bird catches the worm"
+        },
+        "answer": "A",
+        "answer_html": "【解答】答案：A．选项：Learn to walk before you run循序渐进，按部就班；It&#x27;s never too old to learn活到老学到老；A good beginning is half done 好的开始是成功的一半； The early bird catches the worm早起的鸟儿有虫吃．题干说“你必须从熟悉键盘开始”，因为键盘是最基本的，就是要循序渐进，故选 A",
+        "analysis_html": "【分析】--张先生，今天，请教我如何在电脑上画画．--噢，不．一定要循序渐进，你们必须从熟悉键盘开始．",
+        "content_hash": "d3ef59d63ea52c95c94fef98126f966c",
+        "source": "2013•南京一模",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "谚语",
+        "year": 2013
+      }
+    },
+    {
+      "id": "TZ2827267",
+      "source": "题庄真题 · 2015•高邮市模拟",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "句子理解",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "句子理解",
+      "grammar_point": "句子成分",
+      "mode": "single",
+      "stem": "-My sister has achieved her goal after years of hard work．-Great!____________（ ）",
+      "passage": "【题干原文】\n-My sister has achieved her goal after years of hard work．-Great!____________（ ）\n\n【考点】谚语\n【出处】2015•高邮市模拟 · 2015 · 题庄题号 2827267",
+      "options": [
+        {
+          "key": "A",
+          "text": "A friend in need is a friend indeed．",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "B",
+          "text": "Many hands make light work．",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "Where there is a will，there is a way．",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】--我的姐姐在经过数年的努力工作后实现了她的目标．\n--太棒了！有志者，事竟成．"
+        },
+        {
+          "key": "D",
+          "text": "One tree can’t make a forest．",
+          "is_correct": false,
+          "trap_type": "句意理解偏差",
+          "option_analysis": "本题标答为 C。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "句子成分",
+      "total_score": 2,
+      "reference_answer": "标答：C\n原题解析：【分析】--我的姐姐在经过数年的努力工作后实现了她的目标．\n--太棒了！有志者，事竟成．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "ef762bb8c3a8915a7d60c47024223ce4",
+      "raw": {
+        "id": 2827267,
+        "title_html": "-My sister has achieved her goal after years of hard work．-Great!____________（　　）",
+        "options_html": {
+          "A": "A friend in need is a friend indeed．",
+          "B": "Many hands make light work．",
+          "C": "Where there is a will，there is a way．",
+          "D": "One tree can’t make a forest．"
+        },
+        "answer": "C",
+        "answer_html": "【解答】答案：C<br>选项A：患难见真情；选项B：众人拾柴火焰高；选项C：有志者，事竟成；选项D：独木难成林．<br>根据题干My sister has achieved his goal after years of hard work．（我的姐姐在经过数年的努力工作后实现了她的目标），故选C．",
+        "analysis_html": "【分析】--我的姐姐在经过数年的努力工作后实现了她的目标．<br>--太棒了！有志者，事竟成．",
+        "content_hash": "ef762bb8c3a8915a7d60c47024223ce4",
+        "source": "2015•高邮市模拟",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "谚语",
+        "year": 2015
+      }
+    },
+    {
+      "id": "TZ2827276",
+      "source": "题庄真题 · 2015•金平区模拟",
+      "subject": "english",
+      "stage": "初中",
+      "grade": "九",
+      "genre": "语法单选",
+      "content_scope": null,
+      "memory_type": null,
+      "grammar_group": "词法",
+      "grammar_point": "连词",
+      "mode": "single",
+      "stem": "Zheng He is _____ great pioneer in exchanging cultures _____ Chinese people today still remember him．（ ）",
+      "passage": "【题干原文】\nZheng He is _____ great pioneer in exchanging cultures _____ Chinese people today still remember him．（ ）\n\n【考点】从属连词\n【出处】2015•金平区模拟 · 2015 · 题庄题号 2827276",
+      "options": [
+        {
+          "key": "A",
+          "text": "such a； that",
+          "is_correct": true,
+          "trap_type": null,
+          "option_analysis": "【分析】郑和在文化交流方面是一个如此的伟大的先驱以至于中国人今天仍然记得他．"
+        },
+        {
+          "key": "B",
+          "text": "so； that",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "C",
+          "text": "too； to",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        },
+        {
+          "key": "D",
+          "text": "so； as to",
+          "is_correct": false,
+          "trap_type": "词形误判",
+          "option_analysis": "本题标答为 A。这一项与题干的时间、主语或搭配对不上（原题解析见正确项）。"
+        }
+      ],
+      "points": [],
+      "formula_ref": "连词",
+      "total_score": 2,
+      "reference_answer": "标答：A\n原题解析：【分析】郑和在文化交流方面是一个如此的伟大的先驱以至于中国人今天仍然记得他．",
+      "time_anchor": null,
+      "tags": [
+        "题庄真题",
+        "英语",
+        "九年级",
+        "需教师校对"
+      ],
+      "difficulty": 3,
+      "question_fingerprint": "dcb76c6e8c8ba2e2be1b859ab5e6bbc1",
+      "raw": {
+        "id": 2827276,
+        "title_html": "Zheng He is _____ great pioneer in exchanging cultures _____ Chinese people today still remember him．（　　）",
+        "options_html": {
+          "A": "such a； that",
+          "B": "so； that",
+          "C": "too； to",
+          "D": "so； as to"
+        },
+        "answer": "A",
+        "answer_html": "【解答】答案：A；so+形容词/副词+that，如此…以致于…；such （a/an）（形容词）+名词+that，如此…以至于…；too …to…太…而不能…；so； as to，那么…，以至…后跟动词原形；根据句中信息 _____great pioneer可知第一个空应填连词such a；根据句意Zheng He is _____ great pioneer in exchanging cultures _____ Chinese people today still remember him推知后句是前一句的结果；故用that引导后面的从句；故选A．",
+        "analysis_html": "【分析】郑和在文化交流方面是一个如此的伟大的先驱以至于中国人今天仍然记得他．",
+        "content_hash": "dcb76c6e8c8ba2e2be1b859ab5e6bbc1",
+        "source": "2015•金平区模拟",
+        "question_type": "选择题",
+        "is_auto_gradable": true,
+        "knowledges": "从属连词",
+        "year": 2015
       }
     }
   ]

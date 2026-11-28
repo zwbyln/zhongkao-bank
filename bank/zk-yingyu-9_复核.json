@@ -2,165 +2,25 @@
   "note": "以下题未入库，供教师人工复核；脚本不擅自更正答案。",
   "items": [
     {
-      "id": 10442231,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "Would you like ice cream ?A．someB．anyC．aD．many",
+      "id": 2826713,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 3）",
+      "title": "-Linda is a helpful girl．\n-That’s true．She is _______ ready to help others．（ ）",
+      "answer": "B",
+      "analysis": "【分析】-Linda是个乐于助人的女孩．\n-那是真的，她总是乐于助人．"
+    },
+    {
+      "id": 2826728,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 3）",
+      "title": "An earthquake happened on May 12th，2015 in Nepal，and ______people lost their lives．（ ）",
       "answer": "A",
-      "analysis": ""
+      "analysis": "【分析】2015年5月12日尼泊尔发生了地震，成千上万的人失去了生命．"
     },
     {
-      "id": 10442300,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "Don’t just wait for other’s help. God help those who help . A．himB．youC．themD．themselves",
-      "answer": "D",
-      "analysis": ""
-    },
-    {
-      "id": 10442323,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "I often laugh when I see my grandma learning pop songs But she says，“One is\nnever old to learn’’\nA too B so C very D quite",
-      "answer": "A",
-      "analysis": ""
-    },
-    {
-      "id": 10442346,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "Sandy: How was your vacation in America? Linda: It couldn’t be worse!\nI don’t want to talk about it! A．evenB．leastC．neverD．then",
-      "answer": "A",
-      "analysis": ""
-    },
-    {
-      "id": 10662482,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "He used to go to work by car. The underline word “used” is pronounced________.A．/ ju: zd/B．/ ju: st/C．/ ju: zt /D．/ ju: sd /",
-      "answer": "B",
-      "analysis": ""
-    },
-    {
-      "id": 10662495,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "From the pronunciation / tʃeə /, we can know the word is ______.\nA. share B. chair C. there",
-      "answer": "B",
-      "analysis": ""
-    },
-    {
-      "id": 10662508,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "The phonetic transcription for the word “of” is ______.A． /ɒf / B．/əf /C．/ɔ:f/D．/əv /",
-      "answer": "D",
-      "analysis": ""
-    },
-    {
-      "id": 10662520,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "The underlined part in the word “says” is pronounced as ______. A．/ es /B．/ eIs /C．/ ez /D．/eIz /",
+      "id": 2827224,
+      "reason": "不是标准 A/B/C/D 四选一（选项数 3）",
+      "title": "-______ Mary ______Alice has joined the music club because they have no time．\n-It’s a pity!（ ）",
       "answer": "C",
-      "analysis": ""
-    },
-    {
-      "id": 10662535,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "The underlined part in the word “sweater” is pronounced as the underlined part in the word ____.A．readB．reallyC．neverD．leave",
-      "answer": "C",
-      "analysis": ""
-    },
-    {
-      "id": 10662551,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "Which of the following underlined parts is different in pronunciation with others?A．There is no reason for him to refuse me.\nB．The little girl in red is so cute",
-      "answer": "C",
-      "analysis": ""
-    },
-    {
-      "id": 10662566,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "You’ll _______ /feɪl/ in the final exam if you don’t work harder.A．feelB．fell\nC．failD．fill",
-      "answer": "C",
-      "analysis": ""
-    },
-    {
-      "id": 10662578,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "Which underlined part is different from the others in pronunciation?A．faceB． raceC．candyD．waste",
-      "answer": "C",
-      "analysis": ""
-    },
-    {
-      "id": 10662591,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "The underlined part of the word “medical” is pronounced as ________.A．| i |B．| ə |C．| ei |D．| ai |",
-      "answer": "B",
-      "analysis": ""
-    },
-    {
-      "id": 10662606,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "The underlined part in the word “buses” is pronounced as_________.A．/ z /B．/ s /C．/ is /D．/ i z /",
-      "answer": "D",
-      "analysis": ""
-    },
-    {
-      "id": 10662622,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "The underlined part of “college” is pronounced as _______.A．/d/B．/dʒ/C．/ʒ/D．/tʃ/",
-      "answer": "B",
-      "analysis": ""
-    },
-    {
-      "id": 10662641,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "Which word of the following has a different stress from the others?\nA. expert B. except C. expect",
-      "answer": "A",
-      "analysis": ""
-    },
-    {
-      "id": 10669363,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "— Would you mind my taking this seat?\n—______.\n[ ]\n\nA. Sorry, I can't\nB. No, not at all\nC. It's a pleasure",
-      "answer": "B",
-      "analysis": ""
-    },
-    {
-      "id": 10669388,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "—I'm leaving for Shanghai to visit the Expo 2010 this weekend.\n—_______\n[ ]\n\nA. Well done!\nB. I hope so.\nC. Have a good trip!",
-      "answer": "C",
-      "analysis": ""
-    },
-    {
-      "id": 10669423,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "—Could you please help me choose an Mp4 player online?\n— __________. My computer doesn't work.\n\nA. I don't care\nB. I hope so\nC. I'm afraid I can't",
-      "answer": "C",
-      "analysis": ""
-    },
-    {
-      "id": 10669447,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "—Hello, may I speak to Mr Black, please?\n—______.\n[ ]\n\nA. I think so\nB. Hold on, please\nC. I'd like to",
-      "answer": "B",
-      "analysis": ""
-    },
-    {
-      "id": 10669458,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "— Look at the sign, what does it mean?\n— It means \"_____\".\n[ ]\n\nA. Don't talking\nB. No talking\nC. Not talk",
-      "answer": "B",
-      "analysis": ""
-    },
-    {
-      "id": 10669469,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "—Please don't put your bike here.\n—_______.\n[ ]\n\nA. OK, I'll do it right away\nB. Sorry, I won't do it again\nC. Yes, I do",
-      "answer": "B",
-      "analysis": ""
-    },
-    {
-      "id": 10669515,
-      "reason": "不是标准 A/B/C/D 四选一（选项数 0）",
-      "title": "—Will you help me with my English?\n—_______\n[ ]\n\nA. It's very kind of you\nB. I'd be glad to\nC. Don't mention it",
-      "answer": "B",
-      "analysis": ""
+      "analysis": "【分析】-Mary和Alice都没有参加音乐俱乐部，因为它们没有时间．\n-太遗憾了．"
     }
   ]
 }
